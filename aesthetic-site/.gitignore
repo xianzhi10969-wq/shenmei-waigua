@@ -1,0 +1,4 @@
+data/.cache/
+data/source/*.manifest.json
+__pycache__/
+.DS_Store

@@ -1,0 +1,13 @@
+{
+  "profile": "aesthetic-feishu",
+  "base_token": "IGctbcuwPaE6hMsmAoicJddpn3U",
+  "tables": {
+    "chapters": {"id": "tblaYsGqDwNudnXs", "attachment": "封面图", "fields": {"章节名": "text", "序号": "number", "词条": "text", "封面图": "attachment"}},
+    "terms": {"id": "tbl2gR8WBoqCQyGz", "attachment": "封面图", "fields": {"词": "text", "状态": "select", "所属章节": "select", "封面图": "attachment"}},
+    "cases": {"id": "tblpdRYutnm12T0y", "attachment": "图", "fields": {"作品名": "text", "所属词条": "text", "是否保留": "checkbox", "图": "attachment"}},
+    "feelings": {"id": "tbl4AQ0F5yZ7g1a2", "attachment": null, "fields": {"感觉词": "text", "推荐章节": "select", "推荐词条": "select"}},
+    "chapter-sections": {"id": "tblBWYZ4lQ0I0tJ2", "attachment": "图", "fields": {"小标题": "text", "所属章节": "link", "段落": "text", "图": "attachment"}},
+    "curiosity": {"id": "tblpb56XsIi8vErt", "attachment": null, "fields": {"问题": "text", "关联词条": "link", "状态": "select"}},
+    "imagery": {"id": "tbl1N5cVSnUcU5g0", "attachment": null, "fields": {"题目": "text", "主题": "text", "运算类型": "select", "意象 A": "text", "意象 B": "text", "提示语": "text", "排序": "number", "状态": "select"}}
+  }
+}
