@@ -1,0 +1,211 @@
+{
+  "schema_version": 1,
+  "content_source_target": "Feishu Bitable / 艺术资源库",
+  "status": "staging_not_synced_to_feishu",
+  "generated_at": "2026-10-16",
+  "instructions": "DO NOT treat this file as live Feishu data; upsert by resource_id using the authorized Feishu CLI, map category to Bitable select field after inspecting actual schema, then run existing sync pipeline, verify dist JSON and UI.",
+  "fields": [
+    "resource_id",
+    "name",
+    "category",
+    "url",
+    "description",
+    "use_case",
+    "tags",
+    "featured",
+    "display_order",
+    "review_status",
+    "license_note",
+    "cover_image_url",
+    "source"
+  ],
+  "resources": [
+    {
+      "resource_id": "res-cosmos",
+      "name": "Cosmos",
+      "category": "灵感发现",
+      "url": "https://www.cosmos.so/",
+      "description": "按颜色、相似视觉与收藏集继续探索灵感。",
+      "use_case": "视觉相似检索、风格灵感追索",
+      "tags": [
+        "visual",
+        "discovery",
+        "color"
+      ],
+      "featured": true,
+      "display_order": 1,
+      "review_status": "public",
+      "license_note": "资源网站的作品版权状态因具体条目而异，请逐件确认。",
+      "cover_image_url": null,
+      "source": "curated_for_shenmei_home_E"
+    },
+    {
+      "resource_id": "res-arena",
+      "name": "Are.na",
+      "category": "灵感发现",
+      "url": "https://www.are.na/",
+      "description": "用频道组织视觉资料，并逐渐连接不同领域想法。",
+      "use_case": "策展研究、灵感脉络",
+      "tags": [
+        "research",
+        "collect",
+        "connect"
+      ],
+      "featured": false,
+      "display_order": 2,
+      "review_status": "public",
+      "license_note": "资源网站的作品版权状态因具体条目而异，请逐件确认。",
+      "cover_image_url": null,
+      "source": "curated_for_shenmei_home_E"
+    },
+    {
+      "resource_id": "res-pinterest",
+      "name": "Pinterest",
+      "category": "灵感发现",
+      "url": "https://www.pinterest.com/",
+      "description": "借助媒介与风格关键词搜集视觉参考。",
+      "use_case": "英文检索、Moodboard",
+      "tags": [
+        "keywords",
+        "inspiration"
+      ],
+      "featured": true,
+      "display_order": 3,
+      "review_status": "public",
+      "license_note": "资源网站的作品版权状态因具体条目而异，请逐件确认。",
+      "cover_image_url": null,
+      "source": "curated_for_shenmei_home_E"
+    },
+    {
+      "resource_id": "res-google-arts",
+      "name": "Google Arts & Culture",
+      "category": "艺术档案",
+      "url": "https://artsandculture.google.com/explore",
+      "description": "广泛浏览博物馆作品、艺术专题与文化互动内容。",
+      "use_case": "艺术史与全球馆藏",
+      "tags": [
+        "museum",
+        "art",
+        "education"
+      ],
+      "featured": false,
+      "display_order": 4,
+      "review_status": "public",
+      "license_note": "资源网站的作品版权状态因具体条目而异，请逐件确认。",
+      "cover_image_url": null,
+      "source": "curated_for_shenmei_home_E"
+    },
+    {
+      "resource_id": "res-pdr",
+      "name": "The Public Domain Review",
+      "category": "艺术档案",
+      "url": "https://publicdomainreview.org/collections/images/1/",
+      "description": "探索历史上的罕见图像、奇异插画、档案作品。",
+      "use_case": "异质视觉、公共领域历史材料",
+      "tags": [
+        "archive",
+        "history",
+        "illustration"
+      ],
+      "featured": true,
+      "display_order": 5,
+      "review_status": "public",
+      "license_note": "资源网站的作品版权状态因具体条目而异，请逐件确认。",
+      "cover_image_url": null,
+      "source": "curated_for_shenmei_home_E"
+    },
+    {
+      "resource_id": "res-smithsonian",
+      "name": "Smithsonian Open Access",
+      "category": "艺术档案",
+      "url": "https://www.si.edu/openaccess",
+      "description": "开放访问大量馆藏图像与 3D 资料，单件核对许可。",
+      "use_case": "开放素材、文化研究",
+      "tags": [
+        "openaccess",
+        "3d",
+        "museum"
+      ],
+      "featured": false,
+      "display_order": 6,
+      "review_status": "public",
+      "license_note": "资源网站的作品版权状态因具体条目而异，请逐件确认。",
+      "cover_image_url": null,
+      "source": "curated_for_shenmei_home_E"
+    },
+    {
+      "resource_id": "res-readymag",
+      "name": "Readymag Examples",
+      "category": "交互网页",
+      "url": "https://readymag.com/examples/",
+      "description": "观察实验排版、拖拽与动画如何形成网页叙事。",
+      "use_case": "前端艺术构图、交互参考",
+      "tags": [
+        "interaction",
+        "editorial",
+        "web"
+      ],
+      "featured": true,
+      "display_order": 7,
+      "review_status": "public",
+      "license_note": "资源网站的作品版权状态因具体条目而异，请逐件确认。",
+      "cover_image_url": null,
+      "source": "curated_for_shenmei_home_E"
+    },
+    {
+      "resource_id": "res-adrivno",
+      "name": "adrivno.work",
+      "category": "交互网页",
+      "url": "https://readymag.website/u3360856796/4541073/",
+      "description": "用户收藏的 Readymag 网站，适合拆解整体构图与细节。",
+      "use_case": "网页视觉参考、编排",
+      "tags": [
+        "user-favorite",
+        "art-direction"
+      ],
+      "featured": true,
+      "display_order": 8,
+      "review_status": "user_shared",
+      "license_note": "资源网站的作品版权状态因具体条目而异，请逐件确认。",
+      "cover_image_url": null,
+      "source": "curated_for_shenmei_home_E"
+    },
+    {
+      "resource_id": "res-caddy",
+      "name": "Caddy / Readymag",
+      "category": "交互网页",
+      "url": "https://readymag.com/designs/caddy/2/",
+      "description": "用户特别喜欢第二屏；具体交互需进一步人工核查。",
+      "use_case": "网页第二屏、交互节奏",
+      "tags": [
+        "user-favorite",
+        "motion"
+      ],
+      "featured": true,
+      "display_order": 9,
+      "review_status": "user_shared_unverified",
+      "license_note": "资源网站的作品版权状态因具体条目而异，请逐件确认。",
+      "cover_image_url": null,
+      "source": "curated_for_shenmei_home_E"
+    },
+    {
+      "resource_id": "res-loc",
+      "name": "Library of Congress — Free to Use",
+      "category": "开放素材",
+      "url": "https://www.loc.gov/free-to-use/",
+      "description": "分类浏览可自由使用与复用的历史图像集合。",
+      "use_case": "历史图像、海报与印刷品",
+      "tags": [
+        "publicdomain",
+        "images",
+        "posters"
+      ],
+      "featured": false,
+      "display_order": 10,
+      "review_status": "public",
+      "license_note": "资源网站的作品版权状态因具体条目而异，请逐件确认。",
+      "cover_image_url": null,
+      "source": "curated_for_shenmei_home_E"
+    }
+  ]
+}
