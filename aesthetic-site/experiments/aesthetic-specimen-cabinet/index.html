@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3f3ef">
+  <meta name="description" content="一座等待收藏美学感觉的玻璃标本柜。六格独立视觉原型。">
+  <title>美学玻璃标本柜 · 审美外挂</title>
+  <link rel="stylesheet" href="tokens.css"><link rel="stylesheet" href="cabinet.css">
+  <script src="cabinet.js" defer></script>
+</head>
+<body>
+  <header class="masthead"><span class="brand">审美外挂<span class="brand-dot">·</span>私人美学收藏</span><span class="edition">柜体研究 <span>№ 001 / 2026</span></span></header>
+  <main>
+    <section class="introduction" aria-labelledby="page-title">
+      <div><p class="eyebrow">THE AESTHETIC COLLECTION</p><h1 id="page-title">美学玻璃标本柜</h1></div>
+      <p class="invitation">先靠近一种感觉，<br>再慢慢认识它。<span>选择一格，打开观察。</span></p>
+    </section>
+    <nav class="mobile-map" aria-label="柜体位置"><span>全柜位置</span><div id="minimap"></div><button id="overview" type="button" aria-pressed="false">看全柜 ↗</button></nav>
+    <section class="gallery" aria-label="六格连续玻璃标本柜">
+      <div class="cabinet-viewport" id="viewport" tabindex="0" aria-label="柜体视窗，可左右滑动浏览六格">
+        <div class="installation" id="installation"><div id="cabinet-art" aria-hidden="true"></div><div class="compartment-targets" id="targets"></div></div>
+      </div>
+      <div class="gallery-caption"><p><span class="status-dot"></span>空柜研究 <span class="caption-divider">/</span> 标本尚未入藏</p><p class="desktop-hint">移近 · 选择 · 观察 <span>↗</span></p><div class="mobile-controls"><button id="previous" aria-label="向左浏览一格">←</button><span id="position" aria-live="polite">01 / 06</span><button id="next" aria-label="向右浏览一格">→</button></div></div>
+    </section>
+  </main>
+  <footer><p>为尚未说得清的美，留一处位置。</p><span>六格柜体原型 · 未验收</span></footer>
+  <dialog id="observation" aria-labelledby="observation-title" aria-describedby="observation-description">
+    <div class="observation-header"><span>近距离观察 <span class="quiet">/ PRIVATE VIEW</span></span><button id="close" autofocus>返回全柜 <span aria-hidden="true">×</span></button></div>
+    <div class="observation-layout"><div class="detail-art" id="detail-art" aria-hidden="true"></div><div class="observation-copy"><p class="eyebrow" id="detail-number">COMPARTMENT 01 / 06</p><h2 id="observation-title">观察格室 01</h2><p class="detail-lead">留给尚未命名的感觉。</p><p id="observation-description">这里暂时是空的。未来，一组关于颜色、材料与空间的美学标本，会在这里与你相遇。</p><div class="sample-note"><span>当前陈列</span><p>玻璃层架与标本预留位<br><small>虚线框仅为结构占位，并非正式作品。</small></p></div><div class="detail-pagination"><button id="detail-prev" aria-label="观察上一格">← 上一格</button><span id="detail-position">01 / 06</span><button id="detail-next" aria-label="观察下一格">下一格 →</button></div></div></div>
+    <p class="dialog-footnote">柜体研究 001 <span>按 Esc 或「返回全柜」离开</span></p>
+  </dialog>
+  <noscript><p>请在浏览器启用 JavaScript，以观看柜体并打开格室。</p></noscript>
+</body>
+</html>

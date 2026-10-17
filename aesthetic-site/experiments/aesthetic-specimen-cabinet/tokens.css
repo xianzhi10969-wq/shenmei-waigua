@@ -1,0 +1,10 @@
+/* Experimental material tokens. Deliberately isolated from the accepted site theme. */
+:root {
+  --wall:#f3f3ef; --wall-light:#fbfbf8; --ink:#303a38; --muted:#6c7671;
+  --line:#ccd0c9; --accent:#526a5f; --white:#fff; --focus:#345e4e;
+  --veil:rgba(240,242,236,.88); --shadow:rgba(47,59,52,.14);
+  --serif:"Songti SC","Noto Serif SC",STSong,serif;
+  --sans:"PingFang SC","Noto Sans SC",sans-serif;
+  --latin:"Baskerville","Iowan Old Style",Georgia,serif;
+  --space-xs:6px; --space-sm:12px; --space-md:24px; --space-lg:40px; --space-xl:64px;
+}

@@ -1,0 +1,13 @@
+{
+  "testedAt": "2026-10-17T09:17:57.492Z",
+  "browser": "Installed Chrome (Playwright)",
+  "results": [
+    "Desktop: one continuous cabinet, six compartments, 48 shelves, full cabinet fits 1440 × 900.",
+    "All six compartments open; Escape closes and restores focus.",
+    "Keyboard Enter, modal focus containment, previous/next, close button and backdrop dismissal passed.",
+    "390 × 844 touch: horizontal exploration, sixth compartment reachable, scroll restored, full-cabinet overview and opening from overview passed.",
+    "Reduced motion disables dialog animation.",
+    "No horizontal page overflow at 320 / 390 / 768 / 1024 / 1440; no JavaScript runtime errors."
+  ],
+  "errors": []
+}
