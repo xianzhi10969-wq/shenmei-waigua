@@ -1,0 +1,14 @@
+{
+  "index.html": {
+    "bytes": 602714,
+    "sha256": "7d84b91da64872361341b473699cf33ddd85475655fb7f2ed4dcf526cd5b34fd"
+  },
+  "README.md": {
+    "bytes": 1653,
+    "sha256": "069de3e2b3dc3081a682fa35f46e3d866b1bc69649dc1de75a4c87f610330659"
+  },
+  "01-motion-baseline.html": {
+    "bytes": 599528,
+    "sha256": "b724506242821a3ea25449f9c646cbfb7101c5535b7844937f6667af1c9b850f"
+  }
+}

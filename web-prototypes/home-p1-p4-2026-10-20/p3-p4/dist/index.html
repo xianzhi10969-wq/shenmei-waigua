@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="zh-CN"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="审美外挂收藏柜与索引图册的连续分镜，分别适配手机单页与桌面双页构图。">
+<title>审美外挂 · 收藏柜里的索引</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="folio-content.css">
+<link rel="preload" as="image" href="assets/p3-mobile-botanical-v1.png">
+<link rel="preload" as="image" href="assets/secretary-botanical-v2.png">
+<link rel="preload" as="image" href="assets/p4-mobile-botanical-v1.png" media="(max-width:899px), (orientation:portrait)">
+<link rel="preload" as="image" href="assets/p4-desktop-botanical-v2.png" media="(min-width:900px) and (min-aspect-ratio:11/10)">
+</head><body>
+<main id="world">
+ <section class="sequence" id="sequence" aria-label="从一级专题收藏柜展开细分风格索引图册">
+  <div class="stage" id="stage">
+   <div class="room" id="room">
+    <img class="cabinet-back" src="assets/secretary-botanical-v2.png" width="941" height="1672" alt="" decoding="async">
+    <img class="cabinet-art" id="cabinet-art" src="assets/p3-mobile-botanical-v1.png" width="1024" height="1536" alt="" aria-hidden="true"><div class="cabinet-content" id="cabinet-content" aria-hidden="true"></div>
+    <div class="cabinet-viewport" id="cabinet-viewport" tabindex="0" aria-label="一级美学专题收藏柜，左右滑动浏览"><div class="rail"></div></div>
+    <svg class="flap-plane" id="flap-plane" viewBox="0 0 941 1672" aria-hidden="true" hidden>
+     <defs><clipPath id="desk-carving"><path clip-rule="evenodd" d="M118 850H824L941 1188H0Z M140 866H802L866 1150H72Z"/></clipPath></defs>
+     <path fill="#fefefa" d="M118 850H824L941 1188H0Z"/>
+     <image href="assets/secretary-botanical-v2.png" width="941" height="1672" clip-path="url(#desk-carving)"/>
+    </svg>
+    <img class="flap-outer" id="flap-outer" src="assets/secretary-botanical-v2.png" width="941" height="1672" alt="" aria-hidden="true">
+    <svg class="support-rods" id="support-rods" viewBox="0 0 941 1672" aria-hidden="true">
+     <path id="rod-0"/><path class="core" id="rod-core-0"/><circle id="joint-0-0"/><circle id="joint-0-1"/><circle id="joint-0-2"/>
+     <path id="rod-1"/><path class="core" id="rod-core-1"/><circle id="joint-1-0"/><circle id="joint-1-1"/><circle id="joint-1-2"/>
+    </svg>
+   </div>
+   <div class="book-body" id="book-body" role="region" aria-label="细分风格视觉图鉴试排" hidden>
+    <div class="folio-content" id="folio-content" data-title-font="engraved">
+     <article class="folio-page clear" id="page-clear" aria-labelledby="clear-title">
+      <p class="eyebrow">视觉图鉴 / 001</p><h2 id="clear-title" tabindex="-1">清冷</h2><p class="translation">Cool Detachment</p><div class="page-rule" aria-hidden="true"></div>
+      <button class="specimen main-sample" type="button" data-specimen="snow" aria-label="放大查看吉冈德仁 Snow"><img src="assets/style-clear-snow-original.png" width="1100" height="734" alt="洁白空间里，一位观者站在羽毛形成的雪景之前" decoding="async"><span class="sample-caption"><span class="mark">a.</span>Snow · Tokujin Yoshioka</span></button>
+      <button class="specimen secondary-sample" type="button" data-specimen="trees" aria-label="放大查看 Michael Kenna 的 Nine Trees"><img src="assets/style-clear-hokkaido-original.png" width="879" height="900" alt="九棵落叶树横列在大片雪地留白之中" decoding="async"><span class="sample-caption"><span class="mark">b.</span>Nine Trees · 2004</span></button>
+      <p class="feeling-note">情感拥有<br>自己的世界。<small>空间 · 留白 · 距离</small></p>
+      <nav class="folio-tabs" aria-label="切换图册风格"><button type="button" data-page="0" aria-controls="page-clear">清冷</button><span class="folio-number">1 / 2</span><button type="button" data-page="1" aria-controls="page-coquette">Coquette →</button></nav>
+     </article>
+     <article class="folio-page coquette" id="page-coquette" aria-labelledby="coquette-title" hidden>
+      <p class="eyebrow">视觉图鉴 / 002</p><h2 class="latin-title" id="coquette-title" tabindex="-1">Coquette</h2><p class="translation">柔软的细节，靠近身体。</p><div class="page-rule" aria-hidden="true"></div>
+      <button class="specimen main-sample" type="button" data-specimen="organza" aria-label="放大查看薄纱和系结细节"><img src="assets/style-coquette-organza.jpg" width="1000" height="667" alt="白色透明薄纱、立体褶皱与腰部系结的近景" decoding="async"><span class="sample-caption"><span class="mark">a.</span>Cecilie Bahnsen · SS24</span></button>
+      <button class="specimen secondary-sample" type="button" data-specimen="silhouette" aria-label="放大查看薄纱服装轮廓"><img src="assets/style-coquette-silhouette.jpg" width="1000" height="1250" alt="模特穿着花朵袖与层叠薄纱，双手展开轻盈飘带" decoding="async"><span class="sample-caption"><span class="mark">b.</span>Faraway, so close.</span></button>
+      <p class="feeling-note">薄纱<br>褶皱<br>系结<small>从轮廓，走近材质。</small></p>
+      <nav class="folio-tabs" aria-label="切换图册风格"><button type="button" data-page="0" aria-controls="page-clear">← 清冷</button><span class="folio-number">2 / 2</span><button type="button" data-page="1" aria-controls="page-coquette">Coquette</button></nav>
+     </article>
+    </div>
+   </div>
+   <div class="desk-front" id="desk-front" aria-hidden="true" hidden></div>
+   <nav class="gallery-navigation" id="gallery-navigation" aria-label="浏览一级专题" hidden>
+    <button id="previous-topic" type="button" aria-label="上一个专题" aria-controls="cabinet-viewport"><svg viewBox="0 0 20 30" aria-hidden="true"><path d="M15 3 4 15l11 12"/></svg></button>
+    <button id="next-topic" type="button" aria-label="下一个专题" aria-controls="cabinet-viewport"><svg viewBox="0 0 20 30" aria-hidden="true"><path d="m5 3 11 12L5 27"/></svg></button>
+   </nav>
+  </div>
+ </section>
+ <footer class="end-note">
+  <h1>P3–P4 · 花叶线描与展开转场</h1>
+  <p>左右浏览一级专题，向下展开柜中的书台，再靠近图册。宽屏可拖动柜格或使用两侧箭头。</p>
+  <p class="scope">P3恢复原六个专题题签和完整原图；P4沿用两个风格的临时内容。桌面同看一个跨页；手机用书页底部切换。图像可放大查看完整原图与来源。当前素材为构图占位，尚未核对飞书主库最新记录；不改动原词条定稿内容。展开“进度”可对照空白图册。</p>
+  <p class="scope">中文题签可在香萃刻宋、香萃零度黑和原朱雀仿宋之间切换；英文使用 UnifrakturMaguntia。字体来源与许可随代码保留。<a href="https://my.feishu.cn/base/IGctbcuwPaE6hMsmAoicJddpn3U?table=tbl2gR8WBoqCQyGz&amp;view=vew3VgB6ip" target="_blank" rel="noopener noreferrer">内容以飞书主库为准 ↗</a></p>
+  <p class="scope">P3/P4文字为临时效果，当前检查运动几何、关键状态和素材引用；浏览器视觉及真机触控效果仍待验收。</p>
+ </footer>
+</main>
+<nav class="review-controls collapsed" id="controls" aria-label="转场预览控制">
+ <div class="control-row"><button id="play" type="button">播放</button><button id="title-font" type="button" aria-label="更换中文题签字体，当前香萃刻宋" aria-controls="folio-content">香萃刻宋</button><input class="detail" id="progress" type="range" min="0" max="1000" value="0" aria-label="转场进度"><output class="counter detail" id="counter">0%</output><button class="detail" id="toggle-folio" type="button" aria-pressed="false" aria-controls="folio-content">对照空白</button><button class="detail" id="restart" type="button">回起点</button><button id="collapse" type="button" aria-expanded="false">进度</button></div><span id="phase" hidden></span>
+ <p class="control-note" id="status" aria-live="polite">正在加载线稿与原图…</p>
+</nav>
+<dialog class="specimen-dialog" id="specimen-dialog" aria-labelledby="specimen-title"><button class="close-specimen" id="close-specimen" type="button" aria-label="关闭图像">×</button><figure><img id="specimen-image" alt=""></figure><div class="dialog-footer"><div><h2 id="specimen-title"></h2><p id="specimen-credit"></p><p id="specimen-note"></p></div><a id="specimen-source" target="_blank" rel="noopener noreferrer">原出处 ↗</a></div></dialog>
+<script type="module" src="motion.mjs"></script>
+</body></html>

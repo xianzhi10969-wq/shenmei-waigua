@@ -1,0 +1,37 @@
+[
+  {
+    "file": "p3-mobile-botanical-v1.png",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "105fad9f9ef440a91493184285562044445016be9b84de01e25bcbb9092b78a4",
+    "state": "审图稿，未声明最终验收"
+  },
+  {
+    "file": "p3-desktop-botanical-v1.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "88078b2a143eac193ee38f56107057e7ae18aa5b0e09de28338b4088d8617092",
+    "state": "审图稿，未声明最终验收"
+  },
+  {
+    "file": "p4-mobile-botanical-v1.png",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "74832517d48334da9e892e44bedc1c6421e6fa5a9755e1231086aaf35e86db45",
+    "state": "审图稿，未声明最终验收"
+  },
+  {
+    "file": "p4-desktop-botanical-v2.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "07789bac7a7394d94e0123bf42d258456722b894ac194e7337635730f282e89a",
+    "state": "审图稿，未声明最终验收"
+  },
+  {
+    "file": "secretary-botanical-v2.png",
+    "width": 941,
+    "height": 1672,
+    "sha256": "34eaafbab8115739708aac4f5f319090f6a33c1a0d281b3d6e8461d1090fbbf8",
+    "state": "审图稿，未声明最终验收"
+  }
+]
