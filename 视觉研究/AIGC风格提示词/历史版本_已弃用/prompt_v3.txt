@@ -1,0 +1,14 @@
+# ⚠️ 已弃用（DEPRECATED）：被 v7 世界观版取代，仅供回溯。见 ../README.md
+
+STYLE: Gothic Victorian ink line illustration, like a clean modern book plate.
+PAPER: flat ivory-white paper, color #F6F3ED, perfectly flat, no texture, no yellowing, no parchment, no vignette.
+LINES: crisp, uniform, near-vector ink lines in dark charcoal-black (#1E1E1E), thin (about 1–2 px at 1024 px), confident and continuous; no pencil feel, no sketchy strokes, no wood grain, no engraving texture.
+DETAIL: medium detail, like an architectural drawing: layered mouldings, gothic tracery, slim pillars, small carved panels — drawn in clean outline. Not a minimal icon, not clip-art.
+SHADING: almost none. Only a few short fine parallel lines in the deepest recesses. Glass, stone, metal and wax stay white with outlines only.
+BLACK: solid black on ONE element only (a figure's cloak, or one small opening). If there is a figure: side profile, pale face in fine lines, white inner robe visible, cloak solid black with very fine stipple, hood edge and hem bordered by a band of small white geometric lattice and four-pointed stars.
+SIZE & SPACE: the main subject fills about 50–65% of the image height; the rest is empty paper (overall about 70–80% of the image is empty).
+STARS: stars are only elongated four-pointed stars (long vertical axis, short horizontal axis) used as finials on top of pillars or as small ornaments on objects. NO floating sparkles scattered in the air.
+GROUND: a polished stone floor of large square tiles in perspective, drawn with thin lines, optional thin concentric ellipses, and a few short vertical reflection lines directly under objects. No water unless asked.
+BACKGROUND: if any, drawn with even thinner, lighter lines than the subject.
+MOOD: quiet, solemn, ceremonial. COLOR: only black ink on ivory (at most one tiny deep-red accent).
+DO NOT: color, grey wash, gradients, watercolor, paper texture, grain, cross-hatching, heavy black backgrounds, thick outlines, wood grain, sparkles, comic/anime, 3D render, photo, text, frame, signature.

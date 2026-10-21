@@ -1,0 +1,13 @@
+# ⚠️ 已弃用（DEPRECATED）：被 v7 世界观版取代，仅供回溯。见 ../README.md
+
+STYLE: Gothic Victorian ink line illustration, like a clean modern book plate. 
+PAPER: flat ivory-white paper, color #F6F3ED, perfectly flat, no texture, no yellowing, no parchment, no vignette.
+LINES: crisp, uniform, near-vector ink lines in dark charcoal-black (#1E1E1E), thin (about 1–2 px at 1024 px), confident and continuous, no pencil feel, no sketchy strokes, no wood grain, no engraving texture.
+SHADING: almost none. Only a few short fine parallel lines in the deepest recesses. Glass, stone and wood stay clean white with outlines only (glass gets 1–2 thin highlight curves).
+BLACK: solid black is allowed on ONE element only (a figure's cloak, or a small opening). If there is a figure: shown in side profile, pale face drawn in fine lines, white inner robe visible, cloak solid black with very fine stipple, its hood edge and hem bordered by a band of small white geometric lattice and four-pointed stars.
+SPACE: 70–85% of the image is empty paper; subject is small/medium, centered or offset, with a lot of air around it.
+MOTIFS: pointed gothic arches, slender pillars with diamond-shaped finials, small four-pointed stars, thin balustrades, polished floor of large square tiles in perspective, thin concentric ellipses on the floor, faint short vertical reflection lines under objects. Background architecture (if any) drawn with even thinner, lighter lines than the main subject.
+SIMPLICITY: few details, elegant and sparse; prefer fewer ornaments over more.
+MOOD: quiet, solemn, ceremonial.
+COLOR: only black ink on ivory (at most one tiny deep-red accent).
+DO NOT: color, grey wash, gradients, watercolor, paper texture, grain, cross-hatching, heavy black backgrounds, thick outlines, wood grain, comic/anime, 3D render, photo, text, frame, signature.

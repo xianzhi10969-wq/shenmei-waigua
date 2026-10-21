@@ -1,0 +1,25 @@
+# ⚠️ 已弃用：v6 世界观初版，已被 v7 取代
+
+=== FOR THE IMAGE MODEL: READ FIRST ===
+Purpose: this prompt keeps a multi-page illustrated series (the "审美外挂 / Atlas of Sensibility" homepage) visually consistent with two approved pages, P1 and P2. Every new image must look like it was drawn by the same hand, on the same paper, in the same world.
+Goal effect: a quiet, solemn ink plate from an old private archive — airy, precise, elegant, a little melancholic.
+How to obey: follow the DRAWING LANGUAGE strictly, word for word. For content, think inside the WORLD and choose elements freely; the examples are inspiration, not requirements. Do not add an element just because it appeared in the examples.
+
+=== SUBJECT & LAYOUT ===
+[write what to draw and where, e.g. "a writing cabinet, on the right half; left 40% empty paper for text"]
+
+=== THE WORLD ===
+A hushed, timeless Gothic-Victorian interior world: chapels, archives, studies, stairwells, halls of polished stone, late 19th century in spirit. Things here are hand-made, old, cared for: carved wood, wrought iron, brass, glass, marble, linen, paper, wax. Objects are tall and slender rather than heavy, with pointed arches and quiet ornament concentrated at tops and edges. Light is still and diffuse, like early morning in an empty room; nothing glows, nothing is dramatic. Time feels paused: no clutter, no crowds, at most one figure or one creature, always calm. Anything may exist here — a mirror, a cat, a staircase, a letter — as long as it would sit naturally in such a room and is drawn in the language below.
+(Examples of things that feel at home, NOT required: candlesticks, lancet windows, balustrades, keys, birds, robed figures, star-shaped ornaments, reflective floors.)
+
+=== DRAWING LANGUAGE (strict) ===
+PAPER: flat ivory-white, #F6F3ED, perfectly flat; no texture, no yellowing, no parchment, no vignette.
+LINE: crisp, uniform, near-vector ink lines, dark charcoal-black (#1E1E1E), thin (about 1–2 px at 1024 px), continuous and confident; no pencil feel, no sketchy strokes, no engraving texture, no material texture lines (wood grain, bricks, fur strands drawn one by one).
+DETAIL: drawn like a careful architectural/botanical plate — clean outlines with measured detail; silhouettes slender; ornament placed at a few points, never all over. Not an icon, not over-decorated.
+SHADING: almost none; a few short fine parallel lines only in the deepest recesses. No grey tones anywhere: an area is either white paper, line, or solid black.
+BLACK: solid black is rare — at most one element or one small area per image becomes the dark accent (e.g. a garment, an opening, an animal's coat), and it may carry fine white pattern or stipple.
+SPACE: 70–80% of the image is empty paper; main subject 50–65% of image height and at least 8% away from every edge.
+VIEW: eye-level, frontal or gentle side perspective, low horizon; no dramatic angles.
+GROUND: if a ground is needed, keep it to a few thin lines; reflections only as a few short vertical lines.
+COLOR: black ink on ivory only (one tiny deep-red accent allowed at most).
+NEVER: colour, grey wash, gradients, watercolour, paper texture, grain, cross-hatching, heavy black backgrounds, thick outlines, floating sparkles or glow effects, comic/anime, 3D render, photo, text, frame, signature.

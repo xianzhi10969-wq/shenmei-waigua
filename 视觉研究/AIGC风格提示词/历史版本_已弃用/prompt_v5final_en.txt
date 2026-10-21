@@ -1,0 +1,16 @@
+# ⚠️ 已弃用：v5 后的元素规定版终稿，Aura 指出“规定具体元素只是模仿表面形式”，已被 v7 取代
+
+[COMPOSITION FIRST — write your subject and layout here, e.g. "subject on the right third, left 40% empty paper for text"]
+STYLE: Gothic Victorian ink line illustration, like a clean modern book plate.
+VIEW: eye-level, frontal and symmetrical, or a gentle side perspective; horizon low; no dramatic angles, no top-down, no 3/4 hero shots.
+PAPER: flat ivory-white paper, color #F6F3ED, perfectly flat, no texture, no yellowing, no parchment, no vignette.
+LINES: crisp, uniform, near-vector ink lines in dark charcoal-black (#1E1E1E), thin (about 1–2 px at 1024 px), confident and continuous; no pencil feel, no sketchy strokes, no wood grain, no brick or stone-block lines, no engraving texture.
+DETAIL: architectural-drawing detail in clean outline (mouldings, gothic tracery, slim pillars), but keep silhouettes slender and elegant; small objects get ornaments at only 2–3 points. Not a minimal icon, not over-decorated.
+SHADING: almost none. No grey tones anywhere: dark openings/interiors are either solid black or left empty white. Only a few short fine parallel lines in the deepest recesses. Glass, stone, metal and wax stay white with outlines only.
+BLACK: solid black on ONE element only (a figure's cloak, or one small opening). If there is a figure: side profile, pale face in fine lines, white inner robe visible, cloak solid black with very fine stipple, hood edge and hem bordered by a wide band of small white geometric lattice and eight-/four-pointed stars.
+SIZE & SPACE: main subject fills about 50–65% of the image height and stays at least 8% away from every edge; overall 70–80% of the image is empty paper.
+STARS: only elongated four-pointed stars (long vertical axis), and only attached to something — as finials on top of pillars or carved on objects. Keep stars small (no taller than about 1/10 of the object). Nothing floats in the air: no sparkles, no twinkles.
+GROUND: polished stone floor of large square tiles in perspective, thin lines, at most 2–3 faint thin concentric ellipses around the main object's base (no wider than twice the object), a few short vertical reflection lines under objects. No water unless asked.
+BACKGROUND: if any, even thinner, lighter lines than the subject.
+MOOD: quiet, solemn, ceremonial. COLOR: only black ink on ivory (at most one tiny deep-red accent).
+DO NOT: color, grey wash, gradients, watercolor, paper texture, grain, cross-hatching, heavy black backgrounds, thick outlines, wood grain, floating sparkles, comic/anime, 3D render, photo, text, frame, signature.
