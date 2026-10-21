@@ -1,0 +1,225 @@
+{
+  "archive_date": "2026-10-21",
+  "timezone": "Asia/Shanghai",
+  "baseline": "restored Sites v9",
+  "github_source_commit": "345fd03c5a99a509a8e215f13274121d7dbfd9aa",
+  "prefix": "web-prototypes/p3-p4-restored-v9-2026-10-21/",
+  "scope": "P3-P4 runtime, images, fonts, licenses, checks; no P5",
+  "files": [
+    {
+      "path": "checks/accepted-mobile-baseline.json",
+      "bytes": 753,
+      "git_blob_sha": "8344962a73ff457d44fc126f3158a7da91d3eda1",
+      "sha256": "978677912b6e0b494d3ff9c4ae7c3bfd393e6f5dc0fb56839380d8564af086d7"
+    },
+    {
+      "path": "checks/motion.test.mjs",
+      "bytes": 8871,
+      "git_blob_sha": "676fe4e3a482c04104796b5f70b49e1082bd82db",
+      "sha256": "465c31a9d6c978ac90bf8c183b3c4ab8fc5b68eb7a52a3f23100fe63cdc85521"
+    },
+    {
+      "path": "dist/assets/art-arcadia-6a8f40ca5870.png",
+      "bytes": 952609,
+      "git_blob_sha": "cc54893f626b73b7ff64bc062fb48d6258788280",
+      "sha256": "6a8f40ca58700631a1c28e00e30fa6fa05c1be579ab769a4d388bcc179a9302b"
+    },
+    {
+      "path": "dist/assets/art-dionysian-a05f0c5f1fb5.png",
+      "bytes": 993681,
+      "git_blob_sha": "3e2ac3f4ebc02e910b19c5ddf88645602e056011",
+      "sha256": "a05f0c5f1fb51bfe45656d86bc6a6e04f7af7387278167ead951804bd84c6b9d"
+    },
+    {
+      "path": "dist/assets/art-eros-71f568ce09fe.png",
+      "bytes": 844565,
+      "git_blob_sha": "c5ee9573ffb86c793559a026b117262785fa6839",
+      "sha256": "71f568ce09fed29317eb8c9dc62c794f9474003da23b0220a3ac39fc2a985d8a"
+    },
+    {
+      "path": "dist/assets/art-liubai-fbc8bc9b5ba6.png",
+      "bytes": 438232,
+      "git_blob_sha": "be7b23c85081c34bd05760a1ca3620eda3749a33",
+      "sha256": "fbc8bc9b5ba63f3a6fd17c9e1573bb1ddeb293fe7d011d998f82235537a9f901"
+    },
+    {
+      "path": "dist/assets/art-melancholy-49250bd0ac0a.png",
+      "bytes": 601815,
+      "git_blob_sha": "791d4285392bd771431e35cd3a80705528a87d85",
+      "sha256": "49250bd0ac0a8a256ce0f495380948ae46d26b107a1be3e7410634de56a3a62e"
+    },
+    {
+      "path": "dist/assets/art-yugen-025450f7d0c2.png",
+      "bytes": 362258,
+      "git_blob_sha": "3ad058be6ea7f9e6324a4128f9568dbc0da51af7",
+      "sha256": "025450f7d0c288ed0e257d2ec4f3f242d478bd23557765888e7d9dbf9b175d25"
+    },
+    {
+      "path": "dist/assets/atlas-ecd9fac89bd3.png",
+      "bytes": 1482235,
+      "git_blob_sha": "777fd6c8da52aedebc6404e5baf0fb6b6a9e2b5a",
+      "sha256": "ecd9fac89bd3e99c0c5feb95584b94b2c41ddbd7cca808a5092271349ac89985"
+    },
+    {
+      "path": "dist/assets/book-desktop-approved-v1.png",
+      "bytes": 2085775,
+      "git_blob_sha": "46220055c61d2123781bda5c9e56e69573ee9b34",
+      "sha256": "91673e8803e0c1dfb66216bd8d6941c7a202f31644bc34ff4ac21aaf4ecd654a"
+    },
+    {
+      "path": "dist/assets/book-eba616b5d0c5.png",
+      "bytes": 1710096,
+      "git_blob_sha": "35398b3e1d68500214958c0fc71e970b7b84b359",
+      "sha256": "eba616b5d0c5f18ecdb7acc44995ace76132513c6444e9b6cdbc6e2556e02acc"
+    },
+    {
+      "path": "dist/assets/cabinet-22aaeaa96e29.png",
+      "bytes": 1881260,
+      "git_blob_sha": "a84086973fbd8e5300851dde695580a70b1ae58f",
+      "sha256": "22aaeaa96e29c805724f636b9cd580459c64ad87c58e3e5c277c1933d2f398c8"
+    },
+    {
+      "path": "dist/assets/cabinet-portrait-47e404ae4794.png",
+      "bytes": 1632519,
+      "git_blob_sha": "f67d2713fc1e08c7b45d286d7d5e407ebd8402b1",
+      "sha256": "47e404ae47948b47c718c02b3aa556af4b013dad92431883bab7081af049d8a5"
+    },
+    {
+      "path": "dist/assets/cabinet-song.ttf",
+      "bytes": 203872,
+      "git_blob_sha": "1bf826e208d8dced12ac5ec7708da258b29c3d75",
+      "sha256": "3534a73b34ce90e78dc223c3a0148f9e1cf750e57e08cca49d79503f06b55e69"
+    },
+    {
+      "path": "dist/assets/folio-latin-fraktur.ttf",
+      "bytes": 43020,
+      "git_blob_sha": "20cd8425ea993e5c49184012a2aa1d98eec545ae",
+      "sha256": "54d4104a07efe3020c550594dbe0f0d5ba60dbcc533217991e9ba706bd77346c"
+    },
+    {
+      "path": "dist/assets/folio-song-v1.ttf",
+      "bytes": 194136,
+      "git_blob_sha": "e9c00218f447702f4c82b58ec72d5eb140745b18",
+      "sha256": "c66238799552629cb9919c1f6e907cd288b2c8615a690669f737e844cc08ac59"
+    },
+    {
+      "path": "dist/assets/folio-title-engraved.ttf",
+      "bytes": 206996,
+      "git_blob_sha": "b8e25f9d486f4f26437af004765d6371b2f0840d",
+      "sha256": "fada9f021d56d6e42af5710a9f58d44df7c17d1e243e7a8e574f6533421523e6"
+    },
+    {
+      "path": "dist/assets/folio-title-fractured.ttf",
+      "bytes": 262756,
+      "git_blob_sha": "f972ec84186636a190de41fe8abc619b88ca7d50",
+      "sha256": "f6d3b4b895f63ea316d6ce6ac2f927c0de6ae8f2aff678bb263f73d1263bfe9d"
+    },
+    {
+      "path": "dist/assets/licenses/Xiangcui-Kesong-SIL_Open_Font_License_1.1.txt",
+      "bytes": 4302,
+      "git_blob_sha": "77b17316cf1e8ab216bd6743996dfc67cc86216a",
+      "sha256": "e564f06d018e7b95bc3594c96a17f1d41865af4038c375e7aa974dd69df38602"
+    },
+    {
+      "path": "dist/assets/licenses/Xiangcui-ZeroHei-SIL_Open_Font_License_1.1.txt",
+      "bytes": 4301,
+      "git_blob_sha": "e4b0c4ff5e68b787a6562be5a49e34e23b66d008",
+      "sha256": "697383c6addd5dd14d7e1ff053aaa44520ce86a58589eef1f9985ab66e08db08"
+    },
+    {
+      "path": "dist/assets/licenses/Zhuque-OFL.txt",
+      "bytes": 4403,
+      "git_blob_sha": "e40b666a85fbf2b469ceca13484c812b1f5ffc91",
+      "sha256": "63471bef84ef24c4601304f4cd0eea6bf3d97b2f6d4801a931e79c68b4e094f7"
+    },
+    {
+      "path": "dist/assets/licenses/fonts-OFL.txt",
+      "bytes": 4511,
+      "git_blob_sha": "2794d29c2d604ba1b2fc485f1819b5400d51d8d2",
+      "sha256": "96199bf9ff12dd471a66911dee95440737b437e7f5a6fd30e9e950c16d66e8df"
+    },
+    {
+      "path": "dist/assets/secretary-cabinet-open-v1.png",
+      "bytes": 1829511,
+      "git_blob_sha": "234309da4eb709e1fc7788f8472502fb6edd0791",
+      "sha256": "3cdaa687a0ca9f98e39a50b69c9a7df9a178e8dd7f5e993de0f9ce518545e8e2"
+    },
+    {
+      "path": "dist/assets/secretary-desk-art-v1.png",
+      "bytes": 2014278,
+      "git_blob_sha": "ff1a14be0cd205483599004a616b394956b42793",
+      "sha256": "195f97fe05d1d966dc70db243f2ed94495659f73ab8c70506ecd063fa53e382a"
+    },
+    {
+      "path": "dist/assets/style-clear-hokkaido-original.png",
+      "bytes": 186690,
+      "git_blob_sha": "bc20d51c4d2555c65c49e58478a27ff3e538d920",
+      "sha256": "ca90ede9da37f3deb341d4be5e00b24c663584325c6a77ca5eff484955f3f1d3"
+    },
+    {
+      "path": "dist/assets/style-clear-snow-original.png",
+      "bytes": 822933,
+      "git_blob_sha": "db79836f891da7f09a44b9538f0ad9bc5fc99d4f",
+      "sha256": "382373d2d430b2b73e53118ff5314fa9008a2248dbab202a37f872257fe3212e"
+    },
+    {
+      "path": "dist/assets/style-coquette-organza.jpg",
+      "bytes": 103211,
+      "git_blob_sha": "de7c97b1276c5b73aa2fcd59edd74793ebde6855",
+      "sha256": "432f3d58f84eb3548df9532216d74d2b3f541caf4d7401a5efc9846348fc8dbd"
+    },
+    {
+      "path": "dist/assets/style-coquette-silhouette.jpg",
+      "bytes": 178767,
+      "git_blob_sha": "a8345112afec29b0185de886566cf8b3cc85ebc3",
+      "sha256": "7e32add3cc4ac4be63fec2b1a9fc2798e5c9f1e473d5f503845660808541e848"
+    },
+    {
+      "path": "dist/folio-content.css",
+      "bytes": 6185,
+      "git_blob_sha": "d0dcf54288b7c72c9aaa80672120d4794fe91596",
+      "sha256": "0455291516fc3a42330ca0414cee503d6cb916d01c0ffec24cbc0b88914f6b12"
+    },
+    {
+      "path": "dist/folio-content.mjs",
+      "bytes": 4717,
+      "git_blob_sha": "963f5a5bf64e58e98d6925f109a06c304ba92893",
+      "sha256": "243d656a8aa288ef955dc17a8b4ebe41eeb2393c38bec3c469aa2d5753b9ef27"
+    },
+    {
+      "path": "dist/index.html",
+      "bytes": 8373,
+      "git_blob_sha": "c2b0a764cae2edbed5c4fd13e12643365a3657f3",
+      "sha256": "9643b1bdd7fbdcf3ffa8f36c5e65d8f1e7813d44bfc63a5cf0ecf8b1c72f6e93"
+    },
+    {
+      "path": "dist/motion-geometry.mjs",
+      "bytes": 4909,
+      "git_blob_sha": "7a8ec7b38e9984dd214e22532209ed5d579c6a34",
+      "sha256": "f0cb1b42f2537cb8866d081f0de6d00c48c1871d6b75fa07977047fda44b4ddb"
+    },
+    {
+      "path": "dist/motion.mjs",
+      "bytes": 8133,
+      "git_blob_sha": "594d3a301a74c839c234bf42f51c4c2843ed8dd4",
+      "sha256": "32fc9d69c878128b55cec84525f50ed3ccef1a013c67c02c8a1f91ba1ac5cfab"
+    },
+    {
+      "path": "dist/style.css",
+      "bytes": 5080,
+      "git_blob_sha": "af921b1f2ae2a95e0a5cd2df6dbae40cbbee6ba6",
+      "sha256": "4643145cf9d7717a1bb2a7edeacceb9dcdca15e5f44186206f5f91876e5193d9"
+    }
+  ],
+  "verification": {
+    "exact_git_blob_matches": 34,
+    "runtime_files": 32,
+    "check_files": 2,
+    "missing_assets": [],
+    "command": "node checks/motion.test.mjs",
+    "result": "PASS 120012 geometric states; accepted mobile baselines unchanged; original desktop spread proportions; input/resize controllers; printed-page containment; mobile page selection, image dialog/focus, font cycle, blank comparison.",
+    "browser_visual_qa": false,
+    "real_device_touch_qa": false,
+    "figma_import": false
+  }
+}
