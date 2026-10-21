@@ -7,7 +7,15 @@
 - 在线预览 https://aura-p34-motion-study-20261020.xianzhi10969.chatgpt.site
 - 工作源码以追加提交 `01948162a40b518e4b41e386332cb437c4175aa4` 恢复，未重写 Git 历史。运行文件逐项与第 9 版一致。
 - 第 10 版 `deb9e538c470da23689c221d134b0be5352453d7` 与 GitHub 2026-10-20 的花叶适配交接仅供历史回溯，**未采用，不能继续当成定稿导入 Figma**。
-- P1 title、P3/P4 文字依然临时。P1/P2 原素材与 P5 未因本次回退改动。
+- P1 title、P3/P4 文字依然临时。P5 未改动。
+
+## P1/P2 当前认可版本（2026-10-21）
+
+- 用户确认 P1 显影开场 + 星 B 坠落 v4：[web-prototypes/p1-p2-reveal-star-v4-2026-10-21](web-prototypes/p1-p2-reveal-star-v4-2026-10-21/README.md)，动效说明见该目录 MOTION-NOTES.md，预览视频 preview_v4.mp4。
+- 已停用（保留历史，不删除）：
+  - [web-prototypes/home-p1-p4-2026-10-20/p1-p2](web-prototypes/home-p1-p4-2026-10-20/p1-p2/DEPRECATED.md)（旧 P1→P2 落星转场检查点）
+  - [视觉研究/2026-10-18-P1-V7-干净回滚基线与资源清单.md](视觉研究/2026-10-18-P1-V7-干净回滚基线与资源清单.md)
+- Figma 原稿 P1 `306:11`、P2 `306:35` 未修改；实验画板 `416:2`（壁纸层）、`423:2`（分层）仅为实验。
 
 ## 用户确认的版本规则
 
