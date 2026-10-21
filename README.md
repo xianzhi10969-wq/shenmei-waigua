@@ -1,3 +1,5 @@
+> **2026-10-21 当前 P3–P4 已回退至第 9 版。** 新版被反馈喧宾夺主，暂不采用。请先读 [当前状态](CURRENT_STATE.md) 和 [恢复版本](web-prototypes/p3-p4-restored-v9-2026-10-21/README.md)。后续方案须另存、另开预览，用户确认后才替换。
+
 > 最新接续入口（2026-10-20）
 > [首页P1–P4素材、转场、原文字与Figma交接](web-prototypes/home-p1-p4-2026-10-20/README.md)。P1 title与P3/P4文字均为临时效果；Figma导入尚未由本轮执行。
 
