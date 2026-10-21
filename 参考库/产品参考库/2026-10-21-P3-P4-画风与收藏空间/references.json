@@ -1,0 +1,110 @@
+{
+  "archive_date": "2026-10-21",
+  "project": "审美外挂",
+  "scope": "本线程P3/P4画风与收藏空间参考；只归档，不替换设计。",
+  "records": [
+    {
+      "id": "king",
+      "artist": "Jessie Marion King",
+      "title": "The Defence of Guenevere and Other Poems 插画（1904）",
+      "source": "https://university-collections.wp.st-andrews.ac.uk/2013/03/19/52-weeks-of-inspiring-illustrations-week-39-jessie-m-king-william-morriss-the-defence-of-guenevere-1904/",
+      "use": "看细柱、弧线、垂饰和局部纹样怎样承担不同作用；长线之间保留连续空隙。",
+      "avoid": "不把所有构件都画成同一种双线卷曲，也不照搬人物与场景。",
+      "assets": [
+        "king-titlepage",
+        "king-claspt",
+        "king-golden-hair"
+      ]
+    },
+    {
+      "id": "mucha-lilies",
+      "artist": "Alphonse Mucha",
+      "title": "Documents décoratifs，第33版百合线稿（1901–1902）",
+      "source": "https://www.muchafoundation.org/en/gallery/browse-works/object/106/",
+      "use": "先读舒展的大形，再读花心、交叠叶片的细纹；对比来自大小、长短和疏密共同组织。",
+      "avoid": "不靠另加一条实黑花带来代替整体主次，也不直接复制百合元素。",
+      "assets": [
+        "mucha-lilies-plate33"
+      ]
+    },
+    {
+      "id": "mucha-heads",
+      "artist": "Alphonse Mucha",
+      "title": "Byzantine Heads（1897）",
+      "source": "https://www.muchafoundation.org/en/gallery/browse-works/object/240/",
+      "use": "观察主体越过圆框时，主体和外围装饰怎样产生联系；这是平面构图关系的参考。",
+      "avoid": "不将圆框、人像或配色当作P3必须采用的元素。",
+      "assets": [
+        "mucha-byzantine-heads"
+      ]
+    },
+    {
+      "id": "mucha-lamps",
+      "artist": "Alphonse Mucha",
+      "title": "Planche pour les documents décoratifs lampes-fleurs, et suspension",
+      "source": "https://www.musee-orsay.fr/en/artworks/planche-pour-les-documents-decoratifs-lampes-fleurs-et-suspension-242836",
+      "use": "花瓣参与灯罩造型，枝干参与支撑；研究装饰如何成为器物的结构。",
+      "avoid": "不把植物当作贴在矩形外侧的一圈花边，也不照搬素描明暗。",
+      "assets": [
+        "mucha-flower-lamps"
+      ]
+    },
+    {
+      "id": "beardsley",
+      "artist": "Aubrey Beardsley",
+      "title": "The Peacock Skirt",
+      "source": "https://www.vam.ac.uk/articles/aubrey-beardsley-decadence-desire",
+      "supplementary_sources": [
+        "https://www.metmuseum.org/art/collection/search/822344",
+        "https://commons.wikimedia.org/wiki/File:Beardsley-peacockskirt.svg"
+      ],
+      "use": "大轮廓先成立，细纹依附轮廓展开；学习黑白空间和纹样的组织。",
+      "avoid": "不能简化成“某处涂黑就有对比”。",
+      "assets": [
+        "beardsley-peacock-skirt"
+      ],
+      "note": "文件为Wikimedia的SVG复刻版本，非馆方原作扫描。"
+    },
+    {
+      "id": "clarke",
+      "artist": "Harry Clarke",
+      "title": "黑白书籍插画；补核实例 Faust—Opening Illustration",
+      "source": "https://www.oldbookillustrations.com/illustrations/opening-faust/",
+      "supplementary_sources": [
+        "https://www.nationalgallery.ie/explore-and-learn/new-acquisitions/harry-clarke"
+      ],
+      "use": "观察不同纹样、长线和暗部的穿插；同时作为过高密度的边界参照。",
+      "avoid": "不可照搬其总体密度；P1/P2的疏密与秩序仍是项目基准。",
+      "assets": [
+        "clarke-faust-opening"
+      ],
+      "note": "本轮原讨论只确认到作者与黑白插画方向；本图为归档时补核的可追溯实例，未证实与此前展示的具体图完全相同。"
+    },
+    {
+      "id": "bugatti",
+      "artist": "Carlo Bugatti",
+      "title": "Desk and chair，约1900；RISD Museum",
+      "source": "https://risdmuseum.org/manual/357_more_is_more_the_inimitable_designs_of_carlo_bugatti",
+      "use": "看大圆盘、细柱、斜腿、阶梯边缘和垂饰的尺度差异，以及装饰与支撑的关系。",
+      "avoid": "只参考器物造型变化，不带入摄影材质、3D厚度或整件家具的复杂程度。",
+      "assets": [
+        "bugatti-desk-chair",
+        "bugatti-detail-01",
+        "bugatti-detail-02"
+      ]
+    },
+    {
+      "id": "peacock",
+      "artist": "James McNeill Whistler／孔雀厅",
+      "title": "The Peacock Room：空架整体与层板细部",
+      "source": "https://asia.si.edu/whats-on/exhibitions/the-peacock-room-in-blue-and-white/",
+      "use": "看墙面、门洞、架子与收藏品怎样共同构成收藏空间；空架照片便于观察层板节奏和留空。",
+      "avoid": "空间组织可借鉴，配色、摄影光影和实景材质不直接迁入P3。",
+      "assets": [
+        "peacock-north-wall",
+        "peacock-shelves",
+        "peacock-south-wall"
+      ]
+    }
+  ]
+}

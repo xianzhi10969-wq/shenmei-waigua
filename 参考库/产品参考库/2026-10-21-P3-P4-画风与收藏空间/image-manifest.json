@@ -1,0 +1,142 @@
+[
+  {
+    "id": "king-titlepage",
+    "group": "king",
+    "file": "images/king-titlepage.jpg",
+    "url": "https://university-collections.wp.st-andrews.ac.uk/files/2013/03/titlepage.jpg",
+    "bytes": 1272042,
+    "width": 951,
+    "height": 1417,
+    "sha256": "f374d4806c687c3f9b45ab7795898db3703c07667962545c3a67cebe38468491"
+  },
+  {
+    "id": "king-claspt",
+    "group": "king",
+    "file": "images/king-claspt.jpg",
+    "url": "https://university-collections.wp.st-andrews.ac.uk/files/2013/03/claspt.jpg",
+    "bytes": 2101118,
+    "width": 1417,
+    "height": 945,
+    "sha256": "1ddc3e9047583c48c7d007d550c2eceecf84590163015a9607eb5c55dfafae88"
+  },
+  {
+    "id": "king-golden-hair",
+    "group": "king",
+    "file": "images/king-golden-hair.jpg",
+    "url": "https://university-collections.wp.st-andrews.ac.uk/files/2013/03/golden-hair.jpg",
+    "bytes": 1139923,
+    "width": 947,
+    "height": 1417,
+    "sha256": "828a4ff4e6117dbc5c8f0c390e09ee978d676e4b98f2db222c41c29faefad5f6"
+  },
+  {
+    "id": "mucha-lilies-plate33",
+    "group": "mucha-lilies",
+    "file": "images/mucha-lilies-plate33.jpg",
+    "url": "https://www.muchafoundation.org/media//w620h560/drawings/MFI201_line_drawingDD_Plate33.jpg",
+    "bytes": 87070,
+    "width": 368,
+    "height": 520,
+    "sha256": "b431c2151f5d43202f864831e4f19a2827aa004281c135fa4e3afaaa704c3fe7"
+  },
+  {
+    "id": "mucha-byzantine-heads",
+    "group": "mucha-heads",
+    "file": "images/mucha-byzantine-heads.jpg",
+    "url": "https://www.muchafoundation.org/media//w620h560/lithograph/MFL_Tete_Byzantine_Series.jpg",
+    "bytes": 96950,
+    "width": 620,
+    "height": 429,
+    "sha256": "5decd6717ed63bfa32376162022060b84e71621310f33d6d4279e42253e0c963"
+  },
+  {
+    "id": "mucha-flower-lamps",
+    "group": "mucha-lamps",
+    "file": "images/mucha-flower-lamps.jpg",
+    "url": "https://cdn.mediatheque.epmoo.fr/link/3c9igq/kpm1buwxqvngcrk.jpg",
+    "bytes": 77837,
+    "width": 344,
+    "height": 500,
+    "sha256": "820a7823e7e5731118d103d3a373fc88c02b521432a09e3629ae9d00ea24cb38"
+  },
+  {
+    "id": "bugatti-desk-chair",
+    "group": "bugatti",
+    "file": "images/bugatti-desk-chair.jpg",
+    "url": "https://risdmuseum.cdn.picturepark.com/v/Wv6IphRH/",
+    "bytes": 826284,
+    "width": 1324,
+    "height": 1176,
+    "sha256": "631781fcf8f8233f6943aa1bcf5590c037e9c5a81472ae179e9a883104f2bbc0"
+  },
+  {
+    "id": "bugatti-detail-01",
+    "group": "bugatti",
+    "file": "images/bugatti-detail-01.jpg",
+    "url": "https://risdmuseum.cdn.picturepark.com/v/vSYELtNF/",
+    "bytes": 4554419,
+    "width": 2966,
+    "height": 3000,
+    "sha256": "760905db0aad028a745e0c1218fe6f802113a81dc9411e4d351cdb1c4756ed27"
+  },
+  {
+    "id": "bugatti-detail-02",
+    "group": "bugatti",
+    "file": "images/bugatti-detail-02.jpg",
+    "url": "https://risdmuseum.cdn.picturepark.com/v/h8kG4lTG/",
+    "bytes": 5703898,
+    "width": 3000,
+    "height": 2404,
+    "sha256": "ac2a97899e98752cb29a0e7cde691ec7ef975a6278dae7b24ea9cc3274273096"
+  },
+  {
+    "id": "peacock-north-wall",
+    "group": "peacock",
+    "file": "images/peacock-north-wall.jpg",
+    "url": "https://asia.si.edu/wp-content/uploads/2025/01/Peacock-Room-Revealed_007-1024x670.jpg",
+    "bytes": 154043,
+    "width": 1024,
+    "height": 670,
+    "sha256": "41c88be2c4b72233ac457bae854badc728e77b0c2cb603c3b25fc85729da78ef"
+  },
+  {
+    "id": "peacock-shelves",
+    "group": "peacock",
+    "file": "images/peacock-shelves.jpg",
+    "url": "https://asia.si.edu/wp-content/uploads/2025/01/Peacock-Room-Revealed_043-1024x683.jpg",
+    "bytes": 120185,
+    "width": 1024,
+    "height": 683,
+    "sha256": "75caa2e6ded2213be9d5d450db5e434155e57fff8908d36576716d3706bc5116"
+  },
+  {
+    "id": "peacock-south-wall",
+    "group": "peacock",
+    "file": "images/peacock-south-wall.jpg",
+    "url": "https://asia.si.edu/wp-content/uploads/2025/01/Peacock-Room-Revealed_002-1024x685.jpg",
+    "bytes": 152768,
+    "width": 1024,
+    "height": 685,
+    "sha256": "a24ef5623baee424e7fe360ef78d47836607765c337150ad7c7d41299ad3f1d7"
+  },
+  {
+    "id": "beardsley-peacock-skirt",
+    "group": "beardsley",
+    "file": "images/beardsley-peacock-skirt.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Beardsley-peacockskirt.svg",
+    "bytes": 2160036,
+    "sha256": "98631460fca7bf2a885de8b71116b134b76a47cc8ee0032e7fdfb411ba26d5f8",
+    "note": "Wikimedia 的 SVG 复刻版本；不是馆方原作扫描。"
+  },
+  {
+    "id": "clarke-faust-opening",
+    "group": "clarke",
+    "file": "images/clarke-faust-opening.jpg",
+    "url": "https://www.oldbookillustrations.com/site/assets/files/12530/opening-faust.jpg",
+    "bytes": 92721,
+    "width": 680,
+    "height": 630,
+    "sha256": "0f2757e5436e23f7dfa94f4a4e84086aa08f7600053dfc7dd07db225223b0ba8",
+    "note": "归档时补充定位的黑白插画实例；未证实与此前会话展示的具体图完全相同。"
+  }
+]
