@@ -1,0 +1,27 @@
+{
+ "liubai": {
+  "zh": "留白",
+  "la": "Liubai",
+  "orig": "assets/covers/orig/liubai.png"
+ },
+ "melancholy": {
+  "zh": "忧郁",
+  "la": "Melancholy",
+  "orig": "assets/covers/orig/melancholy.png"
+ },
+ "eros": {
+  "zh": "爱欲",
+  "la": "Eros",
+  "orig": "assets/covers/orig/eros.png"
+ },
+ "arcadia": {
+  "zh": "田园",
+  "la": "Arcadia",
+  "orig": "assets/covers/orig/arcadia.png"
+ },
+ "yugen": {
+  "zh": "幽玄",
+  "la": "Yūgen",
+  "orig": "assets/covers/orig/yugen.png"
+ }
+}
