@@ -9,7 +9,8 @@
 | P1→P2 | [Grok 的显影开场 + 星 B 坠落 v4](web-prototypes/p1-p2-reveal-star-v4-2026-10-21/README.md) · [动效细节](web-prototypes/p1-p2-reveal-star-v4-2026-10-21/MOTION-NOTES.md) | 用户确认完成的独立原型；不等于已合并正式生产网站 |
 | P3→P4 | [恢复版 v9 柜体与书册](web-prototypes/p3-p4-restored-v9-2026-10-21/START-HERE-2026-10-21.md) | 用户要求保留的基线；v10 花叶适配稿未采用 |
 | Figma | [01 当前首页 P1–P4](https://www.figma.com/design/pIL4mlWLHxph3pqXlIVq1s?node-id=144-2) · [已认可功能 05/07](https://www.figma.com/design/pIL4mlWLHxph3pqXlIVq1s?node-id=137-2) · [词条 V3 设计](https://www.figma.com/design/pIL4mlWLHxph3pqXlIVq1s?node-id=81-2) | 静态画板和运行时转场不能互相冒充 |
-| 星星导航（布局已认可） | [星星导航 · Le Pater 构图交接](产品决策/2026-10-21-星星导航-Le-Pater结构与交互-跨会话交接.md) · [Figma Web＋Mobile 布局 434:2](https://www.figma.com/design/pIL4mlWLHxph3pqXlIVq1s?node-id=434-2) | **仅认可布局**：五个等权徽章纵列 1/5、右侧完整预览 4/5、标题带叠压；Figma 画出的徽章／配色／字体／占位插画均不认可，导航展开动效未实现 |\n| 参考资料 | [产品参考库](参考库/产品参考库/README.md) · [流量参考库](参考库/流量参考库/README.md) | 艺术/交互对标与获客对标分开管理 |
+| 星星导航（布局已认可） | [星星导航 · Le Pater 构图交接](产品决策/2026-10-21-星星导航-Le-Pater结构与交互-跨会话交接.md) · [Figma Web＋Mobile 布局 434:2](https://www.figma.com/design/pIL4mlWLHxph3pqXlIVq1s?node-id=434-2) | **仅认可布局**：五个等权徽章纵列 1/5、右侧完整预览 4/5、标题带叠压；Figma 画出的徽章／配色／字体／占位插画均不认可，导航展开动效未实现 |
+| 参考资料 | [产品参考库](参考库/产品参考库/README.md) · [流量参考库](参考库/流量参考库/README.md) | 艺术/交互对标与获客对标分开管理 |
 
 ## 当前主要产品结构（概要，细节以 CURRENT_STATE 为准）
 
