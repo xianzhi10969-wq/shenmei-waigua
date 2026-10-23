@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="在固定哥特彩窗中，逐格观看二十四个美学专题的原色封面。">
+  <title>审美外挂 · 彩窗图录</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="assets/topics.js"></script>
+  <script defer src="assets/embla-carousel-8.6.0.umd.js"></script>
+  <script defer src="app.js"></script>
+  <link rel="stylesheet" href="night-layer.css">
+  <script defer src="night-layer.js"></script>
+</head>
+<body>
+  <main class="gallery" aria-label="美学专题彩窗图录">
+    <header><span>审美外挂 · 美学专题</span><span class="number"><span id="currentNumber">01</span> / 24</span></header>
+    <div id="stage" class="stage" aria-label="固定石框与独立封面图层"></div>
+    <nav class="pager" aria-label="逐格翻阅专题">
+      <button id="previous" class="arrow" type="button" aria-label="上一专题"><svg viewBox="0 0 42 20" aria-hidden="true"><path d="M39 10H3m9-7L3 10l9 7"/></svg></button>
+      <span class="hint">左右轻滑 · 一次一格</span>
+      <button id="next" class="arrow" type="button" aria-label="下一专题"><svg viewBox="0 0 42 20" aria-hidden="true"><path d="M3 10h36m-9-7 9 7-9 7"/></svg></button>
+    </nav>
+    <p id="definition" class="definition" aria-live="polite"></p>
+    <details class="credits"><summary>封面出处</summary><p id="credit"></p></details>
+    <p id="status" class="sr-only" role="status" aria-live="polite"></p>
+  </main>
+</body>
+</html>

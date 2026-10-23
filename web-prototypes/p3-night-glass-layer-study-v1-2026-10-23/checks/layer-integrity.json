@@ -1,0 +1,27 @@
+{
+  "selectedCells": [
+    47,
+    48,
+    56,
+    57,
+    66,
+    67,
+    73,
+    74,
+    75,
+    76,
+    132,
+    133,
+    145,
+    146,
+    147,
+    148
+  ],
+  "cellCount": 16,
+  "addedPixels": 26092,
+  "protectedOpeningAndTitleOverlapPixels": 0,
+  "existingFilesVerified": 53,
+  "existingFilesByteIdentical": true,
+  "sourceSHA256": "93e3307d41dcebcbeb7a7fa28e341fabbb8b16feaff4b536cd3240b1f42731a1",
+  "status": "独立试验，待审，未发布"
+}
