@@ -3,170 +3,9 @@
   "base_token": "IGctbcuwPaE6hMsmAoicJddpn3U",
   "table_id": "tblaYsGqDwNudnXs",
   "table": "章节",
-  "read_with": "lark-cli base +record-list / +record-download-attachment (read-only)"
+  "order_by": "序号"
  },
- "all_chapters": [
-  [
-   1,
-   "忧郁",
-   "Melancholy",
-   "已上线"
-  ],
-  [
-   2,
-   "爱欲",
-   "Eros",
-   "已上线"
-  ],
-  [
-   3,
-   "田园",
-   "Arcadia",
-   "已上线"
-  ],
-  [
-   4,
-   "幽玄",
-   "Yūgen",
-   "已上线"
-  ],
-  [
-   5,
-   "酒神",
-   "Dionysian",
-   "已上线"
-  ],
-  [
-   6,
-   "留白",
-   "Liubai",
-   "已上线"
-  ],
-  [
-   7,
-   "平淡",
-   "Pingdan",
-   "已上线"
-  ],
-  [
-   8,
-   "物哀",
-   "Mono no aware",
-   "已上线"
-  ],
-  [
-   9,
-   "日常",
-   "Infra-ordinary",
-   "已上线"
-  ],
-  [
-   10,
-   "侘寂",
-   "Wabi-sabi",
-   "已上线"
-  ],
-  [
-   11,
-   "气韵",
-   "Qiyun",
-   "已上线"
-  ],
-  [
-   12,
-   "侠",
-   "Xia",
-   "已上线"
-  ],
-  [
-   13,
-   "轻逸",
-   "Lightness",
-   "已上线"
-  ],
-  [
-   14,
-   "崇高",
-   "Sublime",
-   "已上线"
-  ],
-  [
-   15,
-   "从容",
-   "Sprezzatura",
-   "已上线"
-  ],
-  [
-   16,
-   "酷",
-   "Cool",
-   "已上线"
-  ],
-  [
-   17,
-   "怪诞",
-   "Grotesque",
-   "已上线"
-  ],
-  [
-   18,
-   "阴翳",
-   "In Praise of Shadows",
-   "已上线"
-  ],
-  [
-   19,
-   "悲剧",
-   "Tragic",
-   "已上线"
-  ],
-  [
-   20,
-   "废墟",
-   "Ruin",
-   "已上线"
-  ],
-  [
-   21,
-   "未来想象",
-   "Future Imaginaries",
-   "已上线"
-  ],
-  [
-   22,
-   "乡愁",
-   "Nostalgia",
-   "已上线"
-  ],
-  [
-   23,
-   "诡异",
-   "Uncanny",
-   "已上线"
-  ],
-  [
-   24,
-   "可爱",
-   "Cute",
-   "已上线"
-  ]
- ],
  "topics": [
-  {
-   "章节名": "留白",
-   "英文名": "Liubai",
-   "章名展示": "留白 Liubai｜盐系与禅意",
-   "序号": 6,
-   "状态": "已上线",
-   "一句定义": "留白不是空着省事，而是把必要的线索放好，再让观众走进未画出的部分。",
-   "钩子": "画面一角有人站着，剩下大片像是天，也像什么都还没发生。只把人物缩小，很容易得到一张“高级”的空图。留白要让没画的地方真的与画出来的东西发生关系。",
-   "封面图注": "马远《寒江独钓图》（南宋，东京国立博物馆）· 公有领域 · 图源 Wikimedia Commons",
-   "slug": "liubai",
-   "record_id": "reczz28HJJL2A7Oz",
-   "cover": "assets/feishu/covers/liubai.jpg",
-   "cover_file": "寒江独钓图_马远_公有领域.jpg",
-   "cover_bytes": 166956
-  },
   {
    "章节名": "忧郁",
    "英文名": "Melancholy",
@@ -179,8 +18,7 @@
    "slug": "melancholy",
    "record_id": "reczz28HJJL2A77K",
    "cover": "assets/feishu/covers/melancholy.jpeg",
-   "cover_file": "忧郁.jpeg",
-   "cover_bytes": 991864
+   "cover_file": "忧郁.jpeg"
   },
   {
    "章节名": "爱欲",
@@ -194,8 +32,7 @@
    "slug": "eros",
    "record_id": "reczz28HJJL2A7BH",
    "cover": "assets/feishu/covers/eros.jpg",
-   "cover_file": "窗前读信的少女_维米尔_公有领域.jpg",
-   "cover_bytes": 705450
+   "cover_file": "窗前读信的少女_维米尔_公有领域.jpg"
   },
   {
    "章节名": "田园",
@@ -209,8 +46,7 @@
    "slug": "arcadia",
    "record_id": "reczz28HJJL2A7E0",
    "cover": "assets/feishu/covers/arcadia.jpg",
-   "cover_file": "麦田里的收割者_凡高_公有领域.jpg",
-   "cover_bytes": 528509
+   "cover_file": "麦田里的收割者_凡高_公有领域.jpg"
   },
   {
    "章节名": "幽玄",
@@ -224,8 +60,287 @@
    "slug": "yugen",
    "record_id": "reczz28HJJL2A7HL",
    "cover": "assets/feishu/covers/yugen.jpg",
-   "cover_file": "序之舞_上村松园_公有领域.jpg",
-   "cover_bytes": 388018
+   "cover_file": "序之舞_上村松园_公有领域.jpg"
+  },
+  {
+   "章节名": "酒神",
+   "英文名": "Dionysian",
+   "章名展示": "酒神 Dionysian｜热烈与多巴胺",
+   "序号": 5,
+   "状态": "已上线",
+   "一句定义": "酒神让个人的边界暂时松开，情绪随着节奏涌进人群。",
+   "钩子": "演唱会到最后一首歌，身边都是陌生人，你却跟他们一起把副歌唱得走调。第二天想起那阵热，衣服也想穿得亮一点。两种高兴都带着同一股向外奔的劲。",
+   "封面图注": "提香《酒神与阿里阿德涅》（1520–1523，伦敦国家美术馆）· 公有领域 · 图源 Wikimedia Commons",
+   "slug": "dionysian",
+   "record_id": "reczz28HJJL2A7Kq",
+   "cover": "assets/feishu/covers/dionysian.jpg",
+   "cover_file": "酒神与阿里阿德涅_提香_公有领域.jpg"
+  },
+  {
+   "章节名": "留白",
+   "英文名": "Liubai",
+   "章名展示": "留白 Liubai｜盐系与禅意",
+   "序号": 6,
+   "状态": "已上线",
+   "一句定义": "留白不是空着省事，而是把必要的线索放好，再让观众走进未画出的部分。",
+   "钩子": "画面一角有人站着，剩下大片像是天，也像什么都还没发生。只把人物缩小，很容易得到一张“高级”的空图。留白要让没画的地方真的与画出来的东西发生关系。",
+   "封面图注": "马远《寒江独钓图》（南宋，东京国立博物馆）· 公有领域 · 图源 Wikimedia Commons",
+   "slug": "liubai",
+   "record_id": "reczz28HJJL2A7Oz",
+   "cover": "assets/feishu/covers/liubai.jpg",
+   "cover_file": "寒江独钓图_马远_公有领域.jpg"
+  },
+  {
+   "章节名": "平淡",
+   "英文名": "Pingdan",
+   "章名展示": "平淡 Pingdan｜Normcore 与细水长流",
+   "序号": 7,
+   "状态": "已上线",
+   "一句定义": "平淡把复杂经历收在很轻的表达里；情绪没有消失，只是不急着外露。",
+   "钩子": "朋友说起一件大事，你听完只回一句“还行”，心里却不是真的没有感觉。平淡的难处在这里：不是把人写空，而是让他经历过很多以后，仍能只说必要的话。",
+   "封面图注": "维尔海姆·哈默修伊《斯特兰德街的室内，地板上的阳光》（1901，丹麦国立美术馆）· 公有领域 · 图源 Wikimedia Commons",
+   "slug": "pingdan",
+   "record_id": "reczz28HJJL2A7Rf",
+   "cover": "assets/feishu/covers/pingdan.jpg",
+   "cover_file": "地板上的阳光_哈默修伊_公有领域.jpg"
+  },
+  {
+   "章节名": "物哀",
+   "英文名": "Mono no aware",
+   "章名展示": "物哀 Mono no aware｜白月光与意难平",
+   "序号": 8,
+   "状态": "已上线",
+   "一句定义": "物哀是心被眼前的事物轻轻碰到，也知道这一刻不会永远停着。",
+   "钩子": "樱花贴在电车窗上，车一开，它便被风带走。人会觉得好看，也会为它留不住而怔一下。物哀就在这种同时发生的欣赏和惜别里，不只是一套樱花与黄昏的素材。",
+   "封面图注": "亨利·霍利迪《但丁与贝雅特丽齐》（1883，利物浦沃克美术馆）· 公有领域 · 图源 Wikimedia Commons",
+   "slug": "mono-no-aware",
+   "record_id": "reczz28HJJL2A7W7",
+   "cover": "assets/feishu/covers/mono-no-aware.jpg",
+   "cover_file": "但丁与贝雅特丽齐_霍利迪_公有领域.jpg"
+  },
+  {
+   "章节名": "日常",
+   "英文名": "Infra-ordinary",
+   "章名展示": "日常 Infra-ordinary｜沉浸式独处与烟火味",
+   "序号": 9,
+   "状态": "已上线",
+   "一句定义": "日常由那些天天发生、因太熟悉而常被略过的动作组成。",
+   "钩子": "早上七点，水壶响了，有人煎一个蛋，再把灶台擦干净。你看完一整段视频，竟没等到任何大事。这些动作之所以耐看，是有人把一天一点点过出来。",
+   "封面图注": "费利克斯·瓦洛东《晚餐，灯光效果》（1899，巴黎奥赛博物馆）· 公有领域 · 图源 Wikimedia Commons",
+   "slug": "infra-ordinary",
+   "record_id": "reczz28HJJL2A7Z3",
+   "cover": "assets/feishu/covers/infra-ordinary.jpg",
+   "cover_file": "晚餐灯光效果_瓦洛东_公有领域.jpg"
+  },
+  {
+   "章节名": "侘寂",
+   "英文名": "Wabi-sabi",
+   "章名展示": "侘寂 Wabi-sabi｜破碎感与质朴",
+   "序号": 10,
+   "状态": "已上线",
+   "一句定义": "侘寂在简朴、老去和缺口里看见被使用过的时间。",
+   "钩子": "土墙抹得不匀，陶杯的口也不圆，放在一起却让人想伸手摸。若只给房间套米灰滤镜，旧会变成表面处理。侘寂关心的是材料怎样被时间和人留下痕迹。",
+   "封面图注": "威廉·克拉斯·赫达《肉馅饼宴席静物》（1635，华盛顿国家美术馆）· CC0 · 图源 Wikimedia Commons",
+   "slug": "wabi-sabi",
+   "record_id": "reczz28HJJL2A7cu",
+   "cover": "assets/feishu/covers/wabi-sabi.jpg",
+   "cover_file": "肉馅饼宴席静物_赫达_CC0.jpg"
+  },
+  {
+   "章节名": "气韵",
+   "英文名": "Qiyun",
+   "章名展示": "气韵 Qiyun｜新中式与水墨",
+   "序号": 11,
+   "状态": "已上线",
+   "一句定义": "气韵是作品内部那股仍在活动的生命感，静止的形也像在呼吸。",
+   "钩子": "一枝淡墨梅花从画角伸出来，枝梢还没到纸边，你却觉得它要继续长。新中式或水墨作品常被夸“有气韵”，难说清的正是这股没有被画面关住的活气。",
+   "封面图注": "梁楷《泼墨仙人图》（南宋，台北故宫博物院）· 公有领域 · 图源 Wikimedia Commons",
+   "slug": "qiyun",
+   "record_id": "reczz28HJJL2A7fd",
+   "cover": "assets/feishu/covers/qiyun.jpg",
+   "cover_file": "泼墨仙人图_梁楷_公有领域.jpg"
+  },
+  {
+   "章节名": "侠",
+   "英文名": "Xia",
+   "章名展示": "侠 Xia｜武侠与魏晋风",
+   "序号": 12,
+   "状态": "已上线",
+   "一句定义": "侠站在现成规矩之外，仍认真守住自己认下的责任。",
+   "钩子": "一个人背着剑走进客栈，另一个人在竹林里放下酒杯。服装和姿态可以不同，问题却相近：当现成的规矩没法替人作答，他们各自凭什么决定要做什么？",
+   "封面图注": "孙位《高逸图》局部（唐，上海博物馆）· 公有领域 · 图源 Wikimedia Commons",
+   "slug": "xia",
+   "record_id": "reczz28HJJL2A7jB",
+   "cover": "assets/feishu/covers/xia.jpg",
+   "cover_file": "高逸图_孙位_公有领域.jpg"
+  },
+  {
+   "章节名": "轻逸",
+   "英文名": "Lightness",
+   "章名展示": "轻逸 Lightness｜轻盈与清透",
+   "序号": 13,
+   "状态": "已上线",
+   "一句定义": "轻逸让重量松开一点，使人感到物体正在向上或向外获得自由。",
+   "钩子": "白纱被风带起，水杯在逆光里发亮；两张图都想让人觉得轻。若只不断加白、羽毛和柔光，东西会变薄，却未必真的离开重力。轻逸要先让你感觉到它原本有多重。",
+   "封面图注": "威廉·透纳《蓝色的里吉山》（1842，伦敦泰特美术馆）· 公有领域 · 图源 Wikimedia Commons",
+   "slug": "lightness",
+   "record_id": "reczz28HJJL2A7mr",
+   "cover": "assets/feishu/covers/lightness.jpg",
+   "cover_file": "蓝色的里吉山_透纳_公有领域.jpg"
+  },
+  {
+   "章节名": "崇高",
+   "英文名": "Sublime",
+   "章名展示": "崇高 Sublime｜史诗感与巨物感",
+   "序号": 14,
+   "状态": "已上线",
+   "一句定义": "崇高让人安全地面对远大于自身的力量，于是害怕也变得令人想看。",
+   "钩子": "雪山前的人小得像一点灰，云还在往下压。你想退，又不舍得把目光移开。这种感觉不只叫“震撼”；它需要你看清自己的尺度，也知道眼前的力量暂时够不到你。",
+   "封面图注": "弗雷德里克·埃德温·丘奇《北极光》（1865，史密森尼美国艺术博物馆）· 公有领域 · 图源 Wikimedia Commons",
+   "slug": "sublime",
+   "record_id": "reczz28HJJL2A7qg",
+   "cover": "assets/feishu/covers/sublime.jpg",
+   "cover_file": "北极光_丘奇_公有领域.jpg"
+  },
+  {
+   "章节名": "从容",
+   "英文名": "Sprezzatura",
+   "章名展示": "从容 Sprezzatura｜松弛感与法式不经意",
+   "序号": 15,
+   "状态": "已上线",
+   "一句定义": "从容是功夫已经在身上，动作却不必每一步都展示用力。",
+   "钩子": "有人把袖口随手卷起，坐下就能把话接住。看起来没准备，其实每个动作都恰好。法式与松弛感常借这股劲，却不是一套白衬衫加咖啡就能买来的。",
+   "封面图注": "皮埃尔-奥古斯特·雷诺阿《船上的午宴》（1880–1881，华盛顿菲利普斯收藏馆）· 公有领域 · 图源 Wikimedia Commons",
+   "slug": "sprezzatura",
+   "record_id": "reczz28HJJL2A7th",
+   "cover": "assets/feishu/covers/sprezzatura.jpg",
+   "cover_file": "船上的午宴_雷诺阿_公有领域.jpg"
+  },
+  {
+   "章节名": "酷",
+   "英文名": "Cool",
+   "章名展示": "酷 Cool｜嚣张与朋克",
+   "序号": 16,
+   "状态": "已上线",
+   "一句定义": "酷让外在的热度与内在的定力同时存在；动作再放开，心也稳得住。",
+   "钩子": "墨镜、银链和皮衣都齐了，人却只是板着脸站在墙前。另一人不戴这些，面对乱局仍能稳稳接住自己的动作。为什么后者更酷？差别往往在控制，而不在道具。",
+   "封面图注": "长泽芦雪《虎图》局部（1786–1787，和歌山县串本町无量寺）· 公有领域 · 图源 Wikimedia Commons",
+   "slug": "cool",
+   "record_id": "reczz28HJJL2A7x1",
+   "cover": "assets/feishu/covers/cool.jpg",
+   "cover_file": "虎图_局部_长泽芦雪_公有领域.jpg"
+  },
+  {
+   "章节名": "怪诞",
+   "英文名": "Grotesque",
+   "章名展示": "怪诞 Grotesque｜反诗意",
+   "序号": 17,
+   "状态": "已上线",
+   "一句定义": "怪诞把崇高与低俗、好笑与不适拉到同一张桌上。",
+   "钩子": "一张庄严的名画被配上周一不想上班的抱怨；甜品在特写里化到有点像身体。你笑出声，又觉得哪里不太对。怪诞不只做“怪”，它让原本高低分明的东西挨在一起。",
+   "封面图注": "传老彼得·勃鲁盖尔《伊卡洛斯坠落的风景》（比利时皇家美术馆）· 公有领域 · 图源 Wikimedia Commons",
+   "slug": "grotesque",
+   "record_id": "reczz28HJJL2A80l",
+   "cover": "assets/feishu/covers/grotesque.jpg",
+   "cover_file": "伊卡洛斯坠落的风景_传勃鲁盖尔_公有领域.jpg"
+  },
+  {
+   "章节名": "阴翳",
+   "英文名": "In Praise of Shadows",
+   "章名展示": "阴翳 In Praise of Shadows｜暗黑与昏黄",
+   "序号": 18,
+   "状态": "已上线",
+   "一句定义": "阴翳让光只照到一部分，使暗处也能参与观看。",
+   "钩子": "关掉顶灯，只留桌上的一盏小灯。茶杯、手和半张脸被照见，屋子其他地方慢慢退进暗处。暗黑与昏黄都可能从这里分出方向；关键是灯没有替你看完全部。",
+   "封面图注": "乔治·德·拉图尔《木匠圣约瑟》局部（约 1642–1644，巴黎卢浮宫）· 公有领域 · 图源 Wikimedia Commons",
+   "slug": "in-praise-of-shadows",
+   "record_id": "reczz28HJJL2A84Y",
+   "cover": "assets/feishu/covers/in-praise-of-shadows.jpg",
+   "cover_file": "jos_candle.jpg"
+  },
+  {
+   "章节名": "悲剧",
+   "英文名": "Tragic",
+   "章名展示": "悲剧 Tragic｜宿命感与刀子",
+   "序号": 19,
+   "状态": "已上线",
+   "一句定义": "悲剧让人的选择撞上无法轻易避开的后果；心疼之外，还有对自身的害怕。",
+   "钩子": "一段剪辑把初见和永别放在同一个路口；一篇故事让当年没送出的礼物多年后又出现。你会为人物心疼，也会想到：换成自己，是否真的能躲开？",
+   "封面图注": "约翰·埃弗里特·米莱《盲女》（1856，伯明翰博物馆与美术馆）· 公有领域 · 图源 Wikimedia Commons",
+   "slug": "tragic",
+   "record_id": "reczz28HJJL2A87F",
+   "cover": "assets/feishu/covers/tragic.jpg",
+   "cover_file": "盲女_米莱_公有领域.jpg"
+  },
+  {
+   "章节名": "废墟",
+   "英文名": "Ruin",
+   "章名展示": "废墟 Ruin｜废土与末世",
+   "序号": 20,
+   "状态": "已上线",
+   "一句定义": "废墟是人造的秩序退去以后，时间与自然继续使用那块地方。",
+   "钩子": "屋顶没了，墙缝里却长出小树，铁门锈得发红。你知道这里曾有人住过，也看见他们离开后另一些事正在发生。废墟吸引人，不能只靠“破”，还要让两段时间同框。",
+   "封面图注": "托马斯·科尔《帝国的进程：荒芜》（1836，纽约历史学会）· 公有领域 · 图源 Wikimedia Commons",
+   "slug": "ruin",
+   "record_id": "reczz28HJJL2A8AY",
+   "cover": "assets/feishu/covers/ruin.jpg",
+   "cover_file": "帝国的进程荒芜_科尔_公有领域.jpg"
+  },
+  {
+   "章节名": "未来想象",
+   "英文名": "Future Imaginaries",
+   "章名展示": "未来想象 Future Imaginaries｜赛博朋克",
+   "序号": 21,
+   "状态": "已上线",
+   "一句定义": "坎普明知自己在表演，偏把装饰和夸张认真做到尽兴。",
+   "钩子": "霓虹照在湿漉漉的巷子里，义体的接缝闪一下；另一边，旧杂志上的圆润飞船正飞过塑料蓝的天空。未来想象要的不是预言准不准，而是那套一眼能认出的造型语言。",
+   "封面图注": "奥布里·比亚兹莱《孔雀裙》（1893，王尔德《莎乐美》插图）· CC0 · 图源 Wikimedia Commons",
+   "slug": "future-imaginaries",
+   "record_id": "reczz28HJJL2A8DF",
+   "cover": "assets/feishu/covers/future-imaginaries.jpg",
+   "cover_file": "孔雀裙_比亚兹莱_CC0.jpg"
+  },
+  {
+   "章节名": "乡愁",
+   "英文名": "Nostalgia",
+   "章名展示": "乡愁 Nostalgia｜复古与日杂",
+   "序号": 22,
+   "状态": "已上线",
+   "一句定义": "乡愁想回到一个地方：它可能已经不在，也可能只在想象里存在过。",
+   "钩子": "你翻出小时候的贴纸，又看见一张自己出生前的摇滚海报，竟然都觉得亲近。一个是亲身经历的过去，一个根本没赶上。乡愁会把这两种时间放到同一只手里。",
+   "封面图注": "老彼得·勃鲁盖尔《儿童游戏》（1560，维也纳艺术史博物馆）· 公有领域 · 图源 Wikimedia Commons",
+   "slug": "nostalgia",
+   "record_id": "reczz28HJJL2A73I",
+   "cover": "assets/feishu/covers/nostalgia.jpg",
+   "cover_file": "儿童游戏_勃鲁盖尔_公有领域.jpg"
+  },
+  {
+   "章节名": "诡异",
+   "英文名": "Uncanny",
+   "章名展示": "诡异 Uncanny｜梦核与阈限空间",
+   "序号": 23,
+   "状态": "已上线",
+   "一句定义": "诡异从熟悉的东西里冒出来：一切都像平常，只差了一点点。",
+   "钩子": "放学后的走廊灯还亮着，教室里却一个人也没有。你认得每扇门，却突然不想往前走。诡异常常从这里开始：地方没有变成别的东西，只是平常的用法出了点偏差。",
+   "封面图注": "亨利·菲斯利《梦魇》（1781，底特律美术馆）· 公有领域 · 图源 Wikimedia Commons",
+   "slug": "uncanny",
+   "record_id": "reczz28HJJL2A6l4",
+   "cover": "assets/feishu/covers/uncanny.jpg",
+   "cover_file": "梦魇_菲斯利_公有领域.jpg"
+  },
+  {
+   "章节名": "可爱",
+   "英文名": "Cute",
+   "章名展示": "可爱 Cute｜甜亚系与 Coquette",
+   "序号": 24,
+   "状态": "已上线",
+   "一句定义": "可爱让你想保护一个小东西，也可能让你忍不住想轻轻捏它。",
+   "钩子": "小猫的头比身体显得大，脚短短的，刚学会走路就抬头看你。你想帮它，也想摸一下那张脸。可爱不只是外形甜，它还会同时叫醒照顾与轻微捉弄的冲动。",
+   "封面图注": "让-奥诺雷·弗拉戈纳尔《秋千》（1767，伦敦华莱士收藏馆）· 公有领域 · 图源 Wikimedia Commons",
+   "slug": "cute",
+   "record_id": "reczz28HJJL2A6zi",
+   "cover": "assets/feishu/covers/cute.jpg",
+   "cover_file": "秋千_弗拉戈纳尔_公有领域.jpg"
   }
  ]
 }

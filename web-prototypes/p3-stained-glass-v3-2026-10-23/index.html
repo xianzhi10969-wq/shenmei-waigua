@@ -1,10 +1,10 @@
 <!doctype html><html lang="zh"><head><meta charset="utf-8">
-<title>审美外挂 · P3 彩窗 v3（全量彩色封面 · 待夕里审）</title>
+<title>审美外挂 · P3 彩窗 v3（24 一级专题条带 · 待夕里审）</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <style>
 @font-face{font-family:CabinetSong;src:url(assets/cabinet-song.ttf) format("truetype");font-display:block}
 :root{--ink:#1E1E1E;--paper:#F6F3ED}
-html,body{margin:0;background:var(--paper)} html{overflow-x:clip}
+html{overflow-x:clip} html,body{margin:0;background:var(--paper)}
 #desk{position:relative;width:1440px;margin:0 auto}
 #p1{position:relative;width:1440px;height:900px;background:#f9f6ef}
 #p1 .lay{position:absolute;left:0;top:64px;width:1440px;height:836px;opacity:0}
@@ -15,39 +15,49 @@ html,body{margin:0;background:var(--paper)} html{overflow-x:clip}
 @keyframes fade{to{opacity:1}}
 @keyframes wipe{from{opacity:0;clip-path:inset(0 0 18% 0)}to{opacity:1;clip-path:inset(0 0 0 0)}}
 #p2{display:block;width:1440px;height:811px}
-#mob{display:none} #mob img{display:block;width:100%;height:auto}
-body.m #desk{display:none} body.m #mob{display:block}
+#mob{display:none}#mob img{display:block;width:100%;height:auto}
+body.m #desk{display:none}body.m #mob{display:block}
 @media (max-width:899px){#desk{display:none}#mob{display:block}}
 body.p3only #desk,body.p3only #mob{display:none}
 #p3{position:relative;height:380vh}
 .stage{position:sticky;top:0;height:100vh;overflow:hidden;background:var(--paper)}
-.win-wrap{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);display:flex;align-items:center;justify-content:center;width:100%;height:100%;pointer-events:none;z-index:3}
-.win-wrap img{display:block;height:min(90vh,1000px);width:auto;max-width:94vw;opacity:0;pointer-events:auto}
-body.m .win-wrap img{height:min(86vh,820px)}
-.win-wrap img.on{opacity:1}
+.win{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:3;touch-action:pan-y;cursor:grab}
+.win:active{cursor:grabbing}
+.win .panes{position:absolute;inset:0}
+.win .pane{position:absolute;overflow:hidden;background:var(--ink)}
+.win .pane img{width:100%;height:100%;object-fit:cover;object-position:center 30%;display:block;pointer-events:none;
+  transition:opacity .22s ease, transform .22s ease}
+.win .chassis{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;display:block}
+.win .ctitle{position:absolute;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  color:var(--paper);text-align:center;pointer-events:none;opacity:0;transition:opacity .2s}
+.win .ctitle.on{opacity:1}
+.win .ctitle .zh{font-family:CabinetSong,"Noto Serif CJK SC",serif;letter-spacing:.14em;margin:0;line-height:1.1}
+.win .ctitle .la{font:italic 0.55em Georgia,serif;letter-spacing:.18em;margin:.2em 0 0;opacity:.95}
 .night{position:absolute;left:0;right:0;background:var(--ink);will-change:transform;z-index:2}
 .sky{top:0}.water{bottom:0}
 .wline{position:absolute;left:0;right:0;top:0;height:1px;background:var(--paper)}
-#star{position:fixed;left:0;top:0;width:156px;height:156px;z-index:20;pointer-events:none;will-change:transform,opacity;opacity:0}
+#star{position:fixed;left:0;top:0;width:156px;height:156px;z-index:20;pointer-events:none;opacity:0}
 #star svg{position:absolute;inset:0;width:100%;height:100%}
-#sCream{opacity:0} body.m #star{width:90px;height:90px}
-.nav{position:absolute;top:50%;width:44px;height:44px;border:0;background:none;font:22px Georgia,serif;color:var(--ink);display:none;z-index:5;transform:translateY(-50%)}
-body.m .nav{display:block}
+#sCream{opacity:0}body.m #star{width:90px;height:90px}
+.nav{position:absolute;top:50%;width:48px;height:48px;border:0;background:none;font:28px Georgia,serif;color:var(--ink);z-index:5;transform:translateY(-50%);cursor:pointer;opacity:.85}
+.nav:hover{opacity:1}
+#prev{left:1.2vw}#next{right:1.2vw}
 .note{position:absolute;right:14px;bottom:10px;font:11px/1.5 "Noto Serif CJK SC",serif;color:var(--ink);z-index:6}
 body.m .note{left:8px;right:8px;bottom:4px;font-size:9px;text-align:center}
-#cap{z-index:4;position:absolute;left:3vw;top:50%;width:min(20vw,280px);transform:translateY(-50%);color:var(--ink);font-family:CabinetSong,"Noto Serif CJK SC",serif;opacity:0;transition:opacity .25s;z-index:4;pointer-events:none}
+#cap{position:absolute;left:2.5vw;top:50%;width:min(18vw,260px);transform:translateY(-50%);color:var(--ink);font-family:CabinetSong,"Noto Serif CJK SC",serif;opacity:0;transition:opacity .25s;z-index:4;pointer-events:none}
 #cap.on{opacity:1}
-#cap .zh{font-size:26px;letter-spacing:.14em;margin:0 0 4px}
-#cap .la{font:italic 12px Georgia,serif;letter-spacing:.18em;margin:0 0 14px}
-#cap .def{font-size:15px;line-height:1.75;margin:0 0 12px}
+#cap .zh{font-size:24px;letter-spacing:.14em;margin:0 0 4px}
+#cap .la{font:italic 11px Georgia,serif;letter-spacing:.18em;margin:0 0 12px}
+#cap .def{font-size:14px;line-height:1.75;margin:0 0 10px}
 #cap .cr{font:10px/1.5 "Noto Serif CJK SC",serif;margin:0;border-top:1px solid var(--ink);padding-top:8px}
-body.m #cap{z-index:4;left:5vw;right:5vw;width:auto;top:1.5vh;transform:none;text-align:center}
-body.m #cap .zh,body.m #cap .la{display:none} body.m #cap .def{font-size:13px;margin:0 0 4px} body.m #cap .cr{font-size:9px;border:0;padding:0}
+body.m #cap{left:5vw;right:5vw;width:auto;top:1.2vh;transform:none;text-align:center}
+body.m #cap .zh,body.m #cap .la{display:none}body.m #cap .def{font-size:12px;margin:0 0 4px}body.m #cap .cr{font-size:9px;border:0;padding:0}
 #after{height:50vh;display:flex;align-items:center;justify-content:center;font:13px "Noto Serif CJK SC",serif;color:var(--ink)}
-@media (prefers-reduced-motion: reduce){
-  #p3{height:auto} .stage{position:relative;height:100vh}
-  .night{display:none} .win-wrap img{opacity:1}
+#dot{position:absolute;left:50%;bottom:1.2vh;transform:translateX(-50%);font:10px/1 Georgia,serif;color:var(--ink);opacity:.7;z-index:6;letter-spacing:.06em}
+@media (prefers-reduced-motion:reduce){
+  #p3{height:auto}.stage{position:relative;height:100vh}.night{display:none}
   #bg,#shrine,#woman,#text{animation:none;opacity:1}
+  .win .pane img,.win .ctitle{transition:none}
 }
 </style></head><body>
 <script>if(matchMedia('(max-width:899px)').matches)document.body.classList.add('m')</script>
@@ -60,51 +70,99 @@ body.m #cap .zh,body.m #cap .la{display:none} body.m #cap .def{font-size:13px;ma
  </section>
  <img id="p2" src="assets/v4/p2_nostar.png" alt="">
 </div>
-<div id="mob"><img id="mp1" src="assets/m_p1.png" alt="" width="390" height="844"><img id="mp2" src="assets/m_p2_nostar.png" alt="" width="390" height="1060"></div>
+<div id="mob"><img src="assets/m_p1.png" alt="" width="390" height="844"><img src="assets/m_p2_nostar.png" alt="" width="390" height="1060"></div>
 <section id="p3"><div class="stage" id="stage">
- <div class="win-wrap" id="wins">
-  <img id="winWeb" class="on" src="assets/window-web.png" alt="P3 彩窗五联 · 彩色封面">
-  <img id="winMob" src="assets/renders/window-mobile-c2.png" alt="P3 彩窗手机" style="display:none">
+ <div class="win" id="win" aria-label="一级专题彩窗，左右切换">
+  <div class="panes" id="panes"></div>
+  <img class="chassis" id="chassis" alt="">
+  <div class="ctitle" id="ctitle"><p class="zh"></p><p class="la"></p></div>
  </div>
  <div class="night sky" id="sky"></div>
  <div class="night water" id="water"><div class="wline"></div></div>
- <button class="nav" id="prev" aria-label="上一个专题" style="left:2vw">‹</button>
- <button class="nav" id="next" aria-label="下一个专题" style="right:2vw">›</button>
+ <button class="nav" id="prev" aria-label="上一个专题">‹</button>
+ <button class="nav" id="next" aria-label="下一个专题">›</button>
  <div id="cap"><p class="zh"></p><p class="la"></p><p class="def"></p><p class="cr"></p></div>
- <div class="note">P3 彩窗 v3 · 全量彩色封面 · 待夕里审 · 封面原色为例外</div>
+ <div id="dot"></div>
+ <div class="note">P3 彩窗 v3 · 24 一级专题条带 · 每次卡一格 · 侧格不显示题名 · 待夕里审</div>
 </div></section>
 <div id="after">（P4 书册未接入；v9 仍是 P3/P4 基线）</div>
 <div id="star"><div id="sInk"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-60 -60 120 120"><style>.sio{fill:none;stroke:#1E1E1E;stroke-width:1.5;stroke-linejoin:miter;stroke-miterlimit:12}.sif{fill:none;stroke:#1E1E1E;stroke-width:.6;stroke-linecap:round}.sid{fill:#1E1E1E}</style><path d="M0.00,0.00 L-4.20,-9.00 L0.00,-44.00 L4.20,-9.00 Z" class="sio"/><path d="M0.00,-5.40 L0.00,-37.84" class="sif"/><path d="M0.00,0.00 L8.00,-3.60 L30.00,-0.00 L8.00,3.60 Z" class="sio"/><path d="M4.80,-0.00 L25.80,-0.00" class="sif"/><path d="M0.00,0.00 L4.20,9.00 L0.00,44.00 L-4.20,9.00 Z" class="sio"/><path d="M0.00,5.40 L0.00,37.84" class="sif"/><path d="M0.00,0.00 L-8.00,3.60 L-30.00,0.00 L-8.00,-3.60 Z" class="sio"/><path d="M-4.80,0.00 L-25.80,0.00" class="sif"/><path d="M0.00,0.00 L2.55,-5.94 L10.61,-10.61 L5.94,-2.55 Z" class="sio"/><path d="M2.55,-2.55 L9.12,-9.12" class="sif"/><path d="M0.00,0.00 L5.94,2.55 L10.61,10.61 L2.55,5.94 Z" class="sio"/><path d="M2.55,2.55 L9.12,9.12" class="sif"/><path d="M0.00,0.00 L-2.55,5.94 L-10.61,10.61 L-5.94,2.55 Z" class="sio"/><path d="M-2.55,2.55 L-9.12,9.12" class="sif"/><path d="M0.00,0.00 L-5.94,-2.55 L-10.61,-10.61 L-2.55,-5.94 Z" class="sio"/><path d="M-2.55,-2.55 L-9.12,-9.12" class="sif"/><circle cx="0" cy="0" r="5.2" class="sio" style="fill:#F6F3ED"/><circle cx="0" cy="0" r="2.6" class="sif"/></svg></div><div id="sCream"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-60 -60 120 120"><style>.sco{fill:none;stroke:#F6F3ED;stroke-width:1.5;stroke-linejoin:miter;stroke-miterlimit:12}.scf{fill:none;stroke:#F6F3ED;stroke-width:.6;stroke-linecap:round}.scd{fill:#F6F3ED}</style><path d="M0.00,0.00 L-4.20,-9.00 L0.00,-44.00 L4.20,-9.00 Z" class="sco"/><path d="M0.00,-5.40 L0.00,-37.84" class="scf"/><path d="M0.00,0.00 L8.00,-3.60 L30.00,-0.00 L8.00,3.60 Z" class="sco"/><path d="M4.80,-0.00 L25.80,-0.00" class="scf"/><path d="M0.00,0.00 L4.20,9.00 L0.00,44.00 L-4.20,9.00 Z" class="sco"/><path d="M0.00,5.40 L0.00,37.84" class="scf"/><path d="M0.00,0.00 L-8.00,3.60 L-30.00,0.00 L-8.00,-3.60 Z" class="sco"/><path d="M-4.80,0.00 L-25.80,0.00" class="scf"/><path d="M0.00,0.00 L2.55,-5.94 L10.61,-10.61 L5.94,-2.55 Z" class="sco"/><path d="M2.55,-2.55 L9.12,-9.12" class="scf"/><path d="M0.00,0.00 L5.94,2.55 L10.61,10.61 L2.55,5.94 Z" class="sco"/><path d="M2.55,2.55 L9.12,9.12" class="scf"/><path d="M0.00,0.00 L-2.55,5.94 L-10.61,10.61 L-5.94,2.55 Z" class="sco"/><path d="M-2.55,2.55 L-9.12,9.12" class="scf"/><path d="M0.00,0.00 L-5.94,-2.55 L-10.61,-10.61 L-2.55,-5.94 Z" class="sco"/><path d="M-2.55,-2.55 L-9.12,-9.12" class="scf"/><circle cx="0" cy="0" r="5.2" class="sco" style="fill:#1E1E1E"/><circle cx="0" cy="0" r="2.6" class="scf"/></svg></div></div>
 <script>
-const TOPICS={"liubai": {"zh": "留白", "la": "Liubai", "define": "留白不是空着省事，而是把必要的线索放好，再让观众走进未画出的部分。", "credit": "马远《寒江独钓图》（南宋，东京国立博物馆）· 公有领域 · 图源 Wikimedia Commons", "cover": "assets/feishu/covers/liubai.jpg"}, "melancholy": {"zh": "忧郁", "la": "Melancholy", "define": "忧郁，是生活还在继续，而有一部分自己停在了原地。", "credit": "Vilhelm Hammershøi《Interior, Strandgade 30》", "cover": "assets/feishu/covers/melancholy.jpeg"}, "eros": {"zh": "爱欲", "la": "Eros", "define": "爱欲从缺口里生长：你想要的还没得到，因此一直向它靠近。", "credit": "约翰内斯·维米尔《窗前读信的少女》（约 1657–1659，德累斯顿历代大师画廊）· 公有领域 · 图源 Wikimedia Commons", "cover": "assets/feishu/covers/eros.jpg"}, "arcadia": {"zh": "田园", "la": "Arcadia", "define": "田园给疲惫的人一处可想象的栖身之地，也让人暂时放慢脚步。", "credit": "文森特·凡·高《麦田里的收割者》（1889，阿姆斯特丹凡·高博物馆）· 公有领域 · 图源 Wikimedia Commons", "cover": "assets/feishu/covers/arcadia.jpg"}, "yugen": {"zh": "幽玄", "la": "Yūgen", "define": "幽玄把可见的部分留在眼前，让更深的一层停在难以说尽的地方。", "credit": "上村松园《序之舞》（1936，东京艺术大学大学美术馆）· 公有领域 · 图源 Wikimedia Commons", "cover": "assets/feishu/covers/yugen.jpg"}}, ORDER=["liubai", "melancholy", "eros", "arcadia", "yugen"];
+const TOPICS=[{"slug": "melancholy", "zh": "忧郁", "la": "Melancholy", "define": "忧郁，是生活还在继续，而有一部分自己停在了原地。", "credit": "Vilhelm Hammershøi《Interior, Strandgade 30》", "seq": 1, "pane": "assets/panes/melancholy.jpg"}, {"slug": "eros", "zh": "爱欲", "la": "Eros", "define": "爱欲从缺口里生长：你想要的还没得到，因此一直向它靠近。", "credit": "约翰内斯·维米尔《窗前读信的少女》（约 1657–1659，德累斯顿历代大师画廊）· 公有领域 · 图源 Wikimedia Commons", "seq": 2, "pane": "assets/panes/eros.jpg"}, {"slug": "arcadia", "zh": "田园", "la": "Arcadia", "define": "田园给疲惫的人一处可想象的栖身之地，也让人暂时放慢脚步。", "credit": "文森特·凡·高《麦田里的收割者》（1889，阿姆斯特丹凡·高博物馆）· 公有领域 · 图源 Wikimedia Commons", "seq": 3, "pane": "assets/panes/arcadia.jpg"}, {"slug": "yugen", "zh": "幽玄", "la": "Yūgen", "define": "幽玄把可见的部分留在眼前，让更深的一层停在难以说尽的地方。", "credit": "上村松园《序之舞》（1936，东京艺术大学大学美术馆）· 公有领域 · 图源 Wikimedia Commons", "seq": 4, "pane": "assets/panes/yugen.jpg"}, {"slug": "dionysian", "zh": "酒神", "la": "Dionysian", "define": "酒神让个人的边界暂时松开，情绪随着节奏涌进人群。", "credit": "提香《酒神与阿里阿德涅》（1520–1523，伦敦国家美术馆）· 公有领域 · 图源 Wikimedia Commons", "seq": 5, "pane": "assets/panes/dionysian.jpg"}, {"slug": "liubai", "zh": "留白", "la": "Liubai", "define": "留白不是空着省事，而是把必要的线索放好，再让观众走进未画出的部分。", "credit": "马远《寒江独钓图》（南宋，东京国立博物馆）· 公有领域 · 图源 Wikimedia Commons", "seq": 6, "pane": "assets/panes/liubai.jpg"}, {"slug": "pingdan", "zh": "平淡", "la": "Pingdan", "define": "平淡把复杂经历收在很轻的表达里；情绪没有消失，只是不急着外露。", "credit": "维尔海姆·哈默修伊《斯特兰德街的室内，地板上的阳光》（1901，丹麦国立美术馆）· 公有领域 · 图源 Wikimedia Commons", "seq": 7, "pane": "assets/panes/pingdan.jpg"}, {"slug": "mono-no-aware", "zh": "物哀", "la": "Mono no aware", "define": "物哀是心被眼前的事物轻轻碰到，也知道这一刻不会永远停着。", "credit": "亨利·霍利迪《但丁与贝雅特丽齐》（1883，利物浦沃克美术馆）· 公有领域 · 图源 Wikimedia Commons", "seq": 8, "pane": "assets/panes/mono-no-aware.jpg"}, {"slug": "infra-ordinary", "zh": "日常", "la": "Infra-ordinary", "define": "日常由那些天天发生、因太熟悉而常被略过的动作组成。", "credit": "费利克斯·瓦洛东《晚餐，灯光效果》（1899，巴黎奥赛博物馆）· 公有领域 · 图源 Wikimedia Commons", "seq": 9, "pane": "assets/panes/infra-ordinary.jpg"}, {"slug": "wabi-sabi", "zh": "侘寂", "la": "Wabi-sabi", "define": "侘寂在简朴、老去和缺口里看见被使用过的时间。", "credit": "威廉·克拉斯·赫达《肉馅饼宴席静物》（1635，华盛顿国家美术馆）· CC0 · 图源 Wikimedia Commons", "seq": 10, "pane": "assets/panes/wabi-sabi.jpg"}, {"slug": "qiyun", "zh": "气韵", "la": "Qiyun", "define": "气韵是作品内部那股仍在活动的生命感，静止的形也像在呼吸。", "credit": "梁楷《泼墨仙人图》（南宋，台北故宫博物院）· 公有领域 · 图源 Wikimedia Commons", "seq": 11, "pane": "assets/panes/qiyun.jpg"}, {"slug": "xia", "zh": "侠", "la": "Xia", "define": "侠站在现成规矩之外，仍认真守住自己认下的责任。", "credit": "孙位《高逸图》局部（唐，上海博物馆）· 公有领域 · 图源 Wikimedia Commons", "seq": 12, "pane": "assets/panes/xia.jpg"}, {"slug": "lightness", "zh": "轻逸", "la": "Lightness", "define": "轻逸让重量松开一点，使人感到物体正在向上或向外获得自由。", "credit": "威廉·透纳《蓝色的里吉山》（1842，伦敦泰特美术馆）· 公有领域 · 图源 Wikimedia Commons", "seq": 13, "pane": "assets/panes/lightness.jpg"}, {"slug": "sublime", "zh": "崇高", "la": "Sublime", "define": "崇高让人安全地面对远大于自身的力量，于是害怕也变得令人想看。", "credit": "弗雷德里克·埃德温·丘奇《北极光》（1865，史密森尼美国艺术博物馆）· 公有领域 · 图源 Wikimedia Commons", "seq": 14, "pane": "assets/panes/sublime.jpg"}, {"slug": "sprezzatura", "zh": "从容", "la": "Sprezzatura", "define": "从容是功夫已经在身上，动作却不必每一步都展示用力。", "credit": "皮埃尔-奥古斯特·雷诺阿《船上的午宴》（1880–1881，华盛顿菲利普斯收藏馆）· 公有领域 · 图源 Wikimedia Commons", "seq": 15, "pane": "assets/panes/sprezzatura.jpg"}, {"slug": "cool", "zh": "酷", "la": "Cool", "define": "酷让外在的热度与内在的定力同时存在；动作再放开，心也稳得住。", "credit": "长泽芦雪《虎图》局部（1786–1787，和歌山县串本町无量寺）· 公有领域 · 图源 Wikimedia Commons", "seq": 16, "pane": "assets/panes/cool.jpg"}, {"slug": "grotesque", "zh": "怪诞", "la": "Grotesque", "define": "怪诞把崇高与低俗、好笑与不适拉到同一张桌上。", "credit": "传老彼得·勃鲁盖尔《伊卡洛斯坠落的风景》（比利时皇家美术馆）· 公有领域 · 图源 Wikimedia Commons", "seq": 17, "pane": "assets/panes/grotesque.jpg"}, {"slug": "in-praise-of-shadows", "zh": "阴翳", "la": "In Praise of Shadows", "define": "阴翳让光只照到一部分，使暗处也能参与观看。", "credit": "乔治·德·拉图尔《木匠圣约瑟》局部（约 1642–1644，巴黎卢浮宫）· 公有领域 · 图源 Wikimedia Commons", "seq": 18, "pane": "assets/panes/in-praise-of-shadows.jpg"}, {"slug": "tragic", "zh": "悲剧", "la": "Tragic", "define": "悲剧让人的选择撞上无法轻易避开的后果；心疼之外，还有对自身的害怕。", "credit": "约翰·埃弗里特·米莱《盲女》（1856，伯明翰博物馆与美术馆）· 公有领域 · 图源 Wikimedia Commons", "seq": 19, "pane": "assets/panes/tragic.jpg"}, {"slug": "ruin", "zh": "废墟", "la": "Ruin", "define": "废墟是人造的秩序退去以后，时间与自然继续使用那块地方。", "credit": "托马斯·科尔《帝国的进程：荒芜》（1836，纽约历史学会）· 公有领域 · 图源 Wikimedia Commons", "seq": 20, "pane": "assets/panes/ruin.jpg"}, {"slug": "future-imaginaries", "zh": "未来想象", "la": "Future Imaginaries", "define": "坎普明知自己在表演，偏把装饰和夸张认真做到尽兴。", "credit": "奥布里·比亚兹莱《孔雀裙》（1893，王尔德《莎乐美》插图）· CC0 · 图源 Wikimedia Commons", "seq": 21, "pane": "assets/panes/future-imaginaries.jpg"}, {"slug": "nostalgia", "zh": "乡愁", "la": "Nostalgia", "define": "乡愁想回到一个地方：它可能已经不在，也可能只在想象里存在过。", "credit": "老彼得·勃鲁盖尔《儿童游戏》（1560，维也纳艺术史博物馆）· 公有领域 · 图源 Wikimedia Commons", "seq": 22, "pane": "assets/panes/nostalgia.jpg"}, {"slug": "uncanny", "zh": "诡异", "la": "Uncanny", "define": "诡异从熟悉的东西里冒出来：一切都像平常，只差了一点点。", "credit": "亨利·菲斯利《梦魇》（1781，底特律美术馆）· 公有领域 · 图源 Wikimedia Commons", "seq": 23, "pane": "assets/panes/uncanny.jpg"}, {"slug": "cute", "zh": "可爱", "la": "Cute", "define": "可爱让你想保护一个小东西，也可能让你忍不住想轻轻捏它。", "credit": "让-奥诺雷·弗拉戈纳尔《秋千》（1767，伦敦华莱士收藏馆）· 公有领域 · 图源 Wikimedia Commons", "seq": 24, "pane": "assets/panes/cute.jpg"}];
+const CHASSIS={web:{"kind": "web", "size": [3211, 3610], "crop": [220, 188, 3431, 3798], "scale": 4, "slots": [{"fill_box": [86, 1196, 424, 1954], "cart_box": [74, 3169, 448, 402]}, {"fill_box": [574, 1036, 573, 2114], "cart_box": [623, 3170, 517, 400]}, {"fill_box": [1226, 1096, 780, 2054], "cart_box": [1270, 3170, 704, 401]}, {"fill_box": [2111, 1039, 555, 2111], "cart_box": [2098, 3169, 520, 401]}, {"fill_box": [2729, 1201, 421, 1949], "cart_box": [2715, 3169, 447, 401]}]},mobile:{"kind": "mobile", "size": [1084, 2469], "crop": [40, 192, 1124, 2661], "scale": 3, "slots": [{"fill_box": [40, 606, 222, 1538], "cart_box": [31, 2188, 160, 183]}, {"fill_box": [296, 577, 477, 1565], "cart_box": [305, 2158, 477, 282]}, {"fill_box": [824, 556, 221, 1583], "cart_box": [896, 2186, 159, 185]}]}};
+const N=TOPICS.length;
 const Q=new URLSearchParams(location.search);
 const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
 const B=document.body; if(Q.get('p3only'))B.classList.add('p3only');
 const cl=(v,a,b)=>Math.min(1,Math.max(0,(v-a)/(b-a))), ss=t=>t*t*(3-2*t), lerp=(a,b,t)=>a+(b-a)*t;
 const $=s=>document.querySelector(s);
 const star=$('#star'), sInk=$('#sInk'), sCream=$('#sCream'), stage=$('#stage'), sky=$('#sky'), water=$('#water');
-const winWeb=$('#winWeb'), winMob=$('#winMob');
-let M=false, ready=reduce, idx=2;
+const win=$('#win'), panes=$('#panes'), chassis=$('#chassis'), ctitle=$('#ctitle');
+let M=false, ready=reduce, idx=1; // start at 爱欲 (序号2) index 1
+let slotEls=[], mid=2;
 const ST=156, V4={x0:798,y0:422,x1:382,y1:1448,TOP:900};
-function showCap(s){
-  const c=$('#cap'); if(!s){c.classList.remove('on');return;}
-  const t=TOPICS[s], p=[...c.querySelectorAll('p')];
-  p[0].textContent=t.zh; p[1].textContent=t.la.toUpperCase(); p[2].textContent=t.define; p[3].textContent='封面：'+t.credit;
+
+function wrap(i){ return ((i%N)+N)%N; }
+function showCap(t){
+  const c=$('#cap'); if(!t){c.classList.remove('on');return;}
+  const p=[...c.querySelectorAll('p')];
+  p[0].textContent=t.zh; p[1].textContent=t.la.toUpperCase(); p[2].textContent=t.define; p[3].textContent=t.credit?('封面：'+t.credit):'';
   c.classList.add('on');
 }
-function setMob(k){
-  idx=(k+5)%5;
-  winMob.src=`assets/renders/window-mobile-c${idx}.png`;
-  showCap(ORDER[idx]);
+function layoutWin(){
+  const ch=CHASSIS[M?'mobile':'web'];
+  const vh=innerHeight, vw=innerWidth;
+  const maxH=M?vh*0.86:vh*0.90, maxW=vw*0.94;
+  const sc=Math.min(maxH/ch.size[1], maxW/ch.size[0]);
+  const W=ch.size[0]*sc, H=ch.size[1]*sc;
+  Object.assign(win.style,{width:W+'px',height:H+'px'});
+  chassis.src=`assets/renders/chassis-${M?'mobile':'web'}.png`;
+  mid=M?1:2;
+  const need=ch.slots.length;
+  while(slotEls.length<need){
+    const d=document.createElement('div'); d.className='pane';
+    const im=document.createElement('img'); im.alt=''; d.appendChild(im); panes.appendChild(d); slotEls.push({el:d,img:im});
+  }
+  slotEls.forEach((s,i)=>{ s.el.style.display=i<need?'block':'none'; });
+  ch.slots.forEach((s,i)=>{
+    const [x,y,w,h]=s.fill_box;
+    Object.assign(slotEls[i].el.style,{left:(x*sc)+'px',top:(y*sc)+'px',width:(w*sc)+'px',height:(h*sc)+'px'});
+  });
+  // centre title over centre cart only
+  const cb=ch.slots[mid].cart_box;
+  Object.assign(ctitle.style,{
+    left:(cb[0]*sc)+'px', top:(cb[1]*sc)+'px', width:(cb[2]*sc)+'px', height:(cb[3]*sc)+'px'
+  });
+  const zh=ctitle.querySelector('.zh'); const la=ctitle.querySelector('.la');
+  zh.style.fontSize=Math.max(14, cb[3]*sc*0.32)+'px';
+  la.style.fontSize=Math.max(9, cb[3]*sc*0.12)+'px';
+  paint();
 }
+function paint(){
+  const ch=CHASSIS[M?'mobile':'web'];
+  const n=ch.slots.length;
+  for(let i=0;i<n;i++){
+    const ti=wrap(idx+(i-mid));
+    const t=TOPICS[ti];
+    const im=slotEls[i].img;
+    if(im.dataset.slug!==t.slug){ im.dataset.slug=t.slug; im.src=t.pane; }
+    // side panes slightly dimmer? keep full colour
+  }
+  const t=TOPICS[idx];
+  ctitle.querySelector('.zh').textContent=[...t.zh].join('　');
+  ctitle.querySelector('.la').textContent=t.la.toUpperCase().split('').join(' ');
+  ctitle.classList.add('on'); // ONLY centre title text — side scrolls stay empty outlines on chassis
+  showCap(t);
+  $('#dot').textContent=`${t.seq} / ${N}  ·  ${t.zh}`;
+}
+function snap(d){ idx=wrap(idx+d); paint(); }
+
 function layout(){
   M=matchMedia('(max-width:899px)').matches; B.classList.toggle('m',M);
-  winWeb.style.display=M?'none':'block'; winMob.style.display=M?'block':'none';
-  winWeb.classList.toggle('on',!M); winMob.classList.toggle('on',M);
+  layoutWin();
   const vh=innerHeight, sillY=vh*0.92;
   sky.style.height=sillY+'px'; water.style.height=(vh-sillY)+'px';
   sky.style.backgroundImage=`url(assets/junction-water-${M?'mob':'desk'}.png)`;
-  if(M) showCap(ORDER[idx]); else showCap(null);
   update();
 }
 function chainEnd(){ return $('#p3').offsetTop; }
@@ -115,25 +173,20 @@ function docStart(){
 }
 function update(){
   queued=false;
-  const vh=innerHeight, y=scrollY, T=chainEnd(), sr=stage.getBoundingClientRect();
+  const vh=innerHeight, y=scrollY, T=chainEnd();
   const span=$('#p3').offsetHeight-vh, q=reduce?1:Math.min(1,Math.max(0,(y-T)/span));
   const size=M?90:ST, half=size/2;
-document.querySelectorAll('.nav').forEach(b=>{b.style.visibility=(M&&(q>.7||reduce))?'visible':'hidden'});
-  // night retreat
+  document.querySelectorAll('.nav').forEach(b=>b.style.visibility=(q>.55||reduce)?'visible':'hidden');
   const n=ss(cl(q,.06,.28));
   sky.style.clipPath=`inset(0 0 ${(n*100).toFixed(2)}% 0)`;
   water.style.transform=`translateY(${(n*(vh*0.08)+2*n).toFixed(1)}px)`;
-  // window reveal
   const r=reduce?1:ss(cl(q,.18,.55));
-  const img=M?winMob:winWeb;
-  img.style.opacity=r.toFixed(3);
-  img.style.clipPath=reduce?'none':`inset(${((1-r)*100).toFixed(2)}% 0 0 0)`;
-  // star
-  let sx,sy,ink=1, op=1;
+  win.style.opacity=r.toFixed(3);
+  win.style.clipPath=reduce?'none':`inset(${((1-r)*100).toFixed(2)}% 0 0 0)`;
+  let sx,sy,ink=1,op=1;
   const s0=docStart();
-  const win=img.getBoundingClientRect();
-  // rose approx: upper centre of window image
-  const cxS=win.left+win.width/2, roseS=win.top+win.height*0.18, sillS=win.bottom-win.height*0.08;
+  const wr=win.getBoundingClientRect();
+  const cxS=wr.left+wr.width/2, roseS=wr.top+wr.height*0.18, sillS=wr.bottom-wr.height*0.08;
   if(reduce){ op=(!M&&s0)?1:0; sx=V4.x0+($('#desk').getBoundingClientRect().left); sy=V4.y0-y; ink=1; }
   else {
     const S1=T-vh; const bodyL=M?0:$('#desk').getBoundingClientRect().left;
@@ -156,19 +209,34 @@ document.querySelectorAll('.nav').forEach(b=>{b.style.visibility=(M&&(q>.7||redu
 let queued=false;
 addEventListener('scroll',()=>{if(!queued){queued=true;requestAnimationFrame(update)}},{passive:true});
 addEventListener('resize',layout);
-if(!reduce){ setTimeout(()=>{ready=true;update()},2900); }
-$('#prev').onclick=()=>setMob(idx-1); $('#next').onclick=()=>setMob(idx+1);
-let px=null; stage.addEventListener('pointerdown',e=>{px=e.clientX});
-stage.addEventListener('pointerup',e=>{ if(M&&px!==null&&Math.abs(e.clientX-px)>40) setMob(idx+(e.clientX<px?1:-1)); px=null; });
-// desktop hover caption on centre — approximate via mouse over window centre third
-winWeb.addEventListener('mousemove',e=>{
-  if(M) return;
-  const r=winWeb.getBoundingClientRect(); const u=(e.clientX-r.left)/r.width;
-  const i=u<.28?0:u<.42?1:u<.58?2:u<.72?3:4;
-  showCap(ORDER[i]);
+if(!reduce) setTimeout(()=>{ready=true;update()},2900);
+
+// ---- snap ONE lancet at a time (no free scroll) ----
+$('#prev').onclick=()=>snap(-1); $('#next').onclick=()=>snap(1);
+addEventListener('keydown',e=>{
+  if(e.key==='ArrowLeft'){e.preventDefault();snap(-1);}
+  if(e.key==='ArrowRight'){e.preventDefault();snap(1);}
 });
-winWeb.addEventListener('mouseleave',()=>{ if(!M) showCap(null); });
+let px=null, dragging=false;
+win.addEventListener('pointerdown',e=>{px=e.clientX; dragging=true; win.setPointerCapture?.(e.pointerId);});
+win.addEventListener('pointerup',e=>{
+  if(!dragging||px===null) return;
+  const dx=e.clientX-px; px=null; dragging=false;
+  if(Math.abs(dx)>36) snap(dx<0?1:-1); // swipe left → next topic
+});
+win.addEventListener('pointercancel',()=>{px=null;dragging=false;});
+// trackpad / wheel: horizontal intent snaps one
+let wheelLock=false;
+win.addEventListener('wheel',e=>{
+  if(Math.abs(e.deltaX)<Math.abs(e.deltaY)*1.2) return; // ignore vertical page scroll
+  e.preventDefault();
+  if(wheelLock) return;
+  if(Math.abs(e.deltaX)<8) return;
+  wheelLock=true; snap(e.deltaX>0?1:-1);
+  setTimeout(()=>wheelLock=false, 280);
+},{passive:false});
+
 window.__q=v=>{ scrollTo(0,chainEnd()+v*($('#p3').offsetHeight-innerHeight)); };
-window.__setMob=setMob;
+window.__snap=snap; window.__setIdx=i=>{idx=wrap(i);paint();};
 addEventListener('load',layout); layout();
 </script></body></html>

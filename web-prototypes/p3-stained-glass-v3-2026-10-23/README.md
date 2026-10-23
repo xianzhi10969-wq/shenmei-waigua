@@ -1,46 +1,54 @@
-# P3 彩窗 v3（2026-10-23）· 全量彩色封面 · 待夕里审 · 非基线
+# P3 彩窗 v3（2026-10-23）· 24 一级专题条带 · 每次卡一格 · 待夕里审 · 非基线
 
-夕里：「彩窗感觉可以做全量了。」本版按已通过的中窗彩色小样系统，把五个专题都填上飞书原色封面。
+夕里：「彩窗感觉可以做全量了。」又确认：窗须左右滑动，展示**全部**一级专题（非仅五格）；每次卡**一格**；半可见侧格题名不得溢出卷轴。
 
 **没有改 v4 / v9 / 飞书。** v2 标注为被取代（保留未删）。
-
-**Figma（2026-10-23 晚）**：夕里批准后，已将 `01｜CURRENT` 画板 `306:2` 的旧 P3 换成本目录 `assets/window-web.png` / `window-mobile.png`（提案／待审）。旧 P3 迁至 `91｜ARCHIVE`，未删。详见 [视觉研究/P3彩窗/2026-10-23-figma01-p3-v3/](../../视觉研究/P3彩窗/2026-10-23-figma01-p3-v3/README.md)。**v9 代码基线仍受保护。**
 
 ## 打开
 ```
 cd web-prototypes/p3-stained-glass-v3-2026-10-23
 python3 -m http.server 8765
 ```
-桌面 ≥900px 宽；手机自动切三格（中整 + 左右半），‹ › 或左右滑切换专题。
+- 桌面 ≥900px：五联视口（中心 = 焦点）；‹ › / ←→ / 拖拽过阈值 / 横向滚轮 → **每次 ±1 专题**（环绕）
+- 手机：三格（中整 + 左右半），同样每次卡一格，滑过全部 24 题
 
-## 系统（与中窗爱欲彩色小样一致）
-- **白石窗框**：夕里 Figma 459:2 线稿（v2 清理版）
-- **夜玻璃 + 铅线槽**：画心蒙版向内腐蚀，露出墨黑镶边
-- **封面原色**：飞书章节表五张封面，未做单色/线稿（双色规则的唯一例外）
-- **卷轴题签**：爱　欲 / EROS 等同款两色燕尾卷轴
-- 专题顺序同 Figma：留白 · 忧郁 · 爱欲 · 田园 · 幽玄
+## 一级专题（飞书章节表 · 24 · 按序号）
+1. 忧郁 Melancholy · 2. 爱欲 Eros · 3. 田园 Arcadia · 4. 幽玄 Yūgen · 5. 酒神 Dionysian  
+6. 留白 Liubai · 7. 平淡 Pingdan · 8. 物哀 Mono no aware · 9. 日常 Infra-ordinary · 10. 侘寂 Wabi-sabi  
+11. 气韵 Qiyun · 12. 侠 Xia · 13. 轻逸 Lightness · 14. 崇高 Sublime · 15. 从容 Sprezzatura  
+16. 酷 Cool · 17. 怪诞 Grotesque · 18. 阴翳 In Praise of Shadows · 19. 悲剧 Tragic · 20. 废墟 Ruin  
+21. 未来想象 Future Imaginaries · 22. 乡愁 Nostalgia · 23. 诡异 Uncanny · 24. 可爱 Cute
 
-## 产物
+封面自飞书只读缓存于 `assets/feishu/covers/`，裁进 `assets/panes/{slug}.jpg`。
+
+## 系统
+- **白石窗框 + 空卷轴轮廓**：`tools/build_chassis.py` → `assets/renders/chassis-{web,mobile}.png`（侧格卷轴无字）
+- **HTML 题名只写中心格** `#ctitle`：半可见左右格不渲染中/英，避免溢出黑底白框
+- **夜玻璃 + 铅线槽**：画心蒙版向内腐蚀
+- **封面原色**：双色规则的唯一例外（飞书原色封面）
+- **玫瑰窗 / 星**：固定，不随条带移动
+
+## 滑动行为
+| 输入 | 行为 |
+|---|---|
+| ‹ › 按钮 | `snap(±1)` |
+| ← → 键 | 同上 |
+| 指针拖拽 \|dx\| > 36px | 松手后卡 ±1 |
+| 横向滚轮 | 带锁，每次 ±1 |
+| 环绕 | `((i % 24) + 24) % 24` |
+
+## 产物 / 截图
 | 路径 | 说明 |
 |---|---|
-| `assets/window-web.png` / `assets/renders/window-web-full.png` | 桌面五联全窗静帧（3211×3610） |
-| `assets/window-mobile.png` | 手机默认（中=爱欲） |
-| `assets/renders/window-mobile-c0.png` … `c4.png` | 手机五态（中心专题 0–4） |
-| `index.html` | 可滚动原型：P1/P2 → P3 夜退、窗显现、星升；手机可滑 |
-| `checks/` | 自测截图 |
-| `tools/build_windows.py` | 静帧生成（只读飞书本地封面） |
-
-## 动效
-- 滚动可倒放：夜色退去 → 彩窗自下而上显现 → 星 B 从 P2 水面升到玫瑰窗
-- 桌面悬停窗格约略对应专题，左侧出一句定义
-- 手机：‹ › / 滑动切换五个中心专题；上方出一句定义
-- `prefers-reduced-motion`：直接终态
+| `index.html` | 24 题条带视口原型 |
+| `assets/renders/chassis-*.png` | 空卷轴底盘 |
+| `assets/panes/*.jpg` | 24 封面裁片 |
+| `checks/titleband-BEFORE-overflow.png` | 修复前：忧郁/田园溢出卷轴 |
+| `checks/titleband-AFTER-no-overflow.png` / `titleband-AFTER-web.png` | 修复后：侧格空卷轴，中心可读 |
+| `checks/desktop-strip-{start,mid,end}.png` | 桌面 idx 0 / 11 / 23 |
+| `checks/mobile-strip-{0,11,23}.png` | 手机三态 |
 
 ## 已知缺口
-- 横幅封面（留白、田园）在窄尖格里被竖裁，信息会丢；若要改构图需夕里定
-- 手机侧半格题签偏挤
-- 玫瑰窗装饰开口仍是白石空心（未填色）
-- 未生成 preview mp4（静帧与截图优先；需要可再补）
+- 横幅封面（留白、田园等）在窄尖格里竖裁会丢信息；改构图需夕里定
+- `prefers-reduced-motion`：滚动段直接终态；条带仍可键盘/按钮切换
 
-## 数据
-封面来自飞书只读拉取的 `assets/feishu/`（与 v2 相同）。刷新：`python3 tools/fetch_feishu.py`（若保留）再 `python3 tools/build_windows.py`。
