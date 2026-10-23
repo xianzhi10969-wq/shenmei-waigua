@@ -1,0 +1,41 @@
+{
+  "javascript_syntax": "pass",
+  "water_palette": {
+    "size": [
+      4275,
+      1140
+    ],
+    "rgba_colors": [
+      [
+        246,
+        243,
+        237,
+        255
+      ],
+      [
+        30,
+        30,
+        30,
+        255
+      ]
+    ]
+  },
+  "topics": {
+    "count": 24,
+    "browser_next_clicks": 24,
+    "cycle": "爱欲→…→忧郁→爱欲"
+  },
+  "screenshots": {
+    "desktop": "1440x900 embedded viewport",
+    "mobile": "390x844 embedded viewport",
+    "recording": "not recorded"
+  },
+  "limitations": [
+    "water-to-sill morph not completed",
+    "full v4 bitmap comparison unavailable",
+    "structure simplifies some original tracing",
+    "manual touch swipe and physical reverse-scroll not independently verified"
+  ],
+  "svg_structure_palette": "pass",
+  "original_pane_blob_checks": 24
+}

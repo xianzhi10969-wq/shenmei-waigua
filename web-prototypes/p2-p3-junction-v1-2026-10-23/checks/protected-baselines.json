@@ -1,0 +1,20 @@
+{
+  "source_commit": "1396009e231950314b9b3df76cbefeb426558bd2",
+  "scope": "Only new proposal directory and a CURRENT_STATE.md insertion; protected directories are not included in the commit tree changes.",
+  "protected_directories": [
+    {
+      "path": "web-prototypes/p1-p2-reveal-star-v4-2026-10-21",
+      "tree_sha_before": "0c3d6c590f1895e77cc68cb1139902312a88660a"
+    },
+    {
+      "path": "web-prototypes/p3-p4-restored-v9-2026-10-21",
+      "tree_sha_before": "868285742b6e86ee5c567a6c50367eed93037ce0"
+    },
+    {
+      "path": "web-prototypes/p3-stained-glass-v3-2026-10-23",
+      "tree_sha_before": "7fa7e228cd55394cef20821d7249f8f9cf9903ad"
+    }
+  ],
+  "full_v4_pixel_comparison": "NOT performed; large bitmap retrieval unavailable",
+  "verification_method": "Compare protected directory tree SHAs before and after commit; not a substitute for browser pixels"
+}
