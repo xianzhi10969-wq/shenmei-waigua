@@ -38,3 +38,11 @@
 - 分镜核对：`产品决策/2026-10-23-交接GPT-P2改动与禁忌.md`；用户本轮允许放开旧分镜。
 - https://github.com/gl-transitions/gl-transitions/blob/master/transitions/WaterDrop.glsl
 - https://github.com/darkroomengineering/lenis/tree/v1.3.27
+
+## 2026-10-23 手机滑动修复
+
+用户反馈手机预览滑不动：桌面指针模拟的390px预览也启动了Lenis，横向滚轮未接到单格翻阅；只有画心开口有拖动区，拱顶无响应；审阅进度条只向子页发送位置，没有回读实际滚动；往返播放也未在用户手动操作时退出。
+
+新增独立`gesture-adapter.mjs`，不改继承app或美术：横向触控板事件按一段手势一步处理；扩展窗外建筑区域的横拖；手机审阅支持鼠标上下拖动；手机宽度不初始化Lenis；画面已大部分露出时解除横滑锁；父子页双向同步进度，手动输入停止往返播放，载入完成前禁用审阅控制。
+
+浏览器实际滚轮/拖动检查见`checks/mobile-gesture-fix.json`。这是桌面浏览器的手机尺寸检查，未做真机触摸验收。Figma与所有美术图层均未修改。

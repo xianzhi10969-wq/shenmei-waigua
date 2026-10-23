@@ -1,5 +1,6 @@
 import {solveMotion,clamp,smoother,mix} from './motion.mjs';
 import {createWaterRefraction} from './water-refraction.mjs';
+import {attachGalleryGestures} from './gesture-adapter.mjs';
 const Q=new URLSearchParams(location.search),$=s=>document.querySelector(s);
 const reduced=matchMedia('(prefers-reduced-motion: reduce)'),cinema=$('#cinema'),journey=$('#journey'),p3=$('#adopted-p3'),aperture=$('#aperture'),veil=$('#night-veil'),traveller=$('#traveller'),night=$('#night-solid'),baseline=$('#baseline'),v4=$('#v4');
 function stageWidth(){return document.getElementById("stage").offsetWidth;}
@@ -34,15 +35,19 @@ function render(){
  night.style.transform=`scale(${m.p2Scale.toFixed(5)})`;veil.style.opacity=m.nightOpacity;} 
  traveller.style.transform=`translate3d(${m.starX-78}px,${m.starY-78}px,0) scale(${m.starSize/156})`;traveller.style.opacity=m.starOpacity;
  traveller.querySelector('.ink').style.opacity=m.ink;traveller.querySelector('.cream').style.opacity=1-m.ink;
- p3.inert=!m.ready;$('.scroll-invitation').style.opacity=1-smoother(q/.12);
- document.documentElement.dataset.progress=q.toFixed(5);document.documentElement.dataset.ready=String(m.ready);
+ p3.inert=q<.68;$('.scroll-invitation').style.opacity=1-smoother(q/.12);
+ document.documentElement.dataset.progress=q.toFixed(5);document.documentElement.dataset.ready=String(!p3.inert);
+ if(parent!==window)parent.postMessage({type:'review-progress',progress:q,ready:!p3.inert},location.origin);
 }
 function go(y,immediate=false){y=Math.max(0,y);if(lenis)lenis.scrollTo(y,{immediate,duration:1.3,easing:smoother});else scrollTo({top:y,behavior:immediate||reduced.matches?'instant':'smooth'});}
 let pending=false;addEventListener('scroll',()=>{if(!pending){pending=true;requestAnimationFrame(()=>{pending=false;render()})}},{passive:true});addEventListener('resize',()=>requestAnimationFrame(layout));
 cinema.addEventListener('keydown',e=>{if(e.target.matches('button,a,input,summary'))return;const target={Home:0,End:start+span,PageUp:scrollY-innerHeight*.8,PageDown:scrollY+innerHeight*.8,ArrowUp:scrollY-65,ArrowDown:scrollY+65};if(e.key in target){e.preventDefault();go(target[e.key]);}});
-if(window.Lenis&&!reduced.matches&&matchMedia('(pointer:fine)').matches){lenis=new Lenis({autoRaf:false,lerp:.12,smoothWheel:true,syncTouch:false});function tick(t){lenis.raf(t);requestAnimationFrame(tick)}requestAnimationFrame(tick);}
+if(window.Lenis&&!reduced.matches&&innerWidth>680&&matchMedia('(pointer:fine)').matches){lenis=new Lenis({autoRaf:false,lerp:.12,smoothWheel:true,syncTouch:false,virtualScroll:e=>Math.abs(e.deltaY)>=Math.abs(e.deltaX)});function tick(t){lenis.raf(t);requestAnimationFrame(tick)}requestAnimationFrame(tick);}
 await Promise.all([document.fonts.ready,...[...document.querySelectorAll('img')].map(i=>i.decode().catch(()=>{}))]);const base=new Image();base.src='assets/locked-pen-base.png';await base.decode();layout();document.body.classList.add('loaded');
 if(Q.has('at'))go(start+clamp(Number(Q.get('at')))*span,true);
 addEventListener('message',e=>{if(e.origin!==location.origin||e.data?.type!=='review-scroll')return;go(start+clamp(e.data.progress)*span,e.data.immediate!==false);});
 reduced.addEventListener('change',()=>{if(reduced.matches){lenis?.destroy();lenis=null;water?.destroy();water=null;waterCanvas.style.display='none';document.body.classList.remove('gpu-water');}render();});
 new ResizeObserver(()=>requestAnimationFrame(layout)).observe($('#stage'));
+
+attachGalleryGestures({cinema,stage:$('#stage'),p3,scrollTo:y=>go(y,true)});
+if(parent!==window)parent.postMessage({type:'review-ready'},location.origin);
