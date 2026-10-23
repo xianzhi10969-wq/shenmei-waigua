@@ -29,10 +29,13 @@
    {id:'mobile-2',box:[1309,447,1363,848],title:[1334,901],topic:2}
   ]
  };
- let selected=Math.max(0,Math.min(topics.length-1,Number(parameters.get('topic'))||0));
+ let selected=Math.max(0,Math.min(topics.length-1,parameters.has('topic')?Number(parameters.get('topic'))||0:2));
  let embla=null;
  let mainViewport=null;
  let focusLabels=[];
+ let artSlots=[];
+ let cancelManual=()=>{};
+ const mod=n=>(n%topics.length+topics.length)%topics.length;
  function svgNode(tag,attrs={},parent){const n=document.createElementNS(NS,tag);Object.entries(attrs).forEach(([k,v])=>n.setAttribute(k,v));if(parent)parent.append(n);return n;}
  function image(href,attrs,parent){return svgNode('image',{href:asset(href),...attrs},parent);}
  function fullMask(defs,id,file){const m=svgNode('mask',{id,maskUnits:'userSpaceOnUse',x:0,y:0,width:1448,height:1086,style:'mask-type:alpha'},defs);image(file,{x:0,y:0,width:1448,height:1086},m);}
@@ -52,18 +55,16 @@
    svgNode('path',{d:`M${left+fold} ${top}v${bottom-top}l-7 -4M${right-fold} ${top}v${bottom-top}l7 -4`,fill:'none',stroke:'#514b40','stroke-width':.7},group);
    const cn=svgNode('text',{x,y:y+2,class:'ribbon-cn'},group);
    const en=svgNode('text',{x,y:y+16,class:'ribbon-en'},group);
-   focusLabels.push({cn,en});
+   focusLabels.push({cn,en,offset:slot.offset,focus:true});
   } else {
-   const t=topics[slot.topic];
-   svgNode('text',{x,y:y+1,class:'title-cn'},parent).textContent=t.name;
+   const cn=svgNode('text',{x,y:y+1,class:'title-cn'},parent);
    const en=svgNode('text',{x,y:y+16,class:'title-en'},parent);
-   en.textContent=t.english;
-   if(t.english.length>12){en.setAttribute('textLength',76);en.setAttribute('lengthAdjust','spacingAndGlyphs');}
+   focusLabels.push({cn,en,offset:slot.offset,focus:false});
   }
  }
  function render(){
   if(embla){selected=embla.selectedScrollSnap();embla.destroy();embla=null;}
-  focusLabels=[];mainViewport=null;stage.replaceChildren();
+  focusLabels=[];artSlots=[];mainViewport=null;stage.replaceChildren();
   const mobile=mobileQuery.matches&&!proof;
   const kinds=proof?['web','mobile']:[mobile?'mobile':'web'];
   const scene=svgNode('svg',{class:'scene',viewBox:proof?'0 0 1448 1086':mobile?'999 45 400 947':'35 0 945 995','aria-label':'象牙白石框内的原色专题封面'},stage);
@@ -73,8 +74,8 @@
   const glass=svgNode('g',{'data-layer':'night-glass'},scene);
   const art=svgNode('g',{'data-layer':'covers'},scene);
   const titles=svgNode('g',{'data-layer':'titles'},scene);
-  const viewports=[];
-  for(const kind of kinds)for(const slot of geometries[kind]){
+  for(const kind of kinds)for(const [slotIndex,originalSlot] of geometries[kind].entries()){
+   const slot={...originalSlot,offset:slotIndex-(kind==='web'?2:1)};
    fullMask(defs,slot.id+'-outer',`assets/masks/${slot.id}-opening.png`);
    fullMask(defs,slot.id+'-inner',`assets/masks/${slot.id}-art.png`);
    fullMask(defs,slot.id+'-title',`assets/masks/${slot.id}-title.png`);
@@ -82,48 +83,93 @@
    const group=svgNode('g',{mask:`url(#${slot.id}-inner)`,'data-art-for':slot.id},art);
    const [x0,y0,x1,y1]=slot.box;
    const w=x1-x0,h=y1-y0;
-   if(slot.focus){
-    const fo=svgNode('foreignObject',{x:x0,y:y0,width:w,height:h},group);
-    const viewport=document.createElementNS(XHTML,'div');viewport.className='viewport';viewport.tabIndex=0;
-    viewport.setAttribute('role','region');viewport.setAttribute('aria-roledescription','轮播');viewport.setAttribute('aria-label','左右滑动切换专题封面，方向键逐格翻阅');
-    const container=document.createElementNS(XHTML,'div');container.className='slides';
-    for(const [i,t] of topics.entries()){
-     const slide=document.createElementNS(XHTML,'div');slide.className='slide';slide.setAttribute('role','group');slide.setAttribute('aria-roledescription','专题');slide.setAttribute('aria-label',`${i+1} / ${topics.length} ${t.name}`);
-     const img=document.createElementNS(XHTML,'img');img.src=asset(t.cover);img.alt=`${t.name} · ${t.credit}`;img.draggable=false;
-     img.decoding='async';img.loading=Math.abs(i-selected)<2?'eager':'lazy';
-     slide.append(img);container.append(slide);
-    }
-    viewport.append(container);fo.append(viewport);viewports.push(viewport);
-   }else{
-    const t=topics[slot.topic];image(t.cover,{x:x0,y:y0,width:w,height:h,preserveAspectRatio:'xMidYMid slice','data-topic-id':t.id},group);
-   }
+   const frames=[-1,0,1].map(()=>image('',{x:x0,y:y0,width:w,height:h,preserveAspectRatio:'xMidYMid slice','aria-hidden':'true'},group));
+   artSlots.push({slot,group,frames,x:x0,y:y0,w,h});
    titleLayer(titles,slot);
   }
+  // One transparent motion driver moves the entire image sequence through all fixed masks.
+  // Its step is one pane; each independently clipped image strip follows the same phase.
+  const driverBox=proof||!mobile?[120,415,777,427,187]:[1033,405,330,443,164];
+  const [dx,dy,dw,dh,stepWidth]=driverBox;
+  const interaction=svgNode('g',{'data-layer':'interaction'},scene);
+  const fo=svgNode('foreignObject',{x:dx,y:dy,width:dw,height:dh},interaction);
+  const viewport=document.createElementNS(XHTML,'div');viewport.className='viewport motion-driver';viewport.tabIndex=0;
+  viewport.setAttribute('role','region');viewport.setAttribute('aria-roledescription','轮播');viewport.setAttribute('aria-label','左右滑动整排专题封面，每次递进一格');
+  viewport.style.setProperty('--step',stepWidth+'px');
+  const container=document.createElementNS(XHTML,'div');container.className='slides';
+  topics.forEach((t,i)=>{const slide=document.createElementNS(XHTML,'div');slide.className='slide';slide.setAttribute('role','group');slide.setAttribute('aria-roledescription','专题');slide.setAttribute('aria-label',`${i+1} / ${topics.length} ${t.name}`);container.append(slide);});
+  viewport.append(container);fo.append(viewport);mainViewport=viewport;
   if(!window.EmblaCarousel)throw new Error('横滑组件未载入');
-  mainViewport=viewports[0];
-  const options={align:'center',slidesToScroll:1,dragFree:false,skipSnaps:false,loop:false,containScroll:'keepSnaps',duration:reduceMotion.matches?0:27,startIndex:selected};
+  const options={align:'center',slidesToScroll:1,dragFree:false,skipSnaps:false,watchDrag:false,loop:true,containScroll:false,duration:reduceMotion.matches?0:27,startIndex:selected};
   embla=window.EmblaCarousel(mainViewport,options);
-  const linked=viewports.slice(1).map(v=>window.EmblaCarousel(v,{...options,watchDrag:false}));
-  embla.on('select',()=>{selected=embla.selectedScrollSnap();linked.forEach(api=>api.scrollTo(selected,true));update();});
+  let manual=false,gesture=null,finishFrame=null;
+  function syncPosition(){
+   if(manual)return;
+   const engine=embla.internalEngine();
+   const unit=engine.scrollSnaps[0]-engine.scrollSnaps[1];
+   const position=(engine.scrollSnaps[0]-engine.offsetLocation.get())/unit;
+   paint(position);
+  }
+  embla.on('scroll',syncPosition);
+  embla.on('select',()=>{selected=embla.selectedScrollSnap();update();});
   embla.on('settle',()=>{document.getElementById('status').textContent=`第 ${selected+1} 个专题：${topics[selected].name}`;});
   mainViewport.addEventListener('keydown',e=>{if(e.key==='ArrowLeft'){e.preventDefault();step(-1);}if(e.key==='ArrowRight'){e.preventDefault();step(1);}});
-  // Keep one gesture bounded to one adjacent snap, including high-velocity touch flings.
-  let dragStartIndex=selected;
-  embla.on('pointerDown',()=>{dragStartIndex=embla.selectedScrollSnap();});
-  embla.on('pointerUp',()=>{requestAnimationFrame(()=>{const target=embla.selectedScrollSnap();if(Math.abs(target-dragStartIndex)>1)embla.scrollTo(dragStartIndex+Math.sign(target-dragStartIndex),reduceMotion.matches);});});
-  update();
+  // A gesture is capped before inertia: even a long fast fling advances one adjacent pane.
+  cancelManual=()=>{if(finishFrame)cancelAnimationFrame(finishFrame);manual=false;gesture=null;embla.scrollTo(selected,true);paint(selected);};
+  mainViewport.addEventListener('pointerdown',e=>{
+   if(e.button!==0)return;
+   cancelManual();
+   gesture={id:e.pointerId,x:e.clientX,y:e.clientY,start:selected,position:selected,horizontal:false};
+   mainViewport.setPointerCapture(e.pointerId);
+  });
+  mainViewport.addEventListener('pointermove',e=>{
+   if(!gesture||e.pointerId!==gesture.id)return;
+   const dx=e.clientX-gesture.x,dy=e.clientY-gesture.y;
+   if(!gesture.horizontal){if(Math.abs(dx)<8||Math.abs(dx)<Math.abs(dy))return;gesture.horizontal=true;manual=true;}
+   e.preventDefault();
+   const scale=mainViewport.getBoundingClientRect().width/dw;
+   gesture.position=gesture.start-Math.max(-1,Math.min(1,dx/(stepWidth*scale)));
+   paint(gesture.position);
+  },{passive:false});
+  function release(e,cancelled=false){
+   if(!gesture||e.pointerId!==gesture.id)return;
+   const g=gesture;gesture=null;
+   if(mainViewport.hasPointerCapture(e.pointerId))mainViewport.releasePointerCapture(e.pointerId);
+   if(!g.horizontal){manual=false;return;}
+   const dx=e.clientX-g.x;
+   const target=g.start+(cancelled||Math.abs(dx)<18?0:dx<0?1:-1);
+   const from=g.position,start=performance.now(),duration=reduceMotion.matches?0:300;
+   selected=mod(target);update();manual=true;
+   function finish(now){const t=duration?Math.min(1,(now-start)/duration):1;paint(from+(target-from)*(1-Math.pow(1-t,3)));if(t<1)finishFrame=requestAnimationFrame(finish);else{embla.scrollTo(selected,true);paint(target);manual=false;finishFrame=null;document.getElementById('status').textContent=`第 ${selected+1} 个专题：${topics[selected].name}`;}}
+   finishFrame=requestAnimationFrame(finish);
+  }
+  mainViewport.addEventListener('pointerup',e=>release(e));
+  mainViewport.addEventListener('pointercancel',e=>release(e,true));
+  syncPosition();update();
+ }
+ function paint(position){
+  for(const pane of artSlots){
+   const p=position+pane.slot.offset;
+   const first=Math.floor(p),fraction=p-first;
+   pane.group.setAttribute('data-order',String(mod(Math.round(p))+1));
+   for(let j=0;j<3;j++){
+    const index=mod(first+j-1),frame=pane.frames[j],t=topics[index];
+    if(frame.getAttribute('data-topic-id')!==t.id){frame.setAttribute('href',asset(t.cover));frame.setAttribute('data-topic-id',t.id);frame.setAttribute('aria-label',`${t.name} · ${t.credit}`);}
+    frame.setAttribute('x',String(pane.x+(j-1-fraction)*pane.w));
+   }
+  }
  }
  function update(){
   const t=topics[selected];
-  focusLabels.forEach(({cn,en})=>{cn.textContent=t.name;en.textContent=t.english;if(t.english.length>17){en.setAttribute('textLength',116);en.setAttribute('lengthAdjust','spacingAndGlyphs');}else{en.removeAttribute('textLength');en.removeAttribute('lengthAdjust');}});
+  focusLabels.forEach(({cn,en,offset,focus})=>{const topic=topics[mod(selected+offset)];cn.textContent=topic.name;en.textContent=topic.english;const maxLength=focus?17:12;if(topic.english.length>maxLength){en.setAttribute('textLength',focus?116:76);en.setAttribute('lengthAdjust','spacingAndGlyphs');}else{en.removeAttribute('textLength');en.removeAttribute('lengthAdjust');}});
   document.getElementById('currentNumber').textContent=String(selected+1).padStart(2,'0');
   document.getElementById('definition').textContent=t.definition;
   document.getElementById('credit').textContent=t.credit;
-  document.getElementById('previous').disabled=selected===0;
-  document.getElementById('next').disabled=selected===topics.length-1;
+  document.getElementById('previous').disabled=false;
+  document.getElementById('next').disabled=false;
   if(embla)embla.slideNodes().forEach((node,i)=>node.setAttribute('aria-hidden',String(i!==selected)));
  }
- function step(delta){if(!embla)return;embla.scrollTo(Math.min(topics.length-1,Math.max(0,embla.selectedScrollSnap()+delta)),reduceMotion.matches);}
+ function step(delta){if(!embla)return;cancelManual();if(delta<0)embla.scrollPrev(reduceMotion.matches);else embla.scrollNext(reduceMotion.matches);}
  document.getElementById('previous').addEventListener('click',()=>step(-1));
  document.getElementById('next').addEventListener('click',()=>step(1));
  document.addEventListener('keydown',e=>{if(e.target.closest('.viewport')||e.altKey||e.metaKey||e.ctrlKey)return;if(e.key==='ArrowLeft'){e.preventDefault();step(-1);}if(e.key==='ArrowRight'){e.preventDefault();step(1);}});

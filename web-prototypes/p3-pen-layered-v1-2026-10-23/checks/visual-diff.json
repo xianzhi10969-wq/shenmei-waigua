@@ -1,5 +1,23 @@
 {
-  "desktopStagePixelsOutsideFocusChanged": 0,
-  "outsideDiffBBox": null,
-  "scope": "stage only; excludes focus opening and its title"
+  "currentBehavior": "whole-row one-pane progression",
+  "beforeOrders": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "afterOrders": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "stonePixelsOutsideOpeningsAndTitleRegionsChanged": 0,
+  "reverseVerified": true,
+  "longDragOneStepVerified": true,
+  "mobileAdjacentPanesVerified": true,
+  "exactMaskComparisonStonePixelsChanged": 608,
+  "maskBoundaryAntialiasToleranceScreenPx": 3
 }
