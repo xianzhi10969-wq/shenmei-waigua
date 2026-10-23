@@ -1,5 +1,11 @@
 # 当前状态｜审美外挂 · 2026-10-23
 
+## 2026-10-23｜P3 Aha × P4 设计研究（**提案／待审；不与 GPT 接缝任务重复**）
+
+- [视觉研究/P3彩窗/2026-10-23-P3-Aha与P4设计研究/](视觉研究/P3彩窗/2026-10-23-P3-Aha与P4设计研究/README.md)：查真实参考后写就。**(A)** P3 窗内 aha（透光点亮／钩子／横滑仪式），**不写** P2→P3 接缝与窗框线质（归 GPT）。**(B)** P4 锚定 C 方案：窗格→书、书内换厅、词条深链；各给 2–3 方向 + 一个下一实验。
+- v4 / v9 / 彩窗 v3 代码均未改。
+
+
 ## 2026-10-23｜Figma 01 P3 换成彩窗五联 v3（**提案／待审；v9 代码基线仍受保护**）
 
 - 夕里批准：在 [Figma 01｜CURRENT · 306:2](https://www.figma.com/design/pIL4mlWLHxph3pqXlIVq1s?node-id=306-2) 用 `web-prototypes/p3-stained-glass-v3-2026-10-23/assets/window-web.png` + `window-mobile.png` **替换**旧 P3（回退 v9 柜体），桌面＋手机双列。
