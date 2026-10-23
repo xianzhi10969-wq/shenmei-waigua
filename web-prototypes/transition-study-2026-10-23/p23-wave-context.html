@@ -1,0 +1,30 @@
+<!doctype html><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>P2→P3 铜版水波过渡（研究）</title>
+<!-- 底：P3 v1 完成态截图（只读引用）；上：P2 夜色层，下缘不是硬切，而是 wave-v3 刀线并合→变稀→溶进纸。星 B 从水面/窗台升到玫瑰窗。 -->
+<style>html,body{margin:0;background:#F6F3ED}.track{height:320vh}.stage{position:sticky;top:0;height:100vh;overflow:hidden}
+.p3{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:top}
+.night{position:absolute;left:0;right:0;top:0;will-change:transform}.night .dark{background:#1E1E1E}.night svg{display:block;width:100%;transform:scaleY(-1)}
+.sill{position:absolute;left:0;right:0;height:1px;background:#F6F3ED}
+#star{position:absolute;width:56px;height:56px;margin:-28px 0 0 -28px;left:50%}</style>
+<div class=track><div class=stage>
+<picture><source media="(max-width:600px)" srcset=p3_v1_end_mobile.png><img class=p3 src=p3_v1_end_desktop.png></picture>
+<div class=night><div class=dark><div class=sill></div></div><svg></svg></div>
+<svg id=star viewBox="-60 -60 120 120"><g id=sg fill="none" stroke="#F6F3ED" stroke-width="1.6"><path d="M0 -44L4 -8L30 0L4 8L0 44L-4 8L-30 0L-4 -8Z"/><circle r="5"/></g></svg>
+</div></div>
+<script src=wave-v3.js></script><script>
+const M=()=>innerWidth<=600, st=document.querySelector('.stage'),nt=document.querySelector('.night'),dk=nt.querySelector('.dark'),sv=nt.querySelector('svg'),sl=nt.querySelector('.sill'),star=document.getElementById('star'),sg=document.getElementById('sg');
+let FH;
+function build(){const W=innerWidth,H=innerHeight;FH=Math.round(H*(M()?.34:.42));
+  sv.style.height=FH+'px';waveV3(sv,W,FH,{seed:23});dk.style.height=(2*H)+'px';sl.style.top=(H+H*(M()?.975:.885))+'px';frame();}
+const cl=(v,a,b)=>Math.min(b,Math.max(a,v)), ease=t=>t*t*(3-2*t);
+function frame(){const H=innerHeight,max=document.documentElement.scrollHeight-H,p=cl(scrollY/max,0,1);
+  const sill=H*(M()?.975:.885), rose=H*(M()?.37:.338);
+  // 夜色下缘（刀线带起点）从窗台以下 → 退到画面之上
+  const q=ease(cl(p/0.8,0,1)), bottom=lerp(sill+FH*0.15, -FH*0.1, q);
+  nt.style.transform=`translateY(${(bottom-2*H).toFixed(1)}px)`;
+  sl.style.opacity=q<.15?1:0; // 水面线在夜退开始后交给 P3 窗台
+  const r=ease(cl((p-0.15)/0.75,0,1)); star.style.top=lerp(sill-30,rose,r)+'px';
+  // 星在黑上为纸色线，进入纸面后换墨色
+  const onDark = (star.offsetTop) < bottom - FH*0.5; sg.setAttribute('stroke', onDark?'#F6F3ED':'#1E1E1E'); star.style.visibility=r>.985?'hidden':'visible';}
+addEventListener('scroll',frame,{passive:true});addEventListener('resize',build);build();
+if(matchMedia('(prefers-reduced-motion: reduce)').matches){scrollTo(0,document.documentElement.scrollHeight);}
+</script>
