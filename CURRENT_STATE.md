@@ -2,15 +2,23 @@
 
 > **三处放哪**：GitHub（本仓库原型与文档）／Figma（画板）／飞书（真实素材，CLI 只读）。白话地图见 [README · 三处放哪](README.md#三处放哪github--figma--飞书)。本地空文件夹先 `git pull`，别在「审美外挂 2」里找。
 
+## 2026-10-23｜文档卫生：玻璃柜历史化 · Figma 入口统一 · Aha 状态写回（**只改文档，未动代码**）
+
+- **玻璃柜**：`产品决策/2026-10-17-当前有效方案-美学玻璃标本柜.md` → git mv 为 [`2026-10-17-HISTORICAL-美学玻璃标本柜.md`](产品决策/2026-10-17-HISTORICAL-美学玻璃标本柜.md)；顶栏标明 HISTORICAL／已被 v4+v9+本文件取代。原链「当前有效」的 3 份产品决策 + 2 份执行任务已断链改指本文件或写明勿当基线。
+- **Figma**：README「当前工程」表与「三处放哪」统一：**01 CURRENT = 306:2**；保留 144:2 链接但标为旧对照节点。注明 01 上彩窗 P3（494:4/5）为提案 ≠ 代码已切。
+- **Aha 中窗点亮**：夕里 2026-10-23 认为一般；交互动效一律交 GPT；本实验不升基线、不作待批视觉。见 [p3-aha-center-light README](web-prototypes/p3-aha-center-light-2026-10-23/README.md)。
+- 未删文件；未改 v4 / v9 / 彩窗可跑代码。
+
 ## 2026-10-23｜三处放哪地图写入文档（**提案已落地文档；非视觉变更**）
 
 - 在 [README.md](README.md#三处放哪github--figma--飞书) 增补短节，说明 GitHub / Figma / 飞书各管什么；本文件顶部加指针。未改 v4 / v9 / 彩窗原型代码。
 
-## 2026-10-23｜P3 Aha 实验 · 中窗点亮（**提案／待审；未改 v3/v4/v9**）
+## 2026-10-23｜P3 Aha 实验 · 中窗点亮（**已否决升基线；交互动效交 GPT；未改 v3/v4/v9**）
 
-- 夕里：「你先实验一下」「因为我脑补不出来…」——专做 P3 进场 Aha，不抢 GPT 的接缝／窗框活。
-- 目录：[web-prototypes/p3-aha-center-light-2026-10-23/](web-prototypes/p3-aha-center-light-2026-10-23/README.md)
-- 行为：暗厅 → 仅中窗透出封面色 → 题名晚半拍 → 解锁一格滑动（约 3s，可跳过；`prefers-reduced-motion` 直接终态）
+- 夕里原话动机：「你先实验一下」「因为我脑补不出来…」——曾专做 P3 进场 Aha。
+- **审阅（2026-10-23）**：夕里认为一般；**不升基线、不作待批视觉**；以后此类交互动效一律交给 GPT。
+- 目录（仅实验留档）：[web-prototypes/p3-aha-center-light-2026-10-23/](web-prototypes/p3-aha-center-light-2026-10-23/README.md)
+- 行为记录：暗厅 → 仅中窗透出封面色 → 题名晚半拍 → 解锁一格滑动（约 3s，可跳过；`prefers-reduced-motion` 直接终态）
 - 证据：`checks/desktop-0{1–4}-*.png`、`checks/mobile-0{1–4}-*.png`、`checks/aha-sequence-desktop.mp4`
 - **明确**：实验另存；**未覆盖** v3 彩窗条带、v4、v9。
 
@@ -72,7 +80,7 @@
 
 - **P1→P2 已完成**：用户确认 Grok 制作的 P1 分层显影 + **星 B** 沿滚动坠入 P2 水面 v4；可运行源码、素材、动效说明及视频已保存至 [v4 交接](web-prototypes/p1-p2-reveal-star-v4-2026-10-21/README.md)。这是独立分镜原型，**不要再将 P1→P2 当成待重做项目，也不要把它误认为生产站点整体已经集成**。
 - **P3→P4 基线**：保存恢复后的 Sites **v9 柜体→书册**，不覆盖。P3 当前画面仅展示六个专题，**不能称为 24 个专题均已制作完成**；P3/P4 文字仍是临时试排。
-- Figma 的 [当前首页页面](https://www.figma.com/design/pIL4mlWLHxph3pqXlIVq1s?node-id=144-2) 存有当前 P1–P4 对照与右侧 P1 视觉实验；Figma 静态画板**不是** Grok 完整动效的唯一真实来源，应同时读取 v4 动效工程。
+- Figma **01 CURRENT 入口以 [306:2](https://www.figma.com/design/pIL4mlWLHxph3pqXlIVq1s?node-id=306-2) 为准**；旧节点 [144:2](https://www.figma.com/design/pIL4mlWLHxph3pqXlIVq1s?node-id=144-2) 仍可作 P1–P4 对照，勿当今日入口。01 上彩窗 P3 为提案 ≠ 代码已切。Figma 静态画板**不是**可跑动效的唯一真实来源，应同时读取 v4 动效工程。
 
 ### 产品信息架构｜当前讨论版本（不是上线完成状态）
 
