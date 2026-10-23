@@ -1,6 +1,16 @@
-# 审美外挂｜项目总入口（更新至 2026-10-22）
+# 审美外挂｜项目总入口（更新至 2026-10-23）
 
 > **新对话 / Grok / ChatGPT / Codex / Work 的统一起点**：先读 [CURRENT_STATE.md](CURRENT_STATE.md) → [AGENTS.md](AGENTS.md) → 本次涉及的**当前版本目录**。这三处区分已确认事实、待研究方案和历史归档；**旧文件标题中有“当前/ACTIVE/LATEST”不代表今天有效**。
+
+## 三处放哪（GitHub / Figma / 飞书）
+
+东西不在同一个地方。本地文件夹空了或过期，**先 clone 或 `git pull` 本仓库**（`https://github.com/xianzhi10969-wq/shenmei-waigua`，分支 `master`），不要在桌面「审美外挂 2」之类空目录里找 v4 / 彩窗 / CURRENT_STATE。
+
+| 放哪 | 管什么 | 怎么进 |
+| --- | --- | --- |
+| **GitHub**（本仓库 master） | 网页原型、交接文档、`CURRENT_STATE.md`、提示词、检查截图。重点目录：`web-prototypes/`（含 P1→P2 v4、P3→P4 v9、彩窗 v3 等）、根目录 `CURRENT_STATE.md` / `AGENTS.md` / `README.md` | clone 后 `git pull`；以远程为准 |
+| **Figma** [pIL4mlWLHxph3pqXlIVq1s](https://www.figma.com/design/pIL4mlWLHxph3pqXlIVq1s) | 定稿／提案画板、手机长构图。**画板不以 GitHub 为真相源**；静态板 ≠ 可跑交互 | 入口：[01 CURRENT · 306:2](https://www.figma.com/design/pIL4mlWLHxph3pqXlIVq1s?node-id=306-2)；其余链接见下方「当前工程与设计入口」表 |
+| **飞书多维表格** [IGctbcuwPaE6hMsmAoicJddpn3U](https://my.feishu.cn/base/IGctbcuwPaE6hMsmAoicJddpn3U) | 专题封面、文案、词条等真实素材；前端只展示、不手写编造 | 用 `lark-cli` **只读**拉取；细则见 `CURRENT_STATE.md` / `AGENTS.md`「数据架构」 |
 
 ## 当前工程与设计入口
 

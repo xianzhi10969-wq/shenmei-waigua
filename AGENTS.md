@@ -2,6 +2,7 @@
 
 ## 接续次序（适用于 Grok、ChatGPT、Codex、Work）
 
+0. **资料放哪**：GitHub / Figma / 飞书分工见 [README · 三处放哪](README.md#三处放哪github--figma--飞书)；本地空了先 `git pull`。
 1. **先读取最新远程 [CURRENT_STATE.md](CURRENT_STATE.md)**，再读本文件和 [README.md](README.md)；仅按当前任务继续读取已认可版本的具体源文件和动效说明。
 2. 以用户最新明确反馈为最高优先级，其次是已经确认的当前版本，再次是待验收研究方案；旧文档名称中的 `CURRENT`、`ACTIVE`、`LATEST` **不能自动视为有效指令**。
 3. GitHub 只能共享**已提交的文件和记录**，不能自动共享模型内部聊天内容。任何新任务需主动重新拉取，检查提交是否变化；未上传的作品、视频、素材和本地变更不能声称已同步。
