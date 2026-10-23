@@ -1,0 +1,18 @@
+=== FOR THE IMAGE MODEL: READ FIRST ===
+Purpose: one single stained-glass light design for the "审美外挂 / Atlas of Sensibility" homepage, drawn by the same hand as the approved P1/P2 ink plates. Output ONLY this one lancet panel design. One image, one panel. Not a set, not side-by-side, not a triptych, no other panels.
+Goal effect: a quiet, solemn ink cartoon for a stained-glass light, in the spirit of Edward Burne-Jones's Morris & Co. cartoons and Alphonse Mucha's line work — airy, precise, elegant, tender.
+(This drawing will later be colour-inverted by us: the ivory paper becomes the black glass and the ink lines become cream lines. So draw it as ordinary black ink line on ivory paper.)
+
+=== SUBJECT & LAYOUT ===
+Theme: Eros / longing (爱欲) — love that grows from what is still missing.
+Canvas: tall vertical panel. Keep ALL drawing inside the central 70% of the width; the left and right 15% strips stay completely empty paper. Top 6% and bottom 4% empty.
+Subject: ONE single elongated standing female figure, frontal, centred exactly on the vertical axis, in long flowing classical drapery that falls in long vertical folds to her feet (Burne-Jones elongated proportions, about 9 heads tall). Head at about 35% from the top, feet at about 92%. Both arms rise gently above her head; her hands, close together, lift up one open rose on a long stem; the rose sits at about 12–18% from the top, centred. Her face is calm, eyes lowered, drawn with very few lines. Hair long and loose, a few flowing strands.
+Ground pattern: behind and around her, a SPARSE Morris-style climbing briar-rose vine: two thin stems rising from the bottom corners of the central area, curling in slow symmetrical spirals up both sides of the figure, with a few small leaves and three or four small five-petal wild roses each side. Lots of empty paper between the vine curls (at least 60% of the background stays empty). The vine never crosses the figure's face or hands.
+Symmetry: overall composition near-mirror-symmetric about the vertical axis.
+
+=== DRAWING LANGUAGE (strict) ===
+PAPER: flat ivory-white #F6F3ED, perfectly flat; no texture, no vignette.
+LINE: crisp, uniform, near-vector black ink lines #1E1E1E, continuous and confident. Three weights only: figure outline medium (about 3 px at 1024 px); drapery folds, hair, rose petals, vine, leaves finest (about 1–1.5 px). No sketchy strokes, no pencil feel.
+SHADING: none. No hatching, no cross-hatching, no stipple, no grey, no gradients, no solid black areas at all. Every area is either empty paper or line.
+DETAIL: measured, like a careful botanical/architectural plate; ornament only at a few points.
+NEVER: colour, grey wash, watercolour, texture, solid black fills, background scenery, architecture, window frame, border, text, letters, signature, multiple figures, side-by-side panels, 3D, photo, anime.
