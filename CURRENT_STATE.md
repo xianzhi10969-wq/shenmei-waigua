@@ -88,3 +88,44 @@ GitHub 记录的是**已提交**的文件和明确的决策，不等于 Grok、C
 新的插画、文字排版、交互和动效必须另存版本、分支与独立预览，保留当前基线。用户确认并明确要求替换之前，不得覆盖当前预览或已确认素材。用户明确要求回退时按指定版本回退。
 
 [回退前状态存档](归档/CURRENT_STATE-2026-10-21-回退前.md)。[执行规则](AGENTS.md)。
+
+## 数据架构｜飞书多维表格后台 → lark-cli → 前端展示（2026-10-23 补记）
+
+**原则：真实素材（专题、定义、词条、案例、封面图）只存在飞书多维表格里；前端原型只负责“展示”，不在页面里手写或编造内容。**
+
+- 后台：飞书多维表格「审美外挂」 base_token `IGctbcuwPaE6hMsmAoicJddpn3U`（https://my.feishu.cn/base/IGctbcuwPaE6hMsmAoicJddpn3U）。另一个 base `JDcNbUGTGatK4MsEDUkcwp3anUe` 是早期演示（仅 词条/案例），不要用。
+- 访问：`lark-cli`（盒子上 `/home/box/.local/bin/lark-cli`，以用户 允在Aura 登录，scope `base:*:read`；refresh token 2026-10-24 07:12 +08 过期，过期后需 Aura 重新 `lark-cli auth login`）。
+- 前端：原型用只读脚本把数据拉成静态 JSON + 原图（示例：`web-prototypes/p3-stained-glass-v2-2026-10-23/tools/fetch_feishu.py` → `assets/feishu/topics.json`、`assets/feishu/covers/`），页面只读这些文件。
+
+**只读铁律：任何 agent 都不得在飞书里新建 / 修改 / 删除记录、字段、表或附件。** 只允许 `+table-list`、`+field-list`、`+record-list`、`+record-download-attachment` 这类读命令；需要改数据时写成建议交给 Aura / 夕里本人操作。
+
+| 表 | table_id | 记录数 | 用途 / 关键字段 |
+|---|---|---|---|
+| 章节 | tblaYsGqDwNudnXs | 24 | 顶层专题。章节名、英文名、章名展示、序号、状态、一句定义、钩子、封面图(附件)、封面图注、本章分法、定义者、定义者的故事、章首页正文、词条、章节段落(关联) |
+| 章节段落 | tblBWYZ4lQ0I0tJ2 | 34 | 章内段落，含 图(附件) |
+| 词条 | tbl2gR8WBoqCQyGz | 101 | 封面图(附件)、所属章节、章内序号 |
+| 案例 | tblpdRYutnm12T0y | 195 | 图(附件) |
+| 案例_写回前备份_2026-10-03 | tbli3UyawzukIpyT | 183 | 备份，勿用作数据源 |
+| 定义者 | tbl7vcDUF1J36bWh | 26 | |
+| 感觉入口 | tbl4AQ0F5yZ7g1a2 | 40 | |
+| 元素 / 元素用法 | tbl5eNwBPmeAn0u7 / tbl3TMI1GnvjzKuh | 427 / 40 | |
+| 延展资源 | tbl6Cy38oQ1adKdq | 60 | |
+| 好奇心问题 | tblpb56XsIi8vErt | 9 | |
+| 意象实验室 | tbl1N5cVSnUcU5g0 | 70 | |
+| 感觉辨认选项 / 感觉风格候选 | tblgpwPVcUrofvYM / tblNMPsE1ONN7Vlx | 12 / 36 | |
+
+24 个章节（序号顺序）：忧郁、爱欲、田园、幽玄、酒神、留白、平淡、物哀、日常、侘寂、气韵、侠、轻逸、崇高、从容、酷、怪诞、阴翳、悲剧、废墟、未来想象、乡愁、诡异、可爱（均为“已上线”，各 1 张封面图）。
+
+如何连接（只读）：
+```
+L=/home/box/.local/bin/lark-cli; B=IGctbcuwPaE6hMsmAoicJddpn3U
+$L base +table-list --as user --base-token $B
+$L base +field-list --as user --base-token $B --table-id tblaYsGqDwNudnXs
+$L base +record-list --as user --base-token $B --table-id tblaYsGqDwNudnXs --limit 100 --json
+$L base +record-download-attachment --as user --base-token $B --table-id tblaYsGqDwNudnXs --record-id <rec> --file-token <tok> --output dir/
+```
+
+为什么之前缺这一节：数据架构只写在 `06_交接_第六轮完整.md` 里，AGENTS.md / CURRENT_STATE.md 从未收录；v9 的 FOLIO-CONTENT-STUDY 还写着 lark-cli 配置在用户 Mac 上。于是后续 agent（包括 P3 v1）不知道有后台，直接用 Figma 截图里的封面并手写文字。现在补上，以后所有前端原型的内容一律从这里只读拉取。
+
+## P3 彩窗 v2（2026-10-23，待夕里审，非基线）
+`web-prototypes/p3-stained-glass-v2-2026-10-23/`：结构线稿 = 夕里在 Figma 459:2 画的线稿原图（仅清除标注/占位星），装饰层 = 新绘排线+串珠（待审），专题与封面 = 飞书章节表只读拉取。v1 已标注为被取代（保留未删）。v4、v9 未改动。

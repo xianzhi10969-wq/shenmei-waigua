@@ -1,0 +1,231 @@
+{
+ "source": {
+  "base_token": "IGctbcuwPaE6hMsmAoicJddpn3U",
+  "table_id": "tblaYsGqDwNudnXs",
+  "table": "章节",
+  "read_with": "lark-cli base +record-list / +record-download-attachment (read-only)"
+ },
+ "all_chapters": [
+  [
+   1,
+   "忧郁",
+   "Melancholy",
+   "已上线"
+  ],
+  [
+   2,
+   "爱欲",
+   "Eros",
+   "已上线"
+  ],
+  [
+   3,
+   "田园",
+   "Arcadia",
+   "已上线"
+  ],
+  [
+   4,
+   "幽玄",
+   "Yūgen",
+   "已上线"
+  ],
+  [
+   5,
+   "酒神",
+   "Dionysian",
+   "已上线"
+  ],
+  [
+   6,
+   "留白",
+   "Liubai",
+   "已上线"
+  ],
+  [
+   7,
+   "平淡",
+   "Pingdan",
+   "已上线"
+  ],
+  [
+   8,
+   "物哀",
+   "Mono no aware",
+   "已上线"
+  ],
+  [
+   9,
+   "日常",
+   "Infra-ordinary",
+   "已上线"
+  ],
+  [
+   10,
+   "侘寂",
+   "Wabi-sabi",
+   "已上线"
+  ],
+  [
+   11,
+   "气韵",
+   "Qiyun",
+   "已上线"
+  ],
+  [
+   12,
+   "侠",
+   "Xia",
+   "已上线"
+  ],
+  [
+   13,
+   "轻逸",
+   "Lightness",
+   "已上线"
+  ],
+  [
+   14,
+   "崇高",
+   "Sublime",
+   "已上线"
+  ],
+  [
+   15,
+   "从容",
+   "Sprezzatura",
+   "已上线"
+  ],
+  [
+   16,
+   "酷",
+   "Cool",
+   "已上线"
+  ],
+  [
+   17,
+   "怪诞",
+   "Grotesque",
+   "已上线"
+  ],
+  [
+   18,
+   "阴翳",
+   "In Praise of Shadows",
+   "已上线"
+  ],
+  [
+   19,
+   "悲剧",
+   "Tragic",
+   "已上线"
+  ],
+  [
+   20,
+   "废墟",
+   "Ruin",
+   "已上线"
+  ],
+  [
+   21,
+   "未来想象",
+   "Future Imaginaries",
+   "已上线"
+  ],
+  [
+   22,
+   "乡愁",
+   "Nostalgia",
+   "已上线"
+  ],
+  [
+   23,
+   "诡异",
+   "Uncanny",
+   "已上线"
+  ],
+  [
+   24,
+   "可爱",
+   "Cute",
+   "已上线"
+  ]
+ ],
+ "topics": [
+  {
+   "章节名": "留白",
+   "英文名": "Liubai",
+   "章名展示": "留白 Liubai｜盐系与禅意",
+   "序号": 6,
+   "状态": "已上线",
+   "一句定义": "留白不是空着省事，而是把必要的线索放好，再让观众走进未画出的部分。",
+   "钩子": "画面一角有人站着，剩下大片像是天，也像什么都还没发生。只把人物缩小，很容易得到一张“高级”的空图。留白要让没画的地方真的与画出来的东西发生关系。",
+   "封面图注": "马远《寒江独钓图》（南宋，东京国立博物馆）· 公有领域 · 图源 Wikimedia Commons",
+   "slug": "liubai",
+   "record_id": "reczz28HJJL2A7Oz",
+   "cover": "assets/feishu/covers/liubai.jpg",
+   "cover_file": "寒江独钓图_马远_公有领域.jpg",
+   "cover_bytes": 166956
+  },
+  {
+   "章节名": "忧郁",
+   "英文名": "Melancholy",
+   "章名展示": "忧郁 Melancholy｜孤独与低能量",
+   "序号": 1,
+   "状态": "已上线",
+   "一句定义": "忧郁，是生活还在继续，而有一部分自己停在了原地。",
+   "钩子": "古希腊体液学说认为，人的性情和身体状态与四种体液有关：血液、黏液、黄胆汁和黑胆汁。忧郁被归到黑胆汁，也和土星有关系。",
+   "封面图注": "Vilhelm Hammershøi《Interior, Strandgade 30》",
+   "slug": "melancholy",
+   "record_id": "reczz28HJJL2A77K",
+   "cover": "assets/feishu/covers/melancholy.jpeg",
+   "cover_file": "忧郁.jpeg",
+   "cover_bytes": 991864
+  },
+  {
+   "章节名": "爱欲",
+   "英文名": "Eros",
+   "章名展示": "爱欲 Eros｜暧昧与拉扯",
+   "序号": 2,
+   "状态": "已上线",
+   "一句定义": "爱欲从缺口里生长：你想要的还没得到，因此一直向它靠近。",
+   "钩子": "两个人还没在一起，一次没接住的对视，就够人把后面的故事想得很远。心动、暧昧、拉扯并非三套互不相关的滤镜；它们都发生在想靠近又尚未抵达的路上。",
+   "封面图注": "约翰内斯·维米尔《窗前读信的少女》（约 1657–1659，德累斯顿历代大师画廊）· 公有领域 · 图源 Wikimedia Commons",
+   "slug": "eros",
+   "record_id": "reczz28HJJL2A7BH",
+   "cover": "assets/feishu/covers/eros.jpg",
+   "cover_file": "窗前读信的少女_维米尔_公有领域.jpg",
+   "cover_bytes": 705450
+  },
+  {
+   "章节名": "田园",
+   "英文名": "Arcadia",
+   "章名展示": "田园 Arcadia｜治愈与 Cottagecore",
+   "序号": 3,
+   "状态": "已上线",
+   "一句定义": "田园给疲惫的人一处可想象的栖身之地，也让人暂时放慢脚步。",
+   "钩子": "小溪旁有一间屋子，门口的花开得正好。你也许一天都没在那里住过，忙完一周却很想进去。田园吸引人的，常常是它替现实生活留出一小块能喘气的地方。",
+   "封面图注": "文森特·凡·高《麦田里的收割者》（1889，阿姆斯特丹凡·高博物馆）· 公有领域 · 图源 Wikimedia Commons",
+   "slug": "arcadia",
+   "record_id": "reczz28HJJL2A7E0",
+   "cover": "assets/feishu/covers/arcadia.jpg",
+   "cover_file": "麦田里的收割者_凡高_公有领域.jpg",
+   "cover_bytes": 528509
+  },
+  {
+   "章节名": "幽玄",
+   "英文名": "Yūgen",
+   "章名展示": "幽玄 Yūgen｜清冷与朦胧",
+   "序号": 4,
+   "状态": "已上线",
+   "一句定义": "幽玄把可见的部分留在眼前，让更深的一层停在难以说尽的地方。",
+   "钩子": "雪光把街道照得很清楚，一个人站在路口，谁也没叫住她。幽玄没有替你把尽头照亮，它让尚未看见的部分仍能被感觉到。",
+   "封面图注": "上村松园《序之舞》（1936，东京艺术大学大学美术馆）· 公有领域 · 图源 Wikimedia Commons",
+   "slug": "yugen",
+   "record_id": "reczz28HJJL2A7HL",
+   "cover": "assets/feishu/covers/yugen.jpg",
+   "cover_file": "序之舞_上村松园_公有领域.jpg",
+   "cover_bytes": 388018
+  }
+ ]
+}

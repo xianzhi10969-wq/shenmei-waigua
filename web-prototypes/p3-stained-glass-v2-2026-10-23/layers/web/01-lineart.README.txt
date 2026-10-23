@@ -1,0 +1,1 @@
+结构线稿层 = ../../assets/lineart-web.png（915×988，由 Figma 459:2 原图裁出并清除占位标注，见 tools/prepare_lineart.py）
