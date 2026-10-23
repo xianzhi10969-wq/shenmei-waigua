@@ -1,4 +1,12 @@
-# 当前状态｜审美外挂 · 2026-10-22
+# 当前状态｜审美外挂 · 2026-10-23
+
+## 2026-10-23｜Figma 01 P3 换成彩窗五联 v3（**提案／待审；v9 代码基线仍受保护**）
+
+- 夕里批准：在 [Figma 01｜CURRENT · 306:2](https://www.figma.com/design/pIL4mlWLHxph3pqXlIVq1s?node-id=306-2) 用 `web-prototypes/p3-stained-glass-v3-2026-10-23/assets/window-web.png` + `window-mobile.png` **替换**旧 P3（回退 v9 柜体），桌面＋手机双列。
+- **新帧**（image fill，未重建矢量）：桌面 `494:4`「CURRENT · P3 彩窗五联 v3 · 桌面 · 待审」1440×1619；手机 `494:5`「…手机 · 待审」390×888。P4 下移以腾出高度；P1/P2 未改。
+- **旧 P3 未删**：`379:2` / `379:4` 迁入 [91｜ARCHIVE](https://www.figma.com/design/pIL4mlWLHxph3pqXlIVq1s?node-id=0-1) 分区 `494:2`「ARCHIVE · 01 CURRENT 旧 P3｜回退 v9 柜体 · 2026-10-23 迁出」。
+- 截图与节点表：[视觉研究/P3彩窗/2026-10-23-figma01-p3-v3/](视觉研究/P3彩窗/2026-10-23-figma01-p3-v3/README.md)。
+- **明确**：这是 Figma 提案展示，**不等于** Sites / `p3-p4-restored-v9` 代码已切换；v9 仍是受保护的 P3/P4 代码基线。
 
 ## 2026-10-23｜P3 彩窗 v1 可滚动原型（**提案，待夕里审；v9 仍是 P3/P4 基线**）
 
