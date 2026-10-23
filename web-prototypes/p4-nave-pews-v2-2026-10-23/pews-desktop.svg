@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="880" viewBox="0 0 1200 880" role="img" aria-label="黑线米白结构草图：教堂中殿中央通道与两列长凳席位" data-format="desktop">
+      <rect width="1200" height="880" fill="#F6F3ED"/><style>
+        .arch,.structure,.aisle{fill:none;stroke:#1E1E1E;stroke-width:1.6;vector-effect:non-scaling-stroke;stroke-linejoin:round;stroke-linecap:round}
+        .structure{stroke-width:1.15} .aisle{stroke-width:.9}
+        .pew{cursor:pointer;outline:none} .pew polygon,.pew .pew-end{fill:#F6F3ED;stroke:#1E1E1E;stroke-width:1.7;stroke-linejoin:round;vector-effect:non-scaling-stroke}
+        .pew .pew-back{stroke-width:2.2}.pew .pew-front{stroke-width:1.2}
+        .pew .pew-seat{stroke-width:1.1} .pew .end-finial{fill:#F6F3ED;stroke:#1E1E1E;stroke-width:1.4}
+        .pew .pew-score,.pew .pew-leg{fill:none;stroke:#1E1E1E;stroke-width:0.85;pointer-events:none}
+        .seat-number{fill:#1E1E1E;font-family:Georgia,serif;pointer-events:none;letter-spacing:.12em}
+        .pew.selected .pew-back{fill:#1E1E1E}.pew.selected .seat-number{fill:#F6F3ED}
+        .pew:hover .pew-back,.pew:focus .pew-back{stroke-width:3.2}
+        .altar-label{fill:#1E1E1E;font-family:serif;letter-spacing:.12em}
+        .viewport-label{fill:#1E1E1E;font-family:serif;letter-spacing:.18em}
+      </style>
+      <g class="arch"><path d="M130 312 Q236 80 600 18 Q964 80 1070 312"/><path d="M176 326 Q286 118 600 49 Q914 118 1024 326"/>
+           <path d="M600 18 V343 M130 312 L4 880 M1070 312 L1196 880"/>
+           <path d="M220 285 Q300 142 392 88 M980 285 Q900 142 808 88"/>
+           <path d="M350 161 Q471 81 600 49 Q729 81 850 161"/></g>
+      <g class="structure"><path d="M67 339 L12 880 M1133 339 L1188 880"/>
+          <path d="M87 394 Q130 267 203 270 L216 473 M1113 394 Q1070 267 997 270 L984 473"/>
+          <path d="M138 464 Q218 306 290 333 L313 528 M1062 464 Q982 306 910 333 L887 528"/>
+          <path d="M0 778 L310 410 M1200 778 L890 410"/></g>
+      <g class="arch"><path d="M530 325 V182 Q530 143 600 99 Q670 143 670 182 V325 Z"/>
+         <path d="M542 325 V188 Q542 154 600 116 Q658 154 658 188 V325 Z"/>
+         <path d="M600 117 V326 M542 245 H658"/>
+         <circle cx="600" cy="181" r="24"/></g>
+      <text x="600" y="347" text-anchor="middle" class="altar-label" font-size="11">P3 · 当前专题彩窗</text>
+      <g class="aisle"><path d="M568 343 L421 880 M632 343 L779 880 M600 343 V880"/>
+         <path d="M540 450 H660 M516 545 H684 M482 675 H718 M445 803 H755"/></g>
+      <g class="pew-layer"><g class="pew" role="button" tabindex="0" data-seat="0" aria-label="席位 01" aria-pressed="false">
+     <polygon class="pew-back" points="403.0,413.0 554.0,422.0 554.0,437.0 403.0,432.0"/>
+     <polygon class="pew-seat" points="403.0,432.0 554.0,437.0 562.0,446.5 415.0,457.0"/>
+     <polygon class="pew-front" points="415.0,457.0 562.0,446.5 562.0,456.5 415.0,469.0"/>
+     <path class="pew-end" d="M554.0 421 q-3 -9 -8 -7 q-5 4 -1 11 L562.0 456.5 L562.0 446.5 Z"/>
+     <path class="pew-leg" d="M424.0 466.0 v18.0 l-12.0 3 M561.0 456.5 l3.0 18.6"/>
+     <circle class="end-finial" cx="548.0" cy="417.0" r="7.5"/>
+     <text x="469.4" y="429.0" font-size="12" text-anchor="middle" dominant-baseline="middle" class="seat-number">01</text>
+     <path d="M410.0 433 L547.0 437" class="pew-score"/>
+   </g><g class="pew" role="button" tabindex="0" data-seat="1" aria-label="席位 02" aria-pressed="false">
+     <polygon class="pew-back" points="797.0,413.0 646.0,422.0 646.0,437.0 797.0,432.0"/>
+     <polygon class="pew-seat" points="797.0,432.0 646.0,437.0 638.0,446.5 785.0,457.0"/>
+     <polygon class="pew-front" points="785.0,457.0 638.0,446.5 638.0,456.5 785.0,469.0"/>
+     <path class="pew-end" d="M646.0 421 q3 -9 8 -7 q5 4 1 11 L638.0 456.5 L638.0 446.5 Z"/>
+     <path class="pew-leg" d="M776.0 466.0 v18.0 l12.0 3 M639.0 456.5 l-3.0 18.6"/>
+     <circle class="end-finial" cx="652.0" cy="417.0" r="7.5"/>
+     <text x="730.6" y="429.0" font-size="12" text-anchor="middle" dominant-baseline="middle" class="seat-number">02</text>
+     <path d="M790.0 433 L653.0 437" class="pew-score"/>
+   </g><g class="pew" role="button" tabindex="0" data-seat="2" aria-label="席位 03" aria-pressed="false">
+     <polygon class="pew-back" points="328.0,487.0 539.0,496.0 539.0,511.0 328.0,506.0"/>
+     <polygon class="pew-seat" points="328.0,506.0 539.0,511.0 547.0,524.4 340.0,537.0"/>
+     <polygon class="pew-front" points="340.0,537.0 547.0,524.4 547.0,534.4 340.0,549.0"/>
+     <path class="pew-end" d="M539.0 495 q-3 -9 -8 -7 q-5 4 -1 11 L547.0 534.4 L547.0 524.4 Z"/>
+     <path class="pew-leg" d="M349.0 546.0 v21.6 l-12.0 3 M546.0 534.4 l3.0 22.3"/>
+     <circle class="end-finial" cx="533.0" cy="491.0" r="7.5"/>
+     <text x="420.8" y="503.0" font-size="12" text-anchor="middle" dominant-baseline="middle" class="seat-number">03</text>
+     <path d="M335.0 507 L532.0 511" class="pew-score"/>
+   </g><g class="pew" role="button" tabindex="0" data-seat="3" aria-label="席位 04" aria-pressed="false">
+     <polygon class="pew-back" points="872.0,487.0 661.0,496.0 661.0,511.0 872.0,506.0"/>
+     <polygon class="pew-seat" points="872.0,506.0 661.0,511.0 653.0,524.4 860.0,537.0"/>
+     <polygon class="pew-front" points="860.0,537.0 653.0,524.4 653.0,534.4 860.0,549.0"/>
+     <path class="pew-end" d="M661.0 495 q3 -9 8 -7 q5 4 1 11 L653.0 534.4 L653.0 524.4 Z"/>
+     <path class="pew-leg" d="M851.0 546.0 v21.6 l12.0 3 M654.0 534.4 l-3.0 22.3"/>
+     <circle class="end-finial" cx="667.0" cy="491.0" r="7.5"/>
+     <text x="779.2" y="503.0" font-size="12" text-anchor="middle" dominant-baseline="middle" class="seat-number">04</text>
+     <path d="M865.0 507 L668.0 511" class="pew-score"/>
+   </g><g class="pew" role="button" tabindex="0" data-seat="4" aria-label="席位 05" aria-pressed="false">
+     <polygon class="pew-back" points="224.0,585.0 516.0,594.0 516.0,609.0 224.0,604.0"/>
+     <polygon class="pew-seat" points="224.0,604.0 516.0,609.0 524.0,628.2 236.0,644.0"/>
+     <polygon class="pew-front" points="236.0,644.0 524.0,628.2 524.0,638.2 236.0,656.0"/>
+     <path class="pew-end" d="M516.0 593 q-3 -9 -8 -7 q-5 4 -1 11 L524.0 638.2 L524.0 628.2 Z"/>
+     <path class="pew-leg" d="M245.0 653.0 v27.0 l-12.0 3 M523.0 638.2 l3.0 27.9"/>
+     <circle class="end-finial" cx="510.0" cy="589.0" r="7.5"/>
+     <text x="352.5" y="601.0" font-size="12" text-anchor="middle" dominant-baseline="middle" class="seat-number">05</text>
+     <path d="M231.0 605 L509.0 609" class="pew-score"/>
+   </g><g class="pew" role="button" tabindex="0" data-seat="5" aria-label="席位 06" aria-pressed="false">
+     <polygon class="pew-back" points="976.0,585.0 684.0,594.0 684.0,609.0 976.0,604.0"/>
+     <polygon class="pew-seat" points="976.0,604.0 684.0,609.0 676.0,628.2 964.0,644.0"/>
+     <polygon class="pew-front" points="964.0,644.0 676.0,628.2 676.0,638.2 964.0,656.0"/>
+     <path class="pew-end" d="M684.0 593 q3 -9 8 -7 q5 4 1 11 L676.0 638.2 L676.0 628.2 Z"/>
+     <path class="pew-leg" d="M955.0 653.0 v27.0 l12.0 3 M677.0 638.2 l-3.0 27.9"/>
+     <circle class="end-finial" cx="690.0" cy="589.0" r="7.5"/>
+     <text x="847.5" y="601.0" font-size="12" text-anchor="middle" dominant-baseline="middle" class="seat-number">06</text>
+     <path d="M969.0 605 L691.0 609" class="pew-score"/>
+   </g><g class="pew" role="button" tabindex="0" data-seat="6" aria-label="席位 07" aria-pressed="false">
+     <polygon class="pew-back" points="54.0,708.0 481.0,717.0 481.0,732.0 54.0,727.0"/>
+     <polygon class="pew-seat" points="54.0,727.0 481.0,732.0 489.0,758.4 66.0,778.0"/>
+     <polygon class="pew-front" points="66.0,778.0 489.0,758.4 489.0,768.4 66.0,790.0"/>
+     <path class="pew-end" d="M481.0 716 q-3 -9 -8 -7 q-5 4 -1 11 L489.0 768.4 L489.0 758.4 Z"/>
+     <path class="pew-leg" d="M75.0 787.0 v33.6 l-12.0 3 M488.0 768.4 l3.0 34.7"/>
+     <circle class="end-finial" cx="475.0" cy="712.0" r="7.5"/>
+     <text x="241.9" y="724.0" font-size="12" text-anchor="middle" dominant-baseline="middle" class="seat-number">07</text>
+     <path d="M61.0 728 L474.0 732" class="pew-score"/>
+   </g><g class="pew" role="button" tabindex="0" data-seat="7" aria-label="席位 08" aria-pressed="false">
+     <polygon class="pew-back" points="1146.0,708.0 719.0,717.0 719.0,732.0 1146.0,727.0"/>
+     <polygon class="pew-seat" points="1146.0,727.0 719.0,732.0 711.0,758.4 1134.0,778.0"/>
+     <polygon class="pew-front" points="1134.0,778.0 711.0,758.4 711.0,768.4 1134.0,790.0"/>
+     <path class="pew-end" d="M719.0 716 q3 -9 8 -7 q5 4 1 11 L711.0 768.4 L711.0 758.4 Z"/>
+     <path class="pew-leg" d="M1125.0 787.0 v33.6 l12.0 3 M712.0 768.4 l-3.0 34.7"/>
+     <circle class="end-finial" cx="725.0" cy="712.0" r="7.5"/>
+     <text x="958.1" y="724.0" font-size="12" text-anchor="middle" dominant-baseline="middle" class="seat-number">08</text>
+     <path d="M1139.0 728 L726.0 732" class="pew-score"/>
+   </g></g>
+      <text x="600" y="862" font-size="12" text-anchor="middle" class="viewport-label">中 央 通 道 · NAVE</text>
+      </svg>
