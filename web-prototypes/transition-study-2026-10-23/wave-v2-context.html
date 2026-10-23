@@ -1,0 +1,8 @@
+<!doctype html><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>过渡 B v2 · 接入 v4 实图</title>
+<!-- 上：v4 P1 底部实渲染截图；中：wave-v2；下：v4 p2_nostar.png 原图。纸/墨取两张实图的实测色，以便无缝 -->
+<style>html,body{margin:0;background:#F3F0E9}img{display:block;width:100%}.band{position:relative;height:clamp(300px,38vw,560px);margin:-1px 0}.band svg{position:absolute;inset:0;width:100%;height:100%;display:block}
+.cap{position:fixed;left:8px;top:8px;font:12px Georgia;color:#14191E;opacity:.5}</style>
+<img src=p1_bottom_v4.png><div class=band><svg></svg></div><img src=p2_top_v4.png>
+<script src=wave-v2.js></script><script>
+function d(){const b=document.querySelector('.band');waveV2(b.querySelector('svg'),b.clientWidth,b.clientHeight,{paper:'#F3F0E9',ink:'#14191E',seed:11});}
+d();addEventListener('resize',d);</script>
