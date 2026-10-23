@@ -1,0 +1,698 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>审美外挂 · P4 预览可理解性与装帧实验 v4 · 待审</title>
+<style>
+:root{--paper:#F6F3ED;--ink:#1E1E1E}
+*{box-sizing:border-box}html{background:var(--paper)}body{margin:0;color:var(--ink);background:var(--paper);font-family:"Noto Serif CJK SC","Songti SC","STSong",serif}
+button,select{font:inherit;color:inherit}button{cursor:pointer}button:focus-visible,select:focus-visible,[role=button]:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
+header{position:relative;display:flex;align-items:center;justify-content:space-between;gap:15px;padding:14px 27px;border-bottom:1px solid var(--ink);min-height:64px}
+header strong{font-size:14px;letter-spacing:.14em;font-weight:normal}header span{font:11px Georgia,serif;letter-spacing:.16em}
+.topright{display:flex;align-items:center;gap:13px;flex-wrap:wrap}.tag{border:1px solid var(--ink);padding:6px 9px;font-size:11px}
+.main{position:relative;min-height:calc(100vh - 65px)}
+.intro{min-height:calc(100vh - 65px);display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:6vw;padding:50px clamp(25px,7vw,110px);background:var(--paper)}
+.intro .micro{font:12px Georgia,serif;letter-spacing:.2em}.intro h1{font-size:clamp(30px,4.7vw,64px);line-height:1.32;font-weight:normal;margin:23px 0 29px}.intro p{line-height:2;font-size:14px;max-width:460px}
+.intro-figure{width:100%;max-width:520px;aspect-ratio:5/6;justify-self:center;position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden}
+.intro-figure .source{width:100%;height:100%;object-fit:cover;object-position:center;display:block}
+.intro-figure .no-source{position:absolute;inset:0;display:none;align-items:center;justify-content:center;flex-direction:column;border:1px solid var(--ink);text-align:center;line-height:2.2}
+.intro-figure .no-source b{font-size:36px;font-weight:normal}.intro-figure .no-source small{font-size:12px}
+.intro button,.controls button,.details button{background:var(--paper);border:1px solid var(--ink);padding:12px 19px;letter-spacing:.12em;transition:background .12s,color .12s}
+.intro button:hover,.controls button:hover,.details button:not(:disabled):hover{background:var(--ink);color:var(--paper)}
+.intro .micro-below{font-size:11px;line-height:1.8;margin-top:14px}
+.nave{display:none;grid-template-columns:minmax(0,1fr) minmax(290px,340px);gap:0;min-height:calc(100vh - 65px)}
+.nave figure{margin:0;min-width:0;overflow:hidden;display:grid;place-items:center;min-height:640px;position:relative}
+.illustration{width:100%;max-width:1200px;height:100%;max-height:calc(100vh - 65px);min-height:580px}
+.illustration svg{display:block;width:100%;height:100%;object-fit:contain}
+.illustration.mobile{display:none}
+.side{border-left:1px solid var(--ink);display:flex;flex-direction:column;min-height:calc(100vh - 65px)}
+.side main{padding:35px 25px 22px;flex:1}.eyebrow{font:11px Georgia,serif;letter-spacing:.18em;margin:0 0 12px}
+.side h2{font-weight:normal;font-size:30px;margin:0 0 10px}.side .eng{font:italic 14px Georgia,serif;margin:0 0 32px}
+.field{font-size:12px;margin:20px 0 8px}.field strong{font-weight:normal}.side select{width:100%;background:transparent;border:1px solid var(--ink);border-radius:0;padding:11px 9px;font-size:14px}
+.details{padding-top:25px;margin-top:28px;border-top:1px solid var(--ink)}.details h3{font-size:22px;font-weight:normal;letter-spacing:.05em;margin:13px 0}
+.details p{font-size:13px;line-height:1.9;margin:0 0 17px}.details .stale{font-size:11px}
+.details button{width:100%;text-align:center}.details button:disabled{opacity:.5;cursor:not-allowed}
+.controls{border-top:1px solid var(--ink);display:flex;justify-content:space-between;gap:8px;padding:15px 25px;align-items:center}.controls button{font-size:12px;padding:8px 9px}.controls small{font:11px Georgia,serif;white-space:nowrap}
+footer{margin:0;padding:10px 25px;font-size:11px;line-height:1.7;border-top:1px solid var(--ink)}
+body.inside .intro{display:none}body.inside .nave{display:grid}
+body.animating .intro-figure{animation:enter .55s cubic-bezier(.18,.75,.27,1) both}
+@keyframes enter{0%{transform:scale(1)}100%{transform:scale(1.16);clip-path:inset(22% 22% 22% 22%)}}
+body.inside .illustration{animation:reveal .7s cubic-bezier(.2,.72,.3,1) both}
+@keyframes reveal{from{transform:scale(1.22)}to{transform:scale(1)}}
+.tiny-note{position:absolute;bottom:9px;left:14px;font-size:10px;letter-spacing:.06em}
+@media(max-width:900px){header{padding:10px 16px}header strong{font-size:12px}header span{display:none}.topright{gap:5px}.tag{font-size:10px;padding:4px 6px}
+.intro{display:flex;flex-direction:column-reverse;gap:9px;padding:18px 16px 38px}.intro-figure{width:min(75vw,300px);height:35vh;min-height:200px;aspect-ratio:auto}.intro h1{font-size:29px;margin:10px 0 13px}.intro p{font-size:12px;line-height:1.8}
+.nave{grid-template-columns:1fr}.nave figure{height:auto;min-height:0}.illustration.desktop{display:none}.illustration.mobile{display:block;width:100%;height:min(76vh,780px);min-height:490px;max-height:780px;overflow:hidden}.side{min-height:0;border-left:0;border-top:1px solid var(--ink)}.side main{padding:20px 19px 14px}.side h2{font-size:24px;margin-bottom:3px}.side .eng{margin-bottom:12px}.field{margin:10px 0 7px}.details{margin-top:14px;padding-top:14px}.details h3{font-size:19px}.details p{font-size:12px;margin-bottom:8px}.controls{padding:12px 18px}footer{padding:10px 18px}.tiny-note{font-size:9px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+
+/* v2 ADDITIVE LAYER. Architectural SVG geometry and seat outlines unchanged. */
+.nave figure{isolation:isolate}
+.folio-layer[hidden]{display:none!important}
+.folio-layer{--paper:#F6F3ED;--ink:#1E1E1E;position:absolute;z-index:12;left:50%;bottom:3.8%;width:min(83%,820px);height:min(56vh,495px);min-height:390px;transform:translateX(-50%);background:var(--paper);border:1.5px solid var(--ink);display:flex;flex-direction:column;overflow:hidden;will-change:transform,clip-path}
+.folio-layer.unfold{animation:folio-rise .7s cubic-bezier(.2,.75,.3,1) both}
+.folio-layer.fold{animation:folio-close .27s cubic-bezier(.4,0,.6,1) both}
+@keyframes folio-rise{0%{opacity:0;transform:translate(calc(-50% + var(--offset-x,0px)),var(--offset-y,90px)) scale(.18,.06);clip-path:inset(0 48%)}45%{opacity:1;clip-path:inset(0 23%)}100%{opacity:1;transform:translate(-50%,0) scale(1);clip-path:inset(0 0)}}
+@keyframes folio-close{to{opacity:0;transform:translate(calc(-50% + var(--offset-x,0px)),var(--offset-y,90px)) scale(.2,.1);clip-path:inset(0 48%)}}
+.folio-topline{height:38px;padding:0 15px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--ink);font:9px Georgia,serif;letter-spacing:.13em;flex-shrink:0}
+.folio-topline button{background:none;border:0;padding:9px 3px;letter-spacing:.08em;font-size:11px}
+.folio-book{display:grid;grid-template-columns:1fr 1fr;min-height:0;height:100%;position:relative}
+.folio-book:after{content:'';position:absolute;top:0;bottom:0;left:50%;border-left:1.5px solid var(--ink);pointer-events:none}
+.folio-page{padding:19px 24px 16px;min-height:0;display:flex;flex-direction:column;overflow:hidden}
+.book-label{margin:0 0 12px;font:9px Georgia,serif;letter-spacing:.16em;line-height:1.5}
+.folio-picture .picture-well{width:100%;flex:1;border:1px solid var(--ink);min-height:0;overflow:hidden;position:relative}
+.picture-well img{width:100%;height:100%;object-fit:contain}
+.image-wait{height:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:15px;font:12px 'Songti SC',serif;letter-spacing:.12em;text-align:center;padding:10px}
+.image-wait small{font:10px 'Songti SC',serif;letter-spacing:.01em}
+.outline-arch{width:82px;height:95px;border:1px solid var(--ink);border-radius:50% 50% 0 0;display:grid;place-items:center;font-size:32px;line-height:1}
+.page-foot{font:8px Georgia,serif;letter-spacing:.16em;margin-top:9px}
+.folio-copy .folio-index{font:10px Georgia,serif;letter-spacing:.16em;margin:5px 0 5px}
+.folio-copy h3{font-weight:normal;letter-spacing:.07em;font-size:clamp(20px,2.1vw,30px);margin:6px 0 9px;line-height:1.45}
+.folio-rule{height:1px;background:var(--ink);width:22%;margin:6px 0 18px}
+.folio-copy #folioSummary{font-size:13px;line-height:1.95;margin:0;flex:1;overflow:auto}
+.folio-annotation{font-size:10px;margin:8px 0;line-height:1.65}
+.folio-bottom{display:flex;justify-content:space-between;gap:9px;margin:9px 0 10px}
+.folio-bottom button,.folio-v3{background:transparent;border:1px solid var(--ink);font-size:10px;padding:8px 10px;letter-spacing:.08em}
+.folio-bottom button:disabled,.folio-v3:disabled{opacity:.5;cursor:not-allowed}
+.folio-v3{width:100%;font-size:11px}
+#starBridge{position:fixed;z-index:30;left:0;top:0;width:42px;height:42px;transform:translate(-50%,-50%);background:transparent;border:0;padding:0;cursor:pointer;transition:left .78s cubic-bezier(.2,.73,.3,1),top .78s cubic-bezier(.2,.73,.3,1),width .78s,height .78s;opacity:1}
+#starBridge svg{width:100%;height:100%;overflow:visible;display:block}#starBridge:focus-visible{outline:2px solid var(--ink);outline-offset:3px;border-radius:100%}
+#starInfo[hidden]{display:none}#starInfo{position:fixed;z-index:31;right:20px;top:70px;max-width:310px;background:var(--paper);border:1px solid var(--ink);padding:20px;line-height:1.8;font-size:12px}#starInfo button{margin-top:9px;border:1px solid var(--ink);background:none;padding:6px 13px}
+body.focused .illustration svg{transition:transform .7s cubic-bezier(.2,.73,.3,1);transform:translate(var(--scene-shift,0px),var(--scene-y,0px)) scale(1.03)}
+@media(max-width:900px){.folio-layer{left:50%;bottom:0;width:100%;height:min(52vh,430px);min-height:380px}.folio-book:after{left:40%}.folio-topline{height:36px;padding:0 11px}.folio-book{grid-template-columns:40% 60%}.folio-page{padding:12px 12px}.folio-copy h3{font-size:20px;margin:3px 0}.folio-copy #folioSummary{font-size:11px;line-height:1.7}.book-label{font-size:8px}.image-wait{font-size:10px;gap:9px}.image-wait small{font-size:9px}.outline-arch{width:50px;height:60px}.folio-annotation{font-size:9px}.folio-bottom{margin:4px 0 5px}.folio-bottom button,.folio-v3{font-size:10px;padding:6px}.folio-layer.unfold{animation-duration:.56s}#starInfo{left:15px;right:15px;max-width:none;top:58px}}
+@media(prefers-reduced-motion:reduce){#starBridge{transition:none}.folio-layer.unfold,.folio-layer.fold{animation:none}body.focused .illustration svg{transition:none}}
+
+\n/* v3: Additive full-reading layer. The accepted nave and pews remain unchanged. */
+body.v3-reading{overflow:hidden}
+#v3Layer[hidden]{display:none!important}
+#v3Layer{position:fixed;inset:0;z-index:26;overflow-y:auto;overscroll-behavior:contain;background:var(--paper);scroll-behavior:smooth;--v3-ink:#1E1E1E;--v3-paper:#F6F3ED}
+.v3-portal{position:fixed;z-index:29;inset:0 0 auto 0;height:54px;border-bottom:1px solid var(--ink);background:var(--paper);display:grid;grid-template-columns:1fr auto 1fr;align-items:center;padding:0 clamp(14px,2.5vw,34px);gap:15px}
+.v3-portal button{background:none;border:0;font:11px/1.1 'Songti SC',serif;letter-spacing:.11em;padding:9px 4px;text-align:left}.v3-portal button:hover{text-decoration:underline}
+.v3-portal span{text-transform:uppercase;letter-spacing:.22em;font:10px Georgia,serif}
+.v3-portal small{text-align:right;font:10px Georgia,serif;letter-spacing:.1em}
+.v3-nave-ghost{position:fixed;pointer-events:none;z-index:0;inset:54px 0 0;overflow:hidden}
+.v3-nave-ghost svg{width:100%;height:100%;display:block}
+.v3-nave-ghost path{stroke:var(--ink);stroke-width:1;fill:none;opacity:.18}
+.v3-chronicle{position:relative;margin:88px auto 70px;width:min(1120px,calc(100% - 140px));background:var(--paper);border:1.5px solid var(--ink);box-shadow:none}
+.v3-chronicle::before,.v3-chronicle::after{content:'';position:absolute;top:0;bottom:0;width:10px;pointer-events:none;z-index:1}
+.v3-chronicle::before{left:-13px;border:1px solid var(--ink);border-right:0}.v3-chronicle::after{right:-13px;border:1px solid var(--ink);border-left:0}
+.v3-chronicle.reading-open{animation:unfold-reading .75s cubic-bezier(.18,.69,.27,1) both;transform-origin:50% 15%}
+@keyframes unfold-reading{0%{opacity:.3;transform:translateY(120px) scale(.62,.43);clip-path:inset(0 28%)}65%{opacity:1;clip-path:inset(0 1%)}100%{opacity:1;transform:none;clip-path:inset(0)}}
+.v3-edition{display:flex;justify-content:space-between;align-items:center;height:48px;border-bottom:1px solid var(--ink);padding:0 clamp(18px,3vw,40px);font:10px Georgia,serif;letter-spacing:.18em}
+.v3-spread{position:relative;display:grid;grid-template-columns:1fr 1fr;min-height:670px;border-bottom:1.5px solid var(--ink)}
+.v3-spread:last-child{border-bottom:0}
+.v3-spread::before{content:'';position:absolute;top:0;bottom:0;left:50%;border-left:1px solid var(--ink);z-index:2;pointer-events:none}
+.v3-leaf{min-width:0;padding:clamp(30px,4.4vw,67px);display:flex;flex-direction:column;position:relative;overflow:hidden}
+.v3-overline{font:10px Georgia,serif;letter-spacing:.22em;line-height:1.5}
+.v3-leaf-number{margin-top:auto;padding-top:28px;font:10px Georgia,serif;letter-spacing:.13em}
+.v3-intro{min-height:680px}
+.v3-intro .title-leaf{background:var(--ink);color:var(--paper);padding-top:75px}
+.v3-intro .title-leaf .v3-kicker{font:italic 26px Georgia,serif;margin-top:28px}
+.v3-intro h1{font-family:'Songti SC','Noto Serif CJK SC',serif;font-size:clamp(69px,8.9vw,126px);line-height:1.1;font-weight:normal;margin:68px 0 8px;letter-spacing:.07em}
+.v3-intro .title-leaf blockquote{font-size:clamp(17px,2vw,21px);line-height:2.2;margin:52px 0 0;max-width:440px}
+.v3-intro .title-leaf .v3-leaf-number{color:var(--paper)}
+.v3-title-line{height:1px;width:65px;background:var(--paper);margin:13px 0}
+.v3-coverleaf{padding-top:80px;align-items:center}
+.v3-portrait-frame{width:min(100%,370px);height:clamp(310px,41vw,438px);border:1.3px solid var(--ink);padding:9px;margin:18px auto 18px;position:relative;overflow:hidden}
+.v3-image{width:100%;height:100%;object-fit:cover;display:block}
+.v3-image:not([src]),.v3-image[src=""]{display:none}
+.v3-image:has(+ .v3-image-fallback){position:relative;z-index:1}
+.v3-image-fallback{position:absolute;inset:9px;border:1px solid var(--ink);display:flex;flex-direction:column;justify-content:center;align-items:center;gap:24px;text-align:center;padding:22px}
+.v3-image-fallback svg{width:70%;max-height:230px;stroke:var(--ink);fill:none;stroke-width:1.3}
+.v3-image-fallback span{font:12px Georgia,serif;letter-spacing:.15em}
+.v3-coverleaf .v3-annotation{font-size:11px;line-height:1.6;align-self:flex-start;margin:12px 0 0}
+.v3-intro-note{padding:33px 34px 24px;border-top:1px solid var(--ink);font:12px/1.9 'Songti SC',serif}
+.v3-body-copy{font-size:clamp(16px,1.6vw,21px);line-height:2.15;letter-spacing:.03em}
+.v3-body-copy p{margin:0 0 1.7em}
+.v3-callout{font-size:clamp(23px,2.7vw,34px);font-weight:normal;line-height:1.65;margin:32px 0 52px}
+.v3-quote{border-left:1.5px solid var(--ink);padding:0 0 0 23px;font-size:18px;line-height:2;margin-top:18px}
+.v3-photo-well{width:100%;aspect-ratio: 4/3;border:1px solid var(--ink);padding:7px;overflow:hidden;position:relative;margin:33px auto 12px}
+.v3-photo-well img{width:100%;height:100%;object-fit:cover;position:relative;z-index:1}
+.v3-caption{font:11px/1.8 'Songti SC',serif;letter-spacing:.05em;margin:4px 0 22px}
+.v3-folio-gap{display:flex;justify-content:space-between;border-top:1px solid var(--ink);padding-top:18px;gap:20px;margin-top:auto;font:11px Georgia,serif;letter-spacing:.1em}
+.v3-resource{font-size:12px;line-height:1.8;color:var(--ink);word-break:break-all;text-underline-offset:4px}
+.v3-afterword{min-height:540px}
+.v3-end-title{font-size:clamp(35px,5vw,68px);line-height:1.4;font-weight:normal;margin:50px 0 20px}
+.v3-navigation{display:flex;flex-wrap:wrap;gap:14px;margin-top:55px}
+.v3-navigation button{border:1px solid var(--ink);background:var(--paper);padding:13px 17px;font:12px 'Songti SC',serif;cursor:pointer}
+.v3-navigation button:hover{background:var(--ink);color:var(--paper)}
+.v3-star-pocket{position:fixed;z-index:27;right:clamp(52px,6vw,108px);top:65px;width:34px;height:34px;pointer-events:none}
+.v3-note{font:11px/1.75 Georgia,serif;letter-spacing:.1em}
+@media(max-width:1000px){.v3-chronicle{width:min(94vw,920px)}.v3-leaf{padding:36px}.v3-nave-ghost{display:none}}
+@media(max-width:640px){.v3-portal{height:50px;grid-template-columns:1fr auto;padding:0 12px}.v3-portal span{font-size:9px}.v3-portal small{display:none}.v3-chronicle{width:calc(100% - 26px);margin:70px auto 28px}.v3-chronicle::before,.v3-chronicle::after{display:none}.v3-edition{padding:0 17px;height:42px;font-size:8px;gap:8px}.v3-edition span:nth-child(2){display:none}.v3-spread{display:block;min-height:0}.v3-spread::before{display:none}.v3-leaf{padding:26px 25px 31px;min-height:280px}.v3-intro{min-height:0}.v3-intro .title-leaf{min-height:430px;padding:46px 30px 35px}.v3-intro h1{font-size:78px;margin:45px 0 0}.v3-intro .title-leaf .v3-kicker{font-size:20px;margin-top:15px}.v3-intro .title-leaf blockquote{font-size:17px;margin:40px 0 0}.v3-coverleaf{padding-top:25px;padding-bottom:35px}.v3-portrait-frame{height:360px;width:min(100%,260px);margin:10px auto}.v3-intro-note{padding:20px}.v3-spread .v3-leaf+ .v3-leaf{border-top:1px solid var(--ink)}.v3-callout{margin:16px 0 23px;font-size:26px}.v3-photo-well{margin:20px 0 9px}.v3-body-copy{font-size:16px;line-height:2.05}.v3-leaf-number{margin-top:30px}.v3-navigation{margin-top:35px}.v3-afterword{min-height:0}.v3-star-pocket{right:28px;top:118px;width:27px;height:27px}.v3-chronicle.reading-open{animation-duration:.55s}.v3-end-title{font-size:39px}}
+@media(prefers-reduced-motion:reduce){#v3Layer{scroll-behavior:auto}.v3-chronicle.reading-open{animation:none}}
+
+/* v4 clarity and art-integration layer. The SVG church/nave/pews are untouched. */
+.nave figure{isolation:isolate}
+body.focused .illustration svg .arch,
+body.focused .illustration svg .structure,
+body.focused .illustration svg .aisle,
+body.focused .illustration svg .altar-label,
+body.focused .illustration svg .viewport-label{opacity:.09;transition:opacity .4s ease}
+body.focused .illustration svg .pew:not(.selected){opacity:.065;transition:opacity .4s ease}
+body.focused .illustration svg .pew.selected{opacity:1}
+body:not(.focused) .illustration svg .arch,body:not(.focused) .illustration svg .structure,body:not(.focused) .illustration svg .aisle,body:not(.focused) .illustration svg .pew{transition:opacity .3s ease}
+/* The book is a pointed folio silhouette, not a rectangular modal/card. */
+.folio-layer{width:min(87%,850px);height:min(67vh,550px);min-height:450px;bottom:0;left:50%;border:0!important;background:transparent!important;overflow:visible;display:block;z-index:12;--paper:#F6F3ED;--ink:#1E1E1E}
+.folio-chassis{position:absolute;inset:0;z-index:0;pointer-events:none;display:block}
+.folio-chassis img{width:100%;height:100%;display:block;object-fit:fill}
+.folio-topline{position:absolute;z-index:2;left:8%;right:8%;top:23%;height:37px;padding:0 8px 6px;border-bottom:0;font:11px 'Songti SC',serif;letter-spacing:.13em;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.folio-topline span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:12px}
+.folio-topline button{font-size:12px;flex-shrink:0;border-bottom:1px solid var(--ink);padding:5px 2px;letter-spacing:0}
+.folio-book{position:absolute;inset:31% 7% 9% 7%;height:auto;min-height:0;display:grid;grid-template-columns:1fr 1fr;gap:0;z-index:2}
+.folio-book::after{display:none!important}
+.folio-page{padding:8px 29px 3px;overflow:hidden;min-height:0;display:flex;flex-direction:column}
+.folio-picture{padding-left:18px;padding-right:37px}.folio-copy{padding-left:40px;padding-right:9px}
+.book-label{font-size:10px;letter-spacing:.16em;margin:0 0 7px}
+.folio-picture .picture-well{border:0!important;flex:1;min-height:0;position:relative;overflow:hidden;max-height:260px}
+.image-wait{gap:6px;position:relative;display:flex;height:100%;justify-content:center;align-items:center;flex-direction:column;border:1px solid var(--ink);border-radius:52% 52% 1px 1px / 31% 31% 0 0;padding:16px 14px 4px;overflow:hidden;background:var(--paper)}
+.image-wait::before{content:'';position:absolute;inset:8px;border:1px solid var(--ink);border-radius:52% 52% 1px 1px / 31% 31% 0 0;pointer-events:none}
+.atlas-word{font-size:clamp(42px,5vw,72px);line-height:1.2;letter-spacing:.13em;font-weight:normal}
+.atlas-latin{font:italic 14px Georgia,serif;letter-spacing:.1em}
+.atlas-glyph{font:44px Georgia,serif;line-height:1;margin-top:8px;transform:rotate(-12deg)}
+.page-foot{font-size:9px;letter-spacing:.13em;text-align:center;padding-top:11px}
+.folio-index{font:12px 'Songti SC',serif;margin:2px 0 7px;letter-spacing:.07em}
+.folio-copy h3{font-size:clamp(30px,3.2vw,43px);margin:0;line-height:1.34;letter-spacing:.1em}
+.folio-rule{width:27%;margin:7px 0 13px}
+.folio-copy #folioSummary{font-size:15px;line-height:2.05;overflow:auto;min-height:0;flex:1;margin:0}
+.folio-annotation{font-size:11px;line-height:1.5;margin:7px 0 12px}
+.folio-v3{order:3;background:var(--ink);color:var(--paper);border:1px solid var(--ink);padding:12px 15px;font-size:14px;letter-spacing:.06em;transition:background .16s,color .16s}
+.folio-v3:hover:not(:disabled){background:var(--paper);color:var(--ink)}
+.folio-v3:disabled{opacity:.6;background:transparent;color:var(--ink)}
+.folio-bottom{order:4;margin:11px 0 0;padding:0;display:flex;justify-content:space-between}
+.folio-bottom button{border:0;border-bottom:1px solid var(--ink);padding:4px 2px;font-size:12px;background:transparent}
+.folio-layer.unfold{animation:folio-rise-v4 .65s cubic-bezier(.16,.73,.24,1) both;transform-origin:50% 100%}
+.folio-layer.fold{animation:folio-close-v4 .32s cubic-bezier(.55,0,.45,1) both}
+@keyframes folio-rise-v4{0%{opacity:0;transform:translate(calc(-50% + var(--offset-x,0px)),var(--offset-y,120px)) scale(.14,.04)}53%{opacity:1}100%{opacity:1;transform:translate(-50%,0) scale(1)}}
+@keyframes folio-close-v4{to{opacity:0;transform:translate(calc(-50% + var(--offset-x,0px)),var(--offset-y,120px)) scale(.15,.05)}}
+/* The same fixed Star B moves to the upper folio apex, then back to the rose window on close. */
+body.focused .side{opacity:.16;pointer-events:none;transition:opacity .28s ease}
+body:not(.focused) .side{transition:opacity .28s ease}
+body.focused footer{visibility:hidden}
+
+@media(max-width:900px){
+ body.focused .nave figure{height:calc(100svh - 64px);min-height:720px}
+ body.focused .illustration.mobile{height:100%;max-height:none}
+ .folio-layer{width:min(100%,390px);height:min(75vh,650px);min-height:520px;bottom:0;left:50%}
+ .folio-topline{left:12%;right:12%;top:17%;height:39px;padding:0 3px;align-items:center}
+ .folio-topline span{font-size:11px;letter-spacing:.02em}.folio-topline button{font-size:11px}
+ .folio-book{inset:25% 10% 8% 10%;grid-template-columns:1fr;display:flex;flex-direction:column;align-items:stretch}
+ .folio-page{padding:0 10px}.folio-picture{height:42%;flex-shrink:0}.folio-picture .book-label{display:none}
+ .folio-picture .picture-well{height:100%;width:90%;max-width:280px;max-height:none;align-self:center;flex:none}
+ .image-wait{height:100%;padding:5px 12px}.atlas-word{font-size:38px}.atlas-latin{font-size:12px}.atlas-glyph{font-size:27px;margin-top:0}
+ .page-foot{display:none}.folio-copy{padding:8px 8px 0;min-height:0;flex:1}
+ .folio-copy .book-label{font-size:9px;margin-bottom:2px}.folio-index{font-size:10px;margin:1px 0 3px}
+ .folio-copy h3{font-size:29px;line-height:1.1;margin:0 0 1px}.folio-rule{margin:5px 0 7px}
+ .folio-copy #folioSummary{font-size:12px;line-height:1.65;overflow:auto;min-height:0;margin:0}
+ .folio-annotation{font-size:9px;margin:4px 0}
+ .folio-v3{padding:9px 10px;font-size:12px;margin-top:auto}
+ .folio-bottom{margin-top:4px}.folio-bottom button{font-size:10px;padding:3px}
+ body.focused .illustration svg .arch{opacity:.07}
+}
+@media(prefers-reduced-motion:reduce){.folio-layer.unfold,.folio-layer.fold{animation:none}body.focused .illustration svg *{transition:none}}
+</style></head>
+<body>
+<header><strong>审美外挂 ／ P4 · 教堂座椅</strong><div class="topright"><span>IV · THE NAVE</span><span class="tag">图录 / 风格预览</span></div></header>
+<div class="main">
+<section class="intro" id="intro" aria-label="彩窗至座椅过渡">
+ <div><div class="micro">P3 → P4 / CAMERA TEST</div><h1>从彩窗，<br>走进中殿。</h1>
+ <p>当前选中的专题保留在远端彩窗。镜头拉开，中央通道与两侧教堂长凳依次进入视野；每侧的一条长凳代表一条细分审美词条。</p>
+ <button id="enter" type="button">沿着中央通道继续　↗</button>
+ <p class="micro-below">此处引用 P3 v3 原有图片作为过渡锚点，不重画 P3。结构示意暂用 8 个虚位，不声称已接通飞书词条。</p>
+ </div>
+ <div class="intro-figure" id="introFigure">
+  <img class="source" src="../p3-stained-glass-v3-2026-10-23/assets/window-web.png" alt="P3 彩窗 v3 现有资产；过渡起点" onerror="this.hidden=true;this.nextElementSibling.style.display='flex'">
+  <div class="no-source"><b aria-hidden="true">P3</b><div>P3 · 彩窗 v3</div><small>独立打包预览未附带原有彩窗资产</small><small>在仓库原目录下可自动引用</small></div>
+ </div>
+</section>
+<section class="nave" id="nave" aria-label="P4 教堂中殿细分风格图录">
+ <figure>
+  <div class="illustration desktop" id="svgDesktop"><svg xmlns="http://www.w3.org/2000/svg" width="1200" height="880" viewBox="0 0 1200 880" role="img" aria-label="黑线米白结构草图：教堂中殿中央通道与两列长凳席位" data-format="desktop">
+      <rect width="1200" height="880" fill="#F6F3ED"/><style>
+        .arch,.structure,.aisle{fill:none;stroke:#1E1E1E;stroke-width:1.6;vector-effect:non-scaling-stroke;stroke-linejoin:round;stroke-linecap:round}
+        .structure{stroke-width:1.15} .aisle{stroke-width:.9}
+        .pew{cursor:pointer;outline:none} .pew polygon,.pew .pew-end{fill:#F6F3ED;stroke:#1E1E1E;stroke-width:1.7;stroke-linejoin:round;vector-effect:non-scaling-stroke}
+        .pew .pew-back{stroke-width:2.2}.pew .pew-front{stroke-width:1.2}
+        .pew .pew-seat{stroke-width:1.1} .pew .end-finial{fill:#F6F3ED;stroke:#1E1E1E;stroke-width:1.4}
+        .pew .pew-score,.pew .pew-leg{fill:none;stroke:#1E1E1E;stroke-width:0.85;pointer-events:none}
+        .seat-number{fill:#1E1E1E;font-family:Georgia,serif;pointer-events:none;letter-spacing:.12em}
+        .pew.selected .pew-back{fill:#1E1E1E}.pew.selected .seat-number{fill:#F6F3ED}
+        .pew:hover .pew-back,.pew:focus .pew-back{stroke-width:3.2}
+        .altar-label{fill:#1E1E1E;font-family:serif;letter-spacing:.12em}
+        .viewport-label{fill:#1E1E1E;font-family:serif;letter-spacing:.18em}
+      </style>
+      <g class="arch"><path d="M130 312 Q236 80 600 18 Q964 80 1070 312"/><path d="M176 326 Q286 118 600 49 Q914 118 1024 326"/>
+           <path d="M600 18 V343 M130 312 L4 880 M1070 312 L1196 880"/>
+           <path d="M220 285 Q300 142 392 88 M980 285 Q900 142 808 88"/>
+           <path d="M350 161 Q471 81 600 49 Q729 81 850 161"/></g>
+      <g class="structure"><path d="M67 339 L12 880 M1133 339 L1188 880"/>
+          <path d="M87 394 Q130 267 203 270 L216 473 M1113 394 Q1070 267 997 270 L984 473"/>
+          <path d="M138 464 Q218 306 290 333 L313 528 M1062 464 Q982 306 910 333 L887 528"/>
+          <path d="M0 778 L310 410 M1200 778 L890 410"/></g>
+      <g class="arch"><path d="M530 325 V182 Q530 143 600 99 Q670 143 670 182 V325 Z"/>
+         <path d="M542 325 V188 Q542 154 600 116 Q658 154 658 188 V325 Z"/>
+         <path d="M600 117 V326 M542 245 H658"/>
+         <circle cx="600" cy="181" r="24"/></g>
+      <text x="600" y="347" text-anchor="middle" class="altar-label" font-size="11">P3 · 当前专题彩窗</text>
+      <g class="aisle"><path d="M568 343 L421 880 M632 343 L779 880 M600 343 V880"/>
+         <path d="M540 450 H660 M516 545 H684 M482 675 H718 M445 803 H755"/></g>
+      <g class="pew-layer"><g class="pew" role="button" tabindex="0" data-seat="0" aria-label="席位 01" aria-pressed="false">
+     <polygon class="pew-back" points="403.0,413.0 554.0,422.0 554.0,437.0 403.0,432.0"/>
+     <polygon class="pew-seat" points="403.0,432.0 554.0,437.0 562.0,446.5 415.0,457.0"/>
+     <polygon class="pew-front" points="415.0,457.0 562.0,446.5 562.0,456.5 415.0,469.0"/>
+     <path class="pew-end" d="M554.0 421 q-3 -9 -8 -7 q-5 4 -1 11 L562.0 456.5 L562.0 446.5 Z"/>
+     <path class="pew-leg" d="M424.0 466.0 v18.0 l-12.0 3 M561.0 456.5 l3.0 18.6"/>
+     <circle class="end-finial" cx="548.0" cy="417.0" r="7.5"/>
+     <text x="469.4" y="429.0" font-size="12" text-anchor="middle" dominant-baseline="middle" class="seat-number">01</text>
+     <path d="M410.0 433 L547.0 437" class="pew-score"/>
+   </g><g class="pew" role="button" tabindex="0" data-seat="1" aria-label="席位 02" aria-pressed="false">
+     <polygon class="pew-back" points="797.0,413.0 646.0,422.0 646.0,437.0 797.0,432.0"/>
+     <polygon class="pew-seat" points="797.0,432.0 646.0,437.0 638.0,446.5 785.0,457.0"/>
+     <polygon class="pew-front" points="785.0,457.0 638.0,446.5 638.0,456.5 785.0,469.0"/>
+     <path class="pew-end" d="M646.0 421 q3 -9 8 -7 q5 4 1 11 L638.0 456.5 L638.0 446.5 Z"/>
+     <path class="pew-leg" d="M776.0 466.0 v18.0 l12.0 3 M639.0 456.5 l-3.0 18.6"/>
+     <circle class="end-finial" cx="652.0" cy="417.0" r="7.5"/>
+     <text x="730.6" y="429.0" font-size="12" text-anchor="middle" dominant-baseline="middle" class="seat-number">02</text>
+     <path d="M790.0 433 L653.0 437" class="pew-score"/>
+   </g><g class="pew" role="button" tabindex="0" data-seat="2" aria-label="席位 03" aria-pressed="false">
+     <polygon class="pew-back" points="328.0,487.0 539.0,496.0 539.0,511.0 328.0,506.0"/>
+     <polygon class="pew-seat" points="328.0,506.0 539.0,511.0 547.0,524.4 340.0,537.0"/>
+     <polygon class="pew-front" points="340.0,537.0 547.0,524.4 547.0,534.4 340.0,549.0"/>
+     <path class="pew-end" d="M539.0 495 q-3 -9 -8 -7 q-5 4 -1 11 L547.0 534.4 L547.0 524.4 Z"/>
+     <path class="pew-leg" d="M349.0 546.0 v21.6 l-12.0 3 M546.0 534.4 l3.0 22.3"/>
+     <circle class="end-finial" cx="533.0" cy="491.0" r="7.5"/>
+     <text x="420.8" y="503.0" font-size="12" text-anchor="middle" dominant-baseline="middle" class="seat-number">03</text>
+     <path d="M335.0 507 L532.0 511" class="pew-score"/>
+   </g><g class="pew" role="button" tabindex="0" data-seat="3" aria-label="席位 04" aria-pressed="false">
+     <polygon class="pew-back" points="872.0,487.0 661.0,496.0 661.0,511.0 872.0,506.0"/>
+     <polygon class="pew-seat" points="872.0,506.0 661.0,511.0 653.0,524.4 860.0,537.0"/>
+     <polygon class="pew-front" points="860.0,537.0 653.0,524.4 653.0,534.4 860.0,549.0"/>
+     <path class="pew-end" d="M661.0 495 q3 -9 8 -7 q5 4 1 11 L653.0 534.4 L653.0 524.4 Z"/>
+     <path class="pew-leg" d="M851.0 546.0 v21.6 l12.0 3 M654.0 534.4 l-3.0 22.3"/>
+     <circle class="end-finial" cx="667.0" cy="491.0" r="7.5"/>
+     <text x="779.2" y="503.0" font-size="12" text-anchor="middle" dominant-baseline="middle" class="seat-number">04</text>
+     <path d="M865.0 507 L668.0 511" class="pew-score"/>
+   </g><g class="pew" role="button" tabindex="0" data-seat="4" aria-label="席位 05" aria-pressed="false">
+     <polygon class="pew-back" points="224.0,585.0 516.0,594.0 516.0,609.0 224.0,604.0"/>
+     <polygon class="pew-seat" points="224.0,604.0 516.0,609.0 524.0,628.2 236.0,644.0"/>
+     <polygon class="pew-front" points="236.0,644.0 524.0,628.2 524.0,638.2 236.0,656.0"/>
+     <path class="pew-end" d="M516.0 593 q-3 -9 -8 -7 q-5 4 -1 11 L524.0 638.2 L524.0 628.2 Z"/>
+     <path class="pew-leg" d="M245.0 653.0 v27.0 l-12.0 3 M523.0 638.2 l3.0 27.9"/>
+     <circle class="end-finial" cx="510.0" cy="589.0" r="7.5"/>
+     <text x="352.5" y="601.0" font-size="12" text-anchor="middle" dominant-baseline="middle" class="seat-number">05</text>
+     <path d="M231.0 605 L509.0 609" class="pew-score"/>
+   </g><g class="pew" role="button" tabindex="0" data-seat="5" aria-label="席位 06" aria-pressed="false">
+     <polygon class="pew-back" points="976.0,585.0 684.0,594.0 684.0,609.0 976.0,604.0"/>
+     <polygon class="pew-seat" points="976.0,604.0 684.0,609.0 676.0,628.2 964.0,644.0"/>
+     <polygon class="pew-front" points="964.0,644.0 676.0,628.2 676.0,638.2 964.0,656.0"/>
+     <path class="pew-end" d="M684.0 593 q3 -9 8 -7 q5 4 1 11 L676.0 638.2 L676.0 628.2 Z"/>
+     <path class="pew-leg" d="M955.0 653.0 v27.0 l12.0 3 M677.0 638.2 l-3.0 27.9"/>
+     <circle class="end-finial" cx="690.0" cy="589.0" r="7.5"/>
+     <text x="847.5" y="601.0" font-size="12" text-anchor="middle" dominant-baseline="middle" class="seat-number">06</text>
+     <path d="M969.0 605 L691.0 609" class="pew-score"/>
+   </g><g class="pew" role="button" tabindex="0" data-seat="6" aria-label="席位 07" aria-pressed="false">
+     <polygon class="pew-back" points="54.0,708.0 481.0,717.0 481.0,732.0 54.0,727.0"/>
+     <polygon class="pew-seat" points="54.0,727.0 481.0,732.0 489.0,758.4 66.0,778.0"/>
+     <polygon class="pew-front" points="66.0,778.0 489.0,758.4 489.0,768.4 66.0,790.0"/>
+     <path class="pew-end" d="M481.0 716 q-3 -9 -8 -7 q-5 4 -1 11 L489.0 768.4 L489.0 758.4 Z"/>
+     <path class="pew-leg" d="M75.0 787.0 v33.6 l-12.0 3 M488.0 768.4 l3.0 34.7"/>
+     <circle class="end-finial" cx="475.0" cy="712.0" r="7.5"/>
+     <text x="241.9" y="724.0" font-size="12" text-anchor="middle" dominant-baseline="middle" class="seat-number">07</text>
+     <path d="M61.0 728 L474.0 732" class="pew-score"/>
+   </g><g class="pew" role="button" tabindex="0" data-seat="7" aria-label="席位 08" aria-pressed="false">
+     <polygon class="pew-back" points="1146.0,708.0 719.0,717.0 719.0,732.0 1146.0,727.0"/>
+     <polygon class="pew-seat" points="1146.0,727.0 719.0,732.0 711.0,758.4 1134.0,778.0"/>
+     <polygon class="pew-front" points="1134.0,778.0 711.0,758.4 711.0,768.4 1134.0,790.0"/>
+     <path class="pew-end" d="M719.0 716 q3 -9 8 -7 q5 4 1 11 L711.0 768.4 L711.0 758.4 Z"/>
+     <path class="pew-leg" d="M1125.0 787.0 v33.6 l12.0 3 M712.0 768.4 l-3.0 34.7"/>
+     <circle class="end-finial" cx="725.0" cy="712.0" r="7.5"/>
+     <text x="958.1" y="724.0" font-size="12" text-anchor="middle" dominant-baseline="middle" class="seat-number">08</text>
+     <path d="M1139.0 728 L726.0 732" class="pew-score"/>
+   </g></g>
+      <text x="600" y="862" font-size="12" text-anchor="middle" class="viewport-label">中 央 通 道 · NAVE</text>
+      </svg></div>
+  <div class="illustration mobile" id="svgMobile"><svg xmlns="http://www.w3.org/2000/svg" width="390" height="780" viewBox="0 0 390 780" role="img" aria-label="黑线米白结构草图：教堂中殿中央通道与两列长凳席位" data-format="mobile">
+      <rect width="390" height="780" fill="#F6F3ED"/><style>
+        .arch,.structure,.aisle{fill:none;stroke:#1E1E1E;stroke-width:1.4;vector-effect:non-scaling-stroke;stroke-linejoin:round;stroke-linecap:round}
+        .structure{stroke-width:1.15} .aisle{stroke-width:.9}
+        .pew{cursor:pointer;outline:none} .pew polygon,.pew .pew-end{fill:#F6F3ED;stroke:#1E1E1E;stroke-width:1.4;stroke-linejoin:round;vector-effect:non-scaling-stroke}
+        .pew .pew-back{stroke-width:2.2}.pew .pew-front{stroke-width:1.2}
+        .pew .pew-seat{stroke-width:1.1} .pew .end-finial{fill:#F6F3ED;stroke:#1E1E1E;stroke-width:1.4}
+        .pew .pew-score,.pew .pew-leg{fill:none;stroke:#1E1E1E;stroke-width:0.85;pointer-events:none}
+        .seat-number{fill:#1E1E1E;font-family:Georgia,serif;pointer-events:none;letter-spacing:.12em}
+        .pew.selected .pew-back{fill:#1E1E1E}.pew.selected .seat-number{fill:#F6F3ED}
+        .pew:hover .pew-back,.pew:focus .pew-back{stroke-width:3.2}
+        .altar-label{fill:#1E1E1E;font-family:serif;letter-spacing:.12em}
+        .viewport-label{fill:#1E1E1E;font-family:serif;letter-spacing:.18em}
+      </style>
+      <g class="arch"><path d="M10 332 Q78 159 195 42 Q312 159 380 332"/><path d="M26 338 Q85 180 195 63 Q305 180 364 338"/>
+          <path d="M195 42 V300 M30 332 L3 756 M360 332 L387 756"/>
+          <path d="M12 328 Q78 274 107 171 M378 328 Q312 274 283 171"/></g>
+      <g class="structure"><path d="M16 342 L16 780 M374 342 L374 780"/>
+         <path d="M35 345 Q62 265 87 304 L84 386 M355 345 Q328 265 303 304 L306 386"/>
+         <path d="M2 604 L65 422 M388 604 L325 422"/></g>
+      <g class="arch"><path d="M151 286 V199 Q151 175 195 142 Q239 175 239 199 V286 Z"/>
+         <path d="M160 286 V201 Q160 183 195 155 Q230 183 230 201 V286 Z"/>
+         <path d="M195 156 V285 M160 218 H230"/>
+         <circle cx="195" cy="193" r="12"/></g>
+      <text x="195" y="308" text-anchor="middle" class="altar-label" font-size="8">P3 · 当前彩窗</text>
+      <g class="aisle"><path d="M179 310 L111 780 M211 310 L279 780 M195 310 L195 780"/>
+          <path d="M147 544 L243 544 M129 651 L261 651 M111 765 L279 765"/></g>
+      <g class="pew-layer"><g class="pew" role="button" tabindex="0" data-seat="0" aria-label="席位 01" aria-pressed="false">
+     <polygon class="pew-back" points="84.0,360.0 178.0,369.0 178.0,384.0 84.0,379.0"/>
+     <polygon class="pew-seat" points="84.0,379.0 178.0,384.0 186.0,386.4 96.0,393.0"/>
+     <polygon class="pew-front" points="96.0,393.0 186.0,386.4 186.0,396.4 96.0,405.0"/>
+     <path class="pew-end" d="M178.0 368 q-3 -9 -8 -7 q-5 4 -1 11 L186.0 396.4 L186.0 386.4 Z"/>
+     <path class="pew-leg" d="M105.0 402.0 v12.0 l-12.0 3 M185.0 396.4 l3.0 15.0"/>
+     <circle class="end-finial" cx="172.0" cy="364.0" r="6"/>
+     <text x="125.4" y="376.0" font-size="8.5" text-anchor="middle" dominant-baseline="middle" class="seat-number">01</text>
+     <path d="M91.0 380 L171.0 384" class="pew-score"/>
+   </g><g class="pew" role="button" tabindex="0" data-seat="1" aria-label="席位 02" aria-pressed="false">
+     <polygon class="pew-back" points="306.0,360.0 212.0,369.0 212.0,384.0 306.0,379.0"/>
+     <polygon class="pew-seat" points="306.0,379.0 212.0,384.0 204.0,386.4 294.0,393.0"/>
+     <polygon class="pew-front" points="294.0,393.0 204.0,386.4 204.0,396.4 294.0,405.0"/>
+     <path class="pew-end" d="M212.0 368 q3 -9 8 -7 q5 4 1 11 L204.0 396.4 L204.0 386.4 Z"/>
+     <path class="pew-leg" d="M285.0 402.0 v12.0 l12.0 3 M205.0 396.4 l-3.0 15.0"/>
+     <circle class="end-finial" cx="218.0" cy="364.0" r="6"/>
+     <text x="264.6" y="376.0" font-size="8.5" text-anchor="middle" dominant-baseline="middle" class="seat-number">02</text>
+     <path d="M299.0 380 L219.0 384" class="pew-score"/>
+   </g><g class="pew" role="button" tabindex="0" data-seat="2" aria-label="席位 03" aria-pressed="false">
+     <polygon class="pew-back" points="52.0,440.0 170.0,449.0 170.0,464.0 52.0,459.0"/>
+     <polygon class="pew-seat" points="52.0,459.0 170.0,464.0 178.0,468.3 64.0,476.0"/>
+     <polygon class="pew-front" points="64.0,476.0 178.0,468.3 178.0,478.3 64.0,488.0"/>
+     <path class="pew-end" d="M170.0 448 q-3 -9 -8 -7 q-5 4 -1 11 L178.0 478.3 L178.0 468.3 Z"/>
+     <path class="pew-leg" d="M73.0 485.0 v13.2 l-12.0 3 M177.0 478.3 l3.0 15.0"/>
+     <circle class="end-finial" cx="164.0" cy="444.0" r="6"/>
+     <text x="103.9" y="456.0" font-size="8.5" text-anchor="middle" dominant-baseline="middle" class="seat-number">03</text>
+     <path d="M59.0 460 L163.0 464" class="pew-score"/>
+   </g><g class="pew" role="button" tabindex="0" data-seat="3" aria-label="席位 04" aria-pressed="false">
+     <polygon class="pew-back" points="338.0,440.0 220.0,449.0 220.0,464.0 338.0,459.0"/>
+     <polygon class="pew-seat" points="338.0,459.0 220.0,464.0 212.0,468.3 326.0,476.0"/>
+     <polygon class="pew-front" points="326.0,476.0 212.0,468.3 212.0,478.3 326.0,488.0"/>
+     <path class="pew-end" d="M220.0 448 q3 -9 8 -7 q5 4 1 11 L212.0 478.3 L212.0 468.3 Z"/>
+     <path class="pew-leg" d="M317.0 485.0 v13.2 l12.0 3 M213.0 478.3 l-3.0 15.0"/>
+     <circle class="end-finial" cx="226.0" cy="444.0" r="6"/>
+     <text x="286.1" y="456.0" font-size="8.5" text-anchor="middle" dominant-baseline="middle" class="seat-number">04</text>
+     <path d="M331.0 460 L227.0 464" class="pew-score"/>
+   </g><g class="pew" role="button" tabindex="0" data-seat="4" aria-label="席位 05" aria-pressed="false">
+     <polygon class="pew-back" points="17.0,536.0 155.0,545.0 155.0,560.0 17.0,555.0"/>
+     <polygon class="pew-seat" points="17.0,555.0 155.0,560.0 163.0,567.5 29.0,577.0"/>
+     <polygon class="pew-front" points="29.0,577.0 163.0,567.5 163.0,577.5 29.0,589.0"/>
+     <path class="pew-end" d="M155.0 544 q-3 -9 -8 -7 q-5 4 -1 11 L163.0 577.5 L163.0 567.5 Z"/>
+     <path class="pew-leg" d="M38.0 586.0 v16.2 l-12.0 3 M162.0 577.5 l3.0 16.7"/>
+     <circle class="end-finial" cx="149.0" cy="540.0" r="6"/>
+     <text x="77.7" y="552.0" font-size="8.5" text-anchor="middle" dominant-baseline="middle" class="seat-number">05</text>
+     <path d="M24.0 556 L148.0 560" class="pew-score"/>
+   </g><g class="pew" role="button" tabindex="0" data-seat="5" aria-label="席位 06" aria-pressed="false">
+     <polygon class="pew-back" points="373.0,536.0 235.0,545.0 235.0,560.0 373.0,555.0"/>
+     <polygon class="pew-seat" points="373.0,555.0 235.0,560.0 227.0,567.5 361.0,577.0"/>
+     <polygon class="pew-front" points="361.0,577.0 227.0,567.5 227.0,577.5 361.0,589.0"/>
+     <path class="pew-end" d="M235.0 544 q3 -9 8 -7 q5 4 1 11 L227.0 577.5 L227.0 567.5 Z"/>
+     <path class="pew-leg" d="M352.0 586.0 v16.2 l12.0 3 M228.0 577.5 l-3.0 16.7"/>
+     <circle class="end-finial" cx="241.0" cy="540.0" r="6"/>
+     <text x="312.3" y="552.0" font-size="8.5" text-anchor="middle" dominant-baseline="middle" class="seat-number">06</text>
+     <path d="M366.0 556 L242.0 560" class="pew-score"/>
+   </g><g class="pew" role="button" tabindex="0" data-seat="6" aria-label="席位 07" aria-pressed="false">
+     <polygon class="pew-back" points="3.0,653.0 141.0,662.0 141.0,677.0 3.0,672.0"/>
+     <polygon class="pew-seat" points="3.0,672.0 141.0,677.0 149.0,688.5 15.0,700.0"/>
+     <polygon class="pew-front" points="15.0,700.0 149.0,688.5 149.0,698.5 15.0,712.0"/>
+     <path class="pew-end" d="M141.0 661 q-3 -9 -8 -7 q-5 4 -1 11 L149.0 698.5 L149.0 688.5 Z"/>
+     <path class="pew-leg" d="M24.0 709.0 v19.8 l-12.0 3 M148.0 698.5 l3.0 20.5"/>
+     <circle class="end-finial" cx="135.0" cy="657.0" r="6"/>
+     <text x="63.7" y="669.0" font-size="8.5" text-anchor="middle" dominant-baseline="middle" class="seat-number">07</text>
+     <path d="M10.0 673 L134.0 677" class="pew-score"/>
+   </g><g class="pew" role="button" tabindex="0" data-seat="7" aria-label="席位 08" aria-pressed="false">
+     <polygon class="pew-back" points="387.0,653.0 249.0,662.0 249.0,677.0 387.0,672.0"/>
+     <polygon class="pew-seat" points="387.0,672.0 249.0,677.0 241.0,688.5 375.0,700.0"/>
+     <polygon class="pew-front" points="375.0,700.0 241.0,688.5 241.0,698.5 375.0,712.0"/>
+     <path class="pew-end" d="M249.0 661 q3 -9 8 -7 q5 4 1 11 L241.0 698.5 L241.0 688.5 Z"/>
+     <path class="pew-leg" d="M366.0 709.0 v19.8 l12.0 3 M242.0 698.5 l-3.0 20.5"/>
+     <circle class="end-finial" cx="255.0" cy="657.0" r="6"/>
+     <text x="326.3" y="669.0" font-size="8.5" text-anchor="middle" dominant-baseline="middle" class="seat-number">08</text>
+     <path d="M380.0 673 L256.0 677" class="pew-score"/>
+   </g></g>
+      <text x="195" y="762" font-size="9" text-anchor="middle" class="viewport-label">中 央 通 道 · NAVE</text>
+      </svg></div>
+  <figcaption class="tiny-note">选择一张长凳，打开风格图册 · 点击「完整阅读」进入词条正文</figcaption>
+ <section id="folioLayer" class="folio-layer" role="dialog" aria-modal="false" aria-label="细分风格预览图册" hidden>
+  <picture class="folio-chassis" aria-hidden="true"><source media="(max-width:900px)" srcset="assets/folio-chassis-mobile.svg"><img src="assets/folio-chassis-desktop.svg" alt=""></picture>
+  <div class="folio-topline"><span id="folioHeading">幽玄 · 词条预览</span><button id="closeFolio" type="button" aria-label="合上预览，回到原来的长凳">‹ 返回座椅</button></div>
+  <div class="folio-book" id="folioBook">
+   <div class="folio-page folio-picture"><p class="book-label">AESTHETIC ATLAS · <span id="folioPlate">01</span></p>
+    <div class="picture-well" id="folioImage"><div class="image-wait" aria-hidden="true"><span class="atlas-word">清冷</span><span class="atlas-latin">Cool Detachment</span><span class="atlas-glyph">﹏</span></div></div>
+    <div class="page-foot">一页风格图录 · STYLE FOLIO</div>
+   </div>
+   <div class="folio-page folio-copy"><span class="book-label" id="folioTopic">幽玄 / Yūgen</span>
+     <p class="folio-index" id="folioSeat">第 01 席 · 词条预览</p>
+     <h3 id="folioTitle">清冷</h3>
+     <div class="folio-rule"></div>
+     <p id="folioSummary">清冷，不是一个人没有情感，而是ta的情感拥有自己的世界。</p>
+     <p class="folio-annotation" id="folioStatus">本页可展开阅读词条定义和作品案例。</p>
+     <button class="folio-v3" id="folioV3" type="button">打开《清冷》完整词条 →</button>
+     <div class="folio-bottom"><button type="button" id="folioPrevious" aria-label="预览前一个细分风格">← 前一种</button><button type="button" id="folioNext" aria-label="预览后一个细分风格">后一种 →</button></div>
+   </div>
+  </div>
+ </section>
+ </figure>
+ <aside class="side"><main><p class="eyebrow">THE SELECTED CHAPTER / 专题</p>
+ <h2 id="chapterName"></h2><p class="eng" id="chapterEn"></p>
+ <label class="field" for="chapterSwitch"><strong>切换整座中殿的专题图录（24）</strong></label>
+ <select id="chapterSwitch"></select>
+ <section class="details" aria-live="polite"><p class="eyebrow" id="seatPosition">SEAT 01 / 08</p>
+ <h3 id="seatName">词条位置 01 · 示意</h3>
+ <p id="seatInfo">等待飞书词条表关联数据。现在只验证座椅与层级、选中态及镜头。</p>
+ <p class="stale" id="dataStatus">未读取飞书词条，当前席位均为结构占位</p>
+ <button disabled id="v3Link" type="button" title="未配置真实 V3 词条地址">V3 词条详情 · 待接线</button></section>
+ </main>
+ <div class="controls"><button type="button" id="goBack">‹ 回到 P3 彩窗</button><small id="pageInfo">1 / 1</small><div><button type="button" id="prevPage" aria-label="上一组座椅">‹</button><button type="button" id="nextPage" aria-label="下一组座椅">›</button></div></div>
+ <footer>两色 #F6F3ED / #1E1E1E　·　无图像生成功能　·　仅 P4 新增镜头和座椅层</footer></aside>
+</section>
+</div>
+<script>
+// P3 v3 的 24 个一级专题，名称顺序来自已提交的飞书只读章节缓存。
+// 细分词条不得用想象名称替代；如需接入，请使用只读导出的 window.P4_TERMS_BY_TOPIC。
+const TOPICS=[
+['melancholy','忧郁','Melancholy'],['eros','爱欲','Eros'],['arcadia','田园','Arcadia'],['yugen','幽玄','Yūgen'],
+['dionysian','酒神','Dionysian'],['liubai','留白','Liubai'],['pingdan','平淡','Pingdan'],['mono-no-aware','物哀','Mono no aware'],
+['infra-ordinary','日常','Infra-ordinary'],['wabi-sabi','侘寂','Wabi-sabi'],['qiyun','气韵','Qiyun'],['xia','侠','Xia'],
+['lightness','轻逸','Lightness'],['sublime','崇高','Sublime'],['sprezzatura','从容','Sprezzatura'],['cool','酷','Cool'],
+['grotesque','怪诞','Grotesque'],['in-praise-of-shadows','阴翳','In Praise of Shadows'],['tragic','悲剧','Tragic'],['ruin','废墟','Ruin'],
+['future-imaginaries','未来想象','Future Imaginaries'],['nostalgia','乡愁','Nostalgia'],['uncanny','诡异','Uncanny'],['cute','可爱','Cute']
+].map(([id,zh,en],idx)=>({id,zh,en,order:idx+1}));
+const MAX_VISIBLE=8;
+const params=new URLSearchParams(location.search);
+let topic=TOPICS.find(x=>x.id===params.get('topic'))||TOPICS.find(x=>x.id==='yugen'), seat=0, page=0;
+const $=id=>document.getElementById(id);
+const select=$('chapterSwitch');
+for (const t of TOPICS){const opt=document.createElement('option');opt.value=t.id;opt.textContent=`${String(t.order).padStart(2,'0')}  ${t.zh} / ${t.en}`;select.append(opt);}
+const getRecords=()=>{
+  const raw=(window.P4_TERMS_BY_TOPIC||{})[topic.id];
+  return Array.isArray(raw)? raw.filter(x=>x&&x.id&&x.title&&x.chapter_id===topic.id): [];
+};
+function setTopic(id){if(typeof window.closeFolio === 'function')window.closeFolio();topic=TOPICS.find(x=>x.id===id)||TOPICS[0];seat=0;page=0;select.value=topic.id;
+  $('chapterName').textContent=topic.zh;$('chapterEn').textContent=topic.en;
+  const u=new URL(location.href);u.searchParams.set('topic',topic.id);history.replaceState({},'',u);
+  render();}
+function render(){
+  const real=getRecords(), demo=!real.length;
+  const total=demo?8:real.length;
+  const pages=Math.ceil(total/MAX_VISIBLE)||1;
+  page=Math.min(page,pages-1);seat=Math.min(seat,total-1);
+  document.querySelectorAll('.pew').forEach(g=>{
+   const local=Number(g.dataset.seat), global=page*MAX_VISIBLE+local;
+   const visible=global<total;
+   g.style.display=visible?'':'none';g.classList.toggle('selected',global===seat);
+   g.setAttribute('aria-pressed',String(global===seat));
+   g.setAttribute('aria-label',demo?`结构席位 ${global+1}`:`细分风格 ${real[global]?.title||''}`);
+   g.querySelector('.seat-number').textContent=String(global+1).padStart(2,'0');
+  });
+  const item=real[seat];$('seatPosition').textContent=`SEAT ${String(seat+1).padStart(2,'0')} / ${String(total).padStart(2,'0')}`;
+  $('seatName').textContent=demo?`词条位置 ${String(seat+1).padStart(2,'0')} · 示意`:item.title;
+  $('seatInfo').textContent=demo?'等待飞书词条表关联数据。这里测试每张半排长凳是否足够像座位，以及“走进彩窗背后的中殿”的镜头是否成立。':(item.summary||'已读取词条名称；点击下方可在配有真实 V3 URL 后打开详情。');
+  $('dataStatus').textContent=demo?'本页没有飞书词条明细；8 个座椅均为结构占位':`已匹配 ${total} 条真实词条记录（只读快照）`;
+  const url=item?.v3_url;
+  const valid=typeof url==='string'&&/^https:\/\//.test(url);
+  $('v3Link').disabled=!valid;$('v3Link').textContent=valid?'阅读 V3 词条详情 ↗':'V3 词条详情 · 待接线';
+  $('v3Link').onclick=()=>{if(valid)window.open(url,'_blank','noopener,noreferrer')};
+  $('pageInfo').textContent=`${page+1} / ${pages}`;
+  $('prevPage').disabled=page===0;$('nextPage').disabled=page>=pages-1;
+}
+function chooseSeat(local){const global=page*MAX_VISIBLE+Number(local);if(global<(getRecords().length||8)){seat=global;render();if(window.openFolio)window.openFolio(global);}}
+for(const svg of document.querySelectorAll('.illustration svg')){svg.querySelectorAll('.pew').forEach(g=>{
+ g.addEventListener('click',()=>chooseSeat(g.dataset.seat));
+ g.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();chooseSeat(g.dataset.seat)}})
+})}
+select.addEventListener('change',e=>setTopic(e.target.value));
+$('prevPage').addEventListener('click',()=>{if(page>0){page--;seat=page*MAX_VISIBLE;render()}});
+$('nextPage').addEventListener('click',()=>{const max=Math.ceil((getRecords().length||8)/MAX_VISIBLE)-1;if(page<max){page++;seat=page*MAX_VISIBLE;render()}});
+const motionReduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+function inside(){document.body.classList.remove('animating');document.body.classList.add('inside');window.scrollTo(0,0);if(typeof window.updateStar === 'function')requestAnimationFrame(window.updateStar)}
+$('enter').addEventListener('click',()=>{if(motionReduce){inside();return}document.body.classList.add('animating');setTimeout(inside,530)});
+$('goBack').addEventListener('click',()=>{if(typeof window.closeFolio === 'function')window.closeFolio();document.body.classList.remove('inside','animating');window.scrollTo(0,0);if(typeof window.updateStar === 'function')requestAnimationFrame(window.updateStar)});
+setTopic(topic.id);
+if(params.get('inside')==='1')inside();
+</script><button type="button" id="starBridge" aria-label="星星 · 全站索引入口（结构实验）" title="八角星 B · 全站索引入口"><svg viewBox="-60 -60 120 120" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+<g fill="#F6F3ED" stroke="#1E1E1E" stroke-width="2" stroke-linejoin="miter"><path d="M0 0 L-4.2 -9 L0 -44 L4.2 -9 Z"/><path d="M0 0 L8 -3.6 L30 0 L8 3.6 Z"/><path d="M0 0 L4.2 9 L0 44 L-4.2 9 Z"/><path d="M0 0 L-8 3.6 L-30 0 L-8 -3.6 Z"/><path d="M0 0 L2.55 -5.94 L10.61 -10.61 L5.94 -2.55 Z"/><path d="M0 0 L5.94 2.55 L10.61 10.61 L2.55 5.94 Z"/><path d="M0 0 L-2.55 5.94 L-10.61 10.61 L-5.94 2.55 Z"/><path d="M0 0 L-5.94 -2.55 L-10.61 -10.61 L-2.55 -5.94 Z"/></g>
+<g fill="none" stroke="#1E1E1E" stroke-width=".8"><path d="M0 -5 V-38 M5 0 H26 M0 5 V38 M-5 0 H-26 M3 -3 L9 -9 M3 3 L9 9 M-3 3 L-9 9 M-3 -3 L-9 -9"/></g>
+<circle r="5.2" fill="#F6F3ED" stroke="#1E1E1E" stroke-width="1.5"/><circle r="2.6" fill="none" stroke="#1E1E1E" stroke-width=".6"/></svg></button>
+<div id="starInfo" role="dialog" aria-label="星星索引接续说明" hidden><strong>同一颗星星</strong><p>从 P1 落向 P2、停在 P3 玫瑰窗中心、延续到 P4 中殿。此处保留全站索引入口；Le Pater 五徽章索引属于独立设计任务，本次不重画。</p><button type="button" id="dismissStar">返回教堂</button></div>
+<script>
+// v2: Only adding a movable book layer and one continuous Star B. v1 geometry remains unchanged.
+(function(){
+const folio=$('folioLayer'), scene=$('nave'), star=$('starBridge'), pop=$('starInfo');
+const reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+let closingTimer=null;
+const escapeText=s=>String(s||'');
+const records=()=>getRecords();
+function fillFolio(){
+ const arr=records(), total=arr.length||8, item=arr[seat];
+ $('folioTopic').textContent=`${topic.zh} / ${topic.en}`;$('folioHeading').textContent=`${topic.zh} · 风格图录预览`;
+ $('folioPlate').textContent=String(seat+1).padStart(2,'0');
+ $('folioSeat').textContent=`第 ${String(seat+1).padStart(2,'0')} 席 · 共 ${String(total).padStart(2,'0')} 席`;
+ $('folioTitle').textContent=item?.title||(topic.id==='yugen' && seat===0 ? '清冷' : `第 ${String(seat+1).padStart(2,'0')} 席`);
+ $('folioSummary').textContent=item?.summary||(topic.id==='yugen' && seat===0 ? '清冷，不是一个人没有情感，而是ta的情感拥有自己的世界。' : '这里将展示该细分审美风格的真实内容。先验证从座椅进入图册的空间与翻阅动作，不编造词条描述。');
+ $('folioStatus').textContent=item?'来自飞书只读词条快照':(topic.id==='yugen' && seat===0 ? '含词条释义及《Snow》《Hokkaido》案例。' : '该席位尚未载入正式词条；可切回第一席查看清冷样页。');
+ const well=$('folioImage');well.querySelector('img')?.remove();
+ well.querySelector('.image-wait').hidden=false;
+ // Only load externally verified images passed in the read-only data adapter.
+ if(item?.cover_url && typeof item.cover_url==='string' && /^(https:\/\/|\.\/|\.\.\/)/.test(item.cover_url)){
+   const im=document.createElement('img');im.src=item.cover_url;im.alt=`${escapeText(item.title)} · 词条原图`;im.onload=()=>{well.querySelector('.image-wait').hidden=true};im.onerror=()=>{im.remove()};well.prepend(im);
+ }
+ const realLink=item?.v3_url && /^https:\/\//.test(item.v3_url);
+ const sample=(topic.id==='yugen' && seat===0);
+ $('folioV3').disabled=!sample;
+ $('folioV3').textContent=sample?'进入《清冷》完整阅读 →':'完整词条待接入';
+ $('folioV3').onclick=()=>{if(sample && window.enterV3Reading)window.enterV3Reading()};
+ const mark=well.querySelector('.image-wait');if(mark){mark.querySelector('.atlas-word').textContent=sample?'清冷':'待收录';mark.querySelector('.atlas-latin').textContent=sample?'COOL DETACHMENT':'AESTHETIC ATLAS';}
+ $('folioPrevious').disabled=seat<=0;$('folioNext').disabled=seat>=total-1;
+}
+function shiftSeat(step){const total=records().length||8, n=Math.max(0,Math.min(total-1,seat+step));if(n===seat)return;
+  seat=n;page=Math.floor(seat/8);render();fillFolio();
+}
+function getCurrentPew(index){const svg=matchMedia('(max-width:900px)').matches?document.querySelector('#svgMobile svg'):document.querySelector('#svgDesktop svg');return svg?.querySelector(`.pew[data-seat="${index%8}"]`)}
+function openFolio(index){
+ clearTimeout(closingTimer);
+ const g=getCurrentPew(index), rect=g?.getBoundingClientRect(), sceneRect=scene.querySelector('figure').getBoundingClientRect();
+ const x=rect?(rect.left+rect.width/2 - (sceneRect.left+sceneRect.width/2)):0;
+ const y=rect?(rect.top+rect.height/2 - (sceneRect.top+sceneRect.height*.73)):90;
+ folio.style.setProperty('--offset-x',`${Math.round(x)}px`);folio.style.setProperty('--offset-y',`${Math.round(y)}px`);
+ folio.hidden=false;scene.querySelector('.side').inert=true;folio.classList.remove('fold','unfold');void folio.offsetHeight;folio.classList.add('unfold');
+ folio.addEventListener('animationend',()=>{if(!folio.hidden && window.updateStar)window.updateStar()}, {once:true});
+ document.body.classList.add('focused');if(window.updateStar)requestAnimationFrame(window.updateStar);
+ scene.style.setProperty('--scene-shift',`${Math.round(Math.sign(x)*-8)}px`);
+ scene.style.setProperty('--scene-y','-4px');
+ fillFolio();
+}
+function closeFolio(){
+ clearTimeout(closingTimer);scene.querySelector('.side').inert=false;document.body.classList.remove('focused');if(window.updateStar)requestAnimationFrame(window.updateStar);
+ if(folio.hidden)return;
+ folio.classList.remove('unfold');folio.classList.add('fold');
+ if(reduce)folio.hidden=true;else closingTimer=setTimeout(()=>{folio.hidden=true;folio.classList.remove('fold')},260);
+}
+window.openFolio=openFolio;window.closeFolio=closeFolio;
+$('closeFolio').addEventListener('click',closeFolio);
+$('folioPrevious').addEventListener('click',()=>shiftSeat(-1));$('folioNext').addEventListener('click',()=>shiftSeat(1));
+function targetStar(){
+ if(document.body.classList.contains('v3-reading')){
+    const r=document.getElementById('v3StarAnchor')?.getBoundingClientRect();if(r)return{x:r.left+r.width/2,y:r.top+r.height/2,sz:Math.max(36,r.width)};
+ }
+ if(document.body.classList.contains('inside')){
+    if(document.body.classList.contains('focused') && !folio.hidden){
+      const fr=folio.getBoundingClientRect(),mob=matchMedia('(max-width:900px)').matches;
+      return {x:fr.left+fr.width/2,y:fr.top+(mob?41:82),sz:mob?31:38};
+    }
+    const svg=matchMedia('(max-width:900px)').matches?document.querySelector('#svgMobile svg'):document.querySelector('#svgDesktop svg');
+    if(svg){const pt=svg.createSVGPoint();pt.x=matchMedia('(max-width:900px)').matches?195:600;pt.y=matchMedia('(max-width:900px)').matches?193:181;
+      const matrix=svg.getScreenCTM();if(matrix){const s=pt.matrixTransform(matrix);const mob=matchMedia('(max-width:900px)').matches;const limit=folio.hidden?Infinity:folio.getBoundingClientRect().top-33;return {x:s.x,y:mob?Math.min(s.y,limit):s.y,sz:mob?32:57}}}
+ }
+ const rect=$('introFigure').getBoundingClientRect();return{x:rect.left+rect.width/2,y:rect.top+rect.height*.26,sz:matchMedia('(max-width:900px)').matches?37:58};
+}
+function updateStar(){const t=targetStar();star.style.left=`${t.x}px`;star.style.top=`${t.y}px`;star.style.width=`${t.sz}px`;star.style.height=`${t.sz}px`}
+window.updateStar=updateStar;
+requestAnimationFrame(updateStar);window.addEventListener('resize',updateStar);
+new MutationObserver(updateStar).observe(document.body,{attributes:true,attributeFilter:['class']});
+star.addEventListener('click',()=>{pop.hidden=!pop.hidden; if(!pop.hidden)$('dismissStar').focus()});
+$('dismissStar').addEventListener('click',()=>{pop.hidden=true;star.focus()});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){if(!pop.hidden)pop.hidden=true;else closeFolio()}});
+})();
+</script>
+<section id="v3Layer" aria-label="清冷 · 完整词条阅读实验" hidden>
+  <div class="v3-portal"><button type="button" id="v3Close">‹ 合起书页 · 回到刚才的座椅</button><span>审美外挂 / AESTHETIC ATLAS</span><small id="v3ReadingProgress">VOLUME / 01</small></div>
+  <div class="v3-nave-ghost" aria-hidden="true"><svg viewBox="0 0 1440 900" preserveAspectRatio="none"><path d="M60 895 L160 255 Q368 -19 720 -100 Q1072 -19 1280 255 L1380 895"/><path d="M120 895 L204 295 Q412 27 720 -51 Q1028 27 1236 295 L1320 895"/><path d="M0 780 L485 310 M1440 780 L955 310"/></svg></div>
+  <div id="v3StarAnchor" class="v3-star-pocket" aria-hidden="true"></div>
+  <main id="v3Book" class="v3-chronicle">
+    <div class="v3-edition"><span>FOLIO I / 幽玄之室</span><span>AN ATLAS OF AESTHETIC FEELING</span><span>2026 · STUDY</span></div>
+    <section class="v3-spread v3-intro" id="v3FirstSpread" aria-label="第一页：清冷的定义和封面原画">
+      <div class="v3-leaf title-leaf">
+       <div class="v3-overline">FROM THE NAVE / SEAT NO. 01</div>
+       <h1>清冷</h1><div class="v3-title-line"></div><p class="v3-kicker">Cool Detachment</p>
+       <blockquote>清冷，不是一个人没有情感，而是ta的情感拥有自己的世界。</blockquote>
+       <div class="v3-leaf-number">I · THE FEELING　/　001</div>
+      </div>
+      <div class="v3-leaf v3-coverleaf"><div class="v3-overline">THE ORIGINAL IMAGE　/　FROM V3</div>
+       <div class="v3-portrait-frame"><img class="v3-image" data-art-slot="cover" alt="旧 V3 清冷封面原画" src=""><div class="v3-image-fallback"><svg viewBox="0 0 260 340" role="presentation" aria-hidden="true"><path d="M24 314 V108 Q24 50 130 9 Q236 50 236 108 V314 Z"/><path d="M39 314 V115 Q39 68 130 32 Q221 68 221 115 V314 Z"/><path d="M130 31 V310 M40 174 H220"/><circle cx="130" cy="120" r="43"/><path d="M130 78 V162 M88 120 H172 M101 91 L159 149 M159 91 L101 149"/><path d="M64 259 H196 M64 278 H196"/></svg><span>ORIGINAL ARTWORK<br>旧 V3 原画保留位</span></div></div>
+       <p class="v3-annotation">清冷 · 清冷的视觉语言不是简单地把颜色调冷。</p><p class="v3-leaf-number">一 / 图册卷首</p>
+      </div>
+    </section>
+    <div class="v3-intro-note">沿着书页继续向下，去看这种感觉怎样在作品中真正成立。</div>
+    <section class="v3-spread" id="v3Meaning" aria-label="第二页：词条含义">
+      <div class="v3-leaf"><div class="v3-overline">I / THE FEELING · BEFORE THE WORKS</div><h2 class="v3-callout">这种美，<br>究竟是怎样成立的？</h2><div class="v3-body-copy"><p>白色、冰雪、空旷都可以让人感到冷，但医院走廊也可以很冷。</p><p>真正的问题不是为什么某些事物很冷，而是为什么有些冷让我们想逃离，另一些冷却让我们忍不住凝视。</p></div><div class="v3-leaf-number">001 / 留在纸面上的问题</div></div>
+      <div class="v3-leaf"><div class="v3-overline">A DEFINITION / THE CORE</div><p class="v3-quote">清冷，不是一个人没有情感，而是ta的情感拥有自己的世界。</p><div style="flex:1"></div><div class="v3-overline">A FORM OF ATTENTION</div><div class="v3-body-copy"><p>从一个人的目光到一片静止的雪地，真正使它成立的不是“冷”这个表面标签，而是克制如何把强烈的存在留在画面之内。</p></div><div class="v3-leaf-number">002 / 进入作品之前</div></div>
+    </section>
+    <section class="v3-spread" id="v3Snow" aria-label="第三页：Snow（雪）">
+     <div class="v3-leaf"><div class="v3-overline">II / IN THE WORLD · REAL WORKS</div><h2 class="v3-callout">Snow <small>（雪）</small></h2>
+      <div class="v3-photo-well"><img class="v3-image" data-art-slot="snow" alt="吉冈德仁 Snow 装置作品原图" src=""><div class="v3-image-fallback"><svg viewBox="0 0 260 340" role="presentation" aria-hidden="true"><path d="M24 314 V108 Q24 50 130 9 Q236 50 236 108 V314 Z"/><path d="M39 314 V115 Q39 68 130 32 Q221 68 221 115 V314 Z"/><path d="M130 31 V310 M40 174 H220"/><circle cx="130" cy="120" r="43"/><path d="M130 78 V162 M88 120 H172 M101 91 L159 149 M159 91 L101 149"/><path d="M64 259 H196 M64 278 H196"/></svg><span>ORIGINAL ARTWORK<br>旧 V3 原画保留位</span></div></div>
+      <div class="v3-caption">吉冈德仁 Tokujin Yoshioka · 2010 · 动态装置</div>
+      <a class="v3-resource" target="_blank" rel="noopener noreferrer" href="https://www.tokujin.com/works/2010-sensing-nature-snow/">作品官方页面 ↗</a>
+      <div class="v3-leaf-number">FIG. 01 / 001</div>
+     </div>
+     <div class="v3-leaf"><div class="v3-overline">CAPTION / WHY THIS WORK</div><h3 class="v3-callout">没有一片真雪，<br>整个空间却像被冬天占领。</h3>
+      <div class="v3-body-copy"><p>十五米宽的装置里，数百公斤轻盈的羽毛被气流吹起、缓缓落下，仿佛一场没有寒意的暴风雪。洁白的空间让这场人造降雪显得近乎不真实。</p><p>《Snow》把“冷”做成可以走进去的氛围。你开始凝视羽毛的轨迹，而不是想找一件外套。</p></div>
+      <div class="v3-leaf-number">FIG. 01 / 002</div>
+     </div>
+    </section>
+    <section class="v3-spread" id="v3Hokkaido" aria-label="第四页：Hokkaido（北海道）">
+     <div class="v3-leaf"><div class="v3-overline">II / IN THE WORLD · REAL WORKS</div><h2 class="v3-callout">Hokkaido <small>（北海道）</small></h2>
+      <div class="v3-photo-well"><img class="v3-image" data-art-slot="hokkaido" alt="Michael Kenna 北海道摄影作品原图" src=""><div class="v3-image-fallback"><svg viewBox="0 0 260 340" role="presentation" aria-hidden="true"><path d="M24 314 V108 Q24 50 130 9 Q236 50 236 108 V314 Z"/><path d="M39 314 V115 Q39 68 130 32 Q221 68 221 115 V314 Z"/><path d="M130 31 V310 M40 174 H220"/><circle cx="130" cy="120" r="43"/><path d="M130 78 V162 M88 120 H172 M101 91 L159 149 M159 91 L101 149"/><path d="M64 259 H196 M64 278 H196"/></svg><span>ORIGINAL ARTWORK<br>旧 V3 原画保留位</span></div></div>
+      <div class="v3-caption">Michael Kenna · 2002 年起 · 黑白风景摄影</div>
+      <a class="v3-resource" target="_blank" rel="noopener noreferrer" href="https://www.michaelkenna.com/gallery.php?id=6">艺术家作品页面 ↗</a><div class="v3-leaf-number">FIG. 02 / 003</div>
+     </div>
+     <div class="v3-leaf"><div class="v3-overline">CAPTION / WHY THIS WORK</div><h3 class="v3-callout">九棵树站在雪地里，整片世界都没有多余的声音。</h3>
+      <div class="v3-body-copy"><p>厚雪抹平了地面细节，黑色树影孤零零地站在大片留白之中。尤其是《Nine Trees》（2004），九棵树在雪原上排成细细的一行。</p><p>清冷往往不是生命消失了，而是生命的温度被压低了。强烈的存在，被安放在一种克制的秩序之中。</p></div><div class="v3-leaf-number">FIG. 02 / 004</div>
+     </div>
+    </section>
+    <section class="v3-spread v3-afterword" id="v3Afterword" aria-label="词条附录：继续探索">
+      <div class="v3-leaf"><div class="v3-overline">III / INDEX & RELATED DIRECTIONS</div><h2 class="v3-end-title">继续找灵感。</h2><div class="v3-body-copy"><p>清冷 · 清冷感 · 高冷 · 冷感 · 雪景 · 月光 · 冬日 · aloof · cold beauty</p></div><div class="v3-leaf-number">APPENDIX / 005</div></div>
+      <div class="v3-leaf"><div class="v3-overline">RETURN TO THE NAVE</div><h2 class="v3-end-title">将书合上，<br>回到那张长凳。</h2><p class="v3-note">你仍在「幽玄」专题的座位区。返回后保持原专题、原席位、原本打开的预览册。</p><div class="v3-navigation"><button id="v3ReturnToP4" type="button">← 合起图册，回到 P4</button><button id="v3ToTop" type="button">↑ 回到卷首</button></div><div class="v3-leaf-number">THE END / AESTHETIC ATLAS</div></div>
+    </section>
+  </main>
+</section><script>
+// P4 → V3 additive bridge. Keep original pew and folio interactions intact.
+(function(){
+const layer=document.getElementById('v3Layer'),book=document.getElementById('v3Book'),openBtn=document.getElementById('folioV3');
+const reduce=matchMedia('(prefers-reduced-motion:reduce)').matches;
+function enterReading(){
+ if(document.getElementById('folioLayer').hidden) return;
+ layer.hidden=false;layer.scrollTop=0;
+ document.body.classList.add('v3-reading');
+ book.classList.remove('reading-open');void book.offsetWidth;if(!reduce)book.classList.add('reading-open');
+ if(window.updateStar)requestAnimationFrame(window.updateStar);
+ document.getElementById('v3Close').focus({preventScroll:true});
+}
+function leaveReading(){
+ layer.hidden=true;document.body.classList.remove('v3-reading');book.classList.remove('reading-open');
+ if(window.updateStar)requestAnimationFrame(window.updateStar);
+ openBtn.focus({preventScroll:true});
+}
+window.enterV3Reading=enterReading;window.leaveV3Reading=leaveReading;
+/* v4 preview availability is controlled by fillFolio to avoid wrong-term V3 navigation */
+// Original v2 onclick was patched above to invoke enterReading; no duplicate handler.
+document.getElementById('v3Close').addEventListener('click',leaveReading);
+document.getElementById('v3ReturnToP4').addEventListener('click',leaveReading);
+document.getElementById('v3ToTop').addEventListener('click',()=>layer.scrollTo({top:0,behavior:reduce?'auto':'smooth'}));
+layer.addEventListener('scroll',()=>{const pct=Math.min(100,Math.round(layer.scrollTop/Math.max(1,layer.scrollHeight-layer.clientHeight)*100));document.getElementById('v3ReadingProgress').textContent=`READING / ${pct}%`},{passive:true});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!layer.hidden){e.stopImmediatePropagation();leaveReading()}},true);
+// Existing v2 re-renders its old external-link button every time a seat changes; keep the local prototype active.
+// Only mark all demo/sample content as a prototype; do not claim Feishu live data.
+const status=document.getElementById('folioStatus');
+if(status && !getRecords().length) status.textContent='V3 样页以 Figma「清冷」真实设计稿内容演示；席位和图像接线待核实';
+})();
+</script>\n</body></html>
