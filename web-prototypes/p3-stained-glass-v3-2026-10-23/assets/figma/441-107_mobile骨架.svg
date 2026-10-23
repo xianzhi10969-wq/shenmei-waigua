@@ -1,0 +1,21 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="390" height="844" viewBox="0 0 390 844" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="SVG&#239;&#189;&#156;&#231;&#186;&#175;&#231;&#186;&#191;&#230;&#157;&#161;&#229;&#147;&#165;&#231;&#137;&#185;&#229;&#189;&#169;&#231;&#170;&#151;&#233;&#170;&#168;&#230;&#158;&#182;&#239;&#189;&#156;&#230;&#151;&#160;&#229;&#143;&#160;&#231;&#186;&#191;" clip-path="url(#clip0_0_4)">
+<path id="Vector" d="M18 792V256C18.6667 166 77.6667 95 195 43C312.333 95 371.333 166 372 256V792" stroke="black" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M195 221C227.033 221 253 195.033 253 163C253 130.967 227.033 105 195 105C162.967 105 137 130.967 137 163C137 195.033 162.967 221 195 221Z" stroke="black" stroke-width="1.5"/>
+<path id="Vector_3" d="M195 123L200.5 149.7L223.3 134.7L208.3 157.5L235 163L208.3 168.5L223.3 191.3L200.5 176.3L195 203L189.5 176.3L166.7 191.3L181.7 168.5L155 163L181.7 157.5L166.7 134.7L189.5 149.7L195 123Z" stroke="black" stroke-width="1.6" stroke-linejoin="round"/>
+<path id="Vector_4" d="M42 296C80 261.333 114.667 261.333 146 296M244 296C275.333 261.333 310 261.333 348 296" stroke="black" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M18 315H372" stroke="black" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" d="M88 772V386C88 364.667 123.667 341.333 195 316C266.333 341.333 302 364.667 302 386V772" stroke="black" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_7" d="M88 772H302" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_8" d="M88 718H302" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_9" d="M102 772V730H288V772" stroke="black" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_10" d="M-145 772V411C-145 373 -104 341.333 -22 316C46.6667 342.667 81 374.333 81 411V772" stroke="black" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_11" d="M309 772V411C309 373 342.667 341.333 410 316C492 341.333 533 373 533 411V772" stroke="black" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_12" d="M18 792H372" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_0_4">
+<rect width="390" height="844" fill="white"/>
+</clipPath>
+</defs>
+</svg>

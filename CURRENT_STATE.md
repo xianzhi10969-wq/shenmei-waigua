@@ -129,3 +129,6 @@ $L base +record-download-attachment --as user --base-token $B --table-id tblaYsG
 
 ## P3 彩窗 v2（2026-10-23，待夕里审，非基线）
 `web-prototypes/p3-stained-glass-v2-2026-10-23/`：结构线稿 = 夕里在 Figma 459:2 画的线稿原图（仅清除标注/占位星），装饰层 = 新绘排线+串珠（待审），专题与封面 = 飞书章节表只读拉取。v1 已标注为被取代（保留未删）。v4、v9 未改动。
+
+## P3 彩窗 v3（2026-10-23，待夕里审，非基线）
+`web-prototypes/p3-stained-glass-v3-2026-10-23/`：五联全量飞书原色封面 + 白石框 + 夜玻璃镶边 + 卷轴；桌面五联 / 手机三格可滑。v2 已标取代。v4、v9 未改。
