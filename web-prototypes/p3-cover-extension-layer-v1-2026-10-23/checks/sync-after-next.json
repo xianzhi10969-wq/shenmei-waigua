@@ -1,0 +1,27 @@
+[
+  {
+    "order": "2",
+    "pane": "web-0",
+    "sameTopicAndImage": true
+  },
+  {
+    "order": "3",
+    "pane": "web-1",
+    "sameTopicAndImage": true
+  },
+  {
+    "order": "4",
+    "pane": "web-2",
+    "sameTopicAndImage": true
+  },
+  {
+    "order": "5",
+    "pane": "web-3",
+    "sameTopicAndImage": true
+  },
+  {
+    "order": "6",
+    "pane": "web-4",
+    "sameTopicAndImage": true
+  }
+]
