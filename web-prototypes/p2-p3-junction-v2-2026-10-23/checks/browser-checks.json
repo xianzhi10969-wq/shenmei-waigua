@@ -1,0 +1,41 @@
+{
+  "desktop": {
+    "keyboard_reverse_home": "0.0000",
+    "keyboard_forward_end": "1.0000",
+    "same_star_endpoint": true,
+    "v1_window": [
+      346.6875,
+      47.546875,
+      731.625,
+      790
+    ],
+    "v2_window": [
+      346.6875,
+      48,
+      731.625,
+      790
+    ]
+  },
+  "mobile": {
+    "review_button_reverse": "0.0000",
+    "review_button_forward": "1.0000",
+    "same_star_endpoint": true,
+    "topic_next_previous": "爱欲→田园→爱欲",
+    "v1_window": [
+      30.4375,
+      42.21875,
+      314.109375,
+      734
+    ],
+    "v2_window": [
+      30.4375,
+      42,
+      314.109375,
+      734
+    ]
+  },
+  "capture": "actual browser screenshots; review header cropped at y=32; montage is labeled as still frames, not video",
+  "continuous_video": "not recorded",
+  "full_v4_pixel_comparison": "not performed; inherited large bitmap retrieval limit",
+  "scope": "P3 assets unchanged, only new junction motion"
+}

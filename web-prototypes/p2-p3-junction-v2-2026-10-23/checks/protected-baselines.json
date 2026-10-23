@@ -1,0 +1,27 @@
+{
+  "before_commit": "a02418d0f572b6baac3090826312a484ae60a0d9",
+  "protected": [
+    {
+      "path": "web-prototypes/p1-p2-reveal-star-v4-2026-10-21",
+      "tree_sha": "0c3d6c590f1895e77cc68cb1139902312a88660a"
+    },
+    {
+      "path": "web-prototypes/p2-p3-junction-v1-2026-10-23",
+      "tree_sha": "e8f077e4d8c62000a1d47eab846c5ba8fc0edbf5"
+    },
+    {
+      "path": "web-prototypes/p3-p4-restored-v9-2026-10-21",
+      "tree_sha": "868285742b6e86ee5c567a6c50367eed93037ce0"
+    },
+    {
+      "path": "web-prototypes/p3-stained-glass-v3-2026-10-23",
+      "tree_sha": "7fa7e228cd55394cef20821d7249f8f9cf9903ad"
+    }
+  ],
+  "write_scope": [
+    "web-prototypes/p2-p3-junction-v2-2026-10-23/",
+    "CURRENT_STATE.md",
+    "PROJECT_CONTROL.md"
+  ],
+  "v4_pixel_comparison": "not performed"
+}

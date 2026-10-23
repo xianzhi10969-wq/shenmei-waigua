@@ -1,0 +1,220 @@
+{
+ "topics": [
+  {
+   "slug": "melancholy",
+   "zh": "忧郁",
+   "la": "Melancholy",
+   "define": "忧郁，是生活还在继续，而有一部分自己停在了原地。",
+   "credit": "Vilhelm Hammershøi《Interior, Strandgade 30》",
+   "seq": 1,
+   "pane": "assets/panes/melancholy.jpg"
+  },
+  {
+   "slug": "eros",
+   "zh": "爱欲",
+   "la": "Eros",
+   "define": "爱欲从缺口里生长：你想要的还没得到，因此一直向它靠近。",
+   "credit": "约翰内斯·维米尔《窗前读信的少女》（约 1657–1659，德累斯顿历代大师画廊）· 公有领域 · 图源 Wikimedia Commons",
+   "seq": 2,
+   "pane": "assets/panes/eros.jpg"
+  },
+  {
+   "slug": "arcadia",
+   "zh": "田园",
+   "la": "Arcadia",
+   "define": "田园给疲惫的人一处可想象的栖身之地，也让人暂时放慢脚步。",
+   "credit": "文森特·凡·高《麦田里的收割者》（1889，阿姆斯特丹凡·高博物馆）· 公有领域 · 图源 Wikimedia Commons",
+   "seq": 3,
+   "pane": "assets/panes/arcadia.jpg"
+  },
+  {
+   "slug": "yugen",
+   "zh": "幽玄",
+   "la": "Yūgen",
+   "define": "幽玄把可见的部分留在眼前，让更深的一层停在难以说尽的地方。",
+   "credit": "上村松园《序之舞》（1936，东京艺术大学大学美术馆）· 公有领域 · 图源 Wikimedia Commons",
+   "seq": 4,
+   "pane": "assets/panes/yugen.jpg"
+  },
+  {
+   "slug": "dionysian",
+   "zh": "酒神",
+   "la": "Dionysian",
+   "define": "酒神让个人的边界暂时松开，情绪随着节奏涌进人群。",
+   "credit": "提香《酒神与阿里阿德涅》（1520–1523，伦敦国家美术馆）· 公有领域 · 图源 Wikimedia Commons",
+   "seq": 5,
+   "pane": "assets/panes/dionysian.jpg"
+  },
+  {
+   "slug": "liubai",
+   "zh": "留白",
+   "la": "Liubai",
+   "define": "留白不是空着省事，而是把必要的线索放好，再让观众走进未画出的部分。",
+   "credit": "马远《寒江独钓图》（南宋，东京国立博物馆）· 公有领域 · 图源 Wikimedia Commons",
+   "seq": 6,
+   "pane": "assets/panes/liubai.jpg"
+  },
+  {
+   "slug": "pingdan",
+   "zh": "平淡",
+   "la": "Pingdan",
+   "define": "平淡把复杂经历收在很轻的表达里；情绪没有消失，只是不急着外露。",
+   "credit": "维尔海姆·哈默修伊《斯特兰德街的室内，地板上的阳光》（1901，丹麦国立美术馆）· 公有领域 · 图源 Wikimedia Commons",
+   "seq": 7,
+   "pane": "assets/panes/pingdan.jpg"
+  },
+  {
+   "slug": "mono-no-aware",
+   "zh": "物哀",
+   "la": "Mono no aware",
+   "define": "物哀是心被眼前的事物轻轻碰到，也知道这一刻不会永远停着。",
+   "credit": "亨利·霍利迪《但丁与贝雅特丽齐》（1883，利物浦沃克美术馆）· 公有领域 · 图源 Wikimedia Commons",
+   "seq": 8,
+   "pane": "assets/panes/mono-no-aware.jpg"
+  },
+  {
+   "slug": "infra-ordinary",
+   "zh": "日常",
+   "la": "Infra-ordinary",
+   "define": "日常由那些天天发生、因太熟悉而常被略过的动作组成。",
+   "credit": "费利克斯·瓦洛东《晚餐，灯光效果》（1899，巴黎奥赛博物馆）· 公有领域 · 图源 Wikimedia Commons",
+   "seq": 9,
+   "pane": "assets/panes/infra-ordinary.jpg"
+  },
+  {
+   "slug": "wabi-sabi",
+   "zh": "侘寂",
+   "la": "Wabi-sabi",
+   "define": "侘寂在简朴、老去和缺口里看见被使用过的时间。",
+   "credit": "威廉·克拉斯·赫达《肉馅饼宴席静物》（1635，华盛顿国家美术馆）· CC0 · 图源 Wikimedia Commons",
+   "seq": 10,
+   "pane": "assets/panes/wabi-sabi.jpg"
+  },
+  {
+   "slug": "qiyun",
+   "zh": "气韵",
+   "la": "Qiyun",
+   "define": "气韵是作品内部那股仍在活动的生命感，静止的形也像在呼吸。",
+   "credit": "梁楷《泼墨仙人图》（南宋，台北故宫博物院）· 公有领域 · 图源 Wikimedia Commons",
+   "seq": 11,
+   "pane": "assets/panes/qiyun.jpg"
+  },
+  {
+   "slug": "xia",
+   "zh": "侠",
+   "la": "Xia",
+   "define": "侠站在现成规矩之外，仍认真守住自己认下的责任。",
+   "credit": "孙位《高逸图》局部（唐，上海博物馆）· 公有领域 · 图源 Wikimedia Commons",
+   "seq": 12,
+   "pane": "assets/panes/xia.jpg"
+  },
+  {
+   "slug": "lightness",
+   "zh": "轻逸",
+   "la": "Lightness",
+   "define": "轻逸让重量松开一点，使人感到物体正在向上或向外获得自由。",
+   "credit": "威廉·透纳《蓝色的里吉山》（1842，伦敦泰特美术馆）· 公有领域 · 图源 Wikimedia Commons",
+   "seq": 13,
+   "pane": "assets/panes/lightness.jpg"
+  },
+  {
+   "slug": "sublime",
+   "zh": "崇高",
+   "la": "Sublime",
+   "define": "崇高让人安全地面对远大于自身的力量，于是害怕也变得令人想看。",
+   "credit": "弗雷德里克·埃德温·丘奇《北极光》（1865，史密森尼美国艺术博物馆）· 公有领域 · 图源 Wikimedia Commons",
+   "seq": 14,
+   "pane": "assets/panes/sublime.jpg"
+  },
+  {
+   "slug": "sprezzatura",
+   "zh": "从容",
+   "la": "Sprezzatura",
+   "define": "从容是功夫已经在身上，动作却不必每一步都展示用力。",
+   "credit": "皮埃尔-奥古斯特·雷诺阿《船上的午宴》（1880–1881，华盛顿菲利普斯收藏馆）· 公有领域 · 图源 Wikimedia Commons",
+   "seq": 15,
+   "pane": "assets/panes/sprezzatura.jpg"
+  },
+  {
+   "slug": "cool",
+   "zh": "酷",
+   "la": "Cool",
+   "define": "酷让外在的热度与内在的定力同时存在；动作再放开，心也稳得住。",
+   "credit": "长泽芦雪《虎图》局部（1786–1787，和歌山县串本町无量寺）· 公有领域 · 图源 Wikimedia Commons",
+   "seq": 16,
+   "pane": "assets/panes/cool.jpg"
+  },
+  {
+   "slug": "grotesque",
+   "zh": "怪诞",
+   "la": "Grotesque",
+   "define": "怪诞把崇高与低俗、好笑与不适拉到同一张桌上。",
+   "credit": "传老彼得·勃鲁盖尔《伊卡洛斯坠落的风景》（比利时皇家美术馆）· 公有领域 · 图源 Wikimedia Commons",
+   "seq": 17,
+   "pane": "assets/panes/grotesque.jpg"
+  },
+  {
+   "slug": "in-praise-of-shadows",
+   "zh": "阴翳",
+   "la": "In Praise of Shadows",
+   "define": "阴翳让光只照到一部分，使暗处也能参与观看。",
+   "credit": "乔治·德·拉图尔《木匠圣约瑟》局部（约 1642–1644，巴黎卢浮宫）· 公有领域 · 图源 Wikimedia Commons",
+   "seq": 18,
+   "pane": "assets/panes/in-praise-of-shadows.jpg"
+  },
+  {
+   "slug": "tragic",
+   "zh": "悲剧",
+   "la": "Tragic",
+   "define": "悲剧让人的选择撞上无法轻易避开的后果；心疼之外，还有对自身的害怕。",
+   "credit": "约翰·埃弗里特·米莱《盲女》（1856，伯明翰博物馆与美术馆）· 公有领域 · 图源 Wikimedia Commons",
+   "seq": 19,
+   "pane": "assets/panes/tragic.jpg"
+  },
+  {
+   "slug": "ruin",
+   "zh": "废墟",
+   "la": "Ruin",
+   "define": "废墟是人造的秩序退去以后，时间与自然继续使用那块地方。",
+   "credit": "托马斯·科尔《帝国的进程：荒芜》（1836，纽约历史学会）· 公有领域 · 图源 Wikimedia Commons",
+   "seq": 20,
+   "pane": "assets/panes/ruin.jpg"
+  },
+  {
+   "slug": "future-imaginaries",
+   "zh": "未来想象",
+   "la": "Future Imaginaries",
+   "define": "坎普明知自己在表演，偏把装饰和夸张认真做到尽兴。",
+   "credit": "奥布里·比亚兹莱《孔雀裙》（1893，王尔德《莎乐美》插图）· CC0 · 图源 Wikimedia Commons",
+   "seq": 21,
+   "pane": "assets/panes/future-imaginaries.jpg"
+  },
+  {
+   "slug": "nostalgia",
+   "zh": "乡愁",
+   "la": "Nostalgia",
+   "define": "乡愁想回到一个地方：它可能已经不在，也可能只在想象里存在过。",
+   "credit": "老彼得·勃鲁盖尔《儿童游戏》（1560，维也纳艺术史博物馆）· 公有领域 · 图源 Wikimedia Commons",
+   "seq": 22,
+   "pane": "assets/panes/nostalgia.jpg"
+  },
+  {
+   "slug": "uncanny",
+   "zh": "诡异",
+   "la": "Uncanny",
+   "define": "诡异从熟悉的东西里冒出来：一切都像平常，只差了一点点。",
+   "credit": "亨利·菲斯利《梦魇》（1781，底特律美术馆）· 公有领域 · 图源 Wikimedia Commons",
+   "seq": 23,
+   "pane": "assets/panes/uncanny.jpg"
+  },
+  {
+   "slug": "cute",
+   "zh": "可爱",
+   "la": "Cute",
+   "define": "可爱让你想保护一个小东西，也可能让你忍不住想轻轻捏它。",
+   "credit": "让-奥诺雷·弗拉戈纳尔《秋千》（1767，伦敦华莱士收藏馆）· 公有领域 · 图源 Wikimedia Commons",
+   "seq": 24,
+   "pane": "assets/panes/cute.jpg"
+  }
+ ]
+}

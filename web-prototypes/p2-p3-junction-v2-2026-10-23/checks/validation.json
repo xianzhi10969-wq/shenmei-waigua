@@ -1,0 +1,38 @@
+{
+  "motion": "pass",
+  "samplesPerViewport": 1001,
+  "viewports": [
+    [
+      1440,
+      900
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "reverse": "same positions and sizes for every sampled progress",
+  "lockedAssets": [
+    {
+      "path": "assets/frame-web.svg",
+      "sha256": "0e2b30bd1dd8590d1d1d32f39adfcf2c98c1678b76434441d1cecfa4fe603d2f"
+    },
+    {
+      "path": "assets/frame-mobile.svg",
+      "sha256": "e248522ff804215ce459b557d7048bf212612c635e5620516d1eee24068da2d2"
+    },
+    {
+      "path": "assets/frame-geometry.json",
+      "sha256": "7a72b51a8ec5cd145f4c7a0347f9d4283e8927957e2372e5e00b80b7ae1d25c7"
+    },
+    {
+      "path": "assets/topics.json",
+      "sha256": "63dd38958c10fc1e3ffcc4022f7cc19c95361edb0476fc8a036af3766300ce52"
+    },
+    {
+      "path": "assets/water-ink-paper.png",
+      "sha256": "5aff369d4f92f2b422849a9fd0edc71232e9aa7f54e4d1e5075a2f908774c44d"
+    }
+  ],
+  "browser": "see browser-checks.json; no video claimed"
+}

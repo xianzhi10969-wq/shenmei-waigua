@@ -1,0 +1,9 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><title>P2→P3 · 水线入窗台 v2</title><style>html,body{margin:0;background:#F6F3ED;color:#1E1E1E}iframe{border:0;display:block}nav{height:32px;display:flex;align-items:center;gap:16px;padding:0 12px;font:14px serif;white-space:nowrap}a{color:inherit}button{background:#F6F3ED;color:#1E1E1E;border:1px solid #1E1E1E;padding:3px 8px}input{accent-color:#1E1E1E;width:180px}</style></head><body>
+<nav><span>提案待审 · P3 画面保留</span><a href="index.html">运行原型</a><button id="start">回到水面</button><input type="range" min="0" max="100" value="0" aria-label="镜头进度"><button id="end">进入彩窗</button><a href="../p2-p3-junction-v1-2026-10-23/review.html?at=1">上一版 P3</a></nav>
+<iframe id="preview" title="精确尺寸的运行原型"></iframe>
+<script>
+ const q=new URLSearchParams(location.search),m=q.get('device')==='mobile',f=document.querySelector('iframe'),range=document.querySelector('input');f.width=m?390:1440;f.height=m?844:900;f.src='index.html?at='+(q.get('at')||'0')+(q.has('lineonly')?'&lineonly=1':'');
+ function go(v){const d=f.contentDocument,w=f.contentWindow,j=d.querySelector('#journey');if(!j)return;w.scrollTo(0,j.offsetTop+v*(j.offsetHeight-w.innerHeight));}
+ range.oninput=()=>go(Number(range.value)/100);document.querySelector('#start').onclick=()=>go(0);document.querySelector('#end').onclick=()=>go(1);
+ f.addEventListener('load',()=>{f.contentWindow.addEventListener('scroll',()=>{const d=f.contentDocument,j=d.querySelector('#journey');if(j)range.value=Math.max(0,Math.min(100,100*(f.contentWindow.scrollY-j.offsetTop)/(j.offsetHeight-f.contentWindow.innerHeight)));},{passive:true});});
+</script></body></html>
