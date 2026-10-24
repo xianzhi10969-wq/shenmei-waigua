@@ -1,5 +1,8 @@
 # 审美外挂｜整站设计总控（跨 AI 协作入口）
 
+> **2026-10-24 编辑设计 Skill 强制入口**：[专属 Editorial Layout Skill](.agents/skills/shenmei-editorial-layout/SKILL.md) + [执行证据模板](.agents/skills/shenmei-editorial-layout/EVIDENCE_TEMPLATE.md) + [10/24 P2 复盘](视觉研究/版式系统/2026-10-24-P2-Skill执行复盘与防漏机制.md)。涉及版式必须当轮读具体上游章节，点名规则 E01–E07、实施位置并提交 Figma 节点/原图保护证据；无证据不能称使用过 Skill。阶段①结构→②色彩→③字体须逐阶段用户确认；P2 `536:8`/`539:8` 均待审，不是新基线。
+
+
 > 首建：2026-10-23。**这是现有决策的索引与状态表，不是新一轮视觉定稿。**
 > 本文件负责「去哪找、叫什么、验收到了哪步」；`CURRENT_STATE.md` 记录发生了什么，`AGENTS.md` 记录怎样施工，具体源文件/用户最新明确反馈负责具体内容。发生冲突时必须回查原始来源，不能因为本表方便就擅自覆盖最新决策。
 
