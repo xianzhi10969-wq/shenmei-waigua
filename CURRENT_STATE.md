@@ -1,5 +1,13 @@
 # 当前状态｜审美外挂 · 2026-10-23
 
+## 2026-10-24｜版式 Skill 执行防漏机制（流程变更，不改视觉基线）
+
+- 用户要求：每轮可见、指令点名条目/用途、交出应用证据。已新增 [专属版式 Skill](.agents/skills/shenmei-editorial-layout/SKILL.md)、[证据模板](.agents/skills/shenmei-editorial-layout/EVIDENCE_TEMPLATE.md) 与 [反思复盘](视觉研究/版式系统/2026-10-24-P2-Skill执行复盘与防漏机制.md)，并接入根 `AGENTS.md`/`PROJECT_CONTROL.md`/`README.md`。
+- 上游 [Grid Systems & Editorial](https://github.com/medoismail/grid-systems-editorial-skill) 当前未提供明确 LICENSE，故只链接具体章节，不镜像其全文；本地为项目原创执行规范。
+- P2 原稿 Figma `306:35` 及 P1/P2 v4 未动。P2 版式实验 `536:8`/`539:8` 均待用户验收；后者有可查数字和编辑层不等于视觉已合格。本轮无 Figma/插画/动效/网站/飞书改动。
+
+
+
 ## 2026-10-23｜手机预览滑动修复（美术与Figma未改）
 
 - 用户反馈“手机版怎么滑不动了”。定位到390px手机预览仍因宿主细指针启动桌面Lenis、横向触控板无单格处理、画心以外无横拖区，以及父页进度条未回读实际滚动、往返播放不让出手动输入。
