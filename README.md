@@ -1,5 +1,8 @@
 # 审美外挂｜项目总入口（更新至 2026-10-23）
 
+> **2026-10-24 新增版式 Skill 入口**：版式、杂志、栅格或 Figma 排印任务必须打开 [项目专属 Editorial Layout Skill](.agents/skills/shenmei-editorial-layout/SKILL.md) 并阅读指向的上游具体章节，用 [证据模板](.agents/skills/shenmei-editorial-layout/EVIDENCE_TEMPLATE.md) 输出“规则→动作→节点”核验。背景见 [P2 Skill 失败复盘](视觉研究/版式系统/2026-10-24-P2-Skill执行复盘与防漏机制.md)。仅下载/搜索/读过 ≠ 真正使用。
+
+
 > **新对话 / Grok / ChatGPT / Codex / Work 的统一起点**：先读 [PROJECT_CONTROL.md](PROJECT_CONTROL.md) → [CURRENT_STATE.md](CURRENT_STATE.md) → [AGENTS.md](AGENTS.md) → 本次涉及的**当前版本目录**。这三处区分已确认事实、待研究方案和历史归档；**旧文件标题中有“当前/ACTIVE/LATEST”不代表今天有效**。
 
 > **整站总控（强制）**：[PROJECT_CONTROL.md](PROJECT_CONTROL.md) 统一首页 P1–P7／五功能／Figma 05/07／S1–S14 编号与验收状态；[历史资料溯源](产品决策/2026-10-23-历史编号与资料溯源.md) 专门记录命名冲突。**开始任何设计、动效、数据或前端任务前先读 GitHub 最新远程文档，确认分支与 SHA；从对话猜不到的结论必须标「待核验」。**
