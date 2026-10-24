@@ -1,5 +1,7 @@
 # 审美外挂｜整站设计总控（跨 AI 协作入口）
 
+> **2026-10-24 最新补充｜配色需结合上下页：** 用户明确要求将P1纳入P2色彩判断并使用Skill。已新增[连续静态审阅571:10](https://www.figma.com/design/pIL4mlWLHxph3pqXlIVq1s?node-id=571-10)与[P2同纸反相候选571:26](https://www.figma.com/design/pIL4mlWLHxph3pqXlIVq1s?node-id=571-26)，**待审，不升基线**。用户已确认P2结构539:8，覆盖本索引旧“待审”描述；下文旧“交给其他bot”不限制本轮明确继续施工授权。仅配色，保护P1/原图/版式/动效/字体；[Skill与保护证据](视觉研究/版式系统/2026-10-24-P1-P2-P3-同纸反相-配色连续审阅-v4-执行证据.md)。静态板不代表动效验收。
+
 > **2026-10-24 编辑设计 Skill 强制入口**：[专属 Editorial Layout Skill](.agents/skills/shenmei-editorial-layout/SKILL.md) + [执行证据模板](.agents/skills/shenmei-editorial-layout/EVIDENCE_TEMPLATE.md) + [10/24 P2 复盘](视觉研究/版式系统/2026-10-24-P2-Skill执行复盘与防漏机制.md)。涉及版式必须当轮读具体上游章节，点名规则 E01–E07、实施位置并提交 Figma 节点/原图保护证据；无证据不能称使用过 Skill。阶段①结构→②色彩→③字体须逐阶段用户确认；P2 `536:8`/`539:8` 均待审，不是新基线。
 
 
