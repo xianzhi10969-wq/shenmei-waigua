@@ -1,0 +1,14 @@
+{
+  "scenario": "390×844 mobile review, desktop pointer and trackpad inputs",
+  "checks": {
+    "nativeHorizontalWheel": "田园03→幽玄04, once per burst",
+    "dragOnUpperArchitecture": "幽玄04→酒神05",
+    "reverseDragInsideOpening": "酒神05→幽玄04",
+    "verticalMouseDrag": "progress1000→837",
+    "horizontalWheelAfterVerticalDrag": "幽玄04→田园03 at progress837",
+    "manualInputCancelsPlayback": "button停止预览→往返预览; frozen progress69",
+    "loadingControls": "disabled until child ready handshake"
+  },
+  "unchanged": "Original app.js, covers, masks and illustration bytes remain unchanged.",
+  "realTouchDeviceTested": false
+}

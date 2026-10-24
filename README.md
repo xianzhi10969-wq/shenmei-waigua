@@ -1,4 +1,6 @@
-# 审美外挂｜项目总入口（更新至 2026-10-23）
+# 审美外挂｜项目总入口（更新至 2026-10-24）
+
+> **本轮最新同步**：[P3 封面延伸＋双端 Figma＋手机滑动修复＋水面折射动效](handoffs/2026-10-24-round-sync/README.md)。完整源码已进入 master；封面延伸已采用，宽幅与转场仍待审。
 
 > **2026-10-24 新增版式 Skill 入口**：版式、杂志、栅格或 Figma 排印任务必须打开 [项目专属 Editorial Layout Skill](.agents/skills/shenmei-editorial-layout/SKILL.md) 并阅读指向的上游具体章节，用 [证据模板](.agents/skills/shenmei-editorial-layout/EVIDENCE_TEMPLATE.md) 输出“规则→动作→节点”核验。背景见 [P2 Skill 失败复盘](视觉研究/版式系统/2026-10-24-P2-Skill执行复盘与防漏机制.md)。仅下载/搜索/读过 ≠ 真正使用。
 
@@ -22,18 +24,19 @@
 | 部分 | 唯一推荐接续入口 | 核验边界 |
 | --- | --- | --- |
 | P1→P2 | [Grok 的显影开场 + 星 B 坠落 v4](web-prototypes/p1-p2-reveal-star-v4-2026-10-21/README.md) · [动效细节](web-prototypes/p1-p2-reveal-star-v4-2026-10-21/MOTION-NOTES.md) | 用户确认完成的独立原型；不等于已合并正式生产网站 |
+| P3／P2→P3 本轮 | [本轮统一入口](handoffs/2026-10-24-round-sync/README.md) · [完整动效源码](web-prototypes/p2-p3-water-iris-v2-2026-10-23/README.md) | 封面延伸已采用；手机滑动修复已保存；宽幅与动效视觉待审；未发布 |
 | P3→P4 | [恢复版 v9 柜体与书册](web-prototypes/p3-p4-restored-v9-2026-10-21/START-HERE-2026-10-21.md) | 用户要求保留的基线；v10 花叶适配稿未采用 |
-| Figma | **01 CURRENT 入口**：[306:2](https://www.figma.com/design/pIL4mlWLHxph3pqXlIVq1s?node-id=306-2)（与「三处放哪」／CURRENT_STATE 一致）· 旧节点 [144:2](https://www.figma.com/design/pIL4mlWLHxph3pqXlIVq1s?node-id=144-2) 仍可打开作对照，**勿当今日入口** · [已认可功能 05/07 · 137:2](https://www.figma.com/design/pIL4mlWLHxph3pqXlIVq1s?node-id=137-2) · [词条 V3 · 81:2](https://www.figma.com/design/pIL4mlWLHxph3pqXlIVq1s?node-id=81-2) | 静态画板 ≠ 可跑交互；**01 上彩窗 P3 帧（494:4/5）是提案，不等于 v9 代码已切** |
+| Figma | **01 CURRENT 入口**：[306:2](https://www.figma.com/design/pIL4mlWLHxph3pqXlIVq1s?node-id=306-2)（与「三处放哪」／CURRENT_STATE 一致）· 旧节点 [144:2](https://www.figma.com/design/pIL4mlWLHxph3pqXlIVq1s?node-id=144-2) 仍可打开作对照，**勿当今日入口** · [已认可功能 05/07 · 137:2](https://www.figma.com/design/pIL4mlWLHxph3pqXlIVq1s?node-id=137-2) · [词条 V3 · 81:2](https://www.figma.com/design/pIL4mlWLHxph3pqXlIVq1s?node-id=81-2) | 静态画板 ≠ 可跑交互；**01 已同步最新 P3 Web577:13／Mobile577:195；旧494:4/5保留。封面延伸已采用，宽幅与转场待审；v9代码保护不变** |
 | 星星导航（布局已认可） | [星星导航 · Le Pater 构图交接](产品决策/2026-10-21-星星导航-Le-Pater结构与交互-跨会话交接.md) · [Figma Web＋Mobile 布局 434:2](https://www.figma.com/design/pIL4mlWLHxph3pqXlIVq1s?node-id=434-2) | **仅认可布局**：五个等权徽章纵列 1/5、右侧完整预览 4/5、标题带叠压；Figma 画出的徽章／配色／字体／占位插画均不认可，导航展开动效未实现 |
 | 参考资料 | [产品参考库](参考库/产品参考库/README.md) · [流量参考库](参考库/流量参考库/README.md) | 艺术/交互对标与获客对标分开管理 |
 
 ## 当前主要产品结构（概要，细节以 CURRENT_STATE 为准）
 
-首页 P1 视觉序章 → P2 四个常见美学困惑（不是搜索）→ P3 一级专题入口（v9 柜体保护基线；彩窗 v3 待审；可跳专题详情）→ P4 细分风格图录（C 方案，可跳 V3 词条；教堂座椅为新研究方向）；好奇心问题与意象实验室在后段，P5/P6 先后待定；**P7 目前未定义**。独立“寻找感觉”检索页、专题详情、V3 词条、艺术资源都应该可以从适当入口直接到达。
+首页 P1 视觉序章 → P2 四个常见美学困惑（不是搜索）→ P3 一级专题入口（钢笔彩窗＋适度封面延伸已采用；宽幅与转场待审；v9柜体基线继续保护）→ P4 细分风格图录（C 方案，可跳 V3 词条；教堂座椅为新研究方向）；好奇心问题与意象实验室在后段，P5/P6 先后待定；**P7 目前未定义**。独立“寻找感觉”检索页、专题详情、V3 词条、艺术资源都应该可以从适当入口直接到达。
 
 **当前未解决的画面任务**：P2→P3 的水面连续性、星 B 继续下落至 P3 彩窗的视觉关系，以及上滑可逆；星星导航的 **Le Pater 1/5 徽章列＋4/5 大预览＋标题叠压的布局结构已被用户确认**，详见 [星星导航 · Le Pater 构图交接](产品决策/2026-10-21-星星导航-Le-Pater结构与交互-跨会话交接.md)；但 **Figma 现有其他绘制视觉全部未获认可**，实际揭幕/切换动效、导航入口位置仍未确定。保留 P1→P2 v4 和 P3→P4 v9，禁止覆盖改造。
 
-**状态警示**：P1 标题、P3/P4 临时文字不能当作最终文案；P3 现有可运行画面展示的六组专题不代表 24 个全部完成；V3 设计不等于已在当前正式站点实现。
+**状态警示**：P1 标题、P3/P4 临时文字不能当作最终文案；v9历史原型仍为六组演示；本轮彩窗已读取24章封面静态快照，但不等于后台实时连接、24章详情或P4均已完成；V3 设计不等于已在当前正式站点实现。
 
 ## 历史资料（可回溯，非今日施工依据）
 

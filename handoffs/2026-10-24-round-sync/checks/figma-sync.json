@@ -1,0 +1,2161 @@
+{
+  "date": "2026-10-24",
+  "sourceCommit": "8af4a66f7de5ace3faa978ceb336efc65ce8dfdd",
+  "figma": {
+    "file": "pIL4mlWLHxph3pqXlIVq1s",
+    "root": "306:2",
+    "web": "577:13",
+    "mobile": "577:195",
+    "notes": "577:312",
+    "archive": "577:12"
+  },
+  "write": {
+    "createdNodeIds": [
+      "577:12",
+      "577:13",
+      "577:14",
+      "577:15",
+      "577:16",
+      "577:17",
+      "577:18",
+      "577:19",
+      "577:20",
+      "577:21",
+      "577:22",
+      "577:23",
+      "577:24",
+      "577:25",
+      "577:26",
+      "577:27",
+      "577:28",
+      "577:29",
+      "577:30",
+      "577:31",
+      "577:32",
+      "577:33",
+      "577:34",
+      "577:35",
+      "577:36",
+      "577:37",
+      "577:38",
+      "577:39",
+      "577:40",
+      "577:41",
+      "577:42",
+      "577:43",
+      "577:44",
+      "577:45",
+      "577:46",
+      "577:47",
+      "577:48",
+      "577:49",
+      "577:50",
+      "577:51",
+      "577:52",
+      "577:53",
+      "577:54",
+      "577:55",
+      "577:56",
+      "577:57",
+      "577:58",
+      "577:59",
+      "577:60",
+      "577:61",
+      "577:62",
+      "577:63",
+      "577:64",
+      "577:65",
+      "577:66",
+      "577:67",
+      "577:68",
+      "577:69",
+      "577:70",
+      "577:71",
+      "577:72",
+      "577:73",
+      "577:74",
+      "577:75",
+      "577:76",
+      "577:77",
+      "577:78",
+      "577:79",
+      "577:80",
+      "577:81",
+      "577:82",
+      "577:83",
+      "577:84",
+      "577:85",
+      "577:86",
+      "577:87",
+      "577:88",
+      "577:89",
+      "577:90",
+      "577:91",
+      "577:92",
+      "577:93",
+      "577:94",
+      "577:95",
+      "577:96",
+      "577:97",
+      "577:98",
+      "577:99",
+      "577:100",
+      "577:101",
+      "577:102",
+      "577:103",
+      "577:104",
+      "577:105",
+      "577:106",
+      "577:107",
+      "577:108",
+      "577:109",
+      "577:110",
+      "577:111",
+      "577:112",
+      "577:113",
+      "577:114",
+      "577:115",
+      "577:116",
+      "577:117",
+      "577:118",
+      "577:119",
+      "577:120",
+      "577:121",
+      "577:122",
+      "577:123",
+      "577:124",
+      "577:125",
+      "577:126",
+      "577:127",
+      "577:128",
+      "577:129",
+      "577:130",
+      "577:131",
+      "577:132",
+      "577:133",
+      "577:134",
+      "577:135",
+      "577:136",
+      "577:137",
+      "577:138",
+      "577:139",
+      "577:140",
+      "577:141",
+      "577:142",
+      "577:143",
+      "577:144",
+      "577:145",
+      "577:146",
+      "577:147",
+      "577:148",
+      "577:149",
+      "577:150",
+      "577:151",
+      "577:152",
+      "577:153",
+      "577:154",
+      "577:155",
+      "577:156",
+      "577:157",
+      "577:158",
+      "577:159",
+      "577:160",
+      "577:161",
+      "577:162",
+      "577:163",
+      "577:164",
+      "577:165",
+      "577:166",
+      "577:167",
+      "577:168",
+      "577:169",
+      "577:170",
+      "577:171",
+      "577:172",
+      "577:173",
+      "577:174",
+      "577:175",
+      "577:176",
+      "577:177",
+      "577:178",
+      "577:179",
+      "577:180",
+      "577:181",
+      "577:182",
+      "577:183",
+      "577:184",
+      "577:185",
+      "577:186",
+      "577:187",
+      "577:188",
+      "577:189",
+      "577:190",
+      "577:191",
+      "577:192",
+      "577:193",
+      "577:194",
+      "577:195",
+      "577:196",
+      "577:197",
+      "577:198",
+      "577:199",
+      "577:200",
+      "577:201",
+      "577:202",
+      "577:203",
+      "577:204",
+      "577:205",
+      "577:206",
+      "577:207",
+      "577:208",
+      "577:209",
+      "577:210",
+      "577:211",
+      "577:212",
+      "577:213",
+      "577:214",
+      "577:215",
+      "577:216",
+      "577:217",
+      "577:218",
+      "577:219",
+      "577:220",
+      "577:221",
+      "577:222",
+      "577:223",
+      "577:224",
+      "577:225",
+      "577:226",
+      "577:227",
+      "577:228",
+      "577:229",
+      "577:230",
+      "577:231",
+      "577:232",
+      "577:233",
+      "577:234",
+      "577:235",
+      "577:236",
+      "577:237",
+      "577:238",
+      "577:239",
+      "577:240",
+      "577:241",
+      "577:242",
+      "577:243",
+      "577:244",
+      "577:245",
+      "577:246",
+      "577:247",
+      "577:248",
+      "577:249",
+      "577:250",
+      "577:251",
+      "577:252",
+      "577:253",
+      "577:254",
+      "577:255",
+      "577:256",
+      "577:257",
+      "577:258",
+      "577:259",
+      "577:260",
+      "577:261",
+      "577:262",
+      "577:263",
+      "577:264",
+      "577:265",
+      "577:266",
+      "577:267",
+      "577:268",
+      "577:269",
+      "577:270",
+      "577:271",
+      "577:272",
+      "577:273",
+      "577:274",
+      "577:275",
+      "577:276",
+      "577:277",
+      "577:278",
+      "577:279",
+      "577:280",
+      "577:281",
+      "577:282",
+      "577:283",
+      "577:284",
+      "577:285",
+      "577:286",
+      "577:287",
+      "577:288",
+      "577:289",
+      "577:290",
+      "577:291",
+      "577:292",
+      "577:293",
+      "577:294",
+      "577:295",
+      "577:296",
+      "577:297",
+      "577:298",
+      "577:299",
+      "577:300",
+      "577:301",
+      "577:302",
+      "577:303",
+      "577:304",
+      "577:305",
+      "577:306",
+      "577:307",
+      "577:312",
+      "577:313",
+      "577:314",
+      "577:315",
+      "577:316",
+      "577:317",
+      "577:318",
+      "577:319",
+      "577:320"
+    ],
+    "mutatedNodeIds": [
+      "494:4",
+      "494:5",
+      "306:7",
+      "306:8",
+      "306:4",
+      "306:5",
+      "306:2",
+      "144:2"
+    ],
+    "web": {
+      "id": "577:13",
+      "name": "CURRENT · P3 Web · 封面延伸已采用 / 宽幅待审 · 2026-10-24",
+      "parent": "306:7",
+      "width": 1440,
+      "height": 1660,
+      "descendants": 183,
+      "masks": 25,
+      "textIds": [
+        "577:119",
+        "577:132",
+        "577:152",
+        "577:166",
+        "577:184",
+        "577:185",
+        "577:186",
+        "577:188",
+        "577:193",
+        "577:194"
+      ],
+      "images": [
+        {
+          "id": "577:16",
+          "name": "LOCKED · 钢笔底图原件（未重绘）",
+          "hash": "3dbfd0fa346334ff8731a55f7aa1cf52a17610ca",
+          "locked": true
+        },
+        {
+          "id": "577:25",
+          "name": "原色封面 · 独立上部裁切",
+          "hash": "d3e6df961ee39f6153ba8e30a21e675954aa8e70",
+          "locked": false
+        },
+        {
+          "id": "577:33",
+          "name": "原色封面 · 独立上部裁切",
+          "hash": "d872a6d5b933da3d52946a73d7949dad0f4bbd42",
+          "locked": false
+        },
+        {
+          "id": "577:41",
+          "name": "原色封面 · 独立上部裁切",
+          "hash": "1e9c550ee9e2a926c4fc2917977a139645ad4605",
+          "locked": false
+        },
+        {
+          "id": "577:49",
+          "name": "原色封面 · 独立上部裁切",
+          "hash": "8b7250c4a33464d47b41fb44b61535f5c77dc6d0",
+          "locked": false
+        },
+        {
+          "id": "577:57",
+          "name": "原色封面 · 独立上部裁切",
+          "hash": "b0fd98513f2dc253746c422ecec2d4cd663372eb",
+          "locked": false
+        },
+        {
+          "id": "577:83",
+          "name": "原色封面 · 等比裁切",
+          "hash": "d3e6df961ee39f6153ba8e30a21e675954aa8e70",
+          "locked": false
+        },
+        {
+          "id": "577:87",
+          "name": "原色封面 · 等比裁切",
+          "hash": "d872a6d5b933da3d52946a73d7949dad0f4bbd42",
+          "locked": false
+        },
+        {
+          "id": "577:91",
+          "name": "原色封面 · 等比裁切",
+          "hash": "1e9c550ee9e2a926c4fc2917977a139645ad4605",
+          "locked": false
+        },
+        {
+          "id": "577:95",
+          "name": "原色封面 · 等比裁切",
+          "hash": "8b7250c4a33464d47b41fb44b61535f5c77dc6d0",
+          "locked": false
+        },
+        {
+          "id": "577:99",
+          "name": "原色封面 · 等比裁切",
+          "hash": "b0fd98513f2dc253746c422ecec2d4cd663372eb",
+          "locked": false
+        },
+        {
+          "id": "577:104",
+          "name": "原纸补片",
+          "hash": "ba6a5d9e294378b920614e033be07b15844afcc1",
+          "locked": false
+        },
+        {
+          "id": "577:123",
+          "name": "原纸补片",
+          "hash": "ba6a5d9e294378b920614e033be07b15844afcc1",
+          "locked": false
+        },
+        {
+          "id": "577:136",
+          "name": "原纸补片",
+          "hash": "ba6a5d9e294378b920614e033be07b15844afcc1",
+          "locked": false
+        },
+        {
+          "id": "577:156",
+          "name": "原纸补片",
+          "hash": "ba6a5d9e294378b920614e033be07b15844afcc1",
+          "locked": false
+        },
+        {
+          "id": "577:170",
+          "name": "原纸补片",
+          "hash": "ba6a5d9e294378b920614e033be07b15844afcc1",
+          "locked": false
+        }
+      ]
+    },
+    "mobile": {
+      "id": "577:195",
+      "name": "CURRENT · P3 Mobile 390×844 · 封面延伸 / 滑动修复已同步 · 2026-10-24",
+      "parent": "306:8",
+      "width": 390,
+      "height": 844,
+      "descendants": 114,
+      "masks": 15,
+      "textIds": [
+        "577:263",
+        "577:283",
+        "577:297",
+        "577:298",
+        "577:299",
+        "577:301",
+        "577:306",
+        "577:307"
+      ],
+      "images": [
+        {
+          "id": "577:198",
+          "name": "LOCKED · 钢笔底图原件（未重绘）",
+          "hash": "3dbfd0fa346334ff8731a55f7aa1cf52a17610ca",
+          "locked": true
+        },
+        {
+          "id": "577:207",
+          "name": "原色封面 · 独立上部裁切",
+          "hash": "d872a6d5b933da3d52946a73d7949dad0f4bbd42",
+          "locked": false
+        },
+        {
+          "id": "577:215",
+          "name": "原色封面 · 独立上部裁切",
+          "hash": "1e9c550ee9e2a926c4fc2917977a139645ad4605",
+          "locked": false
+        },
+        {
+          "id": "577:223",
+          "name": "原色封面 · 独立上部裁切",
+          "hash": "8b7250c4a33464d47b41fb44b61535f5c77dc6d0",
+          "locked": false
+        },
+        {
+          "id": "577:241",
+          "name": "原色封面 · 等比裁切",
+          "hash": "d872a6d5b933da3d52946a73d7949dad0f4bbd42",
+          "locked": false
+        },
+        {
+          "id": "577:245",
+          "name": "原色封面 · 等比裁切",
+          "hash": "1e9c550ee9e2a926c4fc2917977a139645ad4605",
+          "locked": false
+        },
+        {
+          "id": "577:249",
+          "name": "原色封面 · 等比裁切",
+          "hash": "8b7250c4a33464d47b41fb44b61535f5c77dc6d0",
+          "locked": false
+        },
+        {
+          "id": "577:254",
+          "name": "原纸补片",
+          "hash": "ba6a5d9e294378b920614e033be07b15844afcc1",
+          "locked": false
+        },
+        {
+          "id": "577:267",
+          "name": "原纸补片",
+          "hash": "ba6a5d9e294378b920614e033be07b15844afcc1",
+          "locked": false
+        },
+        {
+          "id": "577:287",
+          "name": "原纸补片",
+          "hash": "ba6a5d9e294378b920614e033be07b15844afcc1",
+          "locked": false
+        }
+      ]
+    },
+    "mobileGeometry": {
+      "stageId": "577:196",
+      "x": 55.45628356933594,
+      "y": 42,
+      "w": 279.0874328613281,
+      "h": 660.7394409179688,
+      "pagerY": 707.7394409179688,
+      "definitionY": 754.7394409179688,
+      "definitionHeight": 42,
+      "creditY": 800.7394409179688
+    },
+    "backupId": "577:12",
+    "noteId": "577:312",
+    "protectedContentUnchanged": {
+      "306:11": true,
+      "325:2": true,
+      "306:35": true,
+      "379:3": true,
+      "306:24": true,
+      "325:26": true,
+      "306:37": true,
+      "379:5": true,
+      "539:8": true,
+      "552:8": true,
+      "552:126": true,
+      "552:244": true
+    },
+    "oldP3Ids": [
+      "494:4",
+      "494:5"
+    ]
+  },
+  "audit": {
+    "createdNodeIds": [
+      "578:16",
+      "578:17",
+      "578:18",
+      "578:19",
+      "578:20",
+      "578:21"
+    ],
+    "mutatedNodeIds": [
+      "577:13",
+      "577:195"
+    ],
+    "audit": [
+      {
+        "id": "577:13",
+        "width": 1440,
+        "height": 1660,
+        "guide": "578:16",
+        "descendants": 186,
+        "types": {
+          "FRAME": 66,
+          "RECTANGLE": 28,
+          "VECTOR": 75,
+          "GROUP": 5,
+          "TEXT": 10,
+          "COMPONENT": 1,
+          "INSTANCE": 1
+        },
+        "stage": {
+          "id": "577:14",
+          "x": 48,
+          "y": 64,
+          "w": 1344,
+          "h": 1415.1112060546875,
+          "ratio": 0.9497486799974225
+        },
+        "texts": [
+          {
+            "id": "577:119",
+            "name": "可编辑原文（原字体未安装，显示用上方轮廓）",
+            "visible": false,
+            "characters": "忧郁 Melancholy",
+            "font": {
+              "family": "Noto Serif SC",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 28.44444465637207,
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "x": 164.97694396972656,
+            "y": 1245.86669921875,
+            "width": 170.6666717529297,
+            "height": 42.66666793823242
+          },
+          {
+            "id": "577:132",
+            "name": "可编辑原文（原字体未安装，显示用上方轮廓）",
+            "visible": false,
+            "characters": "爱欲 Eros",
+            "font": {
+              "family": "Noto Serif SC",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 28.44444465637207,
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "x": 369.778076171875,
+            "y": 1245.86669921875,
+            "width": 170.6666717529297,
+            "height": 42.66666793823242
+          },
+          {
+            "id": "577:152",
+            "name": "可编辑原文（原字体未安装，显示用上方轮廓）",
+            "visible": false,
+            "characters": "田园 Arcadia",
+            "font": {
+              "family": "Noto Serif SC",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 28.44444465637207,
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "x": 639.9998779296875,
+            "y": 1245.86669921875,
+            "width": 170.6666717529297,
+            "height": 42.66666793823242
+          },
+          {
+            "id": "577:166",
+            "name": "可编辑原文（原字体未安装，显示用上方轮廓）",
+            "visible": false,
+            "characters": "幽玄 Yūgen",
+            "font": {
+              "family": "Noto Serif SC",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 28.44444465637207,
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "x": 910.2216186523438,
+            "y": 1245.86669921875,
+            "width": 170.6666717529297,
+            "height": 42.66666793823242
+          },
+          {
+            "id": "577:184",
+            "name": "可编辑原文（原字体未安装，显示用上方轮廓）",
+            "visible": false,
+            "characters": "酒神 Dionysian",
+            "font": {
+              "family": "Noto Serif SC",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 28.44444465637207,
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "x": 1109.3330078125,
+            "y": 1245.86669921875,
+            "width": 170.6666717529297,
+            "height": 42.66666793823242
+          },
+          {
+            "id": "577:185",
+            "name": "审美外挂 · 美学专题",
+            "visible": true,
+            "characters": "审美外挂 · 美学专题",
+            "font": {
+              "family": "Noto Serif SC",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 12,
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "x": 48,
+            "y": 28,
+            "width": 250,
+            "height": 18
+          },
+          {
+            "id": "577:186",
+            "name": "03 / 24",
+            "visible": true,
+            "characters": "03 / 24",
+            "font": {
+              "family": "Noto Serif",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400,
+                "wdth": 100,
+                "CTGR": 0
+              }
+            },
+            "size": 12,
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "x": 1190,
+            "y": 28,
+            "width": 150,
+            "height": 18
+          },
+          {
+            "id": "577:188",
+            "name": "左右轻滑 · 一次一格",
+            "visible": true,
+            "characters": "左右轻滑 · 一次一格",
+            "font": {
+              "family": "Noto Serif SC",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 11,
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "x": 50,
+            "y": 12,
+            "width": 230,
+            "height": 16.5
+          },
+          {
+            "id": "577:193",
+            "name": "田园给疲惫的人一处可想象的栖身之地，也让人暂时放慢脚步。",
+            "visible": true,
+            "characters": "田园给疲惫的人一处可想象的栖身之地，也让人暂时放慢脚步。",
+            "font": {
+              "family": "Noto Serif SC",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 13,
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "x": 410,
+            "y": 1541.1112060546875,
+            "width": 620,
+            "height": 19.5
+          },
+          {
+            "id": "577:194",
+            "name": "封面出处",
+            "visible": true,
+            "characters": "封面出处",
+            "font": {
+              "family": "Noto Serif SC",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 10,
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "x": 660,
+            "y": 1573.1112060546875,
+            "width": 120,
+            "height": 15
+          }
+        ],
+        "images": [
+          {
+            "id": "577:16",
+            "name": "LOCKED · 钢笔底图原件（未重绘）",
+            "locked": true,
+            "visible": true,
+            "blendMode": "PASS_THROUGH",
+            "x": 0,
+            "y": 0,
+            "width": 2059.377685546875,
+            "height": 1544.533447265625,
+            "fills": [
+              {
+                "type": "IMAGE",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "scaleMode": "FILL",
+                "scalingFactor": 0.5,
+                "rotation": 0,
+                "filters": {
+                  "exposure": 0,
+                  "contrast": 0,
+                  "saturation": 0,
+                  "temperature": 0,
+                  "tint": 0,
+                  "highlights": 0,
+                  "shadows": 0
+                },
+                "imageTransform": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ]
+                ],
+                "imageHash": "3dbfd0fa346334ff8731a55f7aa1cf52a17610ca"
+              }
+            ]
+          },
+          {
+            "id": "577:25",
+            "name": "原色封面 · 独立上部裁切",
+            "locked": false,
+            "visible": true,
+            "blendMode": "PASS_THROUGH",
+            "x": 170.666748046875,
+            "y": 376.8889465332031,
+            "width": 160.7111053466797,
+            "height": 820.6222534179688,
+            "fills": [
+              {
+                "type": "IMAGE",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "scaleMode": "FILL",
+                "scalingFactor": 0.5,
+                "rotation": 0,
+                "filters": {
+                  "exposure": 0,
+                  "contrast": 0,
+                  "saturation": 0,
+                  "temperature": 0,
+                  "tint": 0,
+                  "highlights": 0,
+                  "shadows": 0
+                },
+                "imageTransform": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ]
+                ],
+                "imageHash": "d3e6df961ee39f6153ba8e30a21e675954aa8e70"
+              }
+            ]
+          },
+          {
+            "id": "577:33",
+            "name": "原色封面 · 独立上部裁切",
+            "locked": false,
+            "visible": true,
+            "blendMode": "PASS_THROUGH",
+            "x": 355.5550842285156,
+            "y": 521.95556640625,
+            "width": 194.84445190429688,
+            "height": 675.5555419921875,
+            "fills": [
+              {
+                "type": "IMAGE",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "scaleMode": "FILL",
+                "scalingFactor": 0.5,
+                "rotation": 0,
+                "filters": {
+                  "exposure": 0,
+                  "contrast": 0,
+                  "saturation": 0,
+                  "temperature": 0,
+                  "tint": 0,
+                  "highlights": 0,
+                  "shadows": 0
+                },
+                "imageTransform": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ]
+                ],
+                "imageHash": "d872a6d5b933da3d52946a73d7949dad0f4bbd42"
+              }
+            ]
+          },
+          {
+            "id": "577:41",
+            "name": "原色封面 · 独立上部裁切",
+            "locked": false,
+            "visible": true,
+            "blendMode": "PASS_THROUGH",
+            "x": 580.2659912109375,
+            "y": 544.7110595703125,
+            "width": 292.977783203125,
+            "height": 652.800048828125,
+            "fills": [
+              {
+                "type": "IMAGE",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "scaleMode": "FILL",
+                "scalingFactor": 0.5,
+                "rotation": 0,
+                "filters": {
+                  "exposure": 0,
+                  "contrast": 0,
+                  "saturation": 0,
+                  "temperature": 0,
+                  "tint": 0,
+                  "highlights": 0,
+                  "shadows": 0
+                },
+                "imageTransform": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ]
+                ],
+                "imageHash": "1e9c550ee9e2a926c4fc2917977a139645ad4605"
+              }
+            ]
+          },
+          {
+            "id": "577:49",
+            "name": "原色封面 · 独立上部裁切",
+            "locked": false,
+            "visible": true,
+            "blendMode": "PASS_THROUGH",
+            "x": 903.110107421875,
+            "y": 520.5333251953125,
+            "width": 193.42222595214844,
+            "height": 676.9778442382812,
+            "fills": [
+              {
+                "type": "IMAGE",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "scaleMode": "FILL",
+                "scalingFactor": 0.5,
+                "rotation": 0,
+                "filters": {
+                  "exposure": 0,
+                  "contrast": 0,
+                  "saturation": 0,
+                  "temperature": 0,
+                  "tint": 0,
+                  "highlights": 0,
+                  "shadows": 0
+                },
+                "imageTransform": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ]
+                ],
+                "imageHash": "8b7250c4a33464d47b41fb44b61535f5c77dc6d0"
+              }
+            ]
+          },
+          {
+            "id": "577:57",
+            "name": "原色封面 · 独立上部裁切",
+            "locked": false,
+            "visible": true,
+            "blendMode": "PASS_THROUGH",
+            "x": 1117.8660888671875,
+            "y": 381.15557861328125,
+            "width": 157.86666870117188,
+            "height": 816.3555908203125,
+            "fills": [
+              {
+                "type": "IMAGE",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "scaleMode": "FILL",
+                "scalingFactor": 0.5,
+                "rotation": 0,
+                "filters": {
+                  "exposure": 0,
+                  "contrast": 0,
+                  "saturation": 0,
+                  "temperature": 0,
+                  "tint": 0,
+                  "highlights": 0,
+                  "shadows": 0
+                },
+                "imageTransform": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ]
+                ],
+                "imageHash": "b0fd98513f2dc253746c422ecec2d4cd663372eb"
+              }
+            ]
+          },
+          {
+            "id": "577:83",
+            "name": "原色封面 · 等比裁切",
+            "locked": false,
+            "visible": true,
+            "blendMode": "PASS_THROUGH",
+            "x": 170.666748046875,
+            "y": 604.4444580078125,
+            "width": 160.7111053466797,
+            "height": 593.0667114257812,
+            "fills": [
+              {
+                "type": "IMAGE",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "scaleMode": "FILL",
+                "scalingFactor": 0.5,
+                "rotation": 0,
+                "filters": {
+                  "exposure": 0,
+                  "contrast": 0,
+                  "saturation": 0,
+                  "temperature": 0,
+                  "tint": 0,
+                  "highlights": 0,
+                  "shadows": 0
+                },
+                "imageTransform": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ]
+                ],
+                "imageHash": "d3e6df961ee39f6153ba8e30a21e675954aa8e70"
+              }
+            ]
+          },
+          {
+            "id": "577:87",
+            "name": "原色封面 · 等比裁切",
+            "locked": false,
+            "visible": true,
+            "blendMode": "PASS_THROUGH",
+            "x": 362.6665954589844,
+            "y": 601.6000366210938,
+            "width": 184.88890075683594,
+            "height": 595.9111328125,
+            "fills": [
+              {
+                "type": "IMAGE",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "scaleMode": "FILL",
+                "scalingFactor": 0.5,
+                "rotation": 0,
+                "filters": {
+                  "exposure": 0,
+                  "contrast": 0,
+                  "saturation": 0,
+                  "temperature": 0,
+                  "tint": 0,
+                  "highlights": 0,
+                  "shadows": 0
+                },
+                "imageTransform": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ]
+                ],
+                "imageHash": "d872a6d5b933da3d52946a73d7949dad0f4bbd42"
+              }
+            ]
+          },
+          {
+            "id": "577:91",
+            "name": "原色封面 · 等比裁切",
+            "locked": false,
+            "visible": true,
+            "blendMode": "PASS_THROUGH",
+            "x": 593.0657958984375,
+            "y": 590.2222290039062,
+            "width": 265.95556640625,
+            "height": 607.2888793945312,
+            "fills": [
+              {
+                "type": "IMAGE",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "scaleMode": "FILL",
+                "scalingFactor": 0.5,
+                "rotation": 0,
+                "filters": {
+                  "exposure": 0,
+                  "contrast": 0,
+                  "saturation": 0,
+                  "temperature": 0,
+                  "tint": 0,
+                  "highlights": 0,
+                  "shadows": 0
+                },
+                "imageTransform": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ]
+                ],
+                "imageHash": "1e9c550ee9e2a926c4fc2917977a139645ad4605"
+              }
+            ]
+          },
+          {
+            "id": "577:95",
+            "name": "原色封面 · 等比裁切",
+            "locked": false,
+            "visible": true,
+            "blendMode": "PASS_THROUGH",
+            "x": 905.9550170898438,
+            "y": 601.6000366210938,
+            "width": 180.62222290039062,
+            "height": 595.9111328125,
+            "fills": [
+              {
+                "type": "IMAGE",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "scaleMode": "FILL",
+                "scalingFactor": 0.5,
+                "rotation": 0,
+                "filters": {
+                  "exposure": 0,
+                  "contrast": 0,
+                  "saturation": 0,
+                  "temperature": 0,
+                  "tint": 0,
+                  "highlights": 0,
+                  "shadows": 0
+                },
+                "imageTransform": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ]
+                ],
+                "imageHash": "8b7250c4a33464d47b41fb44b61535f5c77dc6d0"
+              }
+            ]
+          },
+          {
+            "id": "577:99",
+            "name": "原色封面 · 等比裁切",
+            "locked": false,
+            "visible": true,
+            "blendMode": "PASS_THROUGH",
+            "x": 1117.8660888671875,
+            "y": 604.4444580078125,
+            "width": 157.86666870117188,
+            "height": 593.0667114257812,
+            "fills": [
+              {
+                "type": "IMAGE",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "scaleMode": "FILL",
+                "scalingFactor": 0.5,
+                "rotation": 0,
+                "filters": {
+                  "exposure": 0,
+                  "contrast": 0,
+                  "saturation": 0,
+                  "temperature": 0,
+                  "tint": 0,
+                  "highlights": 0,
+                  "shadows": 0
+                },
+                "imageTransform": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ]
+                ],
+                "imageHash": "b0fd98513f2dc253746c422ecec2d4cd663372eb"
+              }
+            ]
+          },
+          {
+            "id": "577:104",
+            "name": "原纸补片",
+            "locked": false,
+            "visible": true,
+            "blendMode": "PASS_THROUGH",
+            "x": 189.15481567382812,
+            "y": 1235.9111328125,
+            "width": 122.31111145019531,
+            "height": 62.577781677246094,
+            "fills": [
+              {
+                "type": "IMAGE",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "scaleMode": "FILL",
+                "scalingFactor": 0.5,
+                "rotation": 0,
+                "filters": {
+                  "exposure": 0,
+                  "contrast": 0,
+                  "saturation": 0,
+                  "temperature": 0,
+                  "tint": 0,
+                  "highlights": 0,
+                  "shadows": 0
+                },
+                "imageTransform": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ]
+                ],
+                "imageHash": "ba6a5d9e294378b920614e033be07b15844afcc1"
+              }
+            ]
+          },
+          {
+            "id": "577:123",
+            "name": "原纸补片",
+            "locked": false,
+            "visible": true,
+            "blendMode": "PASS_THROUGH",
+            "x": 393.9544372558594,
+            "y": 1235.9111328125,
+            "width": 122.31111145019531,
+            "height": 62.577781677246094,
+            "fills": [
+              {
+                "type": "IMAGE",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "scaleMode": "FILL",
+                "scalingFactor": 0.5,
+                "rotation": 0,
+                "filters": {
+                  "exposure": 0,
+                  "contrast": 0,
+                  "saturation": 0,
+                  "temperature": 0,
+                  "tint": 0,
+                  "highlights": 0,
+                  "shadows": 0
+                },
+                "imageTransform": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ]
+                ],
+                "imageHash": "ba6a5d9e294378b920614e033be07b15844afcc1"
+              }
+            ]
+          },
+          {
+            "id": "577:136",
+            "name": "原纸补片",
+            "locked": false,
+            "visible": true,
+            "blendMode": "PASS_THROUGH",
+            "x": 664.177734375,
+            "y": 1235.9111328125,
+            "width": 122.31111145019531,
+            "height": 62.577781677246094,
+            "fills": [
+              {
+                "type": "IMAGE",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "scaleMode": "FILL",
+                "scalingFactor": 0.5,
+                "rotation": 0,
+                "filters": {
+                  "exposure": 0,
+                  "contrast": 0,
+                  "saturation": 0,
+                  "temperature": 0,
+                  "tint": 0,
+                  "highlights": 0,
+                  "shadows": 0
+                },
+                "imageTransform": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ]
+                ],
+                "imageHash": "ba6a5d9e294378b920614e033be07b15844afcc1"
+              }
+            ]
+          },
+          {
+            "id": "577:156",
+            "name": "原纸补片",
+            "locked": false,
+            "visible": true,
+            "blendMode": "PASS_THROUGH",
+            "x": 934.3994750976562,
+            "y": 1235.9111328125,
+            "width": 122.31111145019531,
+            "height": 62.577781677246094,
+            "fills": [
+              {
+                "type": "IMAGE",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "scaleMode": "FILL",
+                "scalingFactor": 0.5,
+                "rotation": 0,
+                "filters": {
+                  "exposure": 0,
+                  "contrast": 0,
+                  "saturation": 0,
+                  "temperature": 0,
+                  "tint": 0,
+                  "highlights": 0,
+                  "shadows": 0
+                },
+                "imageTransform": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ]
+                ],
+                "imageHash": "ba6a5d9e294378b920614e033be07b15844afcc1"
+              }
+            ]
+          },
+          {
+            "id": "577:170",
+            "name": "原纸补片",
+            "locked": false,
+            "visible": true,
+            "blendMode": "PASS_THROUGH",
+            "x": 1133.5108642578125,
+            "y": 1235.9111328125,
+            "width": 122.31111145019531,
+            "height": 62.577781677246094,
+            "fills": [
+              {
+                "type": "IMAGE",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "scaleMode": "FILL",
+                "scalingFactor": 0.5,
+                "rotation": 0,
+                "filters": {
+                  "exposure": 0,
+                  "contrast": 0,
+                  "saturation": 0,
+                  "temperature": 0,
+                  "tint": 0,
+                  "highlights": 0,
+                  "shadows": 0
+                },
+                "imageTransform": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ]
+                ],
+                "imageHash": "ba6a5d9e294378b920614e033be07b15844afcc1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "577:195",
+        "width": 390,
+        "height": 844,
+        "guide": "578:19",
+        "descendants": 117,
+        "types": {
+          "FRAME": 44,
+          "RECTANGLE": 18,
+          "VECTOR": 42,
+          "GROUP": 3,
+          "TEXT": 8,
+          "COMPONENT": 1,
+          "INSTANCE": 1
+        },
+        "stage": {
+          "id": "577:196",
+          "x": 55.45628356933594,
+          "y": 42,
+          "w": 279.0874328613281,
+          "h": 660.7394409179688,
+          "ratio": 0.42238651967497276
+        },
+        "texts": [
+          {
+            "id": "577:263",
+            "name": "可编辑原文（原字体未安装，显示用上方轮廓）",
+            "visible": false,
+            "characters": "爱欲 Eros",
+            "font": {
+              "family": "Noto Serif SC",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 13.954371452331543,
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "x": 696.323486328125,
+            "y": 618.1786499023438,
+            "width": 83.72622680664062,
+            "height": 20.931556701660156
+          },
+          {
+            "id": "577:283",
+            "name": "可编辑原文（原字体未安装，显示用上方轮廓）",
+            "visible": false,
+            "characters": "田园 Arcadia",
+            "font": {
+              "family": "Noto Serif SC",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 13.954371452331543,
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "x": 794.0040893554688,
+            "y": 618.1786499023438,
+            "width": 83.72622680664062,
+            "height": 20.931556701660156
+          },
+          {
+            "id": "577:297",
+            "name": "可编辑原文（原字体未安装，显示用上方轮廓）",
+            "visible": false,
+            "characters": "幽玄 Yūgen",
+            "font": {
+              "family": "Noto Serif SC",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 13.954371452331543,
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "x": 888.893798828125,
+            "y": 618.1786499023438,
+            "width": 83.72622680664062,
+            "height": 20.931556701660156
+          },
+          {
+            "id": "577:298",
+            "name": "审美外挂 · 美学专题",
+            "visible": true,
+            "characters": "审美外挂 · 美学专题",
+            "font": {
+              "family": "Noto Serif SC",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 10,
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "x": 21,
+            "y": 16,
+            "width": 155,
+            "height": 15
+          },
+          {
+            "id": "577:299",
+            "name": "03 / 24",
+            "visible": true,
+            "characters": "03 / 24",
+            "font": {
+              "family": "Noto Serif",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400,
+                "wdth": 100,
+                "CTGR": 0
+              }
+            },
+            "size": 12,
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "x": 280,
+            "y": 16,
+            "width": 85,
+            "height": 18
+          },
+          {
+            "id": "577:301",
+            "name": "左右轻滑 · 一次一格",
+            "visible": true,
+            "characters": "左右轻滑 · 一次一格",
+            "font": {
+              "family": "Noto Serif SC",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 10,
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "x": 50,
+            "y": 12,
+            "width": 150,
+            "height": 15
+          },
+          {
+            "id": "577:306",
+            "name": "田园给疲惫的人一处可想象的栖身之地，也让人暂时放慢脚步。",
+            "visible": true,
+            "characters": "田园给疲惫的人一处可想象的栖身之地，也让人暂时放慢脚步。",
+            "font": {
+              "family": "Noto Serif SC",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 12,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 20.399999618530273
+            },
+            "x": 30,
+            "y": 754.7394409179688,
+            "width": 330,
+            "height": 42
+          },
+          {
+            "id": "577:307",
+            "name": "封面出处",
+            "visible": true,
+            "characters": "封面出处",
+            "font": {
+              "family": "Noto Serif SC",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 9,
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "x": 135,
+            "y": 800.7394409179688,
+            "width": 120,
+            "height": 13.5
+          }
+        ],
+        "images": [
+          {
+            "id": "577:198",
+            "name": "LOCKED · 钢笔底图原件（未重绘）",
+            "locked": true,
+            "visible": true,
+            "blendMode": "PASS_THROUGH",
+            "x": -0.0005038999952375889,
+            "y": -0.0000056523435887356754,
+            "width": 1010.2964477539062,
+            "height": 757.7223510742188,
+            "fills": [
+              {
+                "type": "IMAGE",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "scaleMode": "FILL",
+                "scalingFactor": 0.5,
+                "rotation": 0,
+                "filters": {
+                  "exposure": 0,
+                  "contrast": 0,
+                  "saturation": 0,
+                  "temperature": 0,
+                  "tint": 0,
+                  "highlights": 0,
+                  "shadows": 0
+                },
+                "imageTransform": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ]
+                ],
+                "imageHash": "3dbfd0fa346334ff8731a55f7aa1cf52a17610ca"
+              }
+            ]
+          },
+          {
+            "id": "577:207",
+            "name": "原色封面 · 独立上部裁切",
+            "locked": false,
+            "visible": true,
+            "blendMode": "PASS_THROUGH",
+            "x": 720.7435913085938,
+            "y": 203.03610229492188,
+            "width": 38.37451934814453,
+            "height": 388.6292419433594,
+            "fills": [
+              {
+                "type": "IMAGE",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "scaleMode": "FILL",
+                "scalingFactor": 0.5,
+                "rotation": 0,
+                "filters": {
+                  "exposure": 0,
+                  "contrast": 0,
+                  "saturation": 0,
+                  "temperature": 0,
+                  "tint": 0,
+                  "highlights": 0,
+                  "shadows": 0
+                },
+                "imageTransform": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ]
+                ],
+                "imageHash": "d872a6d5b933da3d52946a73d7949dad0f4bbd42"
+              }
+            ]
+          },
+          {
+            "id": "577:215",
+            "name": "原色封面 · 独立上部裁切",
+            "locked": false,
+            "visible": true,
+            "blendMode": "PASS_THROUGH",
+            "x": 773.7702026367188,
+            "y": 264.4353332519531,
+            "width": 124.89161682128906,
+            "height": 327.2300109863281,
+            "fills": [
+              {
+                "type": "IMAGE",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "scaleMode": "FILL",
+                "scalingFactor": 0.5,
+                "rotation": 0,
+                "filters": {
+                  "exposure": 0,
+                  "contrast": 0,
+                  "saturation": 0,
+                  "temperature": 0,
+                  "tint": 0,
+                  "highlights": 0,
+                  "shadows": 0
+                },
+                "imageTransform": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ]
+                ],
+                "imageHash": "1e9c550ee9e2a926c4fc2917977a139645ad4605"
+              }
+            ]
+          },
+          {
+            "id": "577:223",
+            "name": "原色封面 · 独立上部裁切",
+            "locked": false,
+            "visible": true,
+            "blendMode": "PASS_THROUGH",
+            "x": 913.31396484375,
+            "y": 203.03610229492188,
+            "width": 37.67680358886719,
+            "height": 388.6292419433594,
+            "fills": [
+              {
+                "type": "IMAGE",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "scaleMode": "FILL",
+                "scalingFactor": 0.5,
+                "rotation": 0,
+                "filters": {
+                  "exposure": 0,
+                  "contrast": 0,
+                  "saturation": 0,
+                  "temperature": 0,
+                  "tint": 0,
+                  "highlights": 0,
+                  "shadows": 0
+                },
+                "imageTransform": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ]
+                ],
+                "imageHash": "8b7250c4a33464d47b41fb44b61535f5c77dc6d0"
+              }
+            ]
+          },
+          {
+            "id": "577:241",
+            "name": "原色封面 · 等比裁切",
+            "locked": false,
+            "visible": true,
+            "blendMode": "PASS_THROUGH",
+            "x": 720.7435913085938,
+            "y": 311.88018798828125,
+            "width": 38.37451934814453,
+            "height": 279.78515625,
+            "fills": [
+              {
+                "type": "IMAGE",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "scaleMode": "FILL",
+                "scalingFactor": 0.5,
+                "rotation": 0,
+                "filters": {
+                  "exposure": 0,
+                  "contrast": 0,
+                  "saturation": 0,
+                  "temperature": 0,
+                  "tint": 0,
+                  "highlights": 0,
+                  "shadows": 0
+                },
+                "imageTransform": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ]
+                ],
+                "imageHash": "d872a6d5b933da3d52946a73d7949dad0f4bbd42"
+              }
+            ]
+          },
+          {
+            "id": "577:245",
+            "name": "原色封面 · 等比裁切",
+            "locked": false,
+            "visible": true,
+            "blendMode": "PASS_THROUGH",
+            "x": 778.6542358398438,
+            "y": 282.5760192871094,
+            "width": 114.42584991455078,
+            "height": 309.0893249511719,
+            "fills": [
+              {
+                "type": "IMAGE",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "scaleMode": "FILL",
+                "scalingFactor": 0.5,
+                "rotation": 0,
+                "filters": {
+                  "exposure": 0,
+                  "contrast": 0,
+                  "saturation": 0,
+                  "temperature": 0,
+                  "tint": 0,
+                  "highlights": 0,
+                  "shadows": 0
+                },
+                "imageTransform": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ]
+                ],
+                "imageHash": "1e9c550ee9e2a926c4fc2917977a139645ad4605"
+              }
+            ]
+          },
+          {
+            "id": "577:249",
+            "name": "原色封面 · 等比裁切",
+            "locked": false,
+            "visible": true,
+            "blendMode": "PASS_THROUGH",
+            "x": 913.31396484375,
+            "y": 311.88018798828125,
+            "width": 37.67680358886719,
+            "height": 279.78515625,
+            "fills": [
+              {
+                "type": "IMAGE",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "scaleMode": "FILL",
+                "scalingFactor": 0.5,
+                "rotation": 0,
+                "filters": {
+                  "exposure": 0,
+                  "contrast": 0,
+                  "saturation": 0,
+                  "temperature": 0,
+                  "tint": 0,
+                  "highlights": 0,
+                  "shadows": 0
+                },
+                "imageTransform": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ]
+                ],
+                "imageHash": "8b7250c4a33464d47b41fb44b61535f5c77dc6d0"
+              }
+            ]
+          },
+          {
+            "id": "577:254",
+            "name": "原纸补片",
+            "locked": false,
+            "visible": true,
+            "blendMode": "PASS_THROUGH",
+            "x": 708.1846923828125,
+            "y": 613.2946166992188,
+            "width": 60.00379943847656,
+            "height": 30.699617385864258,
+            "fills": [
+              {
+                "type": "IMAGE",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "scaleMode": "FILL",
+                "scalingFactor": 0.5,
+                "rotation": 0,
+                "filters": {
+                  "exposure": 0,
+                  "contrast": 0,
+                  "saturation": 0,
+                  "temperature": 0,
+                  "tint": 0,
+                  "highlights": 0,
+                  "shadows": 0
+                },
+                "imageTransform": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ]
+                ],
+                "imageHash": "ba6a5d9e294378b920614e033be07b15844afcc1"
+              }
+            ]
+          },
+          {
+            "id": "577:267",
+            "name": "原纸补片",
+            "locked": false,
+            "visible": true,
+            "blendMode": "PASS_THROUGH",
+            "x": 805.8652954101562,
+            "y": 613.2946166992188,
+            "width": 60.00379943847656,
+            "height": 30.699617385864258,
+            "fills": [
+              {
+                "type": "IMAGE",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "scaleMode": "FILL",
+                "scalingFactor": 0.5,
+                "rotation": 0,
+                "filters": {
+                  "exposure": 0,
+                  "contrast": 0,
+                  "saturation": 0,
+                  "temperature": 0,
+                  "tint": 0,
+                  "highlights": 0,
+                  "shadows": 0
+                },
+                "imageTransform": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ]
+                ],
+                "imageHash": "ba6a5d9e294378b920614e033be07b15844afcc1"
+              }
+            ]
+          },
+          {
+            "id": "577:287",
+            "name": "原纸补片",
+            "locked": false,
+            "visible": true,
+            "blendMode": "PASS_THROUGH",
+            "x": 900.7550048828125,
+            "y": 613.2946166992188,
+            "width": 60.00379943847656,
+            "height": 30.699617385864258,
+            "fills": [
+              {
+                "type": "IMAGE",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "scaleMode": "FILL",
+                "scalingFactor": 0.5,
+                "rotation": 0,
+                "filters": {
+                  "exposure": 0,
+                  "contrast": 0,
+                  "saturation": 0,
+                  "temperature": 0,
+                  "tint": 0,
+                  "highlights": 0,
+                  "shadows": 0
+                },
+                "imageTransform": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ]
+                ],
+                "imageHash": "ba6a5d9e294378b920614e033be07b15844afcc1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,4 +1,12 @@
-# 当前状态｜审美外挂 · 2026-10-23
+# 当前状态｜审美外挂 · 2026-10-24
+
+## 2026-10-24｜本轮 Figma＋GitHub 已统一同步（P3／P2→P3）
+
+- 用户要求“把figma，和GitHub 都更新成最新的啊 这一轮的”。[统一交接入口](handoffs/2026-10-24-round-sync/README.md)列出采用状态、运行方式、节点与检查证据。
+- **主流程 Figma 已同步**：[306:2](https://www.figma.com/design/pIL4mlWLHxph3pqXlIVq1s?node-id=306-2)内 P3 改为原生分层 [Web577:13](https://www.figma.com/design/pIL4mlWLHxph3pqXlIVq1s?node-id=577-13)／[Mobile577:195](https://www.figma.com/design/pIL4mlWLHxph3pqXlIVq1s?node-id=577-195)。手机匹配390×844；旧494:4/5保留在577:12，原525:2与533:6不动。动效交接577:312附运行链接；Figma仍是静态稿，小字仍有代字体，字体匹配未完成。
+- **完整源码进入 master**：从8af4a66原样纳入 `p3-cover-extension-layer-v1-2026-10-23/`、`p3-adopted-figma-2026-10-23/`、`p2-p3-water-iris-v2-2026-10-23/` 三个独立目录，含手机滑动修复；下文10/23的“源码仅在分支”属于历史状态。
+- **验收边界**：封面适度延伸已采用；Web宽幅与水面折射转场待视觉确认。重跑4002个样本／80份继承资产保护检查通过；手机真实设备触摸与帧率仍未核验。未发布生产站，未正式接通P4。
+- **保护与并行工作**：v4/v9原目录、原PNG/原色封面/蒙版、飞书数据库均未改。本轮不替换或评价另一个对话的P2版式及配色候选；P2的最新状态继续以下文独立记录为准。[本次规则与图层证据](handoffs/2026-10-24-round-sync/EDITORIAL-EVIDENCE.md)。
 
 ## 2026-10-24｜P1→P2→P3 配色连续审阅（用户要求结合上下页；仅候选，未验收）
 
