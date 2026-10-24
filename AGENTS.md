@@ -1,5 +1,10 @@
 # 审美外挂｜共享协作与版本保护规则 · 2026-10-23
 
+## 2026-10-24｜生图与页面落地的创作记忆入口
+
+涉及灵感转译、插画生图、结构稿转完成稿、版式或页面落地时，在既定总控/状态核对后，阅读 [CREATIVE_MEMORY.md](CREATIVE_MEMORY.md) 的相关段落，并按需回查[原始失败与来源](视觉研究/2026-10-24-生图与页面落地-项目记忆审计.md)。先区分本轮交结构、美术、可编辑版式还是可操作网页；不能用错工序的产物替代。本文补充现有结构审图、Editorial Skill、数据只读和版本保护规则，不新增视觉批准或自动施工授权。历史模型归因只作有条件经验，不扩大成永久工具禁令。
+
+
 ## 2026-10-24｜编辑设计 Skill 强制执行门禁
 
 凡涉及 P1–P4 / Figma / 网站 / 小红书的版式、杂志/Mook、栅格、字体层级、黑白节奏、图文主次，**必须每轮重新阅读** [项目 Editorial Layout Skill](.agents/skills/shenmei-editorial-layout/SKILL.md)，并按任务阅读它链接的 [上游 Grid Systems & Editorial 的具体章节](https://github.com/medoismail/grid-systems-editorial-skill)。这一步安排在本文件既定的 GitHub 总控/状态查阅之后、实际施工之前。仓库有 Skill 并不保证所有 AI 自动读取；不许以“曾经查到/读过”充当本轮使用。

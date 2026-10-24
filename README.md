@@ -1,5 +1,8 @@
 # 审美外挂｜项目总入口（更新至 2026-10-24）
 
+> **生图和页面落地怎么接续**：[项目创作短记忆](CREATIVE_MEMORY.md)汇总参考图分工、草稿到完成稿、整体主次、真实分层、可编辑版式与可打开预览的经验；[详细审计](视觉研究/2026-10-24-生图与页面落地-项目记忆审计.md)保留失败出处与未核验边界。新任务按相关工序阅读，不重复让用户解释已明确目标。
+
+
 > **本轮最新同步**：[P3 封面延伸＋双端 Figma＋手机滑动修复＋水面折射动效](handoffs/2026-10-24-round-sync/README.md)。完整源码已进入 master；封面延伸已采用，宽幅与转场仍待审。
 
 > **2026-10-24 新增版式 Skill 入口**：版式、杂志、栅格或 Figma 排印任务必须打开 [项目专属 Editorial Layout Skill](.agents/skills/shenmei-editorial-layout/SKILL.md) 并阅读指向的上游具体章节，用 [证据模板](.agents/skills/shenmei-editorial-layout/EVIDENCE_TEMPLATE.md) 输出“规则→动作→节点”核验。背景见 [P2 Skill 失败复盘](视觉研究/版式系统/2026-10-24-P2-Skill执行复盘与防漏机制.md)。仅下载/搜索/读过 ≠ 真正使用。
