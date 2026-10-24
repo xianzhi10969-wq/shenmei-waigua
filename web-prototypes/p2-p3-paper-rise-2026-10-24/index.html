@@ -1,0 +1,124 @@
+<!doctype html><html lang="zh"><head><meta charset="utf-8">
+<title>审美外挂 · P2→P3 镂空纸页（原型 · 待夕里审）</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+@font-face{font-family:CabinetSong;src:url(assets/song.ttf) format('truetype');font-display:block}
+:root{--paper:#F8F6EF;--night-p2:#14191E;--hole:#131218}
+html,body{margin:0;background:var(--night-p2)}
+html{overflow-x:clip}
+/* 一段滚动区：舞台 sticky 钉住，滚动进度驱动三拍 */
+#run{position:relative;height:520vh}
+#stage{position:sticky;top:0;height:100vh;height:100dvh;overflow:hidden;background:var(--night-p2)}
+
+/* P2：夜面，钉住不动 */
+#p2{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:var(--night-p2)}
+#p2 img{display:block;width:min(100vw,1440px);height:auto}
+
+/* P3：纸页。整张纸 = 视口大小，上沿是它自己的水平直边。无阴影/无渐变/无半透明 */
+#sheet{position:absolute;left:0;top:0;width:100%;height:100%;background:var(--paper);
+  transform:translate3d(0,100%,0);will-change:transform}
+/* 窗：Figma 最新 P3（Web 577:13 / Mobile 577:195）的取景：Web 945:995，手机 400:947 */
+#win{position:absolute;left:50%;top:calc(44px + (100% - 44px - 150px)/2);transform:translate(-50%,-50%);
+  height:calc(100% - 194px);aspect-ratio:945/995;max-width:94%}
+#win img{position:absolute;left:0;top:0;width:100%;height:100%;display:block;pointer-events:none;user-select:none}
+/* 洞后垫的纯夜色：只在窗框矩形内，被纸上的石框挡住，只从镂空处露出。#131218 = P3 夜玻璃本色 */
+#plug{position:absolute;inset:3px;background:var(--hole)}
+/* 采用稿成品图，自上而下擦出（clip-path 硬边，无羽化）。非洞处与纸面逐像素相同 */
+#reveal{position:absolute;inset:0;clip-path:inset(0 0 100% 0)}
+/* 纸上固有文字：页眉（随纸上来） */
+.hdr{position:absolute;left:0;right:0;top:22px;width:min(980px,92%);margin:0 auto;display:flex;justify-content:space-between;
+  font:12px/20px CabinetSong,"Noto Serif CJK SC",serif;letter-spacing:.18em;color:#24221f}
+.hdr .n{font-family:Georgia,serif;letter-spacing:.12em}
+/* 窗下：翻阅提示 + 定义句（与封面同一拍显出，自上而下擦出） */
+#foot{position:absolute;left:0;right:0;bottom:0;height:150px;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  text-align:center;color:#24221f;font-family:CabinetSong,"Noto Serif CJK SC",serif;clip-path:inset(0 0 100% 0)}
+#foot .pg{display:flex;align-items:center;gap:36px;font-size:11px;letter-spacing:.15em;color:#777267}
+#foot svg{width:35px;height:18px;fill:none;stroke:#24221f;stroke-width:1.2}
+#foot .df{font-size:13px;line-height:1.7;letter-spacing:.05em;max-width:620px;margin:10px 0 0}
+#foot .cr{font-size:10px;letter-spacing:.12em;color:#817b70;margin-top:6px}
+
+#hud{position:fixed;left:8px;top:8px;z-index:9;font:12px/1.4 ui-monospace,monospace;color:#F6F3ED;background:#000;padding:4px 8px;display:none}
+body.hud #hud{display:block}
+
+/* 手机：独立取景（素材与版面都按 Figma Mobile 577:195：窗约占高 78%，窗下提示+定义句） */
+@media (max-width:899px){
+  html,body,#stage,#p2{background:#13171C}
+  #win{top:calc(5% + 39.15%);height:78.3%;aspect-ratio:400/947;max-width:94%}
+  .hdr{top:8px;font-size:10px;width:calc(100% - 42px)}
+  #foot{height:14.5%;bottom:0}
+  #foot .df{font-size:12px;max-width:330px;padding:0 4px}
+  #foot .cr{font-size:9px}
+  #p2 img{width:100vw}
+}
+/* 减少动态：直接终态 */
+@media (prefers-reduced-motion:reduce){
+  #run{height:100vh}
+  #sheet{transform:none!important}#reveal{clip-path:none!important}
+}
+</style></head><body>
+<div id="hud"></div>
+<main id="run" aria-label="P2 到 P3 过渡原型：向下滚动">
+ <div id="stage">
+  <section id="p2" aria-label="P2 夜面">
+   <picture><source media="(max-width:899px)" srcset="assets/p2-mobile.png"><img id="p2img" src="assets/p2-web.png" alt="P2 夜面" width="1440" height="811"></picture>
+  </section>
+  <section id="sheet" aria-label="P3 纸页">
+   <div class="hdr"><span>审美外挂 · 美学专题</span><span class="n">03 / 24</span></div>
+   <div id="win">
+    <div id="plug"></div>
+    <img id="chassis" src="assets/chassis-web.png" alt="">
+    <img id="reveal" src="assets/window-web.png" alt="P3 彩窗：封面显影后">
+   </div>
+   <div id="foot"><div class="pg"><svg viewBox="0 0 42 20"><path d="M39 10H3m9-7L3 10l9 7"/></svg><span>左右轻滑 · 一次一格</span><svg viewBox="0 0 42 20"><path d="M3 10h36m-9-7 9 7-9 7"/></svg></div>
+    <p class="df">田园给疲惫的人一处可想象的栖身之地，也让人暂时放慢脚步。</p><div class="cr">封面出处</div></div>
+  </section>
+ </div>
+</main>
+<script>
+/* ---- 节拍表（进度 0..1；三拍互不重叠） ----
+   0.00–0.05  P2 夜面钉住（静止）
+   ① 0.05–0.65 纸升起（唯一一条曲线 smoothstep；只动纸）
+   ② 0.65–0.80 停稳（什么都不动）
+   ③ 0.80–0.96 封面自上而下擦出（沿用 v4 缓出 cubic-bezier(.22,.61,.36,1) 的手感，只是硬边）
+   0.96–1.00   终态静止
+   全部是进度的纯函数：同一进度 → 同一画面，倒滚原样回去。 */
+const B={rise:[.05,.65],settle:[.65,.80],reveal:[.80,.96]};
+const cl=(v,a,b)=>Math.min(1,Math.max(0,(v-a)/(b-a)));
+const smooth=t=>t*t*(3-2*t);
+// cubic-bezier(.22,.61,.36,1) 数值求解
+function bez(x1,y1,x2,y2){return t=>{if(t<=0)return 0;if(t>=1)return 1;let u=t;
+  for(let i=0;i<24;i++){const cx=3*x1*u*(1-u)**2+3*x2*u*u*(1-u)+u**3;const d=3*x1*(1-u)**2+6*(x2-x1)*u*(1-u)+3*(1-x2)*u*u;if(!d)break;u-=(cx-t)/d;u=Math.min(1,Math.max(0,u));}
+  return 3*y1*u*(1-u)**2+3*y2*u*u*(1-u)+u**3;}}
+const easeV4=bez(.22,.61,.36,1);
+const run=document.getElementById('run'),stage=document.getElementById('stage'),sheet=document.getElementById('sheet'),
+      reveal=document.getElementById('reveal'),foot=document.getElementById('foot'),hud=document.getElementById('hud');
+const Q=new URLSearchParams(location.search); if(Q.get('hud'))document.body.classList.add('hud');
+const MQ=matchMedia('(max-width:899px)');
+function swapAssets(){const k=MQ.matches?'mobile':'web';for(const [id,pre] of [['chassis','chassis'],['reveal','window']]){const e=document.getElementById(id);const u=`assets/${pre}-${k}.png`;if(!e.src.endsWith(u))e.src=u;}}
+MQ.addEventListener('change',swapAssets);swapAssets();
+const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+function state(p){
+  const rise=smooth(cl(p,...B.rise)), rv=easeV4(cl(p,...B.reveal));
+  return {rise,rv};
+}
+function paint(p){
+  const H=stage.clientHeight, s=state(p);
+  const y=Math.round(H*(1-s.rise));                 // 整数像素：纸上沿落在整行上，边缘不糊
+  sheet.style.transform=`translate3d(0,${y}px,0)`;
+  reveal.style.clipPath=`inset(0 0 ${((1-s.rv)*100).toFixed(3)}% 0)`;
+  foot.style.clipPath=`inset(0 0 ${((1-cl(s.rv,.7,1))*100).toFixed(3)}% 0)`;
+  if(hud){const beat=p<B.rise[0]?'P2 钉住':p<B.rise[1]?'① 纸升起':p<B.settle[1]?'② 停稳':p<B.reveal[1]?'③ 封面显影':'终态';
+    hud.textContent=`p=${p.toFixed(3)}  ${beat}  纸上沿 y=${y}px  显影 ${(s.rv*100).toFixed(0)}%`;}
+  return y;
+}
+let queued=false;
+function progress(){const span=run.offsetHeight-stage.clientHeight;return span>0?Math.min(1,Math.max(0,scrollY/span)):1;}
+function update(){queued=false; if(!reduce)paint(progress());}
+addEventListener('scroll',()=>{if(!queued){queued=true;requestAnimationFrame(update);}},{passive:true});
+addEventListener('resize',update);
+// 调试/截图：?p=0.5 真实滚动到该进度（不是替换画面）；window.gotoP(p) 同
+window.gotoP=p=>{scrollTo(0,p*(run.offsetHeight-stage.clientHeight));paint(p);};
+window.__paint=paint;
+if(Q.get('p'))addEventListener('load',()=>gotoP(parseFloat(Q.get('p'))));
+update();
+</script></body></html>

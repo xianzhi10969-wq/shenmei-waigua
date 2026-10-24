@@ -1,0 +1,46 @@
+{
+ "web": {
+  "check1_frames_tested": 189,
+  "check1_bad": [],
+  "check2_hole_pixels_visible": 35149,
+  "check2_pure_night_frac": 1.0,
+  "check2_ytop": 450,
+  "beat1_rise_p": [
+   0.06,
+   0.65
+  ],
+  "beat3_reveal_p": [
+   0.81,
+   0.96
+  ],
+  "beats_overlap": false,
+  "gap_between_beats_p": [
+   0.65,
+   0.81
+  ],
+  "check3_reverse_identical_gotoP": true,
+  "check3_reverse_identical_realscroll": true
+ },
+ "mobile": {
+  "check1_frames_tested": 189,
+  "check1_bad": [],
+  "check2_hole_pixels_visible": 14182,
+  "check2_pure_night_frac": 1.0,
+  "check2_ytop": 422,
+  "beat1_rise_p": [
+   0.06,
+   0.65
+  ],
+  "beat3_reveal_p": [
+   0.81,
+   0.96
+  ],
+  "beats_overlap": false,
+  "gap_between_beats_p": [
+   0.65,
+   0.81
+  ],
+  "check3_reverse_identical_gotoP": true,
+  "check3_reverse_identical_realscroll": true
+ }
+}
