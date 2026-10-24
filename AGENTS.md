@@ -1,5 +1,20 @@
 # 审美外挂｜共享协作与版本保护规则 · 2026-10-23
 
+## 2026-10-24｜编辑设计 Skill 强制执行门禁
+
+凡涉及 P1–P4 / Figma / 网站 / 小红书的版式、杂志/Mook、栅格、字体层级、黑白节奏、图文主次，**必须每轮重新阅读** [项目 Editorial Layout Skill](.agents/skills/shenmei-editorial-layout/SKILL.md)，并按任务阅读它链接的 [上游 Grid Systems & Editorial 的具体章节](https://github.com/medoismail/grid-systems-editorial-skill)。这一步安排在本文件既定的 GitHub 总控/状态查阅之后、实际施工之前。仓库有 Skill 并不保证所有 AI 自动读取；不许以“曾经查到/读过”充当本轮使用。
+
+**三项约束——可见、点名、举证：**
+1. **开工点名**：声明确切 Skill 文件/上游章节、规则 E01–E07、作用的 Figma Frame/图层、验收方式；不能仅说“按杂志风设计”。
+2. **操作落实**：先信息层级与栅格，再摆放可编辑 TEXT；锁定原图、动效与已认可基线，旧稿单独留存。不做图像生成冒充可编辑版式。不能机械套入 12 列/1.5 比例就宣称达成编辑设计。
+3. **收尾举证**：按 [Skill 证据表](.agents/skills/shenmei-editorial-layout/EVIDENCE_TEMPLATE.md) 交“具体源章节→应用规则/计算/理由→Figma node ID/可编辑性→原图保护检查→视觉验证→待审/已确认”。**证据不足说未执行/未核验，不能声称严格使用。**
+
+**分阶段用户审批**：①版式结构 → ②色彩设计 → ③字体设计；每阶段用户明确认可后才可进入下一阶段。不要因为 Figma API 成功就声称 Editorial Skill 已执行。
+
+[10/24“读过但没用”复盘](视觉研究/版式系统/2026-10-24-P2-Skill执行复盘与防漏机制.md)。Figma P2 原稿 `306:35`、版式实验 `536:8` / `539:8`；实验均待审，不替代受保护 P1/P2 v4。
+
+
+
 ## 接续次序（适用于 Grok、ChatGPT、Codex、Work）
 
 0. **GitHub 为每轮任务的第一站**：先拉取/核对最新远程 `master`（本地 `git fetch`、`git status`、按需要 `git pull`；检查当前分支和未提交改动），再按 [整站总控](PROJECT_CONTROL.md) 找对应源文件。GitHub / Figma / 飞书分工见 [README · 三处放哪](README.md#三处放哪github--figma--飞书)。
