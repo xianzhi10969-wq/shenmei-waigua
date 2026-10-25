@@ -1,0 +1,21 @@
+/* Keep the adopted artwork geometry. Only the pager is replaced by the approved ruler. */
+html{overflow-x:clip}.gallery{position:relative;max-width:1440px;margin:auto;padding:28px 48px 30px}
+header{width:100%}.stage{width:100%;aspect-ratio:945/995;margin-top:16px;touch-action:pan-y pinch-zoom}
+.extension-comparison{display:none!important}
+.pager{position:relative;display:block;flex:none;width:593px;height:40px;margin:36.889px 0 0;left:.5px}
+.arrow{position:absolute;top:0;padding:10px 3.5px;min-width:42px;width:42px;height:40px;min-height:40px}
+#previous{left:0}#next{right:0}
+.ruler{position:absolute;inset:0;pointer-events:none;--spacing:20px;--normal:6px;--active:12px;--start:10.5px}
+.tick-strip{position:absolute;left:56px;top:0;width:480px;height:40px;overflow:hidden}
+.tick,.current-tick{position:absolute;display:block;background:var(--ink);top:calc((40px - var(--normal))/2);left:calc(var(--start) + var(--i)*var(--spacing) - .5px);width:1px;height:var(--normal)}
+.current-tick{left:calc(var(--start) - 1px);top:calc((40px - var(--active))/2);width:2px;height:var(--active);transform:translateX(calc(var(--position)*var(--spacing)));will-change:transform}
+.definition{margin-top:12px}.credits{margin-top:10px}
+@media(max-width:680px){
+ .gallery{padding:15px 12px 22px}header{width:100%}
+ .stage{width:min(100%,calc((100svh - 183px)*.42222));aspect-ratio:400/947;margin-top:7px}
+ .pager{width:289px;height:40px;margin-top:5.26px}
+ .ruler{--spacing:8px;--normal:5px;--active:10px;--start:4.5px}
+ .tick-strip{left:48px;width:192px}
+ .definition{margin-top:7px}.credits{margin-top:4px}
+}
+@media(min-width:681px) and (max-width:760px){.pager{max-width:100%;transform:scale(.9)}}

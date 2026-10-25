@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-25",
+  "preserved_files": 84,
+  "changed_preserved_files": [],
+  "mobile_browser": [
+    "drag 03 to 04",
+    "reverse drag 04 to 03",
+    "three clicks 03 to 06",
+    "24 ticks, 8px spacing, pager x51.13 y708.13 288.99x40 at 390x844"
+  ],
+  "model_checks": "node checks/motion-check.cjs PASS",
+  "not_verified": [
+    "Physical iPhone Safari",
+    "Real-device FPS"
+  ],
+  "status": "awaiting user visual review",
+  "desktop_browser": [
+    "1440 iframe: pager x423.999 y1515.987, 592.997x40; stage x47.997 y63.991, 1344.006x1415.114",
+    "24 to 1: position 24, ruler 24, displayed 01; reverse returns position 23"
+  ]
+}
