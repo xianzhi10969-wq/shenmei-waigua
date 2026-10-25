@@ -293,3 +293,7 @@ $L base +record-download-attachment --as user --base-token $B --table-id tblaYsG
 
 - Figma 页 593:16：v1（593:17/593:202）、v2 阶段①版式结构（601:20/601:322）、v3 阶段②配色+③字体（603:24/603:326）。纸色改 #F9F6EF（实测，与 P1、窗内纸底一致，不用 #F6F3ED）；文字只用 #1E1E1E；Light 定义句、EB Garamond 拉丁、标点悬挂。旧节点未改。
 - 诊断、改动、教训：[README](视觉研究/P3彩窗/2026-10-25-P3文字版式重设计-v1到v3/README.md)。未获夕里验收，非基线。
+
+## 2026-10-25｜P3 文字 v4：按仓库字体配色资料校正（待审）
+
+- Figma 页 593:16：v4 Web 608:546、Mobile 608:848（克隆自 v3，v1–v3 未改）。纸色回到 #F8F6EF（v3 的 #F9F6EF 违背 P3 交接 §3）；页眉字距 18%、定义句 5%、拉丁字改 Noto Serif（Georgia 代）字距 12%，均取自 P3 最新 CSS。资料与 v3 差距、依据见 [README v4 一节](视觉研究/P3彩窗/2026-10-25-P3文字版式重设计-v1到v3/README.md)。朱雀仿宋与 Georgia 仍未在 Figma 接入；墨色 #1E1E1E/#24221F/#161513 资料不统一，未决。非基线。
