@@ -1,5 +1,7 @@
 # 当前最新 P3 · 星星接续 v1
 
+> **2026-10-25 桌面更正**：用户明确指出桌面画幅错误。撤回“Web 已完成”的判断：旧 review desktop 未锁定 iframe 宽度，窄面板会触发手机图；宽面板亦因插图按全宽放大只见拱顶。独立 [桌面修复 v2](web-prototypes/p2-p3-desktop-fit-v2-2026-10-25/README.md) 锁定1440×900预览并等比容纳五窗，已可查看，**待审，不自动升基线**。手机星星v1保留。
+
 2026-10-25 用户明确要求：“提交这个版本为当前最新版本的p3”。采用当前打开的星星接续 v1；随后用户询问 Web 版，Web 已有入口，桌面视觉尚未单独审阅。
 
 - 源目录：[web-prototypes/p2-p3-star-continuity-v1-2026-10-25](web-prototypes/p2-p3-star-continuity-v1-2026-10-25/README.md)
