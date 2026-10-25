@@ -1,5 +1,8 @@
 # 审美外挂｜项目总入口（更新至 2026-10-24）
 
+> **2026-10-25｜当前最新 P3**：用户明确要求采用「星星接续 v1」。以 [当前 P3 入口](CURRENT_P3.md) 为准；此前 P3 候选/待审记录保留作历史。Web 已实现可预览，用户尚未单独审阅桌面效果；不将本次指定版本扩大为双端全部细节验收。刻度版与并行排印版未合并，Figma/生产站未在本轮更新。
+
+
 > **生图和页面落地怎么接续**：[项目创作短记忆](CREATIVE_MEMORY.md)汇总参考图分工、草稿到完成稿、整体主次、真实分层、可编辑版式与可打开预览的经验；[详细审计](视觉研究/2026-10-24-生图与页面落地-项目记忆审计.md)保留失败出处与未核验边界。新任务按相关工序阅读，不重复让用户解释已明确目标。
 
 
@@ -27,7 +30,7 @@
 | 部分 | 唯一推荐接续入口 | 核验边界 |
 | --- | --- | --- |
 | P1→P2 | [Grok 的显影开场 + 星 B 坠落 v4](web-prototypes/p1-p2-reveal-star-v4-2026-10-21/README.md) · [动效细节](web-prototypes/p1-p2-reveal-star-v4-2026-10-21/MOTION-NOTES.md) | 用户确认完成的独立原型；不等于已合并正式生产网站 |
-| P3／P2→P3 本轮 | [本轮统一入口](handoffs/2026-10-24-round-sync/README.md) · [完整动效源码](web-prototypes/p2-p3-water-iris-v2-2026-10-23/README.md) | 封面延伸已采用；手机滑动修复已保存；宽幅与动效视觉待审；未发布 |
+| P3／P2→P3 当前 | [当前 P3](CURRENT_P3.md) · [星星接续 v1](web-prototypes/p2-p3-star-continuity-v1-2026-10-25/README.md) | 2026-10-25 用户指定当前最新版本；Web 已实现待单独审阅，未生产发布 |
 | P3→P4 | [恢复版 v9 柜体与书册](web-prototypes/p3-p4-restored-v9-2026-10-21/START-HERE-2026-10-21.md) | 用户要求保留的基线；v10 花叶适配稿未采用 |
 | Figma | **01 CURRENT 入口**：[306:2](https://www.figma.com/design/pIL4mlWLHxph3pqXlIVq1s?node-id=306-2)（与「三处放哪」／CURRENT_STATE 一致）· 旧节点 [144:2](https://www.figma.com/design/pIL4mlWLHxph3pqXlIVq1s?node-id=144-2) 仍可打开作对照，**勿当今日入口** · [已认可功能 05/07 · 137:2](https://www.figma.com/design/pIL4mlWLHxph3pqXlIVq1s?node-id=137-2) · [词条 V3 · 81:2](https://www.figma.com/design/pIL4mlWLHxph3pqXlIVq1s?node-id=81-2) | 静态画板 ≠ 可跑交互；**01 已同步最新 P3 Web577:13／Mobile577:195；旧494:4/5保留。封面延伸已采用，宽幅与转场待审；v9代码保护不变** |
 | 星星导航（布局已认可） | [星星导航 · Le Pater 构图交接](产品决策/2026-10-21-星星导航-Le-Pater结构与交互-跨会话交接.md) · [Figma Web＋Mobile 布局 434:2](https://www.figma.com/design/pIL4mlWLHxph3pqXlIVq1s?node-id=434-2) | **仅认可布局**：五个等权徽章纵列 1/5、右侧完整预览 4/5、标题带叠压；Figma 画出的徽章／配色／字体／占位插画均不认可，导航展开动效未实现 |
