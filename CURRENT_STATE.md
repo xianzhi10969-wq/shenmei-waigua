@@ -304,3 +304,7 @@ $L base +record-download-attachment --as user --base-token $B --table-id tblaYsG
 - 用户明确要求继续补星星，新增 [独立预览源码](web-prototypes/p2-p3-star-continuity-v1-2026-10-25/README.md)。以当前cut-paper为底，仅加星星前景运动：水面升起、纸边切换线色、收至玫瑰窗中心，倒滚沿原路回去。原画、蒙版、封面与纸页节奏未改；未改第8节刻度版本。
 - 旅行星与原窗星不同轮廓，接近时短暂同现；视觉待用户审阅，不声称无缝轮廓变化完成。底版仍透出夜景文字，与paper-rise纯夜色洞不是同一工程。
 - 双端2002进度坐标样本与手机浏览器端点回退通过；真机帧率未核验。Figma、飞书、生产站未修改，保留并行文字v4记录。
+
+## 2026-10-25｜P3 窗外文字：字体候选样张（待夕里挑方向）
+
+- Figma 页 593:16 新画板 611:32「字体候选样张」（v1–v4 未改）：基准 + A 昭源宋体+Cormorant / B 站酷小薇+Italiana / C 霞鹜文楷 TC+Fraunces / D 仙人掌明体+Marcellus，同文、只换字体、字号沿用 v4。日系明朝（Zen Old Mincho/Shippori/Kaisei 等）缺简体字已排除。首推 B，后备 A。授权/Figma 实测/风险见 [README 第七节](视觉研究/P3彩窗/2026-10-25-P3文字版式重设计-v1到v3/README.md)。待夕里拍板方向；非基线。

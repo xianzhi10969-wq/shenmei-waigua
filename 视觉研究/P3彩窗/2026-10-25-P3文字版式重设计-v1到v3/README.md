@@ -137,3 +137,49 @@
 1. v3 把纸色改成 #F9F6EF 是我只凭实测而没读完 P3 交接，违背了「纸 #F8F6EF，不要换」。动配色和字体前，要先 grep P3 自己的 CSS 与交接文档。
 2. 看得见的改动要对着资料里的具体数值（.18em、.05em、.12em），而不是凭感觉微调 1–2%。
 3. 同一页的资料优先于其他页：P3 用 Georgia，不跟 P1 的 EB Garamond。
+
+## 七、字体候选（夕里看 v4：「都好普通，你要不自己找找别的字体呢」）
+
+Figma 页 593:16 新画板 **611:32**「字体候选样张」（v1–v4 未动）。同一段真实文字，只换字体；字号位置沿用 v4（Web 24/12，手机 14/11）；两色 #F8F6EF / #1E1E1E，无彩色/阴影/渐变/颗粒。图：`字体候选/样张-整张-1x.png`、`字体候选/zoom2x_{base,A,B,C,D}.png`（Web+手机 2x）、`字体候选/zoom2x_全部对比.png`。
+
+### 7.1 重要发现：日系明朝不能用
+Zen Old Mincho / Shippori Mincho / Kaisei / Zen Antique / Yuji Syuku 等在 Figma 里能加载，但**缺简体字**。按 topics.json 全部 827 个汉字用 fontTools 查 cmap：Zen Old Mincho、Zen Antique、Yuji Syuku、Kaisei 各缺 212–215 字（含「园」「说」「这」「剧」…，P3 定义句里的「园」也缺），Shippori 缺 164，Noto Serif TC 缺 160。缺字会静默回落成别的字体，所以全部排除。可用（0 缺字）：Noto Serif SC、Chiron Sung HK（昭源宋体）、LXGW WenKai TC、Cactus Classical Serif；ZCOOL XiaoWei 仅缺「侘」1 字。
+
+### 7.2 候选清单（授权均核 google/fonts METADATA.pb = OFL；Figma 用 loadFontAsync 实测）
+| 字体 | 授权 | Figma | 简体覆盖(827字) | 结论 |
+|---|---|---|---|---|
+| Chiron Sung HK 昭源宋体（ExtraLight–Black 变量） | OFL | ✅ | 0 缺 | 入选 A。官方网页字仅繁体，须自托管子集化（变量 TTF ≈ 50MB） |
+| ZCOOL XiaoWei 站酷小薇 | OFL | ✅ | 缺「侘」 | 入选 B。单字重；标点是西式逗号偏下，12px 以下不用 |
+| LXGW WenKai TC 霞鹜文楷 TC（Light/Regular/Bold） | OFL | ✅（“LXGW WenKai”GB 版 Figma 无） | 0 缺 | 入选 C |
+| Cactus Classical Serif 仙人掌明体 | OFL | ✅ | 0 缺 | 入选 D；≈28MB，须子集化；与 Noto Serif SC 差异最小 |
+| Noto Serif SC（ExtraLight–Black） | OFL | ✅ | 0 缺 | 基准 |
+| Zen Old Mincho/Shippori/Kaisei/Zen Antique/Yuji Syuku/Hina | OFL | ✅ | 缺 164–215 | 排除（见 7.1） |
+| Noto Serif TC/HK | OFL | ✅ | TC 缺 160 | 排除 |
+| Mingzat、Bpmf Zihi Kai | OFL | ✅ | 缺 827/231 | 排除 |
+| Ma Shan Zheng、Zhi Mang Xing、Liu Jian Mao Cao、Long Cang | OFL | ✅ | — | 书法类，与线描窗不合，排除 |
+| LXGW Neo ZhiSong 霞鹜新致宋（简体宋，OFL） | OFL | ❌ Figma 不可用 | — | 不推荐（按规则只推实测可用）；落地时可作自托管备选 |
+| 拉丁：Cormorant Garamond(含 Medium Italic)、Italiana、Fraunces(Light/Light Italic)、Marcellus / Marcellus SC | OFL | ✅ | — | 入选 |
+| 拉丁：Poiret One、Federo、Cinzel、Bodoni Moda、Playfair Display、Gloock、Young Serif、Limelight、Tenor Sans | OFL | ✅ | — | 未入选：Poiret 发丝线 12px 不可读；Federo/Limelight 花饰太强，与「一拉丁衬线」冲突；Cinzel 只有大写；Bodoni/Playfair 反差过大，与线描窗不搭；Gloock/Young Serif 太粗 |
+| IM Fell 系 | OFL | ❌ Figma 不可用 | — | 本就不做旧 |
+
+联网参考：Cormorant+Marcellus/Italiana 是 Mucha/新艺术常见搭配；Chiron 网页字仅繁体（chiron-fonts.github.io）；LXGW 系有开源简体宋（github.com/lxgw/LxgwNeoZhiSong）。
+
+### 7.3 四套搭配（样张行：基准 + A–D）
+| 套 | 页眉 | 定义句 | 出处 | 拉丁 | 气质 | 与 P1/P2 衔接 | 风险 |
+|---|---|---|---|---|---|---|---|
+| 基准 v4 | Noto Serif SC Regular，字距 18% | Noto Serif SC Light，5% | Noto Serif SC Regular | Noto Serif（Georgia 代） | 稳但普通 | 已定稿体系 | — |
+| A 宋刻纤细 | 昭源 Medium 18%；Cottagecore 用 Cormorant Garamond Medium Italic，+2px，字距 8% | 昭源 Light，6% | 昭源 Regular + Cormorant Medium 数字（+2px） | Cormorant Garamond | 宋体细长高反差，最接近穆夏线影 | 同气质（仍是宋体，最易融入） | 须自托管子集化；Cormorant 数字是老式数字，「1889」略怪；差异中等偏小 |
+| B 题签刻字 | 小薇 18%；Cottagecore 用 Italiana，+1px，字距 18% | 小薇，6% | 保留现有宋体正文（Noto Serif SC Regular 代 CabinetSong），12px 小字不用小薇 | Italiana | 棱角锐利、粗细反差强，近新艺术运动题签刻字，个性最强 | 需再统一（对应 S12「标题刻字 + 宋体正文」分工，出处保留宋体作衔接） | 单字重；标点为西式逗号偏下，需自改标点（或标点换宋体）；长句用展示字体，真机可读性待验 |
+| C 文楷田园 | 文楷 Regular 14%；Cottagecore 用 Fraunces Light Italic，+1px，字距 8% | 文楷 Light，5% | 文楷 Light + Fraunces Light 数字 | Fraunces | 温润手写感，贴「田园 / Cottagecore」，人文而非装饰 | 同气质（悠哉 Yozai 与霞鹜同属 lxgw/Xiaolai 开源系），与宋体需再统一 | 偏离穆夏线条；TC 版需确认简体字形；13MB 须子集化 |
+| D 古宋题刻 | 仙人掌明体 18%；Cottagecore 用 Marcellus SC，字距 22%（碑铭小型大写） | 仙人掌明体，6% | 仙人掌明体 + Marcellus 数字 | Marcellus / Marcellus SC | 古典明体书卷感 + 碑铭拉丁，庄重有轴线秩序 | 同族度较高（同属宋明路线） | 28MB 须子集化；台湾字形取向，需逐字确认简体字形；与基准差异最小 |
+
+自检（2x 图 Read）：5 行页眉、定义句、出处肉眼可辨；全部中文均画出，无豆腐块；A、C、D 与基准在整页缩略图上差异仍小，只有 B 一眼可见。
+
+### 7.4 首推：B「题签刻字」（页眉 + 定义句用站酷小薇，Latin 用 Italiana，出处保留宋体正文）
+理由：夕里嫌「普通」，A/C/D 都还是宋体/楷体的正常延伸，差别只能在 2x 里看出来；B 是唯一一眼就不同的方案，又合 S12 的「一标题刻字 + 一宋体正文 + 一拉丁衬线」分工，出处仍用现有宋体，衔接 P1/P2。稳妥后备：A。
+
+### 7.5 待核验
+- 授权：已读 google/fonts METADATA.pb（OFL），未读各字体 OFL 全文及 Reserved Font Name；落地前核。
+- B 的标点与西式逗号需处理；ZCOOL 缺「侘」及其它稀字，P3 其余 23 个主题的文字要逐字核。
+- Figma 渲染与浏览器渲染不同；网页端须子集化自托管（pyftsubset）并真机验证。
+- 字体来源页：fonts.google.com 对应族页；Chiron：chiron-fonts.github.io。
