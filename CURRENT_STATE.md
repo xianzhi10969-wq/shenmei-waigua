@@ -315,3 +315,7 @@ $L base +record-download-attachment --as user --base-token $B --table-id tblaYsG
 ## 2026-10-25｜P3 窗外文字：字体候选样张（待夕里挑方向）
 
 - Figma 页 593:16 新画板 611:32「字体候选样张」（v1–v4 未改）：基准 + A 昭源宋体+Cormorant / B 站酷小薇+Italiana / C 霞鹜文楷 TC+Fraunces / D 仙人掌明体+Marcellus，同文、只换字体、字号沿用 v4。日系明朝（Zen Old Mincho/Shippori/Kaisei 等）缺简体字已排除。首推 B，后备 A。授权/Figma 实测/风险见 [README 第七节](视觉研究/P3彩窗/2026-10-25-P3文字版式重设计-v1到v3/README.md)。待夕里拍板方向；非基线。
+
+## 2026-10-25｜P3 文字 v5：A/D 两套字体落到真页（待夕里拍板）
+
+- Figma 页 593:16：v5-A（昭源宋体 + Cormorant）Web 616:32 / Mobile 616:334；v5-D（仙人掌明体 + Marcellus）Web 616:546 / Mobile 616:848。克隆自 v4，只换字体，位置/字号/断行/纸墨色不变；「1889」用 Cormorant Infant（lining）避开老式数字，D 的数字用仙人掌自带。两套对全部 833 个非 ASCII 字符 0 缺字。已知：v4 手机刻度条箭头与出处末行轻微接触（旧问题）。自托管体积/OFL 全文/子集化待核。详见 [README 第八节](视觉研究/P3彩窗/2026-10-25-P3文字版式重设计-v1到v3/README.md)。非基线。
