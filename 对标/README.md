@@ -9,3 +9,5 @@
 | 入库日期 | 作者 | 标题 | 文件 |
 |---|---|---|---|
 | 2026-10-14 | SOOdesign | Pinterest 已过时 | [notes/…](./notes/2026-10-08-SOOdesign-Pinterest已过时.md) |
+
+- 随手收的标题见 [标题库](标题库.md)
