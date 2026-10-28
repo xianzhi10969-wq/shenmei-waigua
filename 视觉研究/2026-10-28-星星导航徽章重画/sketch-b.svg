@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240">
+  <title>寻找感觉 B｜镜面与水纹相扣｜结构草图</title>
+  <g fill="none" stroke="#000" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round">
+    <path id="joined-outer-contour" d="M120 22 C66 22 22 66 22 120 C22 174 66 218 120 218 C174 218 218 174 218 120 C218 66 174 22 120 22 Z"/>
+    <path id="mirror-outer" d="M120 22 C85 26 61 52 61 87 C61 115 77 136 97 147 L97 192 C97 207 108 218 120 218"/>
+    <path id="mirror-inner" d="M120 40 C96 42 79 62 79 87 C79 112 96 130 119 130 C143 130 162 112 162 87 C162 62 144 43 120 40 Z"/>
+    <path id="mirror-right" d="M120 22 C151 25 179 52 179 84 C179 100 173 114 164 124"/>
+    <path id="water-across-mirror" d="M24 105 C43 88 61 91 80 104 C104 121 123 120 143 107 C166 92 194 93 216 106"/>
+    <path id="water-middle" d="M25 145 C45 125 68 127 87 141 C111 159 133 161 155 146 C177 131 195 133 214 145"/>
+    <path id="water-lower" d="M41 177 C56 163 73 164 90 176 C112 191 135 193 158 178 C175 167 187 167 199 177"/>
+    <path id="handle-right" d="M119 147 L119 175 M119 192 L119 218"/>
+    <path id="reflection" d="M96 81 C96 68 106 57 118 56"/>
+  </g>
+</svg>
