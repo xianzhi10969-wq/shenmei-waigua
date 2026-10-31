@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320">
+ <title>美学专题 · 错落三窗 · 构图草稿 v2</title>
+ <desc>三扇不同宽度和高度的拱窗前后叠合，弧形窗台连接轮廓；黑线白底结构草稿。</desc>
+ <rect width="320" height="320" fill="white"/>
+ <g stroke="#1e1e1e" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" fill="white">
+  <path d="M86 235 L86 107 C86 72 108 49 139 34 C168 51 187 78 187 108 L187 241 Z"/>
+  <path d="M101 220 L101 108 C101 81 116 61 139 47 C160 62 173 82 173 108 L173 224 Z"/>
+  <path d="M139 47 L139 222 M101 114 L173 114" fill="none" stroke-width="1.6"/>
+  <path d="M159 238 L159 141 C159 104 185 77 216 65 C253 85 276 118 276 157 L276 226 Z"/>
+  <path d="M174 220 L174 144 C174 116 192 94 216 80 C246 98 262 124 262 157 L262 212 Z"/>
+  <path d="M216 80 L216 217 M174 151 L262 151" fill="none" stroke-width="1.6"/>
+  <path d="M35 226 L35 179 C35 150 51 125 78 111 C105 126 125 152 125 180 L125 256 Z"/>
+  <path d="M49 225 L49 181 C49 158 61 139 78 127 C98 141 111 160 111 181 L111 241 Z"/>
+  <path d="M78 127 L78 233 M49 185 L111 185" fill="none" stroke-width="1.6"/>
+  <path d="M35 226 C74 255 120 261 165 248 C211 234 249 205 280 180 C286 190 289 201 288 213 C257 239 220 261 177 275 C121 293 69 278 35 245 Z"/>
+  <path d="M35 236 C77 268 125 272 169 258 C219 243 255 215 285 192" fill="none" stroke-width="1.4"/>
+ </g>
+</svg>
