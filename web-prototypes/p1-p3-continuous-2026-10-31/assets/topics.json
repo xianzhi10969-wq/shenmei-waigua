@@ -1,0 +1,398 @@
+{
+  "source": {
+    "base": "IGctbcuwPaE6hMsmAoicJddpn3U",
+    "table": "tblaYsGqDwNudnXs",
+    "tableName": "章节",
+    "profile": "aesthetic-feishu",
+    "revision": 118,
+    "complete": true,
+    "count": 24,
+    "readOnly": true
+  },
+  "topics": [
+    {
+      "id": "reczz28HJJL2A77K",
+      "order": 1,
+      "name": "忧郁",
+      "english": "Melancholy",
+      "definition": "忧郁，是生活还在继续，而有一部分自己停在了原地。",
+      "credit": "Vilhelm Hammershøi《Interior, Strandgade 30》",
+      "cover": "assets/covers/01.jpeg",
+      "originalFilename": "忧郁.jpeg",
+      "bytes": 991864,
+      "sha256": "f59a908c23d0b40924faa94c9fbd773b2960424b9ea4d62b1f148208e0846237",
+      "dimensions": [
+        4096,
+        3726
+      ]
+    },
+    {
+      "id": "reczz28HJJL2A7BH",
+      "order": 2,
+      "name": "爱欲",
+      "english": "Eros",
+      "definition": "爱欲从缺口里生长：你想要的还没得到，因此一直向它靠近。",
+      "credit": "约翰内斯·维米尔《窗前读信的少女》（约 1657–1659，德累斯顿历代大师画廊）· 公有领域 · 图源 Wikimedia Commons",
+      "cover": "assets/covers/02.jpg",
+      "originalFilename": "窗前读信的少女_维米尔_公有领域.jpg",
+      "bytes": 705450,
+      "sha256": "1d8dec69bb04c67b30663f808cdca88727efb36bdfc9fcbe00269132b783c568",
+      "dimensions": [
+        1280,
+        1652
+      ]
+    },
+    {
+      "id": "reczz28HJJL2A7E0",
+      "order": 3,
+      "name": "田园",
+      "english": "Arcadia",
+      "definition": "田园给疲惫的人一处可想象的栖身之地，也让人暂时放慢脚步。",
+      "credit": "文森特·凡·高《麦田里的收割者》（1889，阿姆斯特丹凡·高博物馆）· 公有领域 · 图源 Wikimedia Commons",
+      "cover": "assets/covers/03.jpg",
+      "originalFilename": "麦田里的收割者_凡高_公有领域.jpg",
+      "bytes": 528509,
+      "sha256": "8c9bff8a4fbdfe8b534faf84bafa6063760b271709b0ce5c1d7b81a3cc5a739e",
+      "dimensions": [
+        1280,
+        1012
+      ]
+    },
+    {
+      "id": "reczz28HJJL2A7HL",
+      "order": 4,
+      "name": "幽玄",
+      "english": "Yūgen",
+      "definition": "幽玄把可见的部分留在眼前，让更深的一层停在难以说尽的地方。",
+      "credit": "上村松园《序之舞》（1936，东京艺术大学大学美术馆）· 公有领域 · 图源 Wikimedia Commons",
+      "cover": "assets/covers/04.jpg",
+      "originalFilename": "序之舞_上村松园_公有领域.jpg",
+      "bytes": 388018,
+      "sha256": "9fdc48c08d00ff20de9ad7a032d40fcd1e0b0ead501df75d0d4f8983f7f75744",
+      "dimensions": [
+        1280,
+        2110
+      ]
+    },
+    {
+      "id": "reczz28HJJL2A7Kq",
+      "order": 5,
+      "name": "酒神",
+      "english": "Dionysian",
+      "definition": "酒神让个人的边界暂时松开，情绪随着节奏涌进人群。",
+      "credit": "提香《酒神与阿里阿德涅》（1520–1523，伦敦国家美术馆）· 公有领域 · 图源 Wikimedia Commons",
+      "cover": "assets/covers/05.jpg",
+      "originalFilename": "酒神与阿里阿德涅_提香_公有领域.jpg",
+      "bytes": 429143,
+      "sha256": "77c30b1ea94167704ebd7a9930b8dcae9eccedd97efb4400a08d53dd3d420cd7",
+      "dimensions": [
+        1280,
+        1158
+      ]
+    },
+    {
+      "id": "reczz28HJJL2A7Oz",
+      "order": 6,
+      "name": "留白",
+      "english": "Liubai",
+      "definition": "留白不是空着省事，而是把必要的线索放好，再让观众走进未画出的部分。",
+      "credit": "马远《寒江独钓图》（南宋，东京国立博物馆）· 公有领域 · 图源 Wikimedia Commons",
+      "cover": "assets/covers/06.jpg",
+      "originalFilename": "寒江独钓图_马远_公有领域.jpg",
+      "bytes": 166956,
+      "sha256": "b14947e3b619853c9e40c3d358f511c593e549b11ce45ff86d11ac997d64d6cc",
+      "dimensions": [
+        1280,
+        685
+      ]
+    },
+    {
+      "id": "reczz28HJJL2A7Rf",
+      "order": 7,
+      "name": "平淡",
+      "english": "Pingdan",
+      "definition": "平淡把复杂经历收在很轻的表达里；情绪没有消失，只是不急着外露。",
+      "credit": "维尔海姆·哈默修伊《斯特兰德街的室内，地板上的阳光》（1901，丹麦国立美术馆）· 公有领域 · 图源 Wikimedia Commons",
+      "cover": "assets/covers/07.jpg",
+      "originalFilename": "地板上的阳光_哈默修伊_公有领域.jpg",
+      "bytes": 424467,
+      "sha256": "2d7f67dc234ca2f3b6a9d876792439cdb665434fde9beab8d981ae258d98cc9d",
+      "dimensions": [
+        1280,
+        1122
+      ]
+    },
+    {
+      "id": "reczz28HJJL2A7W7",
+      "order": 8,
+      "name": "物哀",
+      "english": "Mono no aware",
+      "definition": "物哀是心被眼前的事物轻轻碰到，也知道这一刻不会永远停着。",
+      "credit": "亨利·霍利迪《但丁与贝雅特丽齐》（1883，利物浦沃克美术馆）· 公有领域 · 图源 Wikimedia Commons",
+      "cover": "assets/covers/08.jpg",
+      "originalFilename": "但丁与贝雅特丽齐_霍利迪_公有领域.jpg",
+      "bytes": 385142,
+      "sha256": "ed9646e511536d5398e4082b25dd7d52766ddc2c70cf462b10e1edef4f286cd9",
+      "dimensions": [
+        1280,
+        886
+      ]
+    },
+    {
+      "id": "reczz28HJJL2A7Z3",
+      "order": 9,
+      "name": "日常",
+      "english": "Infra-ordinary",
+      "definition": "日常由那些天天发生、因太熟悉而常被略过的动作组成。",
+      "credit": "费利克斯·瓦洛东《晚餐，灯光效果》（1899，巴黎奥赛博物馆）· 公有领域 · 图源 Wikimedia Commons",
+      "cover": "assets/covers/09.jpg",
+      "originalFilename": "晚餐灯光效果_瓦洛东_公有领域.jpg",
+      "bytes": 199276,
+      "sha256": "fef0f4f230c4fb3113555e56ec2260dae969fc0503ba4a3f99c4c1501ad8d6f5",
+      "dimensions": [
+        850,
+        542
+      ]
+    },
+    {
+      "id": "reczz28HJJL2A7cu",
+      "order": 10,
+      "name": "侘寂",
+      "english": "Wabi-sabi",
+      "definition": "侘寂在简朴、老去和缺口里看见被使用过的时间。",
+      "credit": "威廉·克拉斯·赫达《肉馅饼宴席静物》（1635，华盛顿国家美术馆）· CC0 · 图源 Wikimedia Commons",
+      "cover": "assets/covers/10.jpg",
+      "originalFilename": "肉馅饼宴席静物_赫达_CC0.jpg",
+      "bytes": 428476,
+      "sha256": "01ee22d1b1129de54ff7874dd04f01df4927bce364a3704bc9f8be71e790bb6d",
+      "dimensions": [
+        1280,
+        1236
+      ]
+    },
+    {
+      "id": "reczz28HJJL2A7fd",
+      "order": 11,
+      "name": "气韵",
+      "english": "Qiyun",
+      "definition": "气韵是作品内部那股仍在活动的生命感，静止的形也像在呼吸。",
+      "credit": "梁楷《泼墨仙人图》（南宋，台北故宫博物院）· 公有领域 · 图源 Wikimedia Commons",
+      "cover": "assets/covers/11.jpg",
+      "originalFilename": "泼墨仙人图_梁楷_公有领域.jpg",
+      "bytes": 1324037,
+      "sha256": "0790f3b3b634e58df8ec5c98868664c7a946d6caef2c88a69a714222c8897cdc",
+      "dimensions": [
+        916,
+        1500
+      ]
+    },
+    {
+      "id": "reczz28HJJL2A7jB",
+      "order": 12,
+      "name": "侠",
+      "english": "Xia",
+      "definition": "侠站在现成规矩之外，仍认真守住自己认下的责任。",
+      "credit": "孙位《高逸图》局部（唐，上海博物馆）· 公有领域 · 图源 Wikimedia Commons",
+      "cover": "assets/covers/12.jpg",
+      "originalFilename": "高逸图_孙位_公有领域.jpg",
+      "bytes": 191782,
+      "sha256": "95184b81594fb133406d6587d9307a4042c238f3f5e7b99fc46f05931b813faf",
+      "dimensions": [
+        1600,
+        424
+      ]
+    },
+    {
+      "id": "reczz28HJJL2A7mr",
+      "order": 13,
+      "name": "轻逸",
+      "english": "Lightness",
+      "definition": "轻逸让重量松开一点，使人感到物体正在向上或向外获得自由。",
+      "credit": "威廉·透纳《蓝色的里吉山》（1842，伦敦泰特美术馆）· 公有领域 · 图源 Wikimedia Commons",
+      "cover": "assets/covers/13.jpg",
+      "originalFilename": "蓝色的里吉山_透纳_公有领域.jpg",
+      "bytes": 241854,
+      "sha256": "7600b7745565f3328a91b920ee7430b699f8fd69ae9eb8a399a5771d9b9617eb",
+      "dimensions": [
+        1280,
+        867
+      ]
+    },
+    {
+      "id": "reczz28HJJL2A7qg",
+      "order": 14,
+      "name": "崇高",
+      "english": "Sublime",
+      "definition": "崇高让人安全地面对远大于自身的力量，于是害怕也变得令人想看。",
+      "credit": "弗雷德里克·埃德温·丘奇《北极光》（1865，史密森尼美国艺术博物馆）· 公有领域 · 图源 Wikimedia Commons",
+      "cover": "assets/covers/14.jpg",
+      "originalFilename": "北极光_丘奇_公有领域.jpg",
+      "bytes": 192208,
+      "sha256": "b298993b93b6fc9dbed276a90667fff5bfecc0dcfbb2f567b3863a7186c2e738",
+      "dimensions": [
+        1280,
+        861
+      ]
+    },
+    {
+      "id": "reczz28HJJL2A7th",
+      "order": 15,
+      "name": "从容",
+      "english": "Sprezzatura",
+      "definition": "从容是功夫已经在身上，动作却不必每一步都展示用力。",
+      "credit": "皮埃尔-奥古斯特·雷诺阿《船上的午宴》（1880–1881，华盛顿菲利普斯收藏馆）· 公有领域 · 图源 Wikimedia Commons",
+      "cover": "assets/covers/15.jpg",
+      "originalFilename": "船上的午宴_雷诺阿_公有领域.jpg",
+      "bytes": 380946,
+      "sha256": "051adde60001aa128acd633e95b97a2086822461ec552de7c8b921928336720c",
+      "dimensions": [
+        1280,
+        948
+      ]
+    },
+    {
+      "id": "reczz28HJJL2A7x1",
+      "order": 16,
+      "name": "酷",
+      "english": "Cool",
+      "definition": "酷让外在的热度与内在的定力同时存在；动作再放开，心也稳得住。",
+      "credit": "长泽芦雪《虎图》局部（1786–1787，和歌山县串本町无量寺）· 公有领域 · 图源 Wikimedia Commons",
+      "cover": "assets/covers/16.jpg",
+      "originalFilename": "虎图_局部_长泽芦雪_公有领域.jpg",
+      "bytes": 438479,
+      "sha256": "9d99d277dce502b7cc82d80e5a5ea0015e3024830a361c5a7bfc7308592edbaa",
+      "dimensions": [
+        1600,
+        839
+      ]
+    },
+    {
+      "id": "reczz28HJJL2A80l",
+      "order": 17,
+      "name": "怪诞",
+      "english": "Grotesque",
+      "definition": "怪诞把崇高与低俗、好笑与不适拉到同一张桌上。",
+      "credit": "传老彼得·勃鲁盖尔《伊卡洛斯坠落的风景》（比利时皇家美术馆）· 公有领域 · 图源 Wikimedia Commons",
+      "cover": "assets/covers/17.jpg",
+      "originalFilename": "伊卡洛斯坠落的风景_传勃鲁盖尔_公有领域.jpg",
+      "bytes": 358098,
+      "sha256": "06ae1e2f737fa3f5f84b18cee2da34edf186f9a2df6a6dd7757d4a51357dd859",
+      "dimensions": [
+        1280,
+        835
+      ]
+    },
+    {
+      "id": "reczz28HJJL2A84Y",
+      "order": 18,
+      "name": "阴翳",
+      "english": "In Praise of Shadows",
+      "definition": "阴翳让光只照到一部分，使暗处也能参与观看。",
+      "credit": "乔治·德·拉图尔《木匠圣约瑟》局部（约 1642–1644，巴黎卢浮宫）· 公有领域 · 图源 Wikimedia Commons",
+      "cover": "assets/covers/18.jpg",
+      "originalFilename": "jos_candle.jpg",
+      "bytes": 86220,
+      "sha256": "c1cbf4858f0f3e6cd825e41dab94845bd778efe367d079e1a1136f1f5797a36f",
+      "dimensions": [
+        800,
+        1006
+      ]
+    },
+    {
+      "id": "reczz28HJJL2A87F",
+      "order": 19,
+      "name": "悲剧",
+      "english": "Tragic",
+      "definition": "悲剧让人的选择撞上无法轻易避开的后果；心疼之外，还有对自身的害怕。",
+      "credit": "约翰·埃弗里特·米莱《盲女》（1856，伯明翰博物馆与美术馆）· 公有领域 · 图源 Wikimedia Commons",
+      "cover": "assets/covers/19.jpg",
+      "originalFilename": "盲女_米莱_公有领域.jpg",
+      "bytes": 935485,
+      "sha256": "6dfe40464324a8320f4951ba3c6f1e04bea36d57b7b81a48360b7fd86ca259d6",
+      "dimensions": [
+        1280,
+        1893
+      ]
+    },
+    {
+      "id": "reczz28HJJL2A8AY",
+      "order": 20,
+      "name": "废墟",
+      "english": "Ruin",
+      "definition": "废墟是人造的秩序退去以后，时间与自然继续使用那块地方。",
+      "credit": "托马斯·科尔《帝国的进程：荒芜》（1836，纽约历史学会）· 公有领域 · 图源 Wikimedia Commons",
+      "cover": "assets/covers/20.jpg",
+      "originalFilename": "帝国的进程荒芜_科尔_公有领域.jpg",
+      "bytes": 233827,
+      "sha256": "8f00e92550ebe7862921a90066eb8b858469de81c6181228d3fa398e145d21bd",
+      "dimensions": [
+        1280,
+        796
+      ]
+    },
+    {
+      "id": "reczz28HJJL2A8DF",
+      "order": 21,
+      "name": "未来想象",
+      "english": "Future Imaginaries",
+      "definition": "坎普明知自己在表演，偏把装饰和夸张认真做到尽兴。",
+      "credit": "奥布里·比亚兹莱《孔雀裙》（1893，王尔德《莎乐美》插图）· CC0 · 图源 Wikimedia Commons",
+      "cover": "assets/covers/21.jpg",
+      "originalFilename": "孔雀裙_比亚兹莱_CC0.jpg",
+      "bytes": 516368,
+      "sha256": "3b40a973174e47ec11901d387ea5a09d22ded16c89c5578b051cf406f975294c",
+      "dimensions": [
+        1280,
+        1622
+      ]
+    },
+    {
+      "id": "reczz28HJJL2A73I",
+      "order": 22,
+      "name": "乡愁",
+      "english": "Nostalgia",
+      "definition": "乡愁想回到一个地方：它可能已经不在，也可能只在想象里存在过。",
+      "credit": "老彼得·勃鲁盖尔《儿童游戏》（1560，维也纳艺术史博物馆）· 公有领域 · 图源 Wikimedia Commons",
+      "cover": "assets/covers/22.jpg",
+      "originalFilename": "儿童游戏_勃鲁盖尔_公有领域.jpg",
+      "bytes": 368714,
+      "sha256": "9324bf514754efad4ea81695f8a900b3e1bb76b603bbe370b89473588cec9812",
+      "dimensions": [
+        1280,
+        923
+      ]
+    },
+    {
+      "id": "reczz28HJJL2A6l4",
+      "order": 23,
+      "name": "诡异",
+      "english": "Uncanny",
+      "definition": "诡异从熟悉的东西里冒出来：一切都像平常，只差了一点点。",
+      "credit": "亨利·菲斯利《梦魇》（1781，底特律美术馆）· 公有领域 · 图源 Wikimedia Commons",
+      "cover": "assets/covers/23.jpg",
+      "originalFilename": "梦魇_菲斯利_公有领域.jpg",
+      "bytes": 370003,
+      "sha256": "0f1fa9e2568e95ed24d08d5bf0df746b6fb16054b19e51888805bfbfcd3e63e8",
+      "dimensions": [
+        1280,
+        1037
+      ]
+    },
+    {
+      "id": "reczz28HJJL2A6zi",
+      "order": 24,
+      "name": "可爱",
+      "english": "Cute",
+      "definition": "可爱让你想保护一个小东西，也可能让你忍不住想轻轻捏它。",
+      "credit": "让-奥诺雷·弗拉戈纳尔《秋千》（1767，伦敦华莱士收藏馆）· 公有领域 · 图源 Wikimedia Commons",
+      "cover": "assets/covers/24.jpg",
+      "originalFilename": "秋千_弗拉戈纳尔_公有领域.jpg",
+      "bytes": 866794,
+      "sha256": "65fafbb80af0a05c70ea6aca309e48daa1a6618e0b1744234ad6c21f3721d959",
+      "dimensions": [
+        1280,
+        1636
+      ]
+    }
+  ]
+}

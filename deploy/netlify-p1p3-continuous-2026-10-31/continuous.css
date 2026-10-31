@@ -1,0 +1,8 @@
+/* P1→P2→P3 single page. Overrides only; inherited files unchanged in source dirs. */
+.chain #baseline{display:block;position:relative;background:#14191e}
+.baseline-pin{background:#f9f6ef}
+#mstack{display:none;position:absolute;left:0;top:0;will-change:transform}
+#mstack img{display:block;width:100%;height:auto}
+#mstack #mstar{position:absolute;width:90px;height:90px}
+body[data-base="m"] #mstack{display:block}body[data-base="m"] #v4{display:none}
+.chain #journey{margin-top:-100vh}

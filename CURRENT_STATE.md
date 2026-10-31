@@ -362,3 +362,8 @@ $L base +record-download-attachment --as user --base-token $B --table-id tblaYsG
 - 生产地址 <https://subtle-peony-38e354.netlify.app/>，deploy id `6ae542744bd98bc1a9a1b769`，2026-10-31 09:2x UTC+8，netlify-cli（xianzhi10969@gmail.com）。
 - 发布内容副本与说明（重新部署、回滚）：`deploy/netlify-p1p3-2026-10-31/README.md`；旧站文件备份：`deploy/netlify-backup-2026-10-31/`。
 - 已知：P1→P3 分两段不能连续翻；p2-p3 内 cut-paper-v1 review 链接 404；过渡不丝滑留 GPT；真机未测。
+
+## 2026-10-31｜Netlify 改为 P1→P2→P3 单页连续（取代上午分两段版）
+
+- 夕里纠正：不应分两段。新组合 [web-prototypes/p1-p3-continuous-2026-10-31](web-prototypes/p1-p3-continuous-2026-10-31/README.md)：v4 原样 iframe 滚动同步（water-iris v2 chain 规则）→ unified-v3 纸页升起+星星接续+24刻度。手机用 m_p1/m_p2 @2x 原图。
+- 已部署 <https://subtle-peony-38e354.netlify.app/>（deploy 6ae5446129bafb53d5d08871），副本 `deploy/netlify-p1p3-continuous-2026-10-31/`。双端 playwright 无断档/404/报错；真机未测，待审。
