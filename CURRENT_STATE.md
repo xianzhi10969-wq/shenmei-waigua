@@ -356,3 +356,9 @@ $L base +record-download-attachment --as user --base-token $B --table-id tblaYsG
 - 用户要求调用构图/版式/配色资源研究P4，摆脱旧P4形式；补充必须同一美术世界，并兼容点击星星直达全站的用户。
 - [研究、来源与双端SVG结构稿](视觉研究/2026-10-26-P4衔接与星星双路径研究/README.md)：推荐窗下展开图谱；探索与星星直达共用内容状态。保留Le Pater五等权徽章＋真实页面预览，建议专题页有24章文字目录，星星移出视野时由页边入口承接（位置未定）。
 - 当轮读取Editorial Skill、上游三章节、构图/色彩/分镜归档及产品总控；只读查看Figma434:2。所有新交互与P4构图待审，未实现生产动效、未生成美术、未修改原型/Figma/飞书或原基线。
+
+## 2026-10-31｜P1–P3 demo 已部署到 Netlify
+
+- 生产地址 <https://subtle-peony-38e354.netlify.app/>，deploy id `6ae542744bd98bc1a9a1b769`，2026-10-31 09:2x UTC+8，netlify-cli（xianzhi10969@gmail.com）。
+- 发布内容副本与说明（重新部署、回滚）：`deploy/netlify-p1p3-2026-10-31/README.md`；旧站文件备份：`deploy/netlify-backup-2026-10-31/`。
+- 已知：P1→P3 分两段不能连续翻；p2-p3 内 cut-paper-v1 review 链接 404；过渡不丝滑留 GPT；真机未测。
