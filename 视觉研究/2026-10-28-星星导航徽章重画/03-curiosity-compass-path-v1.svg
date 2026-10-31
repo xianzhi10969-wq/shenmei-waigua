@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="408" height="408" viewBox="0 0 480 480">
+<rect width="480" height="480" fill="white"/>
+<g fill="white" stroke="#171717" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round">
+<g id="compass-ring">
+<circle cx="250" cy="203" r="141"/>
+<circle cx="250" cy="203" r="128" stroke-width="1.8"/>
+<path d="M237 62 Q229 44 243 34 Q258 24 270 40 Q279 54 264 63" />
+<path d="M243 61 Q239 50 247 44 Q255 39 261 46 Q267 54 258 61" stroke-width="1.8"/>
+</g>
+<g id="direction-marks" fill="none" stroke-width="2.3">
+<path d="M250 89 V107 M250 299 V317 M136 203 H154 M346 203 H364"/>
+<path d="M170 123 L180 133 M330 123 L320 133 M170 283 L180 273 M330 283 L320 273"/>
+<path d="M208 99 L212 109 M292 99 L288 109 M146 161 L156 165 M354 161 L344 165 M146 245 L156 241 M354 245 L344 241"/>
+</g>
+<g id="compass-rose" transform="rotate(31 250 203)">
+<path d="M250 94 L273 182 L250 203 L227 182 Z"/>
+<path d="M250 312 L227 224 L250 203 L273 224 Z"/>
+<path d="M180 203 L232 190 L250 203 L232 216 Z"/>
+<path d="M320 203 L268 216 L250 203 L268 190 Z"/>
+<path d="M250 94 V190 M250 216 V312 M180 203 H235 M265 203 H320" stroke-width="1.6"/>
+<path d="M250 94 L273 182 L250 203 Z" fill="#171717"/>
+<circle cx="250" cy="203" r="10"/>
+<circle cx="250" cy="203" r="3" fill="#171717" stroke="none"/>
+</g>
+<g id="wandering-path">
+<path d="M108 284 C81 277 67 300 79 320 C103 360 209 335 290 305 C353 282 396 275 411 295 C429 320 404 345 361 358 C296 378 248 372 220 392 C195 410 204 432 232 435 C192 453 147 435 154 405 C161 370 234 361 301 342 C338 332 360 320 351 315 C338 307 296 323 267 335 C179 371 88 384 57 343 C33 310 60 271 108 284 Z"/>
+<path d="M76 295 C50 325 88 357 144 355 C204 354 252 330 298 314 C343 298 381 293 390 309 C400 331 348 350 298 361 C240 373 182 381 178 407 C176 421 194 432 216 433" fill="none" stroke-width="1.8"/>
+</g>
+<g id="unexplored-spark" stroke-width="2.2">
+<path d="M414 104 Q412 119 402 122 Q414 125 416 138 Q419 124 430 120 Q417 119 414 104 Z"/>
+</g>
+</g></svg>

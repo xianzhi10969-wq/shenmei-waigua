@@ -1,5 +1,10 @@
 # 审美外挂｜整站设计总控（跨 AI 协作入口）
 
+## 2026-10-31｜第二枚三窗完成图已采用；第三枚好奇心漫游结构待审
+
+用户提供并认可三窗完成图，已原样保存至仓库与 [Figma738:16](https://www.figma.com/design/pIL4mlWLHxph3pqXlIVq1s?node-id=738-16)。第一枚镜与水继续采用；第三枚新增“偏轴罗盘＋回旋小径”黑线白底可编辑 SVG，仅结构待审。[素材与接续证据](视觉研究/2026-10-28-星星导航徽章重画/02-03-HANDOFF.md)。此条覆盖旧文档第二枚书页/三窗待审状态；不扩大为整套导航验收。未改首页、飞书或部署。
+
+
 ## 2026-10-31｜部署历史纠正：完整站先发布于 Netlify（必读）
 
 - **已确认的历史事实**：审美外挂早期完整前端工程为 `aesthetic-site`，**先部署到 Netlify**，并非只有 2026-10-20 的 P3/P4 ChatGPT Sites 动效预览。Netlify 历史后台记录显示 `subtle-peony-38e354` 通过 **Netlify Drop（手动上传）** 发布，显示时间为 **2026-10-14 11:16（后台显示时区）**。站点地址：<https://subtle-peony-38e354.netlify.app/>；[Netlify 部署记录](https://app.netlify.com/projects/subtle-peony-38e354/deploys)。
