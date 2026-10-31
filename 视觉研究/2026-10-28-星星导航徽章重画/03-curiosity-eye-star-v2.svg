@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="480" viewBox="0 0 480 480">
+<rect width="480" height="480" fill="#fff"/>
+<defs><clipPath id="eye-opening"><path d="M44 267 C112 208 166 188 225 201 C278 212 316 240 352 252 C306 269 275 300 219 311 C151 325 91 302 44 267 Z"/></clipPath></defs>
+<g fill="none" stroke="#171717" stroke-linecap="round" stroke-linejoin="round">
+<g id="eyelid-fold" stroke-width="2.2">
+<path d="M66 236 C125 181 180 166 233 182 C270 193 292 210 309 223"/>
+</g>
+<g id="iris" clip-path="url(#eye-opening)">
+<circle cx="252" cy="248" r="59" fill="white" stroke-width="3.2"/>
+<circle cx="252" cy="248" r="49" stroke-width="1.5"/>
+<path d="M252 201 V212 M274 206 L269 217 M292 221 L282 228 M299 244 L288 245 M296 266 L285 261 M280 285 L274 275 M259 295 L258 284 M236 294 L240 283 M216 281 L225 273 M205 261 L217 258 M205 238 L216 240 M215 218 L224 227 M233 205 L237 216" stroke-width="1.7"/>
+<circle cx="261" cy="239" r="24" fill="#171717" stroke="none"/>
+<circle cx="269" cy="230" r="6" fill="#fff" stroke="none"/>
+</g>
+<g id="eye-contour">
+<path d="M44 267 C112 208 166 188 225 201 C278 212 316 240 352 252" stroke-width="5"/>
+<path d="M44 267 C91 302 151 325 219 311 C275 300 306 269 352 252" stroke-width="3.2"/>
+<path d="M44 267 Q63 262 73 278" stroke-width="2"/>
+<path d="M95 317 C136 338 177 343 211 335" stroke-width="1.8"/>
+</g>
+<g id="distant-star">
+<path d="M388 137 C391 157 398 165 418 169 C398 173 391 182 388 202 C384 182 378 174 358 169 C378 165 384 157 388 137 Z" stroke-width="3.2" fill="white"/>
+<path d="M388 150 V188 M373 169 H403" stroke-width="1.2"/>
+<path d="M385 118 V107 M430 169 H441" stroke-width="1.8"/>
+</g>
+</g></svg>
