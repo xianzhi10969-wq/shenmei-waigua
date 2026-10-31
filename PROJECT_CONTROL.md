@@ -1,5 +1,14 @@
 # 审美外挂｜整站设计总控（跨 AI 协作入口）
 
+## 2026-10-31｜部署历史纠正：完整站先发布于 Netlify（必读）
+
+- **已确认的历史事实**：审美外挂早期完整前端工程为 `aesthetic-site`，**先部署到 Netlify**，并非只有 2026-10-20 的 P3/P4 ChatGPT Sites 动效预览。Netlify 历史后台记录显示 `subtle-peony-38e354` 通过 **Netlify Drop（手动上传）** 发布，显示时间为 **2026-10-14 11:16（后台显示时区）**。站点地址：<https://subtle-peony-38e354.netlify.app/>；[Netlify 部署记录](https://app.netlify.com/projects/subtle-peony-38e354/deploys)。
+- **完整源码并未消失**：2026-10-15 已备份到本仓库的 **`codex/backup-accepted-term-v2-2026-10-15` 分支**，GitHub 提交 [`b95caf9`](https://github.com/xianzhi10969-wq/shenmei-waigua/commit/b95caf91555549ddbd9ef58bccf3625fa8f76102)，目录 [`aesthetic-site/`](https://github.com/xianzhi10969-wq/shenmei-waigua/tree/b95caf91555549ddbd9ef58bccf3625fa8f76102/aesthetic-site)。保留 `dist/index.html`、`dist/app.js`、`dist/style.css`、`dist/data.json`、图片、飞书同步脚本和 `.openai/hosting.json` 等，属于 **V2 历史检查点**，不是当前视觉方案的正式上线版本。
+- **两个线上入口不得混淆**：<https://aura-p34-motion-study-20261020.xianzhi10969.chatgpt.site/> 是后来（10/20）发布的 **P3/P4 动效研究预览**，不是最早 Netlify 完整站，也不证明完整站不存在。10/21 的 v9 恢复记录仅适用于该 P3/P4 Sites 原型。
+- **查证与现状边界**：已核对历史 Netlify 后台记录和 GitHub 备份；**未在本次确认 Netlify 当前是否可公开访问、目前线上具体版本，亦未执行重新部署**。历史曾报告私有访问/401，不能无条件说「现在公开可访问」。
+- **跨 AI 检索规则**：如要找「之前做过/部署过的网页」，必须 **同时检查 master、历史分支的 `aesthetic-site/`、Netlify 后台部署记录和 Sites 原型**。只看 master 没有部署配置或发布分支，就断言「从未部署过完整网站」，是错误的；Netlify Drop 不依赖 GitHub Actions/发布分支。后续编辑/发布仍需用户单独授权，不覆盖受保护的 P1→P2 v4、P3→P4 v9 或其他验收基线。
+
+
 ## 2026-10-31｜星星导航：镜与水 B 美术获认可，第二枚书页构图待审
 
 - 用户反馈“好看的 放上Figma 然后继续画下一个构图草稿”；第一枚镜与水 B 原图已保存在 [Figma633:16](https://www.figma.com/design/pIL4mlWLHxph3pqXlIVq1s?node-id=633-16)，覆盖下方旧“第一枚未认可”的状态。
