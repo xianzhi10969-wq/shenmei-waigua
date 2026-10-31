@@ -1,5 +1,8 @@
 # 审美外挂｜项目总入口（更新至 2026-10-24）
 
+> **2026-10-31｜Netlify 首发记录（纠正“从未部署”误判）**：早期完整站 `aesthetic-site` **先通过 Netlify Drop 发布**，历史后台显示 **2026-10-14 11:16**；站点 [subtle-peony-38e354.netlify.app](https://subtle-peony-38e354.netlify.app/)，[后台部署记录](https://app.netlify.com/projects/subtle-peony-38e354/deploys)。完整 V2 源码留在历史分支 `codex/backup-accepted-term-v2-2026-10-15` 的 [`aesthetic-site/`（提交 b95caf9）](https://github.com/xianzhi10969-wq/shenmei-waigua/tree/b95caf91555549ddbd9ef58bccf3625fa8f76102/aesthetic-site)，**不在 master 根目录**。10/20 的 [P3/P4 Sites 动效预览](https://aura-p34-motion-study-20261020.xianzhi10969.chatgpt.site/) 是另一套原型，不能代替早期完整站。Netlify 当前可用性/当前线上版本尚未复核；Netlify Drop 不需要 GitHub 部署分支。详细出处与跨 AI 查找规则见 [整站总控·部署历史纠正](PROJECT_CONTROL.md#2026-10-31部署历史纠正完整站先发布于-netlify必读)。
+
+
 > **2026-10-25｜当前最新 P3**：用户明确要求采用「星星接续 v1」。以 [当前 P3 入口](CURRENT_P3.md) 为准；此前 P3 候选/待审记录保留作历史。Web 已实现可预览，用户尚未单独审阅桌面效果；不将本次指定版本扩大为双端全部细节验收。刻度版与并行排印版未合并，Figma/生产站未在本轮更新。
 
 
@@ -51,4 +54,4 @@
 - [旧 V7/G17 资源](视觉研究/2026-10-18-P1-V7-干净回滚基线与资源清单.md) · [旧 CURRENT_STATE 长时间线](归档/CURRENT_STATE-2026-10-18-更新前完整时间线.md)
 - [旧产品方向](产品决策/) · [历史执行任务](执行任务/) · [历史对标笔记](对标/)
 
-仓库 `master` 是资料和独立网页原型的合集，**不能据此声称最新 `aesthetic-site` 全量代码、Mac 本地工程、正式站点部署及飞书实时数据库均已同步**。历史文档保留以便追溯，不删除、不重写 Git 历史；新的艺术或交互实验先独立保存和验收。
+仓库 `master` 是资料和独立网页原型的合集，**不能据此声称最新 `aesthetic-site` 全量代码、Mac 本地工程、正式站点部署及飞书实时数据库均已同步**；但历史完整工程与 Netlify 发布记录已明确存在，**不能反向推断「从未做过/部署过网站」**。历史文档保留以便追溯，不删除、不重写 Git 历史；新的艺术或交互实验先独立保存和验收。
