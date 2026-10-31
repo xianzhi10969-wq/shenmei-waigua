@@ -1,5 +1,13 @@
 # 当前状态｜审美外挂 · 2026-10-24
 
+## 2026-10-31｜核实最早 Netlify 完整站与历史源码位置（仅文档更正）
+
+- 用户明确纠正：早期完整版网页**先部署在 Netlify**，不是只有 10/20 的 ChatGPT Sites P3/P4 动效预览。历史 Netlify Drop 后台记录显示 2026-10-14 11:16 发布，站点 <https://subtle-peony-38e354.netlify.app/>、[部署后台](https://app.netlify.com/projects/subtle-peony-38e354/deploys)。
+- 完整站工程 `aesthetic-site/` 位于**非 master** 的历史分支 `codex/backup-accepted-term-v2-2026-10-15`、[b95caf9 备份提交](https://github.com/xianzhi10969-wq/shenmei-waigua/commit/b95caf91555549ddbd9ef58bccf3625fa8f76102)，包含前端 `dist/`、同步脚本、运行数据及 `.openai/hosting.json`；不可用「master 无部署配置 / 发布分支」推断未部署。
+- 10/20 的 [Sites P3/P4 动效预览](https://aura-p34-motion-study-20261020.xianzhi10969.chatgpt.site/) 及 10/21 v9 恢复是**另一阶段的独立动效原型**。完整站早期发布史与当前 P1–P4 视觉验收/最新生产发布状态必须分开。
+- 本轮**只补文档**，未重新部署、未测试现在 Netlify 是否开放访问或部署内容、未合并旧 `aesthetic-site` 到 master，也未触及 Figma/飞书/原型资源。跨 AI 查证请优先阅读 [整站总控·部署历史纠正](PROJECT_CONTROL.md#2026-10-31部署历史纠正完整站先发布于-netlify必读)。
+
+
 ## 2026-10-31｜第二枚徽章：书页稿不采用，错落三窗构图待审
 
 用户指出书页稿看不出书、缺少美感，允许尝试三联窗并担心平排无聊。新增[错落三窗结构稿及证据](视觉研究/2026-10-28-星星导航徽章重画/02-WINDOWS-V2.md)，[Figma650:16](https://www.figma.com/design/pIL4mlWLHxph3pqXlIVq1s?node-id=650-16)。高低错落与前后叠合，仅SVG结构，未获美术批准；原书页保留历史，第一枚镜与水保持认可。
