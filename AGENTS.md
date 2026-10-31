@@ -1,5 +1,12 @@
 # 审美外挂｜共享协作与版本保护规则 · 2026-10-23
 
+## 2026-10-31｜历史部署与源码检索防漏（跨 AI 必读）
+
+**用户确认「完整网站先发布在 Netlify」；已查证 2026-10-14 Netlify Drop 历史发布记录。** 原完整前端项目为 `aesthetic-site`，Netlify 地址 <https://subtle-peony-38e354.netlify.app/>，管理记录 <https://app.netlify.com/projects/subtle-peony-38e354/deploys>；源码位于本仓库历史分支 `codex/backup-accepted-term-v2-2026-10-15` 的 `aesthetic-site/`（[GitHub 提交 b95caf9](https://github.com/xianzhi10969-wq/shenmei-waigua/commit/b95caf91555549ddbd9ef58bccf3625fa8f76102)），包含 `dist/`、数据与同步脚本、`.openai/hosting.json`。**当前 `master` 未纳入这套全站工程，不表示没有开发、备份或部署过**；Netlify Drop 也不需要 GitHub Actions 或部署专用分支。2026-10-20 的 `aura-p34-motion-study-20261020.xianzhi10969.chatgpt.site` 仅为后来的 P3/P4 Sites 动效预览，不是 Netlify 完整站。
+
+遇到「之前的网站在哪里 / 是否部署 / 找部署源码」问题：先查 [PROJECT_CONTROL 的证据与边界](PROJECT_CONTROL.md#2026-10-31部署历史纠正完整站先发布于-netlify必读)，再核查历史分支及 Netlify 部署记录，不要只扫描 `master`；历史发布已核实，**目前 Netlify 线上可达性、当前版本及公开权限未核实**。没有用户明确授权不可将备份直接部署或覆盖当前设计与基线。
+
+
 ## 2026-10-24｜生图与页面落地的创作记忆入口
 
 涉及灵感转译、插画生图、结构稿转完成稿、版式或页面落地时，在既定总控/状态核对后，阅读 [CREATIVE_MEMORY.md](CREATIVE_MEMORY.md) 的相关段落，并按需回查[原始失败与来源](视觉研究/2026-10-24-生图与页面落地-项目记忆审计.md)。先区分本轮交结构、美术、可编辑版式还是可操作网页；不能用错工序的产物替代。本文补充现有结构审图、Editorial Skill、数据只读和版本保护规则，不新增视觉批准或自动施工授权。历史模型归因只作有条件经验，不扩大成永久工具禁令。
