@@ -1,4 +1,23 @@
-# Netlify 发布副本 · P1→P3 连续 · 2026-10-31
+# Netlify 发布副本 · P1→P3 连续 · 含 P3 飞书只读同步
+
+## 2026-11-01｜P3 已接飞书只读同步（构建时拉取，非浏览器直连）
+
+- **deploy id**：`6ae69d2f1c78048f1c014bbe`
+
+- **线上 URL**：<https://subtle-peony-38e354.netlify.app/>
+- **site id**：`dceb69b5-e8d4-40f2-94c9-dc31d8ebd571`（账号 xianzhi10969@gmail.com）
+- **过程**：`lark-cli --as user` 只读拉「章节」表 → 写入本目录 `assets/topics.json` / `topics.js` / `covers/` → `netlify deploy --prod --no-build --dir deploy/netlify-p1p3-continuous-2026-10-31 --site dceb69b5-e8d4-40f2-94c9-dc31d8ebd571`
+- **同步命令**（仓库根）：
+  ```bash
+  python3 web-prototypes/p1-p3-continuous-2026-10-31/scripts/sync_p3_from_lark.py --mirror-deploy
+  ```
+- **只动 P3 数据文件**；`p1-p2-reveal-star-v4-2026-10-21/` 与手机 P1/P2 原图**未改**。
+- **飞书只读**：禁止 create/update/delete；无凭据进浏览器。
+- **改飞书后**：重跑同步命令 → 再 `netlify deploy --prod --no-build ...` 才会反映到线上（不是 websocket 实时）。
+- 真相源：`web-prototypes/p1-p3-continuous-2026-10-31/`；本目录是发布副本。
+
+---
+
 - 站点 dceb69b5-e8d4-40f2-94c9-dc31d8ebd571，deploy id 6ae5446129bafb53d5d08871，<https://subtle-peony-38e354.netlify.app/>（根即连续 P1）。
 - 内容 = `web-prototypes/p1-p3-continuous-2026-10-31/` 置于根（路径 ../ 改 ./）+ v4 原样目录（去掉预览 mp4）+ v3 两张手机原图。说明见该原型 README。
 - 重发：`netlify deploy --prod --no-build --dir deploy/netlify-p1p3-continuous-2026-10-31 --site dceb69b5-e8d4-40f2-94c9-dc31d8ebd571`。回滚：后台 Deploys 选上一版 6ae542744bd98bc1a9a1b769 或更早 V2。
@@ -13,4 +32,3 @@
 - **快照内发现的数据疑点（未改飞书，只记录）**：第 21 章「未来想象 Future Imaginaries」的定义写的是坎普（“坎普明知自己在表演……”），封面是比亚兹莱《孔雀裙》，疑似错位，待夕里在飞书核对。
 - **回滚**：上午分两段版 deploy `6ae542744bd98bc1a9a1b769`；10/14 旧站文件备份 `deploy/netlify-backup-2026-10-31/`。
 - **下一步（待夕里定）**：是否把飞书只读同步接进发布流程（构建时拉取 vs. 运行时经后端代理），在她确认前不改架构、不写飞书。
-

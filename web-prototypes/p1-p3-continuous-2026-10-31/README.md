@@ -14,3 +14,19 @@ playwright 本地与线上：Web 1440×900、手机 390×844 从 0 滚到末尾 
 ## 已知问题
 - 手机 P1→P2 没有 v4 那样的星落动画（手机 P1 原图星是画死的）。
 - 纸页升起不够丝滑（交接 GPT 文档仍有效）；真机未测；Web 宽于 1440 时 v4 两侧露纸色。
+
+## 飞书只读同步（P3 数据）
+真相源目录就是本目录的 `assets/`。发布副本 `deploy/netlify-p1p3-continuous-2026-10-31/` 只镜像 P3 的 `topics.*` 与 `covers/`，**P1／P2 资源与 iframe 一字节不改**。
+
+Netlify 是静态托管，浏览器**不能**直连飞书、不持有 token。所谓「接入真实数据库」= 发布前用 `lark-cli --as user` 只读拉取 → 写入静态文件 → 再部署。改飞书后必须重跑同步再部署才会更新线上。
+
+```bash
+# 需已 lark-cli auth login（user），不要用已不存在的 --profile aesthetic-feishu
+python3 web-prototypes/p1-p3-continuous-2026-10-31/scripts/sync_p3_from_lark.py --mirror-deploy
+netlify deploy --prod --no-build --dir deploy/netlify-p1p3-continuous-2026-10-31 --site dceb69b5-e8d4-40f2-94c9-dc31d8ebd571
+```
+
+- Base `IGctbcuwPaE6hMsmAoicJddpn3U`／章节表 `tblaYsGqDwNudnXs`
+- 输出：`assets/topics.json`、`assets/topics.js`（`window.FEISHU_TOPICS`）、`assets/covers/NN.*`
+- `source.revision` = 飞书 `+table-list` 返回的表 `rev`；`readOnly: true`
+- 可选后续：Netlify Function 运行时代理（本轮未做，不阻塞）

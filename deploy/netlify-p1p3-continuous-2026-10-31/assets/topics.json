@@ -3,11 +3,13 @@
     "base": "IGctbcuwPaE6hMsmAoicJddpn3U",
     "table": "tblaYsGqDwNudnXs",
     "tableName": "章节",
-    "profile": "aesthetic-feishu",
+    "auth": "lark-cli --as user",
     "revision": 118,
     "complete": true,
     "count": 24,
-    "readOnly": true
+    "readOnly": true,
+    "syncedAt": "2026-11-01T09:59:43+08:00",
+    "syncScript": "web-prototypes/p1-p3-continuous-2026-10-31/scripts/sync_p3_from_lark.py"
   },
   "topics": [
     {
@@ -21,6 +23,7 @@
       "originalFilename": "忧郁.jpeg",
       "bytes": 991864,
       "sha256": "f59a908c23d0b40924faa94c9fbd773b2960424b9ea4d62b1f148208e0846237",
+      "fileToken": "Xj31b0G0doPMI8x9d1pcyQcLnif",
       "dimensions": [
         4096,
         3726
@@ -37,6 +40,7 @@
       "originalFilename": "窗前读信的少女_维米尔_公有领域.jpg",
       "bytes": 705450,
       "sha256": "1d8dec69bb04c67b30663f808cdca88727efb36bdfc9fcbe00269132b783c568",
+      "fileToken": "IGNKblgyxo18Ynxrv8bcMcITnqb",
       "dimensions": [
         1280,
         1652
@@ -53,6 +57,7 @@
       "originalFilename": "麦田里的收割者_凡高_公有领域.jpg",
       "bytes": 528509,
       "sha256": "8c9bff8a4fbdfe8b534faf84bafa6063760b271709b0ce5c1d7b81a3cc5a739e",
+      "fileToken": "NS7fb5v64o17ZMx9K18cmo6Rnwg",
       "dimensions": [
         1280,
         1012
@@ -69,6 +74,7 @@
       "originalFilename": "序之舞_上村松园_公有领域.jpg",
       "bytes": 388018,
       "sha256": "9fdc48c08d00ff20de9ad7a032d40fcd1e0b0ead501df75d0d4f8983f7f75744",
+      "fileToken": "L739biBato26oZxHzGdcuY0znac",
       "dimensions": [
         1280,
         2110
@@ -85,6 +91,7 @@
       "originalFilename": "酒神与阿里阿德涅_提香_公有领域.jpg",
       "bytes": 429143,
       "sha256": "77c30b1ea94167704ebd7a9930b8dcae9eccedd97efb4400a08d53dd3d420cd7",
+      "fileToken": "OwLubkYEQoChefxmcRWcEIkQnId",
       "dimensions": [
         1280,
         1158
@@ -101,6 +108,7 @@
       "originalFilename": "寒江独钓图_马远_公有领域.jpg",
       "bytes": 166956,
       "sha256": "b14947e3b619853c9e40c3d358f511c593e549b11ce45ff86d11ac997d64d6cc",
+      "fileToken": "EFKxbtv0zoyULSx1PRmcgZX6nLe",
       "dimensions": [
         1280,
         685
@@ -117,6 +125,7 @@
       "originalFilename": "地板上的阳光_哈默修伊_公有领域.jpg",
       "bytes": 424467,
       "sha256": "2d7f67dc234ca2f3b6a9d876792439cdb665434fde9beab8d981ae258d98cc9d",
+      "fileToken": "JmZ9bRsOwoRplJxS67WcPLXTnif",
       "dimensions": [
         1280,
         1122
@@ -133,6 +142,7 @@
       "originalFilename": "但丁与贝雅特丽齐_霍利迪_公有领域.jpg",
       "bytes": 385142,
       "sha256": "ed9646e511536d5398e4082b25dd7d52766ddc2c70cf462b10e1edef4f286cd9",
+      "fileToken": "VByCbqzCLoZotJxuiQdcctttn1c",
       "dimensions": [
         1280,
         886
@@ -149,6 +159,7 @@
       "originalFilename": "晚餐灯光效果_瓦洛东_公有领域.jpg",
       "bytes": 199276,
       "sha256": "fef0f4f230c4fb3113555e56ec2260dae969fc0503ba4a3f99c4c1501ad8d6f5",
+      "fileToken": "Gr88b85ueorFuyxa4HHcsjKonOf",
       "dimensions": [
         850,
         542
@@ -165,6 +176,7 @@
       "originalFilename": "肉馅饼宴席静物_赫达_CC0.jpg",
       "bytes": 428476,
       "sha256": "01ee22d1b1129de54ff7874dd04f01df4927bce364a3704bc9f8be71e790bb6d",
+      "fileToken": "X5i9bDtdxocz3JxcDXCciODhn2d",
       "dimensions": [
         1280,
         1236
@@ -181,6 +193,7 @@
       "originalFilename": "泼墨仙人图_梁楷_公有领域.jpg",
       "bytes": 1324037,
       "sha256": "0790f3b3b634e58df8ec5c98868664c7a946d6caef2c88a69a714222c8897cdc",
+      "fileToken": "AtrFbXVnWon9UXx2wxrcilVSn7c",
       "dimensions": [
         916,
         1500
@@ -197,6 +210,7 @@
       "originalFilename": "高逸图_孙位_公有领域.jpg",
       "bytes": 191782,
       "sha256": "95184b81594fb133406d6587d9307a4042c238f3f5e7b99fc46f05931b813faf",
+      "fileToken": "CgLdblUEUoKf1exr1DocKtCwnec",
       "dimensions": [
         1600,
         424
@@ -213,6 +227,7 @@
       "originalFilename": "蓝色的里吉山_透纳_公有领域.jpg",
       "bytes": 241854,
       "sha256": "7600b7745565f3328a91b920ee7430b699f8fd69ae9eb8a399a5771d9b9617eb",
+      "fileToken": "JEMObgudQoNnFkxQLHfcD6HXnuf",
       "dimensions": [
         1280,
         867
@@ -229,6 +244,7 @@
       "originalFilename": "北极光_丘奇_公有领域.jpg",
       "bytes": 192208,
       "sha256": "b298993b93b6fc9dbed276a90667fff5bfecc0dcfbb2f567b3863a7186c2e738",
+      "fileToken": "ShFabFeAFoDlNtxCidEcpLtSnYd",
       "dimensions": [
         1280,
         861
@@ -245,6 +261,7 @@
       "originalFilename": "船上的午宴_雷诺阿_公有领域.jpg",
       "bytes": 380946,
       "sha256": "051adde60001aa128acd633e95b97a2086822461ec552de7c8b921928336720c",
+      "fileToken": "D31Sb7NZsozMdXxBVCMcMEjWnn0",
       "dimensions": [
         1280,
         948
@@ -261,6 +278,7 @@
       "originalFilename": "虎图_局部_长泽芦雪_公有领域.jpg",
       "bytes": 438479,
       "sha256": "9d99d277dce502b7cc82d80e5a5ea0015e3024830a361c5a7bfc7308592edbaa",
+      "fileToken": "FdJUb9lX2o7MCRx5evFcD8JPnfd",
       "dimensions": [
         1600,
         839
@@ -277,6 +295,7 @@
       "originalFilename": "伊卡洛斯坠落的风景_传勃鲁盖尔_公有领域.jpg",
       "bytes": 358098,
       "sha256": "06ae1e2f737fa3f5f84b18cee2da34edf186f9a2df6a6dd7757d4a51357dd859",
+      "fileToken": "EpaNbgVrQofI1WxEWxBcv5PDnYb",
       "dimensions": [
         1280,
         835
@@ -293,6 +312,7 @@
       "originalFilename": "jos_candle.jpg",
       "bytes": 86220,
       "sha256": "c1cbf4858f0f3e6cd825e41dab94845bd778efe367d079e1a1136f1f5797a36f",
+      "fileToken": "M5EMbYGako7Q4QxPgKOc4khhnUg",
       "dimensions": [
         800,
         1006
@@ -309,6 +329,7 @@
       "originalFilename": "盲女_米莱_公有领域.jpg",
       "bytes": 935485,
       "sha256": "6dfe40464324a8320f4951ba3c6f1e04bea36d57b7b81a48360b7fd86ca259d6",
+      "fileToken": "DxlQbfOUFoSZ9DxOytKcfgQSnug",
       "dimensions": [
         1280,
         1893
@@ -325,6 +346,7 @@
       "originalFilename": "帝国的进程荒芜_科尔_公有领域.jpg",
       "bytes": 233827,
       "sha256": "8f00e92550ebe7862921a90066eb8b858469de81c6181228d3fa398e145d21bd",
+      "fileToken": "N9RYbDY33oAdatxVGxDcltOGn1f",
       "dimensions": [
         1280,
         796
@@ -341,6 +363,7 @@
       "originalFilename": "孔雀裙_比亚兹莱_CC0.jpg",
       "bytes": 516368,
       "sha256": "3b40a973174e47ec11901d387ea5a09d22ded16c89c5578b051cf406f975294c",
+      "fileToken": "WOVIbgaolozlKjxPEPWck5hRnqc",
       "dimensions": [
         1280,
         1622
@@ -357,6 +380,7 @@
       "originalFilename": "儿童游戏_勃鲁盖尔_公有领域.jpg",
       "bytes": 368714,
       "sha256": "9324bf514754efad4ea81695f8a900b3e1bb76b603bbe370b89473588cec9812",
+      "fileToken": "NuWdb8nT3oGSZNxGckxcL8gGnEh",
       "dimensions": [
         1280,
         923
@@ -373,6 +397,7 @@
       "originalFilename": "梦魇_菲斯利_公有领域.jpg",
       "bytes": 370003,
       "sha256": "0f1fa9e2568e95ed24d08d5bf0df746b6fb16054b19e51888805bfbfcd3e63e8",
+      "fileToken": "Bk2JbTrXeob8ysxsSv3ccOJxnYM",
       "dimensions": [
         1280,
         1037
@@ -389,6 +414,7 @@
       "originalFilename": "秋千_弗拉戈纳尔_公有领域.jpg",
       "bytes": 866794,
       "sha256": "65fafbb80af0a05c70ea6aca309e48daa1a6618e0b1744234ad6c21f3721d959",
+      "fileToken": "JUoObde96opT0KxSfWScZ0zqngb",
       "dimensions": [
         1280,
         1636

@@ -1,5 +1,21 @@
 # 当前状态｜审美外挂 · 2026-10-24
 
+
+## 2026-11-01｜P3 已接飞书只读同步并重新部署（P1P2 未动）
+
+- **线上 URL**：<https://subtle-peony-38e354.netlify.app/>
+- **site id**：`dceb69b5-e8d4-40f2-94c9-dc31d8ebd571`（netlify-cli，账号 xianzhi10969@gmail.com）
+- **deploy id**：`6ae69d2f1c78048f1c014bbe`（本轮 `netlify deploy --prod --no-build`）
+- **方法／过程**：
+  1. 只读同步脚本：[`web-prototypes/p1-p3-continuous-2026-10-31/scripts/sync_p3_from_lark.py`](web-prototypes/p1-p3-continuous-2026-10-31/scripts/sync_p3_from_lark.py)
+  2. 命令（仓库根）：`python3 web-prototypes/p1-p3-continuous-2026-10-31/scripts/sync_p3_from_lark.py --mirror-deploy`
+  3. 再用：`netlify deploy --prod --no-build --dir deploy/netlify-p1p3-continuous-2026-10-31 --site dceb69b5-e8d4-40f2-94c9-dc31d8ebd571`
+- **飞书**：Base `IGctbcuwPaE6hMsmAoicJddpn3U`／章节表 `tblaYsGqDwNudnXs`，本轮 **rev 118**，24 条；`lark-cli --as user` 只读（`+table-list` / `+record-list` / `+record-download-attachment`），**无任何写入**。不用已不存在的 `--profile aesthetic-feishu`。
+- **相对旧快照**：章节名／英文／一句定义／封面图注／封面 SHA **无内容变化**（仍为 rev118）；`topics.*` 改由本脚本生成，`source` 标明 `auth`／`syncScript`／`revision`／`readOnly`。
+- **范围**：**只动 P3** 的 `assets/topics.json`、`topics.js`、`covers/`（及脚本／文档）；**P1、P2 一字节未改**（v4 iframe 与手机原图目录未动）。
+- **限制（必读）**：仍是静态托管产物，**不是浏览器直连飞书／websocket 实时**。飞书改内容后必须 **重跑同步 → 再部署** 才会上线。可选 Netlify Function 运行时代理未做。
+- 真相源：`web-prototypes/p1-p3-continuous-2026-10-31/`；发布副本：`deploy/netlify-p1p3-continuous-2026-10-31/`。
+
 ## 2026-11-01｜飞书「章节」表只读核验（与线上快照一致）
 
 - 重新 `lark-cli auth login`（用户授权，只读拉取）。Base `IGctbcuwPaE6hMsmAoicJddpn3U` 表 `tblaYsGqDwNudnXs`（章节），**rev 仍为 118**，24 条，`has_more=false`。
