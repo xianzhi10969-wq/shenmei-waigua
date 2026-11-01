@@ -1,3 +1,14 @@
+# Netlify 发布副本｜P1→P3 continuous
+
+## 2026-11-01 加速 + 首屏锁 P1
+
+- Production：https://subtle-peony-38e354.netlify.app/
+- deploy id：`6ae69f71f734cddf450e27bd`
+- 慢因：首屏一次拉 24 封面 + locked-pen + 旅程图；无长缓存；滚动恢复易落 P2。
+- 做法：不压图；懒加载／延后 P3；`_headers` 长缓存；启动强制 scrollTop=0。
+- 前后（1440）：~20.8MB/24 封面 → ~5.9MB/0 封面；手机 ~15.2MB → ~0.89MB。
+
+
 # Netlify 发布副本 · P1→P3 连续 · 含 P3 飞书只读同步
 
 ## 2026-11-01｜P3 已接飞书只读同步（构建时拉取，非浏览器直连）

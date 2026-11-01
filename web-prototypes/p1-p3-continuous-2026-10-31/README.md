@@ -1,3 +1,7 @@
+## 2026-11-01｜首屏锁 P1 + 加载策略（不压图）
+
+见仓库根 `CURRENT_STATE.md` 同日条目。发布副本 deploy id `6ae69f71f734cddf450e27bd`。
+
 # P1→P2→P3 单页连续 · 2026-10-31 · 待审（已部署 demo）
 
 一次向下滚动从 P1 连到 P3 末尾，不分段、不回入口。线上：<https://subtle-peony-38e354.netlify.app/>

@@ -142,5 +142,9 @@
  // Review controls are available only on the comparison sheet, not in the gallery.
  if(proof){const tools=document.createElement('nav');tools.className='proof-tools';tools.innerHTML='<a href="?proof&layer=base">原始底图</a><a href="?proof&layer=glass">窗洞蒙版</a><a href="?proof">完整分层</a><a href="./">打开图录</a>';document.body.append(tools);}
  window.GALLERY_REVIEW={get selected(){return selected;},get topic(){return topics[selected];},step,geometry:geometries,source:data.source};
- render();
+ // Defer heavy gallery raster (locked pen + covers) until P3 is near, so P1 first paint stays light.
+ const bootGallery=()=>{if(stage.dataset.booted)return;stage.dataset.booted='1';render();};
+ window.addEventListener('p3-near',bootGallery,{once:true});
+ const bootNow=document.documentElement.dataset.p3Assets==='1'||parameters.has('at')||parameters.has('still')||parameters.has('night')||parameters.has('proof');
+ if(bootNow)bootGallery();
 })();

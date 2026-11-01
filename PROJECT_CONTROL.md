@@ -1,6 +1,30 @@
 # 审美外挂｜整站设计总控（跨 AI 协作入口）
 
 
+## 2026-11-01｜首屏锁 P1 + 加载加速（不压图）并 redeploy
+
+- **线上 URL**：<https://subtle-peony-38e354.netlify.app/>
+- **site id**：`dceb69b5-e8d4-40f2-94c9-dc31d8ebd571`
+- **deploy id**：`6ae69f71f734cddf450e27bd`（`netlify deploy --prod --no-build --dir deploy/netlify-p1p3-continuous-2026-10-31`）
+- **慢因（改前，desktop 1440 冷启动实测）**：
+  - 已知传输约 **20.8MB**／约 90 请求；`ticks.js` **一次预加载全部 24 张封面**（约 11.2MB）；另有 `locked-pen-base.png` 2.3MB、P3 蒙版、手机 P1/P2 大图、旅程层 P2 夜色图都在首屏抢带宽。
+  - 静态资源 `Cache-Control: public,max-age=0,must-revalidate`，几乎无长期缓存。
+  - **首屏落 P2**：浏览器滚动恢复／晚到的 `scrollTo` 会把 `scrollY` 推到 `#journey`（P2 夜色层可见）。`?at=0` 也会直接进旅程起点（设计如此，默认入口不应带该参数）。
+- **改动（禁止有损压缩／WebP 缩小画质；P1P2 画面与过渡意图不动；飞书只读链路保留）**：
+  1. **锁 P1**：`history.scrollRestoration='manual'`；启动后 `go(0)`；1.5s 启动护栏内无用户输入则强制回顶；`pageshow`/bfcache 同样处理。
+  2. **懒加载**：旅程层 `p2-art`／traveller／手机 `mp2`/`mstar` 改 `data-src`，接近 P2→P3 或滚动后再 hydrate；手机首屏只拉 `m_p1`。
+  3. **延后 P3 重资源**：`app.js` 等 `p3-near` 再挂彩窗（含 locked-pen 与封面）；`ticks.js` 不再首屏拉齐 24 封面，只先解码可见邻域，其余 idle 预热。
+  4. **首屏不再 await 全部 img/mask decode**（`transition.mjs`），P1 尽快 `loaded`。
+  5. **`_headers`**：`/assets/*`、P1/P2 资源目录 `max-age=31536000, immutable`；HTML 仍 `must-revalidate`。
+- **改后对比（同条件 Playwright 冷启动，loaded 后约 2s）**：
+  - Desktop 1440：约 **20.8MB → 5.9MB**；封面请求 **24 → 0**；`scrollY=0`，cinema hidden，iframe 为 P1。
+  - Mobile 390：约 **15.2MB → 0.89MB**；封面 **0**；仅 `m_p1`；`scrollY=0`。
+  - 伪造滚动恢复到 y=900：护栏内仍回到 **P1**。
+  - 缓存头：封面／P1 图已是 `public,max-age=31536000,immutable`。
+- **残余风险**：桌面 P1 仍依赖 v4 iframe 原图像素（约 5–6MB，按「不改 v4／不压图」保留）；弱网下 P1→P2 后半段才拉 P3，若滑得极快可能短暂等封面；未接飞书运行时自动同步（仍须脚本同步后再部署）。
+- 真相源：`web-prototypes/p1-p3-continuous-2026-10-31/`；发布副本：`deploy/netlify-p1p3-continuous-2026-10-31/`。
+
+
 ## 2026-11-01｜P3 已接飞书只读同步并重新部署（P1P2 未动）
 
 - **线上 URL**：<https://subtle-peony-38e354.netlify.app/>
