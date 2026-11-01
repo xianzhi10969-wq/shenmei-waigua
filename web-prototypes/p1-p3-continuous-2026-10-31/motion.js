@@ -1,10 +1,11 @@
 /* One phase drives every window and the ruler. Exact critically-damped integration.
-   Follow hand speed: stack targets on every step; snappy spring; wheel can re-step while scrolling. */
+   Balance: arrow stacks targets (follow hand); wheel/trackpad one gesture = one page;
+   spring ~0.3s — between old 0.7s (W=18) and snap (W=110). */
 (function(root){
- const W=110; // was 40 (~0.33s); 110 ≈ ~0.1s settle — visibly snappy for rapid flips
+ const W=58; // ~0.28–0.35s settle
  const advance=(x,v,target,dt)=>{const w=W,a=x-target,b=v+w*a,e=Math.exp(-w*dt);return {x:target+(a+b*dt)*e,v:(v-w*b*dt)*e};};
  function create({element,start,stepPixels,paint,settle,reduced}){
-  let x=start,v=0,target=start,raf=0,last=0,gesture=null,wheelTime=0,wheelSum=0,wheelStepAt=0;
+  let x=start,v=0,target=start,raf=0,last=0,gesture=null,wheelTime=0,wheelSum=0,wheelUsed=false;
   const abort=new AbortController(),on=(node,name,fn,options={})=>node.addEventListener(name,fn,{...options,signal:abort.signal});
   function show(){paint(x);element.dataset.target=String(target);}
   function tick(now){const dt=Math.min(.05,(now-last)/1000);last=now;({x,v}=advance(x,v,target,dt));show();
@@ -14,12 +15,12 @@
   function step(d){
    if(gesture)return;
    target+=Math.sign(d);
-   // Nudge hard toward new target so stacked flips catch up almost immediately.
+   // Moderate chase so intentional double-tap within ~400ms still feels responsive.
    const dist=target-x;
    if(dist!==0){
     const toward=Math.sign(dist);
     if(Math.sign(v)!==toward)v=0;
-    v=toward*Math.max(Math.abs(v),Math.min(90,W*Math.abs(dist)*0.55));
+    v=toward*Math.max(Math.abs(v),Math.min(48,W*Math.abs(dist)*0.45));
    }
    run();
   }
@@ -31,16 +32,19 @@
   },{passive:false});
   function release(e,cancel=false){const g=gesture;if(!g||g.id!==e.pointerId)return;gesture=null;
    if(element.hasPointerCapture(e.pointerId))element.releasePointerCapture(e.pointerId);if(!g.horizontal)return;
+   // One page max on release — distance/velocity enough → ±1, never multi-page inertia.
    const delta=x-g.from,travel=e.clientX-g.x;
    target=g.base+(cancel?0:Math.abs(travel)>=18||Math.abs(delta)>.16?Math.sign(delta):0);
    if(e.timeStamp-g.lastT>90)v=0;
    const distance=target-x;v=Math.sign(distance)*Math.min(Math.max(0,v*Math.sign(distance)),W*Math.abs(distance));run();
   }
   on(element,'pointerup',e=>release(e));on(element,'pointercancel',e=>release(e,true));
-  // Wheel: re-arm every ~40ms; lower sum threshold so trackpad keeps up with hand speed.
+  // Wheel/trackpad: one gesture = one page. Idle ~200ms resets; threshold 24 avoids light-flick multi-fire.
   on(element,'wheel',e=>{if(Math.abs(e.deltaX)<=Math.abs(e.deltaY))return;e.preventDefault();
-   const now=performance.now();if(now-wheelTime>200)wheelSum=0;wheelTime=now;wheelSum+=e.deltaX;
-   if(Math.abs(wheelSum)>14&&now-wheelStepAt>=40){wheelStepAt=now;step(Math.sign(wheelSum));wheelSum=0;}
+   const now=performance.now();
+   if(now-wheelTime>200){wheelSum=0;wheelUsed=false;}
+   wheelTime=now;wheelSum+=e.deltaX;
+   if(!wheelUsed&&Math.abs(wheelSum)>24){wheelUsed=true;step(Math.sign(wheelSum));wheelSum=0;}
   },{passive:false});
   on(document,'visibilitychange',()=>{last=performance.now();});
   return {step,destroy(){abort.abort();cancelAnimationFrame(raf);},get position(){return x;}};
