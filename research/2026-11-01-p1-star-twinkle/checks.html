@@ -1,0 +1,18 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>星星明灭行为检查</title><style>body{font:14px system-ui}pre{white-space:pre-wrap}iframe{width:1000px;height:900px;border:0}</style><pre id="out">等待开场及预览初始化…</pre><iframe id="test" src="index.html"></iframe><script>
+const wait=ms=>new Promise(r=>setTimeout(r,ms));const checks=[];const report=(name,pass,detail)=>{checks.push({name,pass,detail});out.innerHTML=checks.map(c=>'<p>'+JSON.stringify(c)+'</p>').join('')};
+test.onload=async()=>{
+ try{
+  const p=test.contentWindow,d=test.contentDocument;let inner,node,a;
+  for(let i=0;i<120;i++){inner=d.querySelector('#phone')?.contentWindow;node=inner?.document.querySelector('[data-blink-star]');if(node){a=node.getAnimations()[0];if(a)break;}await wait(50)}
+  if(!a)throw Error('animation was not installed');
+  d.querySelector('#hidden').click();await wait(50);report('完全消失帧',inner.getComputedStyle(node).opacity==='0',inner.getComputedStyle(node).opacity);
+  d.querySelector('#play').click();inner.scrollTo(0,80);await wait(100);const t1=a.currentTime;await wait(180);report('下滑80px仍播放',a.playState==='running'&&a.currentTime>t1,{state:a.playState,progress:a.currentTime-t1,y:inner.scrollY});
+  inner.scrollTo(0,200);await wait(100);const t2=a.currentTime;await wait(180);report('继续下滑仍播放',a.playState==='running'&&a.currentTime>t2,{state:a.playState,progress:a.currentTime-t2,y:inner.scrollY});
+  inner.scrollTo(0,900);await wait(350);report('星星离开视野才暂停',a.playState==='paused',{state:a.playState,y:inner.scrollY,visible:inner.document.documentElement.dataset.twinkleVisible,starTop:inner.document.querySelector('[data-twinkle]').getBoundingClientRect().top});
+  inner.scrollTo(0,200);await wait(350);report('回到星星位置恢复',a.playState==='running',{state:a.playState,y:inner.scrollY,visible:inner.document.documentElement.dataset.twinkleVisible,starTop:inner.document.querySelector('[data-twinkle]').getBoundingClientRect().top});
+  const sr=d.querySelector('#shell').getBoundingClientRect(),fr=d.querySelector('#phone').getBoundingClientRect();report('完整画面默认适配窗口',sr.bottom<=p.innerHeight+1&&fr.width<=390,{bottom:sr.bottom,height:p.innerHeight,width:fr.width});
+  report('图层范围',true,{base:inner.document.querySelector('#mp1').getBoundingClientRect().toJSON(),svg:inner.document.querySelector('[data-twinkle]').getBoundingClientRect().toJSON()});
+  report('原图保留',inner.document.querySelector('#mp1').naturalWidth===780,{naturalWidth:inner.document.querySelector('#mp1').naturalWidth});
+ }catch(e){report('错误',false,e.message)}
+};
+</script></html>

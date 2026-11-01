@@ -1,38 +1,64 @@
-<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>P1 星星微闪 · 独立预览</title><meta name="viewport" content="width=device-width,initial-scale=1"><style>
-body{margin:0;background:#e8e5de;color:#26231e;font:14px system-ui}main{max-width:1060px;margin:auto;padding:24px}h1{font:22px Georgia,serif;margin:0 0 8px}p{margin:8px 0 16px;color:#656058}button{font:inherit;border:1px solid #b7afa1;background:#f7f4ec;color:inherit;padding:9px 15px;cursor:pointer;margin:0 8px 8px 0}button.active{background:#26231e;color:#f7f4ec}.layout{display:flex;gap:32px;align-items:flex-start;flex-wrap:wrap}.phone{width:390px;height:844px;max-width:100%;background:#f7f4ec;box-shadow:0 5px 24px #0001}iframe{width:100%;height:100%;border:0;display:block}.detail{width:300px}svg.sample{background:#f7f4ec;width:140px;height:140px;display:inline-block;border:1px solid #d8d1c6}.labels{display:flex;justify-content:space-around;font-size:12px;margin-top:8px}.status{font-size:12px;min-height:22px}#result{white-space:pre-wrap;font:12px ui-monospace,monospace;color:#655f54}@media(max-width:500px){main{padding:12px}.layout{gap:20px}.phone{height:calc((100vw - 24px)*844/390)}}
-</style><main><h1>P1 · 星星微闪</h1><p>原星形，原位置。开场结束后，偶尔轻闪一次。</p><button id="play" class="active">微闪候选</button><button id="still">原版静止</button><button id="restart">重播开场</button><div class="status" id="status">等待开场显影…</div><div class="layout"><div class="phone"><iframe id="phone" title="P1 手机微闪候选"></iframe></div><div class="detail"><p>两帧对照</p><div id="samples"></div><div class="labels"><span>原始墨线</span><span>闪烁中间帧</span></div><p style="font-size:12px;line-height:1.8">只让星星的墨线轻轻变淡再回实，不移动、不变形。一次约 0.8 秒，间隔约 5 秒。</p><button id="peak">停在中间帧</button><pre id="result"></pre></div></div></main>
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>P1 星星明灭 · 独立预览</title><meta name="viewport" content="width=device-width,initial-scale=1"><style>
+body{margin:0;background:#e8e5de;color:#26231e;font:14px system-ui}main{max-width:1060px;margin:auto;padding:20px}h1{font:22px Georgia,serif;margin:0 0 8px}p{margin:8px 0 14px;color:#656058}button{font:inherit;border:1px solid #b7afa1;background:#f7f4ec;color:inherit;padding:8px 12px;cursor:pointer;margin:0 6px 7px 0}button.active{background:#26231e;color:#f7f4ec}.layout{display:flex;gap:28px;align-items:flex-start;flex-wrap:wrap}.phone-shell{position:relative;flex:none;background:#f7f4ec;box-shadow:0 5px 24px #0001}.phone{position:absolute;top:0;left:0;width:390px;height:844px;transform-origin:top left}iframe{width:100%;height:100%;border:0;display:block}.detail{width:300px}svg.sample{background:#f7f4ec;width:140px;height:140px;display:inline-block;border:1px solid #d8d1c6}.labels{display:flex;justify-content:space-around;font-size:12px;margin-top:8px}.status{font-size:12px;min-height:28px;line-height:1.8}.note{font-size:12px;line-height:1.8}#verification{white-space:pre-wrap;font:12px ui-monospace,monospace;color:#655f54}@media(max-width:500px){main{padding:12px}.layout{gap:20px}}
+</style><main><div id="preview-head"><h1>P1 · 星星明灭</h1><p>出现 → 完全消失 → 再出现。滑动时继续，离开视野才暂停。</p><button id="play" class="active">播放明灭</button><button id="still">原版静止</button><button id="hidden">完全消失帧</button><button id="restart">重播开场</button><button id="size">原尺寸查看</button><div class="status" id="status">等待开场显影…</div></div><div class="layout" id="layout"><div class="phone-shell" id="shell"><div class="phone" id="phone-wrap"><iframe id="phone" title="P1 手机星星明灭候选"></iframe></div></div><div class="detail"><p>两帧对照</p><div id="samples"></div><div class="labels"><span>出现</span><span>完全消失</span></div><p class="note">完整画面已缩放到当前窗口，方便直接看星星。也可切换原尺寸，边滑动边看。</p><p class="note">独立预览，尚未更新线上。</p><output id="verification" hidden></output></div></div></main>
 <script>
-const phone=document.getElementById('phone'),status=document.getElementById('status'),result=document.getElementById('result');
+const phone=document.getElementById('phone'),status=document.getElementById('status');
+const shell=document.getElementById('shell'),wrap=document.getElementById('phone-wrap');
 const source='../../deploy/netlify-p1p3-continuous-2026-10-31/';
-const shape='M145 1168L158 1204 179 1185 166 1213 205 1226 168 1239 184 1265 158 1248 145 1286 132 1249 107 1267 122 1240 86 1226 123 1213 105 1188 132 1204Z';
-const highlightFilter=id=>`<filter id="${id}" color-interpolation-filters="sRGB"><feColorMatrix type="matrix" values="0 0 0 0 .968627 0 0 0 0 .956863 0 0 0 0 .92549 -.22323 -.75096 -.07581 0 1"/></filter>`;
-let mode='play',animation=null,svg=null,base=null,poller=null;
-function install(){
- const doc=phone.contentDocument,scene=doc.querySelector('#mp1-scene');base=doc.querySelector('#mp1');
- const ns='http://www.w3.org/2000/svg';svg=doc.createElementNS(ns,'svg');svg.setAttribute('viewBox','0 0 780 1688');svg.setAttribute('aria-hidden','true');svg.dataset.twinkle='candidate';svg.style.cssText='position:absolute;inset:0;width:100%;height:100%;pointer-events:none;';
- svg.innerHTML=`<defs>${highlightFilter("twinkle-highlight")}<clipPath id="twinkle-star"><path d="${shape}"/></clipPath></defs><g clip-path="url(#twinkle-star)"><image href="${base.currentSrc||base.src}" width="780" height="1688" filter="url(#twinkle-highlight)"/></g>`;
- scene.append(svg);const layer=svg.querySelector('g');
- animation=layer.animate([{opacity:0,offset:0},{opacity:0,offset:.12},{opacity:.45,offset:.185},{opacity:0,offset:.26},{opacity:0,offset:1}],{duration:5800,iterations:Infinity,easing:'ease-in-out'});
- phone.contentWindow.addEventListener('scroll',()=>{animation.pause();if(phone.contentWindow.scrollY>30){animation.currentTime=0;}else if(mode==='play')animation.play();},{passive:true});
- apply();
- result.textContent='只改变星星，周围保持静止。\n独立预览，尚未更新线上。';
+const shape='M145 1155L182 1190 199 1227 183 1265 145 1290 106 1265 91 1227 106 1189Z';
+let mode='play',animation=null,svg=null,base=null,marker=null,poller=null,visible=false,fit=true,cleanup=()=>{};
+function fitPreview(){
+ const padding=innerWidth<=500?24:40;
+ const available=Math.max(180,innerHeight-document.getElementById('layout').getBoundingClientRect().top-20);
+ const scale=fit?Math.min(1,(innerWidth-padding)/390,available/844):Math.min(1,(innerWidth-padding)/390);
+ wrap.style.transform=`scale(${scale})`;shell.style.width=390*scale+'px';shell.style.height=844*scale+'px';
+ requestAnimationFrame(checkVisibility);
+}
+function checkVisibility(){
+ if(!marker)return;
+ const r=marker.getBoundingClientRect(),frame=phone.getBoundingClientRect(),k=frame.height/phone.clientHeight;
+ const top=frame.top+r.top*k,bottom=frame.top+r.bottom*k;
+ const next=r.bottom>0&&r.top<phone.contentWindow.innerHeight&&bottom>0&&top<innerHeight&&!document.hidden;
+ if(next!==visible){visible=next;apply();}
 }
 function apply(){
  if(!svg||!animation)return;
  const reduced=phone.contentWindow.matchMedia('(prefers-reduced-motion:reduce)').matches;
  svg.style.display=mode==='still'||reduced?'none':'';
- if(mode==='play'&&!reduced){animation.play();status.textContent='候选播放中 · 开场后微闪，向下滑时停止';}
- else if(mode==='peak'&&!reduced){animation.pause();animation.currentTime=5800*.185;status.textContent='中间帧 · 星芒轻亮';}
- else{animation.pause();status.textContent=reduced?'减少动态效果：显示原图':'原版静止';}
- result.textContent='只改变星星，周围保持静止。\n独立预览，尚未更新线上。';
- document.getElementById('play').classList.toggle('active',mode==='play');document.getElementById('still').classList.toggle('active',mode==='still');
+ if(mode==='hidden'&&!reduced){animation.pause();animation.currentTime=1900;status.textContent='完全消失帧 · 星星透明度 0';}
+ else if(mode==='play'&&!reduced){
+  if(visible){animation.play();status.textContent='播放中 · 出现 → 完全消失 → 再出现，滑动时继续';}
+  else{animation.pause();status.textContent='星星暂时在视野外，滑到它时继续闪烁';}
+ }else{animation.pause();status.textContent=reduced?'减少动态效果：显示原图':'原版静止';}
+ document.getElementById('play').classList.toggle('active',mode==='play');document.getElementById('still').classList.toggle('active',mode==='still');document.getElementById('hidden').classList.toggle('active',mode==='hidden');
+ phone.contentDocument.documentElement.dataset.twinkleVisible=String(visible);
+ phone.contentDocument.documentElement.dataset.twinkleMode=mode;
+}
+function install(){
+ const doc=phone.contentDocument,scene=doc.querySelector('#mp1-scene');base=doc.querySelector('#mp1');
+ const ns='http://www.w3.org/2000/svg';svg=doc.createElementNS(ns,'svg');svg.setAttribute('viewBox','0 0 780 1688');svg.setAttribute('aria-hidden','true');svg.dataset.twinkle='candidate';svg.style.cssText='position:absolute;inset:0;width:100%;height:100%;pointer-events:none;';
+ // Cover the star baked into the original, then animate a separate copy of that exact star.
+ svg.innerHTML=`<defs><clipPath id="blink-star"><path d="${shape}"/></clipPath></defs><path d="${shape}" fill="#faf7f1"/><g clip-path="url(#blink-star)" data-blink-star><image href="${base.currentSrc||base.src}" width="780" height="1688"/></g>`;
+ scene.append(svg);
+ marker=doc.createElement('span');marker.setAttribute('aria-hidden','true');marker.style.cssText='position:absolute;left:10.897436%;top:68.364929%;width:15.384615%;height:8.056872%;pointer-events:none';scene.append(marker);
+ animation=svg.querySelector('[data-blink-star]').animate([{opacity:1,offset:0},{opacity:1,offset:.4,easing:'ease-in-out'},{opacity:0,offset:.52},{opacity:0,offset:.65,easing:'ease-in-out'},{opacity:1,offset:.8},{opacity:1,offset:1}],{duration:3200,iterations:Infinity,easing:'linear'});
+ animation.pause();animation.currentTime=0;visible=false;
+ const win=phone.contentWindow,reduced=win.matchMedia('(prefers-reduced-motion:reduce)');
+ const afterScroll=()=>win.requestAnimationFrame(checkVisibility);
+ win.addEventListener('scroll',afterScroll,{passive:true});reduced.addEventListener('change',apply);
+ const observer=new win.IntersectionObserver(checkVisibility,{threshold:[0,.01,1]});observer.observe(marker);
+ cleanup=()=>{win.removeEventListener('scroll',afterScroll);reduced.removeEventListener('change',apply);observer.disconnect();animation?.cancel();};
+ checkVisibility();apply();
 }
 function boot(){
- clearInterval(poller);animation=null;svg=null;base=null;status.textContent='等待开场显影…';phone.src=source+'?star-preview='+Date.now();
+ cleanup();clearInterval(poller);animation=null;svg=null;base=null;marker=null;visible=false;status.textContent='等待开场显影…';
  phone.onload=()=>{poller=setInterval(()=>{const s=phone.contentDocument.querySelector('#mp1-scene');if(s&&s.querySelector('#mp1').naturalWidth&&(s.dataset.revealing==='done'||phone.contentWindow.matchMedia('(prefers-reduced-motion:reduce)').matches)){clearInterval(poller);install();}},40);};
+ phone.src=source+'?star-preview=blink-v2-'+Date.now();fitPreview();
 }
-document.getElementById('play').onclick=()=>{mode='play';apply()};document.getElementById('still').onclick=()=>{mode='still';apply()};document.getElementById('peak').onclick=()=>{mode='peak';apply()};document.getElementById('restart').onclick=boot;
+document.getElementById('play').onclick=()=>{mode='play';apply()};document.getElementById('still').onclick=()=>{mode='still';apply()};document.getElementById('hidden').onclick=()=>{mode='hidden';apply()};document.getElementById('restart').onclick=boot;
+document.getElementById('size').onclick=()=>{fit=!fit;document.getElementById('size').textContent=fit?'原尺寸查看':'完整画面查看';fitPreview()};
+addEventListener('resize',fitPreview);addEventListener('scroll',checkVisibility,{passive:true});document.addEventListener('visibilitychange',checkVisibility);
 const art=source+'p3-stained-glass-v3-2026-10-23/assets/m_p1_notext_original_v20261101.png';
-for(const [i,opacity] of [0,.45].entries())document.getElementById('samples').insertAdjacentHTML('beforeend',`<svg class="sample" viewBox="76 1158 139 138" aria-label="星星${i?'中间帧':'原始帧'}"><defs>${highlightFilter('sample-'+i)}<clipPath id="sample-clip-${i}"><path d="${shape}"/></clipPath></defs><image href="${art}" width="780" height="1688"/><g clip-path="url(#sample-clip-${i})" opacity="${opacity}"><image href="${art}" width="780" height="1688" filter="url(#sample-${i})"/></g></svg>`);
+for(const [i,opacity] of [1,0].entries())document.getElementById('samples').insertAdjacentHTML('beforeend',`<svg class="sample" viewBox="76 1158 139 138" aria-label="星星${i?'完全消失':'出现'}"><defs><clipPath id="sample-clip-${i}"><path d="${shape}"/></clipPath></defs><image href="${art}" width="780" height="1688"/><path d="${shape}" fill="#faf7f1"/><g clip-path="url(#sample-clip-${i})" opacity="${opacity}"><image href="${art}" width="780" height="1688"/></g></svg>`);
 boot();
 </script></html>
