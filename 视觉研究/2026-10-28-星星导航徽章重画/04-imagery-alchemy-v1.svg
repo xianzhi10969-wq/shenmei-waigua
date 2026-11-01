@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="480" viewBox="0 0 480 480">
+<rect width="480" height="480" fill="white"/>
+<g stroke="#171717" stroke-linecap="round" stroke-linejoin="round">
+<g id="vessel" fill="white" stroke-width="3.6">
+<path d="M210 128 L210 180 C210 202 173 215 149 249 C121 288 121 335 149 369 C170 394 204 404 240 404 C276 404 310 394 331 369 C359 335 359 288 331 249 C307 215 270 202 270 180 V128 Z"/>
+<path d="M208 125 Q240 117 272 125 L272 140 Q240 148 208 140 Z"/>
+<path d="M210 125 Q239 132 270 125" fill="none" stroke-width="1.6"/>
+<path d="M221 156 V182 C221 208 186 220 164 254 M153 278 C141 308 147 342 163 361 M171 374 Q239 414 309 374" fill="none" stroke-width="1.7"/>
+</g>
+<g id="loose-stopper" fill="white" stroke-width="3.2" transform="rotate(18 291 83)">
+<path d="M275 77 H307 L303 106 H279 Z"/>
+<path d="M271 73 Q291 63 311 73 V82 Q291 90 271 82 Z"/>
+<path d="M291 41 C274 50 278 65 291 69 C304 64 308 50 291 41 Z"/>
+</g>
+<g id="meeting-imagery" fill="white" stroke-width="3">
+<path d="M257 238 C224 231 195 255 195 286 C195 319 224 341 256 335 C235 326 221 307 221 286 C221 265 235 246 257 238 Z"/>
+<path d="M239 323 C245 288 267 271 300 271 C302 304 282 328 249 334 Z"/>
+<path d="M240 343 Q264 302 290 280 M259 315 L261 292 M269 302 L288 300" fill="none" stroke-width="1.8"/>
+<circle cx="272" cy="229" r="5" stroke-width="1.8"/>
+<circle cx="244" cy="203" r="3" stroke-width="1.5"/>
+</g>
+</g></svg>
