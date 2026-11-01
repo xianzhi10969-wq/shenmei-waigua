@@ -1,0 +1,20 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>泪滴单次显现检查</title><style>body{font:14px system-ui;background:#eee}iframe{width:390px;height:844px;border:0;transform:scale(.6);transform-origin:top left}section{display:inline-block;width:270px;height:570px;vertical-align:top}#out p{margin:5px}</style><h1>泪滴单次显现检查</h1><div id="out">检查进行中…</div><section><iframe id="a" src="scene.html?checks=390"></iframe></section><section><iframe id="b" style="width:430px;height:932px" src="scene.html?checks=430"></iframe></section><script>
+const wait=ms=>new Promise(r=>setTimeout(r,ms)),rows=[];function report(width,name,pass,detail){rows.push({width,name,pass,detail});out.innerHTML=rows.map(x=>'<p>'+JSON.stringify(x)+'</p>').join('')}
+for(const f of [a,b])f.onload=async()=>{
+ try{
+ const w=f.contentWindow,d=f.contentDocument,width=f.id==='a'?390:430;let s,masked=false,fade=false,wipe=false;
+ for(let n=0;n<220;n++){
+  s=d.querySelector('#mp1-scene');const woman=s?.querySelector('[data-layer="woman"] image');if(woman?.dataset.tearMasked==='1')masked=true;
+  const t=d.querySelector('[data-tear]'),r=d.querySelector('[data-tear-wipe]');if(t){const op=+w.getComputedStyle(t).opacity;if(op>0&&op<1)fade=true}if(r){const h=parseFloat(w.getComputedStyle(r).height);if(h>0&&h<18)wipe=true}
+  if(s?.dataset.tearOnce==='done')break;await wait(30)
+ }
+ report(width,'人物显影时先隐藏原泪滴',masked,masked);
+ report(width,'泪滴从无到有',fade&&wipe,{fade,wipe});
+ report(width,'只启动一次',s?.dataset.tearStarts==='1',s?.dataset.tearStarts);
+ report(width,'完成后恢复原图',s?.dataset.tearOnce==='done'&&!d.querySelector('[data-tear-overlay]'),s?.dataset.tearOnce);
+ for(const y of [200,650,0,300,0]){w.scrollTo(0,y);await wait(100)}await wait(800);
+ report(width,'滚动回来不重播',s.dataset.tearStarts==='1'&&s.dataset.tearOnce==='done'&&!d.querySelector('[data-tear-overlay]'),{starts:s.dataset.tearStarts,state:s.dataset.tearOnce});
+ report(width,'字标和星星保留',d.querySelector('#p1-lettering')?.complete&&d.querySelectorAll('.mobile-star-blink').length===1,{starLayers:d.querySelectorAll('.mobile-star-blink').length});
+ }catch(e){report(f.id,'错误',false,e.message)}
+}
+</script></html>

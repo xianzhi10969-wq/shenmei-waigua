@@ -1,0 +1,14 @@
+{
+  "status": "local Chrome checks passed; visual review pending",
+  "widths": [390, 430],
+  "checksPerWidth": ["tear absent during woman reveal", "opacity and downward reveal observed", "start count equals 1", "overlay removed after completion", "scroll return does not replay", "lettering and one star blink layer preserved"],
+  "passed": 12,
+  "total": 12,
+  "durationMs": 1100,
+  "delayAfterWomanMs": 280,
+  "iterations": 1,
+  "productionModified": false,
+  "deployed": false,
+  "realDeviceSafariTested": false,
+  "originalImageSHA256": "b9a9df57d989d62528987641d1a5d5d6bd4a753e0f33e95a4ab4c45344b6a182"
+}
