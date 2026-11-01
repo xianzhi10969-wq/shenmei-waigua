@@ -1,0 +1,57 @@
+# P1–P3 尺寸与交互修复 · 独立审阅版
+
+2026-11-01；状态：代码可预览，**引导文案与交互待用户审阅，未合入 master、未部署**。
+
+## 打开
+
+从完整仓库根运行 `python3 -m http.server 8786 --bind 127.0.0.1`，访问本目录。`?at=1` 可直达 P3；完整体验不要带参数。
+
+共享相邻 `p1-p3-continuous-2026-10-31/assets/`、v4 与彩窗 v3 原素材；原图、字体、蒙版与飞书快照均未复制、压缩、重画或改写。没有写飞书。
+
+## 基础版本与根因
+
+继承 master **1e42023c2151596bd426759e9dc24f32768d1869** 的首屏独立加载、字体不阻塞首屏、P3 延迟加载、回顶、夜色遮挡修复及最新翻页参数。本目录为独立代码副本；源目录、线上目录和 deploy 副本未动。
+
+- **P1短/窄**：旧 paper.css 强制夜色子层 visible，父 cinema 的 visibility:hidden 不能可靠遮住子层，P2夜色可能提前盖住P1。这项已由上述 Grokbot 提交修好，本版继承。另补宽屏适配：初始化脚本和滚动布局同时移除 `Math.min(1,width/1440)` 放大上限，画面等比。P2夜景和星星接棒端点同步使用全宽比例，避免大屏断点错位。
+- **P2不能点击/浮现**：v4中四句文字属于一整张PNG，iframe还禁用了鼠标事件，没有独立语句元素。已查master与本地原型中未找到可直接恢复的完整实现，只找到10/19作品联动的设计记录。本轮为新增实现，不冒称找回旧版。
+- **P3无提示**：ticks.js把“左右轻滑”设成sr-only，画面只剩刻度。现在补充用途、切换方法与当前专题，避免把浏览误认作详情入口。P4与专题详情尚未接通。
+
+## 本轮方案
+
+P2原手写字用原PNG的准确区域显示，不换字体。四句进入阅读区时逐次淡入、上浮12px，间隔80ms；点中后其他句退后，所选句旁出现“去专题里看看”。不作答、不打分、不自动匹配风格、不自动跳页。
+
+读者主动继续后沿原过渡进入P3，并带着所选句。也可直接往下滚；上滚后选择仍在。状态仅在本页面，刷新不宣称保存。新增引导是临时UI文案，待用户审阅。
+
+P3说明“每扇窗是一种美学专题”，明确左右滑动/箭头翻阅，并跟随内容显示当前专题名称、编号、定义。图像仍为主视觉，提示在画心外。
+
+## 集成给Grokbot
+
+**不要整目录覆盖更新后的线上源码。** 基于届时最新版本，提取两份 `usability.*`、index里的P3说明与引用、transition里的 baseline-position / baseline-position-request / browse-topics 三个事件和宽屏比例修改即可。
+
+本目录为独立预览而重定向了共享assets路径；生产集成需沿用生产自身的assets路径。`app.js`和`ticks.js`只有共享路径适配；`motion.js`保留最新参数。先审阅，再部署。
+
+## 验证与边界
+
+- 浏览器验证默认桌面、1440×900/1920×1080桌面覆盖、390×844手机覆盖；应用缩放导致CSS内宽低于请求尺寸，以DOM实测为准。
+- 大屏实际CSS1745×982：iframe宽1745，scrollY=0，cinema opacity=0，首个问题位于视口外，横向溢出0。
+- 桌面和手机均跑通P2选择→继续→P3，所选句保留；箭头切换后专题名称、编号、定义和封面一致更新。
+- P3实际CSS高818时gallery高818，无横向溢出；手机完整窗顶、玫瑰窗、提示可见；桌面15个封面图层使用真实共享路径。
+- 24张本地封面SHA256与topics.json一致；13份本地v4文件与原始Git blob一致。浏览器复核无脚本错误。
+- 减少动态偏好分支已保留，尚未真实切换系统偏好实测；没有宣称全部设备/弱网/线上回归通过。
+- 仅本地独立审阅；没有部署、修改Figma、接P4或飞书实时同步。
+
+## Editorial Skill证据
+
+当轮读取 `.agents/skills/shenmei-editorial-layout/SKILL.md` 及上游 [Grid Construction](https://github.com/medoismail/grid-systems-editorial-skill/blob/main/grid-construction.md) 的Construction Process、Hierarchical Grid、8-Point Grid，与 [Page Composition](https://github.com/medoismail/grid-systems-editorial-skill/blob/main/page-composition.md) 的Visual Hierarchy、White Space、Image-Text Relationships。
+
+| 规则 | 具体落实 |
+| --- | --- |
+| E01 | index的gallery-intro说明用途；gallery-help说明动作；gallery-selection回报当前内容。 |
+| E02 | structure.svg记录结构；945/995与400/947画心比例保留，分别预留294/304px界面空间，余下区域等比容纳原画。未套印刷边距或12列模板。 |
+| E03 | 4/8/16px说明间距；44px操作高度，手机另验问题间空隙；原图字位不动。 |
+| E04 | 沿用现有字体；临时主标题22/18px、说明12/11px、提示11/10px。未开始配色或字体定稿。 |
+| E05 | 提示在画心外，P2继续入口在句间空白；未改作品色彩、窗框或原图。 |
+| E06 | P2逐次浮现→停留聚焦→主动继续；P3保持原有稳定画框与翻页。 |
+| E07 | 交付可编辑网页文字与状态；原手写字明确仍是原图区域，未冒称可编辑字形。没有新增Figma节点或视觉验收。 |
+
+仅结构与网页交互审阅稿，不进入新配色/字体设计；用户尚未验收本版。
