@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844" fill="none">
+<title>一枝 · 位置与线势试稿</title>
+<g stroke="#262720" stroke-linecap="round" stroke-linejoin="round">
+<!-- A single rising stem, placed independently of the approved lettering. -->
+<path stroke-width=".85" d="M240 369 C260 368 277 358 287 343 C298 326 301 310 319 297"/>
+<!-- Narrow pointed leaves borrow the shrine's elongated silhouette. -->
+<path stroke-width=".75" d="M272 359 C265 354 264 347 266 339 C273 344 279 352 272 359 Z"/>
+<path stroke-width=".5" d="M272 358 Q270 348 266 339"/>
+<path stroke-width=".8" d="M288 341 C299 342 310 335 312 326 C300 327 291 330 288 341 Z"/>
+<path stroke-width=".5" d="M289 340 Q301 337 312 326"/>
+<path stroke-width=".7" d="M302 316 C295 310 297 303 299 296 C305 301 307 310 302 316 Z"/>
+<path stroke-width=".45" d="M302 315 Q302 304 299 296"/>
+<!-- A small return curve echoes the logo's loops without touching its paths. -->
+<path stroke-width=".6" d="M282 350 C293 351 301 353 306 347 C310 341 305 337 301 340 C298 342 299 345 301 345"/>
+<path stroke-width=".65" d="M311 304 C319 303 325 297 327 290 C320 292 315 297 311 304"/>
+</g></svg>
