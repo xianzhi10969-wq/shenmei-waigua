@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="cover-extension.css?v=20261101-p1">
   <script defer src="assets/extension-cells.js?v=20261101-p1"></script>
   <script defer src="cover-extension.js?v=20261101-p1"></script>
-<link rel="stylesheet" href="transition.css?v=20261101-p1"><link rel="stylesheet" href="paper.css?v=20261101-p1"><link rel="stylesheet" href="ticks.css?v=20261101-p1"><link rel="stylesheet" href="desktop-fit.css?v=20261101-p1"><script defer src="ticks.js?v=20261101-p1"></script><link rel="stylesheet" href="continuous.css?v=20261101-p1"><script type="module" src="transition.mjs?v=20261101-p1"></script></head>
+<link rel="stylesheet" href="transition.css?v=20261101-p1"><link rel="stylesheet" href="paper.css?v=20261101-p1"><link rel="stylesheet" href="ticks.css?v=20261101-p1"><link rel="stylesheet" href="desktop-fit.css?v=20261101-p1"><script defer src="ticks.js?v=20261101-p1"></script><link rel="stylesheet" href="continuous.css?v=20261101-mobile-reveal"><script type="module" src="transition.mjs?v=20261101-p1"></script></head>
 <body class="chain"><section id="baseline" aria-label="已确认的P1到P2"><div class="baseline-pin"><div id="mstack" aria-hidden="true"><img id="mp1" data-src="./p3-stained-glass-v3-2026-10-23/assets/m_p1_notext_original_v20261101.png" alt="P1手机原图"><img id="mp2" data-src="./p3-stained-glass-v3-2026-10-23/assets/m_p2_vector_v20261101.svg" alt=""><img id="mstar" data-src="./p1-p2-reveal-star-v4-2026-10-21/assets/starB_cream.png" alt=""></div><iframe id="v4" title="P1显影与星B落水v4" data-src="./p1-p2-reveal-star-v4-2026-10-21/index.html"></iframe></div></section>
 <script id="baseline-boot">
 // P1 starts independently of gallery scripts, their module imports and fonts.
@@ -32,6 +32,42 @@
   const stack=document.getElementById('mstack'),image=document.getElementById('mp1');
   stack.style.width=width+'px';
   baseline.style.height=Math.max(height,1904*width/390)+'px';
+  const scene=document.createElement('div');scene.id='mp1-scene';image.before(scene);scene.append(image);
+  // Reveal the approved mobile bitmap through disjoint masks; never redraw/resample it.
+  if(!matchMedia('(prefers-reduced-motion:reduce)').matches){
+   scene.dataset.revealing='pending';
+   const finish=()=>{scene.dataset.revealing='done';scene.querySelector('.mobile-p1-reveal')?.remove();};
+   const startOpening=()=>{
+    if(scene.dataset.revealing!=='pending')return;
+    if(scrollY>1){finish();return;}
+    const shrine='M0 800H181V970L279 1080 296 1110 259 1125 251 1160 309 1160 315 1340 349 1360V1480L279 1530H0Z';
+    const woman='M459 774H582L630 786 680 831 715 897 750 969 780 1034V1688H445L450 1660 410 1630 400 1588V1415L380 1360V1180L339 1165 291 1160 258 1158 251 1138 277 1119 309 1104 341 1108 370 1120 416 1127 476 1120 530 1090 535 1048 523 1009 500 970 481 941 473 910 459 884Z';
+    const star='<path d="M145 1168L158 1204 179 1185 166 1213 205 1226 168 1239 184 1265 158 1248 145 1286 132 1249 107 1267 122 1240 86 1226 123 1213 105 1188 132 1204Z"/>';
+    const ns='http://www.w3.org/2000/svg',svg=document.createElementNS(ns,'svg');
+    svg.setAttribute('viewBox','0 0 780 1688');svg.setAttribute('aria-hidden','true');svg.classList.add('mobile-p1-reveal');
+    svg.innerHTML=`<defs>
+     <mask id="mobile-bg" maskUnits="userSpaceOnUse" x="0" y="0" width="780" height="1688"><rect width="780" height="1688" fill="white"/><path d="${shrine}" fill="black"/><path d="${woman}" fill="black"/></mask>
+     <mask id="mobile-shrine" maskUnits="userSpaceOnUse" x="0" y="0" width="780" height="1688"><path d="${shrine}" fill="white"/><path d="${woman}" fill="black"/><g fill="black">${star}</g></mask>
+     <mask id="mobile-woman" maskUnits="userSpaceOnUse" x="0" y="0" width="780" height="1688"><path d="${woman}" fill="white"/></mask>
+     <mask id="mobile-star" maskUnits="userSpaceOnUse" x="0" y="0" width="780" height="1688"><g fill="white">${star}</g></mask>
+    </defs>`;
+    const animations=[];
+    for(const [name,delay,duration] of [['bg',0,1200],['shrine',700,1000],['woman',1200,1100],['star',2000,900]]){
+     const layer=document.createElementNS(ns,'g'),copy=document.createElementNS(ns,'image');
+     layer.dataset.layer=name;layer.setAttribute('mask',`url(#mobile-${name})`);
+     copy.setAttribute('href',image.currentSrc||image.src);copy.setAttribute('width','780');copy.setAttribute('height','1688');layer.append(copy);svg.append(layer);
+     animations.push(layer.animate([{opacity:0},{opacity:1}],{delay,duration,easing:'cubic-bezier(.22,.61,.36,1)',fill:'both'}));
+    }
+    scene.append(svg);scene.dataset.revealing='running';
+    // First apply the SVG masks; then start all four tracks on the same clock.
+    const clock=document.timeline.currentTime;animations.forEach(a=>a.startTime=clock);
+    Promise.all(animations.map(a=>a.finished)).then(finish,finish);
+    addEventListener('scroll',()=>{if(scrollY>1){animations.forEach(a=>a.cancel());finish();}},{once:true,passive:true});
+   };
+   image.addEventListener('load',()=>image.decode().catch(()=>{}).then(startOpening),{once:true});
+   image.addEventListener('error',finish,{once:true});
+   if(image.complete&&image.naturalWidth)image.decode().catch(()=>{}).then(startOpening);
+  }
   image.fetchPriority='high';image.src=image.dataset.src;
  } else {
   const frame=document.getElementById('v4'),scale=Math.min(1,width/1440);
