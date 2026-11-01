@@ -1,0 +1,41 @@
+{
+  "p1File": "m_p1_notext_original_v20261101.png",
+  "p1SHA256": "b9a9df57d989d62528987641d1a5d5d6bd4a753e0f33e95a4ab4c45344b6a182",
+  "p2File": "m_p2_vector_v20261101.svg",
+  "p2SHA256": "3786cf9807e7d4d978a4ce436e227c3fb28aac292887ff17f12f09395e5ae631",
+  "p2Dimensions": [
+    390,
+    1060
+  ],
+  "p2RasterBackgroundUnchanged": true,
+  "p2VectorItems": 4,
+  "p2SceneAndUpperTransitionPreserved": true,
+  "p2TextMaskBounds": [
+    [
+      50,
+      220,
+      211,
+      80
+    ],
+    [
+      62,
+      319,
+      234,
+      80
+    ],
+    [
+      50,
+      418,
+      211,
+      80
+    ],
+    [
+      62,
+      517,
+      278,
+      80
+    ]
+  ],
+  "p2NumbersPreservedFromOriginal": true,
+  "p2MaskColor": "#13171c"
+}

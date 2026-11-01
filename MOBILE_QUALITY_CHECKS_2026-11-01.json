@@ -1,0 +1,31 @@
+{
+  "onlyExistingDeploymentFileChanged": [
+    "index.html"
+  ],
+  "allExistingArtAndMotionBytesPreserved": true,
+  "mobileP1OriginalNoTextSHA": "b9a9df57d989d62528987641d1a5d5d6bd4a753e0f33e95a4ab4c45344b6a182",
+  "p2BackgroundEmbeddedByteIdentical": true,
+  "p2Canvas": [
+    390,
+    1060
+  ],
+  "p2VectorLayers": 4,
+  "p1PreloadAndDisplaySameAsset": true,
+  "browserVisualCheck": {
+    "surface": "native Chrome local iframe",
+    "widths": [
+      390,
+      430
+    ],
+    "P1": "original artwork without text verified",
+    "P2": "four question outlines, original numbers, seamless background masks, original scene and top star verified",
+    "P3": "at=1 loads; next button changes03 to04"
+  },
+  "deployment": {
+    "state": "published",
+    "deployID": "6ae6e4afc6d877cd0d9757a6",
+    "publishedLocal": "2026-11-01 15:05 Asia/Shanghai",
+    "previousDeployID": "6ae6aaa0111fd76841995c9d",
+    "zipSHA256": "52c92f5c4b8ef2f1adfbcdde93ac8822085364d1f6fba156fe29dc78ada9051d"
+  }
+}
