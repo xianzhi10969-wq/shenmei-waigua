@@ -1,6 +1,26 @@
 # 当前状态｜审美外挂 · 2026-10-24
 
 
+## 2026-11-01｜P3 翻页再拧快 + 破 JS 缓存（回应「还是很慢／是不是没刷新」）
+
+- **可能是缓存**：上一版 `/*.js` `/*.mjs` `/*.css` 曾设 `max-age=3600`，浏览器容易继续跑旧 `motion.js`（W=40）。本轮已改。
+- **线上 URL**：<https://subtle-peony-38e354.netlify.app/>
+- **site id**：`dceb69b5-e8d4-40f2-94c9-dc31d8ebd571`
+- **deploy id**：`6ae6a3052600a00a99edb536`
+- **唯一预览**：<https://6ae6a3052600a00a99edb536--subtle-peony-38e354.netlify.app/>
+- **改动（只动 P3 翻页手感与缓存策略；P1/P2 不动；不压图）**：
+  1. `motion.js` 弹簧 **`W=110`**（上一轮 40；约 **0.1s** 级到位）；`step` 连翻追赶初速上限提到约 90，几乎立刻追上。
+  2. 滚轮：`wheelStepAt` 门槛 **90ms → 40ms**；`wheelSum` 阈值 **22 → 14**，触控板更跟手。
+  3. `_headers`：`/*.js` `/*.mjs` `/*.css` → `public, max-age=0, must-revalidate`（`/assets/*` 长缓存保留）。
+  4. `index.html` 给 `motion.js`/`ticks.js`/`app.js`/`transition.mjs` 等加 **`?v=20261101b`** 破缓存。
+- **请硬刷新或清缓存后再试**；或直接开唯一预览 URL（带新 query）。
+- **验证（Playwright，本地 deploy 目录 + 线上唯一 URL，`?at=1`）**：
+  - 400ms 内两次 `#next`：**+2**
+  - 120ms×4：**+4**
+  - 线上 `motion.js?v=20261101b`：`W=110`；响应头 `cache-control: public,max-age=0,must-revalidate`
+- 真相源：`web-prototypes/p1-p3-continuous-2026-10-31/`；发布副本：`deploy/netlify-p1p3-continuous-2026-10-31/`。
+
+
 ## 2026-11-01｜P3 翻页跟手（去掉写死节奏）并 redeploy
 
 - **线上 URL**：<https://subtle-peony-38e354.netlify.app/>

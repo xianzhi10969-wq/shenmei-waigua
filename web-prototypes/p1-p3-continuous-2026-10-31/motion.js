@@ -1,7 +1,7 @@
 /* One phase drives every window and the ruler. Exact critically-damped integration.
    Follow hand speed: stack targets on every step; snappy spring; wheel can re-step while scrolling. */
 (function(root){
- const W=40; // was 18 (~0.7s settle); 40 ≈ 0.33s, keeps critical damping, follows rapid input
+ const W=110; // was 40 (~0.33s); 110 ≈ ~0.1s settle — visibly snappy for rapid flips
  const advance=(x,v,target,dt)=>{const w=W,a=x-target,b=v+w*a,e=Math.exp(-w*dt);return {x:target+(a+b*dt)*e,v:(v-w*b*dt)*e};};
  function create({element,start,stepPixels,paint,settle,reduced}){
   let x=start,v=0,target=start,raf=0,last=0,gesture=null,wheelTime=0,wheelSum=0,wheelStepAt=0;
@@ -14,12 +14,12 @@
   function step(d){
    if(gesture)return;
    target+=Math.sign(d);
-   // Nudge toward new target so a second flip mid-animation catches up immediately.
+   // Nudge hard toward new target so stacked flips catch up almost immediately.
    const dist=target-x;
    if(dist!==0){
     const toward=Math.sign(dist);
     if(Math.sign(v)!==toward)v=0;
-    v=toward*Math.max(Math.abs(v),Math.min(22,W*Math.abs(dist)*0.35));
+    v=toward*Math.max(Math.abs(v),Math.min(90,W*Math.abs(dist)*0.55));
    }
    run();
   }
@@ -37,11 +37,10 @@
    const distance=target-x;v=Math.sign(distance)*Math.min(Math.max(0,v*Math.sign(distance)),W*Math.abs(distance));run();
   }
   on(element,'pointerup',e=>release(e));on(element,'pointercancel',e=>release(e,true));
-  // Wheel: was wheelUsed one-shot until 160ms idle — continuous trackpad only flipped once.
-  // Now re-arm every ~90ms while scrolling so two flips in one second (and faster) keep up.
+  // Wheel: re-arm every ~40ms; lower sum threshold so trackpad keeps up with hand speed.
   on(element,'wheel',e=>{if(Math.abs(e.deltaX)<=Math.abs(e.deltaY))return;e.preventDefault();
    const now=performance.now();if(now-wheelTime>200)wheelSum=0;wheelTime=now;wheelSum+=e.deltaX;
-   if(Math.abs(wheelSum)>22&&now-wheelStepAt>=90){wheelStepAt=now;step(Math.sign(wheelSum));wheelSum=0;}
+   if(Math.abs(wheelSum)>14&&now-wheelStepAt>=40){wheelStepAt=now;step(Math.sign(wheelSum));wheelSum=0;}
   },{passive:false});
   on(document,'visibilitychange',()=>{last=performance.now();});
   return {step,destroy(){abort.abort();cancelAnimationFrame(raf);},get position(){return x;}};
