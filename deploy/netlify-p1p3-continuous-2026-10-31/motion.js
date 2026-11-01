@@ -1,8 +1,8 @@
 /* One phase drives every window and the ruler. Exact critically-damped integration.
    Balance: arrow stacks targets (follow hand); wheel/trackpad one gesture = one page;
-   spring ~0.3s — between old 0.7s (W=18) and snap (W=110). */
+   spring ~0.2s — between mid W=58/~0.3s and snap (W=110). */
 (function(root){
- const W=58; // ~0.28–0.35s settle
+ const W=80; // ~0.2s settle (夕里 0.2s)
  const advance=(x,v,target,dt)=>{const w=W,a=x-target,b=v+w*a,e=Math.exp(-w*dt);return {x:target+(a+b*dt)*e,v:(v-w*b*dt)*e};};
  function create({element,start,stepPixels,paint,settle,reduced}){
   let x=start,v=0,target=start,raf=0,last=0,gesture=null,wheelTime=0,wheelSum=0,wheelUsed=false;
