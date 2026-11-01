@@ -28,4 +28,11 @@
 
 ## 发布状态
 
-实现与发布包已就绪，尚未发布。Netlify CLI 返回 NOT_LOGGED_IN；已向用户提供原账号登录授权入口。现在线上基线仍为开场显影部署 `6ae6e9bbfc9fb75b68726055`（最后已记录版本，非本轮字标部署）。授权恢复后发布到同一 site id `dceb69b5-e8d4-40f2-94c9-dc31d8ebd571`，禁止换站。发布前再次 fetch，保留并行修改。
+已于 2026-11-01 发布。用户恢复原 Netlify 账号授权后，部署到原站 <https://subtle-peony-38e354.netlify.app/>。
+
+- site id：`dceb69b5-e8d4-40f2-94c9-dc31d8ebd571`
+- deploy id：`6ae6ed898a81debcf7a1713d`
+- 不变版本预览：<https://6ae6ed898a81debcf7a1713d--subtle-peony-38e354.netlify.app>
+- 发布源码对应 GitHub `6b0395d0c69e2190955dcc7bf51ab0d598ac5c49`；发布前拉取核对，并行星星微闪仍为独立研究，未发布。
+- 上一部署：`6ae6e9bbfc9fb75b68726055`，可回滚。
+- 线上核验：新增SVG与发布包字节一致；HTML除Netlify自动加入的托管注释外一致；浏览器加载原站的390×844和430×932首屏，字标完整、插画正常。线上截图 `logo-live-mobile.jpg`。本地滚动往返已核验；本轮未做真机测试。
