@@ -1,0 +1,159 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/629ff523-a052-4268-9492-335f37d0c0a8";
+const imgV2OrnateEngravingCroppedForMobile = `${assetPathPrefix}/b37fc.png`;
+const imgV2FlourishCroppedForMobile = `${assetPathPrefix}/6708d.png`;
+const imgCoverOriginalArtworkFromContentLibrary = `${assetPathPrefix}/df5ec.png`;
+const img01MainArtworkReal = `${assetPathPrefix}/6e4e1.png`;
+const img01MainArtworkReal1 = `${assetPathPrefix}/56527.png`;
+
+export default function Component01MobileFirst() {
+  return (
+    <div className="bg-[#f1ede5] content-stretch flex flex-col items-start relative size-full" data-node-id="82:2" data-name="01 / MOBILE FIRST · 清冷 · 完整词条">
+      <div className="[word-break:break-word] bg-[#151515] h-[58px] leading-[normal] overflow-clip relative shrink-0 text-[#f6f0e8] w-[390px]" data-node-id="82:3" data-name="00 / brand navigation">
+        <p className="absolute font-['Noto_Serif_SC:Medium'] font-medium left-[20px] text-[22px] top-[14px] w-[195px]" data-node-id="82:4">
+          审美外挂
+        </p>
+        <p className="absolute font-['Noto_Sans_SC:Regular'] font-normal left-[282px] text-[12px] top-[22px] w-[97px]" data-node-id="82:5">
+          全部风格 ↗
+        </p>
+      </div>
+      <div className="bg-[#151515] h-[504px] overflow-clip relative shrink-0 w-[390px]" data-node-id="82:6" data-name="01 / mobile V2-style artistic cover">
+        <div className="absolute h-[470px] left-[111px] opacity-62 top-[-13px] w-[310px]" data-node-id="82:7" data-name="V2 / ornate engraving — cropped for mobile">
+          <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgV2OrnateEngravingCroppedForMobile} />
+        </div>
+        <div className="absolute h-[340px] left-[-120px] opacity-55 top-[66px] w-[540px]" data-node-id="82:8" data-name="V2 / flourish — cropped for mobile">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgV2FlourishCroppedForMobile} />
+        </div>
+        <p className="[word-break:break-word] absolute font-['IBM_Plex_Mono:Regular'] leading-[normal] left-[23px] not-italic text-[#f6f0e8] text-[11px] top-[34px] w-[328px] whitespace-pre-wrap" data-node-id="82:9">{`VOL 01  /  AESTHETIC ATLAS`}</p>
+        <p className="[word-break:break-word] absolute font-['Noto_Serif_SC:Medium'] font-medium leading-[normal] left-[18px] text-[#f6f0e8] text-[95px] top-[95px] w-[330px]" data-node-id="82:10">
+          清冷
+        </p>
+        <p className="[word-break:break-word] absolute font-['Cormorant_Garamond:Italic'] font-normal italic leading-[normal] left-[26px] text-[#f6f0e8] text-[41px] top-[213px] w-[330px]" data-node-id="82:11">
+          Cool Detachment
+        </p>
+        <div className="absolute h-[196px] left-[202px] top-[269px] w-[153px]" data-node-id="82:12" data-name="COVER / original artwork from content library">
+          <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgCoverOriginalArtworkFromContentLibrary} />
+        </div>
+        <div className="[word-break:break-word] absolute font-['Noto_Serif_SC:Regular'] font-normal leading-[0] left-[23px] text-[#f6f0e8] text-[17px] top-[393px] w-[351px]" data-node-id="82:13">
+          <p className="leading-[normal] mb-0">清冷，不是一个人没有情感，</p>
+          <p className="leading-[normal]">而是ta的情感拥有自己的世界。</p>
+        </div>
+      </div>
+      <div className="bg-[#f1ede5] content-stretch flex flex-col gap-[19px] items-start overflow-clip p-[23px] relative shrink-0 w-[390px]" data-node-id="82:14" data-name="02 / term introduction before any case">
+        <p className="[word-break:break-word] font-['IBM_Plex_Mono:Medium'] leading-[normal] not-italic relative shrink-0 text-[#9c5260] text-[12px] w-[344px]" data-node-id="82:15">
+          I / THE FEELING
+        </p>
+        <p className="[word-break:break-word] font-['Noto_Serif_SC:Medium'] font-medium leading-[41px] relative shrink-0 text-[#1c1b1b] text-[27px] w-[344px]" data-node-id="82:16">
+          为什么有些冷，让人忍不住凝视？
+        </p>
+        <p className="[word-break:break-word] font-['Noto_Serif_SC:Regular'] font-normal leading-[30px] relative shrink-0 text-[#1c1b1b] text-[17px] w-[344px]" data-node-id="82:17">
+          白色、冰雪、空旷都可以让人感到冷，但医院走廊也可以很冷。真正的问题不是为什么某些事物很冷，而是为什么有些冷让我们想逃离，另一些冷却让我们忍不住凝视。
+        </p>
+        <p className="[word-break:break-word] font-['Noto_Serif_SC:Medium'] font-medium leading-[33px] relative shrink-0 text-[#9c5260] text-[20px] w-[344px]" data-node-id="82:18">
+          清冷，不是一个人没有情感，而是ta的情感拥有自己的世界。
+        </p>
+        <div className="bg-[#c7bdb2] h-px relative shrink-0 w-[344px]" data-node-id="82:19" data-name="intro rule" />
+      </div>
+      <div className="[word-break:break-word] bg-[#fdf9f1] content-stretch flex flex-col gap-[12px] items-start leading-[normal] overflow-clip p-[23px] relative shrink-0 w-[390px]" data-node-id="82:20" data-name="03 / MASTERS heading">
+        <p className="font-['IBM_Plex_Mono:Regular'] not-italic relative shrink-0 text-[#9c5260] text-[12px] w-[344px] whitespace-pre-wrap" data-node-id="82:21">{`II / MASTERS    ·    02 WORKS`}</p>
+        <p className="font-['Noto_Serif_SC:Medium'] font-medium relative shrink-0 text-[#1c1b1b] text-[35px] w-[344px]" data-node-id="82:22">
+          作品里的清冷
+        </p>
+        <p className="font-['Noto_Sans_SC:Regular'] font-normal relative shrink-0 text-[#80766e] text-[14px] w-[344px]" data-node-id="82:23">
+          作品图片和分析属于同一案例，继续向下阅读即可。
+        </p>
+      </div>
+      <div className="bg-[#fdf9f1] content-stretch flex flex-col gap-[16px] items-start overflow-clip p-[23px] relative shrink-0 w-[390px]" data-node-id="82:24" data-name="REPEATABLE CASE 01 / Snow（雪）">
+        <div className="bg-[#c7bdb2] h-px relative shrink-0 w-[344px]" data-node-id="82:25" data-name="Case upper rule" />
+        <p className="[word-break:break-word] font-['IBM_Plex_Mono:Regular'] leading-[normal] not-italic relative shrink-0 text-[#9c5260] text-[11px] w-[344px] whitespace-pre-wrap" data-node-id="82:26">{`FIG 01   /   INSTALLATION`}</p>
+        <p className="[word-break:break-word] font-['Noto_Serif_SC:Medium'] font-medium leading-[normal] relative shrink-0 text-[#1c1b1b] text-[31px] w-[344px]" data-node-id="82:27">
+          Snow（雪）
+        </p>
+        <p className="[word-break:break-word] font-['Noto_Sans_SC:Regular'] font-normal leading-[normal] relative shrink-0 text-[#80766e] text-[14px] w-[344px]" data-node-id="82:28">
+          吉冈德仁 · 2010 · 动态装置
+        </p>
+        <div className="cursor-pointer h-[370px] overflow-clip relative shrink-0 w-[344px]" data-node-id="82:29" data-name="GALLERY / 3 real image references">
+          <a className="absolute block h-[246px] left-0 top-0 w-[344px]" data-node-id="82:30" data-name="01 / main artwork real">
+            <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={img01MainArtworkReal} />
+          </a>
+          <a className="absolute bg-[#d7d0c5] block h-[111px] left-0 top-[257px] w-[167px]" data-node-id="82:31" data-name="02 / original asset placeholder" />
+          <a className="absolute bg-[#d7d0c5] block h-[111px] left-[177px] top-[257px] w-[167px]" data-node-id="82:32" data-name="03 / original asset placeholder" />
+        </div>
+        <a className="[word-break:break-word] block cursor-pointer font-['IBM_Plex_Mono:Regular'] font-normal leading-[0] relative shrink-0 text-[#9c5260] text-[12px] w-[344px]" data-node-id="82:33">
+          <p className="leading-[normal] whitespace-pre-wrap">{`03 FRAMES   /   点击打开完整作品图廊 ↗`}</p>
+        </a>
+        <p className="[word-break:break-word] font-['Noto_Serif_SC:Medium'] font-medium leading-[35px] relative shrink-0 text-[#9c5260] text-[22px] w-[344px]" data-node-id="82:34">
+          没有一片真雪，整个空间却像被冬天占领。
+        </p>
+        <div className="[word-break:break-word] font-['Noto_Serif_SC:Regular'] font-normal leading-[0] relative shrink-0 text-[#1c1b1b] text-[17px] w-[344px] whitespace-pre-wrap" data-node-id="82:35">
+          <p className="leading-[30px] mb-0">十五米宽的装置里，数百公斤轻盈的羽毛被气流吹起、缓缓落下，仿佛一场没有寒意的暴风雪。洁白的空间让这场人造降雪显得近乎不真实。</p>
+          <p className="leading-[30px] mb-0">​</p>
+          <p className="leading-[30px]">白色、冰雪、空旷都可以让人感到冷，但医院走廊也可以很冷——真正的问题不是为什么某些事物很冷，而是为什么有些冷让我们想逃离，另一些冷却让我们忍不住凝视。Snow 把「冷」做成可以走进去的氛围：生命没有被消灭，但温暖、繁盛、供人栖居的环境被撤走了，你开始凝视羽毛的轨迹，而不是想找一件外套。</p>
+        </div>
+        <a className="[word-break:break-word] block font-['Noto_Sans_SC:Medium'] font-medium leading-[0] relative shrink-0 text-[#9c5260] text-[17px] w-[344px]" href="https://www.tokujin.com/works/2010-sensing-nature-snow/" data-node-id="82:36" target="_blank">
+          <p className="[text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid leading-[normal] underline whitespace-pre-wrap">{`↗  查看作品官方页面`}</p>
+        </a>
+        <p className="[word-break:break-word] font-['IBM_Plex_Mono:Regular'] leading-[normal] not-italic relative shrink-0 text-[#80766e] text-[11px] w-[344px]" data-node-id="82:37">
+          www.tokujin.com/works/2010-sensing-nature-snow/
+        </p>
+      </div>
+      <div className="bg-[#fdf9f1] content-stretch flex flex-col gap-[16px] items-start overflow-clip p-[23px] relative shrink-0 w-[390px]" data-node-id="82:38" data-name="REPEATABLE CASE 02 / Hokkaido（北海道）">
+        <div className="bg-[#c7bdb2] h-px relative shrink-0 w-[344px]" data-node-id="82:39" data-name="Case upper rule" />
+        <p className="[word-break:break-word] font-['IBM_Plex_Mono:Regular'] leading-[normal] not-italic relative shrink-0 text-[#9c5260] text-[11px] w-[344px] whitespace-pre-wrap" data-node-id="82:40">{`FIG 02   /   PHOTOGRAPHY`}</p>
+        <p className="[word-break:break-word] font-['Noto_Serif_SC:Medium'] font-medium leading-[normal] relative shrink-0 text-[#1c1b1b] text-[31px] w-[344px]" data-node-id="82:41">
+          Hokkaido（北海道）
+        </p>
+        <p className="[word-break:break-word] font-['Noto_Sans_SC:Regular'] font-normal leading-[normal] relative shrink-0 text-[#80766e] text-[14px] w-[344px]" data-node-id="82:42">
+          Michael Kenna · 2002 年起 · 黑白风景摄影
+        </p>
+        <div className="cursor-pointer h-[400px] overflow-clip relative shrink-0 w-[344px]" data-node-id="82:43" data-name="GALLERY / 2 real image references">
+          <a className="absolute block h-[246px] left-0 top-0 w-[344px]" data-node-id="82:44" data-name="01 / main artwork real">
+            <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={img01MainArtworkReal1} />
+          </a>
+          <a className="absolute bg-[#d7d0c5] block h-[142px] left-0 top-[258px] w-[344px]" data-node-id="82:45" data-name="02 / original asset placeholder" />
+        </div>
+        <a className="[word-break:break-word] block cursor-pointer font-['IBM_Plex_Mono:Regular'] font-normal leading-[0] relative shrink-0 text-[#9c5260] text-[12px] w-[344px]" data-node-id="82:46">
+          <p className="leading-[normal] whitespace-pre-wrap">{`02 FRAMES   /   点击打开完整作品图廊 ↗`}</p>
+        </a>
+        <p className="[word-break:break-word] font-['Noto_Serif_SC:Medium'] font-medium leading-[35px] relative shrink-0 text-[#9c5260] text-[22px] w-[344px]" data-node-id="82:47">
+          九棵树站在雪地里，整片世界都没有多余的声音。
+        </p>
+        <div className="[word-break:break-word] font-['Noto_Serif_SC:Regular'] font-normal leading-[0] relative shrink-0 text-[#1c1b1b] text-[17px] w-[344px] whitespace-pre-wrap" data-node-id="82:48">
+          <p className="leading-[30px] mb-0">厚雪抹平了地面细节，黑色树影孤零零地站在大片留白之中。尤其是《Nine Trees》（2004），九棵树在雪原上排成细细的一行，天地仿佛安静到只剩下它们。</p>
+          <p className="leading-[30px] mb-0">​</p>
+          <p className="leading-[30px]">清冷往往不是生命消失了，而是生命的温度被压低了。照片并不是一片空白，而是让生命在一片几乎空白的世界里显得异常清晰——如果只剩白色，它就不美；如果长满叶子、出现小屋与行人，又会滑向田园。清冷发生在中间那个微妙位置：强烈的存在，被安放在一种克制的秩序之中。</p>
+        </div>
+        <a className="[word-break:break-word] block font-['Noto_Sans_SC:Medium'] font-medium leading-[0] relative shrink-0 text-[#9c5260] text-[17px] w-[344px]" href="https://www.michaelkenna.com/gallery.php?id=6" data-node-id="82:49" target="_blank">
+          <p className="[text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid leading-[normal] underline whitespace-pre-wrap">{`↗  查看作品官方页面`}</p>
+        </a>
+        <p className="[word-break:break-word] font-['IBM_Plex_Mono:Regular'] leading-[normal] not-italic relative shrink-0 text-[#80766e] text-[11px] w-[344px]" data-node-id="82:50">
+          www.michaelkenna.com/gallery.php?id=6
+        </p>
+      </div>
+      <div className="[word-break:break-word] bg-[#151515] content-stretch flex flex-col gap-[16px] items-start overflow-clip p-[22px] relative shrink-0 w-[390px]" data-node-id="82:51" data-name="04 / EXPLORE & SEARCH TERMS (palette optional)">
+        <p className="font-['IBM_Plex_Mono:Regular'] leading-[normal] not-italic relative shrink-0 text-[#ddb9b7] text-[12px] w-[346px]" data-node-id="82:52">
+          III / CONTINUE EXPLORING
+        </p>
+        <p className="font-['Noto_Serif_SC:Medium'] font-medium leading-[normal] relative shrink-0 text-[#f6f0e8] text-[35px] w-[346px]" data-node-id="82:53">
+          继续找灵感。
+        </p>
+        <p className="font-['IBM_Plex_Mono:Regular'] font-normal leading-[normal] relative shrink-0 text-[#f6f0e8] text-[13px] w-[346px]" data-node-id="82:54">
+          PINTEREST / 关键词参考
+        </p>
+        <p className="font-['Noto_Sans_SC:Regular'] font-normal leading-[27px] relative shrink-0 text-[#f6f0e8] text-[15px] w-[346px]" data-node-id="82:55">
+          清冷感 · 清冷系 · 雪景 · 月光 · 冬日 · icy · winter aesthetic
+        </p>
+        <p className="font-['Noto_Sans_SC:Regular'] font-normal leading-[normal] relative shrink-0 text-[#aea69e] text-[13px] w-[346px]" data-node-id="82:56">
+          配色尚待核验，本词条暂不展示色卡。
+        </p>
+      </div>
+      <div className="[word-break:break-word] bg-[#151515] h-[76px] leading-[normal] overflow-clip relative shrink-0 text-[#f6f0e8] w-[390px]" data-node-id="82:57" data-name="05 / footer">
+        <p className="absolute font-['Noto_Sans_SC:Medium'] font-medium left-[23px] text-[16px] top-[28px] w-[195px]" data-node-id="82:58">
+          审美外挂
+        </p>
+        <p className="absolute font-['IBM_Plex_Mono:Regular'] left-[217px] not-italic text-[11px] top-[30px] w-[170px]" data-node-id="82:59">
+          02 WORKS · 05 IMAGES
+        </p>
+      </div>
+    </div>
+  );
+}

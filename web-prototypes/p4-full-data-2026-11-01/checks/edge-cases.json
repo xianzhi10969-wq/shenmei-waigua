@@ -1,0 +1,25 @@
+{
+  "variableCounts": [
+    {
+      "count": 0,
+      "overflow": []
+    },
+    {
+      "count": 1,
+      "overflow": []
+    },
+    {
+      "count": 8,
+      "overflow": []
+    },
+    {
+      "count": 13,
+      "overflow": []
+    }
+  ],
+  "photoReplacementKeepsGeometry": true,
+  "originalImagesDecoded": {
+    "total": 407,
+    "bad": []
+  }
+}

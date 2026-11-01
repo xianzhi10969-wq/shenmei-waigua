@@ -1,0 +1,9 @@
+private/
+__pycache__/
+checks/browser-*.png
+public/media/
+public/entrance/
+public/p1-p2-reveal-star-v4-2026-10-21/
+public/p3-stained-glass-v3-2026-10-23/
+checks/typography-rules.md
+checks/page-composition.md

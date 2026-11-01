@@ -1,0 +1,325 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/367dde4e-2d2f-4001-81f8-5d47bcb98761";
+const imgPrint = `${assetPathPrefix}/c541c.png`;
+const imgPrint1 = `${assetPathPrefix}/904cf.png`;
+const imgPrint2 = `${assetPathPrefix}/52ab8.png`;
+const img = `${assetPathPrefix}/84f05.png`;
+const img00 = `${assetPathPrefix}/6ccc2.png`;
+const img1 = `${assetPathPrefix}/1a443.png`;
+const img2 = `${assetPathPrefix}/b13c2.png`;
+const imgFrame401 = `${assetPathPrefix}/62993.png`;
+const imgFrame5GrassetV8 = `${assetPathPrefix}/04348.png`;
+const img3 = `${assetPathPrefix}/b2380.svg`;
+
+function Component5({ className }: { className?: string }) {
+  return (
+    <div className={className || "h-[272px] relative w-[288px]"} data-node-id="830:168" data-name="固定画位 5 / 不随图片比例改变">
+      <div className="absolute h-[140px] left-[18px] top-[18px] w-[252px]" data-node-id="830:171" data-name="Artwork / FIT / 原图完整" />
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Noto_Serif_SC:Regular'] font-normal leading-[24px] left-[144px] text-[#615e57] text-[16px] text-center top-[74px] w-[252px]" data-node-id="830:172">
+        更新中
+      </p>
+      <div className="[word-break:break-word] absolute content-stretch flex flex-col font-['Noto_Serif_SC:Regular'] font-normal gap-[4px] items-start left-0 overflow-clip top-[192px] w-[288px]" data-node-id="830:173" data-name="Caption">
+        <p className="leading-[40px] relative shrink-0 text-[#1a1a1a] text-[28px] w-[288px]" data-node-id="830:174">
+          空灵
+        </p>
+        <p className="leading-[20px] relative shrink-0 text-[#615e57] text-[14px] w-[288px]" data-node-id="830:175">
+          更新中
+        </p>
+      </div>
+    </div>
+  );
+}
+
+function Component4({ className }: { className?: string }) {
+  return (
+    <div className={className || "h-[304px] relative w-[288px]"} data-node-id="830:160" data-name="固定画位 4 / 不随图片比例改变">
+      <div className="absolute h-[172px] left-[18px] top-[18px] w-[252px]" data-node-id="830:163" data-name="Artwork / FIT / 原图完整" />
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Noto_Serif_SC:Regular'] font-normal leading-[24px] left-[144px] text-[#615e57] text-[16px] text-center top-[90px] w-[252px]" data-node-id="830:164">
+        更新中
+      </p>
+      <div className="[word-break:break-word] absolute content-stretch flex flex-col font-['Noto_Serif_SC:Regular'] font-normal gap-[4px] items-start left-0 overflow-clip top-[224px] w-[288px]" data-node-id="830:165" data-name="Caption">
+        <p className="leading-[40px] relative shrink-0 text-[#1a1a1a] text-[28px] w-[288px]" data-node-id="830:166">
+          梦境
+        </p>
+        <p className="leading-[20px] relative shrink-0 text-[#615e57] text-[14px] w-[288px]" data-node-id="830:167">
+          更新中
+        </p>
+      </div>
+    </div>
+  );
+}
+
+function Component3({ className }: { className?: string }) {
+  return (
+    <div className={className || "h-[352px] relative w-[224px]"} data-node-id="830:151" data-name="固定画位 3 / 不随图片比例改变">
+      <div className="absolute bg-[#f8f6ef] content-stretch flex h-[220px] items-center justify-center left-[18px] overflow-clip p-[8px] top-[18px] w-[188px]" data-node-id="830:154" data-name="MOUNT / 3 · 最小纸边8px">
+        <div className="border-[0.5px] border-[rgba(26,26,26,0.45)] border-solid h-[204px] relative shrink-0 w-[161.985px]" data-node-id="830:155" data-name="PRINT / 原色原图 · 完整适配">
+          <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgPrint} />
+        </div>
+      </div>
+      <div className="[word-break:break-word] absolute content-stretch flex flex-col font-['Noto_Serif_SC:Regular'] font-normal gap-[4px] items-start left-0 overflow-clip top-[272px] w-[224px]" data-node-id="830:157" data-name="Caption">
+        <p className="leading-[40px] relative shrink-0 text-[#1a1a1a] text-[28px] w-[224px]" data-node-id="830:158">
+          Softcore
+        </p>
+        <p className="leading-[20px] relative shrink-0 text-[#615e57] text-[14px] w-[224px]" data-node-id="830:159">
+          打开词条 ↗
+        </p>
+      </div>
+    </div>
+  );
+}
+
+function Component2({ className }: { className?: string }) {
+  return (
+    <div className={className || "h-[376px] relative w-[400px]"} data-node-id="830:142" data-name="固定画位 2 / 不随图片比例改变">
+      <div className="absolute bg-[#f8f6ef] content-stretch flex h-[244px] items-center justify-center left-[18px] overflow-clip p-[8px] top-[18px] w-[364px]" data-node-id="830:145" data-name="MOUNT / 2 · 最小纸边8px">
+        <div className="border-[0.5px] border-[rgba(26,26,26,0.45)] border-solid h-[228px] relative shrink-0 w-[342.571px]" data-node-id="830:146" data-name="PRINT / 原色原图 · 完整适配">
+          <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgPrint1} />
+        </div>
+      </div>
+      <div className="[word-break:break-word] absolute content-stretch flex flex-col font-['Noto_Serif_SC:Regular'] font-normal gap-[4px] items-start left-0 overflow-clip top-[296px] w-[400px]" data-node-id="830:148" data-name="Caption">
+        <p className="leading-[40px] relative shrink-0 text-[#1a1a1a] text-[28px] w-[400px]" data-node-id="830:149">
+          朦胧
+        </p>
+        <p className="leading-[20px] relative shrink-0 text-[#615e57] text-[14px] w-[400px]" data-node-id="830:150">
+          打开词条 ↗
+        </p>
+      </div>
+    </div>
+  );
+}
+
+function Component1({ className }: { className?: string }) {
+  return (
+    <div className={className || "h-[456px] relative w-[240px]"} data-node-id="830:133" data-name="固定画位 1 / 不随图片比例改变">
+      <div className="absolute bg-[#f8f6ef] content-stretch flex h-[324px] items-center justify-center left-[18px] overflow-clip p-[8px] top-[18px] w-[204px]" data-node-id="830:136" data-name="MOUNT / 1 · 最小纸边8px">
+        <div className="border-[0.5px] border-[rgba(26,26,26,0.45)] border-solid h-[308px] relative shrink-0 w-[186.853px]" data-node-id="830:137" data-name="PRINT / 原色原图 · 完整适配">
+          <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgPrint2} />
+        </div>
+      </div>
+      <div className="[word-break:break-word] absolute content-stretch flex flex-col font-['Noto_Serif_SC:Regular'] font-normal gap-[4px] items-start left-0 overflow-clip top-[376px] w-[240px]" data-node-id="830:139" data-name="Caption">
+        <p className="leading-[40px] relative shrink-0 text-[#1a1a1a] text-[28px] w-[240px]" data-node-id="830:140">
+          清冷
+        </p>
+        <p className="leading-[20px] relative shrink-0 text-[#615e57] text-[14px] w-[240px]" data-node-id="830:141">
+          打开词条 ↗
+        </p>
+      </div>
+    </div>
+  );
+}
+
+export default function P403() {
+  return (
+    <div className="bg-[#f8f6ef] relative size-full" data-node-id="830:22" data-name="P4 / 精修03 · 错落构图 · 待审">
+      <div className="absolute h-[1000px] left-0 overflow-clip top-0 w-[1440px]" data-node-id="830:23" data-name="ILLUSTRATION / 独立墙面与五幅框饰">
+        <div className="absolute h-[1045px] left-[274px] mix-blend-multiply top-[44px] w-[95px]" data-node-id="830:24" data-name="建筑 / 截取侧墙肋柱">
+          <div className="absolute inset-0 overflow-hidden pointer-events-none">
+            <img alt="" className="absolute h-full left-[-263.16%] max-w-none top-0 w-[1585.26%]" src={img} />
+          </div>
+        </div>
+        <div className="absolute h-[36px] left-[344px] mix-blend-multiply top-[112px] w-[1096px]" data-node-id="830:25" data-name="建筑 / 连续横向石檐">
+          <div className="absolute inset-0 overflow-hidden pointer-events-none">
+            <img alt="" className="absolute h-[2750%] left-[-28.61%] max-w-none top-[-192.11%] w-[128.61%]" src={img} />
+          </div>
+        </div>
+        <div className="absolute h-[441.362px] left-[365.46px] overflow-clip top-[196.74px] w-[278.09px]" data-node-id="830:26" data-name="FRAME 1 / 尖拱 · 参考转译">
+          <div className="absolute h-[85.263px] left-0 mix-blend-darken top-0 w-[36.537px]" data-node-id="830:27" data-name="框饰切片 0,0">
+            <div className="absolute inset-0 overflow-hidden pointer-events-none">
+              <img alt="" className="absolute h-[309.8%] left-0 max-w-none top-0 w-[513.4%]" src={img00} />
+            </div>
+          </div>
+          <div className="absolute h-[85.263px] left-[36.54px] mix-blend-darken top-0 w-[204px]" data-node-id="830:28" data-name="框饰切片 1,0">
+            <div className="absolute inset-0 overflow-hidden pointer-events-none">
+              <img alt="" className="absolute h-[309.8%] left-[-31.91%] max-w-none top-0 w-[163.82%]" src={img00} />
+            </div>
+          </div>
+          <div className="absolute h-[85.263px] left-[240.54px] mix-blend-darken top-0 w-[37.552px]" data-node-id="830:29" data-name="框饰切片 2,0">
+            <div className="absolute inset-0 overflow-hidden pointer-events-none">
+              <img alt="" className="absolute h-[309.8%] left-[-413.4%] max-w-none top-0 w-[513.4%]" src={img00} />
+            </div>
+          </div>
+          <div className="absolute h-[324px] left-0 mix-blend-darken top-[85.26px] w-[36.537px]" data-node-id="830:30" data-name="框饰切片 0,1">
+            <div className="absolute inset-0 overflow-hidden pointer-events-none">
+              <img alt="" className="absolute h-[209.27%] left-0 max-w-none top-[-67.55%] w-[513.4%]" src={img00} />
+            </div>
+          </div>
+          <div className="absolute h-[324px] left-[240.54px] mix-blend-darken top-[85.26px] w-[37.552px]" data-node-id="830:31" data-name="框饰切片 2,1">
+            <div className="absolute inset-0 overflow-hidden pointer-events-none">
+              <img alt="" className="absolute h-[209.27%] left-[-413.4%] max-w-none top-[-67.55%] w-[513.4%]" src={img00} />
+            </div>
+          </div>
+          <div className="absolute h-[32.099px] left-0 mix-blend-darken top-[409.26px] w-[36.537px]" data-node-id="830:32" data-name="框饰切片 0,2">
+            <div className="absolute inset-0 overflow-hidden pointer-events-none">
+              <img alt="" className="absolute h-[501.59%] left-0 max-w-none top-[-401.59%] w-[513.4%]" src={img00} />
+            </div>
+          </div>
+          <div className="absolute h-[32.099px] left-[36.54px] mix-blend-darken top-[409.26px] w-[204px]" data-node-id="830:33" data-name="框饰切片 1,2">
+            <div className="absolute inset-0 overflow-hidden pointer-events-none">
+              <img alt="" className="absolute h-[501.59%] left-[-31.91%] max-w-none top-[-401.59%] w-[163.82%]" src={img00} />
+            </div>
+          </div>
+          <div className="absolute h-[32.099px] left-[240.54px] mix-blend-darken top-[409.26px] w-[37.552px]" data-node-id="830:34" data-name="框饰切片 2,2">
+            <div className="absolute inset-0 overflow-hidden pointer-events-none">
+              <img alt="" className="absolute h-[501.59%] left-[-413.4%] max-w-none top-[-401.59%] w-[513.4%]" src={img00} />
+            </div>
+          </div>
+        </div>
+        <div className="absolute h-[311.718px] left-[666.85px] overflow-clip top-[153.75px] w-[437.012px]" data-node-id="830:54" data-name="FRAME 2 / 细长窗格 · 参考转译">
+          <div className="absolute h-[32.247px] left-0 mix-blend-darken top-0 w-[39.151px]" data-node-id="830:55" data-name="框饰切片 0,0">
+            <div className="absolute inset-0 overflow-hidden pointer-events-none">
+              <img alt="" className="absolute h-[486.24%] left-0 max-w-none top-0 w-[768.91%]" src={img1} />
+            </div>
+          </div>
+          <div className="absolute h-[32.247px] left-[39.15px] mix-blend-darken top-0 w-[364px]" data-node-id="830:56" data-name="框饰切片 1,0">
+            <div className="absolute inset-0 overflow-hidden pointer-events-none">
+              <img alt="" className="absolute h-[486.24%] left-[-17.58%] max-w-none top-0 w-[135.15%]" src={img1} />
+            </div>
+          </div>
+          <div className="absolute h-[32.247px] left-[403.15px] mix-blend-darken top-0 w-[33.86px]" data-node-id="830:57" data-name="框饰切片 2,0">
+            <div className="absolute inset-0 overflow-hidden pointer-events-none">
+              <img alt="" className="absolute h-[486.24%] left-[-668.91%] max-w-none top-0 w-[768.91%]" src={img1} />
+            </div>
+          </div>
+          <div className="absolute h-[244px] left-0 mix-blend-darken top-[32.25px] w-[39.151px]" data-node-id="830:58" data-name="框饰切片 0,1">
+            <div className="absolute inset-0 overflow-hidden pointer-events-none">
+              <img alt="" className="absolute h-[175.21%] left-0 max-w-none top-[-36.03%] w-[768.91%]" src={img1} />
+            </div>
+          </div>
+          <div className="absolute h-[244px] left-[403.15px] mix-blend-darken top-[32.25px] w-[33.86px]" data-node-id="830:59" data-name="框饰切片 2,1">
+            <div className="absolute inset-0 overflow-hidden pointer-events-none">
+              <img alt="" className="absolute h-[175.21%] left-[-668.91%] max-w-none top-[-36.03%] w-[768.91%]" src={img1} />
+            </div>
+          </div>
+          <div className="absolute h-[35.471px] left-0 mix-blend-darken top-[276.25px] w-[39.151px]" data-node-id="830:60" data-name="框饰切片 0,2">
+            <div className="absolute inset-0 overflow-hidden pointer-events-none">
+              <img alt="" className="absolute h-[447.26%] left-0 max-w-none top-[-347.26%] w-[768.91%]" src={img1} />
+            </div>
+          </div>
+          <div className="absolute h-[35.471px] left-[39.15px] mix-blend-darken top-[276.25px] w-[364px]" data-node-id="830:61" data-name="框饰切片 1,2">
+            <div className="absolute inset-0 overflow-hidden pointer-events-none">
+              <img alt="" className="absolute h-[447.26%] left-[-17.58%] max-w-none top-[-347.26%] w-[135.15%]" src={img1} />
+            </div>
+          </div>
+          <div className="absolute h-[35.471px] left-[403.15px] mix-blend-darken top-[276.25px] w-[33.86px]" data-node-id="830:62" data-name="框饰切片 2,2">
+            <div className="absolute inset-0 overflow-hidden pointer-events-none">
+              <img alt="" className="absolute h-[447.26%] left-[-668.91%] max-w-none top-[-347.26%] w-[768.91%]" src={img1} />
+            </div>
+          </div>
+        </div>
+        <div className="absolute h-[320.711px] left-[1103.73px] overflow-clip top-[237.56px] w-[261.438px]" data-node-id="830:64" data-name="FRAME 3 / 玫瑰窗放射线">
+          <div className="absolute h-[68.444px] left-0 mix-blend-darken top-0 w-[34.271px]" data-node-id="830:65" data-name="框饰切片 0,0">
+            <div className="absolute inset-0 overflow-hidden pointer-events-none">
+              <img alt="" className="absolute h-[418.98%] left-0 max-w-none top-0 w-[530.99%]" src={img2} />
+            </div>
+          </div>
+          <div className="absolute h-[68.444px] left-[34.27px] mix-blend-darken top-0 w-[188px]" data-node-id="830:66" data-name="框饰切片 1,0">
+            <div className="absolute inset-0 overflow-hidden pointer-events-none">
+              <img alt="" className="absolute h-[418.98%] left-[-30.21%] max-w-none top-0 w-[160.43%]" src={img2} />
+            </div>
+          </div>
+          <div className="absolute h-[68.444px] left-[222.27px] mix-blend-darken top-0 w-[39.167px]" data-node-id="830:67" data-name="框饰切片 2,0">
+            <div className="absolute inset-0 overflow-hidden pointer-events-none">
+              <img alt="" className="absolute h-[418.98%] left-[-430.99%] max-w-none top-0 w-[530.99%]" src={img2} />
+            </div>
+          </div>
+          <div className="absolute h-[220px] left-0 mix-blend-darken top-[68.44px] w-[34.271px]" data-node-id="830:68" data-name="框饰切片 0,1">
+            <div className="absolute inset-0 overflow-hidden pointer-events-none">
+              <img alt="" className="absolute h-[161%] left-0 max-w-none top-[-38.43%] w-[530.99%]" src={img2} />
+            </div>
+          </div>
+          <div className="absolute h-[220px] left-[222.27px] mix-blend-darken top-[68.44px] w-[39.167px]" data-node-id="830:69" data-name="框饰切片 2,1">
+            <div className="absolute inset-0 overflow-hidden pointer-events-none">
+              <img alt="" className="absolute h-[161%] left-[-430.99%] max-w-none top-[-38.43%] w-[530.99%]" src={img2} />
+            </div>
+          </div>
+          <div className="absolute h-[32.267px] left-0 mix-blend-darken top-[288.44px] w-[34.271px]" data-node-id="830:70" data-name="框饰切片 0,2">
+            <div className="absolute inset-0 overflow-hidden pointer-events-none">
+              <img alt="" className="absolute h-[713.33%] left-0 max-w-none top-[-613.33%] w-[530.99%]" src={img2} />
+            </div>
+          </div>
+          <div className="absolute h-[32.267px] left-[34.27px] mix-blend-darken top-[288.44px] w-[188px]" data-node-id="830:71" data-name="框饰切片 1,2">
+            <div className="absolute inset-0 overflow-hidden pointer-events-none">
+              <img alt="" className="absolute h-[713.33%] left-[-30.21%] max-w-none top-[-613.33%] w-[160.43%]" src={img2} />
+            </div>
+          </div>
+          <div className="absolute h-[32.267px] left-[222.27px] mix-blend-darken top-[288.44px] w-[39.167px]" data-node-id="830:72" data-name="框饰切片 2,2">
+            <div className="absolute inset-0 overflow-hidden pointer-events-none">
+              <img alt="" className="absolute h-[713.33%] left-[-430.99%] max-w-none top-[-613.33%] w-[530.99%]" src={img2} />
+            </div>
+          </div>
+        </div>
+        <div className="absolute h-[239.069px] left-[687.78px] mix-blend-darken overflow-clip top-[560.47px] w-[318.37px]" data-node-id="830:74" data-name="FRAME 4 / 精修01 · 四角体量减轻">
+          <div className="absolute inset-0 overflow-hidden pointer-events-none">
+            <img alt="" className="absolute h-[108.62%] left-[-3.36%] max-w-none top-[-3.36%] w-[107.44%]" src={imgFrame401} />
+          </div>
+        </div>
+        <div className="absolute h-[210.551px] left-[1030.1px] mix-blend-darken overflow-clip top-[654.72px] w-[306.934px]" data-node-id="830:84" data-name="FRAME 5 / Grasset · 线重层次校准 v8">
+          <div className="absolute inset-0 overflow-hidden pointer-events-none">
+            <img alt="" className="absolute h-[119.23%] left-[-3.19%] max-w-none top-[-10.19%] w-[106.38%]" src={imgFrame5GrassetV8} />
+          </div>
+        </div>
+        <div className="absolute h-[1000px] left-0 top-0 w-[1440px]" data-node-id="830:94" data-name="挂线 / 可编辑">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={img3} />
+        </div>
+      </div>
+      <p className="[word-break:break-word] absolute font-['Noto_Serif_SC:Regular'] font-normal leading-[24px] left-[64px] text-[#1a1a1a] text-[16px] top-[32px] w-[640px]" data-node-id="830:96">
+        审美外挂 · 美学专题
+      </p>
+      <p className="[word-break:break-word] absolute font-['Noto_Serif_SC:Regular'] font-normal leading-[24px] left-[1104px] text-[#1a1a1a] text-[16px] top-[32px] w-[112px]" data-node-id="830:97">
+        04 / 24
+      </p>
+      <p className="[word-break:break-word] absolute font-['Noto_Serif_SC:Regular'] font-normal leading-[24px] left-[1240px] text-[#1a1a1a] text-[16px] top-[32px] w-[136px]" data-node-id="830:98">
+        切换专题 ↓
+      </p>
+      <div className="absolute bg-[#1a1a1a] h-[6px] left-[1024px] top-[72px] w-px" data-node-id="830:99" data-name="Rectangle" />
+      <div className="absolute bg-[#1a1a1a] h-[6px] left-[1039px] top-[72px] w-px" data-node-id="830:100" data-name="Rectangle" />
+      <div className="absolute bg-[#1a1a1a] h-[6px] left-[1054px] top-[72px] w-px" data-node-id="830:101" data-name="Rectangle" />
+      <div className="absolute bg-[#1a1a1a] h-[12px] left-[1069px] top-[72px] w-[3px]" data-node-id="830:102" data-name="Rectangle" />
+      <div className="absolute bg-[#1a1a1a] h-[6px] left-[1084px] top-[72px] w-px" data-node-id="830:103" data-name="Rectangle" />
+      <div className="absolute bg-[#1a1a1a] h-[6px] left-[1099px] top-[72px] w-px" data-node-id="830:104" data-name="Rectangle" />
+      <div className="absolute bg-[#1a1a1a] h-[6px] left-[1114px] top-[72px] w-px" data-node-id="830:105" data-name="Rectangle" />
+      <div className="absolute bg-[#1a1a1a] h-[6px] left-[1129px] top-[72px] w-px" data-node-id="830:106" data-name="Rectangle" />
+      <div className="absolute bg-[#1a1a1a] h-[6px] left-[1144px] top-[72px] w-px" data-node-id="830:107" data-name="Rectangle" />
+      <div className="absolute bg-[#1a1a1a] h-[6px] left-[1159px] top-[72px] w-px" data-node-id="830:108" data-name="Rectangle" />
+      <div className="absolute bg-[#1a1a1a] h-[6px] left-[1174px] top-[72px] w-px" data-node-id="830:109" data-name="Rectangle" />
+      <div className="absolute bg-[#1a1a1a] h-[6px] left-[1189px] top-[72px] w-px" data-node-id="830:110" data-name="Rectangle" />
+      <div className="absolute bg-[#1a1a1a] h-[6px] left-[1204px] top-[72px] w-px" data-node-id="830:111" data-name="Rectangle" />
+      <div className="absolute bg-[#1a1a1a] h-[6px] left-[1219px] top-[72px] w-px" data-node-id="830:112" data-name="Rectangle" />
+      <div className="absolute bg-[#1a1a1a] h-[6px] left-[1234px] top-[72px] w-px" data-node-id="830:113" data-name="Rectangle" />
+      <div className="absolute bg-[#1a1a1a] h-[6px] left-[1249px] top-[72px] w-px" data-node-id="830:114" data-name="Rectangle" />
+      <div className="absolute bg-[#1a1a1a] h-[6px] left-[1264px] top-[72px] w-px" data-node-id="830:115" data-name="Rectangle" />
+      <div className="absolute bg-[#1a1a1a] h-[6px] left-[1279px] top-[72px] w-px" data-node-id="830:116" data-name="Rectangle" />
+      <div className="absolute bg-[#1a1a1a] h-[6px] left-[1294px] top-[72px] w-px" data-node-id="830:117" data-name="Rectangle" />
+      <div className="absolute bg-[#1a1a1a] h-[6px] left-[1309px] top-[72px] w-px" data-node-id="830:118" data-name="Rectangle" />
+      <div className="absolute bg-[#1a1a1a] h-[6px] left-[1324px] top-[72px] w-px" data-node-id="830:119" data-name="Rectangle" />
+      <div className="absolute bg-[#1a1a1a] h-[6px] left-[1339px] top-[72px] w-px" data-node-id="830:120" data-name="Rectangle" />
+      <div className="absolute bg-[#1a1a1a] h-[6px] left-[1354px] top-[72px] w-px" data-node-id="830:121" data-name="Rectangle" />
+      <div className="absolute bg-[#1a1a1a] h-[6px] left-[1369px] top-[72px] w-px" data-node-id="830:122" data-name="Rectangle" />
+      <div className="[word-break:break-word] absolute content-stretch flex flex-col font-['Noto_Serif_SC:Regular'] font-normal gap-[24px] items-start left-[72px] overflow-clip top-[224px] w-[240px]" data-node-id="830:123" data-name="专题身份">
+        <p className="leading-[24px] relative shrink-0 text-[#615e57] text-[16px] w-[240px]" data-node-id="830:124">
+          第四章
+        </p>
+        <p className="leading-[104px] relative shrink-0 text-[#1a1a1a] text-[72px] w-[240px]" data-node-id="830:125">
+          幽玄
+        </p>
+        <p className="leading-[40px] relative shrink-0 text-[#1a1a1a] text-[28px] w-[240px]" data-node-id="830:126">
+          Yūgen
+        </p>
+        <p className="leading-[28px] relative shrink-0 text-[#1a1a1a] text-[18px] w-[240px]" data-node-id="830:127">
+          幽玄把可见的部分留在眼前，让更深的一层停在难以说尽的地方。
+        </p>
+        <p className="leading-[24px] relative shrink-0 text-[#615e57] text-[16px] w-[240px]" data-node-id="830:128">
+          5 个子分类
+        </p>
+      </div>
+      <p className="[word-break:break-word] absolute font-['Noto_Serif_SC:Regular'] font-normal leading-[24px] left-[72px] text-[#1a1a1a] text-[16px] top-[896px] w-[240px]" data-node-id="830:129">
+        ← 返回一级专题
+      </p>
+      <Component1 className="absolute h-[456px] left-[384px] top-[264px] w-[240px]" />
+      <Component2 className="absolute h-[376px] left-[688px] top-[168px] w-[400px]" />
+      <Component3 className="absolute h-[352px] left-[1120px] top-[288px] w-[224px]" />
+      <Component4 className="absolute h-[304px] left-[704px] top-[576px] w-[288px]" />
+      <Component5 className="absolute h-[272px] left-[1040px] top-[672px] w-[288px]" />
+    </div>
+  );
+}

@@ -1,0 +1,937 @@
+[
+  {
+    "source": "p1-p3-continuous-2026-10-31/ticks.js",
+    "output": "entrance/ticks.js",
+    "sha256": "2e77aaf7934fb5a8ca4577437a58d78382e523e6ded71657ae56254ba0647542"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/cover-extension.js",
+    "output": "entrance/cover-extension.js",
+    "sha256": "cf86ee42ff150cb4b38d2a40e1d9f32b89b02910c32cf1e7d3f48cef7f87a15c"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/mobile-star-blink.js",
+    "output": "entrance/mobile-star-blink.js",
+    "sha256": "f0c81d908a39be4bef9f18aaa30fea3b09b9e2aff7a0e2d2687658477b93e7ca"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/index.html",
+    "output": "entrance/index.html",
+    "sha256": "3ac97f5b2ee983f2f147de8ab6410f9fee7a4dade328532794509b369d20b0d6"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/styles.css",
+    "output": "entrance/styles.css",
+    "sha256": "7706daec489112c209254bc1b4f51080e312867858437b9aaa83c2afd490da28"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/desktop-fit.css",
+    "output": "entrance/desktop-fit.css",
+    "sha256": "14f376775603daf50215ef78e7ca24b400d4aa5bc8735b4102b538ea942e94b0"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/paper.css",
+    "output": "entrance/paper.css",
+    "sha256": "4fca1c05dd9f44dd1c6155c1bff88787bec5b74e1c368e533a197501d19f724a"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/paper-motion.mjs",
+    "output": "entrance/paper-motion.mjs",
+    "sha256": "cd6415adc420787a50ee32b808042c1e3eccbcfe85fa3d4cb57dae6929146dbd"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/transition.mjs",
+    "output": "entrance/transition.mjs",
+    "sha256": "f2dd5d9a8789dc144af26ccda2f12e20da9e053cc7e34632a35331be2a068319"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/transition.css",
+    "output": "entrance/transition.css",
+    "sha256": "6e3da3993020bf16d0c630a4aaa574e34371b4a8ddb70ca5cae3cc49fd07a8e6"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/gesture-adapter.mjs",
+    "output": "entrance/gesture-adapter.mjs",
+    "sha256": "35c3c1c1e201db504b1df4b7834424618cc6e55210b893f1211054b5140f1c68"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/star-motion.mjs",
+    "output": "entrance/star-motion.mjs",
+    "sha256": "cee71cf638d3333f205b192baf51a894612bc0731c3e093f57c291544ed50ee5"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/motion.js",
+    "output": "entrance/motion.js",
+    "sha256": "08e6cc211a7b8b4542ff13ddc18bc8a36ee6e07244ecf4772f9fb7797ba017ec"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/brand-lettering.css",
+    "output": "entrance/brand-lettering.css",
+    "sha256": "a83b6dd624affb7840c1de2c0ae4fe81f5fbf70712b8a584db00d7488cc1c698"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/app.js",
+    "output": "entrance/app.js",
+    "sha256": "114c2cd3f8470ed3385c51cf131aa46e58d5d82af58ff9a3bf507b0190078650"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/cover-extension.css",
+    "output": "entrance/cover-extension.css",
+    "sha256": "39d03a7b87dc17e926d3b32fe0650c04bc27c50b07d449cdf38536defb475f5e"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/continuous.css",
+    "output": "entrance/continuous.css",
+    "sha256": "c0d1870dd9b48e318153b52e72f5dfe98f84bc0d6e2ef927598bf0393dc8ab8c"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/ticks.css",
+    "output": "entrance/ticks.css",
+    "sha256": "2605b6765c9db5a6b55632d6c30be003cbb443d073b296444d40a1f5e7f073a2"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/p1-brand-companion-v20261101.svg",
+    "output": "entrance/assets/p1-brand-companion-v20261101.svg",
+    "sha256": "4706706a4356d8ca67b4f6faa60cf7a12f00457e69bf44651d3974f525eccdc6"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/extension-cells.js",
+    "output": "entrance/assets/extension-cells.js",
+    "sha256": "5fed5bd27b88d104c99a420c54b0f2b6646f2a0ad7665513af8e3b1cdcee02b6"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/small-night-glass-layer.png",
+    "output": "entrance/assets/small-night-glass-layer.png",
+    "sha256": "9161f8d5380bd70a620a39324d102e2c891419b37a74bed4ba7d649a86dd3715"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/paper-patch.png",
+    "output": "entrance/assets/paper-patch.png",
+    "sha256": "e724b26b63835ae56521bc2cf8853bc5cd3404c987981fb92a22c56071dcceaf"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/locked-pen-base.png",
+    "output": "entrance/assets/locked-pen-base.png",
+    "sha256": "93e3307d41dcebcbeb7a7fa28e341fabbb8b16feaff4b536cd3240b1f42731a1"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/lenis-1.3.27.min.js",
+    "output": "entrance/assets/lenis-1.3.27.min.js",
+    "sha256": "80f53e77f1c13e379fc246d2b5e299188e20bcb2b2fe7ebb13e8e8c7563a6da7"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/embla-carousel-8.6.0.umd.js",
+    "output": "entrance/assets/embla-carousel-8.6.0.umd.js",
+    "sha256": "f05b5dbfe37d79b636b9db74ad04ed5e99b4bce369d781b0fb38b0b2ac619e66"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/song.ttf",
+    "output": "entrance/assets/song.ttf",
+    "sha256": "3534a73b34ce90e78dc223c3a0148f9e1cf750e57e08cca49d79503f06b55e69"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/covers/14.jpg",
+    "output": "entrance/assets/covers/14.jpg",
+    "sha256": "b298993b93b6fc9dbed276a90667fff5bfecc0dcfbb2f567b3863a7186c2e738"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/covers/15.jpg",
+    "output": "entrance/assets/covers/15.jpg",
+    "sha256": "051adde60001aa128acd633e95b97a2086822461ec552de7c8b921928336720c"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/covers/17.jpg",
+    "output": "entrance/assets/covers/17.jpg",
+    "sha256": "06ae1e2f737fa3f5f84b18cee2da34edf186f9a2df6a6dd7757d4a51357dd859"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/covers/03.jpg",
+    "output": "entrance/assets/covers/03.jpg",
+    "sha256": "8c9bff8a4fbdfe8b534faf84bafa6063760b271709b0ce5c1d7b81a3cc5a739e"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/covers/02.jpg",
+    "output": "entrance/assets/covers/02.jpg",
+    "sha256": "1d8dec69bb04c67b30663f808cdca88727efb36bdfc9fcbe00269132b783c568"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/covers/16.jpg",
+    "output": "entrance/assets/covers/16.jpg",
+    "sha256": "9d99d277dce502b7cc82d80e5a5ea0015e3024830a361c5a7bfc7308592edbaa"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/covers/12.jpg",
+    "output": "entrance/assets/covers/12.jpg",
+    "sha256": "95184b81594fb133406d6587d9307a4042c238f3f5e7b99fc46f05931b813faf"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/covers/06.jpg",
+    "output": "entrance/assets/covers/06.jpg",
+    "sha256": "b14947e3b619853c9e40c3d358f511c593e549b11ce45ff86d11ac997d64d6cc"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/covers/01.jpeg",
+    "output": "entrance/assets/covers/01.jpeg",
+    "sha256": "f59a908c23d0b40924faa94c9fbd773b2960424b9ea4d62b1f148208e0846237"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/covers/07.jpg",
+    "output": "entrance/assets/covers/07.jpg",
+    "sha256": "2d7f67dc234ca2f3b6a9d876792439cdb665434fde9beab8d981ae258d98cc9d"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/covers/13.jpg",
+    "output": "entrance/assets/covers/13.jpg",
+    "sha256": "7600b7745565f3328a91b920ee7430b699f8fd69ae9eb8a399a5771d9b9617eb"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/covers/05.jpg",
+    "output": "entrance/assets/covers/05.jpg",
+    "sha256": "77c30b1ea94167704ebd7a9930b8dcae9eccedd97efb4400a08d53dd3d420cd7"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/covers/11.jpg",
+    "output": "entrance/assets/covers/11.jpg",
+    "sha256": "0790f3b3b634e58df8ec5c98868664c7a946d6caef2c88a69a714222c8897cdc"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/covers/10.jpg",
+    "output": "entrance/assets/covers/10.jpg",
+    "sha256": "01ee22d1b1129de54ff7874dd04f01df4927bce364a3704bc9f8be71e790bb6d"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/covers/04.jpg",
+    "output": "entrance/assets/covers/04.jpg",
+    "sha256": "9fdc48c08d00ff20de9ad7a032d40fcd1e0b0ead501df75d0d4f8983f7f75744"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/covers/21.jpg",
+    "output": "entrance/assets/covers/21.jpg",
+    "sha256": "3b40a973174e47ec11901d387ea5a09d22ded16c89c5578b051cf406f975294c"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/covers/09.jpg",
+    "output": "entrance/assets/covers/09.jpg",
+    "sha256": "fef0f4f230c4fb3113555e56ec2260dae969fc0503ba4a3f99c4c1501ad8d6f5"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/covers/08.jpg",
+    "output": "entrance/assets/covers/08.jpg",
+    "sha256": "ed9646e511536d5398e4082b25dd7d52766ddc2c70cf462b10e1edef4f286cd9"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/covers/20.jpg",
+    "output": "entrance/assets/covers/20.jpg",
+    "sha256": "8f00e92550ebe7862921a90066eb8b858469de81c6181228d3fa398e145d21bd"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/covers/22.jpg",
+    "output": "entrance/assets/covers/22.jpg",
+    "sha256": "9324bf514754efad4ea81695f8a900b3e1bb76b603bbe370b89473588cec9812"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/covers/23.jpg",
+    "output": "entrance/assets/covers/23.jpg",
+    "sha256": "0f1fa9e2568e95ed24d08d5bf0df746b6fb16054b19e51888805bfbfcd3e63e8"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/covers/18.jpg",
+    "output": "entrance/assets/covers/18.jpg",
+    "sha256": "c1cbf4858f0f3e6cd825e41dab94845bd778efe367d079e1a1136f1f5797a36f"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/covers/24.jpg",
+    "output": "entrance/assets/covers/24.jpg",
+    "sha256": "65fafbb80af0a05c70ea6aca309e48daa1a6618e0b1744234ad6c21f3721d959"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/covers/19.jpg",
+    "output": "entrance/assets/covers/19.jpg",
+    "sha256": "6dfe40464324a8320f4951ba3c6f1e04bea36d57b7b81a48360b7fd86ca259d6"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/masks/web-2-title.png",
+    "output": "entrance/assets/masks/web-2-title.png",
+    "sha256": "c52a7eb602ad16c08b7bf027d84df9b8de1eb8a1bd3f54c25e9fe80b6cbef780"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/masks/web-4-art.png",
+    "output": "entrance/assets/masks/web-4-art.png",
+    "sha256": "20bf9f94664c301a8a6326ef24ccd26aa55bcbc3f247f38280f1b32d6e164242"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/masks/mobile-1-title.png",
+    "output": "entrance/assets/masks/mobile-1-title.png",
+    "sha256": "f047b5059c2a02cead53ee8a720fa0c2056a1e94e0cd44a24fef0d1aeba6af15"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/masks/extension-web-3-art.png",
+    "output": "entrance/assets/masks/extension-web-3-art.png",
+    "sha256": "cb3b0cf4de2ea2d3f9ea390de3a37349da83c1429d861ba634cc53d6d90aab7f"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/masks/extension-mobile-0-opening.png",
+    "output": "entrance/assets/masks/extension-mobile-0-opening.png",
+    "sha256": "951ba8560646c55f89143f413ac398d3c71e65ac37b225b6d1ca3a544d5a1df6"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/masks/mobile-1-opening.png",
+    "output": "entrance/assets/masks/mobile-1-opening.png",
+    "sha256": "b02f4a095c659c37d03478aea7b528673a710cda976f266eb3647688b00bab9b"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/masks/web-4-opening.png",
+    "output": "entrance/assets/masks/web-4-opening.png",
+    "sha256": "5709d52af4b9d4fac09ade645def72ba5134c241eff13ad454101bcdffcd1c7d"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/masks/extension-mobile-1-art.png",
+    "output": "entrance/assets/masks/extension-mobile-1-art.png",
+    "sha256": "aa176c066fc237d088dae118822b118585338c173b05349b728632743bf2ea57"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/masks/extension-web-2-art.png",
+    "output": "entrance/assets/masks/extension-web-2-art.png",
+    "sha256": "8cdc532f1dd1220319bb485c5f63540bb32b19180d827e2682051ff9f1678af8"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/masks/extension-mobile-0-art.png",
+    "output": "entrance/assets/masks/extension-mobile-0-art.png",
+    "sha256": "2c94ebd3ec916971aa0115c60033e3429f762346ffa0fd6f8b496de55d4e474e"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/masks/web-4-title.png",
+    "output": "entrance/assets/masks/web-4-title.png",
+    "sha256": "dc3bb05d802f85d11c6c8504c9b2acad6d19f62dc002cc7bcb1911a6534bd2ee"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/masks/web-1-opening.png",
+    "output": "entrance/assets/masks/web-1-opening.png",
+    "sha256": "3df80960308d1f97e7e68bed3642c938737a1f78bfef39c33f82e2feade680ae"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/masks/extension-web-2-opening.png",
+    "output": "entrance/assets/masks/extension-web-2-opening.png",
+    "sha256": "2a5809ea1844617d45cdaf43c95128e46fa2618f7c7e70489de5622e7f605afc"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/masks/web-3-title.png",
+    "output": "entrance/assets/masks/web-3-title.png",
+    "sha256": "88009d94db9265aed669885181698d346737f9a5a4e2b69d0f0a66fb31fb3a72"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/masks/extension-web-0-art.png",
+    "output": "entrance/assets/masks/extension-web-0-art.png",
+    "sha256": "bf0c5a5861822822fce704e6aaa6baed29a7339aaf18cfbcbb2c6f0196318f26"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/masks/extension-web-1-opening.png",
+    "output": "entrance/assets/masks/extension-web-1-opening.png",
+    "sha256": "48576cdd696ef7c365d7cf18be17d557ddc6a58734f5f71ffff4b9ab02346a37"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/masks/mobile-0-title.png",
+    "output": "entrance/assets/masks/mobile-0-title.png",
+    "sha256": "acd2c36516915a062a90d9321909c882dc6e97766cd909559f15f33e6bb1bc09"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/masks/extension-mobile-2-art.png",
+    "output": "entrance/assets/masks/extension-mobile-2-art.png",
+    "sha256": "29f1b7316fc5f06b958111ba6393ba9484b709cdd1adeec1e6a284d0c0131d72"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/masks/web-2-opening.png",
+    "output": "entrance/assets/masks/web-2-opening.png",
+    "sha256": "3a858a9787189e0c131e5769f3c48e198a32a320814c87ef2ecedec2210603d0"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/masks/mobile-2-opening.png",
+    "output": "entrance/assets/masks/mobile-2-opening.png",
+    "sha256": "20b4f6d8db6bd9b24a181843d63a8594e5139cf88d289ae78829968fb825ca1c"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/masks/extension-web-1-art.png",
+    "output": "entrance/assets/masks/extension-web-1-art.png",
+    "sha256": "30b089958961ad999979d6e90bd1782617e8e775828444150dbf6ce81bb7b86c"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/masks/extension-web-4-opening.png",
+    "output": "entrance/assets/masks/extension-web-4-opening.png",
+    "sha256": "136f063c6a1c55c5ceb7bc434f5baf8f9422068bd79acd87fc81baaebf233086"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/masks/extension-web-4-art.png",
+    "output": "entrance/assets/masks/extension-web-4-art.png",
+    "sha256": "35e9fc3495bd3a50868c6a5bc248c4008e8af3833e21978b2f5f9e7d77db9844"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/masks/extension-web-3-opening.png",
+    "output": "entrance/assets/masks/extension-web-3-opening.png",
+    "sha256": "c60bf3c4fd7d96e78f16bf3c13e868fb3eca308bb5cca5f26233631510fd0fb4"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/masks/web-0-title.png",
+    "output": "entrance/assets/masks/web-0-title.png",
+    "sha256": "9345eb950eefd38c98c725537b2211e07e29c4b46c6037e6949cc92a39226514"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/masks/mobile-0-art.png",
+    "output": "entrance/assets/masks/mobile-0-art.png",
+    "sha256": "025e1c9c0822932850f7d61d80fa71d560d7a5821667b14615b886e30ba2f57b"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/masks/web-0-opening.png",
+    "output": "entrance/assets/masks/web-0-opening.png",
+    "sha256": "02be0c2d7a1653103b04337ace59cb75d9d42e6a6114b7eef506413b3a6798ad"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/masks/web-3-art.png",
+    "output": "entrance/assets/masks/web-3-art.png",
+    "sha256": "bcfcbd8e949e8bbdf61761e9b425d17b597ddb3dd7b7dc26635ca7e7da2a816c"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/masks/mobile-0-opening.png",
+    "output": "entrance/assets/masks/mobile-0-opening.png",
+    "sha256": "de4fbbf72b6a3dd79ca3f5a94d5f664ec1f8d80e5d1cff884422603e0f47d876"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/masks/web-2-art.png",
+    "output": "entrance/assets/masks/web-2-art.png",
+    "sha256": "fc0ecf881234308720e132c45a5d57442eb140e9cf1751a7f23879a50597dd8c"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/masks/extension-mobile-1-opening.png",
+    "output": "entrance/assets/masks/extension-mobile-1-opening.png",
+    "sha256": "1a034d6ded8c9c281a55e2c3f040d23ca5ac5fc634d5442850050abad140b9b4"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/masks/mobile-1-art.png",
+    "output": "entrance/assets/masks/mobile-1-art.png",
+    "sha256": "34d06b25ee47242d0a74775dca84669dd8a8e45d97f090a53a9c84bb3babdf24"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/masks/web-0-art.png",
+    "output": "entrance/assets/masks/web-0-art.png",
+    "sha256": "1b95d5c4dbffe8b1e761e62a61a55e9a3191df94b11bfc585f8958eb5e0d9341"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/masks/mobile-2-title.png",
+    "output": "entrance/assets/masks/mobile-2-title.png",
+    "sha256": "66df43b6fc664c5d19100871e5c5db4bdd0833048f67811019a4a78eef1dab05"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/masks/web-1-title.png",
+    "output": "entrance/assets/masks/web-1-title.png",
+    "sha256": "b68d6e5a0f550efddd0f74ac75601a7b9ed28b764ee88b6750ed65c53e160eab"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/masks/extension-mobile-2-opening.png",
+    "output": "entrance/assets/masks/extension-mobile-2-opening.png",
+    "sha256": "3f9e21bdd5786b6889b239fb9566ae51f27de8d0057e9653d40ed48261f7965f"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/masks/web-3-opening.png",
+    "output": "entrance/assets/masks/web-3-opening.png",
+    "sha256": "9bd41fdd2a7549ee0bef2c36200c1e2321101ded8cd78531bd2393f9ee19eb73"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/masks/mobile-2-art.png",
+    "output": "entrance/assets/masks/mobile-2-art.png",
+    "sha256": "aec0f96c490f4356f63e9eeddabde57ed55ad361e9f5371531ebd1c5a6566d81"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/masks/extension-web-0-opening.png",
+    "output": "entrance/assets/masks/extension-web-0-opening.png",
+    "sha256": "25ab5a90bf8f1eb18cd29343f539121a69d074e56becfe69bbc8fcc462599141"
+  },
+  {
+    "source": "p1-p3-continuous-2026-10-31/assets/masks/web-1-art.png",
+    "output": "entrance/assets/masks/web-1-art.png",
+    "sha256": "b2f6c09cc82e31c50b506bdb50f84a82a1833c66db8e4261aee85bc5ba053b13"
+  },
+  {
+    "source": "p1-p2-reveal-star-v4-2026-10-21/index.html",
+    "output": "p1-p2-reveal-star-v4-2026-10-21/index.html",
+    "sha256": "d4d6da8dcc3b173a4e7da4a2bc71c716108de6bcb68b8fc7ced565f57b1f9ee9"
+  },
+  {
+    "source": "p1-p2-reveal-star-v4-2026-10-21/v4_star_context.png",
+    "output": "p1-p2-reveal-star-v4-2026-10-21/v4_star_context.png",
+    "sha256": "127fede86fe7a8614cd24a5c8d1ae61b8362a0bf9fbae5ba872bebbcc2939c1e"
+  },
+  {
+    "source": "p1-p2-reveal-star-v4-2026-10-21/star-svg/B_ink.svg",
+    "output": "p1-p2-reveal-star-v4-2026-10-21/star-svg/B_ink.svg",
+    "sha256": "02f7919e00a3fd59f515c6af68f6e2e84edf2ba31e4aae503a2394e4ec2da5a7"
+  },
+  {
+    "source": "p1-p2-reveal-star-v4-2026-10-21/star-svg/B_cream.svg",
+    "output": "p1-p2-reveal-star-v4-2026-10-21/star-svg/B_cream.svg",
+    "sha256": "ff126da9cf4542b4ba5885f6e38ab4eca8d63200ace7533e2bdfb1028901170f"
+  },
+  {
+    "source": "p1-p2-reveal-star-v4-2026-10-21/assets/p2_nostar.png",
+    "output": "p1-p2-reveal-star-v4-2026-10-21/assets/p2_nostar.png",
+    "sha256": "0048d8d8e9a8389760e71435b3093e8bde0a48fd5138e8395afa44e13bb7a056"
+  },
+  {
+    "source": "p1-p2-reveal-star-v4-2026-10-21/assets/starB_ink.png",
+    "output": "p1-p2-reveal-star-v4-2026-10-21/assets/starB_ink.png",
+    "sha256": "cdb5ccd00b87334984dbaac1d847d987ed18984ce805def49c4e59ed7fba7718"
+  },
+  {
+    "source": "p1-p2-reveal-star-v4-2026-10-21/assets/shrine.png",
+    "output": "p1-p2-reveal-star-v4-2026-10-21/assets/shrine.png",
+    "sha256": "12272eb415c76a73b8e34b167457ad7dd5d4867bd7044075dc8410e4c31a2d89"
+  },
+  {
+    "source": "p1-p2-reveal-star-v4-2026-10-21/assets/woman.png",
+    "output": "p1-p2-reveal-star-v4-2026-10-21/assets/woman.png",
+    "sha256": "b64bee82ed58a00166133546327412c02431961cc5f52c958c3ca79c6eff4a29"
+  },
+  {
+    "source": "p1-p2-reveal-star-v4-2026-10-21/assets/starB_cream.png",
+    "output": "p1-p2-reveal-star-v4-2026-10-21/assets/starB_cream.png",
+    "sha256": "3b6fd59c934434d6e0c50a7a5c12f3f6418e87ca3c906192098e60ac979b6afb"
+  },
+  {
+    "source": "p1-p2-reveal-star-v4-2026-10-21/assets/text.png",
+    "output": "p1-p2-reveal-star-v4-2026-10-21/assets/text.png",
+    "sha256": "b4b35b2d3a8c0b1dd5be5d8a34babc941ece84264b3c0800796cd8ff3fa3c559"
+  },
+  {
+    "source": "p1-p2-reveal-star-v4-2026-10-21/assets/bg.png",
+    "output": "p1-p2-reveal-star-v4-2026-10-21/assets/bg.png",
+    "sha256": "a8434612f1f6392272af652395f178b6c4141eff6caacd1e5b39d358d620c616"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/index.html",
+    "output": "p3-stained-glass-v3-2026-10-23/index.html",
+    "sha256": "f91ae7cd30c95c93ae46aec32cfbea509f310abceea2ce0da3a20e497c05a8b1"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/tools/page_template.html",
+    "output": "p3-stained-glass-v3-2026-10-23/tools/page_template.html",
+    "sha256": "e718df6bd1e72ff6c65036da6a474c3e4e63fde0ec10e4dbda880b41d5f57536"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/layers/star-B-cream.svg",
+    "output": "p3-stained-glass-v3-2026-10-23/layers/star-B-cream.svg",
+    "sha256": "07daa98f0b659ca49ea103012eec75ab04c1bdd94413d82a73ef229c7493be2b"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/layers/star-B-ink.svg",
+    "output": "p3-stained-glass-v3-2026-10-23/layers/star-B-ink.svg",
+    "sha256": "2de6da67643868b5a47a8a8e0eb6288172fe071a685edfc82dfb7bca1beb6e4c"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/work/crop_arcadia.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/work/crop_arcadia.jpg",
+    "sha256": "63c713392b56f19193756c721995365b0378d61a40c4f28df375996367361dc2"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/work/crop_liubai.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/work/crop_liubai.jpg",
+    "sha256": "8171a5b7b9c6f9a426b1cf3d5f4b8cf37c08509fb21a20b6088fabdd4238c242"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/work/crop_yugen.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/work/crop_yugen.jpg",
+    "sha256": "04af3fdd25f641afb5dcbd972b4a63894a841338b15e6fad1d2f6a847d0469ab"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/work/crop_eros.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/work/crop_eros.jpg",
+    "sha256": "d3c337cdc5137aa05cc7807ebfa41feb6e6935143090b76d42c5e9c35d8a281e"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/work/crop_melancholy.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/work/crop_melancholy.jpg",
+    "sha256": "6a1bf38d6fb6791abae1b29b82ab880c9c5572306475f174c8bddc707e1e5203"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/junction-water-desk.png",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/junction-water-desk.png",
+    "sha256": "ef5eb12a6e431934899eef4f74d43b84ef1316e49f3b0ce56941a71a9dfaead8"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/m_p1_notext_original_v20261101.png",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/m_p1_notext_original_v20261101.png",
+    "sha256": "b9a9df57d989d62528987641d1a5d5d6bd4a753e0f33e95a4ab4c45344b6a182"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/lineart-web.png",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/lineart-web.png",
+    "sha256": "8a76aba392639c8e3989915c0f0bfb3f27b938c20ed866e834b3bc3107c82776"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/window-web.png",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/window-web.png",
+    "sha256": "b6a01a22c073aaab7f72d6ae6692608a7a6ef41e121031cb2b5407fe01673928"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/window-mobile.png",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/window-mobile.png",
+    "sha256": "756732984290353104874da398308f06e386d78f9030cf1815ff69cead56e81f"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/junction-water-mob.png",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/junction-water-mob.png",
+    "sha256": "93b3913e6aa4cb1c3a2835b9de30a7fb03ce205e811a8ecf00120bac5d3f7219"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/m_p2_vector_v20261101.svg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/m_p2_vector_v20261101.svg",
+    "sha256": "3786cf9807e7d4d978a4ce436e227c3fb28aac292887ff17f12f09395e5ae631"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/cabinet-song.ttf",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/cabinet-song.ttf",
+    "sha256": "3534a73b34ce90e78dc223c3a0148f9e1cf750e57e08cca49d79503f06b55e69"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/m_p1.png",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/m_p1.png",
+    "sha256": "ab04247342df90a0803363a362424883d8433b6165608d1fa831b3ac95ae13c1"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/m_p2_nostar.png",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/m_p2_nostar.png",
+    "sha256": "d81ac2e061111904cab92354346a27bdcbc15ff5db3bc31ca561aa67b413f0d4"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/lineart-mobile.png",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/lineart-mobile.png",
+    "sha256": "306cda8f3a58c74a4896a89b74c49441aa4c3813b0d1903576f08997ffa69c76"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/renders/window-mobile-c3.png",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/renders/window-mobile-c3.png",
+    "sha256": "7e5f9ebba367877337d6c1e4073fa797051c20bbb8b61aa57c65ef56815f9ec9"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/renders/window-mobile-c2.png",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/renders/window-mobile-c2.png",
+    "sha256": "756732984290353104874da398308f06e386d78f9030cf1815ff69cead56e81f"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/renders/window-mobile-c0.png",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/renders/window-mobile-c0.png",
+    "sha256": "1908e904fdf576438d5215e24627fd5b78c2e0bd874705ba872d375eda0823cc"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/renders/window-mobile-c1.png",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/renders/window-mobile-c1.png",
+    "sha256": "1438e707f6d627d13c4cf3d482b598bda7c0d819c46fc635788837dd582cb371"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/renders/chassis-mobile.png",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/renders/chassis-mobile.png",
+    "sha256": "de6d9baa061e6af9a2c92aec10d034fa93396a5baeda4439254ec964ec77fdde"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/renders/window-mobile-c4.png",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/renders/window-mobile-c4.png",
+    "sha256": "944cb5b5ab37ecb1491ae9f8498255cee8f1540b153d3167119c24d10924505a"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/renders/chassis-web.png",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/renders/chassis-web.png",
+    "sha256": "7e81776aee1f9bca9cc9c601ebf8238e7065b9ffde32a2a3c7c4486aa2c855d5"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/renders/window-web-full.png",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/renders/window-web-full.png",
+    "sha256": "b6a01a22c073aaab7f72d6ae6692608a7a6ef41e121031cb2b5407fe01673928"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/arcadia.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/arcadia.jpg",
+    "sha256": "8c9bff8a4fbdfe8b534faf84bafa6063760b271709b0ce5c1d7b81a3cc5a739e"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/xia.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/xia.jpg",
+    "sha256": "95184b81594fb133406d6587d9307a4042c238f3f5e7b99fc46f05931b813faf"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/tragic.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/tragic.jpg",
+    "sha256": "6dfe40464324a8320f4951ba3c6f1e04bea36d57b7b81a48360b7fd86ca259d6"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/sprezzatura.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/sprezzatura.jpg",
+    "sha256": "051adde60001aa128acd633e95b97a2086822461ec552de7c8b921928336720c"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/lightness.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/lightness.jpg",
+    "sha256": "7600b7745565f3328a91b920ee7430b699f8fd69ae9eb8a399a5771d9b9617eb"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/eros.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/eros.jpg",
+    "sha256": "1d8dec69bb04c67b30663f808cdca88727efb36bdfc9fcbe00269132b783c568"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/yugen.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/yugen.jpg",
+    "sha256": "9fdc48c08d00ff20de9ad7a032d40fcd1e0b0ead501df75d0d4f8983f7f75744"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/nostalgia.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/nostalgia.jpg",
+    "sha256": "9324bf514754efad4ea81695f8a900b3e1bb76b603bbe370b89473588cec9812"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/dionysian.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/dionysian.jpg",
+    "sha256": "77c30b1ea94167704ebd7a9930b8dcae9eccedd97efb4400a08d53dd3d420cd7"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/ruin.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/ruin.jpg",
+    "sha256": "8f00e92550ebe7862921a90066eb8b858469de81c6181228d3fa398e145d21bd"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/infra-ordinary.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/infra-ordinary.jpg",
+    "sha256": "fef0f4f230c4fb3113555e56ec2260dae969fc0503ba4a3f99c4c1501ad8d6f5"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/grotesque.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/grotesque.jpg",
+    "sha256": "06ae1e2f737fa3f5f84b18cee2da34edf186f9a2df6a6dd7757d4a51357dd859"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/melancholy.jpeg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/melancholy.jpeg",
+    "sha256": "f59a908c23d0b40924faa94c9fbd773b2960424b9ea4d62b1f148208e0846237"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/uncanny.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/uncanny.jpg",
+    "sha256": "0f1fa9e2568e95ed24d08d5bf0df746b6fb16054b19e51888805bfbfcd3e63e8"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/future-imaginaries.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/future-imaginaries.jpg",
+    "sha256": "3b40a973174e47ec11901d387ea5a09d22ded16c89c5578b051cf406f975294c"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/sublime.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/sublime.jpg",
+    "sha256": "b298993b93b6fc9dbed276a90667fff5bfecc0dcfbb2f567b3863a7186c2e738"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/cool.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/cool.jpg",
+    "sha256": "9d99d277dce502b7cc82d80e5a5ea0015e3024830a361c5a7bfc7308592edbaa"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/pingdan.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/pingdan.jpg",
+    "sha256": "2d7f67dc234ca2f3b6a9d876792439cdb665434fde9beab8d981ae258d98cc9d"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/qiyun.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/qiyun.jpg",
+    "sha256": "0790f3b3b634e58df8ec5c98868664c7a946d6caef2c88a69a714222c8897cdc"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/wabi-sabi.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/wabi-sabi.jpg",
+    "sha256": "01ee22d1b1129de54ff7874dd04f01df4927bce364a3704bc9f8be71e790bb6d"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/liubai.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/liubai.jpg",
+    "sha256": "b14947e3b619853c9e40c3d358f511c593e549b11ce45ff86d11ac997d64d6cc"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/cute.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/cute.jpg",
+    "sha256": "65fafbb80af0a05c70ea6aca309e48daa1a6618e0b1744234ad6c21f3721d959"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/in-praise-of-shadows.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/in-praise-of-shadows.jpg",
+    "sha256": "c1cbf4858f0f3e6cd825e41dab94845bd778efe367d079e1a1136f1f5797a36f"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/mono-no-aware.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/feishu/covers/mono-no-aware.jpg",
+    "sha256": "ed9646e511536d5398e4082b25dd7d52766ddc2c70cf462b10e1edef4f286cd9"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/figma/459-2_夕里线稿底层_1448x1086_original.png",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/figma/459-2_夕里线稿底层_1448x1086_original.png",
+    "sha256": "b440f710b91aa563f77b1feb366e506c4d81bc7768bb82e0b31cc16deb118d78"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/figma/441-105_mobile真实封面试排_export@3x.png",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/figma/441-105_mobile真实封面试排_export@3x.png",
+    "sha256": "e71a0e1d5552983fc11877e994198ec264657acd81e8139cdc45f17bb36c3dee"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/figma/441-69_web骨架.svg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/figma/441-69_web骨架.svg",
+    "sha256": "8f1d79fb01cb5419e95608250db2d6b403025ec103bcf3398a985ef781fa5025"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/figma/441-63_web真实封面试排_export@2x.png",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/figma/441-63_web真实封面试排_export@2x.png",
+    "sha256": "6aa67aeff56628a5649f999ac5da0bcda01264e7ec89b22beacdf827382236fc"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/figma/441-107_mobile骨架.svg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/figma/441-107_mobile骨架.svg",
+    "sha256": "1c91a9488eef3ce9799ebe07c24148f9843fe32508131c9a7f1bc9f0c0edff98"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/v4/p2_nostar.png",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/v4/p2_nostar.png",
+    "sha256": "0048d8d8e9a8389760e71435b3093e8bde0a48fd5138e8395afa44e13bb7a056"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/v4/shrine.png",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/v4/shrine.png",
+    "sha256": "12272eb415c76a73b8e34b167457ad7dd5d4867bd7044075dc8410e4c31a2d89"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/v4/woman.png",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/v4/woman.png",
+    "sha256": "b64bee82ed58a00166133546327412c02431961cc5f52c958c3ca79c6eff4a29"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/v4/text.png",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/v4/text.png",
+    "sha256": "b4b35b2d3a8c0b1dd5be5d8a34babc941ece84264b3c0800796cd8ff3fa3c559"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/v4/bg.png",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/v4/bg.png",
+    "sha256": "a8434612f1f6392272af652395f178b6c4141eff6caacd1e5b39d358d620c616"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/panes/arcadia.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/panes/arcadia.jpg",
+    "sha256": "e46f76ae1847a9c4951b2346e4164937375e43023f1431d32c9be0e423e94b75"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/panes/xia.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/panes/xia.jpg",
+    "sha256": "22b25a2fb9ea9ba219497f3f7a27798264eb6702f3ed32c2f1a1383a9b39c3b0"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/panes/tragic.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/panes/tragic.jpg",
+    "sha256": "c3ec2e57e92573fc4f24f2458d99a3cf5dc5491bcb43fafa1dbef512538f6e65"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/panes/sprezzatura.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/panes/sprezzatura.jpg",
+    "sha256": "70e69b1e31d27f9f6dc9023d59a31d3a28b473d3727c5a0c49be75152b0102e1"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/panes/lightness.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/panes/lightness.jpg",
+    "sha256": "19181da2b03b8a554fda38be361fa0e7ae3f757c7eb341c780fbc8c250ead9e0"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/panes/eros.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/panes/eros.jpg",
+    "sha256": "5784d9600531db6c0e596cf331f14a746f72637269cf6d1e819ad5787e4a4121"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/panes/yugen.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/panes/yugen.jpg",
+    "sha256": "dfb9b29546af5803aaa7d0e00754f52d710f2c31db86b8fbd6f5a22820acb76a"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/panes/nostalgia.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/panes/nostalgia.jpg",
+    "sha256": "894333bca31d1078cf71df682156f6abf52a50aea19ced60adeedd89f1c09c81"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/panes/dionysian.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/panes/dionysian.jpg",
+    "sha256": "fe60cd95fe6efd226c1653df822d950295e34ac70f972a69ccd3df582e979964"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/panes/ruin.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/panes/ruin.jpg",
+    "sha256": "655fe98ef7d32fcd1f82ca3f4fc8ea4a48bc1e75e6ccef2b0833351885a95ca9"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/panes/infra-ordinary.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/panes/infra-ordinary.jpg",
+    "sha256": "ad8d57289dfdff188029c87ff51290c6b752439c1586b2efd9ab3f7a629ccc94"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/panes/grotesque.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/panes/grotesque.jpg",
+    "sha256": "382158e7321f30c730e7caab49e13656b99fecb9aa04074fb5593f9f6aa2efe0"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/panes/uncanny.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/panes/uncanny.jpg",
+    "sha256": "f0a6f6e2133bc3cb2e274cb93dfa8a7b9a0389773dbe3baa4664f8dc91b67554"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/panes/future-imaginaries.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/panes/future-imaginaries.jpg",
+    "sha256": "ea4e3c35ca2002baa532332a90d085de73ab0ef391e86eb1cc1097fbb8b35e2e"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/panes/sublime.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/panes/sublime.jpg",
+    "sha256": "5bb7364ce1dc1157a871e2890c86c2b651c92aea165866ae27cf8ce8c8cadfa7"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/panes/cool.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/panes/cool.jpg",
+    "sha256": "820f87bcc0f02da4454ef42674f6be0d6981ebfcb3b77b9a5a2431825836325b"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/panes/pingdan.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/panes/pingdan.jpg",
+    "sha256": "cbf7d9fd8f283a7bc9c054dcc7bc1ddd7d2ea4a6604a9f32c0dde355a7b52a05"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/panes/melancholy.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/panes/melancholy.jpg",
+    "sha256": "2b6328385197a2ed56dbe3d726b9b626ae472858883df0b31c66938583e0c362"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/panes/qiyun.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/panes/qiyun.jpg",
+    "sha256": "4e4282eeb47a42ab0692173c373537da0d5a5725087956846b5fbd6836f0cc1c"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/panes/wabi-sabi.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/panes/wabi-sabi.jpg",
+    "sha256": "4c50e446ce08c9cee5052dfe7b5953adc8c9cc08ea093624fbcd67c8ea303b42"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/panes/liubai.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/panes/liubai.jpg",
+    "sha256": "8d859fd6ce198e9715aaa9d12d2cca2eedb4ec45a6d862f7e50592941015e860"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/panes/cute.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/panes/cute.jpg",
+    "sha256": "0cbb0ce994a24d040c8b837c4f9d48def5401ffef8b271ef0bad351aee770587"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/panes/in-praise-of-shadows.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/panes/in-praise-of-shadows.jpg",
+    "sha256": "f5eb7d4e5806a5089e09ed051fb5b441e1192bd0c0a9b162d4cb4688ffced2ec"
+  },
+  {
+    "source": "p3-stained-glass-v3-2026-10-23/assets/panes/mono-no-aware.jpg",
+    "output": "p3-stained-glass-v3-2026-10-23/assets/panes/mono-no-aware.jpg",
+    "sha256": "63a18421cdcea30d31d7b9b84f1dc844cd655aca8003eb1af89b0dc6386c1ebf"
+  }
+]

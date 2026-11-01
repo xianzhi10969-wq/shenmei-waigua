@@ -1,0 +1,11 @@
+test_all_rows_relations_and_api (test_data.DataIntegration) ... ok
+test_last_good_snapshot_survives_sync_failure (test_data.DataIntegration) ... Sync failed; last complete catalog retained: simulated offline
+ok
+test_media_complete_and_private_fields_absent (test_data.DataIntegration) ... ok
+test_no_private_routes_and_cache (test_data.DataIntegration) ... ok
+test_order_membership_unkept_cases_and_unknown_relation (test_data.DataIntegration) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.906s
+
+OK

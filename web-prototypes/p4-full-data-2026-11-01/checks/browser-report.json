@@ -1,0 +1,17 @@
+{
+  "chapterViewportChecks": 120,
+  "termRoutes": 101,
+  "errors": [],
+  "failedRequests": [],
+  "layoutIssues": [],
+  "interactions": [
+    "P3 selected topic → P4",
+    "P4 → term → case → term preserves chapter",
+    "lightbox Escape + focus restore",
+    "24-topic chooser",
+    "search",
+    "browser back",
+    "API failure + retry",
+    "unknown route"
+  ]
+}

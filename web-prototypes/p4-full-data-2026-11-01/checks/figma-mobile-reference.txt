@@ -1,0 +1,337 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/b4efa1d5-c93a-46a7-bb7c-326c4f76945d";
+const imgMaterial65 = `${assetPathPrefix}/8b07f.png`;
+const img = `${assetPathPrefix}/84f05.png`;
+const img00 = `${assetPathPrefix}/1a443.png`;
+const imgPrint = `${assetPathPrefix}/904cf.png`;
+const img1 = `${assetPathPrefix}/6ccc2.png`;
+const imgPrint1 = `${assetPathPrefix}/52ab8.png`;
+const img2 = `${assetPathPrefix}/b13c2.png`;
+const imgPrint2 = `${assetPathPrefix}/c541c.png`;
+const imgFrame401 = `${assetPathPrefix}/62993.png`;
+const imgFrame5GrassetV8 = `${assetPathPrefix}/04348.png`;
+
+export default function P4MobileV1Typeset() {
+  return (
+    <div className="bg-[#f8f6ef] content-stretch flex flex-col items-start pb-[40px] pt-[16px] px-[24px] relative size-full" data-node-id="898:62" data-name="P4 MOBILE / 小标题题签 v1 · Typeset · 待审">
+      <div className="absolute bg-size-[100px_100px] bg-top-left h-[2317px] left-0 opacity-65 top-0 w-[390px]" data-node-id="898:63" style={{ backgroundImage: `url("${imgMaterial65}")` }} data-name="MATERIAL / 纸纤维 · 底层 · 65%" />
+      <div className="absolute h-[1045px] left-[-78px] mix-blend-multiply top-[252px] w-[95px]" data-node-id="898:64" data-name="建筑 / 截取侧墙肋柱">
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <img alt="" className="absolute h-full left-[-263.16%] max-w-none top-0 w-[1585.26%]" src={img} />
+        </div>
+      </div>
+      <div className="absolute bg-gradient-to-b from-[rgba(248,246,239,0)] h-[180px] left-0 to-[#f8f6ef] top-[1117px] w-[18px]" data-node-id="898:66" data-name="建筑 / 柱边末端纸色渐隐" />
+      <div className="[word-break:break-word] content-stretch flex font-['Noto_Serif_SC:Regular'] font-normal h-[44px] items-center justify-between leading-[24px] overflow-clip relative shrink-0 text-[14px] text-black w-[342px] whitespace-nowrap" data-node-id="898:67" data-name="导航 / 返回与切换">
+        <p className="relative shrink-0" data-node-id="898:68">
+          ← 返回一级专题
+        </p>
+        <p className="relative shrink-0" data-node-id="898:69">
+          切换专题 ↓
+        </p>
+      </div>
+      <div className="h-[12px] relative shrink-0 w-px" data-node-id="898:70" data-name="SPACE / 12" />
+      <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-[342px]" data-node-id="898:71" data-name="专题身份">
+        <div className="[word-break:break-word] content-stretch flex font-['Noto_Serif_SC:Regular'] font-normal h-[64px] items-end justify-between overflow-clip relative shrink-0 text-black w-full whitespace-nowrap" data-node-id="898:73" data-name="首屏标题 / 左主标题＋右英文章号">
+          <p className="leading-[64px] relative shrink-0 text-[56px]" data-node-id="898:74">
+            幽玄
+          </p>
+          <div className="content-stretch flex flex-col gap-[4px] items-end overflow-clip relative shrink-0" data-node-id="898:75" data-name="标题辅栏 / 英文名与章号">
+            <p className="leading-[28px] relative shrink-0 text-[20px]" data-node-id="898:76">
+              Yūgen
+            </p>
+            <p className="leading-[20px] relative shrink-0 text-[12px] text-right" data-node-id="898:77">
+              第四章 · 04 / 24
+            </p>
+          </div>
+        </div>
+        <div className="h-[8px] relative shrink-0 w-px" data-node-id="898:78" data-name="SPACE / 8" />
+        <div className="[word-break:break-word] font-['Noto_Serif_SC:Regular'] font-normal leading-[0] relative shrink-0 text-[14px] text-black w-[342px]" data-node-id="898:79">
+          <p className="leading-[24px] mb-0">幽玄把可见的部分留在眼前，</p>
+          <p className="leading-[24px]">让更深的一层停在难以说尽的地方。</p>
+        </div>
+      </div>
+      <div className="h-[4px] relative shrink-0 w-px" data-node-id="898:80" data-name="SPACE / 4" />
+      <div className="content-stretch flex flex-col gap-[4px] items-start overflow-clip relative shrink-0 w-[342px]" data-node-id="898:81" data-name="五个分类 / 首屏快速目录">
+        <div className="content-stretch flex items-start overflow-clip relative shrink-0" data-node-id="898:83" data-name="快速目录 / 每项44px高">
+          <div className="content-stretch flex h-[44px] items-center justify-center overflow-clip relative shrink-0 w-[68.4px]" data-node-id="898:84" data-name="跳至 / 朦胧">
+            <p className="[word-break:break-word] font-['Noto_Serif_SC:Regular'] font-normal leading-[20px] relative shrink-0 text-[14px] text-black whitespace-nowrap" data-node-id="898:85">
+              朦胧
+            </p>
+          </div>
+          <div className="content-stretch flex h-[44px] items-center justify-center overflow-clip relative shrink-0 w-[68.4px]" data-node-id="898:86" data-name="跳至 / 清冷">
+            <p className="[word-break:break-word] font-['Noto_Serif_SC:Regular'] font-normal leading-[20px] relative shrink-0 text-[14px] text-black whitespace-nowrap" data-node-id="898:87">
+              清冷
+            </p>
+          </div>
+          <div className="content-stretch flex h-[44px] items-center justify-center overflow-clip relative shrink-0 w-[68.4px]" data-node-id="898:88" data-name="跳至 / Softcore">
+            <p className="[word-break:break-word] font-['Noto_Serif_SC:Regular'] font-normal leading-[20px] relative shrink-0 text-[14px] text-black whitespace-nowrap" data-node-id="898:89">
+              Softcore
+            </p>
+          </div>
+          <div className="content-stretch flex h-[44px] items-center justify-center overflow-clip relative shrink-0 w-[68.4px]" data-node-id="898:90" data-name="跳至 / 梦境">
+            <p className="[word-break:break-word] font-['Noto_Serif_SC:Regular'] font-normal leading-[20px] relative shrink-0 text-[14px] text-black whitespace-nowrap" data-node-id="898:91">
+              梦境
+            </p>
+          </div>
+          <div className="content-stretch flex h-[44px] items-center justify-center overflow-clip relative shrink-0 w-[68.4px]" data-node-id="898:92" data-name="跳至 / 空灵">
+            <p className="[word-break:break-word] font-['Noto_Serif_SC:Regular'] font-normal leading-[20px] relative shrink-0 text-[14px] text-black whitespace-nowrap" data-node-id="898:93">
+              空灵
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="h-[12px] relative shrink-0 w-px" data-node-id="898:94" data-name="SPACE / 12" />
+      <div className="h-[24px] overflow-clip relative shrink-0 w-[342px]" data-node-id="898:95" data-name="建筑 / 原檐线局部">
+        <div className="absolute h-[36px] left-0 mix-blend-multiply top-[-6px] w-[1096px]" data-node-id="898:98" data-name="建筑 / 连续横向石檐">
+          <div className="absolute inset-0 overflow-hidden pointer-events-none">
+            <img alt="" className="absolute h-[2750%] left-[-28.61%] max-w-none top-[-192.11%] w-[128.61%]" src={img} />
+          </div>
+        </div>
+      </div>
+      <div className="h-[12px] relative shrink-0 w-px" data-node-id="898:99" data-name="SPACE / 12" />
+      <div className="content-stretch flex flex-col gap-[56px] items-start overflow-clip relative shrink-0 w-[342px]" data-node-id="898:100" data-name="画廊 / 竖向浏览">
+        <div className="content-stretch flex flex-col gap-[12px] items-start overflow-clip relative shrink-0 w-[342px]" data-node-id="898:101" data-name="分类 / 朦胧">
+          <div className="h-[244px] relative shrink-0 w-[342px]" data-node-id="898:102" data-name="DISPLAY / 朦胧">
+            <div className="absolute h-[243.947px] left-0 top-[0.03px] w-[342px]" data-node-id="898:103" data-name="ASSEMBLY / 原框与原图">
+              <div className="absolute h-[243.947px] left-0 overflow-clip top-0 w-[342px]" data-node-id="898:104" data-name="FRAME 2 / 细长窗格 · 参考转译">
+                <div className="absolute h-[25.236px] left-0 mix-blend-darken top-0 w-[30.639px]" data-node-id="898:105" data-name="框饰切片 0,0">
+                  <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                    <img alt="" className="absolute h-[486.24%] left-0 max-w-none top-0 w-[768.91%]" src={img00} />
+                  </div>
+                </div>
+                <div className="absolute h-[25.236px] left-[30.64px] mix-blend-darken top-0 w-[284.862px]" data-node-id="898:106" data-name="框饰切片 1,0">
+                  <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                    <img alt="" className="absolute h-[486.24%] left-[-17.58%] max-w-none top-0 w-[135.15%]" src={img00} />
+                  </div>
+                </div>
+                <div className="absolute h-[25.236px] left-[315.5px] mix-blend-darken top-0 w-[26.499px]" data-node-id="898:107" data-name="框饰切片 2,0">
+                  <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                    <img alt="" className="absolute h-[486.24%] left-[-668.91%] max-w-none top-0 w-[768.91%]" src={img00} />
+                  </div>
+                </div>
+                <div className="absolute h-[190.951px] left-0 mix-blend-darken top-[25.24px] w-[30.639px]" data-node-id="898:108" data-name="框饰切片 0,1">
+                  <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                    <img alt="" className="absolute h-[175.21%] left-0 max-w-none top-[-36.03%] w-[768.91%]" src={img00} />
+                  </div>
+                </div>
+                <div className="absolute h-[190.951px] left-[315.5px] mix-blend-darken top-[25.24px] w-[26.499px]" data-node-id="898:109" data-name="框饰切片 2,1">
+                  <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                    <img alt="" className="absolute h-[175.21%] left-[-668.91%] max-w-none top-[-36.03%] w-[768.91%]" src={img00} />
+                  </div>
+                </div>
+                <div className="absolute h-[27.759px] left-0 mix-blend-darken top-[216.19px] w-[30.639px]" data-node-id="898:110" data-name="框饰切片 0,2">
+                  <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                    <img alt="" className="absolute h-[447.26%] left-0 max-w-none top-[-347.26%] w-[768.91%]" src={img00} />
+                  </div>
+                </div>
+                <div className="absolute h-[27.759px] left-[30.64px] mix-blend-darken top-[216.19px] w-[284.862px]" data-node-id="898:111" data-name="框饰切片 1,2">
+                  <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                    <img alt="" className="absolute h-[447.26%] left-[-17.58%] max-w-none top-[-347.26%] w-[135.15%]" src={img00} />
+                  </div>
+                </div>
+                <div className="absolute h-[27.759px] left-[315.5px] mix-blend-darken top-[216.19px] w-[26.499px]" data-node-id="898:112" data-name="框饰切片 2,2">
+                  <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                    <img alt="" className="absolute h-[447.26%] left-[-668.91%] max-w-none top-[-347.26%] w-[768.91%]" src={img00} />
+                  </div>
+                </div>
+              </div>
+              <div className="absolute bg-[#f8f6ef] content-stretch flex h-[190.951px] items-center justify-center left-[30.64px] overflow-clip p-[6.261px] top-[25.24px] w-[284.862px]" data-node-id="898:113" data-name="MOUNT / 2 · 最小纸边8px">
+                <div className="border-[0.391px] border-[rgba(26,26,26,0.45)] border-solid h-[178.43px] relative shrink-0 w-[268.092px]" data-node-id="898:114" data-name="PRINT / 原色原图 · 完整适配">
+                  <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgPrint} />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="[word-break:break-word] content-stretch flex font-['Noto_Serif_SC:Regular'] font-normal h-[56px] items-baseline justify-between overflow-clip pb-[12px] pt-[8px] px-[8px] relative shrink-0 text-black w-[342px] whitespace-nowrap" data-node-id="898:116" data-name="题签 / 朦胧">
+            <p className="leading-[36px] relative shrink-0 text-[28px] tracking-[2px]" data-node-id="898:117">
+              朦胧
+            </p>
+            <p className="leading-[20px] relative shrink-0 text-[12px] text-right" data-node-id="898:118">
+              打开词条 ↗
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[12px] items-start overflow-clip pl-[24px] relative shrink-0 w-[342px]" data-node-id="898:119" data-name="分类 / 清冷">
+          <div className="h-[350px] relative shrink-0 w-[220px]" data-node-id="898:120" data-name="DISPLAY / 清冷">
+            <div className="absolute h-[349.167px] left-0 top-[0.42px] w-[220px]" data-node-id="898:121" data-name="ASSEMBLY / 原框与原图">
+              <div className="absolute h-[349.167px] left-0 overflow-clip top-0 w-[220px]" data-node-id="898:122" data-name="FRAME 1 / 尖拱 · 参考转译">
+                <div className="absolute h-[67.453px] left-0 mix-blend-darken top-0 w-[28.905px]" data-node-id="898:123" data-name="框饰切片 0,0">
+                  <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                    <img alt="" className="absolute h-[309.8%] left-0 max-w-none top-0 w-[513.4%]" src={img1} />
+                  </div>
+                </div>
+                <div className="absolute h-[67.453px] left-[28.9px] mix-blend-darken top-0 w-[161.387px]" data-node-id="898:124" data-name="框饰切片 1,0">
+                  <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                    <img alt="" className="absolute h-[309.8%] left-[-31.91%] max-w-none top-0 w-[163.82%]" src={img1} />
+                  </div>
+                </div>
+                <div className="absolute h-[67.453px] left-[190.29px] mix-blend-darken top-0 w-[29.708px]" data-node-id="898:125" data-name="框饰切片 2,0">
+                  <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                    <img alt="" className="absolute h-[309.8%] left-[-413.4%] max-w-none top-0 w-[513.4%]" src={img1} />
+                  </div>
+                </div>
+                <div className="absolute h-[256.32px] left-0 mix-blend-darken top-[67.45px] w-[28.905px]" data-node-id="898:126" data-name="框饰切片 0,1">
+                  <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                    <img alt="" className="absolute h-[209.27%] left-0 max-w-none top-[-67.55%] w-[513.4%]" src={img1} />
+                  </div>
+                </div>
+                <div className="absolute h-[256.32px] left-[190.29px] mix-blend-darken top-[67.45px] w-[29.708px]" data-node-id="898:127" data-name="框饰切片 2,1">
+                  <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                    <img alt="" className="absolute h-[209.27%] left-[-413.4%] max-w-none top-[-67.55%] w-[513.4%]" src={img1} />
+                  </div>
+                </div>
+                <div className="absolute h-[25.394px] left-0 mix-blend-darken top-[323.77px] w-[28.905px]" data-node-id="898:128" data-name="框饰切片 0,2">
+                  <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                    <img alt="" className="absolute h-[501.59%] left-0 max-w-none top-[-401.59%] w-[513.4%]" src={img1} />
+                  </div>
+                </div>
+                <div className="absolute h-[25.394px] left-[28.9px] mix-blend-darken top-[323.77px] w-[161.387px]" data-node-id="898:129" data-name="框饰切片 1,2">
+                  <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                    <img alt="" className="absolute h-[501.59%] left-[-31.91%] max-w-none top-[-401.59%] w-[163.82%]" src={img1} />
+                  </div>
+                </div>
+                <div className="absolute h-[25.394px] left-[190.29px] mix-blend-darken top-[323.77px] w-[29.708px]" data-node-id="898:130" data-name="框饰切片 2,2">
+                  <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                    <img alt="" className="absolute h-[501.59%] left-[-413.4%] max-w-none top-[-401.59%] w-[513.4%]" src={img1} />
+                  </div>
+                </div>
+              </div>
+              <div className="absolute bg-[#f8f6ef] content-stretch flex h-[256.32px] items-center justify-center left-[28.9px] overflow-clip p-[6.329px] top-[67.45px] w-[161.387px]" data-node-id="898:131" data-name="MOUNT / 1 · 最小纸边8px">
+                <div className="border-[0.396px] border-[rgba(26,26,26,0.45)] border-solid h-[243.663px] relative shrink-0 w-[147.822px]" data-node-id="898:132" data-name="PRINT / 原色原图 · 完整适配">
+                  <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgPrint1} />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="[word-break:break-word] content-stretch flex font-['Noto_Serif_SC:Regular'] font-normal h-[56px] items-baseline justify-between overflow-clip pb-[12px] pt-[8px] px-[8px] relative shrink-0 text-black w-[220px] whitespace-nowrap" data-node-id="898:134" data-name="题签 / 清冷">
+            <p className="leading-[36px] relative shrink-0 text-[28px] tracking-[2px]" data-node-id="898:135">
+              清冷
+            </p>
+            <p className="leading-[20px] relative shrink-0 text-[12px] text-right" data-node-id="898:136">
+              打开词条 ↗
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[12px] items-end overflow-clip pr-[8px] relative shrink-0 w-[342px]" data-node-id="898:137" data-name="分类 / Softcore">
+          <div className="h-[290px] relative shrink-0 w-[236px]" data-node-id="898:138" data-name="DISPLAY / Softcore">
+            <div className="absolute h-[289.506px] left-0 top-[0.25px] w-[236px]" data-node-id="898:139" data-name="ASSEMBLY / 原框与原图">
+              <div className="absolute h-[289.506px] left-0 overflow-clip top-0 w-[236px]" data-node-id="898:140" data-name="FRAME 3 / 玫瑰窗放射线">
+                <div className="absolute h-[61.785px] left-0 mix-blend-darken top-0 w-[30.936px]" data-node-id="898:141" data-name="框饰切片 0,0">
+                  <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                    <img alt="" className="absolute h-[418.98%] left-0 max-w-none top-0 w-[530.99%]" src={img2} />
+                  </div>
+                </div>
+                <div className="absolute h-[61.785px] left-[30.94px] mix-blend-darken top-0 w-[169.708px]" data-node-id="898:142" data-name="框饰切片 1,0">
+                  <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                    <img alt="" className="absolute h-[418.98%] left-[-30.21%] max-w-none top-0 w-[160.43%]" src={img2} />
+                  </div>
+                </div>
+                <div className="absolute h-[61.785px] left-[200.64px] mix-blend-darken top-0 w-[35.356px]" data-node-id="898:143" data-name="框饰切片 2,0">
+                  <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                    <img alt="" className="absolute h-[418.98%] left-[-430.99%] max-w-none top-0 w-[530.99%]" src={img2} />
+                  </div>
+                </div>
+                <div className="absolute h-[198.594px] left-0 mix-blend-darken top-[61.78px] w-[30.936px]" data-node-id="898:144" data-name="框饰切片 0,1">
+                  <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                    <img alt="" className="absolute h-[161%] left-0 max-w-none top-[-38.43%] w-[530.99%]" src={img2} />
+                  </div>
+                </div>
+                <div className="absolute h-[198.594px] left-[200.64px] mix-blend-darken top-[61.78px] w-[35.356px]" data-node-id="898:145" data-name="框饰切片 2,1">
+                  <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                    <img alt="" className="absolute h-[161%] left-[-430.99%] max-w-none top-[-38.43%] w-[530.99%]" src={img2} />
+                  </div>
+                </div>
+                <div className="absolute h-[29.127px] left-0 mix-blend-darken top-[260.38px] w-[30.936px]" data-node-id="898:146" data-name="框饰切片 0,2">
+                  <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                    <img alt="" className="absolute h-[713.33%] left-0 max-w-none top-[-613.33%] w-[530.99%]" src={img2} />
+                  </div>
+                </div>
+                <div className="absolute h-[29.127px] left-[30.94px] mix-blend-darken top-[260.38px] w-[169.708px]" data-node-id="898:147" data-name="框饰切片 1,2">
+                  <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                    <img alt="" className="absolute h-[713.33%] left-[-30.21%] max-w-none top-[-613.33%] w-[160.43%]" src={img2} />
+                  </div>
+                </div>
+                <div className="absolute h-[29.127px] left-[200.64px] mix-blend-darken top-[260.38px] w-[35.356px]" data-node-id="898:148" data-name="框饰切片 2,2">
+                  <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                    <img alt="" className="absolute h-[713.33%] left-[-430.99%] max-w-none top-[-613.33%] w-[530.99%]" src={img2} />
+                  </div>
+                </div>
+              </div>
+              <div className="absolute bg-[#f8f6ef] content-stretch flex h-[198.594px] items-center justify-center left-[30.94px] overflow-clip p-[7.222px] top-[61.78px] w-[169.708px]" data-node-id="898:149" data-name="MOUNT / 3 · 最小纸边8px">
+                <div className="border-[0.451px] border-[rgba(26,26,26,0.45)] border-solid h-[184.151px] relative shrink-0 w-[146.224px]" data-node-id="898:150" data-name="PRINT / 原色原图 · 完整适配">
+                  <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgPrint2} />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="[word-break:break-word] content-stretch flex font-['Noto_Serif_SC:Regular'] font-normal h-[56px] items-baseline justify-between overflow-clip pb-[12px] pt-[8px] px-[8px] relative shrink-0 text-black w-[236px] whitespace-nowrap" data-node-id="898:152" data-name="题签 / Softcore">
+            <p className="leading-[36px] relative shrink-0 text-[28px]" data-node-id="898:153">
+              Softcore
+            </p>
+            <p className="leading-[20px] relative shrink-0 text-[12px] text-right" data-node-id="898:154">
+              打开词条 ↗
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[12px] items-start overflow-clip relative shrink-0 w-[342px]" data-node-id="898:155" data-name="分类 / 梦境">
+          <div className="h-[239px] relative shrink-0 w-[318px]" data-node-id="898:156" data-name="DISPLAY / 梦境">
+            <div className="absolute h-[238.791px] left-0 top-[0.1px] w-[318px]" data-node-id="898:157" data-name="ASSEMBLY / 原框与原图">
+              <div className="absolute h-[238.791px] left-0 mix-blend-darken overflow-clip top-0 w-[318px]" data-node-id="898:158" data-name="FRAME 4 / 精修01 · 四角体量减轻">
+                <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                  <img alt="" className="absolute h-[108.62%] left-[-3.36%] max-w-none top-[-3.36%] w-[107.44%]" src={imgFrame401} />
+                </div>
+              </div>
+              <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Noto_Serif_SC:Regular'] font-normal leading-[23.972px] left-[160.04px] text-[#615e57] text-[15.981px] text-center top-[105.41px] w-[251.707px]" data-node-id="898:167">
+                更新中
+              </p>
+            </div>
+          </div>
+          <div className="[word-break:break-word] content-stretch flex font-['Noto_Serif_SC:Regular'] font-normal h-[56px] items-baseline justify-between overflow-clip pb-[12px] pt-[8px] px-[8px] relative shrink-0 text-black w-[318px] whitespace-nowrap" data-node-id="898:169" data-name="题签 / 梦境">
+            <p className="leading-[36px] relative shrink-0 text-[28px] tracking-[2px]" data-node-id="898:170">
+              梦境
+            </p>
+            <p className="leading-[20px] relative shrink-0 text-[12px] text-right" data-node-id="898:171">
+              更新中
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[12px] items-end overflow-clip relative shrink-0 w-[342px]" data-node-id="898:172" data-name="分类 / 空灵">
+          <div className="h-[210px] relative shrink-0 w-[306px]" data-node-id="898:173" data-name="DISPLAY / 空灵">
+            <div className="absolute h-[209.91px] left-0 top-[0.04px] w-[306px]" data-node-id="898:174" data-name="ASSEMBLY / 原框与原图">
+              <div className="absolute h-[209.91px] left-0 mix-blend-darken overflow-clip top-0 w-[306px]" data-node-id="898:175" data-name="FRAME 5 / Grasset · 线重层次校准 v8">
+                <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                  <img alt="" className="absolute h-[119.23%] left-[-3.19%] max-w-none top-[-10.19%] w-[106.38%]" src={imgFrame5GrassetV8} />
+                </div>
+              </div>
+              <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Noto_Serif_SC:Regular'] font-normal leading-[23.927px] left-[153.43px] text-[#615e57] text-[15.951px] text-center top-[91px] w-[251.233px]" data-node-id="898:184">
+                更新中
+              </p>
+            </div>
+          </div>
+          <div className="[word-break:break-word] content-stretch flex font-['Noto_Serif_SC:Regular'] font-normal h-[56px] items-baseline justify-between overflow-clip pb-[12px] pt-[8px] px-[8px] relative shrink-0 text-black w-[306px] whitespace-nowrap" data-node-id="898:186" data-name="题签 / 空灵">
+            <p className="leading-[36px] relative shrink-0 text-[28px] tracking-[2px]" data-node-id="898:187">
+              空灵
+            </p>
+            <p className="leading-[20px] relative shrink-0 text-[12px] text-right" data-node-id="898:188">
+              更新中
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="h-[48px] relative shrink-0 w-px" data-node-id="898:189" data-name="SPACE / 48" />
+      <div className="content-stretch flex flex-col items-start overflow-clip py-[10px] relative shrink-0 w-[342px]" data-node-id="898:190" data-name="返回入口">
+        <p className="[word-break:break-word] font-['Noto_Serif_SC:Regular'] font-normal leading-[24px] relative shrink-0 text-[14px] text-black w-[342px]" data-node-id="898:191">
+          ← 返回一级专题
+        </p>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.
