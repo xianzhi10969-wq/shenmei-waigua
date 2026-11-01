@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="在固定哥特彩窗中，逐格观看二十四个美学专题的原色封面。">
+  <title>审美外挂 · P1→P2→P3</title>
+  <script>try{history.scrollRestoration='manual'}catch(e){}</script>
+  <!-- Discover only this viewport's original P1 art before the gallery/module chain. -->
+  <link rel="preload" as="image" media="(min-width:681px)" href="../p1-p2-reveal-star-v4-2026-10-21/assets/bg.png" fetchpriority="high">
+  <link rel="preload" as="image" media="(min-width:681px)" href="../p1-p2-reveal-star-v4-2026-10-21/assets/text.png" fetchpriority="high">
+  <link rel="preload" as="image" media="(min-width:681px)" href="../p1-p2-reveal-star-v4-2026-10-21/assets/shrine.png">
+  <link rel="preload" as="image" media="(min-width:681px)" href="../p1-p2-reveal-star-v4-2026-10-21/assets/woman.png">
+  <link rel="preload" as="image" media="(max-width:680px)" href="../p3-stained-glass-v3-2026-10-23/assets/m_p1.png" fetchpriority="high">
+  <link rel="stylesheet" href="styles.css?v=20261101-p1">
+  <script defer src="../p1-p3-continuous-2026-10-31/assets/topics.js?v=20261101-p1"></script>
+  <script defer src="motion.js?v=20261101-p1"></script>
+  <script defer src="app.js?v=20261101-p1"></script>
+  <link rel="stylesheet" href="cover-extension.css?v=20261101-p1">
+  <script defer src="../p1-p3-continuous-2026-10-31/assets/extension-cells.js?v=20261101-p1"></script>
+  <script defer src="cover-extension.js?v=20261101-p1"></script>
+<link rel="stylesheet" href="transition.css?v=20261101-p1"><link rel="stylesheet" href="paper.css?v=20261101-p1"><link rel="stylesheet" href="ticks.css?v=20261101-p1"><link rel="stylesheet" href="desktop-fit.css?v=20261101-p1"><script defer src="ticks.js?v=20261101-p1"></script><link rel="stylesheet" href="continuous.css?v=20261101-p1"><script type="module" src="transition.mjs?v=20261101-p1"></script><link rel="stylesheet" href="usability.css"><script type="module" src="usability.mjs"></script><link rel="stylesheet" href="editorial.css?v=2"></head>
+<body class="chain"><section id="baseline" aria-label="已确认的P1到P2"><div class="baseline-pin"><div id="mstack" aria-hidden="true"><img id="mp1" data-src="../p3-stained-glass-v3-2026-10-23/assets/m_p1.png" alt="P1手机原图"><img id="mp2" data-src="../p3-stained-glass-v3-2026-10-23/assets/m_p2_nostar.png" alt=""><img id="mstar" data-src="../p1-p2-reveal-star-v4-2026-10-21/assets/starB_cream.png" alt=""></div><iframe id="v4" title="P1显影与星B落水v4" data-src="../p1-p2-reveal-star-v4-2026-10-21/index.html"></iframe></div></section>
+<script id="baseline-boot">
+// P1 starts independently of gallery scripts, their module imports and fonts.
+(() => {
+ const mobile=matchMedia('(max-width:680px)').matches;
+ const baseline=document.getElementById('baseline');
+ const width=baseline.clientWidth,height=innerHeight;
+ document.body.dataset.base=mobile?'m':'d';
+ if(mobile){
+  const stack=document.getElementById('mstack'),image=document.getElementById('mp1');
+  stack.style.width=width+'px';
+  baseline.style.height=Math.max(height,1904*width/390)+'px';
+  image.fetchPriority='high';image.src=image.dataset.src;
+ } else {
+  const frame=document.getElementById('v4'),scale=width/1440;
+  baseline.style.height=Math.max(height,1711*scale)+'px';
+  frame.style.height=height/scale+'px';
+  frame.style.transform=`scale(${scale}) translateX(-50%)`;
+  frame.src=frame.dataset.src;
+ }
+})();
+</script>
+<section id="journey"><div id="cinema" tabindex="0" aria-label="下滑进入彩窗，上滑回到水面"><div id="aperture"><div id="adopted-p3">
+  <main class="gallery editorial-gallery" aria-label="美学专题彩窗图录">
+    <header><span>审美外挂 · 美学专题</span><span class="number"><span id="currentNumber">01</span> / 24</span></header>
+    <div class="gallery-intro"><h1><span>二十四种美学，</span><span>慢慢看。</span></h1></div>
+    <div id="stage" class="stage" aria-label="固定石框与独立封面图层"></div>
+    <p class="gallery-caption"><span>每扇窗</span><span>是一种美学专题。</span></p>
+    <div class="gallery-controls">
+      <nav class="pager" aria-label="逐格翻阅专题">
+        <button id="previous" class="arrow" type="button" aria-label="上一专题"><svg viewBox="0 0 42 20" aria-hidden="true"><path d="M39 10H3m9-7L3 10l9 7"/></svg></button>
+        <span class="hint">左右轻滑 · 一次一格</span>
+        <button id="next" class="arrow" type="button" aria-label="下一专题"><svg viewBox="0 0 42 20" aria-hidden="true"><path d="M3 10h36m-9-7 9 7-9 7"/></svg></button>
+      </nav>
+      <p class="gallery-instruction">左右滑动，找到让你停下的那一种。</p>
+      <p class="gallery-help">左右滑动窗中画面 · 也可点击下方箭头</p>
+    </div>
+    <div class="gallery-entry">
+      <p class="gallery-selection" id="gallerySelection" aria-live="polite"></p>
+      <p id="definition" class="definition" aria-live="polite"></p>
+      <details class="credits"><summary>封面出处</summary><p id="credit"></p></details>
+    </div>
+    <aside class="reader-note" aria-label="带来的问题"></aside>
+    <p id="status" class="sr-only" role="status" aria-live="polite"></p>
+  </main>
+</div></div><div id="night-veil"><div id="night-solid"><picture><source media="(max-width:680px)" data-srcset="../p3-stained-glass-v3-2026-10-23/assets/m_p2_nostar.png"><img id="p2-art" data-src="../p1-p2-reveal-star-v4-2026-10-21/assets/p2_nostar.png" alt="P2夜色水面原图"></picture></div></div><div id="traveller" aria-hidden="true"><img class="cream" data-src="../p1-p2-reveal-star-v4-2026-10-21/assets/starB_cream.png" alt=""><img class="ink" data-src="../p1-p2-reveal-star-v4-2026-10-21/assets/starB_ink.png" alt=""></div><span class="scroll-invitation">向下轻滑</span></div></section></body>
+</html>
+
