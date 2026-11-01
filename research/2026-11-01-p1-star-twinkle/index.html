@@ -1,6 +1,6 @@
 <!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>P1 星星明灭 · 独立预览</title><meta name="viewport" content="width=device-width,initial-scale=1"><style>
 body{margin:0;background:#e8e5de;color:#26231e;font:14px system-ui}main{max-width:1060px;margin:auto;padding:20px}h1{font:22px Georgia,serif;margin:0 0 8px}p{margin:8px 0 14px;color:#656058}button{font:inherit;border:1px solid #b7afa1;background:#f7f4ec;color:inherit;padding:8px 12px;cursor:pointer;margin:0 6px 7px 0}button.active{background:#26231e;color:#f7f4ec}.layout{display:flex;gap:28px;align-items:flex-start;flex-wrap:wrap}.phone-shell{position:relative;flex:none;background:#f7f4ec;box-shadow:0 5px 24px #0001}.phone{position:absolute;top:0;left:0;width:390px;height:844px;transform-origin:top left}iframe{width:100%;height:100%;border:0;display:block}.detail{width:300px}svg.sample{background:#f7f4ec;width:140px;height:140px;display:inline-block;border:1px solid #d8d1c6}.labels{display:flex;justify-content:space-around;font-size:12px;margin-top:8px}.status{font-size:12px;min-height:28px;line-height:1.8}.note{font-size:12px;line-height:1.8}#verification{white-space:pre-wrap;font:12px ui-monospace,monospace;color:#655f54}@media(max-width:500px){main{padding:12px}.layout{gap:20px}}
-</style><main><div id="preview-head"><h1>P1 · 星星明灭</h1><p>出现 → 完全消失 → 再出现。滑动时继续，离开视野才暂停。</p><button id="play" class="active">播放明灭</button><button id="still">原版静止</button><button id="hidden">完全消失帧</button><button id="restart">重播开场</button><button id="size">原尺寸查看</button><div class="status" id="status">等待开场显影…</div></div><div class="layout" id="layout"><div class="phone-shell" id="shell"><div class="phone" id="phone-wrap"><iframe id="phone" title="P1 手机星星明灭候选"></iframe></div></div><div class="detail"><p>两帧对照</p><div id="samples"></div><div class="labels"><span>出现</span><span>完全消失</span></div><p class="note">完整画面已缩放到当前窗口，方便直接看星星。也可切换原尺寸，边滑动边看。</p><p class="note">独立预览，尚未更新线上。</p><output id="verification" hidden></output></div></div></main>
+</style><main><div id="preview-head"><h1>P1 · 星星明灭</h1><p>出现 → 完全消失 → 再出现。滑动时继续，离开视野才暂停。</p><button id="play" class="active">播放明灭</button><button id="still">原版静止</button><button id="hidden">完全消失帧</button><button id="restart">重播开场</button><button id="size">原尺寸查看</button><div class="status" id="status">等待开场显影…</div></div><div class="layout" id="layout"><div class="phone-shell" id="shell"><div class="phone" id="phone-wrap"><iframe id="phone" title="P1 手机星星明灭候选"></iframe></div></div><div class="detail"><p>两帧对照</p><div id="samples"></div><div class="labels"><span>出现</span><span>完全消失</span></div><p class="note">完整画面已缩放到当前窗口，方便直接看星星。也可切换原尺寸，边滑动边看。</p><p class="note">采用版本 · 当前合入效果预览。</p><output id="verification" hidden></output></div></div></main>
 <script>
 const phone=document.getElementById('phone'),status=document.getElementById('status');
 const shell=document.getElementById('shell'),wrap=document.getElementById('phone-wrap');
@@ -35,24 +35,20 @@ function apply(){
  phone.contentDocument.documentElement.dataset.twinkleMode=mode;
 }
 function install(){
- const doc=phone.contentDocument,scene=doc.querySelector('#mp1-scene');base=doc.querySelector('#mp1');
- const ns='http://www.w3.org/2000/svg';svg=doc.createElementNS(ns,'svg');svg.setAttribute('viewBox','0 0 780 1688');svg.setAttribute('aria-hidden','true');svg.dataset.twinkle='candidate';svg.style.cssText='position:absolute;inset:0;width:100%;height:100%;pointer-events:none;';
- // Cover the star baked into the original, then animate a separate copy of that exact star.
- svg.innerHTML=`<defs><clipPath id="blink-star"><path d="${shape}"/></clipPath></defs><path d="${shape}" fill="#faf7f1"/><g clip-path="url(#blink-star)" data-blink-star><image href="${base.currentSrc||base.src}" width="780" height="1688"/></g>`;
- scene.append(svg);
- marker=doc.createElement('span');marker.setAttribute('aria-hidden','true');marker.style.cssText='position:absolute;left:10.897436%;top:68.364929%;width:15.384615%;height:8.056872%;pointer-events:none';scene.append(marker);
- animation=svg.querySelector('[data-blink-star]').animate([{opacity:1,offset:0},{opacity:1,offset:.4,easing:'ease-in-out'},{opacity:0,offset:.52},{opacity:0,offset:.65,easing:'ease-in-out'},{opacity:1,offset:.8},{opacity:1,offset:1}],{duration:3200,iterations:Infinity,easing:'linear'});
- animation.pause();animation.currentTime=0;visible=false;
+ const doc=phone.contentDocument;svg=doc.querySelector('.mobile-star-blink');base=doc.querySelector('#mp1');marker=doc.querySelector('[data-blink-marker]');
+ animation=svg?.querySelector('[data-blink-star]')?.getAnimations()[0];
+ if(!animation||!marker)return;
+ visible=false;
  const win=phone.contentWindow,reduced=win.matchMedia('(prefers-reduced-motion:reduce)');
- const afterScroll=()=>win.requestAnimationFrame(checkVisibility);
+ const afterScroll=()=>win.requestAnimationFrame(()=>win.requestAnimationFrame(checkVisibility));
  win.addEventListener('scroll',afterScroll,{passive:true});reduced.addEventListener('change',apply);
- const observer=new win.IntersectionObserver(checkVisibility,{threshold:[0,.01,1]});observer.observe(marker);
- cleanup=()=>{win.removeEventListener('scroll',afterScroll);reduced.removeEventListener('change',apply);observer.disconnect();animation?.cancel();};
+ cleanup=()=>{win.removeEventListener('scroll',afterScroll);reduced.removeEventListener('change',apply);};
  checkVisibility();apply();
 }
+
 function boot(){
  cleanup();clearInterval(poller);animation=null;svg=null;base=null;marker=null;visible=false;status.textContent='等待开场显影…';
- phone.onload=()=>{poller=setInterval(()=>{const s=phone.contentDocument.querySelector('#mp1-scene');if(s&&s.querySelector('#mp1').naturalWidth&&(s.dataset.revealing==='done'||phone.contentWindow.matchMedia('(prefers-reduced-motion:reduce)').matches)){clearInterval(poller);install();}},40);};
+ phone.onload=()=>{poller=setInterval(()=>{const s=phone.contentDocument.querySelector('#mp1-scene');if(s&&s.querySelector('#mp1').naturalWidth&&phone.contentWindow.matchMedia('(prefers-reduced-motion:reduce)').matches){clearInterval(poller);status.textContent='减少动态效果：显示原图';return;}if(s&&s.querySelector('#mp1').naturalWidth&&phone.contentDocument.querySelector('.mobile-star-blink')){clearInterval(poller);install();}},40);};
  phone.src=source+'?star-preview=blink-v2-'+Date.now();fitPreview();
 }
 document.getElementById('play').onclick=()=>{mode='play';apply()};document.getElementById('still').onclick=()=>{mode='still';apply()};document.getElementById('hidden').onclick=()=>{mode='hidden';apply()};document.getElementById('restart').onclick=boot;

@@ -1,0 +1,42 @@
+{
+  "deploy": "6ae6fe8e38800a8db7b233ef",
+  "previousCorrectDeploy": "6ae6ed898a81debcf7a1713d",
+  "zipSHA256": "8dd00005bf814d261ba2fed6cfab820d2371d83bf1b0bfddaffbc13d96725852",
+  "browserChecks": {
+    "widths": [
+      390,
+      430
+    ],
+    "passed": 16,
+    "total": 16,
+    "realDeviceSafari": false
+  },
+  "live": [
+    {
+      "path": "/",
+      "status": 200,
+      "sha256": "a70b829c2bc05cec13e0b82b85b2a6114aa03216ac0be9f0dcec32e133511c1b",
+      "byteIdentical": true,
+      "includesBlink": true,
+      "includesLettering": true
+    },
+    {
+      "path": "mobile-star-blink.js",
+      "status": 200,
+      "sha256": "f0c81d908a39be4bef9f18aaa30fea3b09b9e2aff7a0e2d2687658477b93e7ca",
+      "byteIdentical": true
+    },
+    {
+      "path": "brand-lettering.css",
+      "status": 200,
+      "sha256": "a83b6dd624affb7840c1de2c0ae4fe81f5fbf70712b8a584db00d7488cc1c698",
+      "byteIdentical": true
+    },
+    {
+      "path": "assets/p1-brand-companion-v20261101.svg",
+      "status": 200,
+      "sha256": "4706706a4356d8ca67b4f6faa60cf7a12f00457e69bf44651d3974f525eccdc6",
+      "byteIdentical": true
+    }
+  ]
+}

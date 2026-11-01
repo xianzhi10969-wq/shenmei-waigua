@@ -1,0 +1,13 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>手机星星采用版验证</title><style>body{font:14px system-ui;background:#ddd}#results{white-space:pre-wrap}section{display:inline-block;vertical-align:top;width:240px;height:520px}iframe{border:0;transform:scale(.55);transform-origin:top left}</style><h1>手机首页 · 明灭采用版</h1><div id="results">等待开场完成…</div><section><iframe width="390" height="844" id="a" src="../../deploy/netlify-p1p3-continuous-2026-10-31/"></iframe></section><section><iframe width="430" height="932" id="b" src="../../deploy/netlify-p1p3-continuous-2026-10-31/"></iframe></section><script>
+const sleep=ms=>new Promise(r=>setTimeout(r,ms));const checks=[];function report(width,name,pass,detail){checks.push({width,name,pass,detail});results.innerHTML=checks.map(c=>'<p>'+JSON.stringify(c)+'</p>').join('')}
+for(const frame of [a,b])frame.onload=async()=>{
+try{const w=frame.contentWindow,d=w.document;let node,anim;for(let n=0;n<140;n++){node=d.querySelector('[data-blink-star]');anim=node?.getAnimations()[0];if(anim)break;await sleep(50)}if(!anim)throw Error('blink not installed');const width=frame.width;
+report(width,'开场结束后明灭就绪',d.querySelector('#mp1-scene').dataset.revealing==='done'&&d.querySelectorAll('.mobile-star-blink').length===1,d.querySelectorAll('.mobile-star-blink').length);
+anim.pause();anim.currentTime=1900;await sleep(60);report(width,'完全消失',w.getComputedStyle(node).opacity==='0',w.getComputedStyle(node).opacity);
+anim.currentTime=2800;await sleep(50);report(width,'再次出现',w.getComputedStyle(node).opacity==='1',w.getComputedStyle(node).opacity);anim.play();
+for(const y of [80,200]){w.scrollTo(0,y);await sleep(120);const t=anim.currentTime;await sleep(180);report(width,'下滑'+y+'px继续',anim.playState==='running'&&anim.currentTime>t,{state:anim.playState,y:w.scrollY})}
+w.scrollTo(0,900);await sleep(350);report(width,'离开视野暂停',anim.playState==='paused',anim.playState);
+w.scrollTo(0,200);await sleep(350);report(width,'返回视野恢复',anim.playState==='running',anim.playState);
+report(width,'字标与原图保留',d.querySelector('#mp1').naturalWidth===780&&d.querySelector('#p1-lettering').complete&&Math.abs(d.querySelector('#p1-lettering').getBoundingClientRect().width-Number(width))<1,{art:d.querySelector('#mp1').naturalWidth,logoRenderedWidth:d.querySelector('#p1-lettering').getBoundingClientRect().width});
+}catch(e){report(frame.width,'错误',false,e.message)}}
+</script></html>
