@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="480" viewBox="0 0 480 480">
+<title>意象实验室 · 蒸馏成花 · 结构草图</title>
+<rect width="480" height="480" fill="white"/>
+<g fill="none" stroke="#111" stroke-linecap="round" stroke-linejoin="round">
+<path id="vessel-silhouette" stroke-width="4.2" d="M185 146 C145 158 111 204 105 260 C97 329 133 377 191 382 C251 387 292 347 287 291 C284 252 257 225 255 195 C252 155 277 125 311 127 C345 128 366 157 364 194 L379 196 C387 150 368 108 330 95 C280 77 229 101 214 145 C204 142 194 143 185 146 Z"/>
+<path id="glass-inner-curve" stroke-width="2.2" d="M167 174 C139 198 124 230 122 264"/>
+<path id="glass-lower-curve" stroke-width="2.2" d="M127 316 C140 348 163 362 193 363"/>
+<path id="neck-inner-curve" stroke-width="2.2" d="M233 163 C241 119 286 96 321 108"/>
+<path id="mouth" stroke-width="3" d="M364 194 Q370 201 379 196"/>
+<path id="liquid" stroke-width="2.8" d="M111 294 C148 306 178 278 212 288 C242 298 264 306 286 296"/>
+<path id="falling-drop" stroke-width="3.4" d="M370 219 C369 227 360 234 362 241 C365 251 378 249 379 240 C379 233 373 226 370 219 Z"/>
+<path id="opening-petal" stroke-width="3.6" d="M361 281 C391 278 410 299 398 322 C385 344 355 346 344 366 C340 342 336 318 349 302 C356 294 361 290 361 281 Z"/>
+<path id="petal-fold" stroke-width="2.4" d="M361 281 C376 299 378 318 362 337 C355 345 348 354 344 366 M362 337 C379 328 391 325 398 322"/>
+</g></svg>

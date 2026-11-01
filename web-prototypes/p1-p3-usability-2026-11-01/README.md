@@ -69,3 +69,4 @@ P3说明“每扇窗是一种美学专题”，明确左右滑动/箭头翻阅�
 - [Skill执行复盘](../../视觉研究/版式系统/2026-10-24-P2-Skill执行复盘与防漏机制.md)：读到Skill、补栅格数字或字号体系，不等于实际构图成立。
 
 当轮重读项目Editorial Skill及上游grid-construction/page-composition/editorial-layout；重新打开Kinfolk、The Gentlewoman、Killer Heels官方项目页。Pentagram跨页图片返回403，未据此宣称本轮完成该图片的视觉核验。以上资源支撑设计判断，不是新稿已完成或已获认可的证明。
+
