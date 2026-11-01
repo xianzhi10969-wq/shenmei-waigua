@@ -1,6 +1,25 @@
 # 当前状态｜审美外挂 · 2026-10-24
 
 
+## 2026-11-01｜P3 翻页跟手（去掉写死节奏）并 redeploy
+
+- **线上 URL**：<https://subtle-peony-38e354.netlify.app/>
+- **site id**：`dceb69b5-e8d4-40f2-94c9-dc31d8ebd571`
+- **deploy id**：`6ae6a1301fbe923d307264df`
+- **写死点（改前）**：
+  1. `web-prototypes/p1-p3-continuous-2026-10-31/motion.js` 临界阻尼弹簧 **`w=18`**，单格约 **0.7s** 才停稳，连点视觉上像卡节奏。
+  2. 同文件滚轮 **`wheelUsed`**：一次横向滚动手势只 `step` 一格，须空闲 **160ms** 才复位；触控板连续滑几乎只能翻一页。
+  3. 箭头/`step` 本身已叠 `target`（未锁死），慢感主要来自弹簧 + 滚轮锁。
+- **改法（只动 P3 翻页；P1/P2 过渡不动；不压图；飞书同步不动）**：
+  1. 弹簧 **`w=40`**（单格约 **0.33s**）。
+  2. `step` 连翻时给朝向新目标的追赶初速，中断旧动画接下一页。
+  3. 去掉 `wheelUsed`；滚轮累计位移后 **≥90ms** 可再翻一格，一秒内两次及以上跟手。
+- **验证（Playwright 本地 `?at=1`）**：
+  - 400ms 内点两次 `#next`：`target`/`pos` **+2**，约 0.9s 内停稳，序号同步。
+  - 120ms×4 连点：`+4`，序号不错乱。
+  - 横向 wheel 连续事件：不再锁死在 +1（改前 8 次 wheel 只 +1；改后可多格推进）。
+- 真相源：`web-prototypes/p1-p3-continuous-2026-10-31/motion.js`；发布副本：`deploy/netlify-p1p3-continuous-2026-10-31/`。
+
 ## 2026-11-01｜首屏锁 P1 + 加载加速（不压图）并 redeploy
 
 - **线上 URL**：<https://subtle-peony-38e354.netlify.app/>

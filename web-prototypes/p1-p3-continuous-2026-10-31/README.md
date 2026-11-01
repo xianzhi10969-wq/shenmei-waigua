@@ -34,3 +34,8 @@ netlify deploy --prod --no-build --dir deploy/netlify-p1p3-continuous-2026-10-31
 - 输出：`assets/topics.json`、`assets/topics.js`（`window.FEISHU_TOPICS`）、`assets/covers/NN.*`
 - `source.revision` = 飞书 `+table-list` 返回的表 `rev`；`readOnly: true`
 - 可选后续：Netlify Function 运行时代理（本轮未做，不阻塞）
+
+## 2026-11-01｜P3 翻页跟手
+
+- 改前写死：`motion.js` 弹簧 `w=18`（单格约 0.7s 才停稳）；滚轮 `wheelUsed` 一次手势只翻一格，连续触控板几乎锁死。
+- 改法：弹簧 `w=40`（约 0.33s）；`step` 叠目标并给追赶初速；滚轮改为 ≥90ms 可再翻，连续滑跟手。P1/P2 未动。
