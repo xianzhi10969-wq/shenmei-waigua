@@ -1,0 +1,32 @@
+[
+  {
+    "file": "index.html",
+    "httpOK": true,
+    "matchesValidatedBuild": true,
+    "bytes": 5121
+  },
+  {
+    "file": "transition.mjs",
+    "httpOK": true,
+    "matchesValidatedBuild": true,
+    "bytes": 9665
+  },
+  {
+    "file": "styles.css",
+    "httpOK": true,
+    "matchesValidatedBuild": true,
+    "bytes": 3829
+  },
+  {
+    "file": "continuous.css",
+    "httpOK": true,
+    "matchesValidatedBuild": true,
+    "bytes": 625
+  },
+  {
+    "file": "motion.js",
+    "httpOK": true,
+    "matchesValidatedBuild": true,
+    "bytes": 3806
+  }
+]

@@ -1,0 +1,255 @@
+[
+  {
+    "name": "slow-before：过渡模块延迟5秒时P1独立加载",
+    "pass": true,
+    "detail": {
+      "p1Ready": false,
+      "frameSrc": null
+    }
+  },
+  {
+    "name": "slow-after：过渡模块延迟5秒时P1独立加载",
+    "pass": true,
+    "detail": {
+      "p1Ready": true,
+      "frameSrc": "./p1-p2-reveal-star-v4-2026-10-21/index.html"
+    }
+  },
+  {
+    "name": "旧版：复现大窗口首屏提前加载P3",
+    "pass": true,
+    "detail": {
+      "extraRequests": 57
+    }
+  },
+  {
+    "name": "1440×900 首屏不下载P3或字体",
+    "pass": true,
+    "detail": {
+      "sceneOpacity": "0",
+      "width": 1440,
+      "height": 900,
+      "scrollY": 0,
+      "p3": null,
+      "extraRequests": [],
+      "mobileP1": null,
+      "desktopFrame": "./p1-p2-reveal-star-v4-2026-10-21/index.html"
+    }
+  },
+  {
+    "name": "1440×900 只启动对应设备P1",
+    "pass": true,
+    "detail": {}
+  },
+  {
+    "name": "1440×900 滚动后P3资源启动",
+    "pass": true,
+    "detail": {
+      "extraRequests": 51
+    }
+  },
+  {
+    "name": "1440×900 不预取另一设备蒙版",
+    "pass": true,
+    "detail": []
+  },
+  {
+    "name": "1440×900 P3可进入并翻页",
+    "pass": true,
+    "detail": {
+      "progress": "1.00000",
+      "before": 2,
+      "after": 3
+    }
+  },
+  {
+    "name": "1440×900 可返回P1",
+    "pass": true,
+    "detail": {}
+  },
+  {
+    "name": "1920×1200 首屏不下载P3或字体",
+    "pass": true,
+    "detail": {
+      "sceneOpacity": "0",
+      "width": 1920,
+      "height": 1200,
+      "scrollY": 0,
+      "p3": null,
+      "extraRequests": [],
+      "mobileP1": null,
+      "desktopFrame": "./p1-p2-reveal-star-v4-2026-10-21/index.html"
+    }
+  },
+  {
+    "name": "1920×1200 只启动对应设备P1",
+    "pass": true,
+    "detail": {}
+  },
+  {
+    "name": "1920×1200 滚动后P3资源启动",
+    "pass": true,
+    "detail": {
+      "extraRequests": 51
+    }
+  },
+  {
+    "name": "1920×1200 不预取另一设备蒙版",
+    "pass": true,
+    "detail": []
+  },
+  {
+    "name": "1920×1200 P3可进入并翻页",
+    "pass": true,
+    "detail": {
+      "progress": "1.00000",
+      "before": 2,
+      "after": 3
+    }
+  },
+  {
+    "name": "1920×1200 可返回P1",
+    "pass": true,
+    "detail": {}
+  },
+  {
+    "name": "888×647 首屏不下载P3或字体",
+    "pass": true,
+    "detail": {
+      "sceneOpacity": "0",
+      "width": 888,
+      "height": 647,
+      "scrollY": 0,
+      "p3": null,
+      "extraRequests": [],
+      "mobileP1": null,
+      "desktopFrame": "./p1-p2-reveal-star-v4-2026-10-21/index.html"
+    }
+  },
+  {
+    "name": "888×647 只启动对应设备P1",
+    "pass": true,
+    "detail": {}
+  },
+  {
+    "name": "888×647 滚动后P3资源启动",
+    "pass": true,
+    "detail": {
+      "extraRequests": 51
+    }
+  },
+  {
+    "name": "888×647 不预取另一设备蒙版",
+    "pass": true,
+    "detail": []
+  },
+  {
+    "name": "888×647 P3可进入并翻页",
+    "pass": true,
+    "detail": {
+      "progress": "1.00000",
+      "before": 2,
+      "after": 3
+    }
+  },
+  {
+    "name": "888×647 可返回P1",
+    "pass": true,
+    "detail": {}
+  },
+  {
+    "name": "390×844 首屏不下载P3或字体",
+    "pass": true,
+    "detail": {
+      "sceneOpacity": "0",
+      "width": 390,
+      "height": 844,
+      "scrollY": 0,
+      "p3": null,
+      "extraRequests": [],
+      "mobileP1": "./p3-stained-glass-v3-2026-10-23/assets/m_p1.png",
+      "desktopFrame": null
+    }
+  },
+  {
+    "name": "390×844 只启动对应设备P1",
+    "pass": true,
+    "detail": {}
+  },
+  {
+    "name": "390×844 滚动后P3资源启动",
+    "pass": true,
+    "detail": {
+      "extraRequests": 41
+    }
+  },
+  {
+    "name": "390×844 不预取另一设备蒙版",
+    "pass": true,
+    "detail": []
+  },
+  {
+    "name": "390×844 P3可进入并翻页",
+    "pass": true,
+    "detail": {
+      "progress": "1.00000",
+      "before": 2,
+      "after": 3
+    }
+  },
+  {
+    "name": "390×844 可返回P1",
+    "pass": true,
+    "detail": {}
+  },
+  {
+    "name": "390×1200 首屏不下载P3或字体",
+    "pass": true,
+    "detail": {
+      "sceneOpacity": "0",
+      "width": 390,
+      "height": 1200,
+      "scrollY": 0,
+      "p3": null,
+      "extraRequests": [],
+      "mobileP1": "./p3-stained-glass-v3-2026-10-23/assets/m_p1.png",
+      "desktopFrame": null
+    }
+  },
+  {
+    "name": "390×1200 只启动对应设备P1",
+    "pass": true,
+    "detail": {}
+  },
+  {
+    "name": "390×1200 滚动后P3资源启动",
+    "pass": true,
+    "detail": {
+      "extraRequests": 41
+    }
+  },
+  {
+    "name": "390×1200 不预取另一设备蒙版",
+    "pass": true,
+    "detail": []
+  },
+  {
+    "name": "390×1200 P3可进入并翻页",
+    "pass": true,
+    "detail": {
+      "progress": "1.00000",
+      "before": 2,
+      "after": 3
+    }
+  },
+  {
+    "name": "390×1200 可返回P1",
+    "pass": true,
+    "detail": {}
+  },
+  {
+    "name": "直接预览P3参数仍可用",
+    "pass": true,
+    "detail": {}
+  }
+]

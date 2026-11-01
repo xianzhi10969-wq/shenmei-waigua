@@ -1,7 +1,8 @@
 @font-face{font-family:CabinetSong;src:url('assets/song.ttf') format('truetype');font-display:swap}
 :root{color-scheme:light;--paper:#f8f6ef;--ink:#24221f}
 *{box-sizing:border-box}
-body{margin:0;background:var(--paper);color:var(--ink);font-family:CabinetSong,'Songti SC','Noto Serif CJK SC',serif}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:'Songti SC','Noto Serif CJK SC',serif}
+html[data-p3-assets="1"] body{font-family:CabinetSong,'Songti SC','Noto Serif CJK SC',serif}
 button{font:inherit;color:inherit}
 .gallery{min-height:100svh;display:flex;align-items:center;flex-direction:column;padding:22px 24px 18px}
 header{display:flex;justify-content:space-between;align-items:center;width:min(980px,100%);font-size:12px;letter-spacing:.18em;min-height:20px}

@@ -36,7 +36,7 @@ function signalP3(){
 }
 function prefetchMasks(){
  if(masksPrefetched)return;masksPrefetched=true;
- for(const kind of ['web','mobile']){
+ for(const kind of [innerWidth<=680?'mobile':'web']){
   const n=kind==='web'?5:3;
   for(let i=0;i<n;i++){
    for(const filename of [`${kind}-${i}-opening.png`,`extension-${kind}-${i}-opening.png`]){
@@ -49,11 +49,12 @@ function syncV4(){
  if(bmode!=='d'||!v4?.contentWindow)return;
  try{v4.contentWindow.scrollTo(0,Math.min(scrollY,start)/v4scale);}catch{}
 }
+v4?.addEventListener('load',syncV4);
 function layout(){
  height=innerHeight;const W=cinema.clientWidth,H=Math.max(height,p3.scrollHeight||height),mobile=innerWidth<=680;
  cinema.style.height=H+'px';span=Math.round(height*1.55);journey.style.height=(H+span)+'px';
  // P1→P2: desktop = protected v4 iframe untouched, scroll-synced (water-iris v2 ?chain=1 rule); phone = 390 originals stacked.
- const want=mobile?'m':'d';if(want!==bmode){bmode=want;document.body.dataset.base=want;if(mobile)hydrateMobileBase();if(!mobile&&!v4.src){v4.src=v4.dataset.src;v4.addEventListener('load',syncV4);}}
+ const want=mobile?'m':'d';if(want!==bmode){bmode=want;document.body.dataset.base=want;if(mobile)hydrateMobileBase();if(!mobile&&!v4.src){v4.src=v4.dataset.src;}}
  if(mobile){const k=W/390,docH=(844+1060)*k;bLimit=Math.max(0,docH-height);mstack.style.width=W+'px';const st=$('#mstar');st.style.width=st.style.height=90*k+'px';st.style.left=(70-45)*k+'px';st.style.top=(844+859-45)*k+'px';}
  else{v4scale=Math.min(1,W/1440);const fh=height/v4scale;bLimit=Math.max(0,1711-fh)*v4scale;v4.style.height=fh+'px';v4.style.transform=`scale(${v4scale}) translateX(-50%)`;}
  baseline.style.height=(bLimit+height)+'px';journey.style.marginTop=(-height)+'px';start=journey.offsetTop;
@@ -82,7 +83,12 @@ function layout(){
 }
 function render(){
  const b=Math.min(scrollY,start);if(bmode==='d'){syncV4();}else if(bmode==='m'){mstack.style.transform=`translate3d(0,${-b}px,0)`;}
- cinema.style.visibility=scrollY<start-1?'hidden':'';
+ // paper.css forces child layers visible; hiding the parent alone lets the
+ // deferred night layer cover P1. Opacity hides the entire composited scene.
+ const beforeJourney=!p3Signaled||scrollY<start-1;
+ cinema.style.visibility=beforeJourney?'hidden':'';
+ cinema.style.opacity=beforeJourney?'0':'';
+ cinema.style.pointerEvents=beforeJourney?'none':'';
  let q=Q.has('still')?1:clamp((scrollY-start)/span);if(reduced.matches)q=q<.5?0:1;
  const m=paperMotion(q,height,holdNight);
  paper.style.transform=`translate3d(0,${m.y}px,0)`;
@@ -109,7 +115,8 @@ for(const t of ['wheel','touchstart','keydown','pointerdown'])addEventListener(t
 function lockP1(){if(Q.has('at')||userMoved)return;go(0);}
 function maybePrefetch(){
  if(bmode==='m'&&scrollY>40)hydrateMobileRest();
- if(needP3Now||scrollY>=Math.max(0,start-height*0.85))signalP3();
+ // A tall viewport / zoomed-out page must not prefetch P3 at scrollY=0.
+ if(needP3Now||(scrollY>40&&scrollY>=Math.max(0,start-height*0.85)))signalP3();
 }
 let pending=false;addEventListener('scroll',()=>{
  if(!userMoved&&!Q.has('at')&&performance.now()<bootGuardUntil&&scrollY>1){go(0);return;}
@@ -118,9 +125,8 @@ let pending=false;addEventListener('scroll',()=>{
 },{passive:true});
 addEventListener('resize',()=>requestAnimationFrame(layout));
 cinema.addEventListener('keydown',e=>{if(e.target.closest('button,a,input,summary'))return;const y={Home:0,End:start+span,PageUp:scrollY-height*.8,PageDown:scrollY+height*.8,ArrowUp:scrollY-65,ArrowDown:scrollY+65}[e.key];if(y!==undefined){e.preventDefault();go(y);}});
-// First paint: do not wait for P3 covers/masks/journey art. Show P1 as soon as fonts (and mobile P1) are ready.
-await document.fonts.ready;
-if(innerWidth<=680){hydrateMobileBase();await Promise.all([...document.querySelectorAll('#mstack img')].filter(i=>i.getAttribute('src')).map(i=>i.decode().catch(()=>{})));}
+// P1 is already loading via baseline-boot. Gallery fonts and image decoding
+// must not gate layout, scroll handlers or the first visible frame.
 if(needP3Now)signalP3();
 layout();lockP1();document.body.classList.add('loaded');
 bootGuardUntil=performance.now()+1500;

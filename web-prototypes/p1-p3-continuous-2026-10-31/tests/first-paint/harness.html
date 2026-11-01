@@ -1,0 +1,49 @@
+<!doctype html><html><meta charset="utf-8"><title>首屏加载回归检查</title><style>body{font:16px system-ui;margin:24px;background:#f8f6ef}iframe{border:0;display:block;max-width:none}#viewport{height:480px;overflow:auto;border:1px solid #ccc}pre{white-space:pre-wrap}button{font:inherit;padding:10px}</style><h1>首屏加载回归检查</h1><button id="run">运行检查</button><pre id="out">准备中</pre><div id="viewport"></div><script>
+const results=[];const out=document.getElementById('out');
+const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+function record(name,pass,detail){results.push({name,pass,detail});out.textContent=JSON.stringify(results,null,2);fetch('/results',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(results)});}
+async function until(fn,limit=15000){const start=performance.now();while(!fn()){if(performance.now()-start>limit)throw Error('timeout');await sleep(50);}}
+async function open(mode,w,h,query=''){
+ const f=document.createElement('iframe');f.width=w;f.height=h;f.src='/'+mode+'/index.html'+query;document.getElementById('viewport').replaceChildren(f);
+ await until(()=>f.contentDocument?.querySelector('#baseline'));return f;
+}
+const urls=f=>f.contentWindow.performance.getEntriesByType('resource').map(x=>x.name);
+const extras=f=>urls(f).filter(x=>/song\.ttf|\/covers\/|\/masks\/|locked-pen/.test(x));
+async function run(){
+ document.getElementById('run').disabled=true;
+ try{
+  for(const mode of ['slow-before','slow-after']){
+   const f=await open(mode,1440,900);await sleep(1500);
+   const child=f.contentDocument.getElementById('v4');
+   const p1=child.getAttribute('src')&&child.contentDocument?.getElementById('bg')?.complete;
+   record(mode+'：过渡模块延迟5秒时P1独立加载',mode==='slow-after'?!!p1:!p1,{p1Ready:!!p1,frameSrc:child.getAttribute('src')});
+  }
+  let f=await open('before',1920,1200);await until(()=>f.contentDocument.body.classList.contains('loaded'));await sleep(1500);
+  record('旧版：复现大窗口首屏提前加载P3',f.contentDocument.documentElement.dataset.p3Assets==='1',{extraRequests:extras(f).length});
+  for(const [w,h] of [[1440,900],[1920,1200],[888,647],[390,844],[390,1200]]){
+   f=await open('after',w,h);await until(()=>f.contentDocument.body.classList.contains('loaded'));await sleep(1500);
+   const win=f.contentWindow,doc=f.contentDocument;
+   const first={sceneOpacity:doc.getElementById('cinema').style.opacity,width:win.innerWidth,height:win.innerHeight,scrollY:win.scrollY,p3:doc.documentElement.dataset.p3Assets||null,extraRequests:extras(f),mobileP1:doc.getElementById('mp1').getAttribute('src'),desktopFrame:doc.getElementById('v4').getAttribute('src')};
+   record(w+'×'+h+' 首屏不下载P3或字体',!first.p3&&first.extraRequests.length===0&&win.scrollY===0&&doc.getElementById('cinema').style.opacity==='0',first);
+   record(w+'×'+h+' 只启动对应设备P1',w<=680?!!first.mobileP1&&!first.desktopFrame:!!first.desktopFrame&&!first.mobileP1,{});
+   win.dispatchEvent(new win.Event('wheel'));win.scrollTo(0,Math.max(80,doc.getElementById('journey').offsetTop-win.innerHeight*.85+50));
+   await until(()=>doc.getElementById('stage').dataset.booted==='1');
+   await sleep(1000);
+   record(w+'×'+h+' 滚动后P3资源启动',doc.documentElement.dataset.p3Assets==='1'&&extras(f).length>0,{extraRequests:extras(f).length});
+   const wrong=urls(f).filter(x=>new RegExp('/masks/(extension-)?'+(w<=680?'web':'mobile')+'-').test(x));
+   record(w+'×'+h+' 不预取另一设备蒙版',wrong.length===0,wrong);
+   win.scrollTo(0,doc.getElementById('journey').offsetTop+Math.round(h*1.55)+5);
+   await until(()=>doc.documentElement.dataset.ready==='true'&&!doc.getElementById('stage').inert);
+   await sleep(300);
+   const before=win.GALLERY_REVIEW.selected;doc.getElementById('next').click();await sleep(800);
+   record(w+'×'+h+' P3可进入并翻页',Number(doc.documentElement.dataset.progress)===1&&win.GALLERY_REVIEW.selected===(before+1)%24,{progress:doc.documentElement.dataset.progress,before,after:win.GALLERY_REVIEW.selected});
+   win.scrollTo(0,0);await sleep(200);record(w+'×'+h+' 可返回P1',win.scrollY===0&&doc.getElementById('cinema').style.visibility==='hidden',{});
+  }
+  f=await open('after',1440,900,'?at=1');await until(()=>f.contentDocument.documentElement.dataset.progress==='1.00000');
+  record('直接预览P3参数仍可用',f.contentDocument.getElementById('stage').dataset.booted==='1',{});
+ }catch(e){record('运行异常',false,String(e.stack||e));}
+ document.title=results.every(x=>x.pass)?'全部通过 · 首屏加载检查':'存在失败 · 首屏加载检查';
+ document.getElementById('run').disabled=false;
+}
+document.getElementById('run').onclick=run;
+</script></html>
