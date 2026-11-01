@@ -1,5 +1,12 @@
 # 审美外挂｜整站设计总控（跨 AI 协作入口）
 
+## 2026-11-01｜飞书「章节」表只读核验（与线上快照一致）
+
+- 重新 `lark-cli auth login`（用户授权，只读拉取）。Base `IGctbcuwPaE6hMsmAoicJddpn3U` 表 `tblaYsGqDwNudnXs`（章节），**rev 仍为 118**，24 条，`has_more=false`。
+- 与线上静态快照 `deploy/netlify-p1p3-continuous-2026-10-31/assets/topics.json` 逐条比对：**名称 / 英文 / 一句定义 / 封面图注 / 文件名全部一致，无差异**。因此本次无需重下封面、无需重新部署。
+- 飞书里仍存在数据疑点：第 21 章「未来想象 Future Imaginaries」的一句定义写的是坎普（“坎普明知自己在表演……”），封面是比亚兹莱《孔雀裙》——这是飞书后台原文，不是快照错位；未改飞书，待夕里本人核对。
+- 线上仍是静态快照，**未接实时数据库**；飞书改动后需重新只读拉取→打包→部署才会反映到站点。
+
 ## 2026-10-31｜Netlify 当前线上内容说明（必读：只是静态快照，未接飞书实时数据库）
 
 - **线上是什么**：<https://subtle-peony-38e354.netlify.app/>，deploy `6ae5446129bafb53d5d08871`（2026-10-31，netlify-cli，账号 xianzhi10969@gmail.com，site id `dceb69b5-e8d4-40f2-94c9-dc31d8ebd571`）。内容＝[P1→P2→P3 单页连续原型](web-prototypes/p1-p3-continuous-2026-10-31/README.md)，发布副本 `deploy/netlify-p1p3-continuous-2026-10-31/`。
