@@ -1,0 +1,12 @@
+# 纹饰 v2 · 生图提示词
+
+工具：内置 image_gen，transparent_background=true。原始无字 P1 为画风参照，不是修改目标。输出为独立透明素材，主副标和原插画通过网页继续引用原文件。
+
+Use case: illustration-story. Create a NEW transparent decorative asset for the attached illustrated website. The attached image is STYLE REFERENCE ONLY, not the edit target: study its engraved pen strokes, gently tapering doubled contours, slender pointed arches and the very small woven eightfold star ornament on the woman's robe. Do NOT reproduce the woman, shrine, page background or any text.
+
+Deliver one square 1024x1024 RGBA transparent PNG of an airy, asymmetrical UPPER-RIGHT CORNER architectural tracery ornament. This will be placed above and to the right of a large black Chinese wordmark. Critical empty-space geometry: all of the lower-left 76% width by lower 82% height must be completely transparent. Draw only in a narrow band along the top (y roughly 25–160), and a narrow band along the right (x roughly 790–990, y roughly 80–930). Make the transition at upper right feel like one cohesive subtly curved architectural corner, rather than a separate horizontal and vertical sticker. End the upper band delicately at x roughly 200. End the right band organically with a tapering pointed finial before y930. Nothing touches the outer canvas edge; 20px transparent padding.
+
+Design language: an elegant, restrained engraved tracery fragment from the same imaginary world as the reference. Long fine doubled contours, narrow interlaced lancet arcs, TWO small eightfold geometric star-knots integrated INTO the narrow tracery band, NOT floating stars. Most of the band is open breathing space. Dark warm charcoal ink, subtle hand-pressure variation, a few short etched shadow strokes in corners, no gray wash or solid fill. Outer contour slightly stronger than inner filigree; lines taper beautifully at endpoints. Curves and geometry should recall the reference's shrine and woven robe borders while remaining abstract architectural ornament. A refined illustrated marginal ornament at the scale of a book's corner, sophisticated and quiet, not a heavy picture frame.
+
+Avoid: large triangulated networks, low-poly mesh, straight uniform CAD lines, circles as diagram charts, paper texture, beige rectangle, white background, shadow, glow, gold, foliage, flowers, vines, leaves, extra objects, ornate baroque curls, full rectangular frame, symmetrical centered composition, repeated dense wallpaper, any letters or words. Transparent empty center is essential.
+
