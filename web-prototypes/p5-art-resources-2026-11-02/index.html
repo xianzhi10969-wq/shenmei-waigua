@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="审美外挂 · 艺术资源，从你想做的事开始。">
+  <title>审美外挂 · 艺术资源</title>
+  <link rel="preload" href="assets/noto-serif-sc-400-p5.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="p5.css">
+  <link rel="stylesheet" href="preview.css">
+</head>
+<body>
+  <main id="p5"></main>
+  <aside class="p5-review" aria-label="实现预览说明">
+    <p>艺术资源 · 页面实现预览</p>
+    <p>四个分类、星星导航与下一页已提供独立事件接口，内容页和 P6 待主站接入。</p>
+    <output id="p5-review-output" aria-live="polite">可点击入口检查交互。</output>
+  </aside>
+  <script type="module">
+    import { mountArtResources } from './p5.mjs';
+    const output = document.querySelector('#p5-review-output');
+    mountArtResources(document.querySelector('#p5'), {
+      onSelect: ({ label }) => { output.textContent = `已触发「${label}」入口。`; },
+      onNavigate: () => { output.textContent = '已触发星星导航入口。'; },
+      onContinue: () => { output.textContent = '已触发意象实验室入口。'; },
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,254 @@
+[
+  {
+    "viewport": {
+      "width": 320,
+      "height": 844
+    },
+    "frame": {
+      "width": 320,
+      "height": 692.5
+    },
+    "entries": [
+      {
+        "key": "visual-inspiration",
+        "width": 175.578125,
+        "height": 55.78125
+      },
+      {
+        "key": "artworks",
+        "width": 175.578125,
+        "height": 55.78125
+      },
+      {
+        "key": "interactive-websites",
+        "width": 175.578125,
+        "height": 55.78125
+      },
+      {
+        "key": "creative-materials",
+        "width": 175.578125,
+        "height": 55.78125
+      }
+    ],
+    "fontsLoaded": true,
+    "allLocalImages": true,
+    "noHorizontalOverflow": true,
+    "labelsInside": true,
+    "fourDistinctKeys": true,
+    "touchTargets": true,
+    "mobileBlackWhite": true,
+    "actionsPassed": true,
+    "consoleErrors": [],
+    "failedResponses": []
+  },
+  {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "frame": {
+      "width": 390,
+      "height": 844
+    },
+    "entries": [
+      {
+        "key": "visual-inspiration",
+        "width": 214,
+        "height": 68
+      },
+      {
+        "key": "artworks",
+        "width": 214,
+        "height": 68
+      },
+      {
+        "key": "interactive-websites",
+        "width": 214,
+        "height": 68
+      },
+      {
+        "key": "creative-materials",
+        "width": 214,
+        "height": 68
+      }
+    ],
+    "fontsLoaded": true,
+    "allLocalImages": true,
+    "noHorizontalOverflow": true,
+    "labelsInside": true,
+    "fourDistinctKeys": true,
+    "touchTargets": true,
+    "mobileBlackWhite": true,
+    "actionsPassed": true,
+    "consoleErrors": [],
+    "failedResponses": []
+  },
+  {
+    "viewport": {
+      "width": 430,
+      "height": 932
+    },
+    "frame": {
+      "width": 430,
+      "height": 930.5625
+    },
+    "entries": [
+      {
+        "key": "visual-inspiration",
+        "width": 235.9375,
+        "height": 74.96875
+      },
+      {
+        "key": "artworks",
+        "width": 235.9375,
+        "height": 74.96875
+      },
+      {
+        "key": "interactive-websites",
+        "width": 235.9375,
+        "height": 74.96875
+      },
+      {
+        "key": "creative-materials",
+        "width": 235.9375,
+        "height": 74.96875
+      }
+    ],
+    "fontsLoaded": true,
+    "allLocalImages": true,
+    "noHorizontalOverflow": true,
+    "labelsInside": true,
+    "fourDistinctKeys": true,
+    "touchTargets": true,
+    "mobileBlackWhite": true,
+    "actionsPassed": true,
+    "consoleErrors": [],
+    "failedResponses": []
+  },
+  {
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "frame": {
+      "width": 520,
+      "height": 1125.328125
+    },
+    "entries": [
+      {
+        "key": "visual-inspiration",
+        "width": 285.328125,
+        "height": 90.65625
+      },
+      {
+        "key": "artworks",
+        "width": 285.328125,
+        "height": 90.65625
+      },
+      {
+        "key": "interactive-websites",
+        "width": 285.328125,
+        "height": 90.65625
+      },
+      {
+        "key": "creative-materials",
+        "width": 285.328125,
+        "height": 90.65625
+      }
+    ],
+    "fontsLoaded": true,
+    "allLocalImages": true,
+    "noHorizontalOverflow": true,
+    "labelsInside": true,
+    "fourDistinctKeys": true,
+    "touchTargets": true,
+    "mobileBlackWhite": true,
+    "actionsPassed": true,
+    "consoleErrors": [],
+    "failedResponses": []
+  },
+  {
+    "viewport": {
+      "width": 1000,
+      "height": 800
+    },
+    "frame": {
+      "width": 1000,
+      "height": 694.4375
+    },
+    "entries": [
+      {
+        "key": "visual-inspiration",
+        "width": 368.046875,
+        "height": 58.328125
+      },
+      {
+        "key": "artworks",
+        "width": 368.046875,
+        "height": 58.328125
+      },
+      {
+        "key": "interactive-websites",
+        "width": 368.046875,
+        "height": 58.328125
+      },
+      {
+        "key": "creative-materials",
+        "width": 368.046875,
+        "height": 58.328125
+      }
+    ],
+    "fontsLoaded": true,
+    "allLocalImages": true,
+    "noHorizontalOverflow": true,
+    "labelsInside": true,
+    "fourDistinctKeys": true,
+    "touchTargets": true,
+    "mobileBlackWhite": true,
+    "actionsPassed": true,
+    "consoleErrors": [],
+    "failedResponses": []
+  },
+  {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "frame": {
+      "width": 1440,
+      "height": 1000
+    },
+    "entries": [
+      {
+        "key": "visual-inspiration",
+        "width": 530,
+        "height": 84
+      },
+      {
+        "key": "artworks",
+        "width": 530,
+        "height": 84
+      },
+      {
+        "key": "interactive-websites",
+        "width": 530,
+        "height": 84
+      },
+      {
+        "key": "creative-materials",
+        "width": 530,
+        "height": 84
+      }
+    ],
+    "fontsLoaded": true,
+    "allLocalImages": true,
+    "noHorizontalOverflow": true,
+    "labelsInside": true,
+    "fourDistinctKeys": true,
+    "touchTargets": true,
+    "mobileBlackWhite": true,
+    "actionsPassed": true,
+    "consoleErrors": [],
+    "failedResponses": []
+  }
+]
