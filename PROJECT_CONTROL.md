@@ -1,5 +1,10 @@
 # 审美外挂｜整站设计总控（跨 AI 协作入口）
 
+## 2026-11-02｜P6继续书写台方向；补齐参考图和衔接分镜（待审）
+
+用户同意继续，并明确要求研究两页衔接、找参考图。本轮已实际查看NGV Pugin书写台、Glasgow Ackermann桌椅图版、V&A Potter书桌速写；Robinson继续管整体画面。新增薄桌沿＋小斜面书写板候选，取消大梯形桌面与花瓶；手机三镜按同一连续页0/640/844滚动位置检查，门脚与桌沿在中间镜同屏。[来源、结构修改、导航/返回规则与检查](research/2026-11-02-p6-spatial-continuity/REFERENCES-AND-TRANSITION-v2.md)、[P6独立结构](research/2026-11-02-p6-spatial-continuity/p6-writing-slope-v2.svg)。参考板和连续分镜PNG留本地。仅同意研究方向，不等于结构/美术/动效定稿；未生图、未改Figma或上线。
+
+
 ## 2026-11-02｜P6 视觉衔接被否定；改研究具体室内场景（待审）
 
 用户指出新版P6与已定稿P5、整个P1–P5美术世界均衔接不起来。撤回上一轮A「词语＋抽象曲线」的推荐，不再以同纸色、细线、留白等同于视觉连续。重新截图核对P5手机931:176/桌面902:43及P1–P4，新增「门边→书写台前」空间候选：尖拱器物结构、局部取景、台面纸页承载词与结果。[修订、参考、边界及证据](research/2026-11-02-p6-spatial-continuity/README.md)、[手机结构](research/2026-11-02-p6-spatial-continuity/p6-mobile.svg)、[桌面结构](research/2026-11-02-p6-spatial-continuity/desktop-scene.svg)。新场景尚未获用户认可，线框不是完成美术。P5/P1–P4、Figma、飞书与生产站未改；未生图。比较图和滚动分镜PNG仅保存在本地研究目录。
