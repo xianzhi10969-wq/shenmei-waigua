@@ -140,3 +140,10 @@ addEventListener('message',e=>{if(e.origin!==location.origin)return;if(e.data?.t
 reduced.addEventListener('change',render);new ResizeObserver(()=>requestAnimationFrame(layout)).observe($('#stage'));
 attachGalleryGestures({cinema,stage:$('#stage'),p3,scrollTo:y=>go(y)});
 if(parent!==window)parent.postMessage({type:'review-ready'},location.origin);
+
+// Navigation adapter: use the existing scroll-driven transition and gallery state.
+export function goToTopics() {
+ userMoved = true; holdNight = false;
+ signalP3(); layout(); go(start + span); render();
+ cinema.focus({preventScroll:true});
+}
