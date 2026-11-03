@@ -1,0 +1,147 @@
+{
+  "date": "2026-11-03",
+  "checks": {
+    "allMoving": true,
+    "differentPeriods": true,
+    "differentPhases": true,
+    "stableButtons": true,
+    "blackLayersSynchronized": true,
+    "withinAmplitude": true
+  },
+  "focusedEntryPaused": true,
+  "samples": [
+    {
+      "entries": [
+        {
+          "button": {
+            "height": 71.796875,
+            "width": 225.9658966064453,
+            "x": 160.4971466064453,
+            "y": 397.0099182128906
+          },
+          "delay": "0s",
+          "duration": "6s",
+          "id": "visual-inspiration",
+          "plateTransform": "matrix(1, 0, 0, 1, 0, -3.76793)",
+          "state": "running",
+          "transform": "matrix(1, 0, 0, 1, 0, -3.76793)"
+        },
+        {
+          "button": {
+            "height": 71.796875,
+            "width": 225.9658966064453,
+            "x": 160.4971466064453,
+            "y": 485.6960144042969
+          },
+          "delay": "-2.1s",
+          "duration": "6.8s",
+          "id": "artworks",
+          "plateTransform": "none",
+          "state": "running",
+          "transform": "matrix(1, 0, 0, 1, 0, -3.99318)"
+        },
+        {
+          "button": {
+            "height": 71.796875,
+            "width": 225.9658966064453,
+            "x": 160.4971466064453,
+            "y": 587.0525512695312
+          },
+          "delay": "-4.6s",
+          "duration": "7.4s",
+          "id": "interactive-websites",
+          "plateTransform": "matrix(1, 0, 0, 1, 0, 1.69994)",
+          "state": "running",
+          "transform": "matrix(1, 0, 0, 1, 0, 1.69994)"
+        },
+        {
+          "button": {
+            "height": 71.796875,
+            "width": 225.9658966064453,
+            "x": 160.4971466064453,
+            "y": 667.2940063476562
+          },
+          "delay": "-1.3s",
+          "duration": "6.4s",
+          "id": "creative-materials",
+          "plateTransform": "none",
+          "state": "running",
+          "transform": "matrix(1, 0, 0, 1, 0, 1.98458)"
+        }
+      ],
+      "paused": false,
+      "reduced": false,
+      "viewport": {
+        "height": 739,
+        "width": 412
+      }
+    },
+    {
+      "entries": [
+        {
+          "button": {
+            "height": 71.796875,
+            "width": 225.9658966064453,
+            "x": 160.4971466064453,
+            "y": 397.0099182128906
+          },
+          "delay": "0s",
+          "duration": "6s",
+          "id": "visual-inspiration",
+          "plateTransform": "matrix(1, 0, 0, 1, 0, 0.877069)",
+          "state": "running",
+          "transform": "matrix(1, 0, 0, 1, 0, 0.877069)"
+        },
+        {
+          "button": {
+            "height": 71.796875,
+            "width": 225.9658966064453,
+            "x": 160.4971466064453,
+            "y": 485.6960144042969
+          },
+          "delay": "-2.1s",
+          "duration": "6.8s",
+          "id": "artworks",
+          "plateTransform": "none",
+          "state": "running",
+          "transform": "matrix(1, 0, 0, 1, 0, 1.62197)"
+        },
+        {
+          "button": {
+            "height": 71.796875,
+            "width": 225.9658966064453,
+            "x": 160.4971466064453,
+            "y": 587.0525512695312
+          },
+          "delay": "-4.6s",
+          "duration": "7.4s",
+          "id": "interactive-websites",
+          "plateTransform": "matrix(1, 0, 0, 1, 0, 1.9225)",
+          "state": "running",
+          "transform": "matrix(1, 0, 0, 1, 0, 1.9225)"
+        },
+        {
+          "button": {
+            "height": 71.796875,
+            "width": 225.9658966064453,
+            "x": 160.4971466064453,
+            "y": 667.2940063476562
+          },
+          "delay": "-1.3s",
+          "duration": "6.4s",
+          "id": "creative-materials",
+          "plateTransform": "none",
+          "state": "running",
+          "transform": "matrix(1, 0, 0, 1, 0, 1.57178)"
+        }
+      ],
+      "paused": false,
+      "reduced": false,
+      "viewport": {
+        "height": 739,
+        "width": 412
+      }
+    }
+  ],
+  "reducedMotion": "CSS fallback implemented; OS preference not toggled in this check"
+}

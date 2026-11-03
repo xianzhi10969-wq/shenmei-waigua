@@ -73,12 +73,24 @@ export function mountArtResources(root, options = {}) {
     }
   }, { signal: controller.signal });
 
+  // The scene is a reusable page section: suspend motion when it leaves view,
+  // or the browser tab is hidden. CSS handles the reduced-motion preference.
+  let inView = true;
+  const updateMotion = () => root.classList.toggle('p5-motion-paused', document.hidden || !inView);
+  const observer = typeof IntersectionObserver === 'function'
+    ? new IntersectionObserver(([entry]) => { inView = entry.isIntersecting; updateMotion(); })
+    : null;
+  observer?.observe(root.querySelector('.p5-frame'));
+  document.addEventListener('visibilitychange', updateMotion, { signal: controller.signal });
+  updateMotion();
+
   return {
     element: root.querySelector('.p5-frame'),
     destroy() {
+      observer?.disconnect();
       controller.abort();
       root.replaceChildren();
-      root.classList.remove('p5-root');
+      root.classList.remove('p5-root', 'p5-motion-paused');
     },
   };
 }
