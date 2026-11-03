@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="390" height="844" viewBox="0 0 390 844">
+<title>P6 · 第一层构图定位 · 待审</title>
+<desc>只示意衣袖、手和纸的大小位置。轮廓不是正式人体绘画。三个占位层可单独编辑。</desc>
+<g id="background"><rect width="390" height="844" fill="white"/></g>
+<g id="guides" display="none" fill="none" stroke="black" stroke-width=".5" stroke-dasharray="3 6"><path d="M32 0V844 M358 0V844 M0 281H390 M0 563H390"/><rect x="112" y="392" width="144" height="200"/></g>
+<g id="sleeve-placeholder" fill="white" stroke="#111" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M402 142 C356 153 342 170 325 207 C310 236 286 252 269 273 C258 287 267 300 285 307 C306 311 326 287 344 272 C362 257 383 252 402 246"/>
+<path d="M271 272 C284 278 296 289 299 303"/>
+</g>
+<g id="paper-placeholder" fill="none" stroke="#111" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round">
+<path d="M105 347 Q158 352 216 336 M253 333 Q267 361 270 396 L290 610 Q188 643 69 627 Q95 493 105 347"/>
+<path d="M69 627 Q80 616 95 614"/>
+</g>
+<g id="hand-placeholder" fill="white" stroke="#111" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M277 288 Q260 305 244 313 Q232 315 223 326 L207 344 Q203 350 208 351 Q213 352 221 344 L237 333 Q241 330 243 334 Q248 342 257 336 Q274 324 287 302"/>
+<path d="M232 337 Q240 343 246 340" fill="none"/>
+</g>
+</svg>
