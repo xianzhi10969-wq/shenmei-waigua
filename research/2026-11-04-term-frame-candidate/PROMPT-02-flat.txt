@@ -1,0 +1,12 @@
+Use case: precise-object-edit / style-transfer.
+Edit ONLY the rendering technique of input 1, the tall ornamental picture frame. Input 2 (homepage P1) and input 3 (homepage P2) are style references. The preceding version was rejected because it looks like a lit three-dimensional sculpted relief, unlike the flat pen drawing of the homepage.
+Create ONE transparent portrait PNG asset, 1024x1536 proportions, no page or text.
+Retain input 1's precise overall silhouette and placement: upward-pointed ogee crown, long upright rails, same open inner void, same open bottom, small vegetal curls and leaves. Change the treatment decisively:
+- FLAT TWO-DIMENSIONAL pen illustration, like the homepage architectural lines.
+- Pale ivory contour strokes on genuine transparency, intended to sit over charcoal. Thin, crisp outlines and a small number of internal construction lines.
+- No rendered carving, no bevel shading, no modeled depth, no directional light, no drop shadows, no ambient occlusion, no gradients, no silver metal, no luminous highlights.
+- Remove ALL broad opaque pale-gray/white filled surfaces and dense stipple modeling. Large fields between contour strokes must be transparent. The rails are outlined bands, not solid pillars with lit faces.
+- Render each botanical leaf as an elegant outline with at most a central vein or two; maintain delicacy and generous empty air. Preserve the decorative identity without physical sculpted volume.
+- Some local short parallel ink strokes may describe pattern, but not light-to-shadow volumes. Flat engraved BOOK-ILLUSTRATION graphics, not a photograph of a carved frame.
+All strokes use the pale warm ivory palette of P2's architectural linework. Do not recreate any characters, architecture scene, water, star, text or calligraphic swashes from the references.
+Transparent outside and within the central aperture. No dark background pixels, no preview vignette, no checkerboard baked into artwork. The highest point and all foliage should match the previous composition closely, so the existing page placement can be reused. Output only the frame asset.
