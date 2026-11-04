@@ -1,0 +1,57 @@
+[
+  {
+    "name": "绿荫",
+    "hex": "#111617",
+    "source": "swing.jpg",
+    "box": [
+      980,
+      250,
+      1080,
+      350
+    ]
+  },
+  {
+    "name": "叶绿",
+    "hex": "#526038",
+    "source": "swing.jpg",
+    "box": [
+      300,
+      280,
+      380,
+      360
+    ]
+  },
+  {
+    "name": "灰粉",
+    "hex": "#c1808d",
+    "source": "juno_honeymoon_suite.jpg",
+    "box": [
+      370,
+      1040,
+      470,
+      1100
+    ]
+  },
+  {
+    "name": "浅粉",
+    "hex": "#f6d4dc",
+    "source": "juno_honeymoon_suite.jpg",
+    "box": [
+      1620,
+      890,
+      1710,
+      950
+    ]
+  },
+  {
+    "name": "奶油白",
+    "hex": "#cac0ac",
+    "source": "gaultier_ss24_1.jpg",
+    "box": [
+      300,
+      1740,
+      390,
+      1820
+    ]
+  }
+]

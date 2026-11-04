@@ -1,0 +1,41 @@
+{
+  "snapshot_date": "2026-11-03",
+  "term_revision": 232,
+  "case_revision": 412,
+  "term": {
+    "record_id": "reczz28HJJL2GJHl",
+    "词": "Coquette",
+    "英文": "Coquette",
+    "在本章的位置": "轻到一只鞋飞出去",
+    "核心": "Coquette 的迷人之处，是看起来柔软，却不意味着任人摆布。"
+  },
+  "cases": [
+    {
+      "record_id": "reczz28LbKsn2qIJ",
+      "作品名": "Jean Paul Gaultier Haute Couture SS24",
+      "作品原文名": null,
+      "作者": "Simone Rocha × Jean Paul Gaultier",
+      "年份": "2024",
+      "媒介": "设计",
+      "官方页": "https://simonerocha.com/blogs/projects/jean-paul-gautier-haute-couture-spring-summer-2024-by-simone-rocha"
+    },
+    {
+      "record_id": "reczz28LbOuiiLaq",
+      "作品名": "Spring/Summer 2024",
+      "作品原文名": null,
+      "作者": "Sandy Liang",
+      "年份": "2024",
+      "媒介": "设计",
+      "官方页": "https://www.sandyliang.info/pages/ss-24-new"
+    },
+    {
+      "record_id": "reczz28LbOuik2sX",
+      "作品名": "The Honeymoon",
+      "作品原文名": null,
+      "作者": "Juno Calypso",
+      "年份": "2015–2016",
+      "媒介": "摄影",
+      "官方页": "https://www.junocalypso.com/honeymoon"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "file": "assets/fonts/758883b3b8e23791.woff2",
+    "sha256": "758883b3b8e23791c11016c419acc385942a94ec06ec6422b6768fc685d2d2f9",
+    "bytes": 27112,
+    "mime": "font/woff2"
+  },
+  {
+    "file": "assets/fonts/0ad1510514849c1e.woff2",
+    "sha256": "0ad1510514849c1e6bd955f9f41e3516e3549f4b3a09583fcf592226e4891eb3",
+    "bytes": 35732,
+    "mime": "font/woff2"
+  },
+  {
+    "file": "assets/fonts/2ce479b703b54faa.woff2",
+    "sha256": "2ce479b703b54faa92acf46dc5edc719bb2b2f7ced3f3be6bb910f43aed30d0c",
+    "bytes": 76324,
+    "mime": "font/woff2"
+  },
+  {
+    "file": "assets/images/5bc9b782769739e5.png",
+    "sha256": "5bc9b782769739e58c866792c5c41be071b497afcf1a03b38d191ef2988d2499",
+    "bytes": 4869673,
+    "mime": "image/png"
+  },
+  {
+    "file": "assets/images/b1e200c45e872162.png",
+    "sha256": "b1e200c45e8721626d67328feb0309f96cf4a9fe3e780c1cd74d92922fa1e9ef",
+    "bytes": 3292581,
+    "mime": "image/png"
+  },
+  {
+    "file": "assets/images/daee6ee6acb078a3.png",
+    "sha256": "daee6ee6acb078a349653be7f06b7c273b625d9169a17d3094fb51976271a8d9",
+    "bytes": 321301,
+    "mime": "image/png"
+  },
+  {
+    "file": "assets/images/3d58cd710ebcd3a4.png",
+    "sha256": "3d58cd710ebcd3a4fabc42d5c1ef29b92cabca718bfe241ea3fde1f0ab5e98e4",
+    "bytes": 74778,
+    "mime": "image/png"
+  },
+  {
+    "file": "assets/images/aed4a8d4d6d31d1c.png",
+    "sha256": "aed4a8d4d6d31d1c3450dd258320913ac3e6c5bffa8553f41f2ecd85154e124a",
+    "bytes": 675667,
+    "mime": "image/png"
+  },
+  {
+    "file": "assets/images/7109201d5d1829f4.png",
+    "sha256": "7109201d5d1829f460c8c792a728e4d671831ed57b6b3239be3475b0b83c53fa",
+    "bytes": 26221,
+    "mime": "image/png"
+  },
+  {
+    "file": "assets/images/add6460cb1c9a220.png",
+    "sha256": "add6460cb1c9a220ca981633704fb39de78160a7387459b73cc17dfbba1f87cc",
+    "bytes": 294287,
+    "mime": "image/png"
+  },
+  {
+    "file": "assets/images/93cd905d6297ebb1.png",
+    "sha256": "93cd905d6297ebb1541bea8a291ef10fbd710317135b8eac0d713b0340d38e3c",
+    "bytes": 294219,
+    "mime": "image/png"
+  },
+  {
+    "file": "assets/images/21c35addd4dd3bee.png",
+    "sha256": "21c35addd4dd3beed028d27c29bae5239a6b76c095146a6fbe43c99351ba3d99",
+    "bytes": 2948401,
+    "mime": "image/png"
+  },
+  {
+    "file": "assets/images/2a51e79a090a90d7.png",
+    "sha256": "2a51e79a090a90d7efaa44e383f0f9cdbb94513f2504b311026059df791807fd",
+    "bytes": 3020030,
+    "mime": "image/png"
+  }
+]

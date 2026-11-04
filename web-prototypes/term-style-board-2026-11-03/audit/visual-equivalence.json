@@ -1,0 +1,15 @@
+{
+  "image_bytes_and_geometry_identical": true,
+  "results": [
+    {
+      "viewport": "desktop",
+      "different_pixels": 0,
+      "max_channel_difference": 0
+    },
+    {
+      "viewport": "mobile",
+      "different_pixels": 1,
+      "max_channel_difference": 1
+    }
+  ]
+}

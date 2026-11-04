@@ -1,0 +1,168 @@
+[
+  {
+    "key": "swing-garden",
+    "source": "swing.jpg",
+    "crop_original_pixels": null,
+    "polygon_original_pixels": null,
+    "method": "crop/alpha only; no generative processing; no recoloring"
+  },
+  {
+    "key": "rose-room",
+    "source": "juno_honeymoon_suite.jpg",
+    "crop_original_pixels": null,
+    "polygon_original_pixels": null,
+    "method": "crop/alpha only; no generative processing; no recoloring"
+  },
+  {
+    "key": "glass",
+    "source": "juno_champagne.jpg",
+    "crop_original_pixels": null,
+    "polygon_original_pixels": null,
+    "method": "crop/alpha only; no generative processing; no recoloring"
+  },
+  {
+    "key": "embroidery",
+    "source": "gaultier_ss24_1.jpg",
+    "crop_original_pixels": [
+      109,
+      1589,
+      1441,
+      2002
+    ],
+    "polygon_original_pixels": [
+      [
+        147,
+        1658
+      ],
+      [
+        230,
+        1642
+      ],
+      [
+        315,
+        1658
+      ],
+      [
+        403,
+        1642
+      ],
+      [
+        480,
+        1656
+      ],
+      [
+        555,
+        1629
+      ],
+      [
+        641,
+        1648
+      ],
+      [
+        718,
+        1624
+      ],
+      [
+        801,
+        1629
+      ],
+      [
+        878,
+        1605
+      ],
+      [
+        956,
+        1610
+      ],
+      [
+        1038,
+        1600
+      ],
+      [
+        1118,
+        1589
+      ],
+      [
+        1193,
+        1616
+      ],
+      [
+        1278,
+        1616
+      ],
+      [
+        1337,
+        1640
+      ],
+      [
+        1377,
+        1725
+      ],
+      [
+        1441,
+        1848
+      ],
+      [
+        1348,
+        1888
+      ],
+      [
+        1249,
+        1917
+      ],
+      [
+        1137,
+        1941
+      ],
+      [
+        1022,
+        1960
+      ],
+      [
+        907,
+        1976
+      ],
+      [
+        793,
+        1986
+      ],
+      [
+        667,
+        1994
+      ],
+      [
+        560,
+        1992
+      ],
+      [
+        448,
+        1984
+      ],
+      [
+        328,
+        1976
+      ],
+      [
+        214,
+        1962
+      ],
+      [
+        112,
+        1944
+      ]
+    ],
+    "method": "crop/alpha only; no generative processing; no recoloring"
+  },
+  {
+    "key": "silver-rose",
+    "source": "gaultier_ss24_2.jpg",
+    "crop_original_pixels": [
+      596,
+      847,
+      945,
+      1364
+    ],
+    "polygon_original_pixels": null,
+    "method": "crop/alpha only; no generative processing; no recoloring"
+  }
+]

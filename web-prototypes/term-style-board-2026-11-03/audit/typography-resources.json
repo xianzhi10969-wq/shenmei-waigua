@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Grid Systems & Editorial Design / typography-rules",
+    "url": "https://github.com/medoismail/grid-systems-editorial-skill/blob/main/typography-rules.md",
+    "sha": "b1cfab7c555788a5d003cb5945771ebb2d582b3d",
+    "applied": "字号角色、字重、行距与数字特性；不机械照搬印刷字号和英文行长"
+  },
+  {
+    "name": "Grid Systems & Editorial Design / page-composition",
+    "url": "https://github.com/medoismail/grid-systems-editorial-skill/blob/main/page-composition.md",
+    "sha": "c99634840a494afabe7191080910d083498c4579",
+    "applied": "原主次保留；文字避开图像关键部位；编号靠近所属裁片"
+  },
+  {
+    "name": "Cormorant Garamond",
+    "author": "Christian Thalmann / Cormorant Project Authors",
+    "url": "https://github.com/google/fonts/tree/main/ofl/cormorantgaramond",
+    "upstream": "https://github.com/CatharsisFonts/Cormorant",
+    "license": "SIL OFL 1.1",
+    "applied": "Italic variable 500 标题；Roman variable 600 编号，lnum+tnum"
+  },
+  {
+    "name": "朱雀仿宋",
+    "author": "璇玑造字 / TrionesType",
+    "url": "https://github.com/TrionesType/zhuque",
+    "release": "v0.212",
+    "download": "https://github.com/TrionesType/zhuque/releases/download/v0.212/ZhuqueFangsong-v0.212.zip",
+    "license": "SIL OFL 1.1",
+    "applied": "中文副题与正文，保留原字形，只制作网页字符子集"
+  }
+]

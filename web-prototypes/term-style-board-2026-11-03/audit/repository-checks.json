@@ -1,0 +1,32 @@
+[
+  {
+    "name": "desktop",
+    "width": 1440,
+    "overflow": false,
+    "loaded": 10,
+    "fonts": true,
+    "source": true,
+    "errors": []
+  },
+  {
+    "name": "mobile",
+    "width": 390,
+    "overflow": false,
+    "loaded": 10,
+    "fonts": true,
+    "source": true,
+    "errors": []
+  },
+  {
+    "file": "mobile.html",
+    "opened": true
+  },
+  {
+    "file": "type-study.html",
+    "opened": true
+  },
+  {
+    "file": "frames.html",
+    "opened": true
+  }
+]

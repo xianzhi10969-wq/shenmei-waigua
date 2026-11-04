@@ -1,0 +1,242 @@
+[
+  {
+    "unit_id": "swing-garden",
+    "display_number": "01",
+    "image": "assets/images/5bc9b782769739e5.png",
+    "source_file": "assets/originals/swing.jpg",
+    "case_record_id": null,
+    "term_record_id": "reczz28HJJL2GJHl",
+    "desktop": [
+      62,
+      225,
+      442,
+      480,
+      -6,
+      1
+    ],
+    "mobile": [
+      19,
+      157,
+      259,
+      297,
+      -5,
+      1
+    ]
+  },
+  {
+    "unit_id": "dress",
+    "display_number": "02",
+    "image": "assets/images/b1e200c45e872162.png",
+    "source_file": "assets/originals/gaultier_ss24_1.jpg",
+    "case_record_id": "reczz28LbKsn2qIJ",
+    "term_record_id": "reczz28HJJL2GJHl",
+    "desktop": [
+      452,
+      257,
+      282,
+      492,
+      3,
+      5
+    ],
+    "mobile": [
+      169,
+      339,
+      191,
+      333,
+      3,
+      5
+    ]
+  },
+  {
+    "unit_id": "collar",
+    "display_number": "03",
+    "image": "assets/images/daee6ee6acb078a3.png",
+    "source_file": "assets/originals/sandy_ss24_3.jpg",
+    "case_record_id": "reczz28LbOuiiLaq",
+    "term_record_id": "reczz28HJJL2GJHl",
+    "desktop": [
+      879,
+      219,
+      188,
+      205,
+      8,
+      3
+    ],
+    "mobile": [
+      272,
+      180,
+      99,
+      108,
+      8,
+      3
+    ]
+  },
+  {
+    "unit_id": "bow",
+    "display_number": "04",
+    "image": "assets/images/3d58cd710ebcd3a4.png",
+    "source_file": "assets/originals/sandy_ss24_3.jpg",
+    "case_record_id": "reczz28LbOuiiLaq",
+    "term_record_id": "reczz28HJJL2GJHl",
+    "desktop": [
+      742,
+      406,
+      167,
+      74,
+      -12,
+      6
+    ],
+    "mobile": [
+      25,
+      503,
+      120,
+      53,
+      -12,
+      6
+    ]
+  },
+  {
+    "unit_id": "embroidery",
+    "display_number": "05",
+    "image": "assets/images/aed4a8d4d6d31d1c.png",
+    "source_file": "assets/originals/gaultier_ss24_1.jpg",
+    "case_record_id": "reczz28LbKsn2qIJ",
+    "term_record_id": "reczz28HJJL2GJHl",
+    "desktop": [
+      801,
+      511,
+      298,
+      101,
+      -5,
+      2
+    ],
+    "mobile": [
+      24,
+      617,
+      189,
+      64,
+      -7,
+      2
+    ]
+  },
+  {
+    "unit_id": "shoe",
+    "display_number": "06",
+    "image": "assets/images/7109201d5d1829f4.png",
+    "source_file": "assets/originals/sandy_ss24_1.jpg",
+    "case_record_id": "reczz28LbOuiiLaq",
+    "term_record_id": "reczz28HJJL2GJHl",
+    "desktop": [
+      1110,
+      446,
+      77,
+      76,
+      13,
+      4
+    ],
+    "mobile": [
+      303,
+      633,
+      55,
+      54,
+      13,
+      6
+    ]
+  },
+  {
+    "unit_id": "black-bows",
+    "display_number": "07",
+    "image": "assets/images/add6460cb1c9a220.png",
+    "source_file": "assets/originals/sandy_ss24_1.jpg",
+    "case_record_id": "reczz28LbOuiiLaq",
+    "term_record_id": "reczz28HJJL2GJHl",
+    "desktop": [
+      1053,
+      664,
+      133,
+      151,
+      8,
+      2
+    ],
+    "mobile": [
+      280,
+      743,
+      83,
+      94,
+      8,
+      3
+    ]
+  },
+  {
+    "unit_id": "silver-rose",
+    "display_number": "08",
+    "image": "assets/images/93cd905d6297ebb1.png",
+    "source_file": "assets/originals/gaultier_ss24_2.jpg",
+    "case_record_id": "reczz28LbKsn2qIJ",
+    "term_record_id": "reczz28HJJL2GJHl",
+    "desktop": [
+      1110,
+      247,
+      98,
+      146,
+      -7,
+      5
+    ],
+    "mobile": [
+      38,
+      696,
+      65,
+      97,
+      -7,
+      5
+    ]
+  },
+  {
+    "unit_id": "rose-room",
+    "display_number": "09",
+    "image": "assets/images/21c35addd4dd3bee.png",
+    "source_file": "assets/originals/juno_honeymoon_suite.jpg",
+    "case_record_id": "reczz28LbOuik2sX",
+    "term_record_id": "reczz28HJJL2GJHl",
+    "desktop": [
+      136,
+      684,
+      428,
+      285,
+      -4,
+      2
+    ],
+    "mobile": [
+      24,
+      799,
+      256,
+      171,
+      -4,
+      2
+    ]
+  },
+  {
+    "unit_id": "glass",
+    "display_number": "10",
+    "image": "assets/images/2a51e79a090a90d7.png",
+    "source_file": "assets/originals/juno_champagne.jpg",
+    "case_record_id": "reczz28LbOuik2sX",
+    "term_record_id": "reczz28HJJL2GJHl",
+    "desktop": [
+      687,
+      720,
+      300,
+      200,
+      6,
+      3
+    ],
+    "mobile": [
+      169,
+      947,
+      195,
+      130,
+      6,
+      4
+    ]
+  }
+]
