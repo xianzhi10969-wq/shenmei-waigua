@@ -1,5 +1,10 @@
 # 当前状态｜审美外挂 · 2026-10-24
 
+## 2026-11-05｜词条拼贴试稿：阈限空间成品图像板（待审）
+
+按用户指示跳过黑线审结构，直接做一页成品图像拼贴。选定「阈限空间」（空间光线主导，与 Coquette 服饰甜美拉开），飞书只读拉取 3 案例 19 原图，选用 8 单元完成双端可编辑试稿。[目录](web-prototypes/term-collage-trial-liminal-2026-11-05/README.md)；预览 [桌面](web-prototypes/term-collage-trial-liminal-2026-11-05/previews/desktop-board.png)、[手机](web-prototypes/term-collage-trial-liminal-2026-11-05/previews/mobile-board.png)。标题/副题/核心句本轮不做；编号可隐藏。未改 Coquette、正式页、飞书；未部署。待夕里审视觉后再决定扩做或加字。
+
+
 ## 2026-11-05｜拼贴风格已定：保留13c7d07整板，只研究外部衔接
 
 用户明确“作品图不同，吊灯可以共用”，并指出拼贴风格已经定好，指定提交13c7d07。撤回助手此前删拼贴标题、抽主图跨界的草图；不得据此修改拼贴内部构图。已核验指定提交代码和双端预览的Git blob SHA与本地一致。[完整拼贴接续研究](research/2026-11-05-term-collage-preserved/README.md)比较A直接接图版与B先读现有短正文再接整板；助手倾向B，未获用户验收。[黑线结构](research/2026-11-05-term-collage-preserved/structure.svg)。拼贴原标题/裁片/配色/编号/核心句保留，重复内容优先在未定稿吊灯扉页侧处理。本轮仅研究，未改Figma、拼贴源代码、飞书或部署；对照截图与HTML留本地，内置浏览器超时，交互未核验。

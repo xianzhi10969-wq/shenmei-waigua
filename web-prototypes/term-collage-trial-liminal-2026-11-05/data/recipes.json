@@ -1,0 +1,97 @@
+[
+  {
+    "unit_id": "pool-hall",
+    "source": "assets/originals/dreampool15.jpg",
+    "source_sha256": "ae3c4acf36db3c0fd7f43b745a8e4b35ff9160cf9d84c8b488aeff08d49e05e6",
+    "crop": null,
+    "max_edge": 1600,
+    "note": "空间光线主导：保留场景矩形，仅裁切与缩放，无去背、无染色、无生图",
+    "output": "assets/images/ecde1d539fc3ad0c.jpg",
+    "output_sha256": "ecde1d539fc3ad0cc8a32ad66ce5ed187b63ef8c9e9b2921c7c660a42bb87453"
+  },
+  {
+    "unit_id": "spiral",
+    "source": "assets/originals/dreampool3.jpg",
+    "source_sha256": "0121825cdba9d3501f592a54e18a1172acfa5170a558a0d9260bba516505d830",
+    "crop": null,
+    "max_edge": 1200,
+    "note": "空间光线主导：保留场景矩形，仅裁切与缩放，无去背、无染色、无生图",
+    "output": "assets/images/4d2ea0f179a11db7.jpg",
+    "output_sha256": "4d2ea0f179a11db791d0ae714121b601886c74438536b4221ec77adfac6c4418"
+  },
+  {
+    "unit_id": "corridor",
+    "source": "assets/originals/dreampool5.jpg",
+    "source_sha256": "76de9240705bdffbb4b3c902ba099df9c61feeaab4d2059434a60256edee0b81",
+    "crop": null,
+    "max_edge": 1200,
+    "note": "空间光线主导：保留场景矩形，仅裁切与缩放，无去背、无染色、无生图",
+    "output": "assets/images/6d7a9a1aa3affd11.jpg",
+    "output_sha256": "6d7a9a1aa3affd11bb823a22842ae06152bb02a8337506b249a3dab87881cfbc"
+  },
+  {
+    "unit_id": "wide-hall",
+    "source": "assets/originals/dreampool44-wide.jpg",
+    "source_sha256": "92796b0de6de1e57e42313b2176e23cf2a461f68fd78eabefa9cbf300d10f9ce",
+    "crop": null,
+    "max_edge": 1600,
+    "note": "空间光线主导：保留场景矩形，仅裁切与缩放，无去背、无染色、无生图",
+    "output": "assets/images/a9efee066404f764.jpg",
+    "output_sha256": "a9efee066404f764ff9bac0bb6443a4daf7295971b90eb9beeb78c8bf3400de7"
+  },
+  {
+    "unit_id": "erlich-above",
+    "source": "assets/originals/erlich_above.jpg",
+    "source_sha256": "6a1478b9307e6b27c49449cb358ee4d622a1bf16c219af0e238cc79d4bf35b34",
+    "crop": [
+      480,
+      80,
+      1700,
+      1100
+    ],
+    "max_edge": 1200,
+    "note": "空间光线主导：保留场景矩形，仅裁切与缩放，无去背、无染色、无生图",
+    "output": "assets/images/ad3fbe20d6ce479e.jpg",
+    "output_sha256": "ad3fbe20d6ce479e2583937ba4e0d3406a75b3d0ef73dc3f62742dfeb464a1dd"
+  },
+  {
+    "unit_id": "erlich-inside",
+    "source": "assets/originals/erlich_inside.jpg",
+    "source_sha256": "b1805cc859c7f8186f961994bb1ba5efc8f53a6df286eeaa9db4c940fb9dac2d",
+    "crop": [
+      200,
+      40,
+      1600,
+      1100
+    ],
+    "max_edge": 1200,
+    "note": "空间光线主导：保留场景矩形，仅裁切与缩放，无去背、无染色、无生图",
+    "output": "assets/images/1862b24f5b2ced59.jpg",
+    "output_sha256": "1862b24f5b2ced598eb1e3c568449594651be88815ce4db970b6eda6e0caec95"
+  },
+  {
+    "unit_id": "suh-passage",
+    "source": "assets/originals/dhs_installation-view-passages_vmg_2017-01.jpg",
+    "source_sha256": "e4e25bc17a0fdd384851ce8b2fedc6085ef11f57550e5359827a5d6f945652ef",
+    "crop": [
+      120,
+      80,
+      1480,
+      980
+    ],
+    "max_edge": 1400,
+    "note": "空间光线主导：保留场景矩形，仅裁切与缩放，无去背、无染色、无生图",
+    "output": "assets/images/fb67a9ef687535a6.jpg",
+    "output_sha256": "fb67a9ef687535a6c34dbdde0e0e254f051ab84fb66ccf3dbba2f39f36d21481"
+  },
+  {
+    "unit_id": "suh-door",
+    "source": "assets/originals/dhs_passages_vmg_2017-05.jpg",
+    "source_sha256": "56352f0f2adf22176f7006ec81115e67d5f1de0c1586c7e78758fa1b3685eb67",
+    "crop": null,
+    "max_edge": 1000,
+    "note": "空间光线主导：保留场景矩形，仅裁切与缩放，无去背、无染色、无生图",
+    "output": "assets/images/37f12fdb038a431e.jpg",
+    "output_sha256": "37f12fdb038a431e2498aacb06960530eb845042cfb02d73e7f16ddccbbca0c9"
+  }
+]

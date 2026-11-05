@@ -1,0 +1,274 @@
+[
+  {
+    "unit_id": "pool-hall",
+    "display_number": "01",
+    "role": "主图/环境",
+    "image": "assets/images/ecde1d539fc3ad0c.jpg",
+    "source_file": "assets/originals/dreampool15.jpg",
+    "case_record_id": "reczz28MMHWmQHvs",
+    "term_record_id": "reczz28HJJL2GIv6",
+    "alt": "Dream Pools｜梦境泳池 · 水下门洞与瓷砖墙",
+    "desktop": [
+      36,
+      92,
+      548,
+      590,
+      -3,
+      2
+    ],
+    "mobile": [
+      16,
+      36,
+      358,
+      390,
+      -2,
+      2
+    ],
+    "ref_desktop": [
+      28,
+      660
+    ],
+    "ref_mobile": [
+      10,
+      400
+    ]
+  },
+  {
+    "unit_id": "spiral",
+    "display_number": "02",
+    "role": "细节/构造",
+    "image": "assets/images/4d2ea0f179a11db7.jpg",
+    "source_file": "assets/originals/dreampool3.jpg",
+    "case_record_id": "reczz28MMHWmQHvs",
+    "term_record_id": "reczz28HJJL2GIv6",
+    "alt": "Dream Pools｜螺旋梯沉入水面",
+    "desktop": [
+      560,
+      72,
+      305,
+      385,
+      4,
+      5
+    ],
+    "mobile": [
+      220,
+      350,
+      154,
+      205,
+      4,
+      5
+    ],
+    "ref_desktop": [
+      840,
+      100
+    ],
+    "ref_mobile": [
+      330,
+      340
+    ]
+  },
+  {
+    "unit_id": "corridor",
+    "display_number": "03",
+    "role": "补充/环境",
+    "image": "assets/images/6d7a9a1aa3affd11.jpg",
+    "source_file": "assets/originals/dreampool5.jpg",
+    "case_record_id": "reczz28MMHWmQHvs",
+    "term_record_id": "reczz28HJJL2GIv6",
+    "alt": "Dream Pools｜窄水道走廊",
+    "desktop": [
+      830,
+      48,
+      275,
+      355,
+      -5,
+      3
+    ],
+    "mobile": [
+      16,
+      420,
+      176,
+      236,
+      -4,
+      3
+    ],
+    "ref_desktop": [
+      1080,
+      70
+    ],
+    "ref_mobile": [
+      10,
+      630
+    ]
+  },
+  {
+    "unit_id": "wide-hall",
+    "display_number": "04",
+    "role": "补充/光线",
+    "image": "assets/images/a9efee066404f764.jpg",
+    "source_file": "assets/originals/dreampool44-wide.jpg",
+    "case_record_id": "reczz28MMHWmQHvs",
+    "term_record_id": "reczz28HJJL2GIv6",
+    "alt": "Dream Pools｜柱列与水面反光",
+    "desktop": [
+      500,
+      470,
+      500,
+      270,
+      2,
+      3
+    ],
+    "mobile": [
+      16,
+      670,
+      358,
+      186,
+      1,
+      2
+    ],
+    "ref_desktop": [
+      980,
+      720
+    ],
+    "ref_mobile": [
+      300,
+      830
+    ]
+  },
+  {
+    "unit_id": "erlich-above",
+    "display_number": "05",
+    "role": "对照/环境",
+    "image": "assets/images/ad3fbe20d6ce479e.jpg",
+    "source_file": "assets/originals/erlich_above.jpg",
+    "case_record_id": "reczz28MMHWmOIBG",
+    "term_record_id": "reczz28HJJL2GIv6",
+    "alt": "The Swimming Pool｜从上往下看玻璃水面",
+    "desktop": [
+      1035,
+      145,
+      260,
+      195,
+      -3,
+      5
+    ],
+    "mobile": [
+      210,
+      540,
+      164,
+      125,
+      -2,
+      4
+    ],
+    "ref_desktop": [
+      1265,
+      320
+    ],
+    "ref_mobile": [
+      330,
+      530
+    ]
+  },
+  {
+    "unit_id": "erlich-inside",
+    "display_number": "06",
+    "role": "对照/细节",
+    "image": "assets/images/1862b24f5b2ced59.jpg",
+    "source_file": "assets/originals/erlich_inside.jpg",
+    "case_record_id": "reczz28MMHWmOIBG",
+    "term_record_id": "reczz28HJJL2GIv6",
+    "alt": "The Swimming Pool｜池底往上看水面",
+    "desktop": [
+      1040,
+      375,
+      255,
+      185,
+      4,
+      4
+    ],
+    "mobile": [
+      16,
+      890,
+      210,
+      145,
+      3,
+      3
+    ],
+    "ref_desktop": [
+      1265,
+      540
+    ],
+    "ref_mobile": [
+      200,
+      1010
+    ]
+  },
+  {
+    "unit_id": "suh-passage",
+    "display_number": "07",
+    "role": "补充/空间",
+    "image": "assets/images/fb67a9ef687535a6.jpg",
+    "source_file": "assets/originals/dhs_installation-view-passages_vmg_2017-01.jpg",
+    "case_record_id": "reczz28MMHWmPVzZ",
+    "term_record_id": "reczz28HJJL2GIv6",
+    "alt": "Hubs｜人生的走廊 · 半透明织物通道",
+    "desktop": [
+      48,
+      700,
+      460,
+      290,
+      -2,
+      5
+    ],
+    "mobile": [
+      150,
+      870,
+      224,
+      155,
+      -2,
+      5
+    ],
+    "ref_desktop": [
+      36,
+      970
+    ],
+    "ref_mobile": [
+      330,
+      990
+    ]
+  },
+  {
+    "unit_id": "suh-door",
+    "display_number": "08",
+    "role": "细节",
+    "image": "assets/images/37f12fdb038a431e.jpg",
+    "source_file": "assets/originals/dhs_passages_vmg_2017-05.jpg",
+    "case_record_id": "reczz28MMHWmPVzZ",
+    "term_record_id": "reczz28HJJL2GIv6",
+    "alt": "Hubs｜半透明门廊近景",
+    "desktop": [
+      540,
+      740,
+      195,
+      275,
+      6,
+      6
+    ],
+    "mobile": [
+      220,
+      1050,
+      150,
+      210,
+      5,
+      6
+    ],
+    "ref_desktop": [
+      720,
+      990
+    ],
+    "ref_mobile": [
+      330,
+      1230
+    ]
+  }
+]

@@ -1,0 +1,68 @@
+{
+  "snapshot_date": "2026-11-05",
+  "term_revision": null,
+  "case_revision": null,
+  "source": {
+    "base": "IGctbcuwPaE6hMsmAoicJddpn3U",
+    "term_table": "tbl2gR8WBoqCQyGz",
+    "case_table": "tblpdRYutnm12T0y",
+    "profile": "aesthetic-feishu",
+    "as": "user",
+    "read_only": true
+  },
+  "term": {
+    "record_id": "reczz28HJJL2GIv6",
+    "词": "阈限空间",
+    "英文": "Liminal Space",
+    "所属章节": [
+      "诡异"
+    ],
+    "在本章的位置": "地方错了",
+    "核心": "人类会从「有一点不对劲」的世界中获得审美快感。",
+    "钩子": "阈限空间是一种感觉，后室则是把这种感觉发展成了一套恐怖世界观。"
+  },
+  "cases": [
+    {
+      "record_id": "reczz28MMHWmQHvs",
+      "作品名": "Dream Pools｜梦境泳池",
+      "作品原文名": "Dream Pools",
+      "作者": "Jared Pike",
+      "年份": "2020—至今",
+      "媒介": "3D 数字艺术",
+      "官方页": "https://www.jaredpike.art/projects/dream-pools/",
+      "顺序": 1
+    },
+    {
+      "record_id": "reczz28MMHWmPVzZ",
+      "作品名": "Hubs｜人生的走廊",
+      "作品原文名": "Hubs / Passage/s",
+      "作者": "Do Ho Suh（徐道获）",
+      "年份": "2015–2016（2017 年展出）",
+      "媒介": "纺织雕塑／空间装置",
+      "官方页": "https://www.victoria-miro.com/exhibitions/501/",
+      "顺序": 2
+    },
+    {
+      "record_id": "reczz28MMHWmOIBG",
+      "作品名": "The Swimming Pool｜水下没有水",
+      "作品原文名": "The Swimming Pool",
+      "作者": "Leandro Erlich",
+      "年份": "2004",
+      "媒介": "交互式空间装置",
+      "官方页": "https://www.kanazawa21.jp/data_list.php?d=7&g=30&lng=e",
+      "顺序": 3
+    }
+  ],
+  "editorial": {
+    "see": "空的泳池与走廊里，瓷砖和水把空间推到「差一点对劲」——人可以穿过，却找不到该停的地方。",
+    "clues": [
+      "无限重复的白瓷砖网格与平静水面",
+      "没有出口感的螺旋梯、窄水道、柱列",
+      "Erlich：玻璃下的人像在水底，其实站在干的池底",
+      "Do Ho Suh：半透明织物把门廊做成可穿却不实的通道"
+    ],
+    "avoid_confuse": "不做恐怖后室标语、不做血腥；与梦核的「记忆错位」区分——本板强调空间尺度与光线本身的不对劲。",
+    "material_type": "空间光线主导",
+    "vs_coquette": "不用椭圆/粉绿/中央裙装；保留完整场景，不做服饰小物件去背。"
+  }
+}
