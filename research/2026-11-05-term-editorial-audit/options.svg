@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1140" height="1140" viewBox="0 0 1140 1140"><rect width="1140" height="1140" fill="white"/><style>text{font-family:"PingFang SC",sans-serif;fill:#111;font-size:20px}.h{font-size:30px;font-weight:600}.s{font-size:17px}.box{stroke:#111;stroke-width:1.5;fill:white}.arrow{stroke:#111;stroke-width:1.5;fill:none}</style>
+<text x="44" y="50" class="h">两条接法，先比较保留什么、牺牲什么</text><text x="44" y="89">结构研究 · 拼贴13c7d07完整锁定 · 不用字号调整代替阅读结构判断</text>
+<text x="44" y="158" class="h">A / 继续一条长页</text><text x="610" y="158" class="h">B / 从词条展开图版</text>
+<rect x="44" y="191" width="452" height="150" class="box"/><text x="70" y="235">吊灯改为短前奏</text><text x="70" y="277" class="s">取消独立大标题、完整封面的职责</text><text x="70" y="312" class="s">需要重新评审上方构图</text>
+<path d="M270 341v44m-7-8 7 8 7-8" class="arrow"/>
+<rect x="44" y="385" width="452" height="250" class="box"/><text x="70" y="433">完整定稿拼贴</text><text x="70" y="480" class="s">原标题成为唯一的开场主标题</text><text x="70" y="523" class="s">原图、配色、编号与收尾均保留</text><text x="70" y="595" class="s">之后进入词条正文</text>
+<path d="M270 635v44m-7-8 7 8 7-8" class="arrow"/>
+<rect x="44" y="679" width="452" height="102" class="box"/><text x="70" y="724">作品细读 / 方法</text><text x="70" y="757" class="s">自然向下阅读，无额外操作</text>
+<rect x="610" y="191" width="452" height="150" class="box"/><text x="636" y="235">保留灯下词条的完整构图</text><text x="636" y="277" class="s">大标题、吊灯、作品继续承担开场</text><text x="636" y="312" class="s">原阅读路径继续通向正文</text>
+<path d="M836 341v64m-7-8 7 8 7-8" class="arrow"/><text x="853" y="379" class="s">主动「看风格拼贴」</text>
+<rect x="610" y="405" width="452" height="230" class="box"/><text x="636" y="453">完整拼贴在独立视图中展开</text><text x="636" y="500" class="s">原标题说明“正在看的这张图版”</text><text x="636" y="543" class="s">不再是正文里必须经过的第二次开场</text><text x="636" y="595" class="s">桌面宽幅展示；手机独立全屏展示</text>
+<path d="M836 635v44m-7-8 7 8 7-8" class="arrow"/>
+<rect x="610" y="679" width="452" height="102" class="box"/><text x="636" y="724">正文 / 返回原阅读位置</text><text x="636" y="757" class="s">保留词条身份；不再从页面顶部重来</text>
+<path d="M1062 290H1095V730H1062m8-6-8 6 8 6" class="arrow"/><text x="1110" y="420" class="s">继</text><text x="1110" y="448" class="s">续</text><text x="1110" y="476" class="s">阅</text><text x="1110" y="504" class="s">读</text><text x="44" y="844">保留：完整拼贴、连续阅读。</text><text x="44" y="885">代价：需要收缩吊灯开场。</text><text x="44" y="926">若坚持全内容连续滚动，验证这一项。</text>
+<text x="610" y="844">保留：两种完整构图、各自标题。</text><text x="610" y="885">代价：增加一次主动展开与返回。</text><text x="610" y="926">若优先保住两者美感，先验证这一项。</text>
+<path d="M44 975H1096" class="arrow"/><text x="44" y="1017" class="s">依据：标题职责、图文主次、阅读节奏；不是skill自动判定哪张更美。</text><text x="44" y="1052" class="s">B是本轮提出的交互候选，尚未获用户认可；两项都没有覆盖现有设计或代码。</text><text x="44" y="1087" class="s">本轮撤回：只加208px正文就能解决重复，以及未验证便把大标题改小的建议。</text></svg>

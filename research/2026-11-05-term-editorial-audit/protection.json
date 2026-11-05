@@ -1,0 +1,17 @@
+{
+  "index.html": {
+    "expected": "4496ea1baba7185f445279f10e9e66c30ec8b687",
+    "actual": "4496ea1baba7185f445279f10e9e66c30ec8b687",
+    "unchanged": true
+  },
+  "styles.css": {
+    "expected": "bab99153718efad50b817e9dbc1365a89ba27a4e",
+    "actual": "bab99153718efad50b817e9dbc1365a89ba27a4e",
+    "unchanged": true
+  },
+  "previews/mobile.png": {
+    "expected": "1b9680bbb82931302084819d4e86f81d37863fa4",
+    "actual": "1b9680bbb82931302084819d4e86f81d37863fa4",
+    "unchanged": true
+  }
+}

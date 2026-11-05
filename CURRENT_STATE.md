@@ -1,5 +1,10 @@
 # 当前状态｜审美外挂 · 2026-10-24
 
+## 2026-11-05｜词条/拼贴重复开场：按编辑设计skill复查，结构候选待审
+
+用户指出两处重复，要求用艺术/设计skill检查。已读项目Editorial Skill及字体、构图、编辑节奏三章，只读核验Figma10B与13c7d07拼贴：两标题82/88px，上方另有11px眉题，作品/核心句也重复。撤回“只加208px正文就解决”及未经验证直接缩标题的建议。[证据与两种接法](research/2026-11-05-term-editorial-audit/README.md)、[黑线结构](research/2026-11-05-term-editorial-audit/options.svg)。A收缩吊灯开场后接完整拼贴；B保留词条开场、主动展开整板并返回阅读位置。助手建议先验证B以保护两种构图，但新交互未经用户选择，不作产品定案。本轮仅研究，未改Figma/美术/拼贴源码/飞书/部署，未实现或测试交互；不声称首页画风已统一。保留并行阈限空间试稿记录。
+
+
 ## 2026-11-05｜词条拼贴试稿：阈限空间成品图像板（待审）
 
 按用户指示跳过黑线审结构，直接做一页成品图像拼贴。选定「阈限空间」（空间光线主导，与 Coquette 服饰甜美拉开），飞书只读拉取 3 案例 19 原图，选用 8 单元完成双端可编辑试稿。[目录](web-prototypes/term-collage-trial-liminal-2026-11-05/README.md)；预览 [桌面](web-prototypes/term-collage-trial-liminal-2026-11-05/previews/desktop-board.png)、[手机](web-prototypes/term-collage-trial-liminal-2026-11-05/previews/mobile-board.png)。标题/副题/核心句本轮不做；编号可隐藏。未改 Coquette、正式页、飞书；未部署。待夕里审视觉后再决定扩做或加字。
