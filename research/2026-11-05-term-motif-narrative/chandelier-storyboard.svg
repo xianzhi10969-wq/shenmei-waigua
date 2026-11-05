@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1600" viewBox="0 0 1600 1600">
+<rect width="1600" height="1600" fill="white"/>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="none" stroke="black"/></marker></defs>
+<text x="40" y="48" font-family="PingFang SC, sans-serif" font-size="33" fill="black">主层级 → 词条｜灯下近读</text>
+<text x="40" y="84" font-family="PingFang SC, sans-serif" font-size="20" fill="black">黑线结构分镜 · 仅研究取景、进入理由与阅读节奏；不是正式美术或已实现动效</text>
+<rect x="40" y="112" width="270" height="74" fill="white" stroke="black" stroke-width="1.6"/>
+<text x="56" y="140" font-family="PingFang SC, sans-serif" font-size="22" fill="black">P1</text>
+<text x="56" y="169" font-family="PingFang SC, sans-serif" font-size="20" fill="black">进入世界</text>
+<path d="M314 149L344 149" fill="none" stroke="black" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="352" y="112" width="270" height="74" fill="white" stroke="black" stroke-width="1.6"/>
+<text x="368" y="140" font-family="PingFang SC, sans-serif" font-size="22" fill="black">P2</text>
+<text x="368" y="169" font-family="PingFang SC, sans-serif" font-size="20" fill="black">感到困惑</text>
+<path d="M626 149L656 149" fill="none" stroke="black" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="664" y="112" width="270" height="74" fill="white" stroke="black" stroke-width="1.6"/>
+<text x="680" y="140" font-family="PingFang SC, sans-serif" font-size="22" fill="black">P3</text>
+<text x="680" y="169" font-family="PingFang SC, sans-serif" font-size="20" fill="black">选择专题</text>
+<path d="M938 149L968 149" fill="none" stroke="black" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="976" y="112" width="270" height="74" fill="white" stroke="black" stroke-width="1.6"/>
+<text x="992" y="140" font-family="PingFang SC, sans-serif" font-size="22" fill="black">P4</text>
+<text x="992" y="169" font-family="PingFang SC, sans-serif" font-size="20" fill="black">选定词条</text>
+<path d="M1250 149L1280 149" fill="none" stroke="black" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="1288" y="112" width="270" height="74" fill="white" stroke="black" stroke-width="1.6"/>
+<text x="1304" y="140" font-family="PingFang SC, sans-serif" font-size="22" fill="black">词条</text>
+<text x="1304" y="169" font-family="PingFang SC, sans-serif" font-size="20" fill="black">停下来细看</text>
+<text x="40" y="227" font-family="PingFang SC, sans-serif" font-size="25" fill="black">01  从图录里选中一项</text>
+<rect x="40" y="245" width="730" height="305" fill="white" stroke="black" stroke-width="1.6"/>
+<svg x="40" y="245" width="730" height="305" viewBox="0 0 730 305" overflow="hidden">
+<path d="M55 65Q205 35 360 65Q515 35 675 65L655 265Q510 235 360 267Q205 235 75 265Z M360 65V267" fill="none" stroke="black" stroke-width="1.6"/>
+<text x="105" y="105" font-family="PingFang SC, sans-serif" font-size="32" fill="black">清冷</text>
+<text x="420" y="105" font-family="PingFang SC, sans-serif" font-size="24" fill="black">其他词条</text>
+<rect x="105" y="125" width="175" height="82" fill="white" stroke="black" stroke-width="1.6"/>
+<text x="121" y="173" font-family="PingFang SC, sans-serif" font-size="18" fill="black">P4 现有图</text>
+<path d="M105 225L260 225" fill="none" stroke="black" stroke-width="1.6"/>
+<path d="M105 238L260 238" fill="none" stroke="black" stroke-width="1.6"/>
+<rect x="89" y="72" width="114" height="45" fill="none" stroke="black" stroke-width="1.6" stroke-dasharray="6 5"/>
+<path d="M210 87L303 70" fill="none" stroke="black" stroke-width="1.6" marker-end="url(#arrow)" stroke-dasharray="6 5"/>
+<text x="218" y="54" font-family="PingFang SC, sans-serif" font-size="17" fill="black">点击标题</text>
+<text x="420" y="164" font-family="PingFang SC, sans-serif" font-size="18" fill="black">图录继续保留</text>
+<text x="420" y="198" font-family="PingFang SC, sans-serif" font-size="18" fill="black">所选专题 / 条目 / 页码</text>
+</svg>
+<text x="40" y="582" font-family="PingFang SC, sans-serif" font-size="20" fill="black">锚点是用户选中的“清冷”；不是从 P2 直接跳过专题与图录。</text>
+<text x="830" y="227" font-family="PingFang SC, sans-serif" font-size="25" fill="black">02  保留标题，省略走路过程</text>
+<rect x="830" y="245" width="730" height="305" fill="white" stroke="black" stroke-width="1.6"/>
+<svg x="830" y="245" width="730" height="305" viewBox="0 0 730 305" overflow="hidden">
+<text x="95" y="122" font-family="PingFang SC, sans-serif" font-size="46" fill="black">清冷</text>
+<rect x="80" y="72" width="145" height="68" fill="none" stroke="black" stroke-width="1.6" stroke-dasharray="6 5"/>
+<path d="M243 108L344 108" fill="none" stroke="black" stroke-width="1.6" marker-end="url(#arrow)" stroke-dasharray="6 5"/>
+<path d="M20 202Q85 189 155 212 M0 227Q85 210 170 235 M670 12V54" fill="none" stroke="black" stroke-width="1.6"/>
+<text x="370" y="100" font-family="PingFang SC, sans-serif" font-size="22" fill="black">同一标题进入近景</text>
+<text x="370" y="140" font-family="PingFang SC, sans-serif" font-size="20" fill="black">书册边缘退到画外</text>
+<text x="370" y="182" font-family="PingFang SC, sans-serif" font-size="20" fill="black">保留选择，不重播首页</text>
+<text x="370" y="225" font-family="PingFang SC, sans-serif" font-size="20" fill="black">吊链仅露出少量局部</text>
+</svg>
+<text x="830" y="582" font-family="PingFang SC, sans-serif" font-size="20" fill="black">用短切 / 轻推近连接；无需绕行、穿灯或新增一段大厅游览。</text>
+<text x="40" y="647" font-family="PingFang SC, sans-serif" font-size="25" fill="black">03  镜头停在灯下的这一页</text>
+<rect x="40" y="665" width="730" height="305" fill="white" stroke="black" stroke-width="1.6"/>
+<svg x="40" y="665" width="730" height="305" viewBox="0 0 730 305" overflow="hidden">
+<g transform="translate(345 -30) scale(1.08)" fill="none" stroke="black" stroke-width="1.6">
+<path d="M0 -50V55 M-8 40Q0 32 8 40L0 60Z M0 58C-35 100 -120 100 -145 57 M0 58C35 100 120 100 145 57 M0 58C-20 80 -70 68 -75 40 M0 58C20 80 70 68 75 40" fill="none" stroke="black" stroke-width="1.6"/>
+<path d="M-163 57Q-145 79 -127 57 M-145 69v22 m0 0q-8 10 0 17q8-7 0-17" fill="none" stroke="black" stroke-width="1.6"/>
+<path d="M-93 40Q-75 62 -57 40 M-75 52v22 m0 0q-8 10 0 17q8-7 0-17" fill="none" stroke="black" stroke-width="1.6"/>
+<path d="M57 40Q75 62 93 40 M75 52v22 m0 0q-8 10 0 17q8-7 0-17" fill="none" stroke="black" stroke-width="1.6"/>
+<path d="M127 57Q145 79 163 57 M145 69v22 m0 0q-8 10 0 17q8-7 0-17" fill="none" stroke="black" stroke-width="1.6"/>
+<path d="M0 62v45 m0 0q-10 14 0 22q10-8 0-22" fill="none" stroke="black" stroke-width="1.6"/>
+</g>
+<text x="42" y="156" font-family="PingFang SC, sans-serif" font-size="55" fill="black">清冷</text>
+<text x="45" y="187" font-family="PingFang SC, sans-serif" font-size="22" fill="black">Cool Detachment</text>
+<text x="45" y="230" font-family="PingFang SC, sans-serif" font-size="20" fill="black">一句定义</text>
+<path d="M45 244L335 244" fill="none" stroke="black" stroke-width="1.6"/>
+<path d="M45 260L290 260" fill="none" stroke="black" stroke-width="1.6"/>
+<rect x="460" y="86" width="208" height="185" fill="white" stroke="black" stroke-width="1.6"/>
+<text x="478" y="178" font-family="PingFang SC, sans-serif" font-size="18" fill="black">词条封面原位置</text>
+<text x="470" y="35" font-family="PingFang SC, sans-serif" font-size="17" fill="black">灯臂 / 垂饰局部</text>
+<path d="M450 40L410 70" fill="none" stroke="black" stroke-width="1.6" marker-end="url(#arrow)" stroke-dasharray="6 5"/>
+</svg>
+<text x="40" y="1000" font-family="PingFang SC, sans-serif" font-size="20" fill="black">拟用深底＋白色灯饰；不展全灯，不把作品挂成灯坠。</text>
+<text x="830" y="647" font-family="PingFang SC, sans-serif" font-size="25" fill="black">04  进入拼贴与正文，装饰退场</text>
+<rect x="830" y="665" width="730" height="305" fill="white" stroke="black" stroke-width="1.6"/>
+<svg x="830" y="665" width="730" height="305" viewBox="0 0 730 305" overflow="hidden">
+<path d="M60 -20V12 M50 12Q60 27 70 12" fill="none" stroke="black" stroke-width="1.6"/>
+<path d="M85 38L85 4" fill="none" stroke="black" stroke-width="1.6" marker-end="url(#arrow)" stroke-dasharray="6 5"/>
+<text x="42" y="55" font-family="PingFang SC, sans-serif" font-size="24" fill="black">定义 → 风格拼贴 → 作品与分析</text>
+<rect x="42" y="83" width="295" height="174" fill="white" stroke="black" stroke-width="1.6"/>
+<text x="60" y="113" font-family="PingFang SC, sans-serif" font-size="20" fill="black">风格拼贴区</text>
+<rect x="63" y="134" width="80" height="98" fill="white" stroke="black" stroke-width="1.6"/>
+<rect x="160" y="129" width="65" height="61" fill="white" stroke="black" stroke-width="1.6"/>
+<rect x="239" y="143" width="70" height="89" fill="white" stroke="black" stroke-width="1.6"/>
+<path d="M380 100L620 100" fill="none" stroke="black" stroke-width="1.6"/>
+<path d="M380 123L675 123" fill="none" stroke="black" stroke-width="1.6"/>
+<path d="M380 146L620 146" fill="none" stroke="black" stroke-width="1.6"/>
+<path d="M380 169L675 169" fill="none" stroke="black" stroke-width="1.6"/>
+<path d="M380 208L620 208" fill="none" stroke="black" stroke-width="1.6"/>
+<path d="M380 231L675 231" fill="none" stroke="black" stroke-width="1.6"/>
+<path d="M380 254L620 254" fill="none" stroke="black" stroke-width="1.6"/>
+</svg>
+<text x="830" y="1000" font-family="PingFang SC, sans-serif" font-size="20" fill="black">主层级负责带到这里；进入阅读后，让作品与文字成为主角。</text>
+<text x="40" y="1062" font-family="PingFang SC, sans-serif" font-size="25" fill="black">手机取景｜保留一个灯臂和少量垂饰</text>
+<rect x="40" y="1090" width="218" height="414" fill="white" stroke="black" stroke-width="1.6"/>
+<svg x="40" y="1090" width="218" height="414" viewBox="0 0 218 414" overflow="hidden">
+<g transform="translate(180 -47) scale(0.74)" fill="none" stroke="black" stroke-width="1.6">
+<path d="M0 -50V55 M-8 40Q0 32 8 40L0 60Z M0 58C-35 100 -120 100 -145 57 M0 58C35 100 120 100 145 57 M0 58C-20 80 -70 68 -75 40 M0 58C20 80 70 68 75 40" fill="none" stroke="black" stroke-width="1.6"/>
+<path d="M-163 57Q-145 79 -127 57 M-145 69v22 m0 0q-8 10 0 17q8-7 0-17" fill="none" stroke="black" stroke-width="1.6"/>
+<path d="M-93 40Q-75 62 -57 40 M-75 52v22 m0 0q-8 10 0 17q8-7 0-17" fill="none" stroke="black" stroke-width="1.6"/>
+<path d="M57 40Q75 62 93 40 M75 52v22 m0 0q-8 10 0 17q8-7 0-17" fill="none" stroke="black" stroke-width="1.6"/>
+<path d="M127 57Q145 79 163 57 M145 69v22 m0 0q-8 10 0 17q8-7 0-17" fill="none" stroke="black" stroke-width="1.6"/>
+<path d="M0 62v45 m0 0q-10 14 0 22q10-8 0-22" fill="none" stroke="black" stroke-width="1.6"/>
+</g>
+<text x="18" y="110" font-family="PingFang SC, sans-serif" font-size="35" fill="black">清冷</text>
+<text x="18" y="142" font-family="PingFang SC, sans-serif" font-size="17" fill="black">一句定义</text>
+<rect x="18" y="172" width="182" height="160" fill="white" stroke="black" stroke-width="1.6"/>
+<text x="51" y="257" font-family="PingFang SC, sans-serif" font-size="24" fill="black">作品</text>
+<path d="M18 363L195 363" fill="none" stroke="black" stroke-width="1.6"/>
+<path d="M18 386L170 386" fill="none" stroke="black" stroke-width="1.6"/>
+</svg>
+<text x="292" y="1120" font-family="PingFang SC, sans-serif" font-size="21" fill="black">单独裁切，不缩小整盏吊灯。</text>
+<text x="292" y="1160" font-family="PingFang SC, sans-serif" font-size="21" fill="black">先看标题，再看作品；装饰止于首屏。</text>
+<text x="292" y="1200" font-family="PingFang SC, sans-serif" font-size="21" fill="black">直接链接进入：直接显示这一阅读状态。</text>
+<text x="292" y="1240" font-family="PingFang SC, sans-serif" font-size="21" fill="black">返回：回到原专题、图录页与滚动位置。</text>
+<text x="830" y="1062" font-family="PingFang SC, sans-serif" font-size="25" fill="black">喷泉备选｜池边停驻</text>
+<rect x="830" y="1090" width="330" height="220" fill="white" stroke="black" stroke-width="1.6"/>
+<g transform="translate(840 1095)" fill="none" stroke="black" stroke-width="1.6">
+<path d="M25 168Q155 200 295 168 M30 180Q155 210 290 180 M155 70V167 M125 118Q155 132 185 118 M105 150Q155 170 205 150 M155 70C128 20 67 38 65 116 M155 70C182 20 243 38 245 116 M155 70C135 50 99 62 99 130 M155 70C175 50 211 62 211 130" fill="none" stroke="black" stroke-width="1.6"/>
+</g>
+<text x="1190" y="1125" font-family="PingFang SC, sans-serif" font-size="20" fill="black">更能呼应 P2 的水。</text>
+<text x="1190" y="1165" font-family="PingFang SC, sans-serif" font-size="20" fill="black">但需交代为何来到池边，</text>
+<text x="1190" y="1205" font-family="PingFang SC, sans-serif" font-size="20" fill="black">以及何时进入静态阅读。</text>
+<text x="830" y="1350" font-family="PingFang SC, sans-serif" font-size="20" fill="black">本轮更倾向吊灯：P4 书册 → 灯下细读，进入理由更短。</text>
+<text x="830" y="1390" font-family="PingFang SC, sans-serif" font-size="20" fill="black">喷泉可另开“水面 → 池边”的完整分镜比较。</text>
+<text x="40" y="1560" font-family="PingFang SC, sans-serif" font-size="20" fill="black">提案 / 待审 · 现稿 P4 与词条封面不同，所以先用标题连续，不假设同图放大。</text>
+</svg>
