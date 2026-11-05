@@ -1,0 +1,2134 @@
+{
+  "date": "2026-11-05",
+  "count": 20,
+  "plans": [
+    {
+      "term": "Softcore",
+      "english": "Softcore",
+      "record_id": "reczz28HJJL2GJS1",
+      "chapter": [
+        "可爱",
+        "幽玄"
+      ],
+      "core": "Softcore 就像柔软的白日梦。它的核心不是可爱，而是一种被温柔包围的感觉。它让普通的生活瞬间呈现出梦境和回忆般的质地。",
+      "position": "软到不肯对焦",
+      "slug": "softcore",
+      "see": "物件+软材质装置交错：毛毡商品、蓬蓬镜、水彩家具、灯光、人像",
+      "dir": "term-collage-trial-softcore-2026-11-05",
+      "cases": [
+        {
+          "id": "reczz28LdxvOA0sF",
+          "title": "Watercolour Collection",
+          "media": "家具设计",
+          "imgs": 10,
+          "url": "https://www.nendo.jp/en/works/watercolour-collection/"
+        },
+        {
+          "id": "reczz28LdxvOCkfm",
+          "title": "Sparrow Mart",
+          "media": "毛毡装置",
+          "imgs": 7,
+          "url": "https://www.sewyoursoul.co.uk/exhibition/sparrow-mart/"
+        },
+        {
+          "id": "reczz28LdxvOBVuz",
+          "title": "Hubs — Passage/s",
+          "media": "纺织装置",
+          "imgs": 7,
+          "url": "https://www.victoria-miro.com/exhibitions/501/"
+        },
+        {
+          "id": "reczz28LdxvOCeQE",
+          "title": "PomPom Mirror",
+          "media": "互动机械装置",
+          "imgs": 6,
+          "url": "https://www.bitforms.art/artwork/pompom-mirror"
+        },
+        {
+          "id": "reczz28LdxvOAEal",
+          "title": "Shylight",
+          "media": "动态灯光装置",
+          "imgs": 6,
+          "url": "https://studiodrift.com/work/shylight/"
+        },
+        {
+          "id": "reczz28HJJL2NiHW",
+          "title": "卡梅隆夫人的人像",
+          "media": "摄影",
+          "imgs": 1,
+          "url": "https://emuseum.mfah.org/objects/148871/mrs-camerons-photographs-from-the-life"
+        },
+        {
+          "id": "reczz28HJJL2NiMp",
+          "title": "情书",
+          "media": "电影",
+          "imgs": 0,
+          "url": "https://japansociety.org/?p=65324"
+        }
+      ],
+      "units_plan": [
+        {
+          "case_id": "reczz28LdxvOCkfm",
+          "case_title": "Sparrow Mart",
+          "media": "毛毡装置",
+          "author": "Lucy Sparrow",
+          "url": "https://www.sewyoursoul.co.uk/exhibition/sparrow-mart/",
+          "file_token": "E6IDbDMMsopWcQxxGy5cpvN3n2c",
+          "file_name": "sparrow_official_7.jpg",
+          "file_size": 477052
+        },
+        {
+          "case_id": "reczz28LdxvOBVuz",
+          "case_title": "Hubs — Passage/s",
+          "media": "纺织装置",
+          "author": "Do Ho Suh（徐道濩）",
+          "url": "https://www.victoria-miro.com/exhibitions/501/",
+          "file_token": "XLorbrQEDoD3hixV6gmc0cznnir",
+          "file_name": "passage_01.jpg",
+          "file_size": 367388
+        },
+        {
+          "case_id": "reczz28LdxvOCeQE",
+          "case_title": "PomPom Mirror",
+          "media": "互动机械装置",
+          "author": "Daniel Rozin",
+          "url": "https://www.bitforms.art/artwork/pompom-mirror",
+          "file_token": "EkIVbl0droVBEHxf8Uicg2qpnfc",
+          "file_name": "pompom_arthur.jpg",
+          "file_size": 81342
+        },
+        {
+          "case_id": "reczz28LdxvOA0sF",
+          "case_title": "Watercolour Collection",
+          "media": "家具设计",
+          "author": "nendo",
+          "url": "https://www.nendo.jp/en/works/watercolour-collection/",
+          "file_token": "VZnyb1LPMomAXVxOAd2cTy7unof",
+          "file_name": "nendo_48.jpg",
+          "file_size": 123648
+        },
+        {
+          "case_id": "reczz28HJJL2NiHW",
+          "case_title": "卡梅隆夫人的人像",
+          "media": "摄影",
+          "author": "朱莉娅·玛格丽特·卡梅隆（Julia Margaret Cameron）",
+          "url": "https://emuseum.mfah.org/objects/148871/mrs-camerons-photographs-from-the-life",
+          "file_token": "Q5oobQpcRonFvJxp96xcmwrrnvf",
+          "file_name": "朱莉娅·杰克逊_卡梅隆_CC0.jpg",
+          "file_size": 267172
+        },
+        {
+          "case_id": "reczz28LdxvOCeQE",
+          "case_title": "PomPom Mirror",
+          "media": "互动机械装置",
+          "author": "Daniel Rozin",
+          "url": "https://www.bitforms.art/artwork/pompom-mirror",
+          "file_token": "Hw3SbmtvsoOFcRxaYHEcoV7gnwg",
+          "file_name": "pompom_dezeen.jpg",
+          "file_size": 47976
+        },
+        {
+          "case_id": "reczz28LdxvOCkfm",
+          "case_title": "Sparrow Mart",
+          "media": "毛毡装置",
+          "author": "Lucy Sparrow",
+          "url": "https://www.sewyoursoul.co.uk/exhibition/sparrow-mart/",
+          "file_token": "RCv3bh3NIo8HXYxs0oYceUySnv3",
+          "file_name": "sparrow_005.jpg",
+          "file_size": 598792
+        },
+        {
+          "case_id": "reczz28LdxvOBVuz",
+          "case_title": "Hubs — Passage/s",
+          "media": "纺织装置",
+          "author": "Do Ho Suh（徐道濩）",
+          "url": "https://www.victoria-miro.com/exhibitions/501/",
+          "file_token": "QuXfbShTlo2Canx2aoicJ9gNn9h",
+          "file_name": "passage_14.jpg",
+          "file_size": 205014
+        }
+      ],
+      "unit_count": 8
+    },
+    {
+      "term": "盛夏",
+      "english": "Midsummer",
+      "record_id": "reczz28HJJL2GLJb",
+      "chapter": [
+        "田园"
+      ],
+      "core": "盛夏最美的地方，不是生命正在生长，而是生命正在毫无保留地燃烧自己。",
+      "position": "太阳底下：光最满、白天最长的那几天",
+      "slug": "midsummer",
+      "see": "身体/烟火/大地艺术/家具/彩虹亭：尺度从皮肤到湖面",
+      "dir": "term-collage-trial-midsummer-2026-11-05",
+      "cases": [
+        {
+          "id": "reczz28MLgJayHOi",
+          "title": "Illustrated People｜皮肤上的照片",
+          "media": "实验摄影／身体艺术",
+          "imgs": 11,
+          "url": "https://rvb-books.com/products/thomas-mailaender-illustrated-people"
+        },
+        {
+          "id": "reczz28MLgJaxrYR",
+          "title": "Hanabi｜花火",
+          "media": "摄影",
+          "imgs": 8,
+          "url": "https://prix.pictet.com/cycles/fire/rinko-kawauchi"
+        },
+        {
+          "id": "reczz28MLgJb1FHM",
+          "title": "Serpentine Pavilion 2015｜走进彩虹色的阳光里",
+          "media": "临时建筑",
+          "imgs": 7,
+          "url": "https://www.serpentinegalleries.org/whats-on/serpentine-pavilion-2015-designed-selgascano/"
+        },
+        {
+          "id": "reczz28MLgJb1lI7",
+          "title": "Locus Solus｜一整个意大利夏日",
+          "media": "户外家具／设计系列",
+          "imgs": 6,
+          "url": "https://www.exteta.it/en/collections/jacquemus-exteta"
+        },
+        {
+          "id": "reczz28MLgJb05P4",
+          "title": "The Floating Piers｜漂浮的码头",
+          "media": "大地艺术／公共装置",
+          "imgs": 4,
+          "url": "https://christojeanneclaude.net/artworks/the-floating-piers/"
+        }
+      ],
+      "units_plan": [
+        {
+          "case_id": "reczz28MLgJayHOi",
+          "case_title": "Illustrated People｜皮肤上的照片",
+          "media": "实验摄影／身体艺术",
+          "author": "Thomas Mailaender",
+          "url": "https://rvb-books.com/products/thomas-mailaender-illustrated-people",
+          "file_token": "Y74Wbr6c4oKVYgxQIXYcastqnlf",
+          "file_name": "ip_3.jpg",
+          "file_size": 235334
+        },
+        {
+          "case_id": "reczz28MLgJaxrYR",
+          "case_title": "Hanabi｜花火",
+          "media": "摄影",
+          "author": "川内伦子（Rinko Kawauchi）",
+          "url": "https://prix.pictet.com/cycles/fire/rinko-kawauchi",
+          "file_token": "XsWfb7BKYoW15DxqGepccNutnmc",
+          "file_name": "H38.jpg",
+          "file_size": 343923
+        },
+        {
+          "case_id": "reczz28MLgJb1lI7",
+          "case_title": "Locus Solus｜一整个意大利夏日",
+          "media": "户外家具／设计系列",
+          "author": "Gae Aulenti（Jacquemus × Exteta 联名再版）",
+          "url": "https://www.exteta.it/en/collections/jacquemus-exteta",
+          "file_token": "GRVCbkKVDoqbgNxzZoyc2a6bnDb",
+          "file_name": "v88_1-15.png",
+          "file_size": 392898
+        },
+        {
+          "case_id": "reczz28MLgJayHOi",
+          "case_title": "Illustrated People｜皮肤上的照片",
+          "media": "实验摄影／身体艺术",
+          "author": "Thomas Mailaender",
+          "url": "https://rvb-books.com/products/thomas-mailaender-illustrated-people",
+          "file_token": "PH2mbZ3OKoAfYlxzim3c5NdznRe",
+          "file_name": "ip_10.jpg",
+          "file_size": 198841
+        },
+        {
+          "case_id": "reczz28MLgJaxrYR",
+          "case_title": "Hanabi｜花火",
+          "media": "摄影",
+          "author": "川内伦子（Rinko Kawauchi）",
+          "url": "https://prix.pictet.com/cycles/fire/rinko-kawauchi",
+          "file_token": "MMjebSiP2okXRVxHwkbceuSnnfh",
+          "file_name": "H59.jpg",
+          "file_size": 319146
+        },
+        {
+          "case_id": "reczz28MLgJb1FHM",
+          "case_title": "Serpentine Pavilion 2015｜走进彩虹色的阳光里",
+          "media": "临时建筑",
+          "author": "selgascano（José Selgas、Lucía Cano）",
+          "url": "https://www.serpentinegalleries.org/whats-on/serpentine-pavilion-2015-designed-selgascano/",
+          "file_token": "U3Mgbf1bqoyBbnxdCNlcqXLZnce",
+          "file_name": "sp_og.jpg",
+          "file_size": 371495
+        }
+      ],
+      "unit_count": 6
+    },
+    {
+      "term": "清透",
+      "english": "Translucent",
+      "record_id": "reczz28HJJL2GNqc",
+      "chapter": [
+        "轻逸"
+      ],
+      "core": "「清透」最迷人的地方，不是简单，而是它让你看见了某种东西的存在，却几乎感觉不到它的阻碍。",
+      "position": "减掉厚度",
+      "slug": "translucent",
+      "see": "玻璃块、雨瓶、冰川桌、川内伦子光：透光材质主轴",
+      "dir": "term-collage-trial-translucent-2026-11-05",
+      "cases": [
+        {
+          "id": "reczz28LeeYH4bwm",
+          "title": "Well and Truly",
+          "media": "铸造玻璃",
+          "imgs": 9,
+          "url": "https://lesoeuvres.pinaultcollection.com/en/artwork/well-and-truly"
+        },
+        {
+          "id": "reczz28LeeYH62Cx",
+          "title": "Rain Bottle（雨之瓶）",
+          "media": "产品设计",
+          "imgs": 9,
+          "url": "https://www.nendo.jp/en/works/rain-bottle-2/"
+        },
+        {
+          "id": "reczz28LeeYH6DgG",
+          "title": "Illuminance（照度）",
+          "media": "摄影",
+          "imgs": 9,
+          "url": "https://rinkokawauchi.com/en/works/194/"
+        },
+        {
+          "id": "reczz28LeeYH59r1",
+          "title": "Liquid Glacial（液态冰川）",
+          "media": "家具",
+          "imgs": 8,
+          "url": "https://www.zaha-hadid-design.com/pages/liquid"
+        }
+      ],
+      "units_plan": [
+        {
+          "case_id": "reczz28LeeYH6DgG",
+          "case_title": "Illuminance（照度）",
+          "media": "摄影",
+          "author": "川内伦子",
+          "url": "https://rinkokawauchi.com/en/works/194/",
+          "file_token": "AdBEbSANuo5yJSxOnWRc73cwnXc",
+          "file_name": "illum_01_L.jpg",
+          "file_size": 727361
+        },
+        {
+          "case_id": "reczz28LeeYH4bwm",
+          "case_title": "Well and Truly",
+          "media": "铸造玻璃",
+          "author": "Roni Horn",
+          "url": "https://lesoeuvres.pinaultcollection.com/en/artwork/well-and-truly",
+          "file_token": "WBxUbGQWlo5YyDxXoTgcCSdQncc",
+          "file_name": "well_pinault_1.jpg",
+          "file_size": 95137
+        },
+        {
+          "case_id": "reczz28LeeYH62Cx",
+          "case_title": "Rain Bottle（雨之瓶）",
+          "media": "产品设计",
+          "author": "Nendo",
+          "url": "https://www.nendo.jp/en/works/rain-bottle-2/",
+          "file_token": "GuarbZcpVoss4jxwh2McUkODnkg",
+          "file_name": "rain_group.jpg",
+          "file_size": 294919
+        },
+        {
+          "case_id": "reczz28LeeYH6DgG",
+          "case_title": "Illuminance（照度）",
+          "media": "摄影",
+          "author": "川内伦子",
+          "url": "https://rinkokawauchi.com/en/works/194/",
+          "file_token": "K9hibVG99o0IHVxt8lmcZJjcnrb",
+          "file_name": "illum_02_L.jpg",
+          "file_size": 371936
+        },
+        {
+          "case_id": "reczz28LeeYH59r1",
+          "case_title": "Liquid Glacial（液态冰川）",
+          "media": "家具",
+          "author": "Zaha Hadid",
+          "url": "https://www.zaha-hadid-design.com/pages/liquid",
+          "file_token": "VZlTb37iJoalszxhytkc78vKnMg",
+          "file_name": "liquid_03.jpg",
+          "file_size": 332518
+        },
+        {
+          "case_id": "reczz28LeeYH62Cx",
+          "case_title": "Rain Bottle（雨之瓶）",
+          "media": "产品设计",
+          "author": "Nendo",
+          "url": "https://www.nendo.jp/en/works/rain-bottle-2/",
+          "file_token": "NR0gbcJT1oYVyAxnAuxcdeNHn1g",
+          "file_name": "rain_jb_35.jpg",
+          "file_size": 203719
+        }
+      ],
+      "unit_count": 6
+    },
+    {
+      "term": "烟火味",
+      "english": "Hustle and Bustle",
+      "record_id": "reczz28HJJL2GMxt",
+      "chapter": [
+        "日常"
+      ],
+      "core": "烟火味最迷人的地方，是它让我们感觉到「世界还在好好生活」。",
+      "position": "推开门，走进满街的热气和人声",
+      "slug": "hustle",
+      "see": "后门街景、早餐盘装置、水彩店面、宋冬物尽其用",
+      "dir": "term-collage-trial-hustle-2026-11-05",
+      "cases": [
+        {
+          "id": "reczz28LeF2soAIy",
+          "title": "香港后门",
+          "media": "街头摄影",
+          "imgs": 8,
+          "url": "https://photomichaelwolf.com/hong-kong/back-door/"
+        },
+        {
+          "id": "reczz28LeF2skMR8",
+          "title": "东京店构",
+          "media": "水彩插画",
+          "imgs": 7,
+          "url": "https://mateuszurbanowicz.com/tokyo-storefronts/"
+        },
+        {
+          "id": "reczz28LeF2snCvV",
+          "title": "琪琪的早餐 I",
+          "media": "现成物装置",
+          "imgs": 3,
+          "url": "https://www.moma.org/collection/works/81430"
+        },
+        {
+          "id": "reczz28LeF2slBKE",
+          "title": "物尽其用",
+          "media": "大型装置",
+          "imgs": 3,
+          "url": "https://www.moma.org/calendar/exhibitions/960"
+        }
+      ],
+      "units_plan": [
+        {
+          "case_id": "reczz28LeF2soAIy",
+          "case_title": "香港后门",
+          "media": "街头摄影",
+          "author": "Michael Wolf",
+          "url": "https://photomichaelwolf.com/hong-kong/back-door/",
+          "file_token": "MakSbObDnorf6sx76KgcBMKsnNc",
+          "file_name": "wolf_back_door_01.jpg",
+          "file_size": 242936
+        },
+        {
+          "case_id": "reczz28LeF2snCvV",
+          "case_title": "琪琪的早餐 I",
+          "media": "现成物装置",
+          "author": "Daniel Spoerri",
+          "url": "https://www.moma.org/collection/works/81430",
+          "file_token": "NKI1bnyU4oeNdwxflICcxFg5nNf",
+          "file_name": "spoerri_buffalo_full.jpg",
+          "file_size": 153771
+        },
+        {
+          "case_id": "reczz28LeF2slBKE",
+          "case_title": "物尽其用",
+          "media": "大型装置",
+          "author": "宋冬",
+          "url": "https://www.moma.org/calendar/exhibitions/960",
+          "file_token": "EDaxbp7PHoEzUdxMXkEcEQL8nCh",
+          "file_name": "wastenot_domestic_2k.jpg",
+          "file_size": 690441
+        },
+        {
+          "case_id": "reczz28LeF2soAIy",
+          "case_title": "香港后门",
+          "media": "街头摄影",
+          "author": "Michael Wolf",
+          "url": "https://photomichaelwolf.com/hong-kong/back-door/",
+          "file_token": "MSS2brieKoOvnkxsFlRcDf8Fn7c",
+          "file_name": "wolf_back_door_08.jpg",
+          "file_size": 249646
+        },
+        {
+          "case_id": "reczz28LeF2skMR8",
+          "case_title": "东京店构",
+          "media": "水彩插画",
+          "author": "Mateusz Urbanowicz",
+          "url": "https://mateuszurbanowicz.com/tokyo-storefronts/",
+          "file_token": "W09EbCAlroKTQpx70o8cNpsZnHg",
+          "file_name": "storefront_p012-013.jpg",
+          "file_size": 453820
+        },
+        {
+          "case_id": "reczz28LeF2snCvV",
+          "case_title": "琪琪的早餐 I",
+          "media": "现成物装置",
+          "author": "Daniel Spoerri",
+          "url": "https://www.moma.org/collection/works/81430",
+          "file_token": "Quo7bf3PEoC2tyxrbcfcSmDGntk",
+          "file_name": "spoerri_kunst.jpg",
+          "file_size": 79264
+        }
+      ],
+      "unit_count": 6
+    },
+    {
+      "term": "禅意",
+      "english": "Zen",
+      "record_id": "reczz28HJJL2GMBA",
+      "chapter": [
+        "留白"
+      ],
+      "core": "禅似乎总在表现某种永恒，但它真正关注的，恰恰是世间没有什么能够永恒。",
+      "position": "空掉意思：线的中段，从看得见的空，走到要自己去想的空。",
+      "slug": "zen",
+      "see": "石庭/松林屏风/盐线/冰花秀场/Matrix：静与物",
+      "dir": "term-collage-trial-zen-2026-11-05",
+      "cases": [
+        {
+          "id": "reczz28Ldc0bMeA5",
+          "title": "东信《ICED FLOWERS for Dries Van Noten's》",
+          "media": "时装秀场装置",
+          "imgs": 7,
+          "url": "https://azumamakoto.com/en/project/x-2w_gp5z/"
+        },
+        {
+          "id": "reczz28Ldc0bJUeQ",
+          "title": "山本基《Return to the Sea Project》",
+          "media": "盐装置",
+          "imgs": 6,
+          "url": "https://www.motoi-works.com/en/works/return-to-theseaproject"
+        },
+        {
+          "id": "reczz28Ldc0bKQuv",
+          "title": "内藤礼《Matrix》",
+          "media": "现场装置",
+          "imgs": 4,
+          "url": "https://benesse-artsite.jp/en/art/teshima-artmuseum.html"
+        },
+        {
+          "id": "reczz28HJJL2NlAY",
+          "title": "龙安寺石庭",
+          "media": "建筑",
+          "imgs": 1,
+          "url": "https://www.pref.kyoto.jp/isan/ryoanji.html"
+        },
+        {
+          "id": "reczz28HJJL2NlFs",
+          "title": "松林图屏风",
+          "media": "绘画",
+          "imgs": 1,
+          "url": "https://emuseum.nich.go.jp/detail?content_base_id=100151"
+        }
+      ],
+      "units_plan": [
+        {
+          "case_id": "reczz28Ldc0bKQuv",
+          "case_title": "内藤礼《Matrix》",
+          "media": "现场装置",
+          "author": "内藤礼 Rei Naito",
+          "url": "https://benesse-artsite.jp/en/art/teshima-artmuseum.html",
+          "file_token": "UYPNbX3evoePzpxGBZ4cnNgqnne",
+          "file_name": "matrix_pd_1.jpg",
+          "file_size": 308100
+        },
+        {
+          "case_id": "reczz28HJJL2NlAY",
+          "case_title": "龙安寺石庭",
+          "media": "建筑",
+          "author": "作者不详（Unknown）",
+          "url": "https://www.pref.kyoto.jp/isan/ryoanji.html",
+          "file_token": "Mc0YbUqsDoljhbxWQw1cxiTQnWb",
+          "file_name": "龙安寺石庭_摄影DXR_CCBYSA4.0.jpg",
+          "file_size": 4760120
+        },
+        {
+          "case_id": "reczz28Ldc0bMeA5",
+          "case_title": "东信《ICED FLOWERS for Dries Van Noten's》",
+          "media": "时装秀场装置",
+          "author": "东信 Azuma Makoto",
+          "url": "https://azumamakoto.com/en/project/x-2w_gp5z/",
+          "file_token": "VTeGbCWg2oljQdxn2W9cabxHnSg",
+          "file_name": "iced_05.jpg",
+          "file_size": 1575370
+        },
+        {
+          "case_id": "reczz28Ldc0bJUeQ",
+          "case_title": "山本基《Return to the Sea Project》",
+          "media": "盐装置",
+          "author": "山本基 Motoi Yamamoto",
+          "url": "https://www.motoi-works.com/en/works/return-to-theseaproject",
+          "file_token": "ZF52bHMjZoRPIQxyBgPcaWnynkc",
+          "file_name": "motoi_lab_charleston.jpg",
+          "file_size": 1042564
+        },
+        {
+          "case_id": "reczz28Ldc0bKQuv",
+          "case_title": "内藤礼《Matrix》",
+          "media": "现场装置",
+          "author": "内藤礼 Rei Naito",
+          "url": "https://benesse-artsite.jp/en/art/teshima-artmuseum.html",
+          "file_token": "WPoobS7evoW02Vxe4tScPSELnPf",
+          "file_name": "matrix_pd_2.jpg",
+          "file_size": 557112
+        },
+        {
+          "case_id": "reczz28HJJL2NlFs",
+          "case_title": "松林图屏风",
+          "media": "绘画",
+          "author": "长谷川等伯（Hasegawa Tōhaku）",
+          "url": "https://emuseum.nich.go.jp/detail?content_base_id=100151",
+          "file_token": "QmwRbh0SSoAt9pxneFYczAwWn9f",
+          "file_name": "松林图屏风_左隻_长谷川等伯_公有领域.jpg",
+          "file_size": 139173
+        },
+        {
+          "case_id": "reczz28Ldc0bJUeQ",
+          "case_title": "山本基《Return to the Sea Project》",
+          "media": "盐装置",
+          "author": "山本基 Motoi Yamamoto",
+          "url": "https://www.motoi-works.com/en/works/return-to-theseaproject",
+          "file_token": "HjhTbnp9poUkkWxEvWscmSncnlf",
+          "file_name": "motoi_project_01.jpg",
+          "file_size": 3311558
+        },
+        {
+          "case_id": "reczz28Ldc0bMeA5",
+          "case_title": "东信《ICED FLOWERS for Dries Van Noten's》",
+          "media": "时装秀场装置",
+          "author": "东信 Azuma Makoto",
+          "url": "https://azumamakoto.com/en/project/x-2w_gp5z/",
+          "file_token": "Uu7XbkERmohyIhxjhphc1lBkn5d",
+          "file_name": "iced_01.jpg",
+          "file_size": 2543225
+        }
+      ],
+      "unit_count": 8
+    },
+    {
+      "term": "热烈",
+      "english": "Fervor",
+      "record_id": "reczz28HJJL2GLxu",
+      "chapter": [
+        "酒神"
+      ],
+      "core": "一种强烈到无法安静待着，必须通过色彩、动作、身体或空间释放出来的情绪。",
+      "position": "酣醉：一群人一起热起来，分不清谁是谁。",
+      "slug": "fervor",
+      "see": "提香酒神、心跳灯、花房痴迷：饱和与参与",
+      "dir": "term-collage-trial-fervor-2026-11-05",
+      "cases": [
+        {
+          "id": "reczz28Ldd1wD1KQ",
+          "title": "Flower Obsession",
+          "media": "参与式装置",
+          "imgs": 6,
+          "url": "https://www.ngv.vic.gov.au/exhibition/triennial-2017/"
+        },
+        {
+          "id": "reczz28Ldd1wDeSA",
+          "title": "Pulse Room（心跳房间）",
+          "media": "互动灯光装置",
+          "imgs": 4,
+          "url": "https://www.lozano-hemmer.com/artworks/pulse_room.php"
+        },
+        {
+          "id": "reczz28HJJL2Nkuf",
+          "title": "酒神与阿里阿德涅",
+          "media": "绘画",
+          "imgs": 1,
+          "url": "https://www.nationalgallery.org.uk/paintings/titian-bacchus-and-ariadne"
+        }
+      ],
+      "units_plan": [
+        {
+          "case_id": "reczz28Ldd1wDeSA",
+          "case_title": "Pulse Room（心跳房间）",
+          "media": "互动灯光装置",
+          "author": "Rafael Lozano-Hemmer",
+          "url": "https://www.lozano-hemmer.com/artworks/pulse_room.php",
+          "file_token": "VqGIbTw4To0HeqxpLBgcXsNMnnb",
+          "file_name": "pulse_washington_hires.jpg",
+          "file_size": 587973
+        },
+        {
+          "case_id": "reczz28HJJL2Nkuf",
+          "case_title": "酒神与阿里阿德涅",
+          "media": "绘画",
+          "author": "提香（Tiziano Vecellio / Titian）",
+          "url": "https://www.nationalgallery.org.uk/paintings/titian-bacchus-and-ariadne",
+          "file_token": "NBjSbYKUhoR6tlxuNC3cKuJlnFb",
+          "file_name": "酒神与阿里阿德涅_提香_公有领域.jpg",
+          "file_size": 429143
+        },
+        {
+          "case_id": "reczz28Ldd1wD1KQ",
+          "case_title": "Flower Obsession",
+          "media": "参与式装置",
+          "author": "草间弥生 Yayoi Kusama",
+          "url": "https://www.ngv.vic.gov.au/exhibition/triennial-2017/",
+          "file_token": "UjPNbhId2oEcmUx4ThvcOs3ZnIe",
+          "file_name": "flower_colossal_05.jpg",
+          "file_size": 604522
+        },
+        {
+          "case_id": "reczz28Ldd1wDeSA",
+          "case_title": "Pulse Room（心跳房间）",
+          "media": "互动灯光装置",
+          "author": "Rafael Lozano-Hemmer",
+          "url": "https://www.lozano-hemmer.com/artworks/pulse_room.php",
+          "file_token": "SbkybyBmOodEvnx3e9bcnBE9nWd",
+          "file_name": "pulse_mexico_hires.jpg",
+          "file_size": 629143
+        },
+        {
+          "case_id": "reczz28Ldd1wD1KQ",
+          "case_title": "Flower Obsession",
+          "media": "参与式装置",
+          "author": "草间弥生 Yayoi Kusama",
+          "url": "https://www.ngv.vic.gov.au/exhibition/triennial-2017/",
+          "file_token": "T40SbZcCIoB3MMxkhn8cvht6nAb",
+          "file_name": "flower_colossal_01.jpg",
+          "file_size": 610675
+        }
+      ],
+      "unit_count": 5
+    },
+    {
+      "term": "末世",
+      "english": "End Times",
+      "record_id": "reczz28HJJL2GP7R",
+      "chapter": [
+        "废墟"
+      ],
+      "core": "人类未必真的渴望世界毁灭。我们可能只是渴望世界拥有一个结局。",
+      "position": "往前看：结束以前",
+      "slug": "endtimes",
+      "see": "微缩废城、AES+F、启示录挂毯、细密画毁灭者",
+      "dir": "term-collage-trial-endtimes-2026-11-05",
+      "cases": [
+        {
+          "id": "reczz28Miu2sgZLu",
+          "title": "《昂热启示录挂毯》Apocalypse Tapestry",
+          "media": "巨幅叙事挂毯",
+          "imgs": 4,
+          "url": "https://www.chateau-angers.fr/en/discover/la-tapisserie-de-l-apocalypse-un-chef-d-aeuvre-unique-au-monde"
+        },
+        {
+          "id": "reczz28Miu2sh6u5",
+          "title": "《城市》The City",
+          "media": "微缩模型、摄影",
+          "imgs": 3,
+          "url": "https://www.lorinix.net/the-city"
+        },
+        {
+          "id": "reczz28Miu2sf9uj",
+          "title": "《最后的暴乱》Last Riot",
+          "media": "多屏影像、数字拼贴、雕塑",
+          "imgs": 3,
+          "url": "https://aesfgroup.com/projects/last_riot/"
+        },
+        {
+          "id": "reczz28Miu2sf2sd",
+          "title": "《宇宙毁灭者跋陀罗迦梨》Bhadrakali, Destroyer of the Universe",
+          "media": "细密画（金、银颜料与甲虫鞘翅装饰）",
+          "imgs": 1,
+          "url": "https://www.metmuseum.org/art/collection/search/825645"
+        }
+      ],
+      "units_plan": [
+        {
+          "case_id": "reczz28Miu2sgZLu",
+          "case_title": "《昂热启示录挂毯》Apocalypse Tapestry",
+          "media": "巨幅叙事挂毯",
+          "author": "Jean de Bruges（设计）、Nicolas Bataille（织造承制）",
+          "url": "https://www.chateau-angers.fr/en/discover/la-tapisserie-de-l-apocalypse-un-chef-d-aeuvre-unique-au-monde",
+          "file_token": "LHWvbM4WLo0YNVxsHQjcHzGInkp",
+          "file_name": "tapestry_hall_sm.jpg",
+          "file_size": 976528
+        },
+        {
+          "case_id": "reczz28Miu2sh6u5",
+          "case_title": "《城市》The City",
+          "media": "微缩模型、摄影",
+          "author": "Lori Nix / Kathleen Gerber",
+          "url": "https://www.lorinix.net/the-city",
+          "file_token": "CAEUbKiFioEfyOxuFC7cBHy2n8e",
+          "file_name": "city_circulation.jpg",
+          "file_size": 499398
+        },
+        {
+          "case_id": "reczz28Miu2sf9uj",
+          "case_title": "《最后的暴乱》Last Riot",
+          "media": "多屏影像、数字拼贴、雕塑",
+          "author": "AES+F",
+          "url": "https://aesfgroup.com/projects/last_riot/",
+          "file_token": "VcPFb821WoC4AgxfqtWczMIUnYc",
+          "file_name": "lastriot_b6dp2a8.jpg",
+          "file_size": 483114
+        },
+        {
+          "case_id": "reczz28Miu2sf2sd",
+          "case_title": "《宇宙毁灭者跋陀罗迦梨》Bhadrakali, Destroyer of the Universe",
+          "media": "细密画（金、银颜料与甲虫鞘翅装饰）",
+          "author": "印度巴索利画派，作者不详",
+          "url": "https://www.metmuseum.org/art/collection/search/825645",
+          "file_token": "Ud2KbQhgcoJ12oxV1CycEqjEnrd",
+          "file_name": "bhadra_destroyer.jpg",
+          "file_size": 289246
+        },
+        {
+          "case_id": "reczz28Miu2sgZLu",
+          "case_title": "《昂热启示录挂毯》Apocalypse Tapestry",
+          "media": "巨幅叙事挂毯",
+          "author": "Jean de Bruges（设计）、Nicolas Bataille（织造承制）",
+          "url": "https://www.chateau-angers.fr/en/discover/la-tapisserie-de-l-apocalypse-un-chef-d-aeuvre-unique-au-monde",
+          "file_token": "MKyIb4QCAoyv5ixTv9Lc37REneb",
+          "file_name": "tapestry_article.jpg",
+          "file_size": 1645276
+        },
+        {
+          "case_id": "reczz28Miu2sf9uj",
+          "case_title": "《最后的暴乱》Last Riot",
+          "media": "多屏影像、数字拼贴、雕塑",
+          "author": "AES+F",
+          "url": "https://aesfgroup.com/projects/last_riot/",
+          "file_token": "Ug9HbWzTCo5OTtxZEmwcaojEn2d",
+          "file_name": "lastriot_7cgrglf.jpg",
+          "file_size": 1040815
+        },
+        {
+          "case_id": "reczz28Miu2sgZLu",
+          "case_title": "《昂热启示录挂毯》Apocalypse Tapestry",
+          "media": "巨幅叙事挂毯",
+          "author": "Jean de Bruges（设计）、Nicolas Bataille（织造承制）",
+          "url": "https://www.chateau-angers.fr/en/discover/la-tapisserie-de-l-apocalypse-un-chef-d-aeuvre-unique-au-monde",
+          "file_token": "T33nbxpsJoYZpWxeXHtcHB8SnBf",
+          "file_name": "tapestry_angers.jpg",
+          "file_size": 2019147
+        }
+      ],
+      "unit_count": 7
+    },
+    {
+      "term": "暧昧",
+      "english": "Ambiguity",
+      "record_id": "reczz28HJJL2GKkE",
+      "chapter": [
+        "爱欲"
+      ],
+      "core": "暧昧最迷人的地方，是你能感觉到一个 YES，却始终无法排除那个 NO。",
+      "position": "距离谁也不说破：两个人都知道，答案一直在，只是被刷上了一层",
+      "slug": "ambiguity",
+      "see": "维米尔读信、偶遇六联、面纱装置、恋人互动",
+      "dir": "term-collage-trial-ambiguity-2026-11-05",
+      "cases": [
+        {
+          "id": "reczz28LdCQK9D4c",
+          "title": "古桥悌二《恋人》LOVERS",
+          "media": "互动影像装置",
+          "imgs": 4,
+          "url": "https://www.moma.org/collection/works/81362"
+        },
+        {
+          "id": "reczz28LdCQK71j7",
+          "title": "Duane Michals《偶遇》Chance Meeting",
+          "media": "六联摄影",
+          "imgs": 3,
+          "url": "https://www.getty.edu/art/collection/object/15F5VV"
+        },
+        {
+          "id": "reczz28LdCQK8mJ5",
+          "title": "Bill Viola《面纱》The Veiling",
+          "media": "影像装置",
+          "imgs": 3,
+          "url": "https://www.guggenheim-bilbao.eus/en/exhibition/the-veiling"
+        },
+        {
+          "id": "reczz28HJJL2NjeY",
+          "title": "窗前读信的少女",
+          "media": "绘画",
+          "imgs": 1,
+          "url": "https://www.skd.museum/en/besucherservice/presse/2021/ein-liebesgott-taucht-auf-vermeers-brieflesendes-maedchen-am-offenen-fenster-vollstaendig-restauriert/"
+        },
+        {
+          "id": "reczz28HJJL2Nji8",
+          "title": "花样年华",
+          "media": "电影",
+          "imgs": 0,
+          "url": "https://www.criterion.com/films/198-in-the-mood-for-love"
+        }
+      ],
+      "units_plan": [
+        {
+          "case_id": "reczz28LdCQK9D4c",
+          "case_title": "古桥悌二《恋人》LOVERS",
+          "media": "互动影像装置",
+          "author": "古桥悌二 Teiji Furuhashi",
+          "url": "https://www.moma.org/collection/works/81362",
+          "file_token": "SaNTbSM5koJmhaxMFV4cTMVanag",
+          "file_name": "lovers_artnews_1.jpg",
+          "file_size": 173367
+        },
+        {
+          "case_id": "reczz28LdCQK71j7",
+          "case_title": "Duane Michals《偶遇》Chance Meeting",
+          "media": "六联摄影",
+          "author": "Duane Michals",
+          "url": "https://www.getty.edu/art/collection/object/15F5VV",
+          "file_token": "OXoubxskgoNUD7xbiecc2bYYnCc",
+          "file_name": "michals_getty_1.jpg",
+          "file_size": 259967
+        },
+        {
+          "case_id": "reczz28LdCQK8mJ5",
+          "case_title": "Bill Viola《面纱》The Veiling",
+          "media": "影像装置",
+          "author": "Bill Viola",
+          "url": "https://www.guggenheim-bilbao.eus/en/exhibition/the-veiling",
+          "file_token": "UPqEbZFKMolp7FxeVJUcj6gan0e",
+          "file_name": "veiling_fwm_1.jpg",
+          "file_size": 610336
+        },
+        {
+          "case_id": "reczz28HJJL2NjeY",
+          "case_title": "窗前读信的少女",
+          "media": "绘画",
+          "author": "约翰内斯·维米尔（Johannes Vermeer）",
+          "url": "https://www.skd.museum/en/besucherservice/presse/2021/ein-liebesgott-taucht-auf-vermeers-brieflesendes-maedchen-am-offenen-fenster-vollstaendig-restauriert/",
+          "file_token": "H0WEbDwBKopUvCxZE5cc8cZTnZc",
+          "file_name": "窗前读信的少女_维米尔_公有领域.jpg",
+          "file_size": 705450
+        },
+        {
+          "case_id": "reczz28LdCQK71j7",
+          "case_title": "Duane Michals《偶遇》Chance Meeting",
+          "media": "六联摄影",
+          "author": "Duane Michals",
+          "url": "https://www.getty.edu/art/collection/object/15F5VV",
+          "file_token": "SyFBbXHPLoAcxhxseUWcghLTnBh",
+          "file_name": "michals_reina_full.jpg",
+          "file_size": 271251
+        },
+        {
+          "case_id": "reczz28LdCQK9D4c",
+          "case_title": "古桥悌二《恋人》LOVERS",
+          "media": "互动影像装置",
+          "author": "古桥悌二 Teiji Furuhashi",
+          "url": "https://www.moma.org/collection/works/81362",
+          "file_token": "D1XkbSPIKoIeWsx2QIIctjyrnVd",
+          "file_name": "lovers_artnews_3.jpg",
+          "file_size": 225491
+        }
+      ],
+      "unit_count": 6
+    },
+    {
+      "term": "水墨",
+      "english": "Ink Wash",
+      "record_id": "reczz28HJJL2GNSP",
+      "chapter": [
+        "气韵"
+      ],
+      "core": "第一滴墨落到纸上，很快洇成山的背影。山腰留着一段空白，一叶小舟正往最淡的地方去。",
+      "position": "回到它开始的地方，一笔墨里",
+      "slug": "inkwash",
+      "see": "徐冰灯箱、杨泳梁数字山水、邱黯雄山海经动画",
+      "dir": "term-collage-trial-inkwash-2026-11-05",
+      "cases": [
+        {
+          "id": "reczz28LcucHkDng",
+          "title": "邱黯雄《新山海经 II》The New Book of Mountains and Seas II",
+          "media": "三屏动画影像",
+          "imgs": 4,
+          "url": "https://www.moma.org/collection/works/135052"
+        },
+        {
+          "id": "reczz28LcucHlC54",
+          "title": "徐冰《背后的故事》Background Story",
+          "media": "装置（灯箱/光影）",
+          "imgs": 3,
+          "url": "https://museum.cornell.edu/exhibition/xu-bing-background-story/"
+        },
+        {
+          "id": "reczz28LcucHiz5V",
+          "title": "杨泳梁《蜃市山水》Phantom Landscape",
+          "media": "数字摄影",
+          "imgs": 3,
+          "url": "https://www.yangyongliang.com/phantom-landscape"
+        }
+      ],
+      "units_plan": [
+        {
+          "case_id": "reczz28LcucHkDng",
+          "case_title": "邱黯雄《新山海经 II》The New Book of Mountains and Seas II",
+          "media": "三屏动画影像",
+          "author": "邱黯雄",
+          "url": "https://www.moma.org/collection/works/135052",
+          "file_token": "TpSUbxqN8obNTmxjsGvcDNb9n9c",
+          "file_name": "qiu_fosun_632ad00a70272736467085.jpg",
+          "file_size": 410430
+        },
+        {
+          "case_id": "reczz28LcucHlC54",
+          "case_title": "徐冰《背后的故事》Background Story",
+          "media": "装置（灯箱/光影）",
+          "author": "徐冰",
+          "url": "https://museum.cornell.edu/exhibition/xu-bing-background-story/",
+          "file_token": "FFzYbabmZopTSexRfWRcSw3Enlg",
+          "file_name": "xubing_chazen_1.jpg",
+          "file_size": 190860
+        },
+        {
+          "case_id": "reczz28LcucHkDng",
+          "case_title": "邱黯雄《新山海经 II》The New Book of Mountains and Seas II",
+          "media": "三屏动画影像",
+          "author": "邱黯雄",
+          "url": "https://www.moma.org/collection/works/135052",
+          "file_token": "BTONbn7CAolENMxm5P6cHjhRnwd",
+          "file_name": "qiu_fosun_632ad00a70935911711522.jpg",
+          "file_size": 373348
+        },
+        {
+          "case_id": "reczz28LcucHiz5V",
+          "case_title": "杨泳梁《蜃市山水》Phantom Landscape",
+          "media": "数字摄影",
+          "author": "杨泳梁",
+          "url": "https://www.yangyongliang.com/phantom-landscape",
+          "file_token": "R5txbYa5fofeq4xmhDScXvPpnah",
+          "file_name": "yang_phantom_2.jpg",
+          "file_size": 319402
+        },
+        {
+          "case_id": "reczz28LcucHkDng",
+          "case_title": "邱黯雄《新山海经 II》The New Book of Mountains and Seas II",
+          "media": "三屏动画影像",
+          "author": "邱黯雄",
+          "url": "https://www.moma.org/collection/works/135052",
+          "file_token": "O29ubXK2voO10hx9HblcsuAcnFd",
+          "file_name": "qiu_fosun_632ad00a6f7b5641731039.jpg",
+          "file_size": 345838
+        },
+        {
+          "case_id": "reczz28LcucHlC54",
+          "case_title": "徐冰《背后的故事》Background Story",
+          "media": "装置（灯箱/光影）",
+          "author": "徐冰",
+          "url": "https://museum.cornell.edu/exhibition/xu-bing-background-story/",
+          "file_token": "SIhQbniwWo2Vu7xasc4cWcgvnNG",
+          "file_name": "xubing_cornell_2.jpg",
+          "file_size": 365440
+        }
+      ],
+      "unit_count": 6
+    },
+    {
+      "term": "新中式",
+      "english": "New Chinese Style",
+      "record_id": "reczz28HJJL2GNOa",
+      "chapter": [
+        "气韵"
+      ],
+      "core": "新中式不是让现代设计看起来像中国古代，而是想象中国传统如果没有停止生长，今天会变成什么样子。",
+      "position": "住进今天的椅子、房子和衣服里",
+      "slug": "new-chinese",
+      "see": "不锈钢圈椅、时装、龙鳞装书、砖墙行馆",
+      "dir": "term-collage-trial-new-chinese-2026-11-05",
+      "cases": [
+        {
+          "id": "reczz28MjE1CR2rA",
+          "title": "龙鳞装《三十二篆金刚般若波罗蜜经》",
+          "media": "艺术书、实验装帧",
+          "imgs": 3,
+          "url": "http://www.artplusshanghai.com/a/Zhang-Xiaodong.html"
+        },
+        {
+          "id": "reczz28MjE1CRfHX",
+          "title": "《砖墙》青普扬州行馆 The Brick Wall",
+          "media": "建筑、空间设计",
+          "imgs": 3,
+          "url": "https://neriandhu.com/en/works/the-brick-wall-tsingpu-yangzhou-retreat"
+        },
+        {
+          "id": "reczz28MjE1CSNUN",
+          "title": "Samuel Guì Yang 2024 秋冬系列",
+          "media": "成衣时装",
+          "imgs": 2,
+          "url": "https://www.vogue.com/fashion-shows/shanghai-fall-2024/samuel-gui-yang/slideshow/collection"
+        },
+        {
+          "id": "reczz28MjE1CQqVq",
+          "title": "邵帆《椅》系列｜不锈钢圈椅",
+          "media": "家具设计、不锈钢雕塑",
+          "imgs": 1,
+          "url": "https://www.metmuseum.org/art/collection/search/76089"
+        }
+      ],
+      "units_plan": [
+        {
+          "case_id": "reczz28MjE1CRfHX",
+          "case_title": "《砖墙》青普扬州行馆 The Brick Wall",
+          "media": "建筑、空间设计",
+          "author": "如恩设计研究室 Neri&Hu",
+          "url": "https://neriandhu.com/en/works/the-brick-wall-tsingpu-yangzhou-retreat",
+          "file_token": "E0E6bAVYxogbCMx7yTJcfRE6nmb",
+          "file_name": "brick_corridor.jpg",
+          "file_size": 544746
+        },
+        {
+          "case_id": "reczz28MjE1CSNUN",
+          "case_title": "Samuel Guì Yang 2024 秋冬系列",
+          "media": "成衣时装",
+          "author": "杨桂东 Samuel Guì Yang、Erik Litzén",
+          "url": "https://www.vogue.com/fashion-shows/shanghai-fall-2024/samuel-gui-yang/slideshow/collection",
+          "file_token": "OzSPbt8n4ocxkjxIb4xc0XN2n1g",
+          "file_name": "samuel_vogue2.jpg",
+          "file_size": 295305
+        },
+        {
+          "case_id": "reczz28MjE1CQqVq",
+          "case_title": "邵帆《椅》系列｜不锈钢圈椅",
+          "media": "家具设计、不锈钢雕塑",
+          "author": "邵帆 Shao Fan",
+          "url": "https://www.metmuseum.org/art/collection/search/76089",
+          "file_token": "ECIMbKTJcoa454xAzWJchCA3nZf",
+          "file_name": "shaofan_wright.jpg",
+          "file_size": 139487
+        },
+        {
+          "case_id": "reczz28MjE1CRfHX",
+          "case_title": "《砖墙》青普扬州行馆 The Brick Wall",
+          "media": "建筑、空间设计",
+          "author": "如恩设计研究室 Neri&Hu",
+          "url": "https://neriandhu.com/en/works/the-brick-wall-tsingpu-yangzhou-retreat",
+          "file_token": "UJ5abosrnoHs5Ixznwbcf2Sznsf",
+          "file_name": "brick_courtyard.jpg",
+          "file_size": 454539
+        },
+        {
+          "case_id": "reczz28MjE1CSNUN",
+          "case_title": "Samuel Guì Yang 2024 秋冬系列",
+          "media": "成衣时装",
+          "author": "杨桂东 Samuel Guì Yang、Erik Litzén",
+          "url": "https://www.vogue.com/fashion-shows/shanghai-fall-2024/samuel-gui-yang/slideshow/collection",
+          "file_token": "OK7ibB9ryo1slVxvTHucYFGcnyd",
+          "file_name": "samuel_vogue.jpg",
+          "file_size": 281285
+        }
+      ],
+      "unit_count": 5
+    },
+    {
+      "term": "武侠",
+      "english": "Wuxia",
+      "record_id": "reczz28HJJL2GNcx",
+      "chapter": [
+        "侠"
+      ],
+      "core": "武侠之美，不在刀剑，而在一身自由，半生羁绊。",
+      "position": "走出王法，到江湖里守一句话",
+      "slug": "wuxia",
+      "see": "算法武侠影像、大魔王时装、夜将、聂隐娘",
+      "dir": "term-collage-trial-wuxia-2026-11-05",
+      "cases": [
+        {
+          "id": "reczz28MmyiIADor",
+          "title": "Retainers of Anarchy",
+          "media": "算法动画、五通道影像装置",
+          "imgs": 3,
+          "url": "https://www.howietsui.com/retainers-of-anarchy"
+        },
+        {
+          "id": "reczz28MmyiIBfka",
+          "title": "DAMOWANG 2024 秋冬系列",
+          "media": "时装设计",
+          "imgs": 3,
+          "url": "https://www.vogue.com.cn/fashion/industry/news_124124fd4e37142c.html"
+        },
+        {
+          "id": "reczz28MmyiICLBe",
+          "title": "《刺客聂隐娘》The Assassin",
+          "media": "电影",
+          "imgs": 2,
+          "url": "https://www.festival-cannes.com/en/f/nie-yinniang/"
+        },
+        {
+          "id": "reczz28MmyiIBtuF",
+          "title": "《夜将》Yejiang / The Nightman Cometh",
+          "media": "黑白实验电影、摄影",
+          "imgs": 1,
+          "url": "https://www.guggenheim.org/artwork/artist/yang-fudong"
+        }
+      ],
+      "units_plan": [
+        {
+          "case_id": "reczz28MmyiIADor",
+          "case_title": "Retainers of Anarchy",
+          "media": "算法动画、五通道影像装置",
+          "author": "徐浩恩 Howie Tsui",
+          "url": "https://www.howietsui.com/retainers-of-anarchy",
+          "file_token": "R8edbRDkDoiAHlxmsyrce0KgnPc",
+          "file_name": "retainers_2_rgb.jpg",
+          "file_size": 482198
+        },
+        {
+          "case_id": "reczz28MmyiIBfka",
+          "case_title": "DAMOWANG 2024 秋冬系列",
+          "media": "时装设计",
+          "author": "韩磊 Han Lei",
+          "url": "https://www.vogue.com.cn/fashion/industry/news_124124fd4e37142c.html",
+          "file_token": "Xm82b0coZoX0ZHxJYyQcaQeWnId",
+          "file_name": "damowang_2.jpg",
+          "file_size": 346323
+        },
+        {
+          "case_id": "reczz28MmyiICLBe",
+          "case_title": "《刺客聂隐娘》The Assassin",
+          "media": "电影",
+          "author": "侯孝贤 Hou Hsiao-hsien",
+          "url": "https://www.festival-cannes.com/en/f/nie-yinniang/",
+          "file_token": "LFVjbYamboEvjAxUXRFcqYZFnch",
+          "file_name": "assassin_flixster.jpg",
+          "file_size": 300761
+        },
+        {
+          "case_id": "reczz28MmyiIBtuF",
+          "case_title": "《夜将》Yejiang / The Nightman Cometh",
+          "media": "黑白实验电影、摄影",
+          "author": "杨福东 Yang Fudong",
+          "url": "https://www.guggenheim.org/artwork/artist/yang-fudong",
+          "file_token": "WYpibo9OmojfvrxlrzLcHlkqnJf",
+          "file_name": "yejiang_gug.jpg",
+          "file_size": 332973
+        },
+        {
+          "case_id": "reczz28MmyiIADor",
+          "case_title": "Retainers of Anarchy",
+          "media": "算法动画、五通道影像装置",
+          "author": "徐浩恩 Howie Tsui",
+          "url": "https://www.howietsui.com/retainers-of-anarchy",
+          "file_token": "BIQibsyQMo0a4AxP2AdcjpJRnsd",
+          "file_name": "retainers_1_rgb.jpg",
+          "file_size": 669027
+        },
+        {
+          "case_id": "reczz28MmyiIBfka",
+          "case_title": "DAMOWANG 2024 秋冬系列",
+          "media": "时装设计",
+          "author": "韩磊 Han Lei",
+          "url": "https://www.vogue.com.cn/fashion/industry/news_124124fd4e37142c.html",
+          "file_token": "AY63bYeEzoEodfxImpOcVmssnWb",
+          "file_name": "damowang_3.jpg",
+          "file_size": 218131
+        },
+        {
+          "case_id": "reczz28MmyiICLBe",
+          "case_title": "《刺客聂隐娘》The Assassin",
+          "media": "电影",
+          "author": "侯孝贤 Hou Hsiao-hsien",
+          "url": "https://www.festival-cannes.com/en/f/nie-yinniang/",
+          "file_token": "R6bnbZuRXoxLV3xdccic3MsdnOd",
+          "file_name": "assassin_lb.jpg",
+          "file_size": 161809
+        },
+        {
+          "case_id": "reczz28MmyiIADor",
+          "case_title": "Retainers of Anarchy",
+          "media": "算法动画、五通道影像装置",
+          "author": "徐浩恩 Howie Tsui",
+          "url": "https://www.howietsui.com/retainers-of-anarchy",
+          "file_token": "ISOsbZ2GsoH3apxQuwycaB5AnOc",
+          "file_name": "retainers_sydney.jpg",
+          "file_size": 164933
+        }
+      ],
+      "unit_count": 8
+    },
+    {
+      "term": "颓废美学",
+      "english": "Decadence",
+      "record_id": "reczz28MKp7HdDiG",
+      "chapter": [
+        "忧郁"
+      ],
+      "core": "颓废美学不相信，美必须像生命一样健康地生长。它迷恋那些极尽精致、过度成熟、逐渐衰弱的事物——即使生命开始消逝，美也不一定随之结束。",
+      "position": null,
+      "slug": "decadence",
+      "see": "比亚兹莱、蜻蜓胸针、雷东、Galliano高定",
+      "dir": "term-collage-trial-decadence-2026-11-05",
+      "cases": [
+        {
+          "id": "reczz28MnyHcQLe7",
+          "title": "Artisanal 2024 高级定制系列",
+          "media": "高级定制、妆造、秀场表演",
+          "imgs": 4,
+          "url": "https://www.vogue.com/fashion-shows/spring-2024-couture/maison-martin-margiela"
+        },
+        {
+          "id": "reczz28MnyHcQMQu",
+          "title": "《蜻蜓女子》Dragonfly Corsage Ornament",
+          "media": "珠宝、珐琅、黄金与宝石",
+          "imgs": 2,
+          "url": "https://gulbenkian.pt/museu/en/works/dragonfly-corsage-ornament/"
+        },
+        {
+          "id": "reczz28MnyHcRK5r",
+          "title": "《高潮》The Climax",
+          "media": "黑白插画、书籍设计",
+          "imgs": 1,
+          "url": "https://www.metmuseum.org/art/collection/search/822368"
+        },
+        {
+          "id": "reczz28MnyHcRaTA",
+          "title": "《孔雀裙》The Peacock Skirt",
+          "media": "黑白插画",
+          "imgs": 1,
+          "url": "https://www.metmuseum.org/art/collection/search/822344"
+        },
+        {
+          "id": "reczz28MnyHcRudP",
+          "title": "《眼睛像一只奇异的气球，飞向无限》",
+          "media": "石版画（Noirs）",
+          "imgs": 1,
+          "url": "https://www.moma.org/collection/works/33013"
+        }
+      ],
+      "units_plan": [
+        {
+          "case_id": "reczz28MnyHcQLe7",
+          "case_title": "Artisanal 2024 高级定制系列",
+          "media": "高级定制、妆造、秀场表演",
+          "author": "John Galliano × Maison Margiela",
+          "url": "https://www.vogue.com/fashion-shows/spring-2024-couture/maison-martin-margiela",
+          "file_token": "GOhHbm5Q3omC7OxjGjucMHBMnqf",
+          "file_name": "mm_vogue_01.jpg",
+          "file_size": 430517
+        },
+        {
+          "case_id": "reczz28MnyHcQMQu",
+          "case_title": "《蜻蜓女子》Dragonfly Corsage Ornament",
+          "media": "珠宝、珐琅、黄金与宝石",
+          "author": "René Lalique",
+          "url": "https://gulbenkian.pt/museu/en/works/dragonfly-corsage-ornament/",
+          "file_token": "G1vSbz0qWoS3rfxXhBecaa2Xnje",
+          "file_name": "lalique_official.jpg",
+          "file_size": 138541
+        },
+        {
+          "case_id": "reczz28MnyHcRK5r",
+          "case_title": "《高潮》The Climax",
+          "media": "黑白插画、书籍设计",
+          "author": "Aubrey Beardsley",
+          "url": "https://www.metmuseum.org/art/collection/search/822368",
+          "file_token": "YSXpbsHVwoIM3WxJwoscvMhsnPd",
+          "file_name": "climax_rgb.jpg",
+          "file_size": 293250
+        },
+        {
+          "case_id": "reczz28MnyHcRaTA",
+          "case_title": "《孔雀裙》The Peacock Skirt",
+          "media": "黑白插画",
+          "author": "Aubrey Beardsley",
+          "url": "https://www.metmuseum.org/art/collection/search/822344",
+          "file_token": "N2LdbabC6oP8RAx6Z4UcTcyWnGg",
+          "file_name": "peacock.jpg",
+          "file_size": 340390
+        },
+        {
+          "case_id": "reczz28MnyHcRudP",
+          "case_title": "《眼睛像一只奇异的气球，飞向无限》",
+          "media": "石版画（Noirs）",
+          "author": "Odilon Redon",
+          "url": "https://www.moma.org/collection/works/33013",
+          "file_token": "O530bMgAToSm5nxgJVQc3e2znJd",
+          "file_name": "redon_balloon.jpg",
+          "file_size": 2192400
+        },
+        {
+          "case_id": "reczz28MnyHcQMQu",
+          "case_title": "《蜻蜓女子》Dragonfly Corsage Ornament",
+          "media": "珠宝、珐琅、黄金与宝石",
+          "author": "René Lalique",
+          "url": "https://gulbenkian.pt/museu/en/works/dragonfly-corsage-ornament/",
+          "file_token": "K4NPbTn7eo8rJgxm8WycsWgVnkf",
+          "file_name": "lalique_commons.jpg",
+          "file_size": 661594
+        },
+        {
+          "case_id": "reczz28MnyHcQLe7",
+          "case_title": "Artisanal 2024 高级定制系列",
+          "media": "高级定制、妆造、秀场表演",
+          "author": "John Galliano × Maison Margiela",
+          "url": "https://www.vogue.com/fashion-shows/spring-2024-couture/maison-martin-margiela",
+          "file_token": "Fk2wbUGyToZpAWxMXVWc7YjlnHd",
+          "file_name": "mm_442895.jpg",
+          "file_size": 407200
+        }
+      ],
+      "unit_count": 7
+    },
+    {
+      "term": "废土",
+      "english": "Wasteland",
+      "record_id": "reczz28HJJL2GP4n",
+      "chapter": [
+        "废墟"
+      ],
+      "core": "废土的美，不只是文明消失后的荒凉，而是文明仍以某种方式残存。",
+      "position": "往后看：结束以后",
+      "slug": "wasteland",
+      "see": "加油站观念摄影、电幻国度、Stray",
+      "dir": "term-collage-trial-wasteland-2026-11-05",
+      "cases": [
+        {
+          "id": "reczz28MoBSnxpUl",
+          "title": "Gas｜加油站",
+          "media": "观念摄影",
+          "imgs": 3,
+          "url": "https://www.davidlachapelle.com/series-gas"
+        },
+        {
+          "id": "reczz28MoBSnzMZH",
+          "title": "《电幻国度》The Electric State",
+          "media": "数字绘画／插画小说",
+          "imgs": 3,
+          "url": "https://www.simonstalenhag.se/es.html"
+        },
+        {
+          "id": "reczz28MoBSnwnPa",
+          "title": "《Stray》",
+          "media": "电子游戏",
+          "imgs": 3,
+          "url": "https://stray.game/"
+        }
+      ],
+      "units_plan": [
+        {
+          "case_id": "reczz28MoBSnxpUl",
+          "case_title": "Gas｜加油站",
+          "media": "观念摄影",
+          "author": "David LaChapelle",
+          "url": "https://www.davidlachapelle.com/series-gas",
+          "file_token": "QRzWbMEkwodiSOxvQZechXPknfg",
+          "file_name": "gas_bp.jpg",
+          "file_size": 597942
+        },
+        {
+          "case_id": "reczz28MoBSnzMZH",
+          "case_title": "《电幻国度》The Electric State",
+          "media": "数字绘画／插画小说",
+          "author": "Simon Stålenhag",
+          "url": "https://www.simonstalenhag.se/es.html",
+          "file_token": "RLlXbHS5ZoKRi7x0hzCcuwnonke",
+          "file_name": "es_on_ramp.jpg",
+          "file_size": 1262368
+        },
+        {
+          "case_id": "reczz28MoBSnwnPa",
+          "case_title": "《Stray》",
+          "media": "电子游戏",
+          "author": "BlueTwelve Studio / Annapurna Interactive",
+          "url": "https://stray.game/",
+          "file_token": "JaA6bGQmBoVw3Zx86POcsbAWnHb",
+          "file_name": "stray_1.jpg",
+          "file_size": 438210
+        },
+        {
+          "case_id": "reczz28MoBSnxpUl",
+          "case_title": "Gas｜加油站",
+          "media": "观念摄影",
+          "author": "David LaChapelle",
+          "url": "https://www.davidlachapelle.com/series-gas",
+          "file_token": "NUslbb872okqXfxI8gSc6fYhnIe",
+          "file_name": "gas_chevron.jpg",
+          "file_size": 684640
+        },
+        {
+          "case_id": "reczz28MoBSnzMZH",
+          "case_title": "《电幻国度》The Electric State",
+          "media": "数字绘画／插画小说",
+          "author": "Simon Stålenhag",
+          "url": "https://www.simonstalenhag.se/es.html",
+          "file_token": "O3rPbD7e0oxiv8x8xFhcOkmEn9c",
+          "file_name": "es_billboards.jpg",
+          "file_size": 1826785
+        },
+        {
+          "case_id": "reczz28MoBSnwnPa",
+          "case_title": "《Stray》",
+          "media": "电子游戏",
+          "author": "BlueTwelve Studio / Annapurna Interactive",
+          "url": "https://stray.game/",
+          "file_token": "AuOLbYZKrohAiqxCj3VcUx6enRe",
+          "file_name": "stray_3.jpg",
+          "file_size": 1119763
+        },
+        {
+          "case_id": "reczz28MoBSnxpUl",
+          "case_title": "Gas｜加油站",
+          "media": "观念摄影",
+          "author": "David LaChapelle",
+          "url": "https://www.davidlachapelle.com/series-gas",
+          "file_token": "DZrsbF9oIonGk4xE74LcF8f4nLe",
+          "file_name": "gas_shell.jpg",
+          "file_size": 703852
+        }
+      ],
+      "unit_count": 7
+    },
+    {
+      "term": "多巴胺",
+      "english": "Dopamine",
+      "record_id": "reczz28HJJL2GLvJ",
+      "chapter": [
+        "酒神"
+      ],
+      "core": "多巴胺美学的魅力，不是让颜色越多越好，而是让快乐看起来像要失控，却又始终没有真正失控。",
+      "position": "微醺：人还清醒，眼睛先被颜色灌醉了。",
+      "slug": "dopamine",
+      "see": "孟菲斯卡尔顿、数字森林、Judy Chicago烟火",
+      "dir": "term-collage-trial-dopamine-2026-11-05",
+      "cases": [
+        {
+          "id": "reczz28MR6LJ5rW7",
+          "title": "Forest of Numbers｜数字森林",
+          "media": "空间装置／色彩艺术",
+          "imgs": 3,
+          "url": "https://www.emmanuellemoureaux.com/100colors-forest-of-numbers"
+        },
+        {
+          "id": "reczz28MR6LJ60Ar",
+          "title": "Multi-color Atmosphere｜多彩氛围",
+          "media": "烟火／行为表演／环境艺术",
+          "imgs": 2,
+          "url": "https://judychicago.com/gallery/atmospheresfireworks/artwork/"
+        },
+        {
+          "id": "reczz28HJJL2NkpP",
+          "title": "卡尔顿",
+          "media": "设计",
+          "imgs": 1,
+          "url": "https://www.metmuseum.org/art/collection/search/486989"
+        }
+      ],
+      "units_plan": [
+        {
+          "case_id": "reczz28MR6LJ5rW7",
+          "case_title": "Forest of Numbers｜数字森林",
+          "media": "空间装置／色彩艺术",
+          "author": "Emmanuelle Moureaux",
+          "url": "https://www.emmanuellemoureaux.com/100colors-forest-of-numbers",
+          "file_token": "WqARbLp8OozFEbx8abpcBaIonWc",
+          "file_name": "forest_1_emmanuelle_moureaux_Forest_of_Numbers.jpg",
+          "file_size": 482412
+        },
+        {
+          "case_id": "reczz28MR6LJ60Ar",
+          "case_title": "Multi-color Atmosphere｜多彩氛围",
+          "media": "烟火／行为表演／环境艺术",
+          "author": "Judy Chicago",
+          "url": "https://judychicago.com/gallery/atmospheresfireworks/artwork/",
+          "file_token": "PsiKbd6FooOFxnxGt7AcVcu5nZd",
+          "file_name": "judy_10358_Multi-Color_Atmosphere_F.jpg",
+          "file_size": 2127637
+        },
+        {
+          "case_id": "reczz28HJJL2NkpP",
+          "case_title": "卡尔顿",
+          "media": "设计",
+          "author": "埃托雷·索特萨斯（Ettore Sottsass）",
+          "url": "https://www.metmuseum.org/art/collection/search/486989",
+          "file_token": "Yk8ebusG8oJw1bxe4Zwc4pdIndd",
+          "file_name": "卡尔顿书架_索特萨斯_摄影Sailko_CCBYSA4.0.jpg",
+          "file_size": 4340578
+        },
+        {
+          "case_id": "reczz28MR6LJ5rW7",
+          "case_title": "Forest of Numbers｜数字森林",
+          "media": "空间装置／色彩艺术",
+          "author": "Emmanuelle Moureaux",
+          "url": "https://www.emmanuellemoureaux.com/100colors-forest-of-numbers",
+          "file_token": "PpMZby793oCkfpxT7o3c4LDCnNd",
+          "file_name": "forest_2_emmanuelle_moureaux_Forest_of_Numbers.jpg",
+          "file_size": 547173
+        },
+        {
+          "case_id": "reczz28MR6LJ60Ar",
+          "case_title": "Multi-color Atmosphere｜多彩氛围",
+          "media": "烟火／行为表演／环境艺术",
+          "author": "Judy Chicago",
+          "url": "https://judychicago.com/gallery/atmospheresfireworks/artwork/",
+          "file_token": "RfV5bnsX3okm3OxCPTRcVdPdnXe",
+          "file_name": "judy_10358_Multi-Color_Atmosphere_E.jpg",
+          "file_size": 2179057
+        },
+        {
+          "case_id": "reczz28MR6LJ5rW7",
+          "case_title": "Forest of Numbers｜数字森林",
+          "media": "空间装置／色彩艺术",
+          "author": "Emmanuelle Moureaux",
+          "url": "https://www.emmanuellemoureaux.com/100colors-forest-of-numbers",
+          "file_token": "XH1TbTbBDoUZ4txqThAcXNkXnpd",
+          "file_name": "forest_4_emmanuelle_moureaux_Forest_of_Numbers.jpg",
+          "file_size": 364816
+        }
+      ],
+      "unit_count": 6
+    },
+    {
+      "term": "日杂",
+      "english": "Zakka",
+      "record_id": "reczz28HJJL2GJht",
+      "chapter": [
+        "乡愁"
+      ],
+      "core": "日杂的美，不是把日常生活变得像艺术品，而是通过精心设计，让日常生活看起来本身就值得被欣赏。",
+      "position": "慢慢过的日子",
+      "slug": "zakka",
+      "see": "POPEYE/NEUTRAL/GINZA/&Premium 杂志页",
+      "dir": "term-collage-trial-zakka-2026-11-05",
+      "cases": [
+        {
+          "id": "reczz28MRgdMRxNT",
+          "title": "NEUTRAL COLORS Issue 4｜Work",
+          "media": "独立杂志／Risograph 印刷／装帧设计",
+          "imgs": 2,
+          "url": "https://neutral-colors.com/books_post/neutral-colors-4/"
+        },
+        {
+          "id": "reczz28MRgdMRhwp",
+          "title": "POPEYE No.782｜シティーボーイのABC",
+          "media": "时尚杂志／物件图鉴／编辑设计",
+          "imgs": 1,
+          "url": "https://magazineworld.jp/popeye/back/?show=5"
+        },
+        {
+          "id": "reczz28MRgdMRZAU",
+          "title": "GINZA No.324｜クローゼットスナップ！",
+          "media": "时尚摄影／编辑设计",
+          "imgs": 1,
+          "url": "https://magazineworld.jp/ginza/ginza-324/"
+        },
+        {
+          "id": "reczz28MRgdMS2Dv",
+          "title": "&Premium No.123｜部屋を、整える。",
+          "media": "室内摄影／平面设计",
+          "imgs": 1,
+          "url": "https://andpremium.jp/book/premium-no-123/"
+        }
+      ],
+      "units_plan": [
+        {
+          "case_id": "reczz28MRgdMRxNT",
+          "case_title": "NEUTRAL COLORS Issue 4｜Work",
+          "media": "独立杂志／Risograph 印刷／装帧设计",
+          "author": "加藤直德（编辑）、加纳大辅（设计）",
+          "url": "https://neutral-colors.com/books_post/neutral-colors-4/",
+          "file_token": "BmoAbvsTno4YnVxMpVjce4UBnkf",
+          "file_name": "neutral4_cover.jpg",
+          "file_size": 339531
+        },
+        {
+          "case_id": "reczz28MRgdMRhwp",
+          "case_title": "POPEYE No.782｜シティーボーイのABC",
+          "media": "时尚杂志／物件图鉴／编辑设计",
+          "author": "《POPEYE》编辑部",
+          "url": "https://magazineworld.jp/popeye/back/?show=5",
+          "file_token": "VFRLb2JTao4yoExjmQ2chahOn7b",
+          "file_name": "popeye782.jpg",
+          "file_size": 120593
+        },
+        {
+          "case_id": "reczz28MRgdMRZAU",
+          "case_title": "GINZA No.324｜クローゼットスナップ！",
+          "media": "时尚摄影／编辑设计",
+          "author": "《GINZA》编辑部",
+          "url": "https://magazineworld.jp/ginza/ginza-324/",
+          "file_token": "K3ZbbABSzo9FsOxgDRDcOcYgnIP",
+          "file_name": "ginza324.jpg",
+          "file_size": 1037069
+        },
+        {
+          "case_id": "reczz28MRgdMS2Dv",
+          "case_title": "&Premium No.123｜部屋を、整える。",
+          "media": "室内摄影／平面设计",
+          "author": "《&Premium》编辑部",
+          "url": "https://andpremium.jp/book/premium-no-123/",
+          "file_token": "PO18bedFPozBCSxCHircd3dFnwd",
+          "file_name": "premium123.jpg",
+          "file_size": 157963
+        },
+        {
+          "case_id": "reczz28MRgdMRxNT",
+          "case_title": "NEUTRAL COLORS Issue 4｜Work",
+          "media": "独立杂志／Risograph 印刷／装帧设计",
+          "author": "加藤直德（编辑）、加纳大辅（设计）",
+          "url": "https://neutral-colors.com/books_post/neutral-colors-4/",
+          "file_token": "FlNRbrEBio9SdbxidwCcuaPanle",
+          "file_name": "neutral4_spread.jpg",
+          "file_size": 266100
+        }
+      ],
+      "unit_count": 5
+    },
+    {
+      "term": "清冷",
+      "english": "Cool Detachment",
+      "record_id": "reczz28HJJL2GLZ0",
+      "chapter": [
+        "幽玄"
+      ],
+      "core": "清冷，不是一个人没有情感，而是ta的情感拥有自己的世界。",
+      "position": "看得一清二楚，就是碰不到（隔着一段冷空气，最靠「看得清」的一端）",
+      "slug": "cool",
+      "see": "Snow装置与北海道黑白风景",
+      "dir": "term-collage-trial-cool-2026-11-05",
+      "cases": [
+        {
+          "id": "reczz28MnyD4e5ab",
+          "title": "Snow（雪）",
+          "media": "动态装置",
+          "imgs": 3,
+          "url": "https://www.tokujin.com/works/2010-sensing-nature-snow/"
+        },
+        {
+          "id": "reczz28MnyD4cUTQ",
+          "title": "Hokkaido（北海道）",
+          "media": "黑白风景摄影",
+          "imgs": 2,
+          "url": "https://www.michaelkenna.com/gallery.php?id=6"
+        }
+      ],
+      "units_plan": [
+        {
+          "case_id": "reczz28MnyD4e5ab",
+          "case_title": "Snow（雪）",
+          "media": "动态装置",
+          "author": "吉冈德仁 Tokujin Yoshioka",
+          "url": "https://www.tokujin.com/works/2010-sensing-nature-snow/",
+          "file_token": "Z76Ebmtd2o6AnxxxzylctFL1n4g",
+          "file_name": "snow_1.jpg",
+          "file_size": 138918
+        },
+        {
+          "case_id": "reczz28MnyD4cUTQ",
+          "case_title": "Hokkaido（北海道）",
+          "media": "黑白风景摄影",
+          "author": "Michael Kenna",
+          "url": "https://www.michaelkenna.com/gallery.php?id=6",
+          "file_token": "QTCBb3hadoivxQxse8YcwG6snfe",
+          "file_name": "kenna_ninetrees.jpg",
+          "file_size": 126390
+        },
+        {
+          "case_id": "reczz28MnyD4e5ab",
+          "case_title": "Snow（雪）",
+          "media": "动态装置",
+          "author": "吉冈德仁 Tokujin Yoshioka",
+          "url": "https://www.tokujin.com/works/2010-sensing-nature-snow/",
+          "file_token": "PrVbbVzbOoVHwvx9nT7cYJAonA5",
+          "file_name": "snow_tp.jpg",
+          "file_size": 362143
+        },
+        {
+          "case_id": "reczz28MnyD4cUTQ",
+          "case_title": "Hokkaido（北海道）",
+          "media": "黑白风景摄影",
+          "author": "Michael Kenna",
+          "url": "https://www.michaelkenna.com/gallery.php?id=6",
+          "file_token": "YSUWb7buAo3lzuxoRDbcwdqwn8b",
+          "file_name": "kenna_raw.jpg",
+          "file_size": 3251342
+        },
+        {
+          "case_id": "reczz28MnyD4e5ab",
+          "case_title": "Snow（雪）",
+          "media": "动态装置",
+          "author": "吉冈德仁 Tokujin Yoshioka",
+          "url": "https://www.tokujin.com/works/2010-sensing-nature-snow/",
+          "file_token": "HEUQbtem7oepVgxQSpicwfgIn7d",
+          "file_name": "snow_2.jpg",
+          "file_size": 124997
+        }
+      ],
+      "unit_count": 5
+    },
+    {
+      "term": "复古摇滚",
+      "english": "Retro Rock",
+      "record_id": "reczz28HJJL2GJt7",
+      "chapter": [
+        "乡愁"
+      ],
+      "core": "摇滚最初用音乐表达不服从，后来，人们学会了用服装表达同一种感觉。",
+      "position": "没赶上的年代",
+      "slug": "retro-rock",
+      "see": "橱窗店、骷髅戒、眼球戒、Stevie戏服",
+      "dir": "term-collage-trial-retro-rock-2026-11-05",
+      "cases": [
+        {
+          "id": "reczz28MRgiLqd42",
+          "title": "Granny Takes a Trip｜一家把汽车撞进橱窗的服装店",
+          "media": "商业空间／橱窗艺术／复古服装设计",
+          "imgs": 1,
+          "url": "https://www.vam.ac.uk/blog/projects/pandemic-objects-clothing-shop"
+        },
+        {
+          "id": "reczz28MRgiLrWjE",
+          "title": "Keith Richards' Skull Ring｜骷髅戒指",
+          "media": "银质首饰",
+          "imgs": 1,
+          "url": "https://courtsandhackett.com/keiths_ring.php"
+        },
+        {
+          "id": "reczz28MRgiLopRy",
+          "title": "The Great Frog · Eye Ring｜眼球戒指",
+          "media": "银质戒指",
+          "imgs": 1,
+          "url": "https://thegreatfroglondon.com/products/eye-ring"
+        },
+        {
+          "id": "reczz28MRgiLoC9N",
+          "title": "Stevie Nicks · Rhiannon Costume｜瑞安农演出服",
+          "media": "舞台服装",
+          "imgs": 1,
+          "url": "https://www.christies.com/en/lot/lot-4417849"
+        }
+      ],
+      "units_plan": [
+        {
+          "case_id": "reczz28MRgiLqd42",
+          "case_title": "Granny Takes a Trip｜一家把汽车撞进橱窗的服装店",
+          "media": "商业空间／橱窗艺术／复古服装设计",
+          "author": "Nigel Waymouth（主要视觉）；Waymouth、Sheila Cohen、John Pearse 创立",
+          "url": "https://www.vam.ac.uk/blog/projects/pandemic-objects-clothing-shop",
+          "file_token": "Bfl3bpV2Zo6NAoxcn0gcmEtRnpf",
+          "file_name": "granny_vam.jpg",
+          "file_size": 78055
+        },
+        {
+          "case_id": "reczz28MRgiLrWjE",
+          "case_title": "Keith Richards' Skull Ring｜骷髅戒指",
+          "media": "银质首饰",
+          "author": "David Courts & Bill Hackett",
+          "url": "https://courtsandhackett.com/keiths_ring.php",
+          "file_token": "KqdFbqzK5oNtB9xxtSUcYKAbnJd",
+          "file_name": "keith_skull.jpg",
+          "file_size": 29763
+        },
+        {
+          "case_id": "reczz28MRgiLopRy",
+          "case_title": "The Great Frog · Eye Ring｜眼球戒指",
+          "media": "银质戒指",
+          "author": "The Great Frog",
+          "url": "https://thegreatfroglondon.com/products/eye-ring",
+          "file_token": "YaTbbcE1lo9eo2xsvAZcF5YmnXf",
+          "file_name": "eye_ring.jpg",
+          "file_size": 126446
+        },
+        {
+          "case_id": "reczz28MRgiLoC9N",
+          "case_title": "Stevie Nicks · Rhiannon Costume｜瑞安农演出服",
+          "media": "舞台服装",
+          "author": "设计者未明确记载；Stevie Nicks 舞台造型体系",
+          "url": "https://www.christies.com/en/lot/lot-4417849",
+          "file_token": "R8xMbCRxgoAozZxoKtAcrEtnndh",
+          "file_name": "stevie_rhiannon.jpg",
+          "file_size": 58189
+        }
+      ],
+      "unit_count": 4
+    },
+    {
+      "term": "青涩",
+      "english": "First Crush",
+      "record_id": "reczz28HJJL2GMcc",
+      "chapter": [
+        "物哀"
+      ],
+      "core": "青涩之美在于：它让我们看见一个人正在成为某种人，却还没有完全成为。",
+      "position": "刚开始，心动得手足无措",
+      "slug": "first-crush",
+      "see": "Olivia Bee / Petra Collins 胶片青春",
+      "dir": "term-collage-trial-first-crush-2026-11-05",
+      "cases": [
+        {
+          "id": "reczz28LeedcIqM7",
+          "title": "The Teenage Gaze",
+          "media": "胶片摄影",
+          "imgs": 11,
+          "url": "https://petra-collins.com/the-teenage-gaze/"
+        },
+        {
+          "id": "reczz28LeedcHSnq",
+          "title": "Pre-Kiss",
+          "media": "胶片摄影",
+          "imgs": 6,
+          "url": "https://store.aperture.org/products/olivia-bee-kids-in-love-2"
+        }
+      ],
+      "units_plan": [
+        {
+          "case_id": "reczz28LeedcHSnq",
+          "case_title": "Pre-Kiss",
+          "media": "胶片摄影",
+          "author": "Olivia Bee",
+          "url": "https://store.aperture.org/products/olivia-bee-kids-in-love-2",
+          "file_token": "TRErbpQf6o6dAqxsiE6cGTQ6nP8",
+          "file_name": "kidsinlove_aperture.jpg",
+          "file_size": 521007
+        },
+        {
+          "case_id": "reczz28LeedcHSnq",
+          "case_title": "Pre-Kiss",
+          "media": "胶片摄影",
+          "author": "Olivia Bee",
+          "url": "https://store.aperture.org/products/olivia-bee-kids-in-love-2",
+          "file_token": "PLoyb9jnSoNB7PxB12ucuoUPnAd",
+          "file_name": "kidsinlove_july.jpg",
+          "file_size": 363822
+        },
+        {
+          "case_id": "reczz28LeedcIqM7",
+          "case_title": "The Teenage Gaze",
+          "media": "胶片摄影",
+          "author": "Petra Collins",
+          "url": "https://petra-collins.com/the-teenage-gaze/",
+          "file_token": "AkoRbwgNDoJIqKxgWO1cbjzsnnb",
+          "file_name": "teenage_3.jpg",
+          "file_size": 71711
+        },
+        {
+          "case_id": "reczz28LeedcIqM7",
+          "case_title": "The Teenage Gaze",
+          "media": "胶片摄影",
+          "author": "Petra Collins",
+          "url": "https://petra-collins.com/the-teenage-gaze/",
+          "file_token": "DlLSbG2HKoJ0iMxtZbycTADLn8b",
+          "file_name": "teenage_4.jpg",
+          "file_size": 61392
+        },
+        {
+          "case_id": "reczz28LeedcIqM7",
+          "case_title": "The Teenage Gaze",
+          "media": "胶片摄影",
+          "author": "Petra Collins",
+          "url": "https://petra-collins.com/the-teenage-gaze/",
+          "file_token": "F7s0b3xkRoPsZIxapHwcsA8kn5g",
+          "file_name": "teenage_9.jpg",
+          "file_size": 62356
+        }
+      ],
+      "unit_count": 5
+    },
+    {
+      "term": "破碎感",
+      "english": "Fragility",
+      "record_id": "reczz28HJJL2GN7q",
+      "chapter": [
+        "侘寂"
+      ],
+      "core": "破碎感不是对伤口的欣赏，而是对伤口之下，依然完整地渴望着什么的生命的怜爱。",
+      "position": "东西裂了、碎了、又补上",
+      "slug": "fragility",
+      "see": "Woodman房屋、Calle、书影与剧照碎片",
+      "dir": "term-collage-trial-fragility-2026-11-05",
+      "cases": [
+        {
+          "id": "reczz28MSjtzerH5",
+          "title": "House #3｜房屋三号",
+          "media": "实验摄影／明胶银盐",
+          "imgs": 1,
+          "url": "https://www.nga.gov/artworks/157359-house-3"
+        },
+        {
+          "id": "reczz28MSjtzdloz",
+          "title": "Take Care of Yourself｜好好照顾自己",
+          "media": "行为艺术／摄影／文本／影像装置",
+          "imgs": 1,
+          "url": "https://phi.ca/en/events/sophie-calle-take-care-of-yourself/"
+        },
+        {
+          "id": "reczz28MSjtzdNy0",
+          "title": "星辰时刻｜一个连自己的悲惨都不知道的女孩",
+          "media": "小说／文学",
+          "imgs": 1,
+          "url": "https://www.ndbooks.com/book/the-hour-of-the-star/"
+        },
+        {
+          "id": "reczz28MSjtzcGfC",
+          "title": "玻璃动物园｜她说没关系的时候，心已经碎了",
+          "media": "戏剧／文学",
+          "imgs": 1,
+          "url": "https://www.ndbooks.com/book/the-glass-menagerie/"
+        },
+        {
+          "id": "reczz28MSjtzdW6a",
+          "title": "A Girl Is a Half-formed Thing｜当一个人的语言本身开始破碎",
+          "media": "实验小说／文学",
+          "imgs": 1,
+          "url": "https://www.coffeehousepress.org/products/a-girl-is-a-half-formed-thing"
+        }
+      ],
+      "units_plan": [
+        {
+          "case_id": "reczz28MSjtzerH5",
+          "case_title": "House #3｜房屋三号",
+          "media": "实验摄影／明胶银盐",
+          "author": "Francesca Woodman",
+          "url": "https://www.nga.gov/artworks/157359-house-3",
+          "file_token": "PmPNb8MzroviivxESguclcD4n5e",
+          "file_name": "house3.jpg",
+          "file_size": 112815
+        },
+        {
+          "case_id": "reczz28MSjtzdloz",
+          "case_title": "Take Care of Yourself｜好好照顾自己",
+          "media": "行为艺术／摄影／文本／影像装置",
+          "author": "Sophie Calle",
+          "url": "https://phi.ca/en/events/sophie-calle-take-care-of-yourself/",
+          "file_token": "XL5cbxa3JojZjDxVd2uc2KoknGb",
+          "file_name": "calle_louisiana.jpg",
+          "file_size": 311320
+        },
+        {
+          "case_id": "reczz28MSjtzdNy0",
+          "case_title": "星辰时刻｜一个连自己的悲惨都不知道的女孩",
+          "media": "小说／文学",
+          "author": "Clarice Lispector",
+          "url": "https://www.ndbooks.com/book/the-hour-of-the-star/",
+          "file_token": "IIaBbnPraoBVpqxJwCIca42XnLf",
+          "file_name": "hour_star.jpg",
+          "file_size": 20360
+        },
+        {
+          "case_id": "reczz28MSjtzcGfC",
+          "case_title": "玻璃动物园｜她说没关系的时候，心已经碎了",
+          "media": "戏剧／文学",
+          "author": "Tennessee Williams",
+          "url": "https://www.ndbooks.com/book/the-glass-menagerie/",
+          "file_token": "RMfTbJ8p3o9lmvxY9dpcjllKnrt",
+          "file_name": "glass_menagerie.jpg",
+          "file_size": 46454
+        },
+        {
+          "case_id": "reczz28MSjtzdW6a",
+          "case_title": "A Girl Is a Half-formed Thing｜当一个人的语言本身开始破碎",
+          "media": "实验小说／文学",
+          "author": "Eimear McBride",
+          "url": "https://www.coffeehousepress.org/products/a-girl-is-a-half-formed-thing",
+          "file_token": "C78Rbi8Zso0Lsbxp2PwcFSLOnwd",
+          "file_name": "girl_halfformed.jpg",
+          "file_size": 46796
+        }
+      ],
+      "unit_count": 5
+    },
+    {
+      "term": "宿命感",
+      "english": "Fated",
+      "record_id": "reczz28HJJL2GOtf",
+      "chapter": [
+        "悲剧"
+      ],
+      "core": "船已经驶近漩涡边缘，掌舵的人仍把缆绳握得很紧。远处乌云压着海面，岸上的灯越来越小。",
+      "position": "一开始就知道，眼看着人一步步走过去",
+      "slug": "fated",
+      "see": "人生航程、拉杰特、Melancholia 等命运图像",
+      "dir": "term-collage-trial-fated-2026-11-05",
+      "cases": [
+        {
+          "id": "reczz28HJJL2NpG7",
+          "title": "人生的航程",
+          "media": "绘画",
+          "imgs": 1,
+          "url": "https://explorethomascole.org/project/the-voyage-of-life-series-page/"
+        },
+        {
+          "id": "reczz28HJJL2NpIk",
+          "title": "伊利亚特",
+          "media": "诗",
+          "imgs": 1,
+          "url": "http://classics.mit.edu/Homer/iliad.html"
+        },
+        {
+          "id": "reczz28HJJL2NpLL",
+          "title": "第五交响曲",
+          "media": "音乐",
+          "imgs": 1,
+          "url": "https://www.esm.rochester.edu/beethoven/symphony-no-5/"
+        },
+        {
+          "id": "reczz28MpmQFmKwG",
+          "title": "La Jetée",
+          "media": "实验短片／黑白摄影叙事",
+          "imgs": 1,
+          "url": "https://www.cinematheque.fr/film/49998.html"
+        },
+        {
+          "id": "reczz28MpmQFo3uh",
+          "title": "Melancholia",
+          "media": "电影",
+          "imgs": 1,
+          "url": "https://www.festival-cannes.com/en/f/melancholia/"
+        }
+      ],
+      "units_plan": [
+        {
+          "case_id": "reczz28HJJL2NpG7",
+          "case_title": "人生的航程",
+          "media": "绘画",
+          "author": "托马斯·科尔（Thomas Cole）",
+          "url": "https://explorethomascole.org/project/the-voyage-of-life-series-page/",
+          "file_token": "VIFQbeQfsoYJR4xf3V0cTd3ln2a",
+          "file_name": "人生的航程_青年_科尔_公有领域.jpg",
+          "file_size": 346409
+        },
+        {
+          "case_id": "reczz28HJJL2NpIk",
+          "case_title": "伊利亚特",
+          "media": "诗",
+          "author": "荷马（Homer）",
+          "url": "http://classics.mit.edu/Homer/iliad.html",
+          "file_token": "I9NfbGYGnoPepFxmkVScUi7Rn2c",
+          "file_name": "伊利亚特威尼斯A抄本细密画_CC0.jpg",
+          "file_size": 265576
+        },
+        {
+          "case_id": "reczz28HJJL2NpLL",
+          "case_title": "第五交响曲",
+          "media": "音乐",
+          "author": "路德维希·凡·贝多芬（Ludwig van Beethoven）",
+          "url": "https://www.esm.rochester.edu/beethoven/symphony-no-5/",
+          "file_token": "NSehb2RmSodockxqOdPcEnTGnTh",
+          "file_name": "第五交响曲手稿_贝多芬_CCBYSA4.0.jpg",
+          "file_size": 144590
+        },
+        {
+          "case_id": "reczz28MpmQFmKwG",
+          "case_title": "La Jetée",
+          "media": "实验短片／黑白摄影叙事",
+          "author": "Chris Marker（克里斯·马克）",
+          "url": "https://www.cinematheque.fr/film/49998.html",
+          "file_token": "Pv2vbXNwWowhpwxZoKccWuTInsh",
+          "file_name": "lajetee_cinematheque.jpg",
+          "file_size": 383074
+        },
+        {
+          "case_id": "reczz28MpmQFo3uh",
+          "case_title": "Melancholia",
+          "media": "电影",
+          "author": "Lars von Trier（拉斯·冯·提尔）",
+          "url": "https://www.festival-cannes.com/en/f/melancholia/",
+          "file_token": "DW2abTIYsorSVexIw28cqYLknjc",
+          "file_name": "melancholia_magnolia_1.jpg",
+          "file_size": 2546018
+        }
+      ],
+      "unit_count": 5
+    }
+  ]
+}

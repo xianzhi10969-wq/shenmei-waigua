@@ -1,0 +1,61 @@
+{
+  "snapshot_date": "2026-11-05",
+  "source": {
+    "base": "IGctbcuwPaE6hMsmAoicJddpn3U",
+    "term_table": "tbl2gR8WBoqCQyGz",
+    "case_table": "tblpdRYutnm12T0y",
+    "profile": "aesthetic-feishu",
+    "as": "user",
+    "read_only": true
+  },
+  "term": {
+    "record_id": "reczz28HJJL2GJht",
+    "词": "日杂",
+    "英文": "Zakka",
+    "所属章节": [
+      "乡愁"
+    ],
+    "在本章的位置": "慢慢过的日子",
+    "核心": "日杂的美，不是把日常生活变得像艺术品，而是通过精心设计，让日常生活看起来本身就值得被欣赏。"
+  },
+  "cases": [
+    {
+      "id": "reczz28MRgdMRxNT",
+      "title": "NEUTRAL COLORS Issue 4｜Work",
+      "media": "独立杂志／Risograph 印刷／装帧设计",
+      "imgs": 2,
+      "url": "https://neutral-colors.com/books_post/neutral-colors-4/"
+    },
+    {
+      "id": "reczz28MRgdMRhwp",
+      "title": "POPEYE No.782｜シティーボーイのABC",
+      "media": "时尚杂志／物件图鉴／编辑设计",
+      "imgs": 1,
+      "url": "https://magazineworld.jp/popeye/back/?show=5"
+    },
+    {
+      "id": "reczz28MRgdMRZAU",
+      "title": "GINZA No.324｜クローゼットスナップ！",
+      "media": "时尚摄影／编辑设计",
+      "imgs": 1,
+      "url": "https://magazineworld.jp/ginza/ginza-324/"
+    },
+    {
+      "id": "reczz28MRgdMS2Dv",
+      "title": "&Premium No.123｜部屋を、整える。",
+      "media": "室内摄影／平面设计",
+      "imgs": 1,
+      "url": "https://andpremium.jp/book/premium-no-123/"
+    }
+  ],
+  "editorial": {
+    "see": "POPEYE/NEUTRAL/GINZA/&Premium 杂志页",
+    "clues": [
+      "NEUTRAL COLORS Issue 4｜Work · 独立杂志／Risograph 印刷／装帧设计",
+      "POPEYE No.782｜シティーボーイのABC · 时尚杂志／物件图鉴／编辑设计",
+      "GINZA No.324｜クローゼットスナップ！ · 时尚摄影／编辑设计",
+      "&Premium No.123｜部屋を、整える。 · 室内摄影／平面设计"
+    ],
+    "avoid": "不与无关词条混图；不因附件多而硬凑"
+  }
+}

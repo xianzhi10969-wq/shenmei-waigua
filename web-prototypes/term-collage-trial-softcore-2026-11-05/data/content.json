@@ -1,0 +1,83 @@
+{
+  "snapshot_date": "2026-11-05",
+  "source": {
+    "base": "IGctbcuwPaE6hMsmAoicJddpn3U",
+    "term_table": "tbl2gR8WBoqCQyGz",
+    "case_table": "tblpdRYutnm12T0y",
+    "profile": "aesthetic-feishu",
+    "as": "user",
+    "read_only": true
+  },
+  "term": {
+    "record_id": "reczz28HJJL2GJS1",
+    "词": "Softcore",
+    "英文": "Softcore",
+    "所属章节": [
+      "可爱",
+      "幽玄"
+    ],
+    "在本章的位置": "软到不肯对焦",
+    "核心": "Softcore 就像柔软的白日梦。它的核心不是可爱，而是一种被温柔包围的感觉。它让普通的生活瞬间呈现出梦境和回忆般的质地。"
+  },
+  "cases": [
+    {
+      "id": "reczz28LdxvOA0sF",
+      "title": "Watercolour Collection",
+      "media": "家具设计",
+      "imgs": 10,
+      "url": "https://www.nendo.jp/en/works/watercolour-collection/"
+    },
+    {
+      "id": "reczz28LdxvOCkfm",
+      "title": "Sparrow Mart",
+      "media": "毛毡装置",
+      "imgs": 7,
+      "url": "https://www.sewyoursoul.co.uk/exhibition/sparrow-mart/"
+    },
+    {
+      "id": "reczz28LdxvOBVuz",
+      "title": "Hubs — Passage/s",
+      "media": "纺织装置",
+      "imgs": 7,
+      "url": "https://www.victoria-miro.com/exhibitions/501/"
+    },
+    {
+      "id": "reczz28LdxvOCeQE",
+      "title": "PomPom Mirror",
+      "media": "互动机械装置",
+      "imgs": 6,
+      "url": "https://www.bitforms.art/artwork/pompom-mirror"
+    },
+    {
+      "id": "reczz28LdxvOAEal",
+      "title": "Shylight",
+      "media": "动态灯光装置",
+      "imgs": 6,
+      "url": "https://studiodrift.com/work/shylight/"
+    },
+    {
+      "id": "reczz28HJJL2NiHW",
+      "title": "卡梅隆夫人的人像",
+      "media": "摄影",
+      "imgs": 1,
+      "url": "https://emuseum.mfah.org/objects/148871/mrs-camerons-photographs-from-the-life"
+    },
+    {
+      "id": "reczz28HJJL2NiMp",
+      "title": "情书",
+      "media": "电影",
+      "imgs": 0,
+      "url": "https://japansociety.org/?p=65324"
+    }
+  ],
+  "editorial": {
+    "see": "物件+软材质装置交错：毛毡商品、蓬蓬镜、水彩家具、灯光、人像",
+    "clues": [
+      "Sparrow Mart · 毛毡装置",
+      "Hubs — Passage/s · 纺织装置",
+      "PomPom Mirror · 互动机械装置",
+      "Watercolour Collection · 家具设计"
+    ],
+    "avoid": "不与无关词条混图；不因附件多而硬凑"
+  }
+}

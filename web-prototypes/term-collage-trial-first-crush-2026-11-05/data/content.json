@@ -1,0 +1,47 @@
+{
+  "snapshot_date": "2026-11-05",
+  "source": {
+    "base": "IGctbcuwPaE6hMsmAoicJddpn3U",
+    "term_table": "tbl2gR8WBoqCQyGz",
+    "case_table": "tblpdRYutnm12T0y",
+    "profile": "aesthetic-feishu",
+    "as": "user",
+    "read_only": true
+  },
+  "term": {
+    "record_id": "reczz28HJJL2GMcc",
+    "词": "青涩",
+    "英文": "First Crush",
+    "所属章节": [
+      "物哀"
+    ],
+    "在本章的位置": "刚开始，心动得手足无措",
+    "核心": "青涩之美在于：它让我们看见一个人正在成为某种人，却还没有完全成为。"
+  },
+  "cases": [
+    {
+      "id": "reczz28LeedcIqM7",
+      "title": "The Teenage Gaze",
+      "media": "胶片摄影",
+      "imgs": 11,
+      "url": "https://petra-collins.com/the-teenage-gaze/"
+    },
+    {
+      "id": "reczz28LeedcHSnq",
+      "title": "Pre-Kiss",
+      "media": "胶片摄影",
+      "imgs": 6,
+      "url": "https://store.aperture.org/products/olivia-bee-kids-in-love-2"
+    }
+  ],
+  "editorial": {
+    "see": "Olivia Bee / Petra Collins 胶片青春",
+    "clues": [
+      "Pre-Kiss · 胶片摄影",
+      "Pre-Kiss · 胶片摄影",
+      "The Teenage Gaze · 胶片摄影",
+      "The Teenage Gaze · 胶片摄影"
+    ],
+    "avoid": "不与无关词条混图；不因附件多而硬凑"
+  }
+}

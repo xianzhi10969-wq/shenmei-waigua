@@ -1,0 +1,232 @@
+[
+  {
+    "unit_id": "u01-人生的航程_青年_科尔_公有领域.jpg",
+    "display_number": "01",
+    "role": "主图",
+    "image": "assets/images/421275d994268e18.jpg",
+    "source_file": "assets/originals/人生的航程_青年_科尔_公有领域.jpg",
+    "case_record_id": "reczz28HJJL2NpG7",
+    "term_record_id": "reczz28HJJL2GOtf",
+    "alt": "人生的航程 · 绘画",
+    "url": "https://explorethomascole.org/project/the-voyage-of-life-series-page/",
+    "native": [
+      1280,
+      876
+    ],
+    "colors": [
+      "#5a421d",
+      "#b3b8b4",
+      "#463216",
+      "#6a581f",
+      "#826937"
+    ],
+    "desktop": [
+      40,
+      80,
+      600,
+      620,
+      -2,
+      2
+    ],
+    "mobile": [
+      16,
+      36,
+      358,
+      369,
+      -2,
+      2
+    ],
+    "ref_desktop": [
+      620,
+      708
+    ],
+    "ref_mobile": [
+      350,
+      413
+    ]
+  },
+  {
+    "unit_id": "u02-伊利亚特威尼斯A抄本细密画_CC0.jpg",
+    "display_number": "02",
+    "role": "补充",
+    "image": "assets/images/04cc6b9ca79c9629.jpg",
+    "source_file": "assets/originals/伊利亚特威尼斯A抄本细密画_CC0.jpg",
+    "case_record_id": "reczz28HJJL2NpIk",
+    "term_record_id": "reczz28HJJL2GOtf",
+    "alt": "伊利亚特 · 诗",
+    "url": "http://classics.mit.edu/Homer/iliad.html",
+    "native": [
+      1000,
+      968
+    ],
+    "colors": [
+      "#3d3e37",
+      "#605c41",
+      "#63665a",
+      "#3a2d20",
+      "#aeaf8f"
+    ],
+    "desktop": [
+      670,
+      60,
+      360,
+      420,
+      3,
+      4
+    ],
+    "mobile": [
+      220,
+      427,
+      154,
+      179,
+      3,
+      4
+    ],
+    "ref_desktop": [
+      1020,
+      32
+    ],
+    "ref_mobile": [
+      350,
+      614
+    ]
+  },
+  {
+    "unit_id": "u03-第五交响曲手稿_贝多芬_CCBYSA4.0.jp",
+    "display_number": "03",
+    "role": "细节",
+    "image": "assets/images/f6849d4299c682e0.jpg",
+    "source_file": "assets/originals/第五交响曲手稿_贝多芬_CCBYSA4.0.jpg",
+    "case_record_id": "reczz28HJJL2NpLL",
+    "term_record_id": "reczz28HJJL2GOtf",
+    "alt": "第五交响曲 · 音乐",
+    "url": "https://www.esm.rochester.edu/beethoven/symphony-no-5/",
+    "native": [
+      1200,
+      873
+    ],
+    "colors": [
+      "#d9cfbf",
+      "#cdc0ad",
+      "#c4b6a3",
+      "#3a3b36",
+      "#bcae9a"
+    ],
+    "desktop": [
+      1040,
+      80,
+      220,
+      280,
+      -3,
+      3
+    ],
+    "mobile": [
+      16,
+      924,
+      176,
+      224,
+      -3,
+      3
+    ],
+    "ref_desktop": [
+      1240,
+      368
+    ],
+    "ref_mobile": [
+      172,
+      1156
+    ]
+  },
+  {
+    "unit_id": "u04-lajetee_cinematheque.jpg",
+    "display_number": "04",
+    "role": "环境",
+    "image": "assets/images/ae26f23a1e500f49.jpg",
+    "source_file": "assets/originals/lajetee_cinematheque.jpg",
+    "case_record_id": "reczz28MpmQFmKwG",
+    "term_record_id": "reczz28HJJL2GOtf",
+    "alt": "La Jetée · 实验短片／黑白摄影叙事",
+    "url": "https://www.cinematheque.fr/film/49998.html",
+    "native": [
+      1200,
+      675
+    ],
+    "colors": [
+      "#bbbbbb",
+      "#3a3a3a",
+      "#636363",
+      "#d0d0d0",
+      "#1b1b1b"
+    ],
+    "desktop": [
+      670,
+      520,
+      360,
+      260,
+      2,
+      3
+    ],
+    "mobile": [
+      210,
+      775,
+      164,
+      131,
+      2,
+      3
+    ],
+    "ref_desktop": [
+      1020,
+      492
+    ],
+    "ref_mobile": [
+      350,
+      914
+    ]
+  },
+  {
+    "unit_id": "u05-melancholia_magnolia_1.j",
+    "display_number": "05",
+    "role": "对照",
+    "image": "assets/images/951a177ea83690f2.jpg",
+    "source_file": "assets/originals/melancholia_magnolia_1.jpg",
+    "case_record_id": "reczz28MpmQFo3uh",
+    "term_record_id": "reczz28HJJL2GOtf",
+    "alt": "Melancholia · 电影",
+    "url": "https://www.festival-cannes.com/en/f/melancholia/",
+    "native": [
+      1600,
+      1062
+    ],
+    "colors": [
+      "#1e3116",
+      "#334434",
+      "#121f0e",
+      "#2e421c",
+      "#41563f"
+    ],
+    "desktop": [
+      40,
+      740,
+      620,
+      250,
+      -1,
+      5
+    ],
+    "mobile": [
+      16,
+      427,
+      210,
+      157,
+      -1,
+      5
+    ],
+    "ref_desktop": [
+      640,
+      998
+    ],
+    "ref_mobile": [
+      206,
+      592
+    ]
+  }
+]

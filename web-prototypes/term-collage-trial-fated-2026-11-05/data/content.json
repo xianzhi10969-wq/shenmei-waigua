@@ -1,0 +1,68 @@
+{
+  "snapshot_date": "2026-11-05",
+  "source": {
+    "base": "IGctbcuwPaE6hMsmAoicJddpn3U",
+    "term_table": "tbl2gR8WBoqCQyGz",
+    "case_table": "tblpdRYutnm12T0y",
+    "profile": "aesthetic-feishu",
+    "as": "user",
+    "read_only": true
+  },
+  "term": {
+    "record_id": "reczz28HJJL2GOtf",
+    "词": "宿命感",
+    "英文": "Fated",
+    "所属章节": [
+      "悲剧"
+    ],
+    "在本章的位置": "一开始就知道，眼看着人一步步走过去",
+    "核心": "船已经驶近漩涡边缘，掌舵的人仍把缆绳握得很紧。远处乌云压着海面，岸上的灯越来越小。"
+  },
+  "cases": [
+    {
+      "id": "reczz28HJJL2NpG7",
+      "title": "人生的航程",
+      "media": "绘画",
+      "imgs": 1,
+      "url": "https://explorethomascole.org/project/the-voyage-of-life-series-page/"
+    },
+    {
+      "id": "reczz28HJJL2NpIk",
+      "title": "伊利亚特",
+      "media": "诗",
+      "imgs": 1,
+      "url": "http://classics.mit.edu/Homer/iliad.html"
+    },
+    {
+      "id": "reczz28HJJL2NpLL",
+      "title": "第五交响曲",
+      "media": "音乐",
+      "imgs": 1,
+      "url": "https://www.esm.rochester.edu/beethoven/symphony-no-5/"
+    },
+    {
+      "id": "reczz28MpmQFmKwG",
+      "title": "La Jetée",
+      "media": "实验短片／黑白摄影叙事",
+      "imgs": 1,
+      "url": "https://www.cinematheque.fr/film/49998.html"
+    },
+    {
+      "id": "reczz28MpmQFo3uh",
+      "title": "Melancholia",
+      "media": "电影",
+      "imgs": 1,
+      "url": "https://www.festival-cannes.com/en/f/melancholia/"
+    }
+  ],
+  "editorial": {
+    "see": "人生航程、拉杰特、Melancholia 等命运图像",
+    "clues": [
+      "人生的航程 · 绘画",
+      "伊利亚特 · 诗",
+      "第五交响曲 · 音乐",
+      "La Jetée · 实验短片／黑白摄影叙事"
+    ],
+    "avoid": "不与无关词条混图；不因附件多而硬凑"
+  }
+}

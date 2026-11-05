@@ -1,0 +1,278 @@
+[
+  {
+    "unit_id": "u01-qiu_fosun_632ad00a702727",
+    "display_number": "01",
+    "role": "主图",
+    "image": "assets/images/c86c1518ca2e78ac.jpg",
+    "source_file": "assets/originals/qiu_fosun_632ad00a70272736467085.jpg",
+    "case_record_id": "reczz28LcucHkDng",
+    "term_record_id": "reczz28HJJL2GNSP",
+    "alt": "邱黯雄《新山海经 II》The New Book of Mountains and Seas II · 三屏动画影像",
+    "url": "https://www.moma.org/collection/works/135052",
+    "native": [
+      1600,
+      900
+    ],
+    "colors": [
+      "#b8b7b7",
+      "#d0cfcf",
+      "#918e87",
+      "#68665f",
+      "#413d37"
+    ],
+    "desktop": [
+      460,
+      55,
+      600,
+      560,
+      2,
+      2
+    ],
+    "mobile": [
+      16,
+      36,
+      358,
+      334,
+      2,
+      2
+    ],
+    "ref_desktop": [
+      1040,
+      623
+    ],
+    "ref_mobile": [
+      350,
+      378
+    ]
+  },
+  {
+    "unit_id": "u02-xubing_chazen_1.jpg",
+    "display_number": "02",
+    "role": "补充",
+    "image": "assets/images/bc4b95024670340b.jpg",
+    "source_file": "assets/originals/xubing_chazen_1.jpg",
+    "case_record_id": "reczz28LcucHlC54",
+    "term_record_id": "reczz28HJJL2GNSP",
+    "alt": "徐冰《背后的故事》Background Story · 装置（灯箱/光影）",
+    "url": "https://museum.cornell.edu/exhibition/xu-bing-background-story/",
+    "native": [
+      700,
+      410
+    ],
+    "colors": [
+      "#d8d8d8",
+      "#e3d2bd",
+      "#d3c0ab",
+      "#a9926b",
+      "#beaa8c"
+    ],
+    "desktop": [
+      40,
+      70,
+      280,
+      380,
+      -3,
+      4
+    ],
+    "mobile": [
+      220,
+      392,
+      154,
+      197,
+      -3,
+      4
+    ],
+    "ref_desktop": [
+      310,
+      42
+    ],
+    "ref_mobile": [
+      350,
+      597
+    ]
+  },
+  {
+    "unit_id": "u03-qiu_fosun_632ad00a709359",
+    "display_number": "03",
+    "role": "细节",
+    "image": "assets/images/b0206762363d232f.jpg",
+    "source_file": "assets/originals/qiu_fosun_632ad00a70935911711522.jpg",
+    "case_record_id": "reczz28LcucHkDng",
+    "term_record_id": "reczz28HJJL2GNSP",
+    "alt": "邱黯雄《新山海经 II》The New Book of Mountains and Seas II · 三屏动画影像",
+    "url": "https://www.moma.org/collection/works/135052",
+    "native": [
+      1600,
+      900
+    ],
+    "colors": [
+      "#3b3938",
+      "#1b1816",
+      "#676360",
+      "#8d8987",
+      "#b4b1b2"
+    ],
+    "desktop": [
+      340,
+      80,
+      140,
+      220,
+      5,
+      3
+    ],
+    "mobile": [
+      210,
+      1166,
+      164,
+      229,
+      5,
+      3
+    ],
+    "ref_desktop": [
+      460,
+      308
+    ],
+    "ref_mobile": [
+      350,
+      1403
+    ]
+  },
+  {
+    "unit_id": "u04-yang_phantom_2.jpg",
+    "display_number": "04",
+    "role": "环境",
+    "image": "assets/images/3eba32e9c42a110f.jpg",
+    "source_file": "assets/originals/yang_phantom_2.jpg",
+    "case_record_id": "reczz28LcucHiz5V",
+    "term_record_id": "reczz28HJJL2GNSP",
+    "alt": "杨泳梁《蜃市山水》Phantom Landscape · 数字摄影",
+    "url": "https://www.yangyongliang.com/phantom-landscape",
+    "native": [
+      1600,
+      1600
+    ],
+    "colors": [
+      "#fdfdfd",
+      "#d9d9d9",
+      "#bababa",
+      "#636363",
+      "#888888"
+    ],
+    "desktop": [
+      40,
+      480,
+      300,
+      280,
+      2,
+      3
+    ],
+    "mobile": [
+      210,
+      740,
+      164,
+      153,
+      2,
+      3
+    ],
+    "ref_desktop": [
+      330,
+      452
+    ],
+    "ref_mobile": [
+      350,
+      901
+    ]
+  },
+  {
+    "unit_id": "u05-qiu_fosun_632ad00a6f7b56",
+    "display_number": "05",
+    "role": "对照",
+    "image": "assets/images/46b5ddee752a3b2b.jpg",
+    "source_file": "assets/originals/qiu_fosun_632ad00a6f7b5641731039.jpg",
+    "case_record_id": "reczz28LcucHkDng",
+    "term_record_id": "reczz28HJJL2GNSP",
+    "alt": "邱黯雄《新山海经 II》The New Book of Mountains and Seas II · 三屏动画影像",
+    "url": "https://www.moma.org/collection/works/135052",
+    "native": [
+      1600,
+      900
+    ],
+    "colors": [
+      "#908886",
+      "#b4aeab",
+      "#a39991",
+      "#887c72",
+      "#7d726a"
+    ],
+    "desktop": [
+      360,
+      420,
+      180,
+      260,
+      -2,
+      5
+    ],
+    "mobile": [
+      16,
+      911,
+      176,
+      237,
+      -2,
+      5
+    ],
+    "ref_desktop": [
+      520,
+      688
+    ],
+    "ref_mobile": [
+      172,
+      1156
+    ]
+  },
+  {
+    "unit_id": "u06-xubing_cornell_2.jpg",
+    "display_number": "06",
+    "role": "细节",
+    "image": "assets/images/0e7d9c6ddd0db1e9.jpg",
+    "source_file": "assets/originals/xubing_cornell_2.jpg",
+    "case_record_id": "reczz28LcucHlC54",
+    "term_record_id": "reczz28HJJL2GNSP",
+    "alt": "徐冰《背后的故事》Background Story · 装置（灯箱/光影）",
+    "url": "https://museum.cornell.edu/exhibition/xu-bing-background-story/",
+    "native": [
+      1600,
+      581
+    ],
+    "colors": [
+      "#011830",
+      "#0b3860",
+      "#3d453e",
+      "#5f645d",
+      "#0d141d"
+    ],
+    "desktop": [
+      460,
+      660,
+      600,
+      280,
+      1,
+      4
+    ],
+    "mobile": [
+      16,
+      392,
+      210,
+      157,
+      1,
+      4
+    ],
+    "ref_desktop": [
+      1050,
+      632
+    ],
+    "ref_mobile": [
+      206,
+      557
+    ]
+  }
+]

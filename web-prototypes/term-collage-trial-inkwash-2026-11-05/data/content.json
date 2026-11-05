@@ -1,0 +1,54 @@
+{
+  "snapshot_date": "2026-11-05",
+  "source": {
+    "base": "IGctbcuwPaE6hMsmAoicJddpn3U",
+    "term_table": "tbl2gR8WBoqCQyGz",
+    "case_table": "tblpdRYutnm12T0y",
+    "profile": "aesthetic-feishu",
+    "as": "user",
+    "read_only": true
+  },
+  "term": {
+    "record_id": "reczz28HJJL2GNSP",
+    "词": "水墨",
+    "英文": "Ink Wash",
+    "所属章节": [
+      "气韵"
+    ],
+    "在本章的位置": "回到它开始的地方，一笔墨里",
+    "核心": "第一滴墨落到纸上，很快洇成山的背影。山腰留着一段空白，一叶小舟正往最淡的地方去。"
+  },
+  "cases": [
+    {
+      "id": "reczz28LcucHkDng",
+      "title": "邱黯雄《新山海经 II》The New Book of Mountains and Seas II",
+      "media": "三屏动画影像",
+      "imgs": 4,
+      "url": "https://www.moma.org/collection/works/135052"
+    },
+    {
+      "id": "reczz28LcucHlC54",
+      "title": "徐冰《背后的故事》Background Story",
+      "media": "装置（灯箱/光影）",
+      "imgs": 3,
+      "url": "https://museum.cornell.edu/exhibition/xu-bing-background-story/"
+    },
+    {
+      "id": "reczz28LcucHiz5V",
+      "title": "杨泳梁《蜃市山水》Phantom Landscape",
+      "media": "数字摄影",
+      "imgs": 3,
+      "url": "https://www.yangyongliang.com/phantom-landscape"
+    }
+  ],
+  "editorial": {
+    "see": "徐冰灯箱、杨泳梁数字山水、邱黯雄山海经动画",
+    "clues": [
+      "邱黯雄《新山海经 II》The New Book of Mountains and Seas II · 三屏动画影像",
+      "徐冰《背后的故事》Background Story · 装置（灯箱/光影）",
+      "邱黯雄《新山海经 II》The New Book of Mountains and Seas II · 三屏动画影像",
+      "杨泳梁《蜃市山水》Phantom Landscape · 数字摄影"
+    ],
+    "avoid": "不与无关词条混图；不因附件多而硬凑"
+  }
+}

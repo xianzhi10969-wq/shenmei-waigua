@@ -1,0 +1,370 @@
+[
+  {
+    "unit_id": "u01-matrix_pd_1.jpg",
+    "display_number": "01",
+    "role": "主图",
+    "image": "assets/images/4cd9db584835fd1c.jpg",
+    "source_file": "assets/originals/matrix_pd_1.jpg",
+    "case_record_id": "reczz28Ldc0bKQuv",
+    "term_record_id": "reczz28HJJL2GMBA",
+    "alt": "内藤礼《Matrix》 · 现场装置",
+    "url": "https://benesse-artsite.jp/en/art/teshima-artmuseum.html",
+    "native": [
+      1600,
+      1066
+    ],
+    "colors": [
+      "#666165",
+      "#403c42",
+      "#8b8587",
+      "#d5e3f8",
+      "#dedbd9"
+    ],
+    "desktop": [
+      520,
+      50,
+      560,
+      520,
+      2,
+      2
+    ],
+    "mobile": [
+      16,
+      36,
+      358,
+      332,
+      2,
+      2
+    ],
+    "ref_desktop": [
+      1060,
+      578
+    ],
+    "ref_mobile": [
+      350,
+      376
+    ]
+  },
+  {
+    "unit_id": "u02-龙安寺石庭_摄影DXR_CCBYSA4.0.jp",
+    "display_number": "02",
+    "role": "补充",
+    "image": "assets/images/9b67ff5e13b3b3f8.jpg",
+    "source_file": "assets/originals/龙安寺石庭_摄影DXR_CCBYSA4.0.jpg",
+    "case_record_id": "reczz28HJJL2NlAY",
+    "term_record_id": "reczz28HJJL2GMBA",
+    "alt": "龙安寺石庭 · 建筑",
+    "url": "https://www.pref.kyoto.jp/isan/ryoanji.html",
+    "native": [
+      1600,
+      1074
+    ],
+    "colors": [
+      "#b6b5b4",
+      "#3a3c35",
+      "#88b2de",
+      "#191b1b",
+      "#343720"
+    ],
+    "desktop": [
+      40,
+      70,
+      280,
+      360,
+      -3,
+      4
+    ],
+    "mobile": [
+      16,
+      390,
+      210,
+      270,
+      -3,
+      4
+    ],
+    "ref_desktop": [
+      310,
+      42
+    ],
+    "ref_mobile": [
+      206,
+      668
+    ]
+  },
+  {
+    "unit_id": "u03-iced_05.jpg",
+    "display_number": "03",
+    "role": "细节",
+    "image": "assets/images/14579db27383b34c.jpg",
+    "source_file": "assets/originals/iced_05.jpg",
+    "case_record_id": "reczz28Ldc0bMeA5",
+    "term_record_id": "reczz28HJJL2GMBA",
+    "alt": "东信《ICED FLOWERS for Dries Van Noten's》 · 时装秀场装置",
+    "url": "https://azumamakoto.com/en/project/x-2w_gp5z/",
+    "native": [
+      1600,
+      1198
+    ],
+    "colors": [
+      "#030205",
+      "#fbfcfc",
+      "#191d2f",
+      "#3b353e",
+      "#635a64"
+    ],
+    "desktop": [
+      340,
+      60,
+      200,
+      260,
+      4,
+      3
+    ],
+    "mobile": [
+      210,
+      1789,
+      164,
+      213,
+      4,
+      3
+    ],
+    "ref_desktop": [
+      520,
+      328
+    ],
+    "ref_mobile": [
+      350,
+      2010
+    ]
+  },
+  {
+    "unit_id": "u04-motoi_lab_charleston.jpg",
+    "display_number": "04",
+    "role": "环境",
+    "image": "assets/images/7cfd1a099738d371.jpg",
+    "source_file": "assets/originals/motoi_lab_charleston.jpg",
+    "case_record_id": "reczz28Ldc0bJUeQ",
+    "term_record_id": "reczz28HJJL2GMBA",
+    "alt": "山本基《Return to the Sea Project》 · 盐装置",
+    "url": "https://www.motoi-works.com/en/works/return-to-theseaproject",
+    "native": [
+      1024,
+      686
+    ],
+    "colors": [
+      "#8d9a95",
+      "#92a19d",
+      "#d6d8cd",
+      "#94a4a1",
+      "#381504"
+    ],
+    "desktop": [
+      40,
+      450,
+      260,
+      240,
+      2,
+      3
+    ],
+    "mobile": [
+      210,
+      1378,
+      164,
+      151,
+      2,
+      3
+    ],
+    "ref_desktop": [
+      290,
+      422
+    ],
+    "ref_mobile": [
+      350,
+      1537
+    ]
+  },
+  {
+    "unit_id": "u05-matrix_pd_2.jpg",
+    "display_number": "05",
+    "role": "对照",
+    "image": "assets/images/23f94d09337fccdf.jpg",
+    "source_file": "assets/originals/matrix_pd_2.jpg",
+    "case_record_id": "reczz28Ldc0bKQuv",
+    "term_record_id": "reczz28HJJL2GMBA",
+    "alt": "内藤礼《Matrix》 · 现场装置",
+    "url": "https://benesse-artsite.jp/en/art/teshima-artmuseum.html",
+    "native": [
+      1600,
+      1066
+    ],
+    "colors": [
+      "#dbdfe1",
+      "#b2b5bc",
+      "#1b1916",
+      "#3c331d",
+      "#6e570f"
+    ],
+    "desktop": [
+      320,
+      360,
+      220,
+      280,
+      -4,
+      5
+    ],
+    "mobile": [
+      16,
+      1547,
+      176,
+      224,
+      -4,
+      5
+    ],
+    "ref_desktop": [
+      520,
+      648
+    ],
+    "ref_mobile": [
+      172,
+      1779
+    ]
+  },
+  {
+    "unit_id": "u06-松林图屏风_左隻_长谷川等伯_公有领域.jpg",
+    "display_number": "06",
+    "role": "细节",
+    "image": "assets/images/fbdc137f069d003a.jpg",
+    "source_file": "assets/originals/松林图屏风_左隻_长谷川等伯_公有领域.jpg",
+    "case_record_id": "reczz28HJJL2NlFs",
+    "term_record_id": "reczz28HJJL2GMBA",
+    "alt": "松林图屏风 · 绘画",
+    "url": "https://emuseum.nich.go.jp/detail?content_base_id=100151",
+    "native": [
+      1280,
+      598
+    ],
+    "colors": [
+      "#d1b898",
+      "#dac3a3",
+      "#bfa98b",
+      "#a88a65",
+      "#ae987f"
+    ],
+    "desktop": [
+      560,
+      600,
+      360,
+      280,
+      1,
+      4
+    ],
+    "mobile": [
+      220,
+      390,
+      154,
+      123,
+      1,
+      4
+    ],
+    "ref_desktop": [
+      910,
+      572
+    ],
+    "ref_mobile": [
+      350,
+      521
+    ]
+  },
+  {
+    "unit_id": "u07-motoi_project_01.jpg",
+    "display_number": "07",
+    "role": "补充",
+    "image": "assets/images/7eb3bcc5b0ce279a.jpg",
+    "source_file": "assets/originals/motoi_project_01.jpg",
+    "case_record_id": "reczz28Ldc0bJUeQ",
+    "term_record_id": "reczz28HJJL2GMBA",
+    "alt": "山本基《Return to the Sea Project》 · 盐装置",
+    "url": "https://www.motoi-works.com/en/works/return-to-theseaproject",
+    "native": [
+      1600,
+      1200
+    ],
+    "colors": [
+      "#3d3739",
+      "#171615",
+      "#b1b1b4",
+      "#8e8b8e",
+      "#635e61"
+    ],
+    "desktop": [
+      940,
+      520,
+      260,
+      300,
+      -2,
+      5
+    ],
+    "mobile": [
+      210,
+      964,
+      164,
+      189,
+      -2,
+      5
+    ],
+    "ref_desktop": [
+      1180,
+      828
+    ],
+    "ref_mobile": [
+      350,
+      1161
+    ]
+  },
+  {
+    "unit_id": "u08-iced_01.jpg",
+    "display_number": "08",
+    "role": "细节",
+    "image": "assets/images/7950a3680cea6b80.jpg",
+    "source_file": "assets/originals/iced_01.jpg",
+    "case_record_id": "reczz28Ldc0bMeA5",
+    "term_record_id": "reczz28HJJL2GMBA",
+    "alt": "东信《ICED FLOWERS for Dries Van Noten's》 · 时装秀场装置",
+    "url": "https://azumamakoto.com/en/project/x-2w_gp5z/",
+    "native": [
+      1600,
+      1198
+    ],
+    "colors": [
+      "#050507",
+      "#36343b",
+      "#3c425b",
+      "#1b1f31",
+      "#615f65"
+    ],
+    "desktop": [
+      940,
+      60,
+      260,
+      280,
+      3,
+      3
+    ],
+    "mobile": [
+      16,
+      1171,
+      176,
+      189,
+      3,
+      3
+    ],
+    "ref_desktop": [
+      1190,
+      32
+    ],
+    "ref_mobile": [
+      172,
+      1368
+    ]
+  }
+]

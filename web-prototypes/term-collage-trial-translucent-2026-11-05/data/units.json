@@ -1,0 +1,278 @@
+[
+  {
+    "unit_id": "u01-illum_01_L.jpg",
+    "display_number": "01",
+    "role": "主图",
+    "image": "assets/images/467efe181197f394.jpg",
+    "source_file": "assets/originals/illum_01_L.jpg",
+    "case_record_id": "reczz28LeeYH6DgG",
+    "term_record_id": "reczz28HJJL2GNqc",
+    "alt": "Illuminance（照度） · 摄影",
+    "url": "https://rinkokawauchi.com/en/works/194/",
+    "native": [
+      1600,
+      1600
+    ],
+    "colors": [
+      "#1b1b2d",
+      "#141023",
+      "#3b3840",
+      "#67605d",
+      "#7f7167"
+    ],
+    "desktop": [
+      460,
+      55,
+      600,
+      560,
+      2,
+      2
+    ],
+    "mobile": [
+      16,
+      36,
+      358,
+      334,
+      2,
+      2
+    ],
+    "ref_desktop": [
+      1040,
+      623
+    ],
+    "ref_mobile": [
+      350,
+      378
+    ]
+  },
+  {
+    "unit_id": "u02-well_pinault_1.jpg",
+    "display_number": "02",
+    "role": "补充",
+    "image": "assets/images/acf8c8cc0e0fef12.jpg",
+    "source_file": "assets/originals/well_pinault_1.jpg",
+    "case_record_id": "reczz28LeeYH4bwm",
+    "term_record_id": "reczz28HJJL2GNqc",
+    "alt": "Well and Truly · 铸造玻璃",
+    "url": "https://lesoeuvres.pinaultcollection.com/en/artwork/well-and-truly",
+    "native": [
+      900,
+      600
+    ],
+    "colors": [
+      "#3b3a37",
+      "#5b5f62",
+      "#898d8f",
+      "#1e1d1b",
+      "#f9fcfd"
+    ],
+    "desktop": [
+      40,
+      70,
+      280,
+      380,
+      -3,
+      4
+    ],
+    "mobile": [
+      220,
+      392,
+      154,
+      197,
+      -3,
+      4
+    ],
+    "ref_desktop": [
+      310,
+      42
+    ],
+    "ref_mobile": [
+      350,
+      597
+    ]
+  },
+  {
+    "unit_id": "u03-rain_group.jpg",
+    "display_number": "03",
+    "role": "细节",
+    "image": "assets/images/97960dd8148607b8.jpg",
+    "source_file": "assets/originals/rain_group.jpg",
+    "case_record_id": "reczz28LeeYH62Cx",
+    "term_record_id": "reczz28HJJL2GNqc",
+    "alt": "Rain Bottle（雨之瓶） · 产品设计",
+    "url": "https://www.nendo.jp/en/works/rain-bottle-2/",
+    "native": [
+      800,
+      1000
+    ],
+    "colors": [
+      "#060606",
+      "#343534",
+      "#656767",
+      "#858a88",
+      "#272828"
+    ],
+    "desktop": [
+      340,
+      80,
+      140,
+      220,
+      5,
+      3
+    ],
+    "mobile": [
+      210,
+      1166,
+      164,
+      229,
+      5,
+      3
+    ],
+    "ref_desktop": [
+      460,
+      308
+    ],
+    "ref_mobile": [
+      350,
+      1403
+    ]
+  },
+  {
+    "unit_id": "u04-illum_02_L.jpg",
+    "display_number": "04",
+    "role": "环境",
+    "image": "assets/images/86309438eae6dad6.jpg",
+    "source_file": "assets/originals/illum_02_L.jpg",
+    "case_record_id": "reczz28LeeYH6DgG",
+    "term_record_id": "reczz28HJJL2GNqc",
+    "alt": "Illuminance（照度） · 摄影",
+    "url": "https://rinkokawauchi.com/en/works/194/",
+    "native": [
+      1600,
+      1600
+    ],
+    "colors": [
+      "#5c6b8f",
+      "#49587d",
+      "#435175",
+      "#6c81a7",
+      "#8691af"
+    ],
+    "desktop": [
+      40,
+      480,
+      300,
+      280,
+      2,
+      3
+    ],
+    "mobile": [
+      210,
+      740,
+      164,
+      153,
+      2,
+      3
+    ],
+    "ref_desktop": [
+      330,
+      452
+    ],
+    "ref_mobile": [
+      350,
+      901
+    ]
+  },
+  {
+    "unit_id": "u05-liquid_03.jpg",
+    "display_number": "05",
+    "role": "对照",
+    "image": "assets/images/150cbda2b7316442.jpg",
+    "source_file": "assets/originals/liquid_03.jpg",
+    "case_record_id": "reczz28LeeYH59r1",
+    "term_record_id": "reczz28HJJL2GNqc",
+    "alt": "Liquid Glacial（液态冰川） · 家具",
+    "url": "https://www.zaha-hadid-design.com/pages/liquid",
+    "native": [
+      1600,
+      1280
+    ],
+    "colors": [
+      "#d7d9de",
+      "#b7babe",
+      "#c2c5c9",
+      "#f5f6fa",
+      "#c6c9cd"
+    ],
+    "desktop": [
+      360,
+      420,
+      180,
+      260,
+      -2,
+      5
+    ],
+    "mobile": [
+      16,
+      911,
+      176,
+      237,
+      -2,
+      5
+    ],
+    "ref_desktop": [
+      520,
+      688
+    ],
+    "ref_mobile": [
+      172,
+      1156
+    ]
+  },
+  {
+    "unit_id": "u06-rain_jb_35.jpg",
+    "display_number": "06",
+    "role": "细节",
+    "image": "assets/images/129af8e4e7e9f784.jpg",
+    "source_file": "assets/originals/rain_jb_35.jpg",
+    "case_record_id": "reczz28LeeYH62Cx",
+    "term_record_id": "reczz28HJJL2GNqc",
+    "alt": "Rain Bottle（雨之瓶） · 产品设计",
+    "url": "https://www.nendo.jp/en/works/rain-bottle-2/",
+    "native": [
+      655,
+      982
+    ],
+    "colors": [
+      "#939391",
+      "#a8a9a8",
+      "#d4d5d4",
+      "#9ea09e",
+      "#9fa0a0"
+    ],
+    "desktop": [
+      460,
+      660,
+      600,
+      280,
+      1,
+      4
+    ],
+    "mobile": [
+      16,
+      392,
+      210,
+      157,
+      1,
+      4
+    ],
+    "ref_desktop": [
+      1050,
+      632
+    ],
+    "ref_mobile": [
+      206,
+      557
+    ]
+  }
+]

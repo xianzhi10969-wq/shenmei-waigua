@@ -1,0 +1,54 @@
+{
+  "snapshot_date": "2026-11-05",
+  "source": {
+    "base": "IGctbcuwPaE6hMsmAoicJddpn3U",
+    "term_table": "tbl2gR8WBoqCQyGz",
+    "case_table": "tblpdRYutnm12T0y",
+    "profile": "aesthetic-feishu",
+    "as": "user",
+    "read_only": true
+  },
+  "term": {
+    "record_id": "reczz28HJJL2GP4n",
+    "词": "废土",
+    "英文": "Wasteland",
+    "所属章节": [
+      "废墟"
+    ],
+    "在本章的位置": "往后看：结束以后",
+    "核心": "废土的美，不只是文明消失后的荒凉，而是文明仍以某种方式残存。"
+  },
+  "cases": [
+    {
+      "id": "reczz28MoBSnxpUl",
+      "title": "Gas｜加油站",
+      "media": "观念摄影",
+      "imgs": 3,
+      "url": "https://www.davidlachapelle.com/series-gas"
+    },
+    {
+      "id": "reczz28MoBSnzMZH",
+      "title": "《电幻国度》The Electric State",
+      "media": "数字绘画／插画小说",
+      "imgs": 3,
+      "url": "https://www.simonstalenhag.se/es.html"
+    },
+    {
+      "id": "reczz28MoBSnwnPa",
+      "title": "《Stray》",
+      "media": "电子游戏",
+      "imgs": 3,
+      "url": "https://stray.game/"
+    }
+  ],
+  "editorial": {
+    "see": "加油站观念摄影、电幻国度、Stray",
+    "clues": [
+      "Gas｜加油站 · 观念摄影",
+      "《电幻国度》The Electric State · 数字绘画／插画小说",
+      "《Stray》 · 电子游戏",
+      "Gas｜加油站 · 观念摄影"
+    ],
+    "avoid": "不与无关词条混图；不因附件多而硬凑"
+  }
+}

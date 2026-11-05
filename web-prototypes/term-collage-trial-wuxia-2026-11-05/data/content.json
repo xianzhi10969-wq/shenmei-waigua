@@ -1,0 +1,61 @@
+{
+  "snapshot_date": "2026-11-05",
+  "source": {
+    "base": "IGctbcuwPaE6hMsmAoicJddpn3U",
+    "term_table": "tbl2gR8WBoqCQyGz",
+    "case_table": "tblpdRYutnm12T0y",
+    "profile": "aesthetic-feishu",
+    "as": "user",
+    "read_only": true
+  },
+  "term": {
+    "record_id": "reczz28HJJL2GNcx",
+    "词": "武侠",
+    "英文": "Wuxia",
+    "所属章节": [
+      "侠"
+    ],
+    "在本章的位置": "走出王法，到江湖里守一句话",
+    "核心": "武侠之美，不在刀剑，而在一身自由，半生羁绊。"
+  },
+  "cases": [
+    {
+      "id": "reczz28MmyiIADor",
+      "title": "Retainers of Anarchy",
+      "media": "算法动画、五通道影像装置",
+      "imgs": 3,
+      "url": "https://www.howietsui.com/retainers-of-anarchy"
+    },
+    {
+      "id": "reczz28MmyiIBfka",
+      "title": "DAMOWANG 2024 秋冬系列",
+      "media": "时装设计",
+      "imgs": 3,
+      "url": "https://www.vogue.com.cn/fashion/industry/news_124124fd4e37142c.html"
+    },
+    {
+      "id": "reczz28MmyiICLBe",
+      "title": "《刺客聂隐娘》The Assassin",
+      "media": "电影",
+      "imgs": 2,
+      "url": "https://www.festival-cannes.com/en/f/nie-yinniang/"
+    },
+    {
+      "id": "reczz28MmyiIBtuF",
+      "title": "《夜将》Yejiang / The Nightman Cometh",
+      "media": "黑白实验电影、摄影",
+      "imgs": 1,
+      "url": "https://www.guggenheim.org/artwork/artist/yang-fudong"
+    }
+  ],
+  "editorial": {
+    "see": "算法武侠影像、大魔王时装、夜将、聂隐娘",
+    "clues": [
+      "Retainers of Anarchy · 算法动画、五通道影像装置",
+      "DAMOWANG 2024 秋冬系列 · 时装设计",
+      "《刺客聂隐娘》The Assassin · 电影",
+      "《夜将》Yejiang / The Nightman Cometh · 黑白实验电影、摄影"
+    ],
+    "avoid": "不与无关词条混图；不因附件多而硬凑"
+  }
+}

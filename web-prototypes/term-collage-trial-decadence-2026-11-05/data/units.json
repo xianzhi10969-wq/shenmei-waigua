@@ -1,0 +1,324 @@
+[
+  {
+    "unit_id": "u01-mm_vogue_01.jpg",
+    "display_number": "01",
+    "role": "主图",
+    "image": "assets/images/34a06c7012863bdd.jpg",
+    "source_file": "assets/originals/mm_vogue_01.jpg",
+    "case_record_id": "reczz28MnyHcQLe7",
+    "term_record_id": "reczz28MKp7HdDiG",
+    "alt": "Artisanal 2024 高级定制系列 · 高级定制、妆造、秀场表演",
+    "url": "https://www.vogue.com/fashion-shows/spring-2024-couture/maison-martin-margiela",
+    "native": [
+      1066,
+      1600
+    ],
+    "colors": [
+      "#11100e",
+      "#383633",
+      "#302a23",
+      "#2c221c",
+      "#635f5e"
+    ],
+    "desktop": [
+      36,
+      70,
+      540,
+      580,
+      -2,
+      2
+    ],
+    "mobile": [
+      16,
+      36,
+      358,
+      384,
+      -2,
+      2
+    ],
+    "ref_desktop": [
+      556,
+      658
+    ],
+    "ref_mobile": [
+      350,
+      428
+    ]
+  },
+  {
+    "unit_id": "u02-lalique_official.jpg",
+    "display_number": "02",
+    "role": "补充",
+    "image": "assets/images/e6cfa71677a9851b.jpg",
+    "source_file": "assets/originals/lalique_official.jpg",
+    "case_record_id": "reczz28MnyHcQMQu",
+    "term_record_id": "reczz28MKp7HdDiG",
+    "alt": "《蜻蜓女子》Dragonfly Corsage Ornament · 珠宝、珐琅、黄金与宝石",
+    "url": "https://gulbenkian.pt/museu/en/works/dragonfly-corsage-ornament/",
+    "native": [
+      1600,
+      1345
+    ],
+    "colors": [
+      "#000000",
+      "#413e37",
+      "#63665e",
+      "#625643",
+      "#3d2f20"
+    ],
+    "desktop": [
+      560,
+      55,
+      320,
+      360,
+      4,
+      4
+    ],
+    "mobile": [
+      210,
+      790,
+      164,
+      184,
+      4,
+      4
+    ],
+    "ref_desktop": [
+      870,
+      27
+    ],
+    "ref_mobile": [
+      350,
+      982
+    ]
+  },
+  {
+    "unit_id": "u03-climax_rgb.jpg",
+    "display_number": "03",
+    "role": "细节",
+    "image": "assets/images/ba8e80326d9f4425.jpg",
+    "source_file": "assets/originals/climax_rgb.jpg",
+    "case_record_id": "reczz28MnyHcRK5r",
+    "term_record_id": "reczz28MKp7HdDiG",
+    "alt": "《高潮》The Climax · 黑白插画、书籍设计",
+    "url": "https://www.metmuseum.org/art/collection/search/822368",
+    "native": [
+      912,
+      1280
+    ],
+    "colors": [
+      "#fcfcfc",
+      "#090909",
+      "#dddddd",
+      "#606060",
+      "#3c3c3c"
+    ],
+    "desktop": [
+      900,
+      50,
+      260,
+      300,
+      -3,
+      3
+    ],
+    "mobile": [
+      210,
+      1153,
+      164,
+      189,
+      -3,
+      3
+    ],
+    "ref_desktop": [
+      1140,
+      358
+    ],
+    "ref_mobile": [
+      350,
+      1350
+    ]
+  },
+  {
+    "unit_id": "u04-peacock.jpg",
+    "display_number": "04",
+    "role": "环境",
+    "image": "assets/images/f6ac6a4a94ce8364.jpg",
+    "source_file": "assets/originals/peacock.jpg",
+    "case_record_id": "reczz28MnyHcRaTA",
+    "term_record_id": "reczz28MKp7HdDiG",
+    "alt": "《孔雀裙》The Peacock Skirt · 黑白插画",
+    "url": "https://www.metmuseum.org/art/collection/search/822344",
+    "native": [
+      730,
+      1002
+    ],
+    "colors": [
+      "#e6e4d3",
+      "#f3f1e2",
+      "#d4cfbf",
+      "#3d3833",
+      "#f0eedd"
+    ],
+    "desktop": [
+      900,
+      370,
+      260,
+      230,
+      2,
+      4
+    ],
+    "mobile": [
+      16,
+      1360,
+      176,
+      155,
+      2,
+      4
+    ],
+    "ref_desktop": [
+      1150,
+      342
+    ],
+    "ref_mobile": [
+      172,
+      1523
+    ]
+  },
+  {
+    "unit_id": "u05-redon_balloon.jpg",
+    "display_number": "05",
+    "role": "对照",
+    "image": "assets/images/08d558c85fd5ec1c.jpg",
+    "source_file": "assets/originals/redon_balloon.jpg",
+    "case_record_id": "reczz28MnyHcRudP",
+    "term_record_id": "reczz28MKp7HdDiG",
+    "alt": "《眼睛像一只奇异的气球，飞向无限》 · 石版画（Noirs）",
+    "url": "https://www.moma.org/collection/works/33013",
+    "native": [
+      1211,
+      1600
+    ],
+    "colors": [
+      "#e1d1c1",
+      "#cfc0b1",
+      "#3e3832",
+      "#c1b3a4",
+      "#b4a799"
+    ],
+    "desktop": [
+      560,
+      440,
+      320,
+      260,
+      -1,
+      3
+    ],
+    "mobile": [
+      16,
+      992,
+      176,
+      143,
+      -1,
+      3
+    ],
+    "ref_desktop": [
+      860,
+      708
+    ],
+    "ref_mobile": [
+      172,
+      1143
+    ]
+  },
+  {
+    "unit_id": "u06-lalique_commons.jpg",
+    "display_number": "06",
+    "role": "细节",
+    "image": "assets/images/c4c29d52d7e14528.jpg",
+    "source_file": "assets/originals/lalique_commons.jpg",
+    "case_record_id": "reczz28MnyHcQMQu",
+    "term_record_id": "reczz28MKp7HdDiG",
+    "alt": "《蜻蜓女子》Dragonfly Corsage Ornament · 珠宝、珐琅、黄金与宝石",
+    "url": "https://gulbenkian.pt/museu/en/works/dragonfly-corsage-ornament/",
+    "native": [
+      1060,
+      1600
+    ],
+    "colors": [
+      "#060402",
+      "#685a3d",
+      "#56492f",
+      "#3f3521",
+      "#7e6a49"
+    ],
+    "desktop": [
+      48,
+      700,
+      460,
+      270,
+      2,
+      5
+    ],
+    "mobile": [
+      16,
+      442,
+      210,
+      157,
+      2,
+      5
+    ],
+    "ref_desktop": [
+      498,
+      672
+    ],
+    "ref_mobile": [
+      206,
+      607
+    ]
+  },
+  {
+    "unit_id": "u07-mm_442895.jpg",
+    "display_number": "07",
+    "role": "补充",
+    "image": "assets/images/a14bd849a9b52bdc.jpg",
+    "source_file": "assets/originals/mm_442895.jpg",
+    "case_record_id": "reczz28MnyHcQLe7",
+    "term_record_id": "reczz28MKp7HdDiG",
+    "alt": "Artisanal 2024 高级定制系列 · 高级定制、妆造、秀场表演",
+    "url": "https://www.vogue.com/fashion-shows/spring-2024-couture/maison-martin-margiela",
+    "native": [
+      1066,
+      1600
+    ],
+    "colors": [
+      "#120f0e",
+      "#3d3635",
+      "#301f19",
+      "#5b453c",
+      "#fcfafa"
+    ],
+    "desktop": [
+      540,
+      740,
+      500,
+      240,
+      -2,
+      4
+    ],
+    "mobile": [
+      220,
+      442,
+      154,
+      123,
+      -2,
+      4
+    ],
+    "ref_desktop": [
+      1020,
+      988
+    ],
+    "ref_mobile": [
+      350,
+      573
+    ]
+  }
+]

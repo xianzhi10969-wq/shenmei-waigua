@@ -1,0 +1,324 @@
+[
+  {
+    "unit_id": "u01-gas_bp.jpg",
+    "display_number": "01",
+    "role": "主图",
+    "image": "assets/images/b48b61cb332c5635.jpg",
+    "source_file": "assets/originals/gas_bp.jpg",
+    "case_record_id": "reczz28MoBSnxpUl",
+    "term_record_id": "reczz28HJJL2GP4n",
+    "alt": "Gas｜加油站 · 观念摄影",
+    "url": "https://www.davidlachapelle.com/series-gas",
+    "native": [
+      960,
+      704
+    ],
+    "colors": [
+      "#101010",
+      "#080d3f",
+      "#fefefe",
+      "#3e3e87",
+      "#0a1458"
+    ],
+    "desktop": [
+      480,
+      60,
+      580,
+      540,
+      2,
+      2
+    ],
+    "mobile": [
+      16,
+      36,
+      358,
+      333,
+      2,
+      2
+    ],
+    "ref_desktop": [
+      1040,
+      608
+    ],
+    "ref_mobile": [
+      350,
+      377
+    ]
+  },
+  {
+    "unit_id": "u02-es_on_ramp.jpg",
+    "display_number": "02",
+    "role": "补充",
+    "image": "assets/images/64f140b1beb2d4d4.jpg",
+    "source_file": "assets/originals/es_on_ramp.jpg",
+    "case_record_id": "reczz28MoBSnzMZH",
+    "term_record_id": "reczz28HJJL2GP4n",
+    "alt": "《电幻国度》The Electric State · 数字绘画／插画小说",
+    "url": "https://www.simonstalenhag.se/es.html",
+    "native": [
+      1600,
+      800
+    ],
+    "colors": [
+      "#b2d3e5",
+      "#8bbbdd",
+      "#485a67",
+      "#8b9189",
+      "#5a656a"
+    ],
+    "desktop": [
+      40,
+      80,
+      260,
+      340,
+      -3,
+      4
+    ],
+    "mobile": [
+      220,
+      391,
+      154,
+      197,
+      -3,
+      4
+    ],
+    "ref_desktop": [
+      290,
+      52
+    ],
+    "ref_mobile": [
+      350,
+      596
+    ]
+  },
+  {
+    "unit_id": "u03-stray_1.jpg",
+    "display_number": "03",
+    "role": "细节",
+    "image": "assets/images/2ecdc0b92c6aa8c8.jpg",
+    "source_file": "assets/originals/stray_1.jpg",
+    "case_record_id": "reczz28MoBSnwnPa",
+    "term_record_id": "reczz28HJJL2GP4n",
+    "alt": "《Stray》 · 电子游戏",
+    "url": "https://stray.game/",
+    "native": [
+      1600,
+      900
+    ],
+    "colors": [
+      "#3e1419",
+      "#5e191a",
+      "#63381f",
+      "#871319",
+      "#1f0a17"
+    ],
+    "desktop": [
+      320,
+      70,
+      180,
+      240,
+      4,
+      3
+    ],
+    "mobile": [
+      16,
+      1374,
+      176,
+      234,
+      4,
+      3
+    ],
+    "ref_desktop": [
+      480,
+      318
+    ],
+    "ref_mobile": [
+      172,
+      1616
+    ]
+  },
+  {
+    "unit_id": "u04-gas_chevron.jpg",
+    "display_number": "04",
+    "role": "环境",
+    "image": "assets/images/c643154c009a1104.jpg",
+    "source_file": "assets/originals/gas_chevron.jpg",
+    "case_record_id": "reczz28MoBSnxpUl",
+    "term_record_id": "reczz28HJJL2GP4n",
+    "alt": "Gas｜加油站 · 观念摄影",
+    "url": "https://www.davidlachapelle.com/series-gas",
+    "native": [
+      960,
+      704
+    ],
+    "colors": [
+      "#0f100c",
+      "#ffffff",
+      "#41395f",
+      "#191733",
+      "#341c38"
+    ],
+    "desktop": [
+      40,
+      460,
+      280,
+      260,
+      1,
+      3
+    ],
+    "mobile": [
+      16,
+      946,
+      176,
+      163,
+      1,
+      3
+    ],
+    "ref_desktop": [
+      310,
+      432
+    ],
+    "ref_mobile": [
+      172,
+      1117
+    ]
+  },
+  {
+    "unit_id": "u05-es_billboards.jpg",
+    "display_number": "05",
+    "role": "对照",
+    "image": "assets/images/0ec2665cc8380e3a.jpg",
+    "source_file": "assets/originals/es_billboards.jpg",
+    "case_record_id": "reczz28MoBSnzMZH",
+    "term_record_id": "reczz28HJJL2GP4n",
+    "alt": "《电幻国度》The Electric State · 数字绘画／插画小说",
+    "url": "https://www.simonstalenhag.se/es.html",
+    "native": [
+      1600,
+      900
+    ],
+    "colors": [
+      "#e1f5fb",
+      "#8c8168",
+      "#d0ecf9",
+      "#bda791",
+      "#d1b094"
+    ],
+    "desktop": [
+      340,
+      380,
+      200,
+      280,
+      -2,
+      5
+    ],
+    "mobile": [
+      210,
+      1127,
+      164,
+      229,
+      -2,
+      5
+    ],
+    "ref_desktop": [
+      520,
+      668
+    ],
+    "ref_mobile": [
+      350,
+      1364
+    ]
+  },
+  {
+    "unit_id": "u06-stray_3.jpg",
+    "display_number": "06",
+    "role": "细节",
+    "image": "assets/images/35ae5b89e19e17a2.jpg",
+    "source_file": "assets/originals/stray_3.jpg",
+    "case_record_id": "reczz28MoBSnwnPa",
+    "term_record_id": "reczz28HJJL2GP4n",
+    "alt": "《Stray》 · 电子游戏",
+    "url": "https://stray.game/",
+    "native": [
+      1600,
+      900
+    ],
+    "colors": [
+      "#3a180a",
+      "#683312",
+      "#180905",
+      "#804011",
+      "#59210b"
+    ],
+    "desktop": [
+      480,
+      640,
+      420,
+      280,
+      2,
+      4
+    ],
+    "mobile": [
+      16,
+      391,
+      210,
+      157,
+      2,
+      4
+    ],
+    "ref_desktop": [
+      890,
+      612
+    ],
+    "ref_mobile": [
+      206,
+      556
+    ]
+  },
+  {
+    "unit_id": "u07-gas_shell.jpg",
+    "display_number": "07",
+    "role": "补充",
+    "image": "assets/images/a414e348039c8727.jpg",
+    "source_file": "assets/originals/gas_shell.jpg",
+    "case_record_id": "reczz28MoBSnxpUl",
+    "term_record_id": "reczz28HJJL2GP4n",
+    "alt": "Gas｜加油站 · 观念摄影",
+    "url": "https://www.davidlachapelle.com/series-gas",
+    "native": [
+      960,
+      704
+    ],
+    "colors": [
+      "#151001",
+      "#fcfcfc",
+      "#38360d",
+      "#331c03",
+      "#5e3c03"
+    ],
+    "desktop": [
+      940,
+      620,
+      260,
+      300,
+      -3,
+      5
+    ],
+    "mobile": [
+      210,
+      739,
+      164,
+      189,
+      -3,
+      5
+    ],
+    "ref_desktop": [
+      1180,
+      928
+    ],
+    "ref_mobile": [
+      350,
+      936
+    ]
+  }
+]

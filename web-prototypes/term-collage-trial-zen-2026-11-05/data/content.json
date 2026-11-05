@@ -1,0 +1,68 @@
+{
+  "snapshot_date": "2026-11-05",
+  "source": {
+    "base": "IGctbcuwPaE6hMsmAoicJddpn3U",
+    "term_table": "tbl2gR8WBoqCQyGz",
+    "case_table": "tblpdRYutnm12T0y",
+    "profile": "aesthetic-feishu",
+    "as": "user",
+    "read_only": true
+  },
+  "term": {
+    "record_id": "reczz28HJJL2GMBA",
+    "词": "禅意",
+    "英文": "Zen",
+    "所属章节": [
+      "留白"
+    ],
+    "在本章的位置": "空掉意思：线的中段，从看得见的空，走到要自己去想的空。",
+    "核心": "禅似乎总在表现某种永恒，但它真正关注的，恰恰是世间没有什么能够永恒。"
+  },
+  "cases": [
+    {
+      "id": "reczz28Ldc0bMeA5",
+      "title": "东信《ICED FLOWERS for Dries Van Noten's》",
+      "media": "时装秀场装置",
+      "imgs": 7,
+      "url": "https://azumamakoto.com/en/project/x-2w_gp5z/"
+    },
+    {
+      "id": "reczz28Ldc0bJUeQ",
+      "title": "山本基《Return to the Sea Project》",
+      "media": "盐装置",
+      "imgs": 6,
+      "url": "https://www.motoi-works.com/en/works/return-to-theseaproject"
+    },
+    {
+      "id": "reczz28Ldc0bKQuv",
+      "title": "内藤礼《Matrix》",
+      "media": "现场装置",
+      "imgs": 4,
+      "url": "https://benesse-artsite.jp/en/art/teshima-artmuseum.html"
+    },
+    {
+      "id": "reczz28HJJL2NlAY",
+      "title": "龙安寺石庭",
+      "media": "建筑",
+      "imgs": 1,
+      "url": "https://www.pref.kyoto.jp/isan/ryoanji.html"
+    },
+    {
+      "id": "reczz28HJJL2NlFs",
+      "title": "松林图屏风",
+      "media": "绘画",
+      "imgs": 1,
+      "url": "https://emuseum.nich.go.jp/detail?content_base_id=100151"
+    }
+  ],
+  "editorial": {
+    "see": "石庭/松林屏风/盐线/冰花秀场/Matrix：静与物",
+    "clues": [
+      "内藤礼《Matrix》 · 现场装置",
+      "龙安寺石庭 · 建筑",
+      "东信《ICED FLOWERS for Dries Van Noten's》 · 时装秀场装置",
+      "山本基《Return to the Sea Project》 · 盐装置"
+    ],
+    "avoid": "不与无关词条混图；不因附件多而硬凑"
+  }
+}

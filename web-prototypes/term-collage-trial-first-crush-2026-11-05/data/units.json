@@ -1,0 +1,232 @@
+[
+  {
+    "unit_id": "u01-kidsinlove_aperture.jpg",
+    "display_number": "01",
+    "role": "主图",
+    "image": "assets/images/573919b5ab25391a.jpg",
+    "source_file": "assets/originals/kidsinlove_aperture.jpg",
+    "case_record_id": "reczz28LeedcHSnq",
+    "term_record_id": "reczz28HJJL2GMcc",
+    "alt": "Pre-Kiss · 胶片摄影",
+    "url": "https://store.aperture.org/products/olivia-bee-kids-in-love-2",
+    "native": [
+      1600,
+      1600
+    ],
+    "colors": [
+      "#f2f2f2",
+      "#bba9b4",
+      "#b28f8d",
+      "#ac99ab",
+      "#e1dfe2"
+    ],
+    "desktop": [
+      40,
+      80,
+      600,
+      620,
+      -2,
+      2
+    ],
+    "mobile": [
+      16,
+      36,
+      358,
+      369,
+      -2,
+      2
+    ],
+    "ref_desktop": [
+      620,
+      708
+    ],
+    "ref_mobile": [
+      350,
+      413
+    ]
+  },
+  {
+    "unit_id": "u02-kidsinlove_july.jpg",
+    "display_number": "02",
+    "role": "补充",
+    "image": "assets/images/75a57bd86d766a9d.jpg",
+    "source_file": "assets/originals/kidsinlove_july.jpg",
+    "case_record_id": "reczz28LeedcHSnq",
+    "term_record_id": "reczz28HJJL2GMcc",
+    "alt": "Pre-Kiss · 胶片摄影",
+    "url": "https://store.aperture.org/products/olivia-bee-kids-in-love-2",
+    "native": [
+      1112,
+      1600
+    ],
+    "colors": [
+      "#0f1919",
+      "#212b30",
+      "#313840",
+      "#ded3dc",
+      "#b0aabe"
+    ],
+    "desktop": [
+      670,
+      60,
+      360,
+      420,
+      3,
+      4
+    ],
+    "mobile": [
+      220,
+      427,
+      154,
+      179,
+      3,
+      4
+    ],
+    "ref_desktop": [
+      1020,
+      32
+    ],
+    "ref_mobile": [
+      350,
+      614
+    ]
+  },
+  {
+    "unit_id": "u03-teenage_3.jpg",
+    "display_number": "03",
+    "role": "细节",
+    "image": "assets/images/6074b0f70a1a6ae4.jpg",
+    "source_file": "assets/originals/teenage_3.jpg",
+    "case_record_id": "reczz28LeedcIqM7",
+    "term_record_id": "reczz28HJJL2GMcc",
+    "alt": "The Teenage Gaze · 胶片摄影",
+    "url": "https://petra-collins.com/the-teenage-gaze/",
+    "native": [
+      800,
+      530
+    ],
+    "colors": [
+      "#b36b5d",
+      "#e39182",
+      "#8e635f",
+      "#d6826b",
+      "#3d3c35"
+    ],
+    "desktop": [
+      1040,
+      80,
+      220,
+      280,
+      -3,
+      3
+    ],
+    "mobile": [
+      16,
+      924,
+      176,
+      224,
+      -3,
+      3
+    ],
+    "ref_desktop": [
+      1240,
+      368
+    ],
+    "ref_mobile": [
+      172,
+      1156
+    ]
+  },
+  {
+    "unit_id": "u04-teenage_4.jpg",
+    "display_number": "04",
+    "role": "环境",
+    "image": "assets/images/dd49d4ffc8030add.jpg",
+    "source_file": "assets/originals/teenage_4.jpg",
+    "case_record_id": "reczz28LeedcIqM7",
+    "term_record_id": "reczz28HJJL2GMcc",
+    "alt": "The Teenage Gaze · 胶片摄影",
+    "url": "https://petra-collins.com/the-teenage-gaze/",
+    "native": [
+      785,
+      523
+    ],
+    "colors": [
+      "#191b1e",
+      "#3b3236",
+      "#302322",
+      "#665e65",
+      "#5b4141"
+    ],
+    "desktop": [
+      670,
+      520,
+      360,
+      260,
+      2,
+      3
+    ],
+    "mobile": [
+      210,
+      775,
+      164,
+      131,
+      2,
+      3
+    ],
+    "ref_desktop": [
+      1020,
+      492
+    ],
+    "ref_mobile": [
+      350,
+      914
+    ]
+  },
+  {
+    "unit_id": "u05-teenage_9.jpg",
+    "display_number": "05",
+    "role": "对照",
+    "image": "assets/images/985df0083f6dfa09.jpg",
+    "source_file": "assets/originals/teenage_9.jpg",
+    "case_record_id": "reczz28LeedcIqM7",
+    "term_record_id": "reczz28HJJL2GMcc",
+    "alt": "The Teenage Gaze · 胶片摄影",
+    "url": "https://petra-collins.com/the-teenage-gaze/",
+    "native": [
+      800,
+      530
+    ],
+    "colors": [
+      "#b9a74a",
+      "#91823a",
+      "#ab9542",
+      "#685f2e",
+      "#826e33"
+    ],
+    "desktop": [
+      40,
+      740,
+      620,
+      250,
+      -1,
+      5
+    ],
+    "mobile": [
+      16,
+      427,
+      210,
+      157,
+      -1,
+      5
+    ],
+    "ref_desktop": [
+      640,
+      998
+    ],
+    "ref_mobile": [
+      206,
+      592
+    ]
+  }
+]

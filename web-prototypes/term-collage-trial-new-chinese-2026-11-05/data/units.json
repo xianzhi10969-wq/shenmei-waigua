@@ -1,0 +1,232 @@
+[
+  {
+    "unit_id": "u01-brick_corridor.jpg",
+    "display_number": "01",
+    "role": "主图",
+    "image": "assets/images/556faf3d896f0971.jpg",
+    "source_file": "assets/originals/brick_corridor.jpg",
+    "case_record_id": "reczz28MjE1CRfHX",
+    "term_record_id": "reczz28HJJL2GNOa",
+    "alt": "《砖墙》青普扬州行馆 The Brick Wall · 建筑、空间设计",
+    "url": "https://neriandhu.com/en/works/the-brick-wall-tsingpu-yangzhou-retreat",
+    "native": [
+      1600,
+      1252
+    ],
+    "colors": [
+      "#3f3c3a",
+      "#d8d8d8",
+      "#615f5c",
+      "#b0b4b8",
+      "#625943"
+    ],
+    "desktop": [
+      40,
+      80,
+      600,
+      620,
+      -2,
+      2
+    ],
+    "mobile": [
+      16,
+      36,
+      358,
+      369,
+      -2,
+      2
+    ],
+    "ref_desktop": [
+      620,
+      708
+    ],
+    "ref_mobile": [
+      350,
+      413
+    ]
+  },
+  {
+    "unit_id": "u02-samuel_vogue2.jpg",
+    "display_number": "02",
+    "role": "补充",
+    "image": "assets/images/0892a41c47506b6f.jpg",
+    "source_file": "assets/originals/samuel_vogue2.jpg",
+    "case_record_id": "reczz28MjE1CSNUN",
+    "term_record_id": "reczz28HJJL2GNOa",
+    "alt": "Samuel Guì Yang 2024 秋冬系列 · 成衣时装",
+    "url": "https://www.vogue.com/fashion-shows/shanghai-fall-2024/samuel-gui-yang/slideshow/collection",
+    "native": [
+      1066,
+      1600
+    ],
+    "colors": [
+      "#1c120f",
+      "#331e17",
+      "#423933",
+      "#b7b4b7",
+      "#e33130"
+    ],
+    "desktop": [
+      670,
+      60,
+      360,
+      420,
+      3,
+      4
+    ],
+    "mobile": [
+      220,
+      427,
+      154,
+      179,
+      3,
+      4
+    ],
+    "ref_desktop": [
+      1020,
+      32
+    ],
+    "ref_mobile": [
+      350,
+      614
+    ]
+  },
+  {
+    "unit_id": "u03-shaofan_wright.jpg",
+    "display_number": "03",
+    "role": "细节",
+    "image": "assets/images/d878154f5011a461.jpg",
+    "source_file": "assets/originals/shaofan_wright.jpg",
+    "case_record_id": "reczz28MjE1CQqVq",
+    "term_record_id": "reczz28HJJL2GNOa",
+    "alt": "邵帆《椅》系列｜不锈钢圈椅 · 家具设计、不锈钢雕塑",
+    "url": "https://www.metmuseum.org/art/collection/search/76089",
+    "native": [
+      1600,
+      1600
+    ],
+    "colors": [
+      "#6f6e6d",
+      "#838382",
+      "#dbdbda",
+      "#b9b8b7",
+      "#ada596"
+    ],
+    "desktop": [
+      1040,
+      80,
+      220,
+      280,
+      -3,
+      3
+    ],
+    "mobile": [
+      16,
+      924,
+      176,
+      224,
+      -3,
+      3
+    ],
+    "ref_desktop": [
+      1240,
+      368
+    ],
+    "ref_mobile": [
+      172,
+      1156
+    ]
+  },
+  {
+    "unit_id": "u04-brick_courtyard.jpg",
+    "display_number": "04",
+    "role": "环境",
+    "image": "assets/images/afd674c53de97e72.jpg",
+    "source_file": "assets/originals/brick_courtyard.jpg",
+    "case_record_id": "reczz28MjE1CRfHX",
+    "term_record_id": "reczz28HJJL2GNOa",
+    "alt": "《砖墙》青普扬州行馆 The Brick Wall · 建筑、空间设计",
+    "url": "https://neriandhu.com/en/works/the-brick-wall-tsingpu-yangzhou-retreat",
+    "native": [
+      1136,
+      1500
+    ],
+    "colors": [
+      "#fcfcfb",
+      "#dfe1d9",
+      "#b5b6af",
+      "#91928d",
+      "#cbccc3"
+    ],
+    "desktop": [
+      670,
+      520,
+      360,
+      260,
+      2,
+      3
+    ],
+    "mobile": [
+      210,
+      775,
+      164,
+      131,
+      2,
+      3
+    ],
+    "ref_desktop": [
+      1020,
+      492
+    ],
+    "ref_mobile": [
+      350,
+      914
+    ]
+  },
+  {
+    "unit_id": "u05-samuel_vogue.jpg",
+    "display_number": "05",
+    "role": "对照",
+    "image": "assets/images/8f144683289f8364.jpg",
+    "source_file": "assets/originals/samuel_vogue.jpg",
+    "case_record_id": "reczz28MjE1CSNUN",
+    "term_record_id": "reczz28HJJL2GNOa",
+    "alt": "Samuel Guì Yang 2024 秋冬系列 · 成衣时装",
+    "url": "https://www.vogue.com/fashion-shows/shanghai-fall-2024/samuel-gui-yang/slideshow/collection",
+    "native": [
+      1066,
+      1600
+    ],
+    "colors": [
+      "#171212",
+      "#403932",
+      "#311e17",
+      "#3a2e21",
+      "#5c453a"
+    ],
+    "desktop": [
+      40,
+      740,
+      620,
+      250,
+      -1,
+      5
+    ],
+    "mobile": [
+      16,
+      427,
+      210,
+      157,
+      -1,
+      5
+    ],
+    "ref_desktop": [
+      640,
+      998
+    ],
+    "ref_mobile": [
+      206,
+      592
+    ]
+  }
+]

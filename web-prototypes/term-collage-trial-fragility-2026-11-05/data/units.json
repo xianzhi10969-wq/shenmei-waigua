@@ -1,0 +1,232 @@
+[
+  {
+    "unit_id": "u01-house3.jpg",
+    "display_number": "01",
+    "role": "主图",
+    "image": "assets/images/4f7dc08b9a3b913c.jpg",
+    "source_file": "assets/originals/house3.jpg",
+    "case_record_id": "reczz28MSjtzerH5",
+    "term_record_id": "reczz28HJJL2GN7q",
+    "alt": "House #3｜房屋三号 · 实验摄影／明胶银盐",
+    "url": "https://www.nga.gov/artworks/157359-house-3",
+    "native": [
+      1200,
+      1183
+    ],
+    "colors": [
+      "#626262",
+      "#3c3c3c",
+      "#898989",
+      "#1c1c1c",
+      "#dedede"
+    ],
+    "desktop": [
+      40,
+      60,
+      420,
+      520,
+      -2,
+      3
+    ],
+    "mobile": [
+      16,
+      377,
+      210,
+      260,
+      -2,
+      3
+    ],
+    "ref_desktop": [
+      440,
+      588
+    ],
+    "ref_mobile": [
+      206,
+      645
+    ]
+  },
+  {
+    "unit_id": "u02-calle_louisiana.jpg",
+    "display_number": "02",
+    "role": "补充",
+    "image": "assets/images/162075f234798140.jpg",
+    "source_file": "assets/originals/calle_louisiana.jpg",
+    "case_record_id": "reczz28MSjtzdloz",
+    "term_record_id": "reczz28HJJL2GN7q",
+    "alt": "Take Care of Yourself｜好好照顾自己 · 行为艺术／摄影／文本／影像装置",
+    "url": "https://phi.ca/en/events/sophie-calle-take-care-of-yourself/",
+    "native": [
+      1280,
+      960
+    ],
+    "colors": [
+      "#64645e",
+      "#0f1313",
+      "#908987",
+      "#3d403b",
+      "#615743"
+    ],
+    "desktop": [
+      480,
+      80,
+      560,
+      500,
+      2,
+      2
+    ],
+    "mobile": [
+      16,
+      36,
+      358,
+      319,
+      2,
+      2
+    ],
+    "ref_desktop": [
+      1030,
+      52
+    ],
+    "ref_mobile": [
+      350,
+      363
+    ]
+  },
+  {
+    "unit_id": "u03-hour_star.jpg",
+    "display_number": "03",
+    "role": "细节",
+    "image": "assets/images/37aa6017eaaf9f3c.jpg",
+    "source_file": "assets/originals/hour_star.jpg",
+    "case_record_id": "reczz28MSjtzdNy0",
+    "term_record_id": "reczz28HJJL2GN7q",
+    "alt": "星辰时刻｜一个连自己的悲惨都不知道的女孩 · 小说／文学",
+    "url": "https://www.ndbooks.com/book/the-hour-of-the-star/",
+    "native": [
+      314,
+      475
+    ],
+    "colors": [
+      "#3d3d37",
+      "#8d8d8a",
+      "#b3b3b1",
+      "#656662",
+      "#d9d9d7"
+    ],
+    "desktop": [
+      40,
+      620,
+      300,
+      300,
+      3,
+      4
+    ],
+    "mobile": [
+      16,
+      1080,
+      176,
+      176,
+      3,
+      4
+    ],
+    "ref_desktop": [
+      320,
+      928
+    ],
+    "ref_mobile": [
+      172,
+      1264
+    ]
+  },
+  {
+    "unit_id": "u04-glass_menagerie.jpg",
+    "display_number": "04",
+    "role": "环境",
+    "image": "assets/images/64b7003d4d12fd05.jpg",
+    "source_file": "assets/originals/glass_menagerie.jpg",
+    "case_record_id": "reczz28MSjtzcGfC",
+    "term_record_id": "reczz28HJJL2GN7q",
+    "alt": "玻璃动物园｜她说没关系的时候，心已经碎了 · 戏剧／文学",
+    "url": "https://www.ndbooks.com/book/the-glass-menagerie/",
+    "native": [
+      307,
+      500
+    ],
+    "colors": [
+      "#ddd5b4",
+      "#cdc4a5",
+      "#b5ae95",
+      "#d0c29a",
+      "#dcdcd9"
+    ],
+    "desktop": [
+      360,
+      640,
+      360,
+      280,
+      -2,
+      5
+    ],
+    "mobile": [
+      210,
+      931,
+      164,
+      131,
+      -2,
+      5
+    ],
+    "ref_desktop": [
+      710,
+      612
+    ],
+    "ref_mobile": [
+      350,
+      1070
+    ]
+  },
+  {
+    "unit_id": "u05-girl_halfformed.jpg",
+    "display_number": "05",
+    "role": "对照",
+    "image": "assets/images/05638ad04b8d316e.jpg",
+    "source_file": "assets/originals/girl_halfformed.jpg",
+    "case_record_id": "reczz28MSjtzdW6a",
+    "term_record_id": "reczz28HJJL2GN7q",
+    "alt": "A Girl Is a Half-formed Thing｜当一个人的语言本身开始破碎 · 实验小说／文学",
+    "url": "https://www.coffeehousepress.org/products/a-girl-is-a-half-formed-thing",
+    "native": [
+      332,
+      500
+    ],
+    "colors": [
+      "#fcf7ea",
+      "#070707",
+      "#fefef4",
+      "#dee2da",
+      "#bab9b2"
+    ],
+    "desktop": [
+      760,
+      620,
+      360,
+      300,
+      1,
+      4
+    ],
+    "mobile": [
+      220,
+      377,
+      154,
+      128,
+      1,
+      4
+    ],
+    "ref_desktop": [
+      1100,
+      928
+    ],
+    "ref_mobile": [
+      350,
+      513
+    ]
+  }
+]

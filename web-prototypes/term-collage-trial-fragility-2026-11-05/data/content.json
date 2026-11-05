@@ -1,0 +1,68 @@
+{
+  "snapshot_date": "2026-11-05",
+  "source": {
+    "base": "IGctbcuwPaE6hMsmAoicJddpn3U",
+    "term_table": "tbl2gR8WBoqCQyGz",
+    "case_table": "tblpdRYutnm12T0y",
+    "profile": "aesthetic-feishu",
+    "as": "user",
+    "read_only": true
+  },
+  "term": {
+    "record_id": "reczz28HJJL2GN7q",
+    "词": "破碎感",
+    "英文": "Fragility",
+    "所属章节": [
+      "侘寂"
+    ],
+    "在本章的位置": "东西裂了、碎了、又补上",
+    "核心": "破碎感不是对伤口的欣赏，而是对伤口之下，依然完整地渴望着什么的生命的怜爱。"
+  },
+  "cases": [
+    {
+      "id": "reczz28MSjtzerH5",
+      "title": "House #3｜房屋三号",
+      "media": "实验摄影／明胶银盐",
+      "imgs": 1,
+      "url": "https://www.nga.gov/artworks/157359-house-3"
+    },
+    {
+      "id": "reczz28MSjtzdloz",
+      "title": "Take Care of Yourself｜好好照顾自己",
+      "media": "行为艺术／摄影／文本／影像装置",
+      "imgs": 1,
+      "url": "https://phi.ca/en/events/sophie-calle-take-care-of-yourself/"
+    },
+    {
+      "id": "reczz28MSjtzdNy0",
+      "title": "星辰时刻｜一个连自己的悲惨都不知道的女孩",
+      "media": "小说／文学",
+      "imgs": 1,
+      "url": "https://www.ndbooks.com/book/the-hour-of-the-star/"
+    },
+    {
+      "id": "reczz28MSjtzcGfC",
+      "title": "玻璃动物园｜她说没关系的时候，心已经碎了",
+      "media": "戏剧／文学",
+      "imgs": 1,
+      "url": "https://www.ndbooks.com/book/the-glass-menagerie/"
+    },
+    {
+      "id": "reczz28MSjtzdW6a",
+      "title": "A Girl Is a Half-formed Thing｜当一个人的语言本身开始破碎",
+      "media": "实验小说／文学",
+      "imgs": 1,
+      "url": "https://www.coffeehousepress.org/products/a-girl-is-a-half-formed-thing"
+    }
+  ],
+  "editorial": {
+    "see": "Woodman房屋、Calle、书影与剧照碎片",
+    "clues": [
+      "House #3｜房屋三号 · 实验摄影／明胶银盐",
+      "Take Care of Yourself｜好好照顾自己 · 行为艺术／摄影／文本／影像装置",
+      "星辰时刻｜一个连自己的悲惨都不知道的女孩 · 小说／文学",
+      "玻璃动物园｜她说没关系的时候，心已经碎了 · 戏剧／文学"
+    ],
+    "avoid": "不与无关词条混图；不因附件多而硬凑"
+  }
+}

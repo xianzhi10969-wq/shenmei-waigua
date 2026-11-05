@@ -1,0 +1,232 @@
+[
+  {
+    "unit_id": "u01-pulse_washington_hires.j",
+    "display_number": "01",
+    "role": "主图",
+    "image": "assets/images/0922ca9250c5aae1.jpg",
+    "source_file": "assets/originals/pulse_washington_hires.jpg",
+    "case_record_id": "reczz28Ldd1wDeSA",
+    "term_record_id": "reczz28HJJL2GLxu",
+    "alt": "Pulse Room（心跳房间） · 互动灯光装置",
+    "url": "https://www.lozano-hemmer.com/artworks/pulse_room.php",
+    "native": [
+      1600,
+      1026
+    ],
+    "colors": [
+      "#140b05",
+      "#8a4421",
+      "#39190d",
+      "#683018",
+      "#9a542b"
+    ],
+    "desktop": [
+      40,
+      80,
+      600,
+      620,
+      -2,
+      2
+    ],
+    "mobile": [
+      16,
+      36,
+      358,
+      369,
+      -2,
+      2
+    ],
+    "ref_desktop": [
+      620,
+      708
+    ],
+    "ref_mobile": [
+      350,
+      413
+    ]
+  },
+  {
+    "unit_id": "u02-酒神与阿里阿德涅_提香_公有领域.jpg",
+    "display_number": "02",
+    "role": "补充",
+    "image": "assets/images/77c30b1ea9416770.jpg",
+    "source_file": "assets/originals/酒神与阿里阿德涅_提香_公有领域.jpg",
+    "case_record_id": "reczz28HJJL2Nkuf",
+    "term_record_id": "reczz28HJJL2GLxu",
+    "alt": "酒神与阿里阿德涅 · 绘画",
+    "url": "https://www.nationalgallery.org.uk/paintings/titian-bacchus-and-ariadne",
+    "native": [
+      1280,
+      1158
+    ],
+    "colors": [
+      "#3c301d",
+      "#413f34",
+      "#5e4532",
+      "#435b8a",
+      "#2f2417"
+    ],
+    "desktop": [
+      670,
+      60,
+      360,
+      420,
+      3,
+      4
+    ],
+    "mobile": [
+      220,
+      427,
+      154,
+      179,
+      3,
+      4
+    ],
+    "ref_desktop": [
+      1020,
+      32
+    ],
+    "ref_mobile": [
+      350,
+      614
+    ]
+  },
+  {
+    "unit_id": "u03-flower_colossal_05.jpg",
+    "display_number": "03",
+    "role": "细节",
+    "image": "assets/images/95eb7dc4da7a4c79.jpg",
+    "source_file": "assets/originals/flower_colossal_05.jpg",
+    "case_record_id": "reczz28Ldd1wD1KQ",
+    "term_record_id": "reczz28HJJL2GLxu",
+    "alt": "Flower Obsession · 参与式装置",
+    "url": "https://www.ngv.vic.gov.au/exhibition/triennial-2017/",
+    "native": [
+      1600,
+      1068
+    ],
+    "colors": [
+      "#b40f12",
+      "#900709",
+      "#d3171b",
+      "#d93737",
+      "#dc655e"
+    ],
+    "desktop": [
+      1040,
+      80,
+      220,
+      280,
+      -3,
+      3
+    ],
+    "mobile": [
+      16,
+      924,
+      176,
+      224,
+      -3,
+      3
+    ],
+    "ref_desktop": [
+      1240,
+      368
+    ],
+    "ref_mobile": [
+      172,
+      1156
+    ]
+  },
+  {
+    "unit_id": "u04-pulse_mexico_hires.jpg",
+    "display_number": "04",
+    "role": "环境",
+    "image": "assets/images/cdae4e860589f11e.jpg",
+    "source_file": "assets/originals/pulse_mexico_hires.jpg",
+    "case_record_id": "reczz28Ldd1wDeSA",
+    "term_record_id": "reczz28HJJL2GLxu",
+    "alt": "Pulse Room（心跳房间） · 互动灯光装置",
+    "url": "https://www.lozano-hemmer.com/artworks/pulse_room.php",
+    "native": [
+      1600,
+      1066
+    ],
+    "colors": [
+      "#150d08",
+      "#301d10",
+      "#5c381e",
+      "#472c18",
+      "#885b34"
+    ],
+    "desktop": [
+      670,
+      520,
+      360,
+      260,
+      2,
+      3
+    ],
+    "mobile": [
+      210,
+      775,
+      164,
+      131,
+      2,
+      3
+    ],
+    "ref_desktop": [
+      1020,
+      492
+    ],
+    "ref_mobile": [
+      350,
+      914
+    ]
+  },
+  {
+    "unit_id": "u05-flower_colossal_01.jpg",
+    "display_number": "05",
+    "role": "对照",
+    "image": "assets/images/f152005355d6aaee.jpg",
+    "source_file": "assets/originals/flower_colossal_01.jpg",
+    "case_record_id": "reczz28Ldd1wD1KQ",
+    "term_record_id": "reczz28HJJL2GLxu",
+    "alt": "Flower Obsession · 参与式装置",
+    "url": "https://www.ngv.vic.gov.au/exhibition/triennial-2017/",
+    "native": [
+      1600,
+      1068
+    ],
+    "colors": [
+      "#660d09",
+      "#8a1610",
+      "#b66d5a",
+      "#3e0907",
+      "#ad1c15"
+    ],
+    "desktop": [
+      40,
+      740,
+      620,
+      250,
+      -1,
+      5
+    ],
+    "mobile": [
+      16,
+      427,
+      210,
+      157,
+      -1,
+      5
+    ],
+    "ref_desktop": [
+      640,
+      998
+    ],
+    "ref_mobile": [
+      206,
+      592
+    ]
+  }
+]

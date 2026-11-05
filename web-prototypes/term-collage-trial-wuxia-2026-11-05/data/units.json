@@ -1,0 +1,370 @@
+[
+  {
+    "unit_id": "u01-retainers_2_rgb.jpg",
+    "display_number": "01",
+    "role": "主图",
+    "image": "assets/images/84b4768cf3a6fcf5.jpg",
+    "source_file": "assets/originals/retainers_2_rgb.jpg",
+    "case_record_id": "reczz28MmyiIADor",
+    "term_record_id": "reczz28HJJL2GNcx",
+    "alt": "Retainers of Anarchy · 算法动画、五通道影像装置",
+    "url": "https://www.howietsui.com/retainers-of-anarchy",
+    "native": [
+      1600,
+      1200
+    ],
+    "colors": [
+      "#413d36",
+      "#bcb7b4",
+      "#1c1a15",
+      "#302c21",
+      "#dfdddc"
+    ],
+    "desktop": [
+      40,
+      80,
+      520,
+      560,
+      -2,
+      2
+    ],
+    "mobile": [
+      16,
+      36,
+      358,
+      385,
+      -2,
+      2
+    ],
+    "ref_desktop": [
+      540,
+      648
+    ],
+    "ref_mobile": [
+      350,
+      429
+    ]
+  },
+  {
+    "unit_id": "u02-damowang_2.jpg",
+    "display_number": "02",
+    "role": "补充",
+    "image": "assets/images/9443b318fc8bb870.jpg",
+    "source_file": "assets/originals/damowang_2.jpg",
+    "case_record_id": "reczz28MmyiIBfka",
+    "term_record_id": "reczz28HJJL2GNcx",
+    "alt": "DAMOWANG 2024 秋冬系列 · 时装设计",
+    "url": "https://www.vogue.com.cn/fashion/industry/news_124124fd4e37142c.html",
+    "native": [
+      1066,
+      1600
+    ],
+    "colors": [
+      "#8b8b8b",
+      "#0c0c0c",
+      "#6d6d6d",
+      "#a7a7a7",
+      "#3c3c3c"
+    ],
+    "desktop": [
+      540,
+      60,
+      300,
+      380,
+      3,
+      4
+    ],
+    "mobile": [
+      16,
+      443,
+      210,
+      266,
+      3,
+      4
+    ],
+    "ref_desktop": [
+      830,
+      32
+    ],
+    "ref_mobile": [
+      206,
+      717
+    ]
+  },
+  {
+    "unit_id": "u03-assassin_flixster.jpg",
+    "display_number": "03",
+    "role": "细节",
+    "image": "assets/images/6116a1056450c617.jpg",
+    "source_file": "assets/originals/assassin_flixster.jpg",
+    "case_record_id": "reczz28MmyiICLBe",
+    "term_record_id": "reczz28HJJL2GNcx",
+    "alt": "《刺客聂隐娘》The Assassin · 电影",
+    "url": "https://www.festival-cannes.com/en/f/nie-yinniang/",
+    "native": [
+      960,
+      1440
+    ],
+    "colors": [
+      "#610d06",
+      "#3d0a06",
+      "#e5d7a9",
+      "#de8a40",
+      "#881105"
+    ],
+    "desktop": [
+      860,
+      48,
+      260,
+      300,
+      -4,
+      3
+    ],
+    "mobile": [
+      16,
+      1158,
+      176,
+      203,
+      -4,
+      3
+    ],
+    "ref_desktop": [
+      1100,
+      356
+    ],
+    "ref_mobile": [
+      172,
+      1369
+    ]
+  },
+  {
+    "unit_id": "u04-yejiang_gug.jpg",
+    "display_number": "04",
+    "role": "环境",
+    "image": "assets/images/5c0afd05a5dcc075.jpg",
+    "source_file": "assets/originals/yejiang_gug.jpg",
+    "case_record_id": "reczz28MmyiIBtuF",
+    "term_record_id": "reczz28HJJL2GNcx",
+    "alt": "《夜将》Yejiang / The Nightman Cometh · 黑白实验电影、摄影",
+    "url": "https://www.guggenheim.org/artwork/artist/yang-fudong",
+    "native": [
+      1280,
+      720
+    ],
+    "colors": [
+      "#8b8b8b",
+      "#626262",
+      "#3c3c3c",
+      "#afafaf",
+      "#1f1f1f"
+    ],
+    "desktop": [
+      860,
+      370,
+      250,
+      220,
+      2,
+      4
+    ],
+    "mobile": [
+      210,
+      1703,
+      164,
+      144,
+      2,
+      4
+    ],
+    "ref_desktop": [
+      1100,
+      342
+    ],
+    "ref_mobile": [
+      350,
+      1855
+    ]
+  },
+  {
+    "unit_id": "u05-retainers_1_rgb.jpg",
+    "display_number": "05",
+    "role": "对照",
+    "image": "assets/images/e2c1ada0ed4cf7c0.jpg",
+    "source_file": "assets/originals/retainers_1_rgb.jpg",
+    "case_record_id": "reczz28MmyiIADor",
+    "term_record_id": "reczz28HJJL2GNcx",
+    "alt": "Retainers of Anarchy · 算法动画、五通道影像装置",
+    "url": "https://www.howietsui.com/retainers-of-anarchy",
+    "native": [
+      1600,
+      996
+    ],
+    "colors": [
+      "#181715",
+      "#403b35",
+      "#d5d4d1",
+      "#bebab3",
+      "#cbc3ba"
+    ],
+    "desktop": [
+      540,
+      460,
+      300,
+      240,
+      -1,
+      3
+    ],
+    "mobile": [
+      210,
+      1379,
+      164,
+      131,
+      -1,
+      3
+    ],
+    "ref_desktop": [
+      820,
+      708
+    ],
+    "ref_mobile": [
+      350,
+      1518
+    ]
+  },
+  {
+    "unit_id": "u06-damowang_3.jpg",
+    "display_number": "06",
+    "role": "细节",
+    "image": "assets/images/c9816b0607ebf01a.jpg",
+    "source_file": "assets/originals/damowang_3.jpg",
+    "case_record_id": "reczz28MmyiIBfka",
+    "term_record_id": "reczz28HJJL2GNcx",
+    "alt": "DAMOWANG 2024 秋冬系列 · 时装设计",
+    "url": "https://www.vogue.com.cn/fashion/industry/news_124124fd4e37142c.html",
+    "native": [
+      1067,
+      1600
+    ],
+    "colors": [
+      "#b6b6b6",
+      "#8a8a8a",
+      "#666666",
+      "#d7d7d7",
+      "#404040"
+    ],
+    "desktop": [
+      40,
+      680,
+      360,
+      280,
+      2,
+      5
+    ],
+    "mobile": [
+      220,
+      443,
+      154,
+      123,
+      2,
+      5
+    ],
+    "ref_desktop": [
+      390,
+      652
+    ],
+    "ref_mobile": [
+      350,
+      574
+    ]
+  },
+  {
+    "unit_id": "u07-assassin_lb.jpg",
+    "display_number": "07",
+    "role": "补充",
+    "image": "assets/images/c4d91c20b1828459.jpg",
+    "source_file": "assets/originals/assassin_lb.jpg",
+    "case_record_id": "reczz28MmyiICLBe",
+    "term_record_id": "reczz28HJJL2GNcx",
+    "alt": "《刺客聂隐娘》The Assassin · 电影",
+    "url": "https://www.festival-cannes.com/en/f/nie-yinniang/",
+    "native": [
+      1600,
+      900
+    ],
+    "colors": [
+      "#121a0c",
+      "#3b4431",
+      "#5e6142",
+      "#32331e",
+      "#f9fdfc"
+    ],
+    "desktop": [
+      420,
+      720,
+      280,
+      250,
+      -3,
+      4
+    ],
+    "mobile": [
+      16,
+      1528,
+      176,
+      157,
+      -3,
+      4
+    ],
+    "ref_desktop": [
+      680,
+      978
+    ],
+    "ref_mobile": [
+      172,
+      1693
+    ]
+  },
+  {
+    "unit_id": "u08-retainers_sydney.jpg",
+    "display_number": "08",
+    "role": "细节",
+    "image": "assets/images/de9aead307bf90b7.jpg",
+    "source_file": "assets/originals/retainers_sydney.jpg",
+    "case_record_id": "reczz28MmyiIADor",
+    "term_record_id": "reczz28HJJL2GNcx",
+    "alt": "Retainers of Anarchy · 算法动画、五通道影像装置",
+    "url": "https://www.howietsui.com/retainers-of-anarchy",
+    "native": [
+      1600,
+      1066
+    ],
+    "colors": [
+      "#0b0a0b",
+      "#3b3836",
+      "#b9b7b3",
+      "#625f5b",
+      "#ced2d4"
+    ],
+    "desktop": [
+      740,
+      700,
+      340,
+      260,
+      4,
+      5
+    ],
+    "mobile": [
+      210,
+      1009,
+      164,
+      131,
+      4,
+      5
+    ],
+    "ref_desktop": [
+      1070,
+      672
+    ],
+    "ref_mobile": [
+      350,
+      1148
+    ]
+  }
+]

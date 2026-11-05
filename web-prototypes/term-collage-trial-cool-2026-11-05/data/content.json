@@ -1,0 +1,47 @@
+{
+  "snapshot_date": "2026-11-05",
+  "source": {
+    "base": "IGctbcuwPaE6hMsmAoicJddpn3U",
+    "term_table": "tbl2gR8WBoqCQyGz",
+    "case_table": "tblpdRYutnm12T0y",
+    "profile": "aesthetic-feishu",
+    "as": "user",
+    "read_only": true
+  },
+  "term": {
+    "record_id": "reczz28HJJL2GLZ0",
+    "词": "清冷",
+    "英文": "Cool Detachment",
+    "所属章节": [
+      "幽玄"
+    ],
+    "在本章的位置": "看得一清二楚，就是碰不到（隔着一段冷空气，最靠「看得清」的一端）",
+    "核心": "清冷，不是一个人没有情感，而是ta的情感拥有自己的世界。"
+  },
+  "cases": [
+    {
+      "id": "reczz28MnyD4e5ab",
+      "title": "Snow（雪）",
+      "media": "动态装置",
+      "imgs": 3,
+      "url": "https://www.tokujin.com/works/2010-sensing-nature-snow/"
+    },
+    {
+      "id": "reczz28MnyD4cUTQ",
+      "title": "Hokkaido（北海道）",
+      "media": "黑白风景摄影",
+      "imgs": 2,
+      "url": "https://www.michaelkenna.com/gallery.php?id=6"
+    }
+  ],
+  "editorial": {
+    "see": "Snow装置与北海道黑白风景",
+    "clues": [
+      "Snow（雪） · 动态装置",
+      "Hokkaido（北海道） · 黑白风景摄影",
+      "Snow（雪） · 动态装置",
+      "Hokkaido（北海道） · 黑白风景摄影"
+    ],
+    "avoid": "不与无关词条混图；不因附件多而硬凑"
+  }
+}

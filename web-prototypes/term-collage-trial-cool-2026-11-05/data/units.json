@@ -1,0 +1,232 @@
+[
+  {
+    "unit_id": "u01-snow_1.jpg",
+    "display_number": "01",
+    "role": "主图",
+    "image": "assets/images/bcfbd0ef9024b6b3.jpg",
+    "source_file": "assets/originals/snow_1.jpg",
+    "case_record_id": "reczz28MnyD4e5ab",
+    "term_record_id": "reczz28HJJL2GLZ0",
+    "alt": "Snow（雪） · 动态装置",
+    "url": "https://www.tokujin.com/works/2010-sensing-nature-snow/",
+    "native": [
+      1560,
+      1040
+    ],
+    "colors": [
+      "#666364",
+      "#88878a",
+      "#b2b3b6",
+      "#d9dbe2",
+      "#464243"
+    ],
+    "desktop": [
+      40,
+      60,
+      420,
+      520,
+      -2,
+      3
+    ],
+    "mobile": [
+      16,
+      377,
+      210,
+      260,
+      -2,
+      3
+    ],
+    "ref_desktop": [
+      440,
+      588
+    ],
+    "ref_mobile": [
+      206,
+      645
+    ]
+  },
+  {
+    "unit_id": "u02-kenna_ninetrees.jpg",
+    "display_number": "02",
+    "role": "补充",
+    "image": "assets/images/6643febf6d394d98.jpg",
+    "source_file": "assets/originals/kenna_ninetrees.jpg",
+    "case_record_id": "reczz28MnyD4cUTQ",
+    "term_record_id": "reczz28HJJL2GLZ0",
+    "alt": "Hokkaido（北海道） · 黑白风景摄影",
+    "url": "https://www.michaelkenna.com/gallery.php?id=6",
+    "native": [
+      1561,
+      1600
+    ],
+    "colors": [
+      "#f5f0ed",
+      "#f9f3f1",
+      "#f2eeeb",
+      "#e3dfdc",
+      "#bab7b6"
+    ],
+    "desktop": [
+      480,
+      80,
+      560,
+      500,
+      2,
+      2
+    ],
+    "mobile": [
+      16,
+      36,
+      358,
+      319,
+      2,
+      2
+    ],
+    "ref_desktop": [
+      1030,
+      52
+    ],
+    "ref_mobile": [
+      350,
+      363
+    ]
+  },
+  {
+    "unit_id": "u03-snow_tp.jpg",
+    "display_number": "03",
+    "role": "细节",
+    "image": "assets/images/8150f30abb0498fa.jpg",
+    "source_file": "assets/originals/snow_tp.jpg",
+    "case_record_id": "reczz28MnyD4e5ab",
+    "term_record_id": "reczz28HJJL2GLZ0",
+    "alt": "Snow（雪） · 动态装置",
+    "url": "https://www.tokujin.com/works/2010-sensing-nature-snow/",
+    "native": [
+      1600,
+      800
+    ],
+    "colors": [
+      "#666464",
+      "#b4b4b7",
+      "#888688",
+      "#d7d9e0",
+      "#45403f"
+    ],
+    "desktop": [
+      40,
+      620,
+      300,
+      300,
+      3,
+      4
+    ],
+    "mobile": [
+      16,
+      1080,
+      176,
+      176,
+      3,
+      4
+    ],
+    "ref_desktop": [
+      320,
+      928
+    ],
+    "ref_mobile": [
+      172,
+      1264
+    ]
+  },
+  {
+    "unit_id": "u04-kenna_raw.jpg",
+    "display_number": "04",
+    "role": "环境",
+    "image": "assets/images/3cc414af826c15c3.jpg",
+    "source_file": "assets/originals/kenna_raw.jpg",
+    "case_record_id": "reczz28MnyD4cUTQ",
+    "term_record_id": "reczz28HJJL2GLZ0",
+    "alt": "Hokkaido（北海道） · 黑白风景摄影",
+    "url": "https://www.michaelkenna.com/gallery.php?id=6",
+    "native": [
+      1561,
+      1599
+    ],
+    "colors": [
+      "#f5f0ed",
+      "#f8f3f0",
+      "#f3eeeb",
+      "#e3dedc",
+      "#bab6b5"
+    ],
+    "desktop": [
+      360,
+      640,
+      360,
+      280,
+      -2,
+      5
+    ],
+    "mobile": [
+      210,
+      931,
+      164,
+      131,
+      -2,
+      5
+    ],
+    "ref_desktop": [
+      710,
+      612
+    ],
+    "ref_mobile": [
+      350,
+      1070
+    ]
+  },
+  {
+    "unit_id": "u05-snow_2.jpg",
+    "display_number": "05",
+    "role": "对照",
+    "image": "assets/images/74d12f70e0ed0d40.jpg",
+    "source_file": "assets/originals/snow_2.jpg",
+    "case_record_id": "reczz28MnyD4e5ab",
+    "term_record_id": "reczz28HJJL2GLZ0",
+    "alt": "Snow（雪） · 动态装置",
+    "url": "https://www.tokujin.com/works/2010-sensing-nature-snow/",
+    "native": [
+      761,
+      1040
+    ],
+    "colors": [
+      "#b4b4b7",
+      "#fdfdfd",
+      "#d1d3d7",
+      "#919093",
+      "#5d5c5e"
+    ],
+    "desktop": [
+      760,
+      620,
+      360,
+      300,
+      1,
+      4
+    ],
+    "mobile": [
+      220,
+      377,
+      154,
+      128,
+      1,
+      4
+    ],
+    "ref_desktop": [
+      1100,
+      928
+    ],
+    "ref_mobile": [
+      350,
+      513
+    ]
+  }
+]

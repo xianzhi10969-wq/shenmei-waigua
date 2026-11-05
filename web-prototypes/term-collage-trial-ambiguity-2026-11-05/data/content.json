@@ -1,0 +1,68 @@
+{
+  "snapshot_date": "2026-11-05",
+  "source": {
+    "base": "IGctbcuwPaE6hMsmAoicJddpn3U",
+    "term_table": "tbl2gR8WBoqCQyGz",
+    "case_table": "tblpdRYutnm12T0y",
+    "profile": "aesthetic-feishu",
+    "as": "user",
+    "read_only": true
+  },
+  "term": {
+    "record_id": "reczz28HJJL2GKkE",
+    "词": "暧昧",
+    "英文": "Ambiguity",
+    "所属章节": [
+      "爱欲"
+    ],
+    "在本章的位置": "距离谁也不说破：两个人都知道，答案一直在，只是被刷上了一层",
+    "核心": "暧昧最迷人的地方，是你能感觉到一个 YES，却始终无法排除那个 NO。"
+  },
+  "cases": [
+    {
+      "id": "reczz28LdCQK9D4c",
+      "title": "古桥悌二《恋人》LOVERS",
+      "media": "互动影像装置",
+      "imgs": 4,
+      "url": "https://www.moma.org/collection/works/81362"
+    },
+    {
+      "id": "reczz28LdCQK71j7",
+      "title": "Duane Michals《偶遇》Chance Meeting",
+      "media": "六联摄影",
+      "imgs": 3,
+      "url": "https://www.getty.edu/art/collection/object/15F5VV"
+    },
+    {
+      "id": "reczz28LdCQK8mJ5",
+      "title": "Bill Viola《面纱》The Veiling",
+      "media": "影像装置",
+      "imgs": 3,
+      "url": "https://www.guggenheim-bilbao.eus/en/exhibition/the-veiling"
+    },
+    {
+      "id": "reczz28HJJL2NjeY",
+      "title": "窗前读信的少女",
+      "media": "绘画",
+      "imgs": 1,
+      "url": "https://www.skd.museum/en/besucherservice/presse/2021/ein-liebesgott-taucht-auf-vermeers-brieflesendes-maedchen-am-offenen-fenster-vollstaendig-restauriert/"
+    },
+    {
+      "id": "reczz28HJJL2Nji8",
+      "title": "花样年华",
+      "media": "电影",
+      "imgs": 0,
+      "url": "https://www.criterion.com/films/198-in-the-mood-for-love"
+    }
+  ],
+  "editorial": {
+    "see": "维米尔读信、偶遇六联、面纱装置、恋人互动",
+    "clues": [
+      "古桥悌二《恋人》LOVERS · 互动影像装置",
+      "Duane Michals《偶遇》Chance Meeting · 六联摄影",
+      "Bill Viola《面纱》The Veiling · 影像装置",
+      "窗前读信的少女 · 绘画"
+    ],
+    "avoid": "不与无关词条混图；不因附件多而硬凑"
+  }
+}

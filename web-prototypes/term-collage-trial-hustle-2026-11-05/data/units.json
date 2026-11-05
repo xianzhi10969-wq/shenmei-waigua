@@ -1,0 +1,278 @@
+[
+  {
+    "unit_id": "u01-wolf_back_door_01.jpg",
+    "display_number": "01",
+    "role": "主图",
+    "image": "assets/images/0107d22506c3b04d.jpg",
+    "source_file": "assets/originals/wolf_back_door_01.jpg",
+    "case_record_id": "reczz28LeF2soAIy",
+    "term_record_id": "reczz28HJJL2GMxt",
+    "alt": "香港后门 · 街头摄影",
+    "url": "https://photomichaelwolf.com/hong-kong/back-door/",
+    "native": [
+      900,
+      720
+    ],
+    "colors": [
+      "#d688ba",
+      "#d2d9e1",
+      "#b969ac",
+      "#bd81ad",
+      "#c2ccd3"
+    ],
+    "desktop": [
+      460,
+      55,
+      600,
+      560,
+      2,
+      2
+    ],
+    "mobile": [
+      16,
+      36,
+      358,
+      334,
+      2,
+      2
+    ],
+    "ref_desktop": [
+      1040,
+      623
+    ],
+    "ref_mobile": [
+      350,
+      378
+    ]
+  },
+  {
+    "unit_id": "u02-spoerri_buffalo_full.jpg",
+    "display_number": "02",
+    "role": "补充",
+    "image": "assets/images/e275e88105cde18d.jpg",
+    "source_file": "assets/originals/spoerri_buffalo_full.jpg",
+    "case_record_id": "reczz28LeF2snCvV",
+    "term_record_id": "reczz28HJJL2GMxt",
+    "alt": "琪琪的早餐 I · 现成物装置",
+    "url": "https://www.moma.org/collection/works/81430",
+    "native": [
+      800,
+      798
+    ],
+    "colors": [
+      "#dfe8f8",
+      "#131214",
+      "#d0dbe6",
+      "#adb8ba",
+      "#c1cdd5"
+    ],
+    "desktop": [
+      40,
+      70,
+      280,
+      380,
+      -3,
+      4
+    ],
+    "mobile": [
+      220,
+      392,
+      154,
+      197,
+      -3,
+      4
+    ],
+    "ref_desktop": [
+      310,
+      42
+    ],
+    "ref_mobile": [
+      350,
+      597
+    ]
+  },
+  {
+    "unit_id": "u03-wastenot_domestic_2k.jpg",
+    "display_number": "03",
+    "role": "细节",
+    "image": "assets/images/d13e26a58096f490.jpg",
+    "source_file": "assets/originals/wastenot_domestic_2k.jpg",
+    "case_record_id": "reczz28LeF2slBKE",
+    "term_record_id": "reczz28HJJL2GMxt",
+    "alt": "物尽其用 · 大型装置",
+    "url": "https://www.moma.org/calendar/exhibitions/960",
+    "native": [
+      1600,
+      1066
+    ],
+    "colors": [
+      "#928368",
+      "#baa990",
+      "#ab9784",
+      "#cebfb0",
+      "#846f5e"
+    ],
+    "desktop": [
+      340,
+      80,
+      140,
+      220,
+      5,
+      3
+    ],
+    "mobile": [
+      210,
+      1166,
+      164,
+      229,
+      5,
+      3
+    ],
+    "ref_desktop": [
+      460,
+      308
+    ],
+    "ref_mobile": [
+      350,
+      1403
+    ]
+  },
+  {
+    "unit_id": "u04-wolf_back_door_08.jpg",
+    "display_number": "04",
+    "role": "环境",
+    "image": "assets/images/1e59cb02a28e5195.jpg",
+    "source_file": "assets/originals/wolf_back_door_08.jpg",
+    "case_record_id": "reczz28LeF2soAIy",
+    "term_record_id": "reczz28HJJL2GMxt",
+    "alt": "香港后门 · 街头摄影",
+    "url": "https://photomichaelwolf.com/hong-kong/back-door/",
+    "native": [
+      720,
+      900
+    ],
+    "colors": [
+      "#655a43",
+      "#d6dbd3",
+      "#413f30",
+      "#5b4735",
+      "#383220"
+    ],
+    "desktop": [
+      40,
+      480,
+      300,
+      280,
+      2,
+      3
+    ],
+    "mobile": [
+      210,
+      740,
+      164,
+      153,
+      2,
+      3
+    ],
+    "ref_desktop": [
+      330,
+      452
+    ],
+    "ref_mobile": [
+      350,
+      901
+    ]
+  },
+  {
+    "unit_id": "u05-storefront_p012-013.jpg",
+    "display_number": "05",
+    "role": "对照",
+    "image": "assets/images/1b692bda85d09da2.jpg",
+    "source_file": "assets/originals/storefront_p012-013.jpg",
+    "case_record_id": "reczz28LeF2skMR8",
+    "term_record_id": "reczz28HJJL2GMxt",
+    "alt": "东京店构 · 水彩插画",
+    "url": "https://mateuszurbanowicz.com/tokyo-storefronts/",
+    "native": [
+      1000,
+      679
+    ],
+    "colors": [
+      "#fdfdfd",
+      "#e3e3e3",
+      "#ddb0bb",
+      "#88858c",
+      "#64626c"
+    ],
+    "desktop": [
+      360,
+      420,
+      180,
+      260,
+      -2,
+      5
+    ],
+    "mobile": [
+      16,
+      911,
+      176,
+      237,
+      -2,
+      5
+    ],
+    "ref_desktop": [
+      520,
+      688
+    ],
+    "ref_mobile": [
+      172,
+      1156
+    ]
+  },
+  {
+    "unit_id": "u06-spoerri_kunst.jpg",
+    "display_number": "06",
+    "role": "细节",
+    "image": "assets/images/7c41a920f1142558.jpg",
+    "source_file": "assets/originals/spoerri_kunst.jpg",
+    "case_record_id": "reczz28LeF2snCvV",
+    "term_record_id": "reczz28HJJL2GMxt",
+    "alt": "琪琪的早餐 I · 现成物装置",
+    "url": "https://www.moma.org/collection/works/81430",
+    "native": [
+      1015,
+      762
+    ],
+    "colors": [
+      "#e8e8e5",
+      "#f4f4f2",
+      "#f0f1ee",
+      "#db8d5c",
+      "#bab6b0"
+    ],
+    "desktop": [
+      460,
+      660,
+      600,
+      280,
+      1,
+      4
+    ],
+    "mobile": [
+      16,
+      392,
+      210,
+      157,
+      1,
+      4
+    ],
+    "ref_desktop": [
+      1050,
+      632
+    ],
+    "ref_mobile": [
+      206,
+      557
+    ]
+  }
+]

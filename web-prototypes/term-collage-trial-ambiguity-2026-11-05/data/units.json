@@ -1,0 +1,278 @@
+[
+  {
+    "unit_id": "u01-lovers_artnews_1.jpg",
+    "display_number": "01",
+    "role": "主图",
+    "image": "assets/images/8ec760047b59bb82.jpg",
+    "source_file": "assets/originals/lovers_artnews_1.jpg",
+    "case_record_id": "reczz28LdCQK9D4c",
+    "term_record_id": "reczz28HJJL2GKkE",
+    "alt": "古桥悌二《恋人》LOVERS · 互动影像装置",
+    "url": "https://www.moma.org/collection/works/81362",
+    "native": [
+      1024,
+      683
+    ],
+    "colors": [
+      "#080406",
+      "#585e66",
+      "#373b41",
+      "#4c525a",
+      "#474c53"
+    ],
+    "desktop": [
+      460,
+      55,
+      600,
+      560,
+      2,
+      2
+    ],
+    "mobile": [
+      16,
+      36,
+      358,
+      334,
+      2,
+      2
+    ],
+    "ref_desktop": [
+      1040,
+      623
+    ],
+    "ref_mobile": [
+      350,
+      378
+    ]
+  },
+  {
+    "unit_id": "u02-michals_getty_1.jpg",
+    "display_number": "02",
+    "role": "补充",
+    "image": "assets/images/5009fa9fa66a9df7.jpg",
+    "source_file": "assets/originals/michals_getty_1.jpg",
+    "case_record_id": "reczz28LdCQK71j7",
+    "term_record_id": "reczz28HJJL2GKkE",
+    "alt": "Duane Michals《偶遇》Chance Meeting · 六联摄影",
+    "url": "https://www.getty.edu/art/collection/object/15F5VV",
+    "native": [
+      1600,
+      1137
+    ],
+    "colors": [
+      "#fbf7f4",
+      "#3c3a3b",
+      "#62605f",
+      "#908c8a",
+      "#201e1f"
+    ],
+    "desktop": [
+      40,
+      70,
+      280,
+      380,
+      -3,
+      4
+    ],
+    "mobile": [
+      220,
+      392,
+      154,
+      197,
+      -3,
+      4
+    ],
+    "ref_desktop": [
+      310,
+      42
+    ],
+    "ref_mobile": [
+      350,
+      597
+    ]
+  },
+  {
+    "unit_id": "u03-veiling_fwm_1.jpg",
+    "display_number": "03",
+    "role": "细节",
+    "image": "assets/images/3ee10b44a1d41d08.jpg",
+    "source_file": "assets/originals/veiling_fwm_1.jpg",
+    "case_record_id": "reczz28LdCQK8mJ5",
+    "term_record_id": "reczz28HJJL2GKkE",
+    "alt": "Bill Viola《面纱》The Veiling · 影像装置",
+    "url": "https://www.guggenheim-bilbao.eus/en/exhibition/the-veiling",
+    "native": [
+      1200,
+      800
+    ],
+    "colors": [
+      "#1c1615",
+      "#3a3735",
+      "#2a231f",
+      "#5d5c5c",
+      "#2f2925"
+    ],
+    "desktop": [
+      340,
+      80,
+      140,
+      220,
+      5,
+      3
+    ],
+    "mobile": [
+      210,
+      1166,
+      164,
+      229,
+      5,
+      3
+    ],
+    "ref_desktop": [
+      460,
+      308
+    ],
+    "ref_mobile": [
+      350,
+      1403
+    ]
+  },
+  {
+    "unit_id": "u04-窗前读信的少女_维米尔_公有领域.jpg",
+    "display_number": "04",
+    "role": "环境",
+    "image": "assets/images/1d8dec69bb04c67b.jpg",
+    "source_file": "assets/originals/窗前读信的少女_维米尔_公有领域.jpg",
+    "case_record_id": "reczz28HJJL2NjeY",
+    "term_record_id": "reczz28HJJL2GKkE",
+    "alt": "窗前读信的少女 · 绘画",
+    "url": "https://www.skd.museum/en/besucherservice/presse/2021/ein-liebesgott-taucht-auf-vermeers-brieflesendes-maedchen-am-offenen-fenster-vollstaendig-restauriert/",
+    "native": [
+      1239,
+      1600
+    ],
+    "colors": [
+      "#3c3631",
+      "#1d1a17",
+      "#342f22",
+      "#655d40",
+      "#5b4438"
+    ],
+    "desktop": [
+      40,
+      480,
+      300,
+      280,
+      2,
+      3
+    ],
+    "mobile": [
+      210,
+      740,
+      164,
+      153,
+      2,
+      3
+    ],
+    "ref_desktop": [
+      330,
+      452
+    ],
+    "ref_mobile": [
+      350,
+      901
+    ]
+  },
+  {
+    "unit_id": "u05-michals_reina_full.jpg",
+    "display_number": "05",
+    "role": "对照",
+    "image": "assets/images/c26e6fd2409bf751.jpg",
+    "source_file": "assets/originals/michals_reina_full.jpg",
+    "case_record_id": "reczz28LdCQK71j7",
+    "term_record_id": "reczz28HJJL2GKkE",
+    "alt": "Duane Michals《偶遇》Chance Meeting · 六联摄影",
+    "url": "https://www.getty.edu/art/collection/object/15F5VV",
+    "native": [
+      1421,
+      1600
+    ],
+    "colors": [
+      "#141911",
+      "#dfdde0",
+      "#373c39",
+      "#8e8d8c",
+      "#646664"
+    ],
+    "desktop": [
+      360,
+      420,
+      180,
+      260,
+      -2,
+      5
+    ],
+    "mobile": [
+      16,
+      911,
+      176,
+      237,
+      -2,
+      5
+    ],
+    "ref_desktop": [
+      520,
+      688
+    ],
+    "ref_mobile": [
+      172,
+      1156
+    ]
+  },
+  {
+    "unit_id": "u06-lovers_artnews_3.jpg",
+    "display_number": "06",
+    "role": "细节",
+    "image": "assets/images/32a43140eba9df92.jpg",
+    "source_file": "assets/originals/lovers_artnews_3.jpg",
+    "case_record_id": "reczz28LdCQK9D4c",
+    "term_record_id": "reczz28HJJL2GKkE",
+    "alt": "古桥悌二《恋人》LOVERS · 互动影像装置",
+    "url": "https://www.moma.org/collection/works/81362",
+    "native": [
+      1024,
+      683
+    ],
+    "colors": [
+      "#090306",
+      "#5a626b",
+      "#353a42",
+      "#4a545c",
+      "#444953"
+    ],
+    "desktop": [
+      460,
+      660,
+      600,
+      280,
+      1,
+      4
+    ],
+    "mobile": [
+      16,
+      392,
+      210,
+      157,
+      1,
+      4
+    ],
+    "ref_desktop": [
+      1050,
+      632
+    ],
+    "ref_mobile": [
+      206,
+      557
+    ]
+  }
+]

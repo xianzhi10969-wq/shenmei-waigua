@@ -1,0 +1,1 @@
+document.querySelectorAll('.figure-ref').forEach(a=>a.addEventListener('click',()=>{const s=document.querySelector('#sources');if(s)s.open=true;const t=document.querySelector(a.hash);if(!t)return;t.setAttribute('tabindex','-1');setTimeout(()=>t.focus({preventScroll:true}),0)}));

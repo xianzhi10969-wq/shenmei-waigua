@@ -1,0 +1,840 @@
+{
+  "schema_version": "0.1",
+  "updated_at": "2026-11-05T22:50:00+08:00",
+  "status": "partial",
+  "status_note": "20 dual-end trial boards built+shot; layouts algorithmic A/B recipes; not user-approved; liminal preserved rejected; Coquette untouched",
+  "goal": "Screen Feishu terms for object/photo-interleaved collages; deliver >=20 dual-end finished image boards without titles; handoff so next agent can continue.",
+  "non_goals": [
+    "Do not modify Coquette sample",
+    "Do not tweak liminal trial",
+    "Do not write Feishu",
+    "Do not deploy production",
+    "Do not add titles/subtitles/core sentences this round"
+  ],
+  "decisions_locked": {
+    "liminal": "preserve path web-prototypes/term-collage-trial-liminal-2026-11-05/; rejected; no fine-tune",
+    "coquette": "web-prototypes/term-style-board-2026-11-03/ immutable; term_id reczz28HJJL2GJHl",
+    "titles": "not this round",
+    "feishu": "read-only via lark-cli --profile aesthetic-feishu --as user",
+    "skip_blackline_structure_review": "user asked skip for collage trials"
+  },
+  "feishu": {
+    "profile": "aesthetic-feishu",
+    "as": "user",
+    "base": "IGctbcuwPaE6hMsmAoicJddpn3U",
+    "term_table": "tbl2gR8WBoqCQyGz",
+    "case_table": "tblpdRYutnm12T0y",
+    "commands_that_worked": [
+      "lark-cli --profile aesthetic-feishu --as user base +record-list --base-token IGctbcuwPaE6hMsmAoicJddpn3U --table-id tbl2gR8WBoqCQyGz --format ndjson --output ./terms.ndjson",
+      "lark-cli --profile aesthetic-feishu --as user base +record-list --base-token IGctbcuwPaE6hMsmAoicJddpn3U --table-id tblpdRYutnm12T0y --field-id 作品名 --field-id 所属词条 --field-id 图 --field-id 官方页 --format ndjson --output ./cases.ndjson",
+      "lark-cli --profile aesthetic-feishu --as user base +record-download-attachment --base-token IGctbcuwPaE6hMsmAoicJddpn3U --table-id tblpdRYutnm12T0y --record-id <rid> --output <existing_dir>",
+      "lark-cli --profile aesthetic-feishu --as user base +record-download-attachment ... --file-token <tok> --output <filepath>"
+    ],
+    "auth_expiry": "unknown; if permission errors: refresh aesthetic-feishu user login",
+    "known_bad_attachments": [
+      {
+        "case_id": "reczz28MjE1CR2rA",
+        "term": "新中式",
+        "files": [
+          "ap_903c40a0.jpg",
+          "ap_ba1d172b.jpg",
+          "ap_e9af74dc.jpg"
+        ],
+        "issue": "truncated JPEG in Feishu source"
+      }
+    ]
+  },
+  "paths": {
+    "repo": "/workspace/shenmei-waigua",
+    "sop": "产品决策/2026-11-03-风格看板制作SOP-v0.1.md",
+    "coquette_sample": "web-prototypes/term-style-board-2026-11-03/",
+    "liminal_trial": "web-prototypes/term-collage-trial-liminal-2026-11-05/",
+    "candidate_doc": "产品决策/2026-11-05-拼贴候选词条-v0.1.md",
+    "handoff": "产品决策/2026-11-05-拼贴候选词条-handoff.json",
+    "batch_tools": "web-prototypes/_collage-batch-2026-11-05/",
+    "selection_plan": "web-prototypes/_collage-batch-2026-11-05/selection-plan.json",
+    "build_script": "web-prototypes/_collage-batch-2026-11-05/tools/build_boards.py",
+    "shoot_script": "web-prototypes/_collage-batch-2026-11-05/tools/shoot_previews.py"
+  },
+  "selection_rubric": {
+    "form_scale_material_variation": true,
+    "main_supplement_detail_roles": true,
+    "clear_silhouette_plus_atmosphere": true,
+    "images_belong_to_term_only": true,
+    "not_just_attachment_count_or_similar_color": true,
+    "no_forced_fixed_count": true,
+    "exclude_liminal_homogeneous_empty_rooms": true
+  },
+  "units_json_convention": {
+    "desktop": "[x,y,w,h,rotation_deg,z]",
+    "mobile": "[mx,my,mw,mh,mr,mz]",
+    "ref_desktop": "[rx,ry] number badge",
+    "ref_mobile": "[mrx,mry]",
+    "board_desktop_px": "1320x1080",
+    "board_mobile_px": "390 x variable (styles.css VAR)",
+    "no_title_in_board": true
+  },
+  "candidates": [
+    {
+      "id": "reczz28HJJL2GJS1",
+      "name": "Softcore",
+      "english": "Softcore",
+      "slug": "softcore",
+      "chapter": [
+        "可爱",
+        "幽玄"
+      ],
+      "dir": "term-collage-trial-softcore-2026-11-05",
+      "abs_dir": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-softcore-2026-11-05",
+      "see": "物件+软材质装置交错：毛毡商品、蓬蓬镜、水彩家具、灯光、人像",
+      "why_include": "毛毡商品/蓬蓬镜/水彩家具/织物通道/人像——软材质物件与场景交错",
+      "risks": "勿让同一家具案裁片占满；Hubs 与阈限共用作者需区分语境",
+      "asset_counts": {
+        "units": 8,
+        "cases_used": 5,
+        "planned": 8
+      },
+      "case_ids": [
+        "reczz28LdxvOA0sF",
+        "reczz28LdxvOCkfm",
+        "reczz28LdxvOBVuz",
+        "reczz28LdxvOCeQE",
+        "reczz28LdxvOAEal",
+        "reczz28HJJL2NiHW",
+        "reczz28HJJL2NiMp"
+      ],
+      "sample_preview": {
+        "desktop": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-softcore-2026-11-05/previews/desktop-board.png",
+        "mobile": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-softcore-2026-11-05/previews/mobile-board.png",
+        "chat_desktop": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-softcore-2026-11-05/previews/desktop-board-chat.jpg"
+      },
+      "ok": true,
+      "scores": {
+        "diversity": 5,
+        "silhouette_potential": 5,
+        "atmosphere": 3
+      }
+    },
+    {
+      "id": "reczz28HJJL2GLJb",
+      "name": "盛夏",
+      "english": "Midsummer",
+      "slug": "midsummer",
+      "chapter": [
+        "田园"
+      ],
+      "dir": "term-collage-trial-midsummer-2026-11-05",
+      "abs_dir": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-midsummer-2026-11-05",
+      "see": "身体/烟火/大地艺术/家具/彩虹亭：尺度从皮肤到湖面",
+      "why_include": "皮肤光印、烟火、漂浮码头、户外家具、彩虹亭——尺度从皮肤到湖面",
+      "risks": "Illustrated People 皮肤图勿过量压过码头/亭",
+      "asset_counts": {
+        "units": 6,
+        "cases_used": 4,
+        "planned": 6
+      },
+      "case_ids": [
+        "reczz28MLgJayHOi",
+        "reczz28MLgJaxrYR",
+        "reczz28MLgJb1FHM",
+        "reczz28MLgJb1lI7",
+        "reczz28MLgJb05P4"
+      ],
+      "sample_preview": {
+        "desktop": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-midsummer-2026-11-05/previews/desktop-board.png",
+        "mobile": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-midsummer-2026-11-05/previews/mobile-board.png",
+        "chat_desktop": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-midsummer-2026-11-05/previews/desktop-board-chat.jpg"
+      },
+      "ok": true,
+      "scores": {
+        "diversity": 4,
+        "silhouette_potential": 3,
+        "atmosphere": 5
+      }
+    },
+    {
+      "id": "reczz28HJJL2GNqc",
+      "name": "清透",
+      "english": "Translucent",
+      "slug": "translucent",
+      "chapter": [
+        "轻逸"
+      ],
+      "dir": "term-collage-trial-translucent-2026-11-05",
+      "abs_dir": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-translucent-2026-11-05",
+      "see": "玻璃块、雨瓶、冰川桌、川内伦子光：透光材质主轴",
+      "why_include": "铸造玻璃、雨瓶、冰川桌、川内光——透光器物为主",
+      "risks": "全板易偏「通透静物」，需保留至少一张环境光",
+      "asset_counts": {
+        "units": 6,
+        "cases_used": 4,
+        "planned": 6
+      },
+      "case_ids": [
+        "reczz28LeeYH4bwm",
+        "reczz28LeeYH62Cx",
+        "reczz28LeeYH6DgG",
+        "reczz28LeeYH59r1"
+      ],
+      "sample_preview": {
+        "desktop": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-translucent-2026-11-05/previews/desktop-board.png",
+        "mobile": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-translucent-2026-11-05/previews/mobile-board.png",
+        "chat_desktop": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-translucent-2026-11-05/previews/desktop-board-chat.jpg"
+      },
+      "ok": true,
+      "scores": {
+        "diversity": 4,
+        "silhouette_potential": 3,
+        "atmosphere": 5
+      }
+    },
+    {
+      "id": "reczz28HJJL2GMxt",
+      "name": "烟火味",
+      "english": "Hustle and Bustle",
+      "slug": "hustle",
+      "chapter": [
+        "日常"
+      ],
+      "dir": "term-collage-trial-hustle-2026-11-05",
+      "abs_dir": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-hustle-2026-11-05",
+      "see": "后门街景、早餐盘装置、水彩店面、宋冬物尽其用",
+      "why_include": "后门街景、早餐盘装置、水彩店面、物尽其用——日常物件堆叠",
+      "risks": "街景矩形多，细节要靠盘/瓶/店面水彩",
+      "asset_counts": {
+        "units": 6,
+        "cases_used": 4,
+        "planned": 6
+      },
+      "case_ids": [
+        "reczz28LeF2soAIy",
+        "reczz28LeF2skMR8",
+        "reczz28LeF2snCvV",
+        "reczz28LeF2slBKE"
+      ],
+      "sample_preview": {
+        "desktop": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-hustle-2026-11-05/previews/desktop-board.png",
+        "mobile": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-hustle-2026-11-05/previews/mobile-board.png",
+        "chat_desktop": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-hustle-2026-11-05/previews/desktop-board-chat.jpg"
+      },
+      "ok": true,
+      "scores": {
+        "diversity": 4,
+        "silhouette_potential": 3,
+        "atmosphere": 5
+      }
+    },
+    {
+      "id": "reczz28HJJL2GMBA",
+      "name": "禅意",
+      "english": "Zen",
+      "slug": "zen",
+      "chapter": [
+        "留白"
+      ],
+      "dir": "term-collage-trial-zen-2026-11-05",
+      "abs_dir": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-zen-2026-11-05",
+      "see": "石庭/松林屏风/盐线/冰花秀场/Matrix：静与物",
+      "why_include": "石庭/屏风/盐线/冰花秀/Matrix——静物与装置对照",
+      "risks": "石庭大图易压过盐线细节",
+      "asset_counts": {
+        "units": 8,
+        "cases_used": 5,
+        "planned": 8
+      },
+      "case_ids": [
+        "reczz28Ldc0bMeA5",
+        "reczz28Ldc0bJUeQ",
+        "reczz28Ldc0bKQuv",
+        "reczz28HJJL2NlAY",
+        "reczz28HJJL2NlFs"
+      ],
+      "sample_preview": {
+        "desktop": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-zen-2026-11-05/previews/desktop-board.png",
+        "mobile": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-zen-2026-11-05/previews/mobile-board.png",
+        "chat_desktop": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-zen-2026-11-05/previews/desktop-board-chat.jpg"
+      },
+      "ok": true,
+      "scores": {
+        "diversity": 5,
+        "silhouette_potential": 3,
+        "atmosphere": 5
+      }
+    },
+    {
+      "id": "reczz28HJJL2GLxu",
+      "name": "热烈",
+      "english": "Fervor",
+      "slug": "fervor",
+      "chapter": [
+        "酒神"
+      ],
+      "dir": "term-collage-trial-fervor-2026-11-05",
+      "abs_dir": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-fervor-2026-11-05",
+      "see": "提香酒神、心跳灯、花房痴迷：饱和与参与",
+      "why_include": "提香、心跳灯、花房痴迷——饱和色与参与式装置",
+      "risks": "Flower Obsession 参与照易杂，注意主次",
+      "asset_counts": {
+        "units": 5,
+        "cases_used": 3,
+        "planned": 5
+      },
+      "case_ids": [
+        "reczz28Ldd1wD1KQ",
+        "reczz28Ldd1wDeSA",
+        "reczz28HJJL2Nkuf"
+      ],
+      "sample_preview": {
+        "desktop": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-fervor-2026-11-05/previews/desktop-board.png",
+        "mobile": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-fervor-2026-11-05/previews/mobile-board.png",
+        "chat_desktop": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-fervor-2026-11-05/previews/desktop-board-chat.jpg"
+      },
+      "ok": true,
+      "scores": {
+        "diversity": 3,
+        "silhouette_potential": 3,
+        "atmosphere": 3
+      }
+    },
+    {
+      "id": "reczz28HJJL2GP7R",
+      "name": "末世",
+      "english": "End Times",
+      "slug": "endtimes",
+      "chapter": [
+        "废墟"
+      ],
+      "dir": "term-collage-trial-endtimes-2026-11-05",
+      "abs_dir": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-endtimes-2026-11-05",
+      "see": "微缩废城、AES+F、启示录挂毯、细密画毁灭者",
+      "why_include": "微缩城、AES+F、启示录挂毯、细密画——媒介跨度大",
+      "risks": "挂毯与细密画细节在手机端需够大",
+      "asset_counts": {
+        "units": 7,
+        "cases_used": 4,
+        "planned": 7
+      },
+      "case_ids": [
+        "reczz28Miu2sgZLu",
+        "reczz28Miu2sh6u5",
+        "reczz28Miu2sf9uj",
+        "reczz28Miu2sf2sd"
+      ],
+      "sample_preview": {
+        "desktop": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-endtimes-2026-11-05/previews/desktop-board.png",
+        "mobile": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-endtimes-2026-11-05/previews/mobile-board.png",
+        "chat_desktop": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-endtimes-2026-11-05/previews/desktop-board-chat.jpg"
+      },
+      "ok": true,
+      "scores": {
+        "diversity": 4,
+        "silhouette_potential": 3,
+        "atmosphere": 3
+      }
+    },
+    {
+      "id": "reczz28HJJL2GKkE",
+      "name": "暧昧",
+      "english": "Ambiguity",
+      "slug": "ambiguity",
+      "chapter": [
+        "爱欲"
+      ],
+      "dir": "term-collage-trial-ambiguity-2026-11-05",
+      "abs_dir": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-ambiguity-2026-11-05",
+      "see": "维米尔读信、偶遇六联、面纱装置、恋人互动",
+      "why_include": "维米尔、偶遇六联、面纱、恋人——绘画与影像装置",
+      "risks": "装置暗场多，编号对比度",
+      "asset_counts": {
+        "units": 6,
+        "cases_used": 4,
+        "planned": 6
+      },
+      "case_ids": [
+        "reczz28LdCQK9D4c",
+        "reczz28LdCQK71j7",
+        "reczz28LdCQK8mJ5",
+        "reczz28HJJL2NjeY",
+        "reczz28HJJL2Nji8"
+      ],
+      "sample_preview": {
+        "desktop": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-ambiguity-2026-11-05/previews/desktop-board.png",
+        "mobile": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-ambiguity-2026-11-05/previews/mobile-board.png",
+        "chat_desktop": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-ambiguity-2026-11-05/previews/desktop-board-chat.jpg"
+      },
+      "ok": true,
+      "scores": {
+        "diversity": 4,
+        "silhouette_potential": 3,
+        "atmosphere": 5
+      }
+    },
+    {
+      "id": "reczz28HJJL2GNSP",
+      "name": "水墨",
+      "english": "Ink Wash",
+      "slug": "inkwash",
+      "chapter": [
+        "气韵"
+      ],
+      "dir": "term-collage-trial-inkwash-2026-11-05",
+      "abs_dir": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-inkwash-2026-11-05",
+      "see": "徐冰灯箱、杨泳梁数字山水、邱黯雄山海经动画",
+      "why_include": "徐冰灯箱、杨泳梁、邱黯雄——当代转译水墨",
+      "risks": "数字山水易糊成纹理，需保留可辨山水结构",
+      "asset_counts": {
+        "units": 6,
+        "cases_used": 3,
+        "planned": 6
+      },
+      "case_ids": [
+        "reczz28LcucHkDng",
+        "reczz28LcucHlC54",
+        "reczz28LcucHiz5V"
+      ],
+      "sample_preview": {
+        "desktop": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-inkwash-2026-11-05/previews/desktop-board.png",
+        "mobile": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-inkwash-2026-11-05/previews/mobile-board.png",
+        "chat_desktop": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-inkwash-2026-11-05/previews/desktop-board-chat.jpg"
+      },
+      "ok": true,
+      "scores": {
+        "diversity": 3,
+        "silhouette_potential": 3,
+        "atmosphere": 3
+      }
+    },
+    {
+      "id": "reczz28HJJL2GNOa",
+      "name": "新中式",
+      "english": "New Chinese Style",
+      "slug": "new-chinese",
+      "chapter": [
+        "气韵"
+      ],
+      "dir": "term-collage-trial-new-chinese-2026-11-05",
+      "abs_dir": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-new-chinese-2026-11-05",
+      "see": "不锈钢圈椅、时装、龙鳞装书、砖墙行馆",
+      "why_include": "不锈钢圈椅、时装、砖墙行馆——家具/服饰/建筑（书装附件损坏已避开）",
+      "risks": "龙鳞装附件损坏；现板缺书装证据",
+      "asset_counts": {
+        "units": 5,
+        "cases_used": 3,
+        "planned": 5
+      },
+      "case_ids": [
+        "reczz28MjE1CR2rA",
+        "reczz28MjE1CRfHX",
+        "reczz28MjE1CSNUN",
+        "reczz28MjE1CQqVq"
+      ],
+      "sample_preview": {
+        "desktop": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-new-chinese-2026-11-05/previews/desktop-board.png",
+        "mobile": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-new-chinese-2026-11-05/previews/mobile-board.png",
+        "chat_desktop": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-new-chinese-2026-11-05/previews/desktop-board-chat.jpg"
+      },
+      "ok": true,
+      "scores": {
+        "diversity": 3,
+        "silhouette_potential": 5,
+        "atmosphere": 3
+      }
+    },
+    {
+      "id": "reczz28HJJL2GNcx",
+      "name": "武侠",
+      "english": "Wuxia",
+      "slug": "wuxia",
+      "chapter": [
+        "侠"
+      ],
+      "dir": "term-collage-trial-wuxia-2026-11-05",
+      "abs_dir": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-wuxia-2026-11-05",
+      "see": "算法武侠影像、大魔王时装、夜将、聂隐娘",
+      "why_include": "算法影像、时装、夜将、聂隐娘——影像与服装",
+      "risks": "电影剧照版权敏感，仅本地审阅",
+      "asset_counts": {
+        "units": 8,
+        "cases_used": 4,
+        "planned": 8
+      },
+      "case_ids": [
+        "reczz28MmyiIADor",
+        "reczz28MmyiIBfka",
+        "reczz28MmyiICLBe",
+        "reczz28MmyiIBtuF"
+      ],
+      "sample_preview": {
+        "desktop": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-wuxia-2026-11-05/previews/desktop-board.png",
+        "mobile": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-wuxia-2026-11-05/previews/mobile-board.png",
+        "chat_desktop": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-wuxia-2026-11-05/previews/desktop-board-chat.jpg"
+      },
+      "ok": true,
+      "scores": {
+        "diversity": 4,
+        "silhouette_potential": 3,
+        "atmosphere": 3
+      }
+    },
+    {
+      "id": "reczz28MKp7HdDiG",
+      "name": "颓废美学",
+      "english": "Decadence",
+      "slug": "decadence",
+      "chapter": [
+        "忧郁"
+      ],
+      "dir": "term-collage-trial-decadence-2026-11-05",
+      "abs_dir": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-decadence-2026-11-05",
+      "see": "比亚兹莱、蜻蜓胸针、雷东、Galliano高定",
+      "why_include": "比亚兹莱、蜻蜓胸针、雷东、Galliano——插画/珠宝/高定",
+      "risks": "黑白插画与高定色块需并置别分家",
+      "asset_counts": {
+        "units": 7,
+        "cases_used": 5,
+        "planned": 7
+      },
+      "case_ids": [
+        "reczz28MnyHcQLe7",
+        "reczz28MnyHcQMQu",
+        "reczz28MnyHcRK5r",
+        "reczz28MnyHcRaTA",
+        "reczz28MnyHcRudP"
+      ],
+      "sample_preview": {
+        "desktop": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-decadence-2026-11-05/previews/desktop-board.png",
+        "mobile": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-decadence-2026-11-05/previews/mobile-board.png",
+        "chat_desktop": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-decadence-2026-11-05/previews/desktop-board-chat.jpg"
+      },
+      "ok": true,
+      "scores": {
+        "diversity": 5,
+        "silhouette_potential": 5,
+        "atmosphere": 3
+      }
+    },
+    {
+      "id": "reczz28HJJL2GP4n",
+      "name": "废土",
+      "english": "Wasteland",
+      "slug": "wasteland",
+      "chapter": [
+        "废墟"
+      ],
+      "dir": "term-collage-trial-wasteland-2026-11-05",
+      "abs_dir": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-wasteland-2026-11-05",
+      "see": "加油站观念摄影、电幻国度、Stray",
+      "why_include": "加油站摄影、电幻国度、Stray——摄影/插画/游戏",
+      "risks": "游戏截图风格易跳戏",
+      "asset_counts": {
+        "units": 7,
+        "cases_used": 3,
+        "planned": 7
+      },
+      "case_ids": [
+        "reczz28MoBSnxpUl",
+        "reczz28MoBSnzMZH",
+        "reczz28MoBSnwnPa"
+      ],
+      "sample_preview": {
+        "desktop": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-wasteland-2026-11-05/previews/desktop-board.png",
+        "mobile": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-wasteland-2026-11-05/previews/mobile-board.png",
+        "chat_desktop": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-wasteland-2026-11-05/previews/desktop-board-chat.jpg"
+      },
+      "ok": true,
+      "scores": {
+        "diversity": 3,
+        "silhouette_potential": 3,
+        "atmosphere": 3
+      }
+    },
+    {
+      "id": "reczz28HJJL2GLvJ",
+      "name": "多巴胺",
+      "english": "Dopamine",
+      "slug": "dopamine",
+      "chapter": [
+        "酒神"
+      ],
+      "dir": "term-collage-trial-dopamine-2026-11-05",
+      "abs_dir": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-dopamine-2026-11-05",
+      "see": "孟菲斯卡尔顿、数字森林、Judy Chicago烟火",
+      "why_include": "卡尔顿、数字森林、Judy Chicago 烟火——孟菲斯物件与色彩场",
+      "risks": "Forest of Numbers 易重复色带",
+      "asset_counts": {
+        "units": 6,
+        "cases_used": 3,
+        "planned": 6
+      },
+      "case_ids": [
+        "reczz28MR6LJ5rW7",
+        "reczz28MR6LJ60Ar",
+        "reczz28HJJL2NkpP"
+      ],
+      "sample_preview": {
+        "desktop": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-dopamine-2026-11-05/previews/desktop-board.png",
+        "mobile": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-dopamine-2026-11-05/previews/mobile-board.png",
+        "chat_desktop": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-dopamine-2026-11-05/previews/desktop-board-chat.jpg"
+      },
+      "ok": true,
+      "scores": {
+        "diversity": 3,
+        "silhouette_potential": 5,
+        "atmosphere": 3
+      }
+    },
+    {
+      "id": "reczz28HJJL2GJht",
+      "name": "日杂",
+      "english": "Zakka",
+      "slug": "zakka",
+      "chapter": [
+        "乡愁"
+      ],
+      "dir": "term-collage-trial-zakka-2026-11-05",
+      "abs_dir": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-zakka-2026-11-05",
+      "see": "POPEYE/NEUTRAL/GINZA/&Premium 杂志页",
+      "why_include": "四本杂志跨页——编辑摄影与物件图鉴",
+      "risks": "全是杂志页，物件去背空间有限",
+      "asset_counts": {
+        "units": 5,
+        "cases_used": 4,
+        "planned": 5
+      },
+      "case_ids": [
+        "reczz28MRgdMRxNT",
+        "reczz28MRgdMRhwp",
+        "reczz28MRgdMRZAU",
+        "reczz28MRgdMS2Dv"
+      ],
+      "sample_preview": {
+        "desktop": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-zakka-2026-11-05/previews/desktop-board.png",
+        "mobile": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-zakka-2026-11-05/previews/mobile-board.png",
+        "chat_desktop": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-zakka-2026-11-05/previews/desktop-board-chat.jpg"
+      },
+      "ok": true,
+      "scores": {
+        "diversity": 4,
+        "silhouette_potential": 3,
+        "atmosphere": 3
+      }
+    },
+    {
+      "id": "reczz28HJJL2GLZ0",
+      "name": "清冷",
+      "english": "Cool Detachment",
+      "slug": "cool",
+      "chapter": [
+        "幽玄"
+      ],
+      "dir": "term-collage-trial-cool-2026-11-05",
+      "abs_dir": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-cool-2026-11-05",
+      "see": "Snow装置与北海道黑白风景",
+      "why_include": "Snow 装置与北海道风景——冷色空间",
+      "risks": "仅 2 案例，精简板",
+      "asset_counts": {
+        "units": 5,
+        "cases_used": 2,
+        "planned": 5
+      },
+      "case_ids": [
+        "reczz28MnyD4e5ab",
+        "reczz28MnyD4cUTQ"
+      ],
+      "sample_preview": {
+        "desktop": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-cool-2026-11-05/previews/desktop-board.png",
+        "mobile": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-cool-2026-11-05/previews/mobile-board.png",
+        "chat_desktop": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-cool-2026-11-05/previews/desktop-board-chat.jpg"
+      },
+      "ok": true,
+      "scores": {
+        "diversity": 2,
+        "silhouette_potential": 3,
+        "atmosphere": 3
+      }
+    },
+    {
+      "id": "reczz28HJJL2GJt7",
+      "name": "复古摇滚",
+      "english": "Retro Rock",
+      "slug": "retro-rock",
+      "chapter": [
+        "乡愁"
+      ],
+      "dir": "term-collage-trial-retro-rock-2026-11-05",
+      "abs_dir": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-retro-rock-2026-11-05",
+      "see": "橱窗店、骷髅戒、眼球戒、Stevie戏服",
+      "why_include": "橱窗、骷髅戒、眼球戒、戏服——轮廓清晰物件密集",
+      "risks": "仅 4 图，已是精简物件板",
+      "asset_counts": {
+        "units": 4,
+        "cases_used": 4,
+        "planned": 4
+      },
+      "case_ids": [
+        "reczz28MRgiLqd42",
+        "reczz28MRgiLrWjE",
+        "reczz28MRgiLopRy",
+        "reczz28MRgiLoC9N"
+      ],
+      "sample_preview": {
+        "desktop": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-retro-rock-2026-11-05/previews/desktop-board.png",
+        "mobile": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-retro-rock-2026-11-05/previews/mobile-board.png",
+        "chat_desktop": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-retro-rock-2026-11-05/previews/desktop-board-chat.jpg"
+      },
+      "ok": true,
+      "scores": {
+        "diversity": 4,
+        "silhouette_potential": 5,
+        "atmosphere": 3
+      }
+    },
+    {
+      "id": "reczz28HJJL2GMcc",
+      "name": "青涩",
+      "english": "First Crush",
+      "slug": "first-crush",
+      "chapter": [
+        "物哀"
+      ],
+      "dir": "term-collage-trial-first-crush-2026-11-05",
+      "abs_dir": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-first-crush-2026-11-05",
+      "see": "Olivia Bee / Petra Collins 胶片青春",
+      "why_include": "Bee / Collins 胶片——人物姿态为主（媒介较单一）",
+      "risks": "两案皆胶片人像，形态变化弱于物件词",
+      "asset_counts": {
+        "units": 5,
+        "cases_used": 2,
+        "planned": 5
+      },
+      "case_ids": [
+        "reczz28LeedcIqM7",
+        "reczz28LeedcHSnq"
+      ],
+      "sample_preview": {
+        "desktop": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-first-crush-2026-11-05/previews/desktop-board.png",
+        "mobile": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-first-crush-2026-11-05/previews/mobile-board.png",
+        "chat_desktop": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-first-crush-2026-11-05/previews/desktop-board-chat.jpg"
+      },
+      "ok": true,
+      "scores": {
+        "diversity": 2,
+        "silhouette_potential": 3,
+        "atmosphere": 3
+      }
+    },
+    {
+      "id": "reczz28HJJL2GN7q",
+      "name": "破碎感",
+      "english": "Fragility",
+      "slug": "fragility",
+      "chapter": [
+        "侘寂"
+      ],
+      "dir": "term-collage-trial-fragility-2026-11-05",
+      "abs_dir": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-fragility-2026-11-05",
+      "see": "Woodman房屋、Calle、书影与剧照碎片",
+      "why_include": "Woodman、Calle、书影剧照——碎片感图像",
+      "risks": "文学封面信息弱，靠摄影撑",
+      "asset_counts": {
+        "units": 5,
+        "cases_used": 5,
+        "planned": 5
+      },
+      "case_ids": [
+        "reczz28MSjtzerH5",
+        "reczz28MSjtzdloz",
+        "reczz28MSjtzdNy0",
+        "reczz28MSjtzcGfC",
+        "reczz28MSjtzdW6a"
+      ],
+      "sample_preview": {
+        "desktop": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-fragility-2026-11-05/previews/desktop-board.png",
+        "mobile": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-fragility-2026-11-05/previews/mobile-board.png",
+        "chat_desktop": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-fragility-2026-11-05/previews/desktop-board-chat.jpg"
+      },
+      "ok": true,
+      "scores": {
+        "diversity": 5,
+        "silhouette_potential": 3,
+        "atmosphere": 3
+      }
+    },
+    {
+      "id": "reczz28HJJL2GOtf",
+      "name": "宿命感",
+      "english": "Fated",
+      "slug": "fated",
+      "chapter": [
+        "悲剧"
+      ],
+      "dir": "term-collage-trial-fated-2026-11-05",
+      "abs_dir": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-fated-2026-11-05",
+      "see": "人生航程、拉杰特、Melancholia 等命运图像",
+      "why_include": "人生航程、抄本、手稿、La Jetée、Melancholia——命运母题跨媒介",
+      "risks": "含乐谱/抄本，图像叙事密度不均",
+      "asset_counts": {
+        "units": 5,
+        "cases_used": 5,
+        "planned": 5
+      },
+      "case_ids": [
+        "reczz28HJJL2NpG7",
+        "reczz28HJJL2NpIk",
+        "reczz28HJJL2NpLL",
+        "reczz28MpmQFmKwG",
+        "reczz28MpmQFo3uh"
+      ],
+      "sample_preview": {
+        "desktop": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-fated-2026-11-05/previews/desktop-board.png",
+        "mobile": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-fated-2026-11-05/previews/mobile-board.png",
+        "chat_desktop": "/workspace/shenmei-waigua/web-prototypes/term-collage-trial-fated-2026-11-05/previews/desktop-board-chat.jpg"
+      },
+      "ok": true,
+      "scores": {
+        "diversity": 5,
+        "silhouette_potential": 3,
+        "atmosphere": 3
+      }
+    }
+  ],
+  "rejected_or_deferred": [
+    {
+      "id": "reczz28HJJL2GIv6",
+      "name": "阈限空间",
+      "reason": "homogeneous empty rooms; user rejected ugly; keep trial untouched"
+    },
+    {
+      "id": "reczz28HJJL2GJHl",
+      "name": "Coquette",
+      "reason": "locked sample"
+    },
+    {
+      "name": "画报风/复古/Cottagecore/暗黑/昏黄/甜亚系等",
+      "reason": "usable originals <4; deferred not forced"
+    }
+  ],
+  "top5": [
+    "Softcore",
+    "盛夏",
+    "多巴胺",
+    "颓废美学",
+    "复古摇滚"
+  ],
+  "next_actions": [
+    "Open Top1 Softcore board in browser; hand-tune units.json desktop/mobile coords for clearer hero (Sparrow produce or PomPom) vs atmosphere; rebuild HTML from units or edit CSS vars in index.html",
+    "Re-shoot Softcore with tools/shoot_previews.py after coord edits (fuser -k 8791/tcp first)",
+    "Optionally remask clear-silhouette objects (jewelry/rings/Carlton/chair) — only crop/mask, no AI gen",
+    "Fill deferred thin terms only after Feishu gets more attachments",
+    "Do not touch liminal or Coquette",
+    "Await 夕里 visual review before expanding titles or production integration"
+  ],
+  "known_gaps": [
+    "Layouts are recipe-based; need per-board art direction pass",
+    "新中式 missing bookbinding evidence due to corrupt attachments",
+    "青涩/清冷 medium diversity weaker",
+    "License unreviewed — local only",
+    "Batch ~250MB binaries in web-prototypes"
+  ],
+  "commit": null
+}

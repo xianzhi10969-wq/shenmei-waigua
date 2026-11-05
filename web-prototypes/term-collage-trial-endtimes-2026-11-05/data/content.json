@@ -1,0 +1,61 @@
+{
+  "snapshot_date": "2026-11-05",
+  "source": {
+    "base": "IGctbcuwPaE6hMsmAoicJddpn3U",
+    "term_table": "tbl2gR8WBoqCQyGz",
+    "case_table": "tblpdRYutnm12T0y",
+    "profile": "aesthetic-feishu",
+    "as": "user",
+    "read_only": true
+  },
+  "term": {
+    "record_id": "reczz28HJJL2GP7R",
+    "词": "末世",
+    "英文": "End Times",
+    "所属章节": [
+      "废墟"
+    ],
+    "在本章的位置": "往前看：结束以前",
+    "核心": "人类未必真的渴望世界毁灭。我们可能只是渴望世界拥有一个结局。"
+  },
+  "cases": [
+    {
+      "id": "reczz28Miu2sgZLu",
+      "title": "《昂热启示录挂毯》Apocalypse Tapestry",
+      "media": "巨幅叙事挂毯",
+      "imgs": 4,
+      "url": "https://www.chateau-angers.fr/en/discover/la-tapisserie-de-l-apocalypse-un-chef-d-aeuvre-unique-au-monde"
+    },
+    {
+      "id": "reczz28Miu2sh6u5",
+      "title": "《城市》The City",
+      "media": "微缩模型、摄影",
+      "imgs": 3,
+      "url": "https://www.lorinix.net/the-city"
+    },
+    {
+      "id": "reczz28Miu2sf9uj",
+      "title": "《最后的暴乱》Last Riot",
+      "media": "多屏影像、数字拼贴、雕塑",
+      "imgs": 3,
+      "url": "https://aesfgroup.com/projects/last_riot/"
+    },
+    {
+      "id": "reczz28Miu2sf2sd",
+      "title": "《宇宙毁灭者跋陀罗迦梨》Bhadrakali, Destroyer of the Universe",
+      "media": "细密画（金、银颜料与甲虫鞘翅装饰）",
+      "imgs": 1,
+      "url": "https://www.metmuseum.org/art/collection/search/825645"
+    }
+  ],
+  "editorial": {
+    "see": "微缩废城、AES+F、启示录挂毯、细密画毁灭者",
+    "clues": [
+      "《昂热启示录挂毯》Apocalypse Tapestry · 巨幅叙事挂毯",
+      "《城市》The City · 微缩模型、摄影",
+      "《最后的暴乱》Last Riot · 多屏影像、数字拼贴、雕塑",
+      "《宇宙毁灭者跋陀罗迦梨》Bhadrakali, Destroyer of the Universe · 细密画（金、银颜料与甲虫鞘翅装饰）"
+    ],
+    "avoid": "不与无关词条混图；不因附件多而硬凑"
+  }
+}

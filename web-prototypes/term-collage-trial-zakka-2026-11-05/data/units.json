@@ -1,0 +1,232 @@
+[
+  {
+    "unit_id": "u01-neutral4_cover.jpg",
+    "display_number": "01",
+    "role": "主图",
+    "image": "assets/images/ad427eb9ec463600.jpg",
+    "source_file": "assets/originals/neutral4_cover.jpg",
+    "case_record_id": "reczz28MRgdMRxNT",
+    "term_record_id": "reczz28HJJL2GJht",
+    "alt": "NEUTRAL COLORS Issue 4｜Work · 独立杂志／Risograph 印刷／装帧设计",
+    "url": "https://neutral-colors.com/books_post/neutral-colors-4/",
+    "native": [
+      1600,
+      1164
+    ],
+    "colors": [
+      "#5e6668",
+      "#858d8f",
+      "#727c82",
+      "#b1b3b3",
+      "#68737c"
+    ],
+    "desktop": [
+      40,
+      80,
+      600,
+      620,
+      -2,
+      2
+    ],
+    "mobile": [
+      16,
+      36,
+      358,
+      369,
+      -2,
+      2
+    ],
+    "ref_desktop": [
+      620,
+      708
+    ],
+    "ref_mobile": [
+      350,
+      413
+    ]
+  },
+  {
+    "unit_id": "u02-popeye782.jpg",
+    "display_number": "02",
+    "role": "补充",
+    "image": "assets/images/2679e6babc3e65e0.jpg",
+    "source_file": "assets/originals/popeye782.jpg",
+    "case_record_id": "reczz28MRgdMRhwp",
+    "term_record_id": "reczz28HJJL2GJht",
+    "alt": "POPEYE No.782｜シティーボーイのABC · 时尚杂志／物件图鉴／编辑设计",
+    "url": "https://magazineworld.jp/popeye/back/?show=5",
+    "native": [
+      481,
+      620
+    ],
+    "colors": [
+      "#899082",
+      "#b3b7b0",
+      "#838271",
+      "#dddeda",
+      "#fcfcfc"
+    ],
+    "desktop": [
+      670,
+      60,
+      360,
+      420,
+      3,
+      4
+    ],
+    "mobile": [
+      220,
+      427,
+      154,
+      179,
+      3,
+      4
+    ],
+    "ref_desktop": [
+      1020,
+      32
+    ],
+    "ref_mobile": [
+      350,
+      614
+    ]
+  },
+  {
+    "unit_id": "u03-ginza324.jpg",
+    "display_number": "03",
+    "role": "细节",
+    "image": "assets/images/28d62aab712cb3a8.jpg",
+    "source_file": "assets/originals/ginza324.jpg",
+    "case_record_id": "reczz28MRgdMRZAU",
+    "term_record_id": "reczz28HJJL2GJht",
+    "alt": "GINZA No.324｜クローゼットスナップ！ · 时尚摄影／编辑设计",
+    "url": "https://magazineworld.jp/ginza/ginza-324/",
+    "native": [
+      481,
+      620
+    ],
+    "colors": [
+      "#fdfdfd",
+      "#dde1df",
+      "#b6b9b6",
+      "#68bd82",
+      "#8a918e"
+    ],
+    "desktop": [
+      1040,
+      80,
+      220,
+      280,
+      -3,
+      3
+    ],
+    "mobile": [
+      16,
+      924,
+      176,
+      224,
+      -3,
+      3
+    ],
+    "ref_desktop": [
+      1240,
+      368
+    ],
+    "ref_mobile": [
+      172,
+      1156
+    ]
+  },
+  {
+    "unit_id": "u04-premium123.jpg",
+    "display_number": "04",
+    "role": "环境",
+    "image": "assets/images/d9d940771872835d.jpg",
+    "source_file": "assets/originals/premium123.jpg",
+    "case_record_id": "reczz28MRgdMS2Dv",
+    "term_record_id": "reczz28HJJL2GJht",
+    "alt": "&Premium No.123｜部屋を、整える。 · 室内摄影／平面设计",
+    "url": "https://andpremium.jp/book/premium-no-123/",
+    "native": [
+      794,
+      1024
+    ],
+    "colors": [
+      "#e0d3e5",
+      "#67645f",
+      "#3e3a3b",
+      "#918a8e",
+      "#b5b0b3"
+    ],
+    "desktop": [
+      670,
+      520,
+      360,
+      260,
+      2,
+      3
+    ],
+    "mobile": [
+      210,
+      775,
+      164,
+      131,
+      2,
+      3
+    ],
+    "ref_desktop": [
+      1020,
+      492
+    ],
+    "ref_mobile": [
+      350,
+      914
+    ]
+  },
+  {
+    "unit_id": "u05-neutral4_spread.jpg",
+    "display_number": "05",
+    "role": "对照",
+    "image": "assets/images/5d7229f6c0f43ecf.jpg",
+    "source_file": "assets/originals/neutral4_spread.jpg",
+    "case_record_id": "reczz28MRgdMRxNT",
+    "term_record_id": "reczz28HJJL2GJht",
+    "alt": "NEUTRAL COLORS Issue 4｜Work · 独立杂志／Risograph 印刷／装帧设计",
+    "url": "https://neutral-colors.com/books_post/neutral-colors-4/",
+    "native": [
+      1600,
+      1216
+    ],
+    "colors": [
+      "#e1dedf",
+      "#888c8e",
+      "#636665",
+      "#3d3c3b",
+      "#b3b4b2"
+    ],
+    "desktop": [
+      40,
+      740,
+      620,
+      250,
+      -1,
+      5
+    ],
+    "mobile": [
+      16,
+      427,
+      210,
+      157,
+      -1,
+      5
+    ],
+    "ref_desktop": [
+      640,
+      998
+    ],
+    "ref_mobile": [
+      206,
+      592
+    ]
+  }
+]
