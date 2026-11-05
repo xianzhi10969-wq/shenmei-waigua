@@ -1,0 +1,10 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"createdNodeIds\":[\"989:16\",\"989:17\",\"989:18\",\"989:19\",\"989:20\",\"989:21\",\"989:22\",\"989:23\",\"989:24\"],\"mutatedNodeIds\":[\"988:16\"],\"coverId\":\"989:16\",\"artId\":\"989:17\",\"counts\":{\"text\":5,\"images\":3},\"backgroundUnchanged\":true,\"nonArtChecks\":[{\"id\":\"989:18\",\"unchanged\":true},{\"id\":\"989:19\",\"unchanged\":true},{\"id\":\"989:20\",\"unchanged\":true},{\"id\":\"989:21\",\"unchanged\":true},{\"id\":\"989:22\",\"unchanged\":true},{\"id\":\"989:23\",\"unchanged\":true},{\"id\":\"989:24\",\"unchanged\":true}],\"frame\":{\"type\":\"FRAME\",\"x\":260,\"y\":-70,\"width\":564,\"height\":851.1875,\"opacity\":0.8199999928474426,\"rotation\":0,\"fills\":[{\"type\":\"IMAGE\",\"visible\":true,\"opacity\":1,\"blendMode\":\"NORMAL\",\"scaleMode\":\"FIT\",\"scalingFactor\":0.5,\"rotation\":0,\"filters\":{\"exposure\":0,\"contrast\":0,\"saturation\":0,\"temperature\":0,\"tint\":0,\"highlights\":0,\"shadows\":0},\"imageTransform\":[[1,0,0],[0,1,0]],\"imageHash\":\"375cfe6b4037c7c3cac64ecc1c19ad6bab899425\"}]}}"
+    }
+  ],
+  "structuredContent": null,
+  "isError": false
+}
