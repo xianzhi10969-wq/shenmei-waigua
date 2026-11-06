@@ -1,5 +1,9 @@
 # 当前状态｜审美外挂 · 2026-10-24
 
+## 2026-11-06｜v2排版未获认可；编辑层级v3结构候选待审
+
+用户反馈v2“不够好看”，要求继续用设计资源重排下面文字。已读项目Editorial Skill及上游Typography Rules、Grid Construction，交[独立黑线白底SVG结构对照](https://github.com/xianzhi10969-wq/shenmei-waigua/tree/codex/term-editorial-layout-v3-2026-11-06/research/2026-11-06-term-editorial-layout-v3)，提交e1985afc12458cb89e1823bad1039709fa663956。新候选将第一句原文作为21/32引言，余文16/28并右收24px，题名84；保留44px外边距、灯位置、完整拼贴。原文顺序措辞逐字保留；已看390对照并修正短尾行，含1440桌面结构，非全响应式。规则→动作→证据见README/geometry/checks；SVG文字可编辑，PNG仅本地。按结构审批门，本轮未组合实图/换配色/选新字体，未改8781/Figma/飞书/生产。v2保留但不能视为认可；v3待审。新结构本地8782。
+
 ## 2026-11-06｜灯下题名与边距 v2：按用户红框修改，待审
 
 用户指出开场边距过窄，明确要在灯下红框区域看到词条名/译名。新增[独立v2](https://github.com/xianzhi10969-wq/shenmei-waigua/tree/codex/term-intro-collage-heading-v2-2026-11-06/web-prototypes/term-intro-collage-heading-v2-2026-11-06)，提交b091c973b7503fcc899ed1a7501156a5108f4e94：手机灯下先显示Coquette题名，再读原介绍；边距24→44px，320宽用36px，开场随文字自然增高；桌面同步加入题名。只读飞书aesthetic-feishu/user核验同记录rev232：「词」「英文」均为Coquette，无独立中文译名，未编造翻译或拿检索词充当译名。此次用户明确要求开场识别名称，优先于上一版助手去除重复标题的处理；完整拼贴标题仍按原基线保护。六个尺寸检查通过并已看手机/桌面截图；结构SVG、源码、检查及手机JPG已提交，其他PNG本地。旧8780保留，新本地8781；未改首页/Figma/飞书/生产，视觉待审。
