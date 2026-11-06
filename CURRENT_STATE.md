@@ -1,5 +1,10 @@
 # 当前状态｜审美外挂 · 2026-10-24
 
+## 2026-11-06｜纠正：吊灯旁用词条已有介绍语，不是新写slogan
+
+用户明确“不是slogan”，要求查飞书CLI。已用lark-base skill与显式aesthetic-feishu/user只读读取词条表schema及Coquette reczz28HJJL2GJHl（rev232）；开场接「钩子」fld4n6xZoj原文，与「核心」「正文」「在本章的位置」分开。撤回要求用户选择全站/每词条及提供文案的问题。已把[双端结构](https://github.com/xianzhi10969-wq/shenmei-waigua/tree/codex/term-slogan-sequence-2026-11-06/research/2026-11-06-term-slogan-sequence)的slogan占位改为95字真实钩子，拼贴后正文也接原文。检查双端逐字一致、介绍语无溢出、10图占位保留。当前顺序：水晶吊灯＋词条介绍语→完整拼贴→词条正文。仍为黑线结构待审，无新美术/Figma/飞书写入/部署；只核验Coquette，未审计全部词条。旧目录名保留作历史，不代表仍需创作slogan。
+
+
 ## 2026-11-06｜用户提出：水晶吊灯＋slogan→完整拼贴→词条
 
 用户明确提出新顺序，当前优先按此制作[双端黑线结构](https://github.com/xianzhi10969-wq/shenmei-waigua/tree/codex/term-slogan-sequence-2026-11-06/research/2026-11-06-term-slogan-sequence)。开场仅吊灯+slogan，去掉重复词条大标题/单独主图/核心句；其后完整拼贴直接呈现，再接词条正文。暂按同页下滑理解，不新增跳转。slogan全站共用或每词条一句及具体内容已询问，尚待答，当前仅文字占位，未复用拼贴原副题/核心句。原拼贴100%结构保留；手机开场760、桌面720是助手试排，未验收。未做正式美术/Figma/生产/飞书变更。此顺序优先于助手上一轮同画幅假设；展开B、短前奏C仍不采用。
