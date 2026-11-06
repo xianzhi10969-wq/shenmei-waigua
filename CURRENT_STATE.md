@@ -1,5 +1,9 @@
 # 当前状态｜审美外挂 · 2026-10-24
 
+## 2026-11-06｜灯下题名与边距 v2：按用户红框修改，待审
+
+用户指出开场边距过窄，明确要在灯下红框区域看到词条名/译名。新增[独立v2](https://github.com/xianzhi10969-wq/shenmei-waigua/tree/codex/term-intro-collage-heading-v2-2026-11-06/web-prototypes/term-intro-collage-heading-v2-2026-11-06)，提交b091c973b7503fcc899ed1a7501156a5108f4e94：手机灯下先显示Coquette题名，再读原介绍；边距24→44px，320宽用36px，开场随文字自然增高；桌面同步加入题名。只读飞书aesthetic-feishu/user核验同记录rev232：「词」「英文」均为Coquette，无独立中文译名，未编造翻译或拿检索词充当译名。此次用户明确要求开场识别名称，优先于上一版助手去除重复标题的处理；完整拼贴标题仍按原基线保护。六个尺寸检查通过并已看手机/桌面截图；结构SVG、源码、检查及手机JPG已提交，其他PNG本地。旧8780保留，新本地8781；未改首页/Figma/飞书/生产，视觉待审。
+
 ## 2026-11-06｜水晶吊灯＋真实介绍语→完整拼贴→正文：实图衔接候选待审
 
 用户在纠正介绍语的双端黑线结构后同意“可以，再衔接一个版本”。已组合[独立可滚动实图](https://github.com/xianzhi10969-wq/shenmei-waigua/tree/codex/term-intro-collage-connected-2026-11-06/web-prototypes/term-intro-collage-connected-2026-11-06)，提交3a76eb33dbbea1cd0a5b7bad4b6bad8fe6481cb8。沿用吊灯02原图；手机灯上文下、桌面灯右文左，使用已核验Coquette钩子和正文原文。13c7d07完整拼贴直接呈现，原board HTML、styles.css和资产不变，外部样式仅补开场/正文及原有等比缩放表达式修复。未另设重复封面/标题/核心句，未收起拼贴。Chrome320/390/430/768/1024/1440无横溢出、10图/单h1/原文/来源链接检查通过，已看双端实图；PNG本地，双端整页JPG随分支提交。深底→白底仍明确切换，美感和衔接自然度待用户审阅；不是首页转场完成、全词条接通或生产替换。未生图/写Figma/写飞书/部署，旧稿全部保留。
