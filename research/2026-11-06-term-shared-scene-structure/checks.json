@@ -1,0 +1,22 @@
+{
+  "mobile": {
+    "protected_collisions": [],
+    "board_scale": 1,
+    "board_width": 390,
+    "title_size": 88,
+    "core_size": 20,
+    "subtitle_size": 15,
+    "lamp_source_unchanged": true,
+    "audit_alpha_threshold": 64
+  },
+  "desktop": {
+    "protected_collisions": [],
+    "board_scale": 0.82,
+    "board_width": 1082.3999999999999,
+    "title_size": 108.24,
+    "core_size": 18.86,
+    "subtitle_size": 16.4,
+    "lamp_source_unchanged": true,
+    "audit_alpha_threshold": 64
+  }
+}
