@@ -1,5 +1,9 @@
 # 当前状态｜审美外挂 · 2026-10-24
 
+## 2026-11-06｜水晶吊灯＋真实介绍语→完整拼贴→正文：实图衔接候选待审
+
+用户在纠正介绍语的双端黑线结构后同意“可以，再衔接一个版本”。已组合[独立可滚动实图](https://github.com/xianzhi10969-wq/shenmei-waigua/tree/codex/term-intro-collage-connected-2026-11-06/web-prototypes/term-intro-collage-connected-2026-11-06)，提交3a76eb33dbbea1cd0a5b7bad4b6bad8fe6481cb8。沿用吊灯02原图；手机灯上文下、桌面灯右文左，使用已核验Coquette钩子和正文原文。13c7d07完整拼贴直接呈现，原board HTML、styles.css和资产不变，外部样式仅补开场/正文及原有等比缩放表达式修复。未另设重复封面/标题/核心句，未收起拼贴。Chrome320/390/430/768/1024/1440无横溢出、10图/单h1/原文/来源链接检查通过，已看双端实图；PNG本地，双端整页JPG随分支提交。深底→白底仍明确切换，美感和衔接自然度待用户审阅；不是首页转场完成、全词条接通或生产替换。未生图/写Figma/写飞书/部署，旧稿全部保留。
+
 ## 2026-11-06｜纠正：吊灯旁用词条已有介绍语，不是新写slogan
 
 用户明确“不是slogan”，要求查飞书CLI。已用lark-base skill与显式aesthetic-feishu/user只读读取词条表schema及Coquette reczz28HJJL2GJHl（rev232）；开场接「钩子」fld4n6xZoj原文，与「核心」「正文」「在本章的位置」分开。撤回要求用户选择全站/每词条及提供文案的问题。已把[双端结构](https://github.com/xianzhi10969-wq/shenmei-waigua/tree/codex/term-slogan-sequence-2026-11-06/research/2026-11-06-term-slogan-sequence)的slogan占位改为95字真实钩子，拼贴后正文也接原文。检查双端逐字一致、介绍语无溢出、10图占位保留。当前顺序：水晶吊灯＋词条介绍语→完整拼贴→词条正文。仍为黑线结构待审，无新美术/Figma/飞书写入/部署；只核验Coquette，未审计全部词条。旧目录名保留作历史，不代表仍需创作slogan。
