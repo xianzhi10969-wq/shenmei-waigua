@@ -1,0 +1,56 @@
+[
+  {
+    "width": 320,
+    "titleThen01to10": true,
+    "pairedArtNumbers": true,
+    "threeExactCases": true,
+    "nineGalleryImages": true,
+    "allTenLinks": true,
+    "noOverflow": true
+  },
+  {
+    "width": 390,
+    "titleThen01to10": true,
+    "pairedArtNumbers": true,
+    "threeExactCases": true,
+    "nineGalleryImages": true,
+    "allTenLinks": true,
+    "noOverflow": true
+  },
+  {
+    "width": 430,
+    "titleThen01to10": true,
+    "pairedArtNumbers": true,
+    "threeExactCases": true,
+    "nineGalleryImages": true,
+    "allTenLinks": true,
+    "noOverflow": true
+  },
+  {
+    "width": 768,
+    "titleThen01to10": true,
+    "pairedArtNumbers": true,
+    "threeExactCases": true,
+    "nineGalleryImages": true,
+    "allTenLinks": true,
+    "noOverflow": true
+  },
+  {
+    "width": 1440,
+    "titleThen01to10": true,
+    "pairedArtNumbers": true,
+    "threeExactCases": true,
+    "nineGalleryImages": true,
+    "allTenLinks": true,
+    "noOverflow": true
+  },
+  {
+    "mobileViewportGate": true,
+    "firstWait": 7,
+    "offscreenHeld": true,
+    "continuedAfterScroll": true
+  },
+  {
+    "reducedMotionAllContentAccessible": true
+  }
+]
