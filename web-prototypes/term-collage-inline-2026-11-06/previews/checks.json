@@ -1,0 +1,423 @@
+[
+  {
+    "viewport": [
+      390,
+      844
+    ],
+    "first_screen_pieces": [
+      "piece swing-garden",
+      "piece dress",
+      "piece collar",
+      "piece bow",
+      "piece embroidery",
+      "piece shoe",
+      "piece silver-rose"
+    ],
+    "piece_positions": [
+      {
+        "name": "piece swing-garden",
+        "top": 266.2784118652344,
+        "bottom": 584.7215576171875,
+        "inFirst": true
+      },
+      {
+        "name": "piece dress",
+        "top": 454.2301025390625,
+        "bottom": 796.7698974609375,
+        "inFirst": true
+      },
+      {
+        "name": "piece collar",
+        "top": 293.636474609375,
+        "bottom": 414.3635559082031,
+        "inFirst": true
+      },
+      {
+        "name": "piece bow",
+        "top": 611.1043701171875,
+        "bottom": 687.8956298828125,
+        "inFirst": true
+      },
+      {
+        "name": "piece embroidery",
+        "top": 725.7218627929688,
+        "bottom": 812.2781372070312,
+        "inFirst": true
+      },
+      {
+        "name": "piece shoe",
+        "top": 747.505859375,
+        "bottom": 812.494140625,
+        "inFirst": true
+      },
+      {
+        "name": "piece black-bows",
+        "top": 857.6817016601562,
+        "bottom": 962.3182983398438,
+        "inFirst": false
+      },
+      {
+        "name": "piece silver-rose",
+        "top": 812.4007568359375,
+        "bottom": 916.5992431640625,
+        "inFirst": true
+      },
+      {
+        "name": "piece rose-room",
+        "top": 910.2794189453125,
+        "bottom": 1098.7205810546875,
+        "inFirst": false
+      },
+      {
+        "name": "piece glass",
+        "top": 1057.16455078125,
+        "bottom": 1206.83544921875,
+        "inFirst": false
+      }
+    ],
+    "one_title": true,
+    "ten_pieces": true,
+    "direct_flow": true,
+    "no_horizontal_overflow": true,
+    "source_links": true,
+    "errors": []
+  },
+  {
+    "viewport": [
+      1440,
+      900
+    ],
+    "first_screen_pieces": [
+      "piece swing-garden",
+      "piece dress",
+      "piece collar",
+      "piece bow",
+      "piece embroidery",
+      "piece shoe",
+      "piece black-bows",
+      "piece silver-rose",
+      "piece rose-room",
+      "piece glass"
+    ],
+    "piece_positions": [
+      {
+        "name": "piece swing-garden",
+        "top": 355.2139587402344,
+        "bottom": 878.7861022949219,
+        "inFirst": true
+      },
+      {
+        "name": "piece dress",
+        "top": 401.957763671875,
+        "bottom": 908.042236328125,
+        "inFirst": true
+      },
+      {
+        "name": "piece collar",
+        "top": 358.9152526855469,
+        "bottom": 588.084716796875,
+        "inFirst": true
+      },
+      {
+        "name": "piece bow",
+        "top": 541.4478759765625,
+        "bottom": 648.5521240234375,
+        "inFirst": true
+      },
+      {
+        "name": "piece embroidery",
+        "top": 650.2059326171875,
+        "bottom": 776.7940673828125,
+        "inFirst": true
+      },
+      {
+        "name": "piece shoe",
+        "top": 590.3133544921875,
+        "bottom": 681.6867065429688,
+        "inFirst": true
+      },
+      {
+        "name": "piece black-bows",
+        "top": 807.479736328125,
+        "bottom": 975.520263671875,
+        "inFirst": true
+      },
+      {
+        "name": "piece silver-rose",
+        "top": 393.5725402832031,
+        "bottom": 550.427490234375,
+        "inFirst": true
+      },
+      {
+        "name": "piece rose-room",
+        "top": 821.4192504882812,
+        "bottom": 1135.580810546875,
+        "inFirst": true
+      },
+      {
+        "name": "piece glass",
+        "top": 856.8685302734375,
+        "bottom": 1087.1314697265625,
+        "inFirst": true
+      }
+    ],
+    "one_title": true,
+    "ten_pieces": true,
+    "direct_flow": true,
+    "no_horizontal_overflow": true,
+    "source_links": true,
+    "errors": []
+  },
+  {
+    "viewport": [
+      320,
+      740
+    ],
+    "first_screen_pieces": [
+      "piece swing-garden",
+      "piece dress",
+      "piece collar",
+      "piece bow",
+      "piece embroidery"
+    ],
+    "piece_positions": [
+      {
+        "name": "piece swing-garden",
+        "top": 266.2784118652344,
+        "bottom": 584.7215576171875,
+        "inFirst": true
+      },
+      {
+        "name": "piece dress",
+        "top": 454.2301025390625,
+        "bottom": 796.7698974609375,
+        "inFirst": true
+      },
+      {
+        "name": "piece collar",
+        "top": 293.636474609375,
+        "bottom": 414.3635559082031,
+        "inFirst": true
+      },
+      {
+        "name": "piece bow",
+        "top": 611.1043701171875,
+        "bottom": 687.8956298828125,
+        "inFirst": true
+      },
+      {
+        "name": "piece embroidery",
+        "top": 725.7218627929688,
+        "bottom": 812.2781372070312,
+        "inFirst": true
+      },
+      {
+        "name": "piece shoe",
+        "top": 747.505859375,
+        "bottom": 812.494140625,
+        "inFirst": false
+      },
+      {
+        "name": "piece black-bows",
+        "top": 857.6817016601562,
+        "bottom": 962.3182983398438,
+        "inFirst": false
+      },
+      {
+        "name": "piece silver-rose",
+        "top": 812.4007568359375,
+        "bottom": 916.5992431640625,
+        "inFirst": false
+      },
+      {
+        "name": "piece rose-room",
+        "top": 910.2794189453125,
+        "bottom": 1098.7205810546875,
+        "inFirst": false
+      },
+      {
+        "name": "piece glass",
+        "top": 1057.16455078125,
+        "bottom": 1206.83544921875,
+        "inFirst": false
+      }
+    ],
+    "one_title": true,
+    "ten_pieces": true,
+    "direct_flow": true,
+    "no_horizontal_overflow": true,
+    "source_links": true,
+    "errors": []
+  },
+  {
+    "viewport": [
+      430,
+      932
+    ],
+    "first_screen_pieces": [
+      "piece swing-garden",
+      "piece dress",
+      "piece collar",
+      "piece bow",
+      "piece embroidery",
+      "piece shoe",
+      "piece black-bows",
+      "piece silver-rose",
+      "piece rose-room"
+    ],
+    "piece_positions": [
+      {
+        "name": "piece swing-garden",
+        "top": 266.2784118652344,
+        "bottom": 584.7215576171875,
+        "inFirst": true
+      },
+      {
+        "name": "piece dress",
+        "top": 454.2301025390625,
+        "bottom": 796.7698974609375,
+        "inFirst": true
+      },
+      {
+        "name": "piece collar",
+        "top": 293.636474609375,
+        "bottom": 414.3635559082031,
+        "inFirst": true
+      },
+      {
+        "name": "piece bow",
+        "top": 611.1043701171875,
+        "bottom": 687.8956298828125,
+        "inFirst": true
+      },
+      {
+        "name": "piece embroidery",
+        "top": 725.7218627929688,
+        "bottom": 812.2781372070312,
+        "inFirst": true
+      },
+      {
+        "name": "piece shoe",
+        "top": 747.505859375,
+        "bottom": 812.494140625,
+        "inFirst": true
+      },
+      {
+        "name": "piece black-bows",
+        "top": 857.6817016601562,
+        "bottom": 962.3182983398438,
+        "inFirst": true
+      },
+      {
+        "name": "piece silver-rose",
+        "top": 812.4007568359375,
+        "bottom": 916.5992431640625,
+        "inFirst": true
+      },
+      {
+        "name": "piece rose-room",
+        "top": 910.2794189453125,
+        "bottom": 1098.7205810546875,
+        "inFirst": true
+      },
+      {
+        "name": "piece glass",
+        "top": 1057.16455078125,
+        "bottom": 1206.83544921875,
+        "inFirst": false
+      }
+    ],
+    "one_title": true,
+    "ten_pieces": true,
+    "direct_flow": true,
+    "no_horizontal_overflow": true,
+    "source_links": true,
+    "errors": []
+  },
+  {
+    "viewport": [
+      768,
+      1024
+    ],
+    "first_screen_pieces": [
+      "piece swing-garden",
+      "piece dress",
+      "piece collar",
+      "piece bow",
+      "piece embroidery",
+      "piece shoe",
+      "piece black-bows",
+      "piece silver-rose",
+      "piece rose-room",
+      "piece glass"
+    ],
+    "piece_positions": [
+      {
+        "name": "piece swing-garden",
+        "top": 355.2139587402344,
+        "bottom": 878.7861022949219,
+        "inFirst": true
+      },
+      {
+        "name": "piece dress",
+        "top": 401.957763671875,
+        "bottom": 908.042236328125,
+        "inFirst": true
+      },
+      {
+        "name": "piece collar",
+        "top": 358.9152526855469,
+        "bottom": 588.084716796875,
+        "inFirst": true
+      },
+      {
+        "name": "piece bow",
+        "top": 541.4478759765625,
+        "bottom": 648.5521240234375,
+        "inFirst": true
+      },
+      {
+        "name": "piece embroidery",
+        "top": 650.2059326171875,
+        "bottom": 776.7940673828125,
+        "inFirst": true
+      },
+      {
+        "name": "piece shoe",
+        "top": 590.3133544921875,
+        "bottom": 681.6867065429688,
+        "inFirst": true
+      },
+      {
+        "name": "piece black-bows",
+        "top": 807.479736328125,
+        "bottom": 975.520263671875,
+        "inFirst": true
+      },
+      {
+        "name": "piece silver-rose",
+        "top": 393.5725402832031,
+        "bottom": 550.427490234375,
+        "inFirst": true
+      },
+      {
+        "name": "piece rose-room",
+        "top": 821.4192504882812,
+        "bottom": 1135.580810546875,
+        "inFirst": true
+      },
+      {
+        "name": "piece glass",
+        "top": 856.8685302734375,
+        "bottom": 1087.1314697265625,
+        "inFirst": true
+      }
+    ],
+    "one_title": true,
+    "ten_pieces": true,
+    "direct_flow": true,
+    "no_horizontal_overflow": true,
+    "source_links": true,
+    "errors": []
+  }
+]

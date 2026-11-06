@@ -1,0 +1,18 @@
+html{scroll-behavior:auto}
+.threshold{height:152px;background:#131218;color:#f8f6ef;overflow:hidden}
+.threshold-inner{position:relative;width:min(100%,1320px);height:100%;margin:auto}
+.threshold p{position:absolute;top:34px;left:58px;margin:0;font:15px/24px "Songti SC",serif;letter-spacing:.05em;z-index:1}
+.threshold p span{font:11px/20px system-ui;margin-left:12px;letter-spacing:.1em}
+.chandelier{position:absolute;width:640px;height:auto;right:60px;bottom:-20px;pointer-events:none;max-width:none}
+.reading{max-width:660px;margin:32px auto 64px;padding:32px 24px 0;border-top:1px solid #263c3233;color:#263c32}
+.reading p{font:18px/32px "Songti SC",serif;margin:0}
+.notes{margin-top:0}
+@media(max-width:700px){
+ .threshold{height:120px}
+ .threshold p{left:24px;top:26px;font-size:13px}
+ .threshold p span{display:block;margin:4px 0 0;font-size:10px}
+ .chandelier{width:460px;right:-130px;bottom:-12px}
+ .reading{margin:16px 24px 48px;padding:28px 0 0;max-width:none}
+ .reading p{font-size:17px;line-height:29px}
+}
+@media(min-width:701px) and (max-width:1000px){.chandelier{right:-80px}.threshold p{left:5%}}

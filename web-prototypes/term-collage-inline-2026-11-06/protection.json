@@ -1,0 +1,29 @@
+{
+  "source_commit": "13c7d07b73274fc7d307ecd1fb94595dc132b0ee",
+  "board_markup_exact": true,
+  "styles_identical": true,
+  "lamp_identical": true,
+  "assets": {
+    "assets/chandelier-02.png": "17b2f40d4f4f311bb0ba0fbf3505ddf8ae8772cb",
+    "assets/images/add6460cb1c9a220.png": "a470e01185021123a644d712949b51de20482ca8",
+    "assets/images/5bc9b782769739e5.png": "39d988317d89ada268a35a39761c1648756a1e7a",
+    "assets/images/b1e200c45e872162.png": "e5358b5214533abe5ea1c1d05f7dd137a9bb1ead",
+    "assets/images/2a51e79a090a90d7.png": "f174b8b9da5da8d74c0d4e8eff82f65b57afdedd",
+    "assets/images/7109201d5d1829f4.png": "9122c3aa0ce2e00dc6582491b21de52a1c3c88bd",
+    "assets/images/aed4a8d4d6d31d1c.png": "cf6e20a38840039c17433a54e7ceddfd2de07622",
+    "assets/images/93cd905d6297ebb1.png": "cb85f5b16dbd0844c55eca9228eb4ae226168f21",
+    "assets/images/3d58cd710ebcd3a4.png": "96dcdb26f8446898e5955bec337b0ad3db0e123c",
+    "assets/images/daee6ee6acb078a3.png": "fadbbb9d71c5907a69fd2441145a5d5a8fd7db94",
+    "assets/images/21c35addd4dd3bee.png": "e11e7a4b5f321b7033ff4bdaf24fdfa24617bd2d",
+    "assets/originals/swing.jpg": "a5dfcabebd986507b9c4aba7ba2296f49aaf8488",
+    "assets/originals/juno_champagne.jpg": "c6c25df3a7a2c83cc85e81246106b029a2b58cf5",
+    "assets/originals/sandy_ss24_1.jpg": "77315d92c531519233fb7c8e74c2f2816513b6c6",
+    "assets/originals/juno_honeymoon_suite.jpg": "b7d478970ad8332bebad468f43a1e7c3835f2390",
+    "assets/originals/sandy_ss24_3.jpg": "1abd94f5e6ec5835ae8ff05c69678f9d40685b75",
+    "assets/originals/gaultier_ss24_1.jpg": "8b27ff02f7e57257ee60d3db99a4218c6cc7990c",
+    "assets/originals/gaultier_ss24_2.jpg": "ff9ca7090f54ccb67d416125ada81decf76c9ea6",
+    "assets/fonts/2ce479b703b54faa.woff2": "6f20f77ab4ed327cd24b5c859fb155cde96fe7b3",
+    "assets/fonts/0ad1510514849c1e.woff2": "0b295224b6420b5def7238fcaf5c96dbb2995755",
+    "assets/fonts/758883b3b8e23791.woff2": "3dc5d79e21c979065126bd4a70da55f1f86b9437"
+  }
+}
