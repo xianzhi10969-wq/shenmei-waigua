@@ -1,0 +1,14 @@
+{
+  "mobile": {
+    "piece_count": 10,
+    "slogan_slots": 1,
+    "board_groups": 1,
+    "body_groups": 1
+  },
+  "desktop": {
+    "piece_count": 10,
+    "slogan_slots": 1,
+    "board_groups": 1,
+    "body_groups": 1
+  }
+}
