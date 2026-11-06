@@ -1,0 +1,81 @@
+{
+  "source_commit": "13c7d07b73274fc7d307ecd1fb94595dc132b0ee",
+  "board_markup_exact": true,
+  "styles_identical": true,
+  "original_assets_identical": true,
+  "lamp_identical": true,
+  "viewports": [
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "h1": 1,
+      "pieces": 10,
+      "imagesOK": true,
+      "boardTop": 740,
+      "bodyTop": 1789.84375,
+      "introExact": true,
+      "bodyExact": true,
+      "sourceLinkWorks": true
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "h1": 1,
+      "pieces": 10,
+      "imagesOK": true,
+      "boardTop": 760,
+      "bodyTop": 2036,
+      "introExact": true,
+      "bodyExact": true,
+      "sourceLinkWorks": true
+    },
+    {
+      "width": 430,
+      "scrollWidth": 430,
+      "h1": 1,
+      "pieces": 10,
+      "imagesOK": true,
+      "boardTop": 760,
+      "bodyTop": 2036,
+      "introExact": true,
+      "bodyExact": true,
+      "sourceLinkWorks": true
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "h1": 1,
+      "pieces": 10,
+      "imagesOK": true,
+      "boardTop": 650,
+      "bodyTop": 1310.359375,
+      "introExact": true,
+      "bodyExact": true,
+      "sourceLinkWorks": true
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "h1": 1,
+      "pieces": 10,
+      "imagesOK": true,
+      "boardTop": 650,
+      "bodyTop": 1519.8125,
+      "introExact": true,
+      "bodyExact": true,
+      "sourceLinkWorks": true
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1": 1,
+      "pieces": 10,
+      "imagesOK": true,
+      "boardTop": 720,
+      "bodyTop": 1832,
+      "introExact": true,
+      "bodyExact": true,
+      "sourceLinkWorks": true
+    }
+  ]
+}

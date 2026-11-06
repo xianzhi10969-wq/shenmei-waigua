@@ -1,0 +1,31 @@
+@font-face{font-family:IntroCN;src:url(assets/fonts/IntroCN.woff2) format("woff2");font-style:normal;font-weight:400;font-display:block}
+html{scroll-behavior:auto}
+.opening{background:#131218;color:#f8f6ef;overflow:hidden}
+.opening-inner{position:relative;max-width:1440px;min-height:720px;margin:0 auto}
+.chandelier{position:absolute;top:-80px;right:20px;width:570px;height:auto;max-width:none;pointer-events:none;user-select:none}
+.introduction{position:relative;margin:0;padding:300px 0 160px;margin-left:11.39%;width:600px;font:24px/40px IntroCN,"Songti SC",serif;letter-spacing:.015em;text-wrap:pretty}
+.reading{max-width:660px;margin:32px auto 80px;padding:32px 24px 0;border-top:1px solid #263c3233;color:#263c32}
+.reading p{font:20px/34px IntroCN,"Songti SC",serif;margin:0;text-wrap:pretty}
+.notes{margin-top:0}
+@media(min-width:701px) and (max-width:1199px){
+ .opening-inner{min-height:650px}
+ .chandelier{width:clamp(350px,40vw,440px);right:-45px;top:-40px}
+ .introduction{margin-left:8%;width:47%;padding-top:290px;padding-bottom:100px;font-size:22px;line-height:38px}
+}
+@media(max-width:700px){
+ .opening-inner{min-height:760px;max-width:430px}
+ .chandelier{top:12px;right:-34px;width:360px}
+ .introduction{margin:0 24px;width:auto;padding:500px 0 64px;font-size:18px;line-height:30px;letter-spacing:0}
+ .reading{margin:16px 24px 56px;padding:28px 0 0;max-width:none}
+ .reading p{font-size:18px;line-height:30px}
+}
+@media(max-width:359px){
+ .opening-inner{min-height:740px}
+ .chandelier{width:330px;right:-34px}
+ .introduction{padding-top:460px;margin:0 22px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Preserve board coordinates; correct the original dimensioned zoom expression. */
+@media(min-width:701px) and (max-width:1319px){.board{zoom:calc(100vw / 1320px)}}
+@media(max-width:389px){.board{zoom:calc(100vw / 390px)}}
