@@ -1,0 +1,11 @@
+const stage=document.querySelector('.stage'),opening=document.querySelector('.opening'),paper=document.querySelector('.paper'),map=document.querySelector('.map-layer'),slider=document.querySelector('#progress'),phase=document.querySelector('#phase'),play=document.querySelector('#play');
+const capture=new URLSearchParams(location.search).has('capture');if(capture)document.body.classList.add('capture');
+const clamp=x=>Math.max(0,Math.min(1,x));const smooth=x=>{x=clamp(x);return x*x*(3-2*x)};
+let raf=0,current=0;
+function setProgress(p){current=clamp(p);const outgoing=1-smooth((current-.02)/.38),ground=smooth((current-.14)/.34),incoming=smooth((current-.38)/.62);opening.style.opacity=outgoing;opening.style.transform=`translateY(${-24*(1-outgoing)}px)`;paper.style.opacity=ground;map.style.opacity=incoming;map.style.transform=`translateY(${18*(1-incoming)}px)`;const end=current>=.999;stage.classList.toggle('at-end',end);map.inert=!end;map.setAttribute('aria-hidden',String(!end));opening.inert=current>.4;opening.setAttribute('aria-hidden',String(current>.4));slider.value=Math.round(current*1000);phase.textContent=current<.15?'暗场':current<.75?'整屏变亮':'图谱显现';}
+function stop(){cancelAnimationFrame(raf);raf=0;play.textContent='重播';}
+function replay(){stop();map.scrollTop=0;setProgress(0);play.textContent='暂停';const start=performance.now();function frame(now){const elapsed=now-start;setProgress((elapsed-900)/3400);if(elapsed<4300)raf=requestAnimationFrame(frame);else stop()}raf=requestAnimationFrame(frame);}
+play.onclick=()=>raf?stop():replay();slider.oninput=()=>{stop();map.scrollTop=0;setProgress(Number(slider.value)/1000)};
+window.transitionDemo={setProgress,stop,replay,get progress(){return current}};
+document.querySelectorAll('.figure-ref').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();document.querySelector('#sources').open=true;const target=document.querySelector(a.hash);target.setAttribute('tabindex','-1');target.scrollIntoView({block:'center',behavior:'auto'});target.focus({preventScroll:true});}));
+setProgress(0);window.demoReady=Promise.all([document.fonts.ready,...[...document.images].map(i=>i.decode().catch(()=>{}))]);window.demoReady.then(()=>{if(!capture&&!matchMedia('(prefers-reduced-motion: reduce)').matches)replay()});

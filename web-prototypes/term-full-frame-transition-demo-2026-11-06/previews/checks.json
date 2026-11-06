@@ -1,0 +1,162 @@
+{
+  "frames": [
+    {
+      "progress": 0,
+      "openingOpacity": "1",
+      "paperOpacity": "0",
+      "mapOpacity": "0",
+      "stageWidth": 390,
+      "paperWidth": 390,
+      "mapWidth": 390,
+      "scrollWidth": 390,
+      "width": 390,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "progress": 0.25,
+      "openingOpacity": "0.344438",
+      "paperOpacity": "0.246285",
+      "mapOpacity": "0",
+      "stageWidth": 390,
+      "paperWidth": 390,
+      "mapWidth": 390,
+      "scrollWidth": 390,
+      "width": 390,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "progress": 0.5,
+      "openingOpacity": "0",
+      "paperOpacity": "1",
+      "mapOpacity": "0.0978819",
+      "stageWidth": 390,
+      "paperWidth": 390,
+      "mapWidth": 390,
+      "scrollWidth": 390,
+      "width": 390,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "progress": 0.75,
+      "openingOpacity": "0",
+      "paperOpacity": "1",
+      "mapOpacity": "0.643349",
+      "stageWidth": 390,
+      "paperWidth": 390,
+      "mapWidth": 390,
+      "scrollWidth": 390,
+      "width": 390,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "progress": 1,
+      "openingOpacity": "0",
+      "paperOpacity": "1",
+      "mapOpacity": "1",
+      "stageWidth": 390,
+      "paperWidth": 390,
+      "mapWidth": 390,
+      "scrollWidth": 390,
+      "width": 390,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "progress": 0,
+      "openingOpacity": "1",
+      "paperOpacity": "0",
+      "mapOpacity": "0",
+      "stageWidth": 1440,
+      "paperWidth": 1440,
+      "mapWidth": 1440,
+      "scrollWidth": 1440,
+      "width": 1440,
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "progress": 0.25,
+      "openingOpacity": "0.344438",
+      "paperOpacity": "0.246285",
+      "mapOpacity": "0",
+      "stageWidth": 1440,
+      "paperWidth": 1440,
+      "mapWidth": 1440,
+      "scrollWidth": 1440,
+      "width": 1440,
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "progress": 0.5,
+      "openingOpacity": "0",
+      "paperOpacity": "1",
+      "mapOpacity": "0.0978819",
+      "stageWidth": 1440,
+      "paperWidth": 1440,
+      "mapWidth": 1440,
+      "scrollWidth": 1440,
+      "width": 1440,
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "progress": 0.75,
+      "openingOpacity": "0",
+      "paperOpacity": "1",
+      "mapOpacity": "0.643349",
+      "stageWidth": 1440,
+      "paperWidth": 1440,
+      "mapWidth": 1440,
+      "scrollWidth": 1440,
+      "width": 1440,
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "progress": 1,
+      "openingOpacity": "0",
+      "paperOpacity": "1",
+      "mapOpacity": "1",
+      "stageWidth": 1440,
+      "paperWidth": 1440,
+      "mapWidth": 1440,
+      "scrollWidth": 1440,
+      "width": 1440,
+      "viewport": [
+        1440,
+        900
+      ]
+    }
+  ],
+  "controls": {
+    "slider": true,
+    "playPause": true,
+    "reducedMotion": true,
+    "reverse": true,
+    "sourceLinksAtEnd": true
+  },
+  "scope": "manual-progress demo; production scroll not implemented"
+}
