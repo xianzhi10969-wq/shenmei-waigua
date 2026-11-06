@@ -1,0 +1,249 @@
+{
+  "source_commit": "13c7d07b73274fc7d307ecd1fb94595dc132b0ee",
+  "board_markup_exact": true,
+  "styles_identical": true,
+  "original_assets_identical": true,
+  "lamp_identical": true,
+  "viewports": [
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "h1": 1,
+      "pieces": 10,
+      "imagesOK": true,
+      "boardTop": 866,
+      "bodyTop": 1915.84375,
+      "heading": "Coquette",
+      "copyLeft": 36,
+      "introExact": true,
+      "bodyExact": true,
+      "sourceLinkWorks": true,
+      "layout": {
+        "term-name": {
+          "x": 36,
+          "y": 454,
+          "width": 248,
+          "height": 80,
+          "font": "72px",
+          "line": "80px"
+        },
+        "intro-lead": {
+          "x": 36,
+          "y": 566,
+          "width": 248,
+          "height": 64,
+          "font": "20px",
+          "line": "32px"
+        },
+        "intro-continuation": {
+          "x": 60,
+          "y": 654,
+          "width": 224,
+          "height": 140,
+          "font": "16px",
+          "line": "28px"
+        }
+      }
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "h1": 1,
+      "pieces": 10,
+      "imagesOK": true,
+      "boardTop": 888,
+      "bodyTop": 2164,
+      "heading": "Coquette",
+      "copyLeft": 44,
+      "introExact": true,
+      "bodyExact": true,
+      "sourceLinkWorks": true,
+      "layout": {
+        "term-name": {
+          "x": 44,
+          "y": 492,
+          "width": 302,
+          "height": 92,
+          "font": "84px",
+          "line": "92px"
+        },
+        "intro-lead": {
+          "x": 44,
+          "y": 616,
+          "width": 302,
+          "height": 64,
+          "font": "21px",
+          "line": "32px"
+        },
+        "intro-continuation": {
+          "x": 68,
+          "y": 704,
+          "width": 278,
+          "height": 112,
+          "font": "16px",
+          "line": "28px"
+        }
+      }
+    },
+    {
+      "width": 430,
+      "scrollWidth": 430,
+      "h1": 1,
+      "pieces": 10,
+      "imagesOK": true,
+      "boardTop": 888,
+      "bodyTop": 2164,
+      "heading": "Coquette",
+      "copyLeft": 44,
+      "introExact": true,
+      "bodyExact": true,
+      "sourceLinkWorks": true,
+      "layout": {
+        "term-name": {
+          "x": 44,
+          "y": 492,
+          "width": 342,
+          "height": 92,
+          "font": "84px",
+          "line": "92px"
+        },
+        "intro-lead": {
+          "x": 44,
+          "y": 616,
+          "width": 342,
+          "height": 64,
+          "font": "21px",
+          "line": "32px"
+        },
+        "intro-continuation": {
+          "x": 68,
+          "y": 704,
+          "width": 318,
+          "height": 112,
+          "font": "16px",
+          "line": "28px"
+        }
+      }
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "h1": 1,
+      "pieces": 10,
+      "imagesOK": true,
+      "boardTop": 702,
+      "bodyTop": 1362.359375,
+      "heading": "Coquette",
+      "copyLeft": 61.4375,
+      "introExact": true,
+      "bodyExact": true,
+      "sourceLinkWorks": true,
+      "layout": {
+        "term-name": {
+          "x": 61.4375,
+          "y": 250,
+          "width": 360.953125,
+          "height": 88,
+          "font": "80px",
+          "line": "88px"
+        },
+        "intro-lead": {
+          "x": 61.4375,
+          "y": 370,
+          "width": 360.953125,
+          "height": 72,
+          "font": "22px",
+          "line": "36px"
+        },
+        "intro-continuation": {
+          "x": 93.4375,
+          "y": 474,
+          "width": 328.953125,
+          "height": 128,
+          "font": "18px",
+          "line": "32px"
+        }
+      }
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "h1": 1,
+      "pieces": 10,
+      "imagesOK": true,
+      "boardTop": 670,
+      "bodyTop": 1539.8125,
+      "heading": "Coquette",
+      "copyLeft": 81.90625,
+      "introExact": true,
+      "bodyExact": true,
+      "sourceLinkWorks": true,
+      "layout": {
+        "term-name": {
+          "x": 81.90625,
+          "y": 250,
+          "width": 481.265625,
+          "height": 88,
+          "font": "80px",
+          "line": "88px"
+        },
+        "intro-lead": {
+          "x": 81.90625,
+          "y": 370,
+          "width": 481.265625,
+          "height": 72,
+          "font": "22px",
+          "line": "36px"
+        },
+        "intro-continuation": {
+          "x": 113.90625,
+          "y": 474,
+          "width": 449.265625,
+          "height": 96,
+          "font": "18px",
+          "line": "32px"
+        }
+      }
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1": 1,
+      "pieces": 10,
+      "imagesOK": true,
+      "boardTop": 720,
+      "bodyTop": 1832,
+      "heading": "Coquette",
+      "copyLeft": 164.015625,
+      "introExact": true,
+      "bodyExact": true,
+      "sourceLinkWorks": true,
+      "layout": {
+        "term-name": {
+          "x": 164.015625,
+          "y": 220,
+          "width": 600,
+          "height": 112,
+          "font": "104px",
+          "line": "112px"
+        },
+        "intro-lead": {
+          "x": 164.015625,
+          "y": 360,
+          "width": 600,
+          "height": 40,
+          "font": "24px",
+          "line": "40px"
+        },
+        "intro-continuation": {
+          "x": 220.015625,
+          "y": 432,
+          "width": 544,
+          "height": 96,
+          "font": "20px",
+          "line": "32px"
+        }
+      }
+    }
+  ]
+}

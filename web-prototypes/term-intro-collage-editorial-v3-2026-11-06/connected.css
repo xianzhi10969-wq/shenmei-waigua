@@ -1,0 +1,41 @@
+@font-face{font-family:IntroCN;src:url(assets/fonts/IntroCN.woff2) format("woff2");font-style:normal;font-weight:400;font-display:block}
+html{scroll-behavior:auto}
+.opening{background:#131218;color:#f8f6ef;overflow:hidden}
+.opening-inner{position:relative;max-width:1440px;min-height:720px;margin:auto}
+.chandelier{position:absolute;top:-80px;right:20px;width:570px;height:auto;max-width:none;pointer-events:none;user-select:none}
+.opening-copy{position:relative;margin-left:11.39%;width:600px;padding:220px 0 100px}
+.term-name{font:italic 500 104px/112px BoardDisplay,serif;letter-spacing:-.035em;margin:0 0 28px;color:inherit}
+.introduction{margin:0;font-family:IntroCN,"Songti SC",serif;letter-spacing:0;text-align:left;overflow-wrap:break-word}
+.intro-lead{display:block;font-size:24px;line-height:40px}
+.intro-continuation{display:block;margin:32px 0 0 56px;font-size:20px;line-height:32px}
+.reading{max-width:660px;margin:32px auto 80px;padding:32px 24px 0;border-top:1px solid #263c3233;color:#263c32}
+.reading p{font:20px/34px IntroCN,"Songti SC",serif;margin:0;text-wrap:pretty}
+.notes{margin-top:0}
+@media(min-width:701px) and (max-width:1199px){
+ .opening-inner{min-height:650px}
+ .chandelier{width:clamp(350px,40vw,440px);right:-45px;top:-40px}
+ .opening-copy{margin-left:8%;width:47%;padding:250px 0 100px}
+ .term-name{font-size:80px;line-height:88px;margin-bottom:32px}
+ .intro-lead{font-size:22px;line-height:36px}
+ .intro-continuation{margin-left:32px;font-size:18px;line-height:32px}
+}
+@media(max-width:700px){
+ .opening-inner{min-height:0;max-width:430px}
+ .chandelier{top:12px;right:-34px;width:360px}
+ .opening-copy{margin:0 44px;width:auto;padding:492px 0 72px}
+ .term-name{font-size:84px;line-height:92px;margin:0 0 32px}
+ .intro-lead{font-size:21px;line-height:32px}
+ .intro-continuation{margin:24px 0 0 24px;font-size:16px;line-height:28px}
+ .reading{margin:16px 44px 56px;padding:28px 0 0;max-width:none}
+ .reading p{font-size:18px;line-height:30px}
+}
+@media(max-width:359px){
+ .chandelier{width:330px;right:-34px}
+ .opening-copy{margin:0 36px;padding-top:454px}
+ .term-name{font-size:72px;line-height:80px}
+ .intro-lead{font-size:20px;line-height:32px}
+ .reading{margin-left:36px;margin-right:36px}
+}
+/* Preserve the approved collage's internal layout and scale its whole canvas. */
+@media(min-width:701px) and (max-width:1319px){.board{zoom:calc(100vw / 1320px)}}
+@media(max-width:389px){.board{zoom:calc(100vw / 390px)}}

@@ -1,0 +1,53 @@
+{
+  "mobile": {
+    "width": 390,
+    "title": {
+      "x": 44,
+      "y": 492,
+      "font": 84
+    },
+    "lead": {
+      "x": 44,
+      "y": 616,
+      "width": 302,
+      "font": 21,
+      "line": 32,
+      "height": 64
+    },
+    "continuation": {
+      "x": 68,
+      "y": 704,
+      "width": 278,
+      "font": 16,
+      "line": 28,
+      "height": 112
+    },
+    "board_top": 888
+  },
+  "desktop": {
+    "width": 1440,
+    "title": {
+      "x": 164,
+      "y": 220,
+      "font": 104
+    },
+    "lead": {
+      "x": 164,
+      "y": 360,
+      "width": 600,
+      "font": 24,
+      "line": 40,
+      "height": 40
+    },
+    "continuation": {
+      "x": 220,
+      "y": 432,
+      "width": 544,
+      "font": 20,
+      "line": 32,
+      "height": 96
+    },
+    "board_top": 720
+  },
+  "verbatim": true
+}
