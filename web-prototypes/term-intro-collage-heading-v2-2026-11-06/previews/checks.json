@@ -1,0 +1,93 @@
+{
+  "source_commit": "13c7d07b73274fc7d307ecd1fb94595dc132b0ee",
+  "board_markup_exact": true,
+  "styles_identical": true,
+  "original_assets_identical": true,
+  "lamp_identical": true,
+  "viewports": [
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "h1": 1,
+      "pieces": 10,
+      "imagesOK": true,
+      "boardTop": 848.4375,
+      "bodyTop": 1898.28125,
+      "heading": "Coquette",
+      "copyLeft": 36,
+      "introExact": true,
+      "bodyExact": true,
+      "sourceLinkWorks": true
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "h1": 1,
+      "pieces": 10,
+      "imagesOK": true,
+      "boardTop": 866.625,
+      "bodyTop": 2142.625,
+      "heading": "Coquette",
+      "copyLeft": 44,
+      "introExact": true,
+      "bodyExact": true,
+      "sourceLinkWorks": true
+    },
+    {
+      "width": 430,
+      "scrollWidth": 430,
+      "h1": 1,
+      "pieces": 10,
+      "imagesOK": true,
+      "boardTop": 835.625,
+      "bodyTop": 2111.625,
+      "heading": "Coquette",
+      "copyLeft": 44,
+      "introExact": true,
+      "bodyExact": true,
+      "sourceLinkWorks": true
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "h1": 1,
+      "pieces": 10,
+      "imagesOK": true,
+      "boardTop": 690.390625,
+      "bodyTop": 1350.75,
+      "heading": "Coquette",
+      "copyLeft": 61.4375,
+      "introExact": true,
+      "bodyExact": true,
+      "sourceLinkWorks": true
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "h1": 1,
+      "pieces": 10,
+      "imagesOK": true,
+      "boardTop": 652.390625,
+      "bodyTop": 1522.203125,
+      "heading": "Coquette",
+      "copyLeft": 81.90625,
+      "introExact": true,
+      "bodyExact": true,
+      "sourceLinkWorks": true
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1": 1,
+      "pieces": 10,
+      "imagesOK": true,
+      "boardTop": 720,
+      "bodyTop": 1832,
+      "heading": "Coquette",
+      "copyLeft": 164.015625,
+      "introExact": true,
+      "bodyExact": true,
+      "sourceLinkWorks": true
+    }
+  ]
+}

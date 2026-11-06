@@ -1,0 +1,25 @@
+{
+  "source": "Feishu CLI read-only",
+  "profile": "aesthetic-feishu",
+  "base_token": "IGctbcuwPaE6hMsmAoicJddpn3U",
+  "table_id": "tbl2gR8WBoqCQyGz",
+  "record_id": "reczz28HJJL2GJHl",
+  "rev": 232,
+  "read_date": "2026-11-06",
+  "intro_field": {
+    "id": "fld4n6xZoj",
+    "name": "钩子"
+  },
+  "term": "Coquette",
+  "intro": "镜前的人把缎带系好，又故意留下一截没收齐的带尾。你看得出她为被看见做了准备，却不能确定她想让谁看。做 Coquette 若只把蝴蝶结、蕾丝和粉色往上堆，调情会变成商品标签，人物反倒没了心思。",
+  "body": "Coquette 最初并不是一种关于粉色、蕾丝、蝴蝶结的美学，而是一种关于「如何制造吸引力」的行为艺术。这件事早在一百多年前，就有社会学家专门研究过。",
+  "core": "Coquette 的迷人之处，是看起来柔软，却不意味着任人摆布。",
+  "subtitle": "轻到一只鞋飞出去",
+  "name_fields": {
+    "词": "Coquette",
+    "英文": "Coquette",
+    "translation": null,
+    "read_date": "2026-11-06",
+    "rev": 232
+  }
+}
