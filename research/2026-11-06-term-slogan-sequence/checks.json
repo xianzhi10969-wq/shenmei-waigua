@@ -1,14 +1,14 @@
 {
   "mobile": {
-    "piece_count": 10,
-    "slogan_slots": 1,
-    "board_groups": 1,
-    "body_groups": 1
+    "intro_matches_feishu": true,
+    "body_matches_feishu": true,
+    "intro_fits": true,
+    "piece_count": 10
   },
   "desktop": {
-    "piece_count": 10,
-    "slogan_slots": 1,
-    "board_groups": 1,
-    "body_groups": 1
+    "intro_matches_feishu": true,
+    "body_matches_feishu": true,
+    "intro_fits": true,
+    "piece_count": 10
   }
 }
