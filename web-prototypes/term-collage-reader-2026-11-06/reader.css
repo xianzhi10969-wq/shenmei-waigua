@@ -1,0 +1,28 @@
+*{box-sizing:border-box}
+:root{--paper:#f8f6ef;--ink:#1e1e1e;--night:#131218}
+html{background:var(--night);scroll-behavior:auto}
+body{margin:0;color:var(--ink);font-family:"Songti SC","Noto Serif CJK SC",serif}
+.reader{width:min(100%,390px);margin:auto;background:var(--paper)}
+.opening{margin:0;overflow:hidden;aspect-ratio:390/938;background:var(--night)}
+.opening img{display:block;width:100%;height:auto}
+.plate-entry{margin:0 24px;padding:22px 0;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #1e1e1e33;gap:12px}
+.folio{font:11px/18px system-ui,sans-serif;letter-spacing:.08em}
+button{color:inherit;font:inherit;border:0;border-radius:0;background:transparent;cursor:pointer;padding:10px 0;min-height:44px}
+#open-board{font-size:16px;line-height:24px;border-bottom:1px solid currentColor;padding:6px 0}
+#open-board span{padding-left:16px;font:22px/24px serif}
+button:hover{opacity:.7}
+button:focus-visible,a:focus-visible{outline:2px solid currentColor;outline-offset:5px}
+.prose{padding:30px 24px 72px;font-size:17px;line-height:28px}
+.prose p{margin:0}
+.to-top{display:inline-block;margin-top:48px;font-size:12px;color:inherit;text-decoration:none}
+dialog{position:fixed;inset:0;width:min(100%,1368px);height:100dvh;max-width:none;max-height:none;margin:auto;padding:0;border:0;background:#fff;color:var(--ink);overflow:hidden}
+dialog[open]{display:flex;flex-direction:column;animation:appear 180ms ease-out}
+dialog::backdrop{background:#131218e8}
+.plate-bar{flex:0 0 auto;min-height:64px;padding:8px max(24px,env(safe-area-inset-right)) 8px max(24px,env(safe-area-inset-left));display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #1e1e1e26;background:#fff;gap:16px;font-size:13px;line-height:20px}
+.plate-count{font-size:11px;opacity:.6;padding-left:6px}
+#close-board{font-size:14px;white-space:nowrap}
+#close-board span{font:25px/20px serif;margin-left:12px;vertical-align:-2px}
+iframe{display:block;width:100%;flex:1;min-height:0;border:0;background:#fff;padding-bottom:env(safe-area-inset-bottom)}
+@keyframes appear{from{opacity:0}to{opacity:1}}
+@media(max-width:700px){dialog{width:100%;height:100dvh}.plate-bar{padding-top:max(8px,env(safe-area-inset-top));min-height:60px}}
+@media(prefers-reduced-motion:reduce){dialog[open]{animation:none}}

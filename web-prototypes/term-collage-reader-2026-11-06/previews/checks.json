@@ -1,0 +1,46 @@
+[
+  {
+    "width": 390,
+    "pieces": 10,
+    "entry_scroll": 473,
+    "returned_scroll": 473,
+    "escape_from_board": true,
+    "button_close": true,
+    "focus_restored": true,
+    "no_horizontal_overflow": true,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "pieces": 10,
+    "entry_scroll": 4,
+    "returned_scroll": 4,
+    "escape_from_board": true,
+    "button_close": true,
+    "focus_restored": true,
+    "no_horizontal_overflow": true,
+    "errors": []
+  },
+  {
+    "width": 320,
+    "pieces": 10,
+    "entry_scroll": 437,
+    "returned_scroll": 437,
+    "escape_from_board": true,
+    "button_close": true,
+    "focus_restored": true,
+    "no_horizontal_overflow": true,
+    "errors": []
+  },
+  {
+    "width": 430,
+    "pieces": 10,
+    "entry_scroll": 385,
+    "returned_scroll": 385,
+    "escape_from_board": true,
+    "button_close": true,
+    "focus_restored": true,
+    "no_horizontal_overflow": true,
+    "errors": []
+  }
+]
