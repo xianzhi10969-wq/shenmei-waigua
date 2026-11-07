@@ -1,0 +1,8 @@
+/* Desktop viewport repair only. Original artwork/masks and mobile are unchanged. */
+@media(min-width:681px){
+ #adopted-p3 .gallery{min-height:100svh;padding:20px 48px 16px}
+ #adopted-p3 .stage{width:min(100%,calc((100svh - 180px)*945/995));aspect-ratio:945/995;margin-top:8px}
+ #adopted-p3 .pager{margin-top:8px;min-height:40px}
+ #adopted-p3 .definition{margin-top:8px}
+ #adopted-p3 .credits{margin-top:4px}
+}
