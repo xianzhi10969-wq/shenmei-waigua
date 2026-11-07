@@ -1,0 +1,410 @@
+{
+  "shylight": {
+    "source_file": "additions/shylight.jpg",
+    "url": "https://studiodrift.com/work/shylight/",
+    "image_url": "https://i0.wp.com/studiodrift.com/wp-content/uploads/2021/02/Shylight-by-Studio-Drift-Photo-by-Juuke-Schoorl-scaled.jpg?resize=2048%2C1366&ssl=1",
+    "alt": "DRIFT · Shylight｜摄影 Juuke Schoorl",
+    "object_id": "shylight",
+    "board": "softcore",
+    "case_record_id": null,
+    "term_record_id": null,
+    "origin": "external-reference",
+    "native": [
+      2048,
+      1366
+    ],
+    "credit": "Photo courtesy of DRIFT",
+    "sha256": "7ba1911cf24d850aa953a3a75264bc9b39528056ef4b2337723fa8f7c80f51e3"
+  },
+  "synthi": {
+    "source_file": "additions/synthi.jpg",
+    "url": "https://www.vam.ac.uk/exhibitions/david-bowie-centre",
+    "image_url": "https://assets-cdn.vam.ac.uk/2025/10/24/14/51/57/aa8a82de-8539-4010-b4b8-3e093df52bf5/1280.jpg",
+    "alt": "EMS Synthi AKS · Eno 与 Bowie 使用的合成器，1970s",
+    "object_id": "synthi",
+    "board": "retro-rock",
+    "case_record_id": null,
+    "term_record_id": null,
+    "origin": "external-reference",
+    "native": [
+      1280,
+      1037
+    ],
+    "credit": "EMS Synthi AKS synthesizer, used by Brian Eno and David Bowie for Heroes, Low and Lodger, 1970s, Britain",
+    "sha256": "fcdd1e0663481f8664ea06fb501a9dd28054d9edb9ba4614fb72ce4c9f513804"
+  },
+  "ufo": {
+    "source_file": "additions/ufo.jpg",
+    "url": "https://www.vam.ac.uk/articles/a-short-history-of-the-poster",
+    "image_url": "https://assets-cdn.vam.ac.uk/2026/06/18/16/56/08/fc149d9c-b78c-4b06-9f43-cbbc00855fb0/1280.jpg",
+    "alt": "Michael English & Nigel Waymouth · CIA v UFO 海报，1967",
+    "object_id": "ufo",
+    "board": "retro-rock",
+    "case_record_id": null,
+    "term_record_id": null,
+    "origin": "external-reference",
+    "native": [
+      1280,
+      1894
+    ],
+    "credit": "CIA v UFO, colour screenprint poster, by Michael English and Nigel Waymouth, 1967, UK. Museum no. E.1713-1991. © Victoria and Albert Museum, London Otis Rush, colour offset lithograph poster, by Wes Wilson, 1967, US. Museum no. E.507-2004. © Victoria and Albert Museum, London",
+    "sha256": "7c5013e75d9fa72b6007f456dc2c72948f7ab10110e40288534f4be23175ce0c"
+  },
+  "bowie-guitar": {
+    "source_file": "additions/bowie-guitar.jpg",
+    "url": "https://www.vam.ac.uk/exhibitions/david-bowie-centre",
+    "image_url": "https://assets-cdn.vam.ac.uk/2025/10/24/14/35/03/865be1bf-10a8-435d-b9d4-2588b4cc6da5/1280.jpg",
+    "alt": "David Bowie · Steinberger Hohner G2 电吉他",
+    "object_id": "bowie-guitar",
+    "board": "retro-rock",
+    "case_record_id": null,
+    "term_record_id": null,
+    "origin": "external-reference",
+    "native": [
+      1280,
+      1710
+    ],
+    "credit": "Red Steinberger Hohner electric guitar (G2 Tremelo model) with case and accessories, gifted to David Bowie in 2000 and used in ‘Valentine’s Day’ music video, 2013",
+    "sha256": "96287cd67c088e5e50c264cd855cdc27c95ba487d48f911868c28cd2296ac088"
+  },
+  "bowie-suit": {
+    "source_file": "additions/bowie-suit.jpg",
+    "url": "https://www.vam.ac.uk/exhibitions/david-bowie-centre",
+    "image_url": "https://assets-cdn.vam.ac.uk/2025/09/11/12/25/31/1d865485-2384-4d70-9d7e-88673d56cd6b/1280.jpg",
+    "alt": "Freddie Burretti · Life on Mars? 演出服，1972",
+    "object_id": "bowie-suit",
+    "board": "retro-rock",
+    "case_record_id": null,
+    "term_record_id": null,
+    "origin": "external-reference",
+    "native": [
+      1280,
+      1738
+    ],
+    "credit": "Suit, designed by Freddie Burretti for David Bowie in the 'Life on Mars?' music video, 1972, Britain",
+    "sha256": "4913ef2a4e9c060ecd46591b366db0cb3577e91f06eb049ab92bdc7b9e6232f3"
+  },
+  "circus": {
+    "source_file": "additions/circus.jpg",
+    "url": "https://www.vam.ac.uk/articles/a-short-history-of-the-poster",
+    "image_url": "https://assets-cdn.vam.ac.uk/2026/06/18/17/19/31/51e961d9-bfa2-437e-9583-97f20fc74dd4/1280.jpg",
+    "alt": "Hubert Hilscher · Cyrk，1970",
+    "object_id": "circus",
+    "board": "dopamine",
+    "case_record_id": null,
+    "term_record_id": null,
+    "origin": "external-reference",
+    "native": [
+      1280,
+      1865
+    ],
+    "credit": "Cyrk, colour lithograph poster, by Hubert Hilscher, 1970, Poland. Museum no. E.1084-1976. © Victoria and Albert Museum, London",
+    "sha256": "bb78200aaef5c783e03ffa4fc756fcce24461dcfe84c124cd2c7c8c49f161404"
+  },
+  "bowie-shoes": {
+    "source_file": "additions/bowie-shoes.jpg",
+    "url": "https://www.vam.ac.uk/exhibitions/david-bowie-centre",
+    "image_url": "https://assets-cdn.vam.ac.uk/2025/10/24/14/41/17/cfe145e8-970c-4876-9ab3-7dc8561bea04/1280.jpg",
+    "alt": "Pelican Footwear · David Bowie / Ziggy Stardust 舞台鞋，1972",
+    "object_id": "bowie-shoes",
+    "board": "retro-rock",
+    "case_record_id": null,
+    "term_record_id": null,
+    "origin": "external-reference",
+    "native": [
+      1280,
+      960
+    ],
+    "credit": "Shoes, designed by Pelican Footwear (219 Bowery NYC) for David Bowie as Ziggy Stardust, 1972, United States",
+    "sha256": "7aab3b4afb7516139649578c73b6aa2a8623fb04c1d5a61ddae1626177cdbd18"
+  },
+  "lipsofa": {
+    "source_file": "additions/lipsofa.jpg",
+    "url": "https://www.vam.ac.uk/articles/a-surrealist-sofa-by-salvador-dal%C3%AD-and-edward-james",
+    "image_url": "https://vanda-production-assets.s3.amazonaws.com/2019/02/25/13/38/27/50544adc-5b32-41b9-a623-54ef44192193/2018KX3594-lips-sofa-1280.jpg",
+    "alt": "Salvador Dalí & Edward James · Mae West Lips Sofa，1938–39",
+    "object_id": "lipsofa",
+    "board": "dopamine",
+    "case_record_id": null,
+    "term_record_id": null,
+    "origin": "external-reference",
+    "native": [
+      320,
+      192
+    ],
+    "credit": "Mae West Lips sofa, Salvador Dalí and Edward James, 1938 – 39, England. Museum no. W.6-2018. © Victoria and Albert Museum, London",
+    "sha256": "724f3091d7ab7c71a00d85e40542ec7b7fb68f92b620b94c14a20903833c4b6e"
+  },
+  "jellyfish": {
+    "source_file": "additions/jellyfish.jpg",
+    "url": "https://www.nendo.jp/en/works/jellyfish-vase/",
+    "image_url": "https://www.nendo.jp/wp/wp-content/uploads/2017/04/jellyfish_vase02_akihiro_yoshida-1.jpg",
+    "alt": "nendo · Jellyfish Vase，2017｜摄影 Akihiro Yoshida",
+    "object_id": "jellyfish",
+    "board": "softcore",
+    "case_record_id": null,
+    "term_record_id": null,
+    "origin": "external-reference",
+    "native": [
+      820,
+      547
+    ],
+    "credit": "",
+    "sha256": "fd18bf74ea95bcf5cbbaa953f3270f6348464e3292201d61f5572dc36242cbac"
+  },
+  "heart": {
+    "source_file": "additions/heart.jpg",
+    "url": "https://www.verner-panton.com/en/collection/prod-heart-cone-chair/",
+    "image_url": "https://www.verner-panton.com/wp-content/uploads/2020/01/heart-cone_89ec4f5.jpg",
+    "alt": "Verner Panton · Heart Cone Chair，1958",
+    "object_id": "heart",
+    "board": "dopamine",
+    "case_record_id": null,
+    "term_record_id": null,
+    "origin": "external-reference",
+    "native": [
+      355,
+      289
+    ],
+    "credit": "",
+    "sha256": "d68f19b90aa7c185c8be2737d42062cac7275789ab1658afecd18d46c5db6032"
+  },
+  "panthella": {
+    "source_file": "additions/panthella.jpg",
+    "url": "https://www.verner-panton.com/en/collection/panthella/",
+    "image_url": "https://www.verner-panton.com/wp-content/uploads/2018/07/1337-1.jpg",
+    "alt": "Verner Panton · Panthella，1971",
+    "object_id": "panthella",
+    "board": "softcore",
+    "case_record_id": null,
+    "term_record_id": null,
+    "origin": "external-reference",
+    "native": [
+      676,
+      680
+    ],
+    "credit": "VP0481-00-B-D07",
+    "sha256": "6a0684bb16b0c95a1e05fe17a5006321bda5f64c3beb49672d8dc662267f72ac"
+  },
+  "flowerpot": {
+    "source_file": "additions/flowerpot.jpg",
+    "url": "https://www.verner-panton.com/en/collection/flowerpot/",
+    "image_url": "https://www.verner-panton.com/wp-content/uploads/2018/06/Panton_FlowerPot_Tisch.jpg",
+    "alt": "Verner Panton · Flowerpot 台灯，1968",
+    "object_id": "flowerpot",
+    "board": "dopamine",
+    "case_record_id": null,
+    "term_record_id": null,
+    "origin": "external-reference",
+    "native": [
+      676,
+      660
+    ],
+    "credit": "VP-ON-95",
+    "sha256": "c8747a51ea3868859854f62926a9b1c7c411e1058634605b11edcfebe6e81697"
+  },
+  "hockney": {
+    "source_file": "additions/hockney.jpg",
+    "url": "https://www.tate.org.uk/art/artworks/hockney-a-bigger-splash-t03254",
+    "image_url": "https://media.tate.org.uk/art/images/work/T/T03/T03254_7.jpg",
+    "alt": "David Hockney · A Bigger Splash，1967 / Tate",
+    "object_id": "hockney",
+    "board": "midsummer",
+    "case_record_id": null,
+    "term_record_id": null,
+    "origin": "external-reference",
+    "native": [
+      128,
+      126
+    ],
+    "credit": "You might like Left Right Water Pouring into Swimming Pool, Santa Monica David Hockney 1964 View by appointment Hotel Acatlan: Second Day David Hockney 1984–5 Portrait of Cavafy in Alexandria David Hockney 1966 View by appointment He Enquired After the Quality David Hockney 1966 View by appointment Mr and Mrs Clark and Percy David Hockney 1970–1 Man in Shower in Beverly Hills David Hockney 1964 On display at Tate Modern part of In the Studio My Parents David Hockney 1977 The Third Love Painting ",
+    "sha256": "8d3a9ee8571b837b95fc6bcc3e53cef359fd2e22e2e0b9b9eb7885b3f1af34f0"
+  },
+  "swim": {
+    "source_file": "additions/swim.jpg",
+    "url": "https://www.metmuseum.org/art/collection/search/86495",
+    "image_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/86495/322366/restricted",
+    "alt": "Tom Brigance · Bathing Suit，1960 / The Met",
+    "object_id": "swim",
+    "board": "midsummer",
+    "case_record_id": null,
+    "term_record_id": null,
+    "origin": "external-reference",
+    "native": [
+      335,
+      600
+    ],
+    "credit": "",
+    "sha256": "76f23a97b6322a60b7ceccf5d1fe2a399659628877a244aa452c86b85aed0190"
+  },
+  "necklace": {
+    "source_file": "additions/necklace.jpg",
+    "url": "https://www.metmuseum.org/art/collection/search/483898",
+    "image_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/483898/1794312/restricted",
+    "alt": "René Lalique · Necklace，ca.1897–99 / The Met",
+    "object_id": "necklace",
+    "board": "decadence",
+    "case_record_id": null,
+    "term_record_id": null,
+    "origin": "external-reference",
+    "native": [
+      450,
+      600
+    ],
+    "credit": "",
+    "sha256": "d3b1776289ea67dbe150f15365425a413d2e7c52fa5934ba8228582c26aa41d2"
+  },
+  "living": {
+    "source_file": "additions/living.jpg",
+    "url": "https://www.verner-panton.com/en/collection/prod-living-tower/",
+    "image_url": "https://www.verner-panton.com/wp-content/uploads/2020/01/Livingtower_R2_FS.jpg",
+    "alt": "Verner Panton · Living Tower，1969",
+    "object_id": "living",
+    "board": "dopamine",
+    "case_record_id": null,
+    "term_record_id": null,
+    "origin": "external-reference",
+    "native": [
+      2000,
+      1500
+    ],
+    "credit": "",
+    "sha256": "a0dda552b5304f4a568f9177b104760a6e8b0dace638f0e095b8fd6ddb5cb62f"
+  },
+  "tahiti": {
+    "source_file": "additions/tahiti.jpg",
+    "url": "https://www.centrepompidou.fr/en/ressources/oeuvre/MzJjset",
+    "image_url": "https://www.centrepompidou.fr/media/picture/bd/0f/bd0fbcaeb183711c8861d0870cd1205e/thumb_large.jpg",
+    "alt": "Ettore Sottsass · Tahiti 台灯设计图，1981 / Centre Pompidou",
+    "object_id": "tahiti",
+    "board": "dopamine",
+    "case_record_id": null,
+    "term_record_id": null,
+    "origin": "external-reference",
+    "native": [
+      610,
+      800
+    ],
+    "credit": "Ettore Sottsass Lampe de table Tahiti 1981 Ettore Sottsass (1917, Autriche - 2007, Italie) Lampe de table Tahiti 1981 Domain Dessin design Techniques Encre, crayon et crayon de couleur sur papier dessin Dimensions 30 x 23 cm Acquisition Don de l'artiste, 1999 Inventory no. AM 1999-1-12 (2) Is part of the set Etude de dessins pour lampe Memphis Ensemble\n                \n                \n                        (Dissociable set of artworks) dessin design lampe objet éclairage Credits © Adagp, Pari",
+    "sha256": "3f1ada7fcdb32a2452b11591f0d2468b18b9549292ee9ccbde1ffd39479d9390"
+  },
+  "sofa-large": {
+    "source_file": "additions/sofa-large.jpg",
+    "url": "https://www.vam.ac.uk/articles/a-surrealist-sofa-by-salvador-dal%C3%AD-and-edward-james",
+    "image_url": "https://vanda-production-assets.s3.amazonaws.com/2019/02/25/13/38/28/048e190e-0ed7-41f7-b65c-804d29b2b151/2018KX3594-lips-sofa-1280.jpg",
+    "alt": "Salvador Dalí & Edward James · Mae West Lips Sofa，1938–39",
+    "object_id": "sofa-large",
+    "board": "dopamine",
+    "case_record_id": null,
+    "term_record_id": null,
+    "origin": "external-reference",
+    "native": [
+      2560,
+      1534
+    ],
+    "credit": "Mae West Lips sofa, Salvador Dalí and Edward James, 1938 – 39, England. Museum no. W.6-2018. © Victoria and Albert Museum, London",
+    "sha256": "27db2e0e3cd62868a7a34791a0047d83a79013575fdaf64c35a9ae6d58881af1"
+  },
+  "sorolla": {
+    "source_file": "additions/sorolla.jpg",
+    "url": "https://www.cultura.gob.es/msorolla/en/colecciones/colecciones-del-museo/pintura/paseo-mar.html",
+    "image_url": "https://www.cultura.gob.es/.imaging/mte/micrositios-theme/contenido-cim-ancho-1c/dam/micrositios/msorolla/colecciones/colecciones-del-museo/pintura/baja-00834/jcr:content/baja-00834.jpg",
+    "alt": "Joaquín Sorolla · Strolling along the Seashore，1909",
+    "object_id": "sorolla",
+    "board": "midsummer",
+    "case_record_id": null,
+    "term_record_id": null,
+    "origin": "external-reference",
+    "native": [
+      2454,
+      2486
+    ],
+    "credit": "1909 Salto de línea Oil on canvas Salto de línea 205 x 200 cm Salto de línea Nº inv. 834 Painted in the summer of 1909 on the beach at Valencia after his resounding success in the United States, Strolling along the Seashore is one of Sorolla’s most celebrated paintings and among the most famous in the museum’s collection. The sea and sand of the shoreline, executed with broad blue, mauve and turquoise brushstrokes, become an abstract backdrop for the refined figures of the artist’s wife and thei",
+    "sha256": "fec84285cd466264c9017629cf13527048f2239cbbd9554de01eb8dc0e84af56"
+  },
+  "hockney-large": {
+    "source_file": "additions/hockney-large.jpg",
+    "url": "https://www.tate.org.uk/art/artworks/hockney-a-bigger-splash-t03254",
+    "image_url": "https://media.tate.org.uk/aztate-prd-ew-dg-wgtail-st1-ctr-data/images/.width-600_2zGhHxk.jpg",
+    "alt": "David Hockney · A Bigger Splash，1967 / Tate",
+    "object_id": "hockney-large",
+    "board": "midsummer",
+    "case_record_id": null,
+    "term_record_id": null,
+    "origin": "external-reference",
+    "native": [
+      600,
+      594
+    ],
+    "credit": "",
+    "sha256": "31ac9a1e23e97db33649f2ceded13a67a52752e526199e70f0bbad4debe6f7c5"
+  },
+  "roly": {
+    "source_file": "additions/roly.jpg",
+    "url": "https://www.driade.com/en/product/roly-poly-2/",
+    "image_url": "https://www.driade.com/wp-content/uploads/2026/10/driade-roly-poly-catalogue-2027-p166-987-1280x1793.jpg",
+    "alt": "Faye Toogood · Roly Poly / Driade",
+    "object_id": "roly",
+    "board": "softcore",
+    "case_record_id": null,
+    "term_record_id": null,
+    "origin": "external-reference",
+    "native": [
+      1280,
+      1793
+    ],
+    "credit": "",
+    "sha256": "a4196f1b7c90a416f0099617115a021479f9b16f61f7dff54d36df6b16ad570d"
+  },
+  "heart-single": {
+    "source_file": "additions/heart-single.jpg",
+    "url": "https://www.verner-panton.com/en/collection/prod-heart-cone-chair/",
+    "image_url": "https://www.verner-panton.com/wp-content/uploads/2020/01/Heart-Cone-Chair-1.jpg",
+    "alt": "Verner Panton · Heart Cone Chair，1958",
+    "object_id": "heart-single",
+    "board": "dopamine",
+    "case_record_id": null,
+    "term_record_id": null,
+    "origin": "external-reference",
+    "native": [
+      2000,
+      1617
+    ],
+    "credit": "",
+    "sha256": "1f1a361f15af4913dc31c8557cb78bf29bc2ccd6445f27f8b538995777f9ec8a"
+  },
+  "pantop": {
+    "source_file": "additions/pantop.jpg",
+    "url": "https://verpan.com/products/pantop-o18-portable-lamp",
+    "image_url": "https://cdn.shopify.com/s/files/1/0513/1829/2651/files/Pantop_Portable_Orange.jpg?v=1756464941",
+    "alt": "Verner Panton · Pantop 便携灯 / VERPAN",
+    "object_id": "pantop",
+    "board": "dopamine",
+    "case_record_id": null,
+    "term_record_id": null,
+    "origin": "external-reference",
+    "native": [
+      1800,
+      1800
+    ],
+    "credit": "VERPAN / Verner Panton",
+    "sha256": "9feb79d2617ae89355fb85d0fd10591bee5300bea02062ed85cdf5e59ebe878b"
+  },
+  "heart-product": {
+    "source_file": "additions/heart-product.jpg",
+    "url": "https://amsterdam.vitracircle.com/en/products/heart-cone-chair",
+    "image_url": "https://cdn.shopify.com/s/files/1/0632/5960/7238/files/HeartConeChair_Kvadrat.jpg?v=1736634102",
+    "alt": "Verner Panton · Heart Cone Chair / Vitra Circle",
+    "object_id": "heart-product",
+    "board": "dopamine",
+    "case_record_id": null,
+    "term_record_id": null,
+    "origin": "external-reference",
+    "native": [
+      1543,
+      1543
+    ],
+    "credit": "Vitra Circle / Verner Panton",
+    "sha256": "f1060d40fc0ddd692d5e4f55199cc1d7a3ef97facbcf3bc17afc0bb19f89533f"
+  }
+}

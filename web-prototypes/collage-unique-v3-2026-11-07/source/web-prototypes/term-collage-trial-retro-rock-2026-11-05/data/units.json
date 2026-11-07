@@ -1,0 +1,186 @@
+[
+  {
+    "unit_id": "u01-granny_vam.jpg",
+    "display_number": "01",
+    "role": "主图",
+    "image": "assets/images/dcd3fb446d745388.jpg",
+    "source_file": "assets/originals/granny_vam.jpg",
+    "case_record_id": "reczz28MRgiLqd42",
+    "term_record_id": "reczz28HJJL2GJt7",
+    "alt": "Granny Takes a Trip｜一家把汽车撞进橱窗的服装店 · 商业空间／橱窗艺术／复古服装设计",
+    "url": "https://www.vam.ac.uk/blog/projects/pandemic-objects-clothing-shop",
+    "native": [
+      735,
+      560
+    ],
+    "colors": [
+      "#5f5f61",
+      "#424243",
+      "#87868a",
+      "#121212",
+      "#acacb2"
+    ],
+    "desktop": [
+      48,
+      90,
+      620,
+      640,
+      -2,
+      2
+    ],
+    "mobile": [
+      16,
+      36,
+      358,
+      369,
+      -2,
+      2
+    ],
+    "ref_desktop": [
+      648,
+      738
+    ],
+    "ref_mobile": [
+      350,
+      413
+    ]
+  },
+  {
+    "unit_id": "u02-keith_skull.jpg",
+    "display_number": "02",
+    "role": "补充",
+    "image": "assets/images/712f94ea6a37faf0.jpg",
+    "source_file": "assets/originals/keith_skull.jpg",
+    "case_record_id": "reczz28MRgiLrWjE",
+    "term_record_id": "reczz28HJJL2GJt7",
+    "alt": "Keith Richards' Skull Ring｜骷髅戒指 · 银质首饰",
+    "url": "https://courtsandhackett.com/keiths_ring.php",
+    "native": [
+      360,
+      431
+    ],
+    "colors": [
+      "#372f33",
+      "#af6d5b",
+      "#644441",
+      "#d2856d",
+      "#86554b"
+    ],
+    "desktop": [
+      700,
+      70,
+      380,
+      440,
+      3,
+      4
+    ],
+    "mobile": [
+      16,
+      427,
+      210,
+      243,
+      3,
+      4
+    ],
+    "ref_desktop": [
+      1070,
+      42
+    ],
+    "ref_mobile": [
+      206,
+      678
+    ]
+  },
+  {
+    "unit_id": "u03-eye_ring.jpg",
+    "display_number": "03",
+    "role": "细节",
+    "image": "assets/images/be904547b33b561b.jpg",
+    "source_file": "assets/originals/eye_ring.jpg",
+    "case_record_id": "reczz28MRgiLopRy",
+    "term_record_id": "reczz28HJJL2GJt7",
+    "alt": "The Great Frog · Eye Ring｜眼球戒指 · 银质戒指",
+    "url": "https://thegreatfroglondon.com/products/eye-ring",
+    "native": [
+      1280,
+      1600
+    ],
+    "colors": [
+      "#fefefe",
+      "#bcb9b9",
+      "#dddbdc",
+      "#8f8c85",
+      "#847f67"
+    ],
+    "desktop": [
+      700,
+      540,
+      280,
+      300,
+      -2,
+      3
+    ],
+    "mobile": [
+      220,
+      427,
+      154,
+      165,
+      -2,
+      3
+    ],
+    "ref_desktop": [
+      960,
+      848
+    ],
+    "ref_mobile": [
+      350,
+      600
+    ]
+  },
+  {
+    "unit_id": "u04-stevie_rhiannon.jpg",
+    "display_number": "04",
+    "role": "环境",
+    "image": "assets/images/652c0fa37447cc03.jpg",
+    "source_file": "assets/originals/stevie_rhiannon.jpg",
+    "case_record_id": "reczz28MRgiLoC9N",
+    "term_record_id": "reczz28HJJL2GJt7",
+    "alt": "Stevie Nicks · Rhiannon Costume｜瑞安农演出服 · 舞台服装",
+    "url": "https://www.christies.com/en/lot/lot-4417849",
+    "native": [
+      512,
+      813
+    ],
+    "colors": [
+      "#5d6060",
+      "#93825f",
+      "#6b5b41",
+      "#414544",
+      "#4d5152"
+    ],
+    "desktop": [
+      1000,
+      540,
+      240,
+      300,
+      4,
+      5
+    ],
+    "mobile": [
+      210,
+      947,
+      164,
+      205,
+      4,
+      5
+    ],
+    "ref_desktop": [
+      1230,
+      512
+    ],
+    "ref_mobile": [
+      350,
+      1160
+    ]
+  }
+]

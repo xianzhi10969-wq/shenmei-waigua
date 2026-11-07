@@ -1,0 +1,278 @@
+[
+  {
+    "unit_id": "u01-ip_3.jpg",
+    "display_number": "01",
+    "role": "主图",
+    "image": "assets/images/2577bb75834e37c2.jpg",
+    "source_file": "assets/originals/ip_3.jpg",
+    "case_record_id": "reczz28MLgJayHOi",
+    "term_record_id": "reczz28HJJL2GLJb",
+    "alt": "Illustrated People｜皮肤上的照片 · 实验摄影／身体艺术",
+    "url": "https://rvb-books.com/products/thomas-mailaender-illustrated-people",
+    "native": [
+      800,
+      1197
+    ],
+    "colors": [
+      "#d6b3ae",
+      "#d69189",
+      "#b98a85",
+      "#8c6664",
+      "#b2716a"
+    ],
+    "desktop": [
+      460,
+      55,
+      600,
+      560,
+      2,
+      2
+    ],
+    "mobile": [
+      16,
+      36,
+      358,
+      334,
+      2,
+      2
+    ],
+    "ref_desktop": [
+      1040,
+      623
+    ],
+    "ref_mobile": [
+      350,
+      378
+    ]
+  },
+  {
+    "unit_id": "u02-H38.jpg",
+    "display_number": "02",
+    "role": "补充",
+    "image": "assets/images/7f74c9b20634b541.jpg",
+    "source_file": "assets/originals/H38.jpg",
+    "case_record_id": "reczz28MLgJaxrYR",
+    "term_record_id": "reczz28HJJL2GLJb",
+    "alt": "Hanabi｜花火 · 摄影",
+    "url": "https://prix.pictet.com/cycles/fire/rinko-kawauchi",
+    "native": [
+      1400,
+      1401
+    ],
+    "colors": [
+      "#6d8a86",
+      "#859088",
+      "#5e6239",
+      "#3c4633",
+      "#8c816f"
+    ],
+    "desktop": [
+      40,
+      70,
+      280,
+      380,
+      -3,
+      4
+    ],
+    "mobile": [
+      220,
+      392,
+      154,
+      197,
+      -3,
+      4
+    ],
+    "ref_desktop": [
+      310,
+      42
+    ],
+    "ref_mobile": [
+      350,
+      597
+    ]
+  },
+  {
+    "unit_id": "u03-v88_1-15.png",
+    "display_number": "03",
+    "role": "细节",
+    "image": "assets/images/3d368d517894eb57.jpg",
+    "source_file": "assets/originals/v88_1-15.png",
+    "case_record_id": "reczz28MLgJb1lI7",
+    "term_record_id": "reczz28HJJL2GLJb",
+    "alt": "Locus Solus｜一整个意大利夏日 · 户外家具／设计系列",
+    "url": "https://www.exteta.it/en/collections/jacquemus-exteta",
+    "native": [
+      810,
+      640
+    ],
+    "colors": [
+      "#e6dfd7",
+      "#f1deb1",
+      "#e1d3b9",
+      "#cfc3b3",
+      "#dcbc87"
+    ],
+    "desktop": [
+      340,
+      80,
+      140,
+      220,
+      5,
+      3
+    ],
+    "mobile": [
+      210,
+      1166,
+      164,
+      229,
+      5,
+      3
+    ],
+    "ref_desktop": [
+      460,
+      308
+    ],
+    "ref_mobile": [
+      350,
+      1403
+    ]
+  },
+  {
+    "unit_id": "u04-ip_10.jpg",
+    "display_number": "04",
+    "role": "环境",
+    "image": "assets/images/edf92be6b382e42c.jpg",
+    "source_file": "assets/originals/ip_10.jpg",
+    "case_record_id": "reczz28MLgJayHOi",
+    "term_record_id": "reczz28HJJL2GLJb",
+    "alt": "Illustrated People｜皮肤上的照片 · 实验摄影／身体艺术",
+    "url": "https://rvb-books.com/products/thomas-mailaender-illustrated-people",
+    "native": [
+      800,
+      1197
+    ],
+    "colors": [
+      "#e1bbab",
+      "#100e10",
+      "#d9a897",
+      "#db9585",
+      "#e9cdbf"
+    ],
+    "desktop": [
+      40,
+      480,
+      300,
+      280,
+      2,
+      3
+    ],
+    "mobile": [
+      210,
+      740,
+      164,
+      153,
+      2,
+      3
+    ],
+    "ref_desktop": [
+      330,
+      452
+    ],
+    "ref_mobile": [
+      350,
+      901
+    ]
+  },
+  {
+    "unit_id": "u05-H59.jpg",
+    "display_number": "05",
+    "role": "对照",
+    "image": "assets/images/78fcbbf218fad31f.jpg",
+    "source_file": "assets/originals/H59.jpg",
+    "case_record_id": "reczz28MLgJaxrYR",
+    "term_record_id": "reczz28HJJL2GLJb",
+    "alt": "Hanabi｜花火 · 摄影",
+    "url": "https://prix.pictet.com/cycles/fire/rinko-kawauchi",
+    "native": [
+      1369,
+      1374
+    ],
+    "colors": [
+      "#124569",
+      "#b69291",
+      "#e4d9d2",
+      "#b5acac",
+      "#d19890"
+    ],
+    "desktop": [
+      360,
+      420,
+      180,
+      260,
+      -2,
+      5
+    ],
+    "mobile": [
+      16,
+      911,
+      176,
+      237,
+      -2,
+      5
+    ],
+    "ref_desktop": [
+      520,
+      688
+    ],
+    "ref_mobile": [
+      172,
+      1156
+    ]
+  },
+  {
+    "unit_id": "u06-sp_og.jpg",
+    "display_number": "06",
+    "role": "细节",
+    "image": "assets/images/d50cc5dca98c20fa.jpg",
+    "source_file": "assets/originals/sp_og.jpg",
+    "case_record_id": "reczz28MLgJb1FHM",
+    "term_record_id": "reczz28HJJL2GLJb",
+    "alt": "Serpentine Pavilion 2015｜走进彩虹色的阳光里 · 临时建筑",
+    "url": "https://www.serpentinegalleries.org/whats-on/serpentine-pavilion-2015-designed-selgascano/",
+    "native": [
+      1600,
+      1066
+    ],
+    "colors": [
+      "#0c1210",
+      "#3e67be",
+      "#1b203c",
+      "#36363b",
+      "#5b81d7"
+    ],
+    "desktop": [
+      460,
+      660,
+      600,
+      280,
+      1,
+      4
+    ],
+    "mobile": [
+      16,
+      392,
+      210,
+      157,
+      1,
+      4
+    ],
+    "ref_desktop": [
+      1050,
+      632
+    ],
+    "ref_mobile": [
+      206,
+      557
+    ]
+  }
+]

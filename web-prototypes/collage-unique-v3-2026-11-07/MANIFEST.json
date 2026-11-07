@@ -1,0 +1,781 @@
+{
+  "date": "2026-11-07",
+  "status": "user-confirmed",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3907,
+      "sha256": "8fcc71bfecf87738bbf08dd90a4cd8fd337948f0ba868cd3849a613b5523bba1"
+    },
+    {
+      "path": "ROUND-CHANGELOG.md",
+      "bytes": 2253,
+      "sha256": "d9b2eb5da55b539816046f9f924532a33ca100a546f51820418f5d8701b0428f"
+    },
+    {
+      "path": "additions/bowie-guitar.jpg",
+      "bytes": 60376,
+      "sha256": "96287cd67c088e5e50c264cd855cdc27c95ba487d48f911868c28cd2296ac088"
+    },
+    {
+      "path": "additions/bowie-shoes.jpg",
+      "bytes": 69780,
+      "sha256": "7aab3b4afb7516139649578c73b6aa2a8623fb04c1d5a61ddae1626177cdbd18"
+    },
+    {
+      "path": "additions/bowie-suit.jpg",
+      "bytes": 102339,
+      "sha256": "4913ef2a4e9c060ecd46591b366db0cb3577e91f06eb049ab92bdc7b9e6232f3"
+    },
+    {
+      "path": "additions/circus.jpg",
+      "bytes": 343888,
+      "sha256": "bb78200aaef5c783e03ffa4fc756fcce24461dcfe84c124cd2c7c8c49f161404"
+    },
+    {
+      "path": "additions/heart-product.jpg",
+      "bytes": 71469,
+      "sha256": "f1060d40fc0ddd692d5e4f55199cc1d7a3ef97facbcf3bc17afc0bb19f89533f"
+    },
+    {
+      "path": "additions/hockney-large.jpg",
+      "bytes": 37819,
+      "sha256": "31ac9a1e23e97db33649f2ceded13a67a52752e526199e70f0bbad4debe6f7c5"
+    },
+    {
+      "path": "additions/jellyfish.jpg",
+      "bytes": 56464,
+      "sha256": "fd18bf74ea95bcf5cbbaa953f3270f6348464e3292201d61f5572dc36242cbac"
+    },
+    {
+      "path": "additions/living.jpg",
+      "bytes": 351959,
+      "sha256": "a0dda552b5304f4a568f9177b104760a6e8b0dace638f0e095b8fd6ddb5cb62f"
+    },
+    {
+      "path": "additions/manifest.json",
+      "bytes": 17487,
+      "sha256": "70df8e28e1f0bb3f40fc7a1216dff7b30b22c23f07308304bf8d4977f0ed20ad"
+    },
+    {
+      "path": "additions/necklace.jpg",
+      "bytes": 69348,
+      "sha256": "d3b1776289ea67dbe150f15365425a413d2e7c52fa5934ba8228582c26aa41d2"
+    },
+    {
+      "path": "additions/pantop.jpg",
+      "bytes": 32286,
+      "sha256": "9feb79d2617ae89355fb85d0fd10591bee5300bea02062ed85cdf5e59ebe878b"
+    },
+    {
+      "path": "additions/roly.jpg",
+      "bytes": 265854,
+      "sha256": "a4196f1b7c90a416f0099617115a021479f9b16f61f7dff54d36df6b16ad570d"
+    },
+    {
+      "path": "additions/selected.json",
+      "bytes": 14142,
+      "sha256": "46d21884dcd384e041c2e85b0df630a4492ca26568165d6da0eb84335c7e12da"
+    },
+    {
+      "path": "additions/shylight.jpg",
+      "bytes": 79366,
+      "sha256": "7ba1911cf24d850aa953a3a75264bc9b39528056ef4b2337723fa8f7c80f51e3"
+    },
+    {
+      "path": "additions/sofa-large.jpg",
+      "bytes": 175172,
+      "sha256": "27db2e0e3cd62868a7a34791a0047d83a79013575fdaf64c35a9ae6d58881af1"
+    },
+    {
+      "path": "additions/sorolla.jpg",
+      "bytes": 922886,
+      "sha256": "fec84285cd466264c9017629cf13527048f2239cbbd9554de01eb8dc0e84af56"
+    },
+    {
+      "path": "additions/swim.jpg",
+      "bytes": 50394,
+      "sha256": "76f23a97b6322a60b7ceccf5d1fe2a399659628877a244aa452c86b85aed0190"
+    },
+    {
+      "path": "additions/synthi.jpg",
+      "bytes": 104763,
+      "sha256": "fcdd1e0663481f8664ea06fb501a9dd28054d9edb9ba4614fb72ce4c9f513804"
+    },
+    {
+      "path": "additions/tahiti.jpg",
+      "bytes": 28005,
+      "sha256": "3f1ada7fcdb32a2452b11591f0d2468b18b9549292ee9ccbde1ffd39479d9390"
+    },
+    {
+      "path": "additions/ufo.jpg",
+      "bytes": 223388,
+      "sha256": "7c5013e75d9fa72b6007f456dc2c72948f7ab10110e40288534f4be23175ce0c"
+    },
+    {
+      "path": "assets/title.ttf",
+      "bytes": 715644,
+      "sha256": "0f48ea6abb2084537854f7174c470991a463b13036309e3b50a81511611c530d"
+    },
+    {
+      "path": "audit_sources.py",
+      "bytes": 4130,
+      "sha256": "f8f40a5452e8eee5a965c983f1053835962af8a7d597f3ffdffed9e63ee51bcf"
+    },
+    {
+      "path": "build.py",
+      "bytes": 6587,
+      "sha256": "b95cf9b457376aafe5dd257fc6dada1daca2e87ce6710e0fce46cb35f28a3c6b"
+    },
+    {
+      "path": "check.cjs",
+      "bytes": 2096,
+      "sha256": "e130be27ede3550b640310b864f5d89e6edb60a670c542bc5241217b069f55a0"
+    },
+    {
+      "path": "checks.json",
+      "bytes": 1151,
+      "sha256": "6af941d356163a7ccfe78f2b4050523498ca7f237e6818fb346c8ad8ca3574d8"
+    },
+    {
+      "path": "comparisons/decadence-desktop.png",
+      "bytes": 598835,
+      "sha256": "866de02ccc677d2db39e5edaa92b56e46f64431a9db5b5006573425879ff1e10"
+    },
+    {
+      "path": "comparisons/decadence-mobile.png",
+      "bytes": 240201,
+      "sha256": "0a9e5926d405868efca4ff709ecf7c7374f7b6010416e2edddb9ba163e1cb905"
+    },
+    {
+      "path": "comparisons/dopamine-desktop.png",
+      "bytes": 963131,
+      "sha256": "c1de99a69bebae62f7e129874f582ac2b71e25ee71114f89609cede5b5f7907c"
+    },
+    {
+      "path": "comparisons/dopamine-mobile.png",
+      "bytes": 391694,
+      "sha256": "1145a12864057f47b66299e8d13dea02972d70191015ac4ed0c8e1316e128541"
+    },
+    {
+      "path": "comparisons/midsummer-desktop.png",
+      "bytes": 826035,
+      "sha256": "b79b21a825834166ff7f513ac81e66c0147289d64ad749058d580937be94e0fe"
+    },
+    {
+      "path": "comparisons/midsummer-mobile.png",
+      "bytes": 317748,
+      "sha256": "05c9891615099983bc75cd2654cc3760fe728e0806244f4a2355dc78b9d82e47"
+    },
+    {
+      "path": "comparisons/retro-rock-desktop.png",
+      "bytes": 738131,
+      "sha256": "1297b084df50a95e196d06bee77ce35e2a72a18de8cb0e5b39eb18cc3cf5418a"
+    },
+    {
+      "path": "comparisons/retro-rock-mobile.png",
+      "bytes": 314410,
+      "sha256": "34aff17b06cb8a4bc7a2820e69621ae1ff03ad9198f6440856dda1d564554f54"
+    },
+    {
+      "path": "comparisons/softcore-desktop.png",
+      "bytes": 894953,
+      "sha256": "b1604290a53a599b133c494998d5a8948cff7ed523f2b9e274c758e20131093c"
+    },
+    {
+      "path": "comparisons/softcore-mobile.png",
+      "bytes": 343428,
+      "sha256": "e4ef90edf2c678c9f5c52636f0b98a202401148bb599db5cd12d3671a1459636"
+    },
+    {
+      "path": "dedup-audit.json",
+      "bytes": 2571,
+      "sha256": "ea094b7e6567d531db419a032afef65dd57ffb48daff9347eb5d4f197c7726e0"
+    },
+    {
+      "path": "extract.swift",
+      "bytes": 1545,
+      "sha256": "c015dc127d3db2c473b6b6586c5b4f8bda17a3d4d0cc6a135543aa83e317fca5"
+    },
+    {
+      "path": "history/v2-rejected/decadence-desktop.png",
+      "bytes": 1235770,
+      "sha256": "290890bd6df4aeb21fe6f1289ebd598efd2832159bdd4339860f1f3c363650c3"
+    },
+    {
+      "path": "history/v2-rejected/decadence-mobile.png",
+      "bytes": 449517,
+      "sha256": "19c5f522bcba12ddb8547e8f77f3c047d029ef5768ae8cfcd89c7e79e1fbba68"
+    },
+    {
+      "path": "history/v2-rejected/dopamine-desktop.png",
+      "bytes": 1661065,
+      "sha256": "5e6a9ae2ab5c640eb8751af1dce8ae140c3afb03c4fa29ea73a13c8dc9451712"
+    },
+    {
+      "path": "history/v2-rejected/dopamine-mobile.png",
+      "bytes": 605746,
+      "sha256": "5b05f0ac7c60cb853004f92d3dab26d5a029f9ee882340edf79aa24243da440e"
+    },
+    {
+      "path": "history/v2-rejected/midsummer-desktop.png",
+      "bytes": 1321287,
+      "sha256": "7b3e7a1da89e43610214b9c245e2d7f821d8a7adb1be992e36ceb6d372fc747c"
+    },
+    {
+      "path": "history/v2-rejected/midsummer-mobile.png",
+      "bytes": 479425,
+      "sha256": "485e379dd619d2ee5d9b7ef68baf75dab6edd024cd5df5f919747967925c1ca4"
+    },
+    {
+      "path": "history/v2-rejected/retro-rock-desktop.png",
+      "bytes": 1253465,
+      "sha256": "35c92eb2bcb9283429e5986cf29e5ac5f1276a71e1ee9a6b845d31863109f5e6"
+    },
+    {
+      "path": "history/v2-rejected/retro-rock-mobile.png",
+      "bytes": 550353,
+      "sha256": "8fae66d6d37661fbd43d56e28c6e44eb78007a6ea6706395ebf58f4e1a6f445e"
+    },
+    {
+      "path": "history/v2-rejected/softcore-desktop.png",
+      "bytes": 1217469,
+      "sha256": "dbfef4884127a826b069b8b00fbc567d44414a84ee19cd034923828b60947e3b"
+    },
+    {
+      "path": "history/v2-rejected/softcore-mobile.png",
+      "bytes": 508534,
+      "sha256": "6035743d9f85288c32a3a8afa930a62829fbddadd45424c4922283f88d90b0b7"
+    },
+    {
+      "path": "index.html",
+      "bytes": 5334,
+      "sha256": "be7d882da44e8d1f9f12f56ccdf150d7786d4b1607171cc9696be26311f61359"
+    },
+    {
+      "path": "layouts.py",
+      "bytes": 3158,
+      "sha256": "0695121566e2d010285af95ca4211029f8538b732439ce9ec11537c9d7d1aa6a"
+    },
+    {
+      "path": "licenses/Cormorant-OFL.txt",
+      "bytes": 4388,
+      "sha256": "ecd1b9f2f5bd3ac0614ce50c6024c69044a555afe1dcd79e7a33de738ee59410"
+    },
+    {
+      "path": "licenses/Zhuque-OFL.txt",
+      "bytes": 4390,
+      "sha256": "d6cec39519f63e3848da753f071e04cae96322dc92f5834734f9060cc6322104"
+    },
+    {
+      "path": "masks.json",
+      "bytes": 3685,
+      "sha256": "4102d14263467b1b4748745e23d4e4c460f40c3d4ddc428d602e5ced9ef60531"
+    },
+    {
+      "path": "new/bowie-guitar-cut.png",
+      "bytes": 501156,
+      "sha256": "836cae4b3fda2750a6d05bdcab40e084058ceb40302142c0d451788888ae52b7"
+    },
+    {
+      "path": "new/bowie-shoes-cut.png",
+      "bytes": 511218,
+      "sha256": "1016989030eb92a1806d83c850669c33ebb6822d3936e63085fa9af68c37e8db"
+    },
+    {
+      "path": "new/bowie-suit-cut.png",
+      "bytes": 775904,
+      "sha256": "b4db21b54ee01e9698c792c9d50ce09548ff5619542678ae4538f4dd891b780e"
+    },
+    {
+      "path": "new/brooch-cut.png",
+      "bytes": 1012674,
+      "sha256": "436adf16d8ae4b338dbaa3e8a605fc5bcb3e2b4929301ef0cb7c24334ecca2b5"
+    },
+    {
+      "path": "new/carlton-cut.png",
+      "bytes": 7346194,
+      "sha256": "fba3584b6124254d3c9802e73c62a60905130d51a5a6be843605855951d492d0"
+    },
+    {
+      "path": "new/chaise-cut.png",
+      "bytes": 211203,
+      "sha256": "0ac0b361e51e00195010a8b0fd2c0b6ee8d54e1f1659d983dd11811e81d8fafd"
+    },
+    {
+      "path": "new/decadence-desktop.html",
+      "bytes": 961875,
+      "sha256": "1395f07cdaf85c306e5c69cb08e743a2bf93ac368c4d3754f49bbf1ce6dda8f3"
+    },
+    {
+      "path": "new/decadence-desktop.png",
+      "bytes": 1167861,
+      "sha256": "aaee5f92cb74b485df2c2a35585978fa6a2ce04ce14063a12d1e3ea5d4a31454"
+    },
+    {
+      "path": "new/decadence-desktop.svg",
+      "bytes": 961287,
+      "sha256": "5b6ef9290bf639a2f36f9e64774fce27da2a4e2e2a9eb90b691a04c35c5d2c69"
+    },
+    {
+      "path": "new/decadence-mobile.html",
+      "bytes": 961857,
+      "sha256": "792a4c3797c27b9ae4e02bedce556bbc43ac4e89416975cf4d47f67b07add32d"
+    },
+    {
+      "path": "new/decadence-mobile.png",
+      "bytes": 406662,
+      "sha256": "9313bed90b02be0cd9bb9d8e5cc1d021e2cf0619af7062306214f178424c5ff0"
+    },
+    {
+      "path": "new/decadence-mobile.svg",
+      "bytes": 961269,
+      "sha256": "0a8cd1bf30fcde708bba67bc2857d978712688b2a4bc1916fa02ef01ce1e5288"
+    },
+    {
+      "path": "new/dopamine-desktop.html",
+      "bytes": 962950,
+      "sha256": "189101db51d01275dcf0be301a02da75e05cbe488af2dac0f2a7fbd9af32c9b3"
+    },
+    {
+      "path": "new/dopamine-desktop.png",
+      "bytes": 1228382,
+      "sha256": "fa5df4e9dfed1eb78ed58be568a05083decf671cf9cea0745ec4b1fc1748b2f4"
+    },
+    {
+      "path": "new/dopamine-desktop.svg",
+      "bytes": 962362,
+      "sha256": "712a4e58ffac7af70115cfac6b8d29cd1bf9e240ca10555cc192abb52ddcd05b"
+    },
+    {
+      "path": "new/dopamine-mobile.html",
+      "bytes": 962958,
+      "sha256": "8d767ff8e9a17474c392e4d6ad3b6e4de45fc2068605d87caf893d3a708304da"
+    },
+    {
+      "path": "new/dopamine-mobile.png",
+      "bytes": 440751,
+      "sha256": "6de03ff71d727a4e646a38cf1f5cac958a285e967ea2a42dd58eb53ee74364c8"
+    },
+    {
+      "path": "new/dopamine-mobile.svg",
+      "bytes": 962370,
+      "sha256": "eda29d4bec36b2c2791bb65087e7838b45e9f1a210e9163e92c989f33ee62c1b"
+    },
+    {
+      "path": "new/dress-cut.png",
+      "bytes": 407776,
+      "sha256": "510b20c49c706b9879b6b436632bb98b67525356e53387e4d7b58f76d461fb5f"
+    },
+    {
+      "path": "new/figure-cut.png",
+      "bytes": 1480039,
+      "sha256": "997e7d566823e3a7c4326ed2585fafa94e30cbf5f4c16cb1d56cda7af2f254f4"
+    },
+    {
+      "path": "new/geometry.json",
+      "bytes": 46915,
+      "sha256": "54740deaa9fac28588fc56046cd1ecf7fd10da8fb2baf9fa982d48499cac5b5b"
+    },
+    {
+      "path": "new/heart-product-cut.png",
+      "bytes": 869139,
+      "sha256": "d5093e378d7314ac281c7837b19753f0990f2b73a1fe7fa3bac1d3d51a3c2f6e"
+    },
+    {
+      "path": "new/living-cut.png",
+      "bytes": 913624,
+      "sha256": "768ab063c3cd182fbe72f93248890c325a8e9df85947edc08a56ce16eeb75090"
+    },
+    {
+      "path": "new/midsummer-desktop.html",
+      "bytes": 961623,
+      "sha256": "64cc2158cac2b0f213fcc504eb889897a798e21f0d66b3a285e05ffc1fdbe0b1"
+    },
+    {
+      "path": "new/midsummer-desktop.png",
+      "bytes": 1240016,
+      "sha256": "d07d5e164d7a290c70f827c04b89523cbb63885d2a408fe588b77a8625c982a8"
+    },
+    {
+      "path": "new/midsummer-desktop.svg",
+      "bytes": 961035,
+      "sha256": "6b95b1f57ef19eeaa9e2e368de669ce0d8e121e26a3ac3af5014f5581190cdbd"
+    },
+    {
+      "path": "new/midsummer-mobile.html",
+      "bytes": 961606,
+      "sha256": "f9c79efc77a574eb2baa4fe20e920db86b919a1f1b695342f026a2efb02591fa"
+    },
+    {
+      "path": "new/midsummer-mobile.png",
+      "bytes": 467032,
+      "sha256": "8eafc55b186ad34c9aa0b74a5296105cbfb49bc9d14f2e9d480f35470076af82"
+    },
+    {
+      "path": "new/midsummer-mobile.svg",
+      "bytes": 961018,
+      "sha256": "5e574979a0b072eb7715bbfd2dc496ced787ea47536a381c44d96997872dd78c"
+    },
+    {
+      "path": "new/mirror-cut.png",
+      "bytes": 494940,
+      "sha256": "de1871a15c82c699dc4f3e044854c6fd654db030365d9187f011e6d6a2c0e800"
+    },
+    {
+      "path": "new/necklace-cut.png",
+      "bytes": 223397,
+      "sha256": "79206298675c132b139c0f4da1051307bebdd8cf0301e037861f31cbb8510bce"
+    },
+    {
+      "path": "new/pantop-cut.png",
+      "bytes": 302519,
+      "sha256": "2775cc9be39a605e1f0577d3a22d6e7f218f30ddd20477b8cf5aceb82be3465d"
+    },
+    {
+      "path": "new/retro-rock-desktop.html",
+      "bytes": 963107,
+      "sha256": "c91d1d01b00bb35cc567bb38a6ef6f61ff243a009f12bf18d7bed9f6ec716a87"
+    },
+    {
+      "path": "new/retro-rock-desktop.png",
+      "bytes": 1313833,
+      "sha256": "73c0e82584b162fc90a01d73fb76021bef44f326918bef76e5f1880cef7ae20f"
+    },
+    {
+      "path": "new/retro-rock-desktop.svg",
+      "bytes": 962519,
+      "sha256": "ae7412385e9cda3d533e777969db14e3924813321c671410418bcab81f222cae"
+    },
+    {
+      "path": "new/retro-rock-mobile.html",
+      "bytes": 963089,
+      "sha256": "cdd5830f6a0991afad74a276a9f251803e36168e030c461bb2d406f8cf736c0b"
+    },
+    {
+      "path": "new/retro-rock-mobile.png",
+      "bytes": 493089,
+      "sha256": "ec45bcfb324789803370bf2160f74e092e546789de53e8b9d4938d26b42dc20c"
+    },
+    {
+      "path": "new/retro-rock-mobile.svg",
+      "bytes": 962501,
+      "sha256": "2a965fb1a989f192de98178c8b66b066b239f77635cc0f875808697374f060ad"
+    },
+    {
+      "path": "new/ring-cut.png",
+      "bytes": 1219774,
+      "sha256": "6e31ee11433d77462d1d406bff3361b2d6c795fd115b1780e7df81a4c2b02377"
+    },
+    {
+      "path": "new/roly-cut.png",
+      "bytes": 284839,
+      "sha256": "24ea8d1319ad52ad0774a532f955f602a3563a9777bbcb3eb17589b31a0531a9"
+    },
+    {
+      "path": "new/shylight-cut.png",
+      "bytes": 664538,
+      "sha256": "535371d06747efe9d9286b817162f9aeaf04f73b7a2f2b87ea05dfbbd90d1fe3"
+    },
+    {
+      "path": "new/sofa-large-cut.png",
+      "bytes": 2010256,
+      "sha256": "effe925f62fb1438b9937246582b81d7fcef620ae5e12251a4d8390b1ee6ea3e"
+    },
+    {
+      "path": "new/softcore-desktop.html",
+      "bytes": 961910,
+      "sha256": "53b0ccff08e34b92aa5f6c2e1e555f856a341af71958f45f53921c78da244809"
+    },
+    {
+      "path": "new/softcore-desktop.png",
+      "bytes": 844615,
+      "sha256": "af281291efe1c7d91bee7bbd19eea925c5a341cec25bd9a2bfe1c098524ed53c"
+    },
+    {
+      "path": "new/softcore-desktop.svg",
+      "bytes": 961322,
+      "sha256": "893716a17fd821152e5135633890f03409d94430c879d87243dcea6cac8d6d83"
+    },
+    {
+      "path": "new/softcore-mobile.html",
+      "bytes": 961907,
+      "sha256": "c16e2098891127615916978a9dc80edb6c6ddd40359b77c1e49b13d777309e5c"
+    },
+    {
+      "path": "new/softcore-mobile.png",
+      "bytes": 315846,
+      "sha256": "be73b6f50db063dd772d3a560e7113299d813253e835453de88a22fc9af61d14"
+    },
+    {
+      "path": "new/softcore-mobile.svg",
+      "bytes": 961319,
+      "sha256": "d64f4486c0a2997ba9b9d607a6bd6a844516063fefb250704ba0468f866e5265"
+    },
+    {
+      "path": "new/sources.json",
+      "bytes": 42367,
+      "sha256": "6056c55e56f67ac807f05df95bf94e16964655710a23952188297ca80d52b755"
+    },
+    {
+      "path": "new/swim-cut.png",
+      "bytes": 313630,
+      "sha256": "438739650226adf33f85dec2e41c9c6eebeaf7ec7871f6db21cfc2c9e84315a4"
+    },
+    {
+      "path": "new/synthi-cut.png",
+      "bytes": 1075394,
+      "sha256": "8b80960d9d9ce8176e88ebd4050aaf04ce3c926bb3aa501779c7914adb8976c7"
+    },
+    {
+      "path": "new/woman-cut.png",
+      "bytes": 1118341,
+      "sha256": "de030633081ee8ff4e2229a9dd78045a2ad7c8c518d4f5e181ee4b0e1fbf57bc"
+    },
+    {
+      "path": "object-identities.json",
+      "bytes": 1980,
+      "sha256": "1c05717a14352a6113ca6af22c8b602d857c198e85bad2aeedc930deeb90a74c"
+    },
+    {
+      "path": "reference/coquette-desktop.png",
+      "bytes": 3369695,
+      "sha256": "d01a6e7d8e0eb54f193246d224cdd28b92c7a6b475862c46159079f5576c5bb3"
+    },
+    {
+      "path": "reference/coquette-mobile.png",
+      "bytes": 1425977,
+      "sha256": "6ca80e50d2dfe4759c2bd363e72228c7b2bb4e9316a7cdc59974977acf3fb2e4"
+    },
+    {
+      "path": "render.cjs",
+      "bytes": 791,
+      "sha256": "c3074663c6fccb896506cda06ed320b8332ff3b95e25cbcdfddeba24efe06785"
+    },
+    {
+      "path": "source/web-prototypes/term-collage-trial-decadence-2026-11-05/assets/originals/climax_rgb.jpg",
+      "bytes": 293250,
+      "sha256": "ba8e80326d9f442517cb2bade5023b80b6d06604c1cc2f67e8579bcc1bc1fcdd"
+    },
+    {
+      "path": "source/web-prototypes/term-collage-trial-decadence-2026-11-05/assets/originals/lalique_official.jpg",
+      "bytes": 138541,
+      "sha256": "e6cfa71677a9851b9acbd5b3a71c712e0106ac4a4b59b1b149da8e332e511b4a"
+    },
+    {
+      "path": "source/web-prototypes/term-collage-trial-decadence-2026-11-05/assets/originals/mm_442885.jpg",
+      "bytes": 371844,
+      "sha256": "a16238cc99d673da419dd9669996e599f9b8df3229c3e09e62825baa2b40c2a0"
+    },
+    {
+      "path": "source/web-prototypes/term-collage-trial-decadence-2026-11-05/assets/originals/mm_442895.jpg",
+      "bytes": 407200,
+      "sha256": "a14bd849a9b52bdcdac209ffbb3b7bfc410ac7dcd8acede036ef6acc6d12d932"
+    },
+    {
+      "path": "source/web-prototypes/term-collage-trial-decadence-2026-11-05/assets/originals/mm_vogue_01.jpg",
+      "bytes": 430517,
+      "sha256": "34a06c7012863bdd23988261f0b10ae2911758fe65c1450fab86bbb59d881b74"
+    },
+    {
+      "path": "source/web-prototypes/term-collage-trial-decadence-2026-11-05/assets/originals/peacock.jpg",
+      "bytes": 340390,
+      "sha256": "f6ac6a4a94ce8364175575d8273ae8cecb09fac0baafd0411c89f7ca2bc78166"
+    },
+    {
+      "path": "source/web-prototypes/term-collage-trial-decadence-2026-11-05/assets/originals/redon_balloon.jpg",
+      "bytes": 2192400,
+      "sha256": "08d558c85fd5ec1c5fe88ce688d539c4f038e3939f67a546bac194065ea056b6"
+    },
+    {
+      "path": "source/web-prototypes/term-collage-trial-decadence-2026-11-05/data/content.json",
+      "bytes": 2317,
+      "sha256": "d60d645ef9451175a162b5e0f98a67fef6ece904cfa7727fcdfc8fd10a65e7e3"
+    },
+    {
+      "path": "source/web-prototypes/term-collage-trial-decadence-2026-11-05/data/units.json",
+      "bytes": 6077,
+      "sha256": "9e53744142a55eac8504b7a3a42e3cc2f72d7502a78c85470b2b6851e0f34850"
+    },
+    {
+      "path": "source/web-prototypes/term-collage-trial-decadence-2026-11-05/previews/desktop-board-chat.jpg",
+      "bytes": 215600,
+      "sha256": "511f0e62db5b2bea7d97ae5d90532f8b258fd209d398c8049b025f747034dd20"
+    },
+    {
+      "path": "source/web-prototypes/term-collage-trial-decadence-2026-11-05/previews/mobile-board-chat.jpg",
+      "bytes": 290204,
+      "sha256": "4b0f051997369436e808925b9bd5f517e54093c323b9d0299b167d4d7357abc3"
+    },
+    {
+      "path": "source/web-prototypes/term-collage-trial-dopamine-2026-11-05/assets/originals/forest_1_emmanuelle_moureaux_Forest_of_Numbers.jpg",
+      "bytes": 482412,
+      "sha256": "24a2992551d23ecd33aa9ba94581d1eb4b8a1bf84197bee8e60e7416bd613a0f"
+    },
+    {
+      "path": "source/web-prototypes/term-collage-trial-dopamine-2026-11-05/assets/originals/judy_10358_Multi-Color_Atmosphere_F.jpg",
+      "bytes": 2127637,
+      "sha256": "2c10099a6f7ed708cff48e29898d42c0a64525b6944356f793b223ece09f802f"
+    },
+    {
+      "path": "source/web-prototypes/term-collage-trial-dopamine-2026-11-05/assets/originals/卡尔顿书架_索特萨斯_摄影Sailko_CCBYSA4.0.jpg",
+      "bytes": 4340578,
+      "sha256": "fdcd3cc6730c81dfa4d9518baf470263d81b30e95eaeed1a194e169b74e93777"
+    },
+    {
+      "path": "source/web-prototypes/term-collage-trial-dopamine-2026-11-05/data/content.json",
+      "bytes": 1756,
+      "sha256": "3490d03bb145d2c06de7d6cb96bbf8b0ffa95622349027b6dd3b841a36ee3f21"
+    },
+    {
+      "path": "source/web-prototypes/term-collage-trial-dopamine-2026-11-05/data/units.json",
+      "bytes": 5404,
+      "sha256": "271aa75b47e0fc3ddb3548256faa2eba552719a47ee035661bb48d11afdc2d80"
+    },
+    {
+      "path": "source/web-prototypes/term-collage-trial-dopamine-2026-11-05/previews/desktop-board-chat.jpg",
+      "bytes": 315197,
+      "sha256": "7d22da238c76505dfd64f6dd51cbb9fcbc2e547933d28712b6219089ccad2d09"
+    },
+    {
+      "path": "source/web-prototypes/term-collage-trial-dopamine-2026-11-05/previews/mobile-board-chat.jpg",
+      "bytes": 424110,
+      "sha256": "c6a03b7e8d972ff7213045b1cb2aa248169d73a30cb1f057195923d5d28f3f91"
+    },
+    {
+      "path": "source/web-prototypes/term-collage-trial-midsummer-2026-11-05/assets/originals/H38.jpg",
+      "bytes": 343923,
+      "sha256": "7f74c9b20634b541349bd001aa9c039e3ad9d49f1e43a48cd2c9e119169745ef"
+    },
+    {
+      "path": "source/web-prototypes/term-collage-trial-midsummer-2026-11-05/assets/originals/H59.jpg",
+      "bytes": 319146,
+      "sha256": "78fcbbf218fad31fcbd34fe177980eb73b3d2f583397ad6ea0b77fe76e6d252f"
+    },
+    {
+      "path": "source/web-prototypes/term-collage-trial-midsummer-2026-11-05/assets/originals/ip_10.jpg",
+      "bytes": 198841,
+      "sha256": "edf92be6b382e42c857b84baf36a4cf072452201df93fc6db91719e99a66056f"
+    },
+    {
+      "path": "source/web-prototypes/term-collage-trial-midsummer-2026-11-05/assets/originals/sp_og.jpg",
+      "bytes": 371495,
+      "sha256": "d50cc5dca98c20fad4bdde8c48b3786b44a328a295be76819964ef21c18652e8"
+    },
+    {
+      "path": "source/web-prototypes/term-collage-trial-midsummer-2026-11-05/assets/originals/v88_1-15.png",
+      "bytes": 392898,
+      "sha256": "3d368d517894eb570f285016fd7bd560b7ec2c19523442650d5854b0f14de44c"
+    },
+    {
+      "path": "source/web-prototypes/term-collage-trial-midsummer-2026-11-05/data/content.json",
+      "bytes": 2259,
+      "sha256": "4304b46e648e0fd205ee8623f7856fe082c860bf085e823e27eed7824cbdd95b"
+    },
+    {
+      "path": "source/web-prototypes/term-collage-trial-midsummer-2026-11-05/data/units.json",
+      "bytes": 5037,
+      "sha256": "3eb1f9f5c4a46a639e53a61abae61fb6ccf53cc3f3aecc00ac4501afb277a221"
+    },
+    {
+      "path": "source/web-prototypes/term-collage-trial-midsummer-2026-11-05/previews/desktop-board-chat.jpg",
+      "bytes": 195452,
+      "sha256": "8102fc3abcfd21257d81c50107365ac7acee077d3a543dffdafbc80a131da4ad"
+    },
+    {
+      "path": "source/web-prototypes/term-collage-trial-midsummer-2026-11-05/previews/mobile-board-chat.jpg",
+      "bytes": 262174,
+      "sha256": "7456c616bf7fdcf7e5ba5407b99eb46ccd0b8afb41bba06e712e11a6c2ba803b"
+    },
+    {
+      "path": "source/web-prototypes/term-collage-trial-retro-rock-2026-11-05/assets/originals/eye_ring.jpg",
+      "bytes": 126446,
+      "sha256": "be904547b33b561b2e125a3aea40bd9ac0d2e9be12df54e8a5dd48c3d983c15b"
+    },
+    {
+      "path": "source/web-prototypes/term-collage-trial-retro-rock-2026-11-05/assets/originals/granny_vam.jpg",
+      "bytes": 78055,
+      "sha256": "dcd3fb446d7453884ee699d04201d112cf5af868bf6f8dcf7914fec4a632303f"
+    },
+    {
+      "path": "source/web-prototypes/term-collage-trial-retro-rock-2026-11-05/assets/originals/keith_skull.jpg",
+      "bytes": 29763,
+      "sha256": "712f94ea6a37faf00e6acd0947ece387c1bb5a62e0a73d0e1edc485cd8745028"
+    },
+    {
+      "path": "source/web-prototypes/term-collage-trial-retro-rock-2026-11-05/assets/originals/stevie_rhiannon.jpg",
+      "bytes": 58189,
+      "sha256": "652c0fa37447cc032b3ae1807b8e8d3dc473d95eb037ae334070eed1bf9a1596"
+    },
+    {
+      "path": "source/web-prototypes/term-collage-trial-retro-rock-2026-11-05/data/content.json",
+      "bytes": 2034,
+      "sha256": "5aa0cf46df177629816ef4240070c817e2f5af3f1262e3ac58a11d93e277438d"
+    },
+    {
+      "path": "source/web-prototypes/term-collage-trial-retro-rock-2026-11-05/data/units.json",
+      "bytes": 3435,
+      "sha256": "5ab6d646783d73efbf70582e1e77028eaca0e85b7395fe4e0e73c970b468e07c"
+    },
+    {
+      "path": "source/web-prototypes/term-collage-trial-retro-rock-2026-11-05/previews/desktop-board-chat.jpg",
+      "bytes": 147796,
+      "sha256": "e8c85aa695d5b1ec98997794537492289c79b99b8bd6472435b75fc89d883e30"
+    },
+    {
+      "path": "source/web-prototypes/term-collage-trial-retro-rock-2026-11-05/previews/mobile-board-chat.jpg",
+      "bytes": 191938,
+      "sha256": "7e123c13bb083363784a19569410657f7eb4586f10e8ab5bd9e98d1145988af4"
+    },
+    {
+      "path": "source/web-prototypes/term-collage-trial-softcore-2026-11-05/assets/originals/nendo_04.jpg",
+      "bytes": 94872,
+      "sha256": "56128d14210a08f78667cc6fdab63eeeec350cd1a93b8c7c374a26d0cc03d80d"
+    },
+    {
+      "path": "source/web-prototypes/term-collage-trial-softcore-2026-11-05/assets/originals/passage_01.jpg",
+      "bytes": 367388,
+      "sha256": "f802afa143d995434845e560dd3e7db01ad76fba6cc3ab511478be94649a74ac"
+    },
+    {
+      "path": "source/web-prototypes/term-collage-trial-softcore-2026-11-05/assets/originals/pompom_arthur.jpg",
+      "bytes": 81342,
+      "sha256": "3c739a81390893ceaf50456d7e234c3bc48cb6809c37c17518a3569e5ccddfe8"
+    },
+    {
+      "path": "source/web-prototypes/term-collage-trial-softcore-2026-11-05/assets/originals/sparrow_official_5.jpg",
+      "bytes": 227602,
+      "sha256": "4e98262df7e4104270ec3e08f96042b4eabd949bb22dd13d1c5e638df7ef54b9"
+    },
+    {
+      "path": "source/web-prototypes/term-collage-trial-softcore-2026-11-05/assets/originals/朱莉娅_杰克逊_卡梅隆_CC0.jpg",
+      "bytes": 267172,
+      "sha256": "6cb68c6b97be4ac329aef33bfcf41ca3b4a6191b7befb3f6fe0d55cea7731723"
+    },
+    {
+      "path": "source/web-prototypes/term-collage-trial-softcore-2026-11-05/data/content.json",
+      "bytes": 2397,
+      "sha256": "8ba7726de3281bfc87ad067fe85c78fe0050bebec8f2389d18813e8d92ec0c50"
+    },
+    {
+      "path": "source/web-prototypes/term-collage-trial-softcore-2026-11-05/data/units.json",
+      "bytes": 6627,
+      "sha256": "fee4b6390b8894c158dcac8bdbb1f7ed9a01c8e2a3916b0348df9fe0c283061a"
+    },
+    {
+      "path": "source/web-prototypes/term-collage-trial-softcore-2026-11-05/previews/desktop-board-chat.jpg",
+      "bytes": 256346,
+      "sha256": "fbbc316109c9ca986f2f52009dbe5911aa61e6c6c472d61753dc7617f1448661"
+    },
+    {
+      "path": "source/web-prototypes/term-collage-trial-softcore-2026-11-05/previews/mobile-board-chat.jpg",
+      "bytes": 448302,
+      "sha256": "60a10f669a44e1c7916e5ca88d694f4aa98e2ca21db1b9a99aa2a2a427ff02ca"
+    },
+    {
+      "path": "sources.html",
+      "bytes": 19554,
+      "sha256": "08e012f4f05191740ef146844f4b883e78245974ad43eec132408fd97c346bc2"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "snapshot_date": "2026-11-05",
+  "source": {
+    "base": "IGctbcuwPaE6hMsmAoicJddpn3U",
+    "term_table": "tbl2gR8WBoqCQyGz",
+    "case_table": "tblpdRYutnm12T0y",
+    "profile": "aesthetic-feishu",
+    "as": "user",
+    "read_only": true
+  },
+  "term": {
+    "record_id": "reczz28HJJL2GJt7",
+    "词": "复古摇滚",
+    "英文": "Retro Rock",
+    "所属章节": [
+      "乡愁"
+    ],
+    "在本章的位置": "没赶上的年代",
+    "核心": "摇滚最初用音乐表达不服从，后来，人们学会了用服装表达同一种感觉。"
+  },
+  "cases": [
+    {
+      "id": "reczz28MRgiLqd42",
+      "title": "Granny Takes a Trip｜一家把汽车撞进橱窗的服装店",
+      "media": "商业空间／橱窗艺术／复古服装设计",
+      "imgs": 1,
+      "url": "https://www.vam.ac.uk/blog/projects/pandemic-objects-clothing-shop"
+    },
+    {
+      "id": "reczz28MRgiLrWjE",
+      "title": "Keith Richards' Skull Ring｜骷髅戒指",
+      "media": "银质首饰",
+      "imgs": 1,
+      "url": "https://courtsandhackett.com/keiths_ring.php"
+    },
+    {
+      "id": "reczz28MRgiLopRy",
+      "title": "The Great Frog · Eye Ring｜眼球戒指",
+      "media": "银质戒指",
+      "imgs": 1,
+      "url": "https://thegreatfroglondon.com/products/eye-ring"
+    },
+    {
+      "id": "reczz28MRgiLoC9N",
+      "title": "Stevie Nicks · Rhiannon Costume｜瑞安农演出服",
+      "media": "舞台服装",
+      "imgs": 1,
+      "url": "https://www.christies.com/en/lot/lot-4417849"
+    }
+  ],
+  "editorial": {
+    "see": "橱窗店、骷髅戒、眼球戒、Stevie戏服",
+    "clues": [
+      "Granny Takes a Trip｜一家把汽车撞进橱窗的服装店 · 商业空间／橱窗艺术／复古服装设计",
+      "Keith Richards' Skull Ring｜骷髅戒指 · 银质首饰",
+      "The Great Frog · Eye Ring｜眼球戒指 · 银质戒指",
+      "Stevie Nicks · Rhiannon Costume｜瑞安农演出服 · 舞台服装"
+    ],
+    "avoid": "不与无关词条混图；不因附件多而硬凑"
+  }
+}

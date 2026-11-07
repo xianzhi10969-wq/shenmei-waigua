@@ -1,0 +1,54 @@
+{
+  "snapshot_date": "2026-11-05",
+  "source": {
+    "base": "IGctbcuwPaE6hMsmAoicJddpn3U",
+    "term_table": "tbl2gR8WBoqCQyGz",
+    "case_table": "tblpdRYutnm12T0y",
+    "profile": "aesthetic-feishu",
+    "as": "user",
+    "read_only": true
+  },
+  "term": {
+    "record_id": "reczz28HJJL2GLvJ",
+    "词": "多巴胺",
+    "英文": "Dopamine",
+    "所属章节": [
+      "酒神"
+    ],
+    "在本章的位置": "微醺：人还清醒，眼睛先被颜色灌醉了。",
+    "核心": "多巴胺美学的魅力，不是让颜色越多越好，而是让快乐看起来像要失控，却又始终没有真正失控。"
+  },
+  "cases": [
+    {
+      "id": "reczz28MR6LJ5rW7",
+      "title": "Forest of Numbers｜数字森林",
+      "media": "空间装置／色彩艺术",
+      "imgs": 3,
+      "url": "https://www.emmanuellemoureaux.com/100colors-forest-of-numbers"
+    },
+    {
+      "id": "reczz28MR6LJ60Ar",
+      "title": "Multi-color Atmosphere｜多彩氛围",
+      "media": "烟火／行为表演／环境艺术",
+      "imgs": 2,
+      "url": "https://judychicago.com/gallery/atmospheresfireworks/artwork/"
+    },
+    {
+      "id": "reczz28HJJL2NkpP",
+      "title": "卡尔顿",
+      "media": "设计",
+      "imgs": 1,
+      "url": "https://www.metmuseum.org/art/collection/search/486989"
+    }
+  ],
+  "editorial": {
+    "see": "孟菲斯卡尔顿、数字森林、Judy Chicago烟火",
+    "clues": [
+      "Forest of Numbers｜数字森林 · 空间装置／色彩艺术",
+      "Multi-color Atmosphere｜多彩氛围 · 烟火／行为表演／环境艺术",
+      "卡尔顿 · 设计",
+      "Forest of Numbers｜数字森林 · 空间装置／色彩艺术"
+    ],
+    "avoid": "不与无关词条混图；不因附件多而硬凑"
+  }
+}

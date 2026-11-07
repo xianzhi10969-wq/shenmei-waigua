@@ -1,0 +1,84 @@
+{
+  "retro-rock": {
+    "units_per_device": 9,
+    "semantic_objects": [
+      "granny-store",
+      "ufo",
+      "keith-skull-ring-portrait",
+      "synthi",
+      "bowie-suit",
+      "stevie-rhiannon-costume",
+      "bowie-shoes",
+      "bowie-guitar",
+      "great-frog-eye-ring"
+    ],
+    "duplicate_objects": [],
+    "duplicate_originals": [],
+    "review": "逐张查看原图；同款不同角度合并。Hanabi 两张独立摄影、Margiela 三套不同造型分别保留。"
+  },
+  "softcore": {
+    "units_per_device": 8,
+    "semantic_objects": [
+      "dohosuh-passage-installation",
+      "jellyfish",
+      "softcore-朱莉娅_杰克逊_卡梅隆_CC0.jpg",
+      "nendo-watercolour-chair",
+      "shylight",
+      "roly",
+      "rozin-pompom-mirror",
+      "lucy-sparrow-felt-potato"
+    ],
+    "duplicate_objects": [],
+    "duplicate_originals": [],
+    "review": "逐张查看原图；同款不同角度合并。Hanabi 两张独立摄影、Margiela 三套不同造型分别保留。"
+  },
+  "midsummer": {
+    "units_per_device": 8,
+    "semantic_objects": [
+      "sorolla",
+      "hockney-a-bigger-splash",
+      "kawauchi-hanabi-photo-H59",
+      "selgascano-serpentine-2015",
+      "mailaender-illustrated-people-neck-photo",
+      "kawauchi-hanabi-photo-H38",
+      "swim",
+      "locus-solus-chaise"
+    ],
+    "duplicate_objects": [],
+    "duplicate_originals": [],
+    "review": "逐张查看原图；同款不同角度合并。Hanabi 两张独立摄影、Margiela 三套不同造型分别保留。"
+  },
+  "dopamine": {
+    "units_per_device": 9,
+    "semantic_objects": [
+      "moureaux-forest-of-numbers",
+      "chicago-multicolor-atmosphere",
+      "circus",
+      "tahiti",
+      "living",
+      "dali-mae-west-lips-sofa",
+      "panton-heart-cone",
+      "pantop",
+      "sottsass-carlton"
+    ],
+    "duplicate_objects": [],
+    "duplicate_originals": [],
+    "review": "逐张查看原图；同款不同角度合并。Hanabi 两张独立摄影、Margiela 三套不同造型分别保留。"
+  },
+  "decadence": {
+    "units_per_device": 8,
+    "semantic_objects": [
+      "beardsley-climax",
+      "beardsley-peacock-skirt",
+      "margiela-2024-black-lattice-look",
+      "redon-eye-balloon",
+      "necklace",
+      "margiela-2024-olive-pleated-look",
+      "lalique-dragonfly-woman",
+      "margiela-2024-male-corset-trousers"
+    ],
+    "duplicate_objects": [],
+    "duplicate_originals": [],
+    "review": "逐张查看原图；同款不同角度合并。Hanabi 两张独立摄影、Margiela 三套不同造型分别保留。"
+  }
+}

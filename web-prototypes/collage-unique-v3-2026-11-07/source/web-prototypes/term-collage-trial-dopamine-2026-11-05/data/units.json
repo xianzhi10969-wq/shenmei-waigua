@@ -1,0 +1,278 @@
+[
+  {
+    "unit_id": "u01-forest_1_emmanuelle_mour",
+    "display_number": "01",
+    "role": "主图",
+    "image": "assets/images/24a2992551d23ecd.jpg",
+    "source_file": "assets/originals/forest_1_emmanuelle_moureaux_Forest_of_Numbers.jpg",
+    "case_record_id": "reczz28MR6LJ5rW7",
+    "term_record_id": "reczz28HJJL2GLvJ",
+    "alt": "Forest of Numbers｜数字森林 · 空间装置／色彩艺术",
+    "url": "https://www.emmanuellemoureaux.com/100colors-forest-of-numbers",
+    "native": [
+      1500,
+      1000
+    ],
+    "colors": [
+      "#d68966",
+      "#e3b062",
+      "#deae88",
+      "#d78b46",
+      "#b3967f"
+    ],
+    "desktop": [
+      460,
+      55,
+      600,
+      560,
+      2,
+      2
+    ],
+    "mobile": [
+      16,
+      36,
+      358,
+      334,
+      2,
+      2
+    ],
+    "ref_desktop": [
+      1040,
+      623
+    ],
+    "ref_mobile": [
+      350,
+      378
+    ]
+  },
+  {
+    "unit_id": "u02-judy_10358_Multi-Color_A",
+    "display_number": "02",
+    "role": "补充",
+    "image": "assets/images/2c10099a6f7ed708.jpg",
+    "source_file": "assets/originals/judy_10358_Multi-Color_Atmosphere_F.jpg",
+    "case_record_id": "reczz28MR6LJ60Ar",
+    "term_record_id": "reczz28HJJL2GLvJ",
+    "alt": "Multi-color Atmosphere｜多彩氛围 · 烟火／行为表演／环境艺术",
+    "url": "https://judychicago.com/gallery/atmospheresfireworks/artwork/",
+    "native": [
+      1600,
+      1066
+    ],
+    "colors": [
+      "#b28a66",
+      "#da6935",
+      "#b2653b",
+      "#331f21",
+      "#5e3224"
+    ],
+    "desktop": [
+      40,
+      70,
+      280,
+      380,
+      -3,
+      4
+    ],
+    "mobile": [
+      220,
+      392,
+      154,
+      197,
+      -3,
+      4
+    ],
+    "ref_desktop": [
+      310,
+      42
+    ],
+    "ref_mobile": [
+      350,
+      597
+    ]
+  },
+  {
+    "unit_id": "u03-卡尔顿书架_索特萨斯_摄影Sailko_CCBY",
+    "display_number": "03",
+    "role": "细节",
+    "image": "assets/images/fdcd3cc6730c81df.jpg",
+    "source_file": "assets/originals/卡尔顿书架_索特萨斯_摄影Sailko_CCBYSA4.0.jpg",
+    "case_record_id": "reczz28HJJL2NkpP",
+    "term_record_id": "reczz28HJJL2GLvJ",
+    "alt": "卡尔顿 · 设计",
+    "url": "https://www.metmuseum.org/art/collection/search/486989",
+    "native": [
+      1506,
+      1600
+    ],
+    "colors": [
+      "#110e0b",
+      "#443930",
+      "#2d2118",
+      "#372d22",
+      "#5e9044"
+    ],
+    "desktop": [
+      340,
+      80,
+      140,
+      220,
+      5,
+      3
+    ],
+    "mobile": [
+      210,
+      1166,
+      164,
+      229,
+      5,
+      3
+    ],
+    "ref_desktop": [
+      460,
+      308
+    ],
+    "ref_mobile": [
+      350,
+      1403
+    ]
+  },
+  {
+    "unit_id": "u04-forest_2_emmanuelle_mour",
+    "display_number": "04",
+    "role": "环境",
+    "image": "assets/images/441c0bf2eecf9821.jpg",
+    "source_file": "assets/originals/forest_2_emmanuelle_moureaux_Forest_of_Numbers.jpg",
+    "case_record_id": "reczz28MR6LJ5rW7",
+    "term_record_id": "reczz28HJJL2GLvJ",
+    "alt": "Forest of Numbers｜数字森林 · 空间装置／色彩艺术",
+    "url": "https://www.emmanuellemoureaux.com/100colors-forest-of-numbers",
+    "native": [
+      1500,
+      1000
+    ],
+    "colors": [
+      "#d68c62",
+      "#e3b45e",
+      "#b58668",
+      "#927f69",
+      "#e0af4a"
+    ],
+    "desktop": [
+      40,
+      480,
+      300,
+      280,
+      2,
+      3
+    ],
+    "mobile": [
+      210,
+      740,
+      164,
+      153,
+      2,
+      3
+    ],
+    "ref_desktop": [
+      330,
+      452
+    ],
+    "ref_mobile": [
+      350,
+      901
+    ]
+  },
+  {
+    "unit_id": "u05-judy_10358_Multi-Color_A",
+    "display_number": "05",
+    "role": "对照",
+    "image": "assets/images/633eaf92e9e25fbb.jpg",
+    "source_file": "assets/originals/judy_10358_Multi-Color_Atmosphere_E.jpg",
+    "case_record_id": "reczz28MR6LJ60Ar",
+    "term_record_id": "reczz28HJJL2GLvJ",
+    "alt": "Multi-color Atmosphere｜多彩氛围 · 烟火／行为表演／环境艺术",
+    "url": "https://judychicago.com/gallery/atmospheresfireworks/artwork/",
+    "native": [
+      1600,
+      1066
+    ],
+    "colors": [
+      "#d6bfb2",
+      "#d4ccd3",
+      "#e0cdbb",
+      "#dab38c",
+      "#cdc5d1"
+    ],
+    "desktop": [
+      360,
+      420,
+      180,
+      260,
+      -2,
+      5
+    ],
+    "mobile": [
+      16,
+      911,
+      176,
+      237,
+      -2,
+      5
+    ],
+    "ref_desktop": [
+      520,
+      688
+    ],
+    "ref_mobile": [
+      172,
+      1156
+    ]
+  },
+  {
+    "unit_id": "u06-forest_4_emmanuelle_mour",
+    "display_number": "06",
+    "role": "细节",
+    "image": "assets/images/cf08917513daf4ee.jpg",
+    "source_file": "assets/originals/forest_4_emmanuelle_moureaux_Forest_of_Numbers.jpg",
+    "case_record_id": "reczz28MR6LJ5rW7",
+    "term_record_id": "reczz28HJJL2GLvJ",
+    "alt": "Forest of Numbers｜数字森林 · 空间装置／色彩艺术",
+    "url": "https://www.emmanuellemoureaux.com/100colors-forest-of-numbers",
+    "native": [
+      1500,
+      1000
+    ],
+    "colors": [
+      "#8a6e5d",
+      "#b18a64",
+      "#dab262",
+      "#957b65",
+      "#876045"
+    ],
+    "desktop": [
+      460,
+      660,
+      600,
+      280,
+      1,
+      4
+    ],
+    "mobile": [
+      16,
+      392,
+      210,
+      157,
+      1,
+      4
+    ],
+    "ref_desktop": [
+      1050,
+      632
+    ],
+    "ref_mobile": [
+      206,
+      557
+    ]
+  }
+]

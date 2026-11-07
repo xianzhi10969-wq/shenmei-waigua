@@ -1,0 +1,370 @@
+[
+  {
+    "unit_id": "u01-sparrow_official_7.jpg",
+    "display_number": "01",
+    "role": "主图",
+    "image": "assets/images/3b107e8a1f41450a.jpg",
+    "source_file": "assets/originals/sparrow_official_7.jpg",
+    "case_record_id": "reczz28LdxvOCkfm",
+    "term_record_id": "reczz28HJJL2GJS1",
+    "alt": "Sparrow Mart · 毛毡装置",
+    "url": "https://www.sewyoursoul.co.uk/exhibition/sparrow-mart/",
+    "native": [
+      1600,
+      1003
+    ],
+    "colors": [
+      "#8c878e",
+      "#e3dce2",
+      "#3e393a",
+      "#676269",
+      "#0e1511"
+    ],
+    "desktop": [
+      520,
+      50,
+      560,
+      520,
+      2,
+      2
+    ],
+    "mobile": [
+      16,
+      36,
+      358,
+      332,
+      2,
+      2
+    ],
+    "ref_desktop": [
+      1060,
+      578
+    ],
+    "ref_mobile": [
+      350,
+      376
+    ]
+  },
+  {
+    "unit_id": "u02-passage_01.jpg",
+    "display_number": "02",
+    "role": "补充",
+    "image": "assets/images/f802afa143d99543.jpg",
+    "source_file": "assets/originals/passage_01.jpg",
+    "case_record_id": "reczz28LdxvOBVuz",
+    "term_record_id": "reczz28HJJL2GJS1",
+    "alt": "Hubs — Passage/s · 纺织装置",
+    "url": "https://www.victoria-miro.com/exhibitions/501/",
+    "native": [
+      1600,
+      1067
+    ],
+    "colors": [
+      "#dbdae1",
+      "#5d433d",
+      "#e9e9f4",
+      "#f5f4fd",
+      "#d090ba"
+    ],
+    "desktop": [
+      40,
+      70,
+      280,
+      360,
+      -3,
+      4
+    ],
+    "mobile": [
+      16,
+      390,
+      210,
+      270,
+      -3,
+      4
+    ],
+    "ref_desktop": [
+      310,
+      42
+    ],
+    "ref_mobile": [
+      206,
+      668
+    ]
+  },
+  {
+    "unit_id": "u03-pompom_arthur.jpg",
+    "display_number": "03",
+    "role": "细节",
+    "image": "assets/images/3c739a81390893ce.jpg",
+    "source_file": "assets/originals/pompom_arthur.jpg",
+    "case_record_id": "reczz28LdxvOCeQE",
+    "term_record_id": "reczz28HJJL2GJS1",
+    "alt": "PomPom Mirror · 互动机械装置",
+    "url": "https://www.bitforms.art/artwork/pompom-mirror",
+    "native": [
+      900,
+      1200
+    ],
+    "colors": [
+      "#e0ddda",
+      "#bdb2a9",
+      "#b7a79a",
+      "#615d5e",
+      "#3d3a3b"
+    ],
+    "desktop": [
+      340,
+      60,
+      200,
+      260,
+      4,
+      3
+    ],
+    "mobile": [
+      210,
+      1789,
+      164,
+      213,
+      4,
+      3
+    ],
+    "ref_desktop": [
+      520,
+      328
+    ],
+    "ref_mobile": [
+      350,
+      2010
+    ]
+  },
+  {
+    "unit_id": "u04-nendo_48.jpg",
+    "display_number": "04",
+    "role": "环境",
+    "image": "assets/images/39cfafce21055b2c.jpg",
+    "source_file": "assets/originals/nendo_48.jpg",
+    "case_record_id": "reczz28LdxvOA0sF",
+    "term_record_id": "reczz28HJJL2GJS1",
+    "alt": "Watercolour Collection · 家具设计",
+    "url": "https://www.nendo.jp/en/works/watercolour-collection/",
+    "native": [
+      820,
+      547
+    ],
+    "colors": [
+      "#d8e7f5",
+      "#d8e2ea",
+      "#bcd2e6",
+      "#edf1f5",
+      "#f2f5f8"
+    ],
+    "desktop": [
+      40,
+      450,
+      260,
+      240,
+      2,
+      3
+    ],
+    "mobile": [
+      210,
+      1378,
+      164,
+      151,
+      2,
+      3
+    ],
+    "ref_desktop": [
+      290,
+      422
+    ],
+    "ref_mobile": [
+      350,
+      1537
+    ]
+  },
+  {
+    "unit_id": "u05-朱莉娅_杰克逊_卡梅隆_CC0.jpg",
+    "display_number": "05",
+    "role": "对照",
+    "image": "assets/images/6cb68c6b97be4ac3.jpg",
+    "source_file": "assets/originals/朱莉娅_杰克逊_卡梅隆_CC0.jpg",
+    "case_record_id": "reczz28HJJL2NiHW",
+    "term_record_id": "reczz28HJJL2GJS1",
+    "alt": "卡梅隆夫人的人像 · 摄影",
+    "url": "https://emuseum.mfah.org/objects/148871/mrs-camerons-photographs-from-the-life",
+    "native": [
+      1270,
+      1600
+    ],
+    "colors": [
+      "#321510",
+      "#250d0b",
+      "#5f4235",
+      "#bebab7",
+      "#958d88"
+    ],
+    "desktop": [
+      320,
+      360,
+      220,
+      280,
+      -4,
+      5
+    ],
+    "mobile": [
+      16,
+      1547,
+      176,
+      224,
+      -4,
+      5
+    ],
+    "ref_desktop": [
+      520,
+      648
+    ],
+    "ref_mobile": [
+      172,
+      1779
+    ]
+  },
+  {
+    "unit_id": "u06-pompom_dezeen.jpg",
+    "display_number": "06",
+    "role": "细节",
+    "image": "assets/images/b34e8d4467a74753.jpg",
+    "source_file": "assets/originals/pompom_dezeen.jpg",
+    "case_record_id": "reczz28LdxvOCeQE",
+    "term_record_id": "reczz28HJJL2GJS1",
+    "alt": "PomPom Mirror · 互动机械装置",
+    "url": "https://www.bitforms.art/artwork/pompom-mirror",
+    "native": [
+      468,
+      376
+    ],
+    "colors": [
+      "#dcd0b7",
+      "#080809",
+      "#d0c3a7",
+      "#bcac8e",
+      "#ccbb99"
+    ],
+    "desktop": [
+      560,
+      600,
+      360,
+      280,
+      1,
+      4
+    ],
+    "mobile": [
+      220,
+      390,
+      154,
+      123,
+      1,
+      4
+    ],
+    "ref_desktop": [
+      910,
+      572
+    ],
+    "ref_mobile": [
+      350,
+      521
+    ]
+  },
+  {
+    "unit_id": "u07-sparrow_005.jpg",
+    "display_number": "07",
+    "role": "补充",
+    "image": "assets/images/b0d65add93f8693f.jpg",
+    "source_file": "assets/originals/sparrow_005.jpg",
+    "case_record_id": "reczz28LdxvOCkfm",
+    "term_record_id": "reczz28HJJL2GJS1",
+    "alt": "Sparrow Mart · 毛毡装置",
+    "url": "https://www.sewyoursoul.co.uk/exhibition/sparrow-mart/",
+    "native": [
+      1600,
+      1002
+    ],
+    "colors": [
+      "#8c878f",
+      "#e4dce2",
+      "#3e393a",
+      "#686269",
+      "#0e1411"
+    ],
+    "desktop": [
+      940,
+      520,
+      260,
+      300,
+      -2,
+      5
+    ],
+    "mobile": [
+      210,
+      964,
+      164,
+      189,
+      -2,
+      5
+    ],
+    "ref_desktop": [
+      1180,
+      828
+    ],
+    "ref_mobile": [
+      350,
+      1161
+    ]
+  },
+  {
+    "unit_id": "u08-passage_14.jpg",
+    "display_number": "08",
+    "role": "细节",
+    "image": "assets/images/d248f393f624d429.jpg",
+    "source_file": "assets/originals/passage_14.jpg",
+    "case_record_id": "reczz28LdxvOBVuz",
+    "term_record_id": "reczz28HJJL2GJS1",
+    "alt": "Hubs — Passage/s · 纺织装置",
+    "url": "https://www.victoria-miro.com/exhibitions/501/",
+    "native": [
+      1600,
+      1068
+    ],
+    "colors": [
+      "#d4d4d4",
+      "#bcbab9",
+      "#63635f",
+      "#8a8884",
+      "#5c8eb9"
+    ],
+    "desktop": [
+      940,
+      60,
+      260,
+      280,
+      3,
+      3
+    ],
+    "mobile": [
+      16,
+      1171,
+      176,
+      189,
+      3,
+      3
+    ],
+    "ref_desktop": [
+      1190,
+      32
+    ],
+    "ref_mobile": [
+      172,
+      1368
+    ]
+  }
+]

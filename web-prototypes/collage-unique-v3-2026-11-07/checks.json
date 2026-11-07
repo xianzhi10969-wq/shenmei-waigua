@@ -1,0 +1,66 @@
+{
+  "results": [
+    {
+      "slug": "softcore",
+      "size": "desktop",
+      "units": 8,
+      "originalsOpened": 8
+    },
+    {
+      "slug": "softcore",
+      "size": "mobile",
+      "units": 8,
+      "originalsOpened": 8
+    },
+    {
+      "slug": "midsummer",
+      "size": "desktop",
+      "units": 8,
+      "originalsOpened": 8
+    },
+    {
+      "slug": "midsummer",
+      "size": "mobile",
+      "units": 8,
+      "originalsOpened": 8
+    },
+    {
+      "slug": "dopamine",
+      "size": "desktop",
+      "units": 9,
+      "originalsOpened": 9
+    },
+    {
+      "slug": "dopamine",
+      "size": "mobile",
+      "units": 9,
+      "originalsOpened": 9
+    },
+    {
+      "slug": "decadence",
+      "size": "desktop",
+      "units": 8,
+      "originalsOpened": 8
+    },
+    {
+      "slug": "decadence",
+      "size": "mobile",
+      "units": 8,
+      "originalsOpened": 8
+    },
+    {
+      "slug": "retro-rock",
+      "size": "desktop",
+      "units": 9,
+      "originalsOpened": 9
+    },
+    {
+      "slug": "retro-rock",
+      "size": "mobile",
+      "units": 9,
+      "originalsOpened": 9
+    }
+  ],
+  "errors": [],
+  "overflow": false
+}

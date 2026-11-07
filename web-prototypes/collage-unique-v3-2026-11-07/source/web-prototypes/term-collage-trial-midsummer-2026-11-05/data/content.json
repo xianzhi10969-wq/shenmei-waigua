@@ -1,0 +1,68 @@
+{
+  "snapshot_date": "2026-11-05",
+  "source": {
+    "base": "IGctbcuwPaE6hMsmAoicJddpn3U",
+    "term_table": "tbl2gR8WBoqCQyGz",
+    "case_table": "tblpdRYutnm12T0y",
+    "profile": "aesthetic-feishu",
+    "as": "user",
+    "read_only": true
+  },
+  "term": {
+    "record_id": "reczz28HJJL2GLJb",
+    "词": "盛夏",
+    "英文": "Midsummer",
+    "所属章节": [
+      "田园"
+    ],
+    "在本章的位置": "太阳底下：光最满、白天最长的那几天",
+    "核心": "盛夏最美的地方，不是生命正在生长，而是生命正在毫无保留地燃烧自己。"
+  },
+  "cases": [
+    {
+      "id": "reczz28MLgJayHOi",
+      "title": "Illustrated People｜皮肤上的照片",
+      "media": "实验摄影／身体艺术",
+      "imgs": 11,
+      "url": "https://rvb-books.com/products/thomas-mailaender-illustrated-people"
+    },
+    {
+      "id": "reczz28MLgJaxrYR",
+      "title": "Hanabi｜花火",
+      "media": "摄影",
+      "imgs": 8,
+      "url": "https://prix.pictet.com/cycles/fire/rinko-kawauchi"
+    },
+    {
+      "id": "reczz28MLgJb1FHM",
+      "title": "Serpentine Pavilion 2015｜走进彩虹色的阳光里",
+      "media": "临时建筑",
+      "imgs": 7,
+      "url": "https://www.serpentinegalleries.org/whats-on/serpentine-pavilion-2015-designed-selgascano/"
+    },
+    {
+      "id": "reczz28MLgJb1lI7",
+      "title": "Locus Solus｜一整个意大利夏日",
+      "media": "户外家具／设计系列",
+      "imgs": 6,
+      "url": "https://www.exteta.it/en/collections/jacquemus-exteta"
+    },
+    {
+      "id": "reczz28MLgJb05P4",
+      "title": "The Floating Piers｜漂浮的码头",
+      "media": "大地艺术／公共装置",
+      "imgs": 4,
+      "url": "https://christojeanneclaude.net/artworks/the-floating-piers/"
+    }
+  ],
+  "editorial": {
+    "see": "身体/烟火/大地艺术/家具/彩虹亭：尺度从皮肤到湖面",
+    "clues": [
+      "Illustrated People｜皮肤上的照片 · 实验摄影／身体艺术",
+      "Hanabi｜花火 · 摄影",
+      "Locus Solus｜一整个意大利夏日 · 户外家具／设计系列",
+      "Illustrated People｜皮肤上的照片 · 实验摄影／身体艺术"
+    ],
+    "avoid": "不与无关词条混图；不因附件多而硬凑"
+  }
+}

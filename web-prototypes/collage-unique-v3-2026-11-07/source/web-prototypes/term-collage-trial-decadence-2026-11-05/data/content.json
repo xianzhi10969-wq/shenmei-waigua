@@ -1,0 +1,68 @@
+{
+  "snapshot_date": "2026-11-05",
+  "source": {
+    "base": "IGctbcuwPaE6hMsmAoicJddpn3U",
+    "term_table": "tbl2gR8WBoqCQyGz",
+    "case_table": "tblpdRYutnm12T0y",
+    "profile": "aesthetic-feishu",
+    "as": "user",
+    "read_only": true
+  },
+  "term": {
+    "record_id": "reczz28MKp7HdDiG",
+    "词": "颓废美学",
+    "英文": "Decadence",
+    "所属章节": [
+      "忧郁"
+    ],
+    "在本章的位置": null,
+    "核心": "颓废美学不相信，美必须像生命一样健康地生长。它迷恋那些极尽精致、过度成熟、逐渐衰弱的事物——即使生命开始消逝，美也不一定随之结束。"
+  },
+  "cases": [
+    {
+      "id": "reczz28MnyHcQLe7",
+      "title": "Artisanal 2024 高级定制系列",
+      "media": "高级定制、妆造、秀场表演",
+      "imgs": 4,
+      "url": "https://www.vogue.com/fashion-shows/spring-2024-couture/maison-martin-margiela"
+    },
+    {
+      "id": "reczz28MnyHcQMQu",
+      "title": "《蜻蜓女子》Dragonfly Corsage Ornament",
+      "media": "珠宝、珐琅、黄金与宝石",
+      "imgs": 2,
+      "url": "https://gulbenkian.pt/museu/en/works/dragonfly-corsage-ornament/"
+    },
+    {
+      "id": "reczz28MnyHcRK5r",
+      "title": "《高潮》The Climax",
+      "media": "黑白插画、书籍设计",
+      "imgs": 1,
+      "url": "https://www.metmuseum.org/art/collection/search/822368"
+    },
+    {
+      "id": "reczz28MnyHcRaTA",
+      "title": "《孔雀裙》The Peacock Skirt",
+      "media": "黑白插画",
+      "imgs": 1,
+      "url": "https://www.metmuseum.org/art/collection/search/822344"
+    },
+    {
+      "id": "reczz28MnyHcRudP",
+      "title": "《眼睛像一只奇异的气球，飞向无限》",
+      "media": "石版画（Noirs）",
+      "imgs": 1,
+      "url": "https://www.moma.org/collection/works/33013"
+    }
+  ],
+  "editorial": {
+    "see": "比亚兹莱、蜻蜓胸针、雷东、Galliano高定",
+    "clues": [
+      "Artisanal 2024 高级定制系列 · 高级定制、妆造、秀场表演",
+      "《蜻蜓女子》Dragonfly Corsage Ornament · 珠宝、珐琅、黄金与宝石",
+      "《高潮》The Climax · 黑白插画、书籍设计",
+      "《孔雀裙》The Peacock Skirt · 黑白插画"
+    ],
+    "avoid": "不与无关词条混图；不因附件多而硬凑"
+  }
+}

@@ -1,0 +1,1796 @@
+{
+  "retro-rock": {
+    "desktop": [
+      {
+        "src": 1,
+        "x": 24,
+        "y": 167,
+        "w": 523,
+        "h": 423,
+        "rotation": -4,
+        "mask": null,
+        "crop": [
+          28.987954519869447,
+          0,
+          942.0240909602611,
+          1000
+        ],
+        "unit": 1,
+        "source_file": "../source/web-prototypes/term-collage-trial-retro-rock-2026-11-05/assets/originals/granny_vam.jpg",
+        "object_id": "granny-store",
+        "origin": "existing-case",
+        "case_record_id": "reczz28MRgiLqd42",
+        "term_record_id": "reczz28HJJL2GJt7"
+      },
+      {
+        "src": "ufo",
+        "x": 865,
+        "y": 153,
+        "w": 292,
+        "h": 432,
+        "rotation": 5,
+        "mask": null,
+        "crop": [
+          0,
+          0.0795590979444114,
+          1000,
+          999.8408818041112
+        ],
+        "unit": 2,
+        "source_file": "../additions/ufo.jpg",
+        "object_id": "ufo",
+        "origin": "external-reference",
+        "case_record_id": null,
+        "term_record_id": null
+      },
+      {
+        "src": 2,
+        "x": 876,
+        "y": 606,
+        "w": 300,
+        "h": 359,
+        "rotation": -3,
+        "mask": null,
+        "crop": [
+          0,
+          0.23201856148494926,
+          1000,
+          999.5359628770301
+        ],
+        "unit": 3,
+        "source_file": "../source/web-prototypes/term-collage-trial-retro-rock-2026-11-05/assets/originals/keith_skull.jpg",
+        "object_id": "keith-skull-ring-portrait",
+        "origin": "existing-case",
+        "case_record_id": "reczz28MRgiLrWjE",
+        "term_record_id": "reczz28HJJL2GJt7"
+      },
+      {
+        "src": "synthi",
+        "x": 27,
+        "y": 678,
+        "w": 300,
+        "h": 304.45205479452056,
+        "rotation": -5,
+        "mask": "cut:synthi",
+        "crop": [
+          131.25,
+          75.21697203471552,
+          684.375,
+          857.2806171648988
+        ],
+        "unit": 4,
+        "source_file": "../additions/synthi.jpg",
+        "object_id": "synthi",
+        "origin": "external-reference",
+        "case_record_id": null,
+        "term_record_id": null
+      },
+      {
+        "src": "bowie-suit",
+        "x": 253,
+        "y": 190,
+        "w": 222,
+        "h": 722.8795411089866,
+        "rotation": -3,
+        "mask": "cut:bowie-suit",
+        "crop": [
+          274.21875,
+          8.055235903337168,
+          408.59375,
+          979.861910241657
+        ],
+        "unit": 5,
+        "source_file": "../additions/bowie-suit.jpg",
+        "object_id": "bowie-suit",
+        "origin": "external-reference",
+        "case_record_id": null,
+        "term_record_id": null
+      },
+      {
+        "src": 4,
+        "x": 501,
+        "y": 168,
+        "w": 321,
+        "h": 756.348160282258,
+        "rotation": 3,
+        "mask": "dress",
+        "crop": [
+          170,
+          75,
+          620,
+          920
+        ],
+        "unit": 6,
+        "source_file": "../source/web-prototypes/term-collage-trial-retro-rock-2026-11-05/assets/originals/stevie_rhiannon.jpg",
+        "object_id": "stevie-rhiannon-costume",
+        "origin": "existing-case",
+        "case_record_id": "reczz28MRgiLoC9N",
+        "term_record_id": "reczz28HJJL2GJt7"
+      },
+      {
+        "src": "bowie-shoes",
+        "x": 382,
+        "y": 705,
+        "w": 320,
+        "h": 281.2738853503185,
+        "rotation": 5,
+        "mask": "cut:bowie-shoes",
+        "crop": [
+          82.8125,
+          184.375,
+          490.625,
+          575.0
+        ],
+        "unit": 7,
+        "source_file": "../additions/bowie-shoes.jpg",
+        "object_id": "bowie-shoes",
+        "origin": "external-reference",
+        "case_record_id": null,
+        "term_record_id": null
+      },
+      {
+        "src": "bowie-guitar",
+        "x": 796,
+        "y": 372,
+        "w": 135,
+        "h": 514.8921832884097,
+        "rotation": 13,
+        "mask": "cut:bowie-guitar",
+        "crop": [
+          356.25,
+          82.45614035087719,
+          289.84375,
+          827.485380116959
+        ],
+        "unit": 8,
+        "source_file": "../additions/bowie-guitar.jpg",
+        "object_id": "bowie-guitar",
+        "origin": "external-reference",
+        "case_record_id": null,
+        "term_record_id": null
+      },
+      {
+        "src": 3,
+        "x": 32,
+        "y": 479,
+        "w": 252,
+        "h": 329.4011538461538,
+        "rotation": -10,
+        "mask": "ring",
+        "crop": [
+          200,
+          120,
+          650,
+          680
+        ],
+        "unit": 9,
+        "source_file": "../source/web-prototypes/term-collage-trial-retro-rock-2026-11-05/assets/originals/eye_ring.jpg",
+        "object_id": "great-frog-eye-ring",
+        "origin": "existing-case",
+        "case_record_id": "reczz28MRgiLopRy",
+        "term_record_id": "reczz28HJJL2GJt7"
+      }
+    ],
+    "mobile": [
+      {
+        "src": 1,
+        "x": 9,
+        "y": 111,
+        "w": 230,
+        "h": 270,
+        "rotation": -4,
+        "mask": null,
+        "crop": [
+          175.48500881834212,
+          0,
+          649.0299823633158,
+          1000
+        ],
+        "unit": 1,
+        "source_file": "../source/web-prototypes/term-collage-trial-retro-rock-2026-11-05/assets/originals/granny_vam.jpg",
+        "object_id": "granny-store",
+        "origin": "existing-case",
+        "case_record_id": "reczz28MRgiLqd42",
+        "term_record_id": "reczz28HJJL2GJt7"
+      },
+      {
+        "src": "ufo",
+        "x": 254,
+        "y": 110,
+        "w": 121,
+        "h": 237,
+        "rotation": 5,
+        "mask": null,
+        "crop": [
+          122.27386603375527,
+          0,
+          755.4522679324895,
+          1000
+        ],
+        "unit": 2,
+        "source_file": "../additions/ufo.jpg",
+        "object_id": "ufo",
+        "origin": "external-reference",
+        "case_record_id": null,
+        "term_record_id": null
+      },
+      {
+        "src": 2,
+        "x": 234,
+        "y": 729,
+        "w": 144,
+        "h": 273,
+        "rotation": 3,
+        "mask": null,
+        "crop": [
+          184.2490842490842,
+          0,
+          631.5018315018316,
+          1000
+        ],
+        "unit": 3,
+        "source_file": "../source/web-prototypes/term-collage-trial-retro-rock-2026-11-05/assets/originals/keith_skull.jpg",
+        "object_id": "keith-skull-ring-portrait",
+        "origin": "existing-case",
+        "case_record_id": "reczz28MRgiLrWjE",
+        "term_record_id": "reczz28HJJL2GJt7"
+      },
+      {
+        "src": "synthi",
+        "x": 12,
+        "y": 867,
+        "w": 197,
+        "h": 199.9235159817352,
+        "rotation": -5,
+        "mask": "cut:synthi",
+        "crop": [
+          131.25,
+          75.21697203471552,
+          684.375,
+          857.2806171648988
+        ],
+        "unit": 4,
+        "source_file": "../additions/synthi.jpg",
+        "object_id": "synthi",
+        "origin": "external-reference",
+        "case_record_id": null,
+        "term_record_id": null
+      },
+      {
+        "src": "bowie-suit",
+        "x": 40,
+        "y": 364,
+        "w": 141,
+        "h": 459.1261950286806,
+        "rotation": -4,
+        "mask": "cut:bowie-suit",
+        "crop": [
+          274.21875,
+          8.055235903337168,
+          408.59375,
+          979.861910241657
+        ],
+        "unit": 5,
+        "source_file": "../additions/bowie-suit.jpg",
+        "object_id": "bowie-suit",
+        "origin": "external-reference",
+        "case_record_id": null,
+        "term_record_id": null
+      },
+      {
+        "src": 4,
+        "x": 179,
+        "y": 296,
+        "w": 173,
+        "h": 407.62689012096774,
+        "rotation": 3,
+        "mask": "dress",
+        "crop": [
+          170,
+          75,
+          620,
+          920
+        ],
+        "unit": 6,
+        "source_file": "../source/web-prototypes/term-collage-trial-retro-rock-2026-11-05/assets/originals/stevie_rhiannon.jpg",
+        "object_id": "stevie-rhiannon-costume",
+        "origin": "existing-case",
+        "case_record_id": "reczz28MRgiLoC9N",
+        "term_record_id": "reczz28HJJL2GJt7"
+      },
+      {
+        "src": "bowie-shoes",
+        "x": 89,
+        "y": 738,
+        "w": 207,
+        "h": 181.94904458598725,
+        "rotation": 7,
+        "mask": "cut:bowie-shoes",
+        "crop": [
+          82.8125,
+          184.375,
+          490.625,
+          575.0
+        ],
+        "unit": 7,
+        "source_file": "../additions/bowie-shoes.jpg",
+        "object_id": "bowie-shoes",
+        "origin": "external-reference",
+        "case_record_id": null,
+        "term_record_id": null
+      },
+      {
+        "src": "bowie-guitar",
+        "x": 321,
+        "y": 446,
+        "w": 57,
+        "h": 217.3989218328841,
+        "rotation": 12,
+        "mask": "cut:bowie-guitar",
+        "crop": [
+          356.25,
+          82.45614035087719,
+          289.84375,
+          827.485380116959
+        ],
+        "unit": 8,
+        "source_file": "../additions/bowie-guitar.jpg",
+        "object_id": "bowie-guitar",
+        "origin": "external-reference",
+        "case_record_id": null,
+        "term_record_id": null
+      },
+      {
+        "src": 3,
+        "x": 10,
+        "y": 623,
+        "w": 105,
+        "h": 137.25048076923076,
+        "rotation": -9,
+        "mask": "ring",
+        "crop": [
+          200,
+          120,
+          650,
+          680
+        ],
+        "unit": 9,
+        "source_file": "../source/web-prototypes/term-collage-trial-retro-rock-2026-11-05/assets/originals/eye_ring.jpg",
+        "object_id": "great-frog-eye-ring",
+        "origin": "existing-case",
+        "case_record_id": "reczz28MRgiLopRy",
+        "term_record_id": "reczz28HJJL2GJt7"
+      }
+    ]
+  },
+  "softcore": {
+    "desktop": [
+      {
+        "src": 2,
+        "x": 20,
+        "y": 152,
+        "w": 539,
+        "h": 490,
+        "rotation": -4,
+        "mask": "oval",
+        "crop": [
+          132.8857421875,
+          0,
+          734.228515625,
+          1000
+        ],
+        "unit": 1,
+        "source_file": "../source/web-prototypes/term-collage-trial-softcore-2026-11-05/assets/originals/passage_01.jpg",
+        "object_id": "dohosuh-passage-installation",
+        "origin": "existing-case",
+        "case_record_id": "reczz28LdxvOBVuz",
+        "term_record_id": "reczz28HJJL2GJS1"
+      },
+      {
+        "src": "jellyfish",
+        "x": 854,
+        "y": 149,
+        "w": 317,
+        "h": 289,
+        "rotation": 4,
+        "mask": null,
+        "crop": [
+          134.14845134610522,
+          0,
+          731.7030973077896,
+          1000
+        ],
+        "unit": 2,
+        "source_file": "../additions/jellyfish.jpg",
+        "object_id": "jellyfish",
+        "origin": "external-reference",
+        "case_record_id": null,
+        "term_record_id": null
+      },
+      {
+        "src": 5,
+        "x": 33,
+        "y": 652,
+        "w": 246,
+        "h": 319,
+        "rotation": -4,
+        "mask": "oval",
+        "crop": [
+          14.41026645768028,
+          0,
+          971.1794670846394,
+          1000
+        ],
+        "unit": 3,
+        "source_file": "../source/web-prototypes/term-collage-trial-softcore-2026-11-05/assets/originals/朱莉娅_杰克逊_卡梅隆_CC0.jpg",
+        "object_id": "softcore-朱莉娅_杰克逊_卡梅隆_CC0.jpg",
+        "origin": "existing-case",
+        "case_record_id": "reczz28HJJL2NiHW",
+        "term_record_id": "reczz28HJJL2GJS1"
+      },
+      {
+        "src": "bluechair",
+        "x": 703,
+        "y": 694,
+        "w": 469,
+        "h": 278,
+        "rotation": 4,
+        "mask": null,
+        "crop": [
+          0,
+          55.708009963242034,
+          1000,
+          888.5839800735159
+        ],
+        "unit": 4,
+        "source_file": "../source/web-prototypes/term-collage-trial-softcore-2026-11-05/assets/originals/nendo_04.jpg",
+        "object_id": "nendo-watercolour-chair",
+        "origin": "existing-case",
+        "case_record_id": "reczz28LdxvOA0sF",
+        "term_record_id": "reczz28HJJL2GJS1"
+      },
+      {
+        "src": "shylight",
+        "x": 455,
+        "y": 156,
+        "w": 427,
+        "h": 423.0529411764706,
+        "rotation": 6,
+        "mask": "cut:shylight",
+        "crop": [
+          207.51953125,
+          1.4641288433382138,
+          581.0546875,
+          863.1039531478771
+        ],
+        "unit": 5,
+        "source_file": "../additions/shylight.jpg",
+        "object_id": "shylight",
+        "origin": "external-reference",
+        "case_record_id": null,
+        "term_record_id": null
+      },
+      {
+        "src": "roly",
+        "x": 484,
+        "y": 510,
+        "w": 457,
+        "h": 421.4297800338409,
+        "rotation": -6,
+        "mask": "cut:roly",
+        "crop": [
+          381.25,
+          611.8237590630229,
+          461.71875,
+          303.95984383714443
+        ],
+        "unit": 6,
+        "source_file": "../additions/roly.jpg",
+        "object_id": "roly",
+        "origin": "external-reference",
+        "case_record_id": null,
+        "term_record_id": null
+      },
+      {
+        "src": 3,
+        "x": 820,
+        "y": 438,
+        "w": 350,
+        "h": 351.51515151515156,
+        "rotation": 6,
+        "mask": "mirror",
+        "crop": [
+          600,
+          285,
+          385,
+          290
+        ],
+        "unit": 7,
+        "source_file": "../source/web-prototypes/term-collage-trial-softcore-2026-11-05/assets/originals/pompom_arthur.jpg",
+        "object_id": "rozin-pompom-mirror",
+        "origin": "existing-case",
+        "case_record_id": "reczz28LdxvOCeQE",
+        "term_record_id": "reczz28HJJL2GJS1"
+      },
+      {
+        "src": "potato",
+        "x": 206,
+        "y": 485,
+        "w": 352,
+        "h": 269.2605882352941,
+        "rotation": -12,
+        "mask": "potato",
+        "crop": [
+          310,
+          350,
+          340,
+          390
+        ],
+        "unit": 8,
+        "source_file": "../source/web-prototypes/term-collage-trial-softcore-2026-11-05/assets/originals/sparrow_official_5.jpg",
+        "object_id": "lucy-sparrow-felt-potato",
+        "origin": "existing-case",
+        "case_record_id": "reczz28LdxvOCkfm",
+        "term_record_id": "reczz28HJJL2GJS1"
+      }
+    ],
+    "mobile": [
+      {
+        "src": 2,
+        "x": 9,
+        "y": 107,
+        "w": 280,
+        "h": 308,
+        "rotation": -4,
+        "mask": "oval",
+        "crop": [
+          196.5997869318182,
+          0,
+          606.8004261363636,
+          1000
+        ],
+        "unit": 1,
+        "source_file": "../source/web-prototypes/term-collage-trial-softcore-2026-11-05/assets/originals/passage_01.jpg",
+        "object_id": "dohosuh-passage-installation",
+        "origin": "existing-case",
+        "case_record_id": "reczz28LdxvOBVuz",
+        "term_record_id": "reczz28HJJL2GJS1"
+      },
+      {
+        "src": "jellyfish",
+        "x": 237,
+        "y": 105,
+        "w": 139,
+        "h": 202,
+        "rotation": 4,
+        "mask": null,
+        "crop": [
+          270.48720115914034,
+          0,
+          459.0255976817193,
+          1000
+        ],
+        "unit": 2,
+        "source_file": "../additions/jellyfish.jpg",
+        "object_id": "jellyfish",
+        "origin": "external-reference",
+        "case_record_id": null,
+        "term_record_id": null
+      },
+      {
+        "src": 5,
+        "x": 10,
+        "y": 759,
+        "w": 138,
+        "h": 234,
+        "rotation": -4,
+        "mask": "oval",
+        "crop": [
+          128.64583333333331,
+          0,
+          742.7083333333334,
+          1000
+        ],
+        "unit": 3,
+        "source_file": "../source/web-prototypes/term-collage-trial-softcore-2026-11-05/assets/originals/朱莉娅_杰克逊_卡梅隆_CC0.jpg",
+        "object_id": "softcore-朱莉娅_杰克逊_卡梅隆_CC0.jpg",
+        "origin": "existing-case",
+        "case_record_id": "reczz28HJJL2NiHW",
+        "term_record_id": "reczz28HJJL2GJS1"
+      },
+      {
+        "src": "bluechair",
+        "x": 131,
+        "y": 854,
+        "w": 244,
+        "h": 183,
+        "rotation": 4,
+        "mask": null,
+        "crop": [
+          55.28455284552854,
+          0,
+          889.4308943089429,
+          1000
+        ],
+        "unit": 4,
+        "source_file": "../source/web-prototypes/term-collage-trial-softcore-2026-11-05/assets/originals/nendo_04.jpg",
+        "object_id": "nendo-watercolour-chair",
+        "origin": "existing-case",
+        "case_record_id": "reczz28LdxvOA0sF",
+        "term_record_id": "reczz28HJJL2GJS1"
+      },
+      {
+        "src": "shylight",
+        "x": 123,
+        "y": 296,
+        "w": 244,
+        "h": 241.74453781512605,
+        "rotation": 6,
+        "mask": "cut:shylight",
+        "crop": [
+          207.51953125,
+          1.4641288433382138,
+          581.0546875,
+          863.1039531478771
+        ],
+        "unit": 5,
+        "source_file": "../additions/shylight.jpg",
+        "object_id": "shylight",
+        "origin": "external-reference",
+        "case_record_id": null,
+        "term_record_id": null
+      },
+      {
+        "src": "roly",
+        "x": 142,
+        "y": 652,
+        "w": 228,
+        "h": 210.253807106599,
+        "rotation": -5,
+        "mask": "cut:roly",
+        "crop": [
+          381.25,
+          611.8237590630229,
+          461.71875,
+          303.95984383714443
+        ],
+        "unit": 6,
+        "source_file": "../additions/roly.jpg",
+        "object_id": "roly",
+        "origin": "external-reference",
+        "case_record_id": null,
+        "term_record_id": null
+      },
+      {
+        "src": 3,
+        "x": 217,
+        "y": 491,
+        "w": 159,
+        "h": 159.6883116883117,
+        "rotation": 5,
+        "mask": "mirror",
+        "crop": [
+          600,
+          285,
+          385,
+          290
+        ],
+        "unit": 7,
+        "source_file": "../source/web-prototypes/term-collage-trial-softcore-2026-11-05/assets/originals/pompom_arthur.jpg",
+        "object_id": "rozin-pompom-mirror",
+        "origin": "existing-case",
+        "case_record_id": "reczz28LdxvOCeQE",
+        "term_record_id": "reczz28HJJL2GJS1"
+      },
+      {
+        "src": "potato",
+        "x": 9,
+        "y": 494,
+        "w": 207,
+        "h": 158.34358455882352,
+        "rotation": -12,
+        "mask": "potato",
+        "crop": [
+          310,
+          350,
+          340,
+          390
+        ],
+        "unit": 8,
+        "source_file": "../source/web-prototypes/term-collage-trial-softcore-2026-11-05/assets/originals/sparrow_official_5.jpg",
+        "object_id": "lucy-sparrow-felt-potato",
+        "origin": "existing-case",
+        "case_record_id": "reczz28LdxvOCkfm",
+        "term_record_id": "reczz28HJJL2GJS1"
+      }
+    ]
+  },
+  "midsummer": {
+    "desktop": [
+      {
+        "src": "sorolla",
+        "x": 19,
+        "y": 156,
+        "w": 515,
+        "h": 493,
+        "rotation": -3,
+        "mask": "oval",
+        "crop": [
+          0,
+          27.520327425817584,
+          1000,
+          944.9593451483648
+        ],
+        "unit": 1,
+        "source_file": "../additions/sorolla.jpg",
+        "object_id": "sorolla",
+        "origin": "external-reference",
+        "case_record_id": null,
+        "term_record_id": null
+      },
+      {
+        "src": "hockney-large",
+        "x": 857,
+        "y": 153,
+        "w": 310,
+        "h": 307,
+        "rotation": 5,
+        "mask": null,
+        "crop": [
+          0.16286644951139806,
+          0,
+          999.6742671009772,
+          1000
+        ],
+        "unit": 2,
+        "source_file": "../additions/hockney-large.jpg",
+        "object_id": "hockney-a-bigger-splash",
+        "origin": "external-reference",
+        "case_record_id": null,
+        "term_record_id": null
+      },
+      {
+        "src": 5,
+        "x": 28,
+        "y": 705,
+        "w": 337,
+        "h": 259,
+        "rotation": -4,
+        "mask": null,
+        "crop": [
+          0,
+          117.1253763190062,
+          1000,
+          765.7492473619876
+        ],
+        "unit": 3,
+        "source_file": "../source/web-prototypes/term-collage-trial-midsummer-2026-11-05/assets/originals/H59.jpg",
+        "object_id": "kawauchi-hanabi-photo-H59",
+        "origin": "existing-case",
+        "case_record_id": "reczz28MLgJaxrYR",
+        "term_record_id": "reczz28HJJL2GLJb"
+      },
+      {
+        "src": 6,
+        "x": 724,
+        "y": 702,
+        "w": 452,
+        "h": 266,
+        "rotation": 3,
+        "mask": null,
+        "crop": [
+          0,
+          58.52053551168592,
+          1000,
+          882.9589289766282
+        ],
+        "unit": 4,
+        "source_file": "../source/web-prototypes/term-collage-trial-midsummer-2026-11-05/assets/originals/sp_og.jpg",
+        "object_id": "selgascano-serpentine-2015",
+        "origin": "existing-case",
+        "case_record_id": "reczz28MLgJb1FHM",
+        "term_record_id": "reczz28HJJL2GLJb"
+      },
+      {
+        "src": 4,
+        "x": 378,
+        "y": 705,
+        "w": 276,
+        "h": 259,
+        "rotation": -4,
+        "mask": "oval",
+        "crop": [
+          0,
+          186.41410289007547,
+          1000,
+          627.1717942198491
+        ],
+        "unit": 5,
+        "source_file": "../source/web-prototypes/term-collage-trial-midsummer-2026-11-05/assets/originals/ip_10.jpg",
+        "object_id": "mailaender-illustrated-people-neck-photo",
+        "origin": "existing-case",
+        "case_record_id": "reczz28MLgJayHOi",
+        "term_record_id": "reczz28HJJL2GLJb"
+      },
+      {
+        "src": 2,
+        "x": 545,
+        "y": 152,
+        "w": 268,
+        "h": 340,
+        "rotation": 4,
+        "mask": "oval",
+        "crop": [
+          105.60084033613447,
+          0,
+          788.7983193277311,
+          1000
+        ],
+        "unit": 6,
+        "source_file": "../source/web-prototypes/term-collage-trial-midsummer-2026-11-05/assets/originals/H38.jpg",
+        "object_id": "kawauchi-hanabi-photo-H38",
+        "origin": "existing-case",
+        "case_record_id": "reczz28MLgJaxrYR",
+        "term_record_id": "reczz28HJJL2GLJb"
+      },
+      {
+        "src": "swim",
+        "x": 813,
+        "y": 427,
+        "w": 227,
+        "h": 402.9804560260586,
+        "rotation": -7,
+        "mask": "cut:swim",
+        "crop": [
+          38.80597014925373,
+          30.0,
+          916.4179104477612,
+          908.3333333333334
+        ],
+        "unit": 7,
+        "source_file": "../additions/swim.jpg",
+        "object_id": "swim",
+        "origin": "external-reference",
+        "case_record_id": null,
+        "term_record_id": null
+      },
+      {
+        "src": 3,
+        "x": 76,
+        "y": 413,
+        "w": 805,
+        "h": 409.8984910836763,
+        "rotation": -5,
+        "mask": "chaise",
+        "crop": [
+          60,
+          260,
+          900,
+          580
+        ],
+        "unit": 8,
+        "source_file": "../source/web-prototypes/term-collage-trial-midsummer-2026-11-05/assets/originals/v88_1-15.png",
+        "object_id": "locus-solus-chaise",
+        "origin": "existing-case",
+        "case_record_id": "reczz28MLgJb1lI7",
+        "term_record_id": "reczz28HJJL2GLJb"
+      }
+    ],
+    "mobile": [
+      {
+        "src": "sorolla",
+        "x": 10,
+        "y": 109,
+        "w": 254,
+        "h": 321,
+        "rotation": -4,
+        "mask": "oval",
+        "crop": [
+          99.20226878616387,
+          0,
+          801.5954624276723,
+          1000
+        ],
+        "unit": 1,
+        "source_file": "../additions/sorolla.jpg",
+        "object_id": "sorolla",
+        "origin": "external-reference",
+        "case_record_id": null,
+        "term_record_id": null
+      },
+      {
+        "src": "hockney-large",
+        "x": 239,
+        "y": 110,
+        "w": 139,
+        "h": 140,
+        "rotation": 5,
+        "mask": null,
+        "crop": [
+          8.535714285714278,
+          0,
+          982.9285714285714,
+          1000
+        ],
+        "unit": 2,
+        "source_file": "../additions/hockney-large.jpg",
+        "object_id": "hockney-a-bigger-splash",
+        "origin": "external-reference",
+        "case_record_id": null,
+        "term_record_id": null
+      },
+      {
+        "src": 5,
+        "x": 8,
+        "y": 820,
+        "w": 197,
+        "h": 209,
+        "rotation": -4,
+        "mask": null,
+        "crop": [
+          26.986834241457245,
+          0,
+          946.0263315170855,
+          1000
+        ],
+        "unit": 3,
+        "source_file": "../source/web-prototypes/term-collage-trial-midsummer-2026-11-05/assets/originals/H59.jpg",
+        "object_id": "kawauchi-hanabi-photo-H59",
+        "origin": "existing-case",
+        "case_record_id": "reczz28MLgJaxrYR",
+        "term_record_id": "reczz28HJJL2GLJb"
+      },
+      {
+        "src": 6,
+        "x": 186,
+        "y": 852,
+        "w": 190,
+        "h": 177,
+        "rotation": 4,
+        "mask": null,
+        "crop": [
+          142.27191472457622,
+          0,
+          715.4561705508476,
+          1000
+        ],
+        "unit": 4,
+        "source_file": "../source/web-prototypes/term-collage-trial-midsummer-2026-11-05/assets/originals/sp_og.jpg",
+        "object_id": "selgascano-serpentine-2015",
+        "origin": "existing-case",
+        "case_record_id": "reczz28MLgJb1FHM",
+        "term_record_id": "reczz28HJJL2GLJb"
+      },
+      {
+        "src": 4,
+        "x": 9,
+        "y": 599,
+        "w": 223,
+        "h": 253,
+        "rotation": -4,
+        "mask": "oval",
+        "crop": [
+          0,
+          120.87580685645355,
+          1000,
+          758.2483862870929
+        ],
+        "unit": 5,
+        "source_file": "../source/web-prototypes/term-collage-trial-midsummer-2026-11-05/assets/originals/ip_10.jpg",
+        "object_id": "mailaender-illustrated-people-neck-photo",
+        "origin": "existing-case",
+        "case_record_id": "reczz28MLgJayHOi",
+        "term_record_id": "reczz28HJJL2GLJb"
+      },
+      {
+        "src": 2,
+        "x": 253,
+        "y": 272,
+        "w": 120,
+        "h": 183,
+        "rotation": 5,
+        "mask": "oval",
+        "crop": [
+          171.8969555035129,
+          0,
+          656.2060889929742,
+          1000
+        ],
+        "unit": 6,
+        "source_file": "../source/web-prototypes/term-collage-trial-midsummer-2026-11-05/assets/originals/H38.jpg",
+        "object_id": "kawauchi-hanabi-photo-H38",
+        "origin": "existing-case",
+        "case_record_id": "reczz28MLgJaxrYR",
+        "term_record_id": "reczz28HJJL2GLJb"
+      },
+      {
+        "src": "swim",
+        "x": 252,
+        "y": 580,
+        "w": 119,
+        "h": 211.2540716612378,
+        "rotation": -7,
+        "mask": "cut:swim",
+        "crop": [
+          38.80597014925373,
+          30.0,
+          916.4179104477612,
+          908.3333333333334
+        ],
+        "unit": 7,
+        "source_file": "../additions/swim.jpg",
+        "object_id": "swim",
+        "origin": "external-reference",
+        "case_record_id": null,
+        "term_record_id": null
+      },
+      {
+        "src": 3,
+        "x": 24,
+        "y": 423,
+        "w": 346,
+        "h": 176.17997256515778,
+        "rotation": -7,
+        "mask": "chaise",
+        "crop": [
+          60,
+          260,
+          900,
+          580
+        ],
+        "unit": 8,
+        "source_file": "../source/web-prototypes/term-collage-trial-midsummer-2026-11-05/assets/originals/v88_1-15.png",
+        "object_id": "locus-solus-chaise",
+        "origin": "existing-case",
+        "case_record_id": "reczz28MLgJb1lI7",
+        "term_record_id": "reczz28HJJL2GLJb"
+      }
+    ]
+  },
+  "dopamine": {
+    "desktop": [
+      {
+        "src": 1,
+        "x": 19,
+        "y": 155,
+        "w": 528,
+        "h": 479,
+        "rotation": -4,
+        "mask": "oval",
+        "crop": [
+          132.56784968684752,
+          0,
+          734.864300626305,
+          1000
+        ],
+        "unit": 1,
+        "source_file": "../source/web-prototypes/term-collage-trial-dopamine-2026-11-05/assets/originals/forest_1_emmanuelle_moureaux_Forest_of_Numbers.jpg",
+        "object_id": "moureaux-forest-of-numbers",
+        "origin": "existing-case",
+        "case_record_id": "reczz28MR6LJ5rW7",
+        "term_record_id": "reczz28HJJL2GLvJ"
+      },
+      {
+        "src": 2,
+        "x": 659,
+        "y": 149,
+        "w": 515,
+        "h": 295,
+        "rotation": 4,
+        "mask": null,
+        "crop": [
+          0,
+          70.28091974449922,
+          1000,
+          859.4381605110016
+        ],
+        "unit": 2,
+        "source_file": "../source/web-prototypes/term-collage-trial-dopamine-2026-11-05/assets/originals/judy_10358_Multi-Color_Atmosphere_F.jpg",
+        "object_id": "chicago-multicolor-atmosphere",
+        "origin": "existing-case",
+        "case_record_id": "reczz28MR6LJ60Ar",
+        "term_record_id": "reczz28HJJL2GLvJ"
+      },
+      {
+        "src": "circus",
+        "x": 30,
+        "y": 642,
+        "w": 218,
+        "h": 319,
+        "rotation": -3,
+        "mask": null,
+        "crop": [
+          2.1429271159874475,
+          0,
+          995.7141457680251,
+          1000
+        ],
+        "unit": 3,
+        "source_file": "../additions/circus.jpg",
+        "object_id": "circus",
+        "origin": "external-reference",
+        "case_record_id": null,
+        "term_record_id": null
+      },
+      {
+        "src": "tahiti",
+        "x": 261,
+        "y": 730,
+        "w": 175,
+        "h": 231,
+        "rotation": 5,
+        "mask": null,
+        "crop": [
+          3.2290114257327787,
+          0,
+          993.5419771485344,
+          1000
+        ],
+        "unit": 4,
+        "source_file": "../additions/tahiti.jpg",
+        "object_id": "tahiti",
+        "origin": "external-reference",
+        "case_record_id": null,
+        "term_record_id": null
+      },
+      {
+        "src": "living",
+        "x": 909,
+        "y": 489,
+        "w": 266,
+        "h": 264.4352941176471,
+        "rotation": 5,
+        "mask": "cut:living",
+        "crop": [
+          283.5,
+          213.33333333333334,
+          425.0,
+          563.3333333333334
+        ],
+        "unit": 5,
+        "source_file": "../additions/living.jpg",
+        "object_id": "living",
+        "origin": "external-reference",
+        "case_record_id": null,
+        "term_record_id": null
+      },
+      {
+        "src": "sofa-large",
+        "x": 554,
+        "y": 771,
+        "w": 440,
+        "h": 191.47457627118644,
+        "rotation": -4,
+        "mask": "cut:sofa-large",
+        "crop": [
+          44.921875,
+          166.23207301173403,
+          921.875,
+          669.4915254237288
+        ],
+        "unit": 6,
+        "source_file": "../additions/sofa-large.jpg",
+        "object_id": "dali-mae-west-lips-sofa",
+        "origin": "external-reference",
+        "case_record_id": null,
+        "term_record_id": null
+      },
+      {
+        "src": "heart-product",
+        "x": 205,
+        "y": 485,
+        "w": 308,
+        "h": 281.5,
+        "rotation": -8,
+        "mask": "cut:heart-product",
+        "crop": [
+          95.91704471808166,
+          164.61438755670773,
+          798.4445884640311,
+          729.7472456254051
+        ],
+        "unit": 7,
+        "source_file": "../additions/heart-product.jpg",
+        "object_id": "panton-heart-cone",
+        "origin": "external-reference",
+        "case_record_id": null,
+        "term_record_id": null
+      },
+      {
+        "src": "pantop",
+        "x": 1034,
+        "y": 757,
+        "w": 101,
+        "h": 173.06949152542373,
+        "rotation": 7,
+        "mask": "cut:pantop",
+        "crop": [
+          336.1111111111111,
+          299.44444444444446,
+          327.77777777777777,
+          561.6666666666666
+        ],
+        "unit": 8,
+        "source_file": "../additions/pantop.jpg",
+        "object_id": "pantop",
+        "origin": "external-reference",
+        "case_record_id": null,
+        "term_record_id": null
+      },
+      {
+        "src": 3,
+        "x": 470,
+        "y": 287,
+        "w": 450,
+        "h": 473.09346330275235,
+        "rotation": -2,
+        "mask": "carlton",
+        "crop": [
+          20,
+          30,
+          960,
+          950
+        ],
+        "unit": 9,
+        "source_file": "../source/web-prototypes/term-collage-trial-dopamine-2026-11-05/assets/originals/卡尔顿书架_索特萨斯_摄影Sailko_CCBYSA4.0.jpg",
+        "object_id": "sottsass-carlton",
+        "origin": "existing-case",
+        "case_record_id": "reczz28HJJL2NkpP",
+        "term_record_id": "reczz28HJJL2GLvJ"
+      }
+    ],
+    "mobile": [
+      {
+        "src": 1,
+        "x": 8,
+        "y": 108,
+        "w": 262,
+        "h": 325,
+        "rotation": -4,
+        "mask": "oval",
+        "crop": [
+          231.28205128205133,
+          0,
+          537.4358974358973,
+          1000
+        ],
+        "unit": 1,
+        "source_file": "../source/web-prototypes/term-collage-trial-dopamine-2026-11-05/assets/originals/forest_1_emmanuelle_moureaux_Forest_of_Numbers.jpg",
+        "object_id": "moureaux-forest-of-numbers",
+        "origin": "existing-case",
+        "case_record_id": "reczz28MR6LJ5rW7",
+        "term_record_id": "reczz28HJJL2GLvJ"
+      },
+      {
+        "src": 2,
+        "x": 230,
+        "y": 110,
+        "w": 149,
+        "h": 201,
+        "rotation": 4,
+        "mask": null,
+        "crop": [
+          252.9639303482587,
+          0,
+          494.0721393034826,
+          1000
+        ],
+        "unit": 2,
+        "source_file": "../source/web-prototypes/term-collage-trial-dopamine-2026-11-05/assets/originals/judy_10358_Multi-Color_Atmosphere_F.jpg",
+        "object_id": "chicago-multicolor-atmosphere",
+        "origin": "existing-case",
+        "case_record_id": "reczz28MR6LJ60Ar",
+        "term_record_id": "reczz28HJJL2GLvJ"
+      },
+      {
+        "src": "circus",
+        "x": 11,
+        "y": 650,
+        "w": 155,
+        "h": 237,
+        "rotation": -5,
+        "mask": null,
+        "crop": [
+          23.544633438818494,
+          0,
+          952.910733122363,
+          1000
+        ],
+        "unit": 3,
+        "source_file": "../additions/circus.jpg",
+        "object_id": "circus",
+        "origin": "external-reference",
+        "case_record_id": null,
+        "term_record_id": null
+      },
+      {
+        "src": "tahiti",
+        "x": 251,
+        "y": 841,
+        "w": 124,
+        "h": 183,
+        "rotation": 4,
+        "mask": null,
+        "crop": [
+          55.674997760458666,
+          0,
+          888.6500044790827,
+          1000
+        ],
+        "unit": 4,
+        "source_file": "../additions/tahiti.jpg",
+        "object_id": "tahiti",
+        "origin": "external-reference",
+        "case_record_id": null,
+        "term_record_id": null
+      },
+      {
+        "src": "living",
+        "x": 197,
+        "y": 550,
+        "w": 178,
+        "h": 176.95294117647057,
+        "rotation": 5,
+        "mask": "cut:living",
+        "crop": [
+          283.5,
+          213.33333333333334,
+          425.0,
+          563.3333333333334
+        ],
+        "unit": 5,
+        "source_file": "../additions/living.jpg",
+        "object_id": "living",
+        "origin": "external-reference",
+        "case_record_id": null,
+        "term_record_id": null
+      },
+      {
+        "src": "sofa-large",
+        "x": 11,
+        "y": 911,
+        "w": 237,
+        "h": 103.13516949152545,
+        "rotation": -4,
+        "mask": "cut:sofa-large",
+        "crop": [
+          44.921875,
+          166.23207301173403,
+          921.875,
+          669.4915254237288
+        ],
+        "unit": 6,
+        "source_file": "../additions/sofa-large.jpg",
+        "object_id": "dali-mae-west-lips-sofa",
+        "origin": "external-reference",
+        "case_record_id": null,
+        "term_record_id": null
+      },
+      {
+        "src": "heart-product",
+        "x": 8,
+        "y": 462,
+        "w": 168,
+        "h": 153.54545454545456,
+        "rotation": -9,
+        "mask": "cut:heart-product",
+        "crop": [
+          95.91704471808166,
+          164.61438755670773,
+          798.4445884640311,
+          729.7472456254051
+        ],
+        "unit": 7,
+        "source_file": "../additions/heart-product.jpg",
+        "object_id": "panton-heart-cone",
+        "origin": "external-reference",
+        "case_record_id": null,
+        "term_record_id": null
+      },
+      {
+        "src": "pantop",
+        "x": 143,
+        "y": 757,
+        "w": 97,
+        "h": 166.21525423728812,
+        "rotation": 6,
+        "mask": "cut:pantop",
+        "crop": [
+          336.1111111111111,
+          299.44444444444446,
+          327.77777777777777,
+          561.6666666666666
+        ],
+        "unit": 8,
+        "source_file": "../additions/pantop.jpg",
+        "object_id": "pantop",
+        "origin": "external-reference",
+        "case_record_id": null,
+        "term_record_id": null
+      },
+      {
+        "src": 3,
+        "x": 155,
+        "y": 290,
+        "w": 219,
+        "h": 230.23881880733947,
+        "rotation": -2,
+        "mask": "carlton",
+        "crop": [
+          20,
+          30,
+          960,
+          950
+        ],
+        "unit": 9,
+        "source_file": "../source/web-prototypes/term-collage-trial-dopamine-2026-11-05/assets/originals/卡尔顿书架_索特萨斯_摄影Sailko_CCBYSA4.0.jpg",
+        "object_id": "sottsass-carlton",
+        "origin": "existing-case",
+        "case_record_id": "reczz28HJJL2NkpP",
+        "term_record_id": "reczz28HJJL2GLvJ"
+      }
+    ]
+  },
+  "decadence": {
+    "desktop": [
+      {
+        "src": 3,
+        "x": 21,
+        "y": 155,
+        "w": 461,
+        "h": 600,
+        "rotation": -3,
+        "mask": null,
+        "crop": [
+          0,
+          36.33405639913235,
+          1000,
+          927.3318872017353
+        ],
+        "unit": 1,
+        "source_file": "../source/web-prototypes/term-collage-trial-decadence-2026-11-05/assets/originals/climax_rgb.jpg",
+        "object_id": "beardsley-climax",
+        "origin": "existing-case",
+        "case_record_id": "reczz28MnyHcRK5r",
+        "term_record_id": "reczz28MKp7HdDiG"
+      },
+      {
+        "src": 4,
+        "x": 791,
+        "y": 151,
+        "w": 383,
+        "h": 496,
+        "rotation": 4,
+        "mask": null,
+        "crop": [
+          0,
+          28.25419656770009,
+          1000,
+          943.4916068645998
+        ],
+        "unit": 2,
+        "source_file": "../source/web-prototypes/term-collage-trial-decadence-2026-11-05/assets/originals/peacock.jpg",
+        "object_id": "beardsley-peacock-skirt",
+        "origin": "existing-case",
+        "case_record_id": "reczz28MnyHcRaTA",
+        "term_record_id": "reczz28MKp7HdDiG"
+      },
+      {
+        "src": 7,
+        "x": 25,
+        "y": 716,
+        "w": 365,
+        "h": 246,
+        "rotation": 4,
+        "mask": null,
+        "crop": [
+          0,
+          275.3424657534247,
+          1000,
+          449.3150684931507
+        ],
+        "unit": 3,
+        "source_file": "../source/web-prototypes/term-collage-trial-decadence-2026-11-05/assets/originals/mm_442895.jpg",
+        "object_id": "margiela-2024-black-lattice-look",
+        "origin": "existing-case",
+        "case_record_id": "reczz28MnyHcQLe7",
+        "term_record_id": "reczz28MKp7HdDiG"
+      },
+      {
+        "src": 5,
+        "x": 922,
+        "y": 692,
+        "w": 252,
+        "h": 281,
+        "rotation": -4,
+        "mask": "oval",
+        "crop": [
+          0,
+          77.72142387527003,
+          1000,
+          844.5571522494599
+        ],
+        "unit": 4,
+        "source_file": "../source/web-prototypes/term-collage-trial-decadence-2026-11-05/assets/originals/redon_balloon.jpg",
+        "object_id": "redon-eye-balloon",
+        "origin": "existing-case",
+        "case_record_id": "reczz28MnyHcRudP",
+        "term_record_id": "reczz28MKp7HdDiG"
+      },
+      {
+        "src": "necklace",
+        "x": 538,
+        "y": 727,
+        "w": 224,
+        "h": 222.046511627907,
+        "rotation": -8,
+        "mask": "cut:necklace",
+        "crop": [
+          153.33333333333334,
+          231.66666666666666,
+          764.4444444444445,
+          568.3333333333334
+        ],
+        "unit": 5,
+        "source_file": "../additions/necklace.jpg",
+        "object_id": "necklace",
+        "origin": "external-reference",
+        "case_record_id": null,
+        "term_record_id": null
+      },
+      {
+        "src": "woman",
+        "x": 714,
+        "y": 463,
+        "w": 198,
+        "h": 504.33962264150944,
+        "rotation": 4,
+        "mask": "woman",
+        "crop": [
+          180,
+          60,
+          530,
+          900
+        ],
+        "unit": 6,
+        "source_file": "../source/web-prototypes/term-collage-trial-decadence-2026-11-05/assets/originals/mm_442885.jpg",
+        "object_id": "margiela-2024-olive-pleated-look",
+        "origin": "existing-case",
+        "case_record_id": "reczz28MnyHcQLe7",
+        "term_record_id": "reczz28MKp7HdDiG"
+      },
+      {
+        "src": 2,
+        "x": 627,
+        "y": 158,
+        "w": 470,
+        "h": 417.67053571428573,
+        "rotation": -9,
+        "mask": "brooch",
+        "crop": [
+          140,
+          115,
+          700,
+          740
+        ],
+        "unit": 7,
+        "source_file": "../source/web-prototypes/term-collage-trial-decadence-2026-11-05/assets/originals/lalique_official.jpg",
+        "object_id": "lalique-dragonfly-woman",
+        "origin": "existing-case",
+        "case_record_id": "reczz28MnyHcQMQu",
+        "term_record_id": "reczz28MKp7HdDiG"
+      },
+      {
+        "src": 1,
+        "x": 350,
+        "y": 192,
+        "w": 250,
+        "h": 809.6590909090909,
+        "rotation": 0,
+        "mask": "figure",
+        "crop": [
+          330,
+          25,
+          440,
+          950
+        ],
+        "unit": 8,
+        "source_file": "../source/web-prototypes/term-collage-trial-decadence-2026-11-05/assets/originals/mm_vogue_01.jpg",
+        "object_id": "margiela-2024-male-corset-trousers",
+        "origin": "existing-case",
+        "case_record_id": "reczz28MnyHcQLe7",
+        "term_record_id": "reczz28MKp7HdDiG"
+      }
+    ],
+    "mobile": [
+      {
+        "src": 3,
+        "x": 8,
+        "y": 110,
+        "w": 242,
+        "h": 344,
+        "rotation": -4,
+        "mask": null,
+        "crop": [
+          6.323949408404758,
+          0,
+          987.3521011831905,
+          1000
+        ],
+        "unit": 1,
+        "source_file": "../source/web-prototypes/term-collage-trial-decadence-2026-11-05/assets/originals/climax_rgb.jpg",
+        "object_id": "beardsley-climax",
+        "origin": "existing-case",
+        "case_record_id": "reczz28MnyHcRK5r",
+        "term_record_id": "reczz28MKp7HdDiG"
+      },
+      {
+        "src": 4,
+        "x": 242,
+        "y": 110,
+        "w": 137,
+        "h": 260,
+        "rotation": 4,
+        "mask": null,
+        "crop": [
+          138.37197049525815,
+          0,
+          723.2560590094837,
+          1000
+        ],
+        "unit": 2,
+        "source_file": "../source/web-prototypes/term-collage-trial-decadence-2026-11-05/assets/originals/peacock.jpg",
+        "object_id": "beardsley-peacock-skirt",
+        "origin": "existing-case",
+        "case_record_id": "reczz28MnyHcRaTA",
+        "term_record_id": "reczz28MKp7HdDiG"
+      },
+      {
+        "src": 7,
+        "x": 10,
+        "y": 839,
+        "w": 154,
+        "h": 190,
+        "rotation": 4,
+        "mask": null,
+        "crop": [
+          0,
+          88.74458874458867,
+          1000,
+          822.5108225108227
+        ],
+        "unit": 3,
+        "source_file": "../source/web-prototypes/term-collage-trial-decadence-2026-11-05/assets/originals/mm_442895.jpg",
+        "object_id": "margiela-2024-black-lattice-look",
+        "origin": "existing-case",
+        "case_record_id": "reczz28MnyHcQLe7",
+        "term_record_id": "reczz28MKp7HdDiG"
+      },
+      {
+        "src": 5,
+        "x": 10,
+        "y": 650,
+        "w": 177,
+        "h": 192,
+        "rotation": -4,
+        "mask": "oval",
+        "crop": [
+          0,
+          89.20870524521109,
+          1000,
+          821.5825895095778
+        ],
+        "unit": 4,
+        "source_file": "../source/web-prototypes/term-collage-trial-decadence-2026-11-05/assets/originals/redon_balloon.jpg",
+        "object_id": "redon-eye-balloon",
+        "origin": "existing-case",
+        "case_record_id": "reczz28MnyHcRudP",
+        "term_record_id": "reczz28MKp7HdDiG"
+      },
+      {
+        "src": "necklace",
+        "x": 146,
+        "y": 897,
+        "w": 124,
+        "h": 122.9186046511628,
+        "rotation": -8,
+        "mask": "cut:necklace",
+        "crop": [
+          153.33333333333334,
+          231.66666666666666,
+          764.4444444444445,
+          568.3333333333334
+        ],
+        "unit": 5,
+        "source_file": "../additions/necklace.jpg",
+        "object_id": "necklace",
+        "origin": "external-reference",
+        "case_record_id": null,
+        "term_record_id": null
+      },
+      {
+        "src": "woman",
+        "x": 218,
+        "y": 587,
+        "w": 149,
+        "h": 379.52830188679246,
+        "rotation": 3,
+        "mask": "woman",
+        "crop": [
+          180,
+          60,
+          530,
+          900
+        ],
+        "unit": 6,
+        "source_file": "../source/web-prototypes/term-collage-trial-decadence-2026-11-05/assets/originals/mm_442885.jpg",
+        "object_id": "margiela-2024-olive-pleated-look",
+        "origin": "existing-case",
+        "case_record_id": "reczz28MnyHcQLe7",
+        "term_record_id": "reczz28MKp7HdDiG"
+      },
+      {
+        "src": 2,
+        "x": 8,
+        "y": 463,
+        "w": 197,
+        "h": 175.0661607142857,
+        "rotation": -9,
+        "mask": "brooch",
+        "crop": [
+          140,
+          115,
+          700,
+          740
+        ],
+        "unit": 7,
+        "source_file": "../source/web-prototypes/term-collage-trial-decadence-2026-11-05/assets/originals/lalique_official.jpg",
+        "object_id": "lalique-dragonfly-woman",
+        "origin": "existing-case",
+        "case_record_id": "reczz28MnyHcQMQu",
+        "term_record_id": "reczz28MKp7HdDiG"
+      },
+      {
+        "src": 1,
+        "x": 174,
+        "y": 273,
+        "w": 153,
+        "h": 495.5113636363636,
+        "rotation": 0,
+        "mask": "figure",
+        "crop": [
+          330,
+          25,
+          440,
+          950
+        ],
+        "unit": 8,
+        "source_file": "../source/web-prototypes/term-collage-trial-decadence-2026-11-05/assets/originals/mm_vogue_01.jpg",
+        "object_id": "margiela-2024-male-corset-trousers",
+        "origin": "existing-case",
+        "case_record_id": "reczz28MnyHcQLe7",
+        "term_record_id": "reczz28MKp7HdDiG"
+      }
+    ]
+  }
+}

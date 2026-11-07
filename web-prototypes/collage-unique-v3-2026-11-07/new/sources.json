@@ -1,0 +1,1512 @@
+{
+  "retro-rock": [
+    {
+      "unit_id": "u01-granny_vam.jpg",
+      "display_number": "01",
+      "role": "主图",
+      "image": "assets/images/dcd3fb446d745388.jpg",
+      "source_file": "assets/originals/granny_vam.jpg",
+      "case_record_id": "reczz28MRgiLqd42",
+      "term_record_id": "reczz28HJJL2GJt7",
+      "alt": "Granny Takes a Trip｜一家把汽车撞进橱窗的服装店 · 商业空间／橱窗艺术／复古服装设计",
+      "url": "https://www.vam.ac.uk/blog/projects/pandemic-objects-clothing-shop",
+      "native": [
+        735,
+        560
+      ],
+      "colors": [
+        "#5f5f61",
+        "#424243",
+        "#87868a",
+        "#121212",
+        "#acacb2"
+      ],
+      "desktop": [
+        48,
+        90,
+        620,
+        640,
+        -2,
+        2
+      ],
+      "mobile": [
+        16,
+        36,
+        358,
+        369,
+        -2,
+        2
+      ],
+      "ref_desktop": [
+        648,
+        738
+      ],
+      "ref_mobile": [
+        350,
+        413
+      ],
+      "object_id": "granny-store",
+      "origin": "existing-case",
+      "local_original": "source/web-prototypes/term-collage-trial-retro-rock-2026-11-05/assets/originals/granny_vam.jpg"
+    },
+    {
+      "source_file": "additions/ufo.jpg",
+      "url": "https://www.vam.ac.uk/articles/a-short-history-of-the-poster",
+      "image_url": "https://assets-cdn.vam.ac.uk/2026/06/18/16/56/08/fc149d9c-b78c-4b06-9f43-cbbc00855fb0/1280.jpg",
+      "alt": "Michael English & Nigel Waymouth · CIA v UFO 海报，1967",
+      "object_id": "ufo",
+      "board": "retro-rock",
+      "case_record_id": null,
+      "term_record_id": null,
+      "origin": "external-reference",
+      "native": [
+        1280,
+        1894
+      ],
+      "credit": "CIA v UFO, colour screenprint poster, by Michael English and Nigel Waymouth, 1967, UK. Museum no. E.1713-1991. © Victoria and Albert Museum, London Otis Rush, colour offset lithograph poster, by Wes Wilson, 1967, US. Museum no. E.507-2004. © Victoria and Albert Museum, London",
+      "sha256": "7c5013e75d9fa72b6007f456dc2c72948f7ab10110e40288534f4be23175ce0c",
+      "local_original": "additions/ufo.jpg"
+    },
+    {
+      "unit_id": "u02-keith_skull.jpg",
+      "display_number": "02",
+      "role": "补充",
+      "image": "assets/images/712f94ea6a37faf0.jpg",
+      "source_file": "assets/originals/keith_skull.jpg",
+      "case_record_id": "reczz28MRgiLrWjE",
+      "term_record_id": "reczz28HJJL2GJt7",
+      "alt": "Keith Richards' Skull Ring｜骷髅戒指 · 银质首饰",
+      "url": "https://courtsandhackett.com/keiths_ring.php",
+      "native": [
+        360,
+        431
+      ],
+      "colors": [
+        "#372f33",
+        "#af6d5b",
+        "#644441",
+        "#d2856d",
+        "#86554b"
+      ],
+      "desktop": [
+        700,
+        70,
+        380,
+        440,
+        3,
+        4
+      ],
+      "mobile": [
+        16,
+        427,
+        210,
+        243,
+        3,
+        4
+      ],
+      "ref_desktop": [
+        1070,
+        42
+      ],
+      "ref_mobile": [
+        206,
+        678
+      ],
+      "object_id": "keith-skull-ring-portrait",
+      "origin": "existing-case",
+      "local_original": "source/web-prototypes/term-collage-trial-retro-rock-2026-11-05/assets/originals/keith_skull.jpg"
+    },
+    {
+      "source_file": "additions/synthi.jpg",
+      "url": "https://www.vam.ac.uk/exhibitions/david-bowie-centre",
+      "image_url": "https://assets-cdn.vam.ac.uk/2025/10/24/14/51/57/aa8a82de-8539-4010-b4b8-3e093df52bf5/1280.jpg",
+      "alt": "EMS Synthi AKS · Eno 与 Bowie 使用的合成器，1970s",
+      "object_id": "synthi",
+      "board": "retro-rock",
+      "case_record_id": null,
+      "term_record_id": null,
+      "origin": "external-reference",
+      "native": [
+        1280,
+        1037
+      ],
+      "credit": "EMS Synthi AKS synthesizer, used by Brian Eno and David Bowie for Heroes, Low and Lodger, 1970s, Britain",
+      "sha256": "fcdd1e0663481f8664ea06fb501a9dd28054d9edb9ba4614fb72ce4c9f513804",
+      "local_original": "additions/synthi.jpg"
+    },
+    {
+      "source_file": "additions/bowie-suit.jpg",
+      "url": "https://www.vam.ac.uk/exhibitions/david-bowie-centre",
+      "image_url": "https://assets-cdn.vam.ac.uk/2025/09/11/12/25/31/1d865485-2384-4d70-9d7e-88673d56cd6b/1280.jpg",
+      "alt": "Freddie Burretti · Life on Mars? 演出服，1972",
+      "object_id": "bowie-suit",
+      "board": "retro-rock",
+      "case_record_id": null,
+      "term_record_id": null,
+      "origin": "external-reference",
+      "native": [
+        1280,
+        1738
+      ],
+      "credit": "Suit, designed by Freddie Burretti for David Bowie in the 'Life on Mars?' music video, 1972, Britain",
+      "sha256": "4913ef2a4e9c060ecd46591b366db0cb3577e91f06eb049ab92bdc7b9e6232f3",
+      "local_original": "additions/bowie-suit.jpg"
+    },
+    {
+      "unit_id": "u04-stevie_rhiannon.jpg",
+      "display_number": "04",
+      "role": "环境",
+      "image": "assets/images/652c0fa37447cc03.jpg",
+      "source_file": "assets/originals/stevie_rhiannon.jpg",
+      "case_record_id": "reczz28MRgiLoC9N",
+      "term_record_id": "reczz28HJJL2GJt7",
+      "alt": "Stevie Nicks · Rhiannon Costume｜瑞安农演出服 · 舞台服装",
+      "url": "https://www.christies.com/en/lot/lot-4417849",
+      "native": [
+        512,
+        813
+      ],
+      "colors": [
+        "#5d6060",
+        "#93825f",
+        "#6b5b41",
+        "#414544",
+        "#4d5152"
+      ],
+      "desktop": [
+        1000,
+        540,
+        240,
+        300,
+        4,
+        5
+      ],
+      "mobile": [
+        210,
+        947,
+        164,
+        205,
+        4,
+        5
+      ],
+      "ref_desktop": [
+        1230,
+        512
+      ],
+      "ref_mobile": [
+        350,
+        1160
+      ],
+      "object_id": "stevie-rhiannon-costume",
+      "origin": "existing-case",
+      "local_original": "source/web-prototypes/term-collage-trial-retro-rock-2026-11-05/assets/originals/stevie_rhiannon.jpg"
+    },
+    {
+      "source_file": "additions/bowie-shoes.jpg",
+      "url": "https://www.vam.ac.uk/exhibitions/david-bowie-centre",
+      "image_url": "https://assets-cdn.vam.ac.uk/2025/10/24/14/41/17/cfe145e8-970c-4876-9ab3-7dc8561bea04/1280.jpg",
+      "alt": "Pelican Footwear · David Bowie / Ziggy Stardust 舞台鞋，1972",
+      "object_id": "bowie-shoes",
+      "board": "retro-rock",
+      "case_record_id": null,
+      "term_record_id": null,
+      "origin": "external-reference",
+      "native": [
+        1280,
+        960
+      ],
+      "credit": "Shoes, designed by Pelican Footwear (219 Bowery NYC) for David Bowie as Ziggy Stardust, 1972, United States",
+      "sha256": "7aab3b4afb7516139649578c73b6aa2a8623fb04c1d5a61ddae1626177cdbd18",
+      "local_original": "additions/bowie-shoes.jpg"
+    },
+    {
+      "source_file": "additions/bowie-guitar.jpg",
+      "url": "https://www.vam.ac.uk/exhibitions/david-bowie-centre",
+      "image_url": "https://assets-cdn.vam.ac.uk/2025/10/24/14/35/03/865be1bf-10a8-435d-b9d4-2588b4cc6da5/1280.jpg",
+      "alt": "David Bowie · Steinberger Hohner G2 电吉他",
+      "object_id": "bowie-guitar",
+      "board": "retro-rock",
+      "case_record_id": null,
+      "term_record_id": null,
+      "origin": "external-reference",
+      "native": [
+        1280,
+        1710
+      ],
+      "credit": "Red Steinberger Hohner electric guitar (G2 Tremelo model) with case and accessories, gifted to David Bowie in 2000 and used in ‘Valentine’s Day’ music video, 2013",
+      "sha256": "96287cd67c088e5e50c264cd855cdc27c95ba487d48f911868c28cd2296ac088",
+      "local_original": "additions/bowie-guitar.jpg"
+    },
+    {
+      "unit_id": "u03-eye_ring.jpg",
+      "display_number": "03",
+      "role": "细节",
+      "image": "assets/images/be904547b33b561b.jpg",
+      "source_file": "assets/originals/eye_ring.jpg",
+      "case_record_id": "reczz28MRgiLopRy",
+      "term_record_id": "reczz28HJJL2GJt7",
+      "alt": "The Great Frog · Eye Ring｜眼球戒指 · 银质戒指",
+      "url": "https://thegreatfroglondon.com/products/eye-ring",
+      "native": [
+        1280,
+        1600
+      ],
+      "colors": [
+        "#fefefe",
+        "#bcb9b9",
+        "#dddbdc",
+        "#8f8c85",
+        "#847f67"
+      ],
+      "desktop": [
+        700,
+        540,
+        280,
+        300,
+        -2,
+        3
+      ],
+      "mobile": [
+        220,
+        427,
+        154,
+        165,
+        -2,
+        3
+      ],
+      "ref_desktop": [
+        960,
+        848
+      ],
+      "ref_mobile": [
+        350,
+        600
+      ],
+      "object_id": "great-frog-eye-ring",
+      "origin": "existing-case",
+      "local_original": "source/web-prototypes/term-collage-trial-retro-rock-2026-11-05/assets/originals/eye_ring.jpg"
+    }
+  ],
+  "softcore": [
+    {
+      "unit_id": "u02-passage_01.jpg",
+      "display_number": "02",
+      "role": "补充",
+      "image": "assets/images/f802afa143d99543.jpg",
+      "source_file": "assets/originals/passage_01.jpg",
+      "case_record_id": "reczz28LdxvOBVuz",
+      "term_record_id": "reczz28HJJL2GJS1",
+      "alt": "Hubs — Passage/s · 纺织装置",
+      "url": "https://www.victoria-miro.com/exhibitions/501/",
+      "native": [
+        1600,
+        1067
+      ],
+      "colors": [
+        "#dbdae1",
+        "#5d433d",
+        "#e9e9f4",
+        "#f5f4fd",
+        "#d090ba"
+      ],
+      "desktop": [
+        40,
+        70,
+        280,
+        360,
+        -3,
+        4
+      ],
+      "mobile": [
+        16,
+        390,
+        210,
+        270,
+        -3,
+        4
+      ],
+      "ref_desktop": [
+        310,
+        42
+      ],
+      "ref_mobile": [
+        206,
+        668
+      ],
+      "object_id": "dohosuh-passage-installation",
+      "origin": "existing-case",
+      "local_original": "source/web-prototypes/term-collage-trial-softcore-2026-11-05/assets/originals/passage_01.jpg"
+    },
+    {
+      "source_file": "additions/jellyfish.jpg",
+      "url": "https://www.nendo.jp/en/works/jellyfish-vase/",
+      "image_url": "https://www.nendo.jp/wp/wp-content/uploads/2017/04/jellyfish_vase02_akihiro_yoshida-1.jpg",
+      "alt": "nendo · Jellyfish Vase，2017｜摄影 Akihiro Yoshida",
+      "object_id": "jellyfish",
+      "board": "softcore",
+      "case_record_id": null,
+      "term_record_id": null,
+      "origin": "external-reference",
+      "native": [
+        820,
+        547
+      ],
+      "credit": "",
+      "sha256": "fd18bf74ea95bcf5cbbaa953f3270f6348464e3292201d61f5572dc36242cbac",
+      "local_original": "additions/jellyfish.jpg"
+    },
+    {
+      "unit_id": "u05-朱莉娅_杰克逊_卡梅隆_CC0.jpg",
+      "display_number": "05",
+      "role": "对照",
+      "image": "assets/images/6cb68c6b97be4ac3.jpg",
+      "source_file": "assets/originals/朱莉娅_杰克逊_卡梅隆_CC0.jpg",
+      "case_record_id": "reczz28HJJL2NiHW",
+      "term_record_id": "reczz28HJJL2GJS1",
+      "alt": "卡梅隆夫人的人像 · 摄影",
+      "url": "https://emuseum.mfah.org/objects/148871/mrs-camerons-photographs-from-the-life",
+      "native": [
+        1270,
+        1600
+      ],
+      "colors": [
+        "#321510",
+        "#250d0b",
+        "#5f4235",
+        "#bebab7",
+        "#958d88"
+      ],
+      "desktop": [
+        320,
+        360,
+        220,
+        280,
+        -4,
+        5
+      ],
+      "mobile": [
+        16,
+        1547,
+        176,
+        224,
+        -4,
+        5
+      ],
+      "ref_desktop": [
+        520,
+        648
+      ],
+      "ref_mobile": [
+        172,
+        1779
+      ],
+      "object_id": "softcore-朱莉娅_杰克逊_卡梅隆_CC0.jpg",
+      "origin": "existing-case",
+      "local_original": "source/web-prototypes/term-collage-trial-softcore-2026-11-05/assets/originals/朱莉娅_杰克逊_卡梅隆_CC0.jpg"
+    },
+    {
+      "unit_id": "u04-nendo_48.jpg",
+      "display_number": "04",
+      "role": "环境",
+      "image": "assets/images/39cfafce21055b2c.jpg",
+      "source_file": "assets/originals/nendo_04.jpg",
+      "case_record_id": "reczz28LdxvOA0sF",
+      "term_record_id": "reczz28HJJL2GJS1",
+      "alt": "Watercolour Collection · 家具设计",
+      "url": "https://www.nendo.jp/en/works/watercolour-collection/",
+      "native": [
+        820,
+        547
+      ],
+      "colors": [
+        "#d8e7f5",
+        "#d8e2ea",
+        "#bcd2e6",
+        "#edf1f5",
+        "#f2f5f8"
+      ],
+      "desktop": [
+        40,
+        450,
+        260,
+        240,
+        2,
+        3
+      ],
+      "mobile": [
+        210,
+        1378,
+        164,
+        151,
+        2,
+        3
+      ],
+      "ref_desktop": [
+        290,
+        422
+      ],
+      "ref_mobile": [
+        350,
+        1537
+      ],
+      "object_id": "nendo-watercolour-chair",
+      "origin": "existing-case",
+      "local_original": "source/web-prototypes/term-collage-trial-softcore-2026-11-05/assets/originals/nendo_04.jpg"
+    },
+    {
+      "source_file": "additions/shylight.jpg",
+      "url": "https://studiodrift.com/work/shylight/",
+      "image_url": "https://i0.wp.com/studiodrift.com/wp-content/uploads/2021/02/Shylight-by-Studio-Drift-Photo-by-Juuke-Schoorl-scaled.jpg?resize=2048%2C1366&ssl=1",
+      "alt": "DRIFT · Shylight｜摄影 Juuke Schoorl",
+      "object_id": "shylight",
+      "board": "softcore",
+      "case_record_id": null,
+      "term_record_id": null,
+      "origin": "external-reference",
+      "native": [
+        2048,
+        1366
+      ],
+      "credit": "Photo courtesy of DRIFT",
+      "sha256": "7ba1911cf24d850aa953a3a75264bc9b39528056ef4b2337723fa8f7c80f51e3",
+      "local_original": "additions/shylight.jpg"
+    },
+    {
+      "source_file": "additions/roly.jpg",
+      "url": "https://www.driade.com/en/product/roly-poly-2/",
+      "image_url": "https://www.driade.com/wp-content/uploads/2026/10/driade-roly-poly-catalogue-2027-p166-987-1280x1793.jpg",
+      "alt": "Faye Toogood · Roly Poly / Driade",
+      "object_id": "roly",
+      "board": "softcore",
+      "case_record_id": null,
+      "term_record_id": null,
+      "origin": "external-reference",
+      "native": [
+        1280,
+        1793
+      ],
+      "credit": "",
+      "sha256": "a4196f1b7c90a416f0099617115a021479f9b16f61f7dff54d36df6b16ad570d",
+      "local_original": "additions/roly.jpg"
+    },
+    {
+      "unit_id": "u03-pompom_arthur.jpg",
+      "display_number": "03",
+      "role": "细节",
+      "image": "assets/images/3c739a81390893ce.jpg",
+      "source_file": "assets/originals/pompom_arthur.jpg",
+      "case_record_id": "reczz28LdxvOCeQE",
+      "term_record_id": "reczz28HJJL2GJS1",
+      "alt": "PomPom Mirror · 互动机械装置",
+      "url": "https://www.bitforms.art/artwork/pompom-mirror",
+      "native": [
+        900,
+        1200
+      ],
+      "colors": [
+        "#e0ddda",
+        "#bdb2a9",
+        "#b7a79a",
+        "#615d5e",
+        "#3d3a3b"
+      ],
+      "desktop": [
+        340,
+        60,
+        200,
+        260,
+        4,
+        3
+      ],
+      "mobile": [
+        210,
+        1789,
+        164,
+        213,
+        4,
+        3
+      ],
+      "ref_desktop": [
+        520,
+        328
+      ],
+      "ref_mobile": [
+        350,
+        2010
+      ],
+      "object_id": "rozin-pompom-mirror",
+      "origin": "existing-case",
+      "local_original": "source/web-prototypes/term-collage-trial-softcore-2026-11-05/assets/originals/pompom_arthur.jpg"
+    },
+    {
+      "unit_id": "u01-sparrow_official_7.jpg",
+      "display_number": "01",
+      "role": "主图",
+      "image": "assets/images/3b107e8a1f41450a.jpg",
+      "source_file": "assets/originals/sparrow_official_5.jpg",
+      "case_record_id": "reczz28LdxvOCkfm",
+      "term_record_id": "reczz28HJJL2GJS1",
+      "alt": "Sparrow Mart · 毛毡装置",
+      "url": "https://www.sewyoursoul.co.uk/exhibition/sparrow-mart/",
+      "native": [
+        1600,
+        1003
+      ],
+      "colors": [
+        "#8c878e",
+        "#e3dce2",
+        "#3e393a",
+        "#676269",
+        "#0e1511"
+      ],
+      "desktop": [
+        520,
+        50,
+        560,
+        520,
+        2,
+        2
+      ],
+      "mobile": [
+        16,
+        36,
+        358,
+        332,
+        2,
+        2
+      ],
+      "ref_desktop": [
+        1060,
+        578
+      ],
+      "ref_mobile": [
+        350,
+        376
+      ],
+      "object_id": "lucy-sparrow-felt-potato",
+      "origin": "existing-case",
+      "local_original": "source/web-prototypes/term-collage-trial-softcore-2026-11-05/assets/originals/sparrow_official_5.jpg"
+    }
+  ],
+  "midsummer": [
+    {
+      "source_file": "additions/sorolla.jpg",
+      "url": "https://www.cultura.gob.es/msorolla/en/colecciones/colecciones-del-museo/pintura/paseo-mar.html",
+      "image_url": "https://www.cultura.gob.es/.imaging/mte/micrositios-theme/contenido-cim-ancho-1c/dam/micrositios/msorolla/colecciones/colecciones-del-museo/pintura/baja-00834/jcr:content/baja-00834.jpg",
+      "alt": "Joaquín Sorolla · Strolling along the Seashore，1909",
+      "object_id": "sorolla",
+      "board": "midsummer",
+      "case_record_id": null,
+      "term_record_id": null,
+      "origin": "external-reference",
+      "native": [
+        2454,
+        2486
+      ],
+      "credit": "1909 Salto de línea Oil on canvas Salto de línea 205 x 200 cm Salto de línea Nº inv. 834 Painted in the summer of 1909 on the beach at Valencia after his resounding success in the United States, Strolling along the Seashore is one of Sorolla’s most celebrated paintings and among the most famous in the museum’s collection. The sea and sand of the shoreline, executed with broad blue, mauve and turquoise brushstrokes, become an abstract backdrop for the refined figures of the artist’s wife and thei",
+      "sha256": "fec84285cd466264c9017629cf13527048f2239cbbd9554de01eb8dc0e84af56",
+      "local_original": "additions/sorolla.jpg"
+    },
+    {
+      "source_file": "additions/hockney-large.jpg",
+      "url": "https://www.tate.org.uk/art/artworks/hockney-a-bigger-splash-t03254",
+      "image_url": "https://media.tate.org.uk/aztate-prd-ew-dg-wgtail-st1-ctr-data/images/.width-600_2zGhHxk.jpg",
+      "alt": "David Hockney · A Bigger Splash，1967 / Tate",
+      "object_id": "hockney-a-bigger-splash",
+      "board": "midsummer",
+      "case_record_id": null,
+      "term_record_id": null,
+      "origin": "external-reference",
+      "native": [
+        600,
+        594
+      ],
+      "credit": "",
+      "sha256": "31ac9a1e23e97db33649f2ceded13a67a52752e526199e70f0bbad4debe6f7c5",
+      "local_original": "additions/hockney-large.jpg"
+    },
+    {
+      "unit_id": "u05-H59.jpg",
+      "display_number": "05",
+      "role": "对照",
+      "image": "assets/images/78fcbbf218fad31f.jpg",
+      "source_file": "assets/originals/H59.jpg",
+      "case_record_id": "reczz28MLgJaxrYR",
+      "term_record_id": "reczz28HJJL2GLJb",
+      "alt": "Hanabi｜花火 · 摄影",
+      "url": "https://prix.pictet.com/cycles/fire/rinko-kawauchi",
+      "native": [
+        1369,
+        1374
+      ],
+      "colors": [
+        "#124569",
+        "#b69291",
+        "#e4d9d2",
+        "#b5acac",
+        "#d19890"
+      ],
+      "desktop": [
+        360,
+        420,
+        180,
+        260,
+        -2,
+        5
+      ],
+      "mobile": [
+        16,
+        911,
+        176,
+        237,
+        -2,
+        5
+      ],
+      "ref_desktop": [
+        520,
+        688
+      ],
+      "ref_mobile": [
+        172,
+        1156
+      ],
+      "object_id": "kawauchi-hanabi-photo-H59",
+      "origin": "existing-case",
+      "local_original": "source/web-prototypes/term-collage-trial-midsummer-2026-11-05/assets/originals/H59.jpg"
+    },
+    {
+      "unit_id": "u06-sp_og.jpg",
+      "display_number": "06",
+      "role": "细节",
+      "image": "assets/images/d50cc5dca98c20fa.jpg",
+      "source_file": "assets/originals/sp_og.jpg",
+      "case_record_id": "reczz28MLgJb1FHM",
+      "term_record_id": "reczz28HJJL2GLJb",
+      "alt": "Serpentine Pavilion 2015｜走进彩虹色的阳光里 · 临时建筑",
+      "url": "https://www.serpentinegalleries.org/whats-on/serpentine-pavilion-2015-designed-selgascano/",
+      "native": [
+        1600,
+        1066
+      ],
+      "colors": [
+        "#0c1210",
+        "#3e67be",
+        "#1b203c",
+        "#36363b",
+        "#5b81d7"
+      ],
+      "desktop": [
+        460,
+        660,
+        600,
+        280,
+        1,
+        4
+      ],
+      "mobile": [
+        16,
+        392,
+        210,
+        157,
+        1,
+        4
+      ],
+      "ref_desktop": [
+        1050,
+        632
+      ],
+      "ref_mobile": [
+        206,
+        557
+      ],
+      "object_id": "selgascano-serpentine-2015",
+      "origin": "existing-case",
+      "local_original": "source/web-prototypes/term-collage-trial-midsummer-2026-11-05/assets/originals/sp_og.jpg"
+    },
+    {
+      "unit_id": "u04-ip_10.jpg",
+      "display_number": "04",
+      "role": "环境",
+      "image": "assets/images/edf92be6b382e42c.jpg",
+      "source_file": "assets/originals/ip_10.jpg",
+      "case_record_id": "reczz28MLgJayHOi",
+      "term_record_id": "reczz28HJJL2GLJb",
+      "alt": "Illustrated People｜皮肤上的照片 · 实验摄影／身体艺术",
+      "url": "https://rvb-books.com/products/thomas-mailaender-illustrated-people",
+      "native": [
+        800,
+        1197
+      ],
+      "colors": [
+        "#e1bbab",
+        "#100e10",
+        "#d9a897",
+        "#db9585",
+        "#e9cdbf"
+      ],
+      "desktop": [
+        40,
+        480,
+        300,
+        280,
+        2,
+        3
+      ],
+      "mobile": [
+        210,
+        740,
+        164,
+        153,
+        2,
+        3
+      ],
+      "ref_desktop": [
+        330,
+        452
+      ],
+      "ref_mobile": [
+        350,
+        901
+      ],
+      "object_id": "mailaender-illustrated-people-neck-photo",
+      "origin": "existing-case",
+      "local_original": "source/web-prototypes/term-collage-trial-midsummer-2026-11-05/assets/originals/ip_10.jpg"
+    },
+    {
+      "unit_id": "u02-H38.jpg",
+      "display_number": "02",
+      "role": "补充",
+      "image": "assets/images/7f74c9b20634b541.jpg",
+      "source_file": "assets/originals/H38.jpg",
+      "case_record_id": "reczz28MLgJaxrYR",
+      "term_record_id": "reczz28HJJL2GLJb",
+      "alt": "Hanabi｜花火 · 摄影",
+      "url": "https://prix.pictet.com/cycles/fire/rinko-kawauchi",
+      "native": [
+        1400,
+        1401
+      ],
+      "colors": [
+        "#6d8a86",
+        "#859088",
+        "#5e6239",
+        "#3c4633",
+        "#8c816f"
+      ],
+      "desktop": [
+        40,
+        70,
+        280,
+        380,
+        -3,
+        4
+      ],
+      "mobile": [
+        220,
+        392,
+        154,
+        197,
+        -3,
+        4
+      ],
+      "ref_desktop": [
+        310,
+        42
+      ],
+      "ref_mobile": [
+        350,
+        597
+      ],
+      "object_id": "kawauchi-hanabi-photo-H38",
+      "origin": "existing-case",
+      "local_original": "source/web-prototypes/term-collage-trial-midsummer-2026-11-05/assets/originals/H38.jpg"
+    },
+    {
+      "source_file": "additions/swim.jpg",
+      "url": "https://www.metmuseum.org/art/collection/search/86495",
+      "image_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/86495/322366/restricted",
+      "alt": "Tom Brigance · Bathing Suit，1960 / The Met",
+      "object_id": "swim",
+      "board": "midsummer",
+      "case_record_id": null,
+      "term_record_id": null,
+      "origin": "external-reference",
+      "native": [
+        335,
+        600
+      ],
+      "credit": "",
+      "sha256": "76f23a97b6322a60b7ceccf5d1fe2a399659628877a244aa452c86b85aed0190",
+      "local_original": "additions/swim.jpg"
+    },
+    {
+      "unit_id": "u03-v88_1-15.png",
+      "display_number": "03",
+      "role": "细节",
+      "image": "assets/images/3d368d517894eb57.jpg",
+      "source_file": "assets/originals/v88_1-15.png",
+      "case_record_id": "reczz28MLgJb1lI7",
+      "term_record_id": "reczz28HJJL2GLJb",
+      "alt": "Locus Solus｜一整个意大利夏日 · 户外家具／设计系列",
+      "url": "https://www.exteta.it/en/collections/jacquemus-exteta",
+      "native": [
+        810,
+        640
+      ],
+      "colors": [
+        "#e6dfd7",
+        "#f1deb1",
+        "#e1d3b9",
+        "#cfc3b3",
+        "#dcbc87"
+      ],
+      "desktop": [
+        340,
+        80,
+        140,
+        220,
+        5,
+        3
+      ],
+      "mobile": [
+        210,
+        1166,
+        164,
+        229,
+        5,
+        3
+      ],
+      "ref_desktop": [
+        460,
+        308
+      ],
+      "ref_mobile": [
+        350,
+        1403
+      ],
+      "object_id": "locus-solus-chaise",
+      "origin": "existing-case",
+      "local_original": "source/web-prototypes/term-collage-trial-midsummer-2026-11-05/assets/originals/v88_1-15.png"
+    }
+  ],
+  "dopamine": [
+    {
+      "unit_id": "u01-forest_1_emmanuelle_mour",
+      "display_number": "01",
+      "role": "主图",
+      "image": "assets/images/24a2992551d23ecd.jpg",
+      "source_file": "assets/originals/forest_1_emmanuelle_moureaux_Forest_of_Numbers.jpg",
+      "case_record_id": "reczz28MR6LJ5rW7",
+      "term_record_id": "reczz28HJJL2GLvJ",
+      "alt": "Forest of Numbers｜数字森林 · 空间装置／色彩艺术",
+      "url": "https://www.emmanuellemoureaux.com/100colors-forest-of-numbers",
+      "native": [
+        1500,
+        1000
+      ],
+      "colors": [
+        "#d68966",
+        "#e3b062",
+        "#deae88",
+        "#d78b46",
+        "#b3967f"
+      ],
+      "desktop": [
+        460,
+        55,
+        600,
+        560,
+        2,
+        2
+      ],
+      "mobile": [
+        16,
+        36,
+        358,
+        334,
+        2,
+        2
+      ],
+      "ref_desktop": [
+        1040,
+        623
+      ],
+      "ref_mobile": [
+        350,
+        378
+      ],
+      "object_id": "moureaux-forest-of-numbers",
+      "origin": "existing-case",
+      "local_original": "source/web-prototypes/term-collage-trial-dopamine-2026-11-05/assets/originals/forest_1_emmanuelle_moureaux_Forest_of_Numbers.jpg"
+    },
+    {
+      "unit_id": "u02-judy_10358_Multi-Color_A",
+      "display_number": "02",
+      "role": "补充",
+      "image": "assets/images/2c10099a6f7ed708.jpg",
+      "source_file": "assets/originals/judy_10358_Multi-Color_Atmosphere_F.jpg",
+      "case_record_id": "reczz28MR6LJ60Ar",
+      "term_record_id": "reczz28HJJL2GLvJ",
+      "alt": "Multi-color Atmosphere｜多彩氛围 · 烟火／行为表演／环境艺术",
+      "url": "https://judychicago.com/gallery/atmospheresfireworks/artwork/",
+      "native": [
+        1600,
+        1066
+      ],
+      "colors": [
+        "#b28a66",
+        "#da6935",
+        "#b2653b",
+        "#331f21",
+        "#5e3224"
+      ],
+      "desktop": [
+        40,
+        70,
+        280,
+        380,
+        -3,
+        4
+      ],
+      "mobile": [
+        220,
+        392,
+        154,
+        197,
+        -3,
+        4
+      ],
+      "ref_desktop": [
+        310,
+        42
+      ],
+      "ref_mobile": [
+        350,
+        597
+      ],
+      "object_id": "chicago-multicolor-atmosphere",
+      "origin": "existing-case",
+      "local_original": "source/web-prototypes/term-collage-trial-dopamine-2026-11-05/assets/originals/judy_10358_Multi-Color_Atmosphere_F.jpg"
+    },
+    {
+      "source_file": "additions/circus.jpg",
+      "url": "https://www.vam.ac.uk/articles/a-short-history-of-the-poster",
+      "image_url": "https://assets-cdn.vam.ac.uk/2026/06/18/17/19/31/51e961d9-bfa2-437e-9583-97f20fc74dd4/1280.jpg",
+      "alt": "Hubert Hilscher · Cyrk，1970",
+      "object_id": "circus",
+      "board": "dopamine",
+      "case_record_id": null,
+      "term_record_id": null,
+      "origin": "external-reference",
+      "native": [
+        1280,
+        1865
+      ],
+      "credit": "Cyrk, colour lithograph poster, by Hubert Hilscher, 1970, Poland. Museum no. E.1084-1976. © Victoria and Albert Museum, London",
+      "sha256": "bb78200aaef5c783e03ffa4fc756fcce24461dcfe84c124cd2c7c8c49f161404",
+      "local_original": "additions/circus.jpg"
+    },
+    {
+      "source_file": "additions/tahiti.jpg",
+      "url": "https://www.centrepompidou.fr/en/ressources/oeuvre/MzJjset",
+      "image_url": "https://www.centrepompidou.fr/media/picture/bd/0f/bd0fbcaeb183711c8861d0870cd1205e/thumb_large.jpg",
+      "alt": "Ettore Sottsass · Tahiti 台灯设计图，1981 / Centre Pompidou",
+      "object_id": "tahiti",
+      "board": "dopamine",
+      "case_record_id": null,
+      "term_record_id": null,
+      "origin": "external-reference",
+      "native": [
+        610,
+        800
+      ],
+      "credit": "Ettore Sottsass Lampe de table Tahiti 1981 Ettore Sottsass (1917, Autriche - 2007, Italie) Lampe de table Tahiti 1981 Domain Dessin design Techniques Encre, crayon et crayon de couleur sur papier dessin Dimensions 30 x 23 cm Acquisition Don de l'artiste, 1999 Inventory no. AM 1999-1-12 (2) Is part of the set Etude de dessins pour lampe Memphis Ensemble\n                \n                \n                        (Dissociable set of artworks) dessin design lampe objet éclairage Credits © Adagp, Pari",
+      "sha256": "3f1ada7fcdb32a2452b11591f0d2468b18b9549292ee9ccbde1ffd39479d9390",
+      "local_original": "additions/tahiti.jpg"
+    },
+    {
+      "source_file": "additions/living.jpg",
+      "url": "https://www.verner-panton.com/en/collection/prod-living-tower/",
+      "image_url": "https://www.verner-panton.com/wp-content/uploads/2020/01/Livingtower_R2_FS.jpg",
+      "alt": "Verner Panton · Living Tower，1969",
+      "object_id": "living",
+      "board": "dopamine",
+      "case_record_id": null,
+      "term_record_id": null,
+      "origin": "external-reference",
+      "native": [
+        2000,
+        1500
+      ],
+      "credit": "",
+      "sha256": "a0dda552b5304f4a568f9177b104760a6e8b0dace638f0e095b8fd6ddb5cb62f",
+      "local_original": "additions/living.jpg"
+    },
+    {
+      "source_file": "additions/sofa-large.jpg",
+      "url": "https://www.vam.ac.uk/articles/a-surrealist-sofa-by-salvador-dal%C3%AD-and-edward-james",
+      "image_url": "https://vanda-production-assets.s3.amazonaws.com/2019/02/25/13/38/28/048e190e-0ed7-41f7-b65c-804d29b2b151/2018KX3594-lips-sofa-1280.jpg",
+      "alt": "Salvador Dalí & Edward James · Mae West Lips Sofa，1938–39",
+      "object_id": "dali-mae-west-lips-sofa",
+      "board": "dopamine",
+      "case_record_id": null,
+      "term_record_id": null,
+      "origin": "external-reference",
+      "native": [
+        2560,
+        1534
+      ],
+      "credit": "Mae West Lips sofa, Salvador Dalí and Edward James, 1938 – 39, England. Museum no. W.6-2018. © Victoria and Albert Museum, London",
+      "sha256": "27db2e0e3cd62868a7a34791a0047d83a79013575fdaf64c35a9ae6d58881af1",
+      "local_original": "additions/sofa-large.jpg"
+    },
+    {
+      "source_file": "additions/heart-product.jpg",
+      "url": "https://amsterdam.vitracircle.com/en/products/heart-cone-chair",
+      "image_url": "https://cdn.shopify.com/s/files/1/0632/5960/7238/files/HeartConeChair_Kvadrat.jpg?v=1736634102",
+      "alt": "Verner Panton · Heart Cone Chair / Vitra Circle",
+      "object_id": "panton-heart-cone",
+      "board": "dopamine",
+      "case_record_id": null,
+      "term_record_id": null,
+      "origin": "external-reference",
+      "native": [
+        1543,
+        1543
+      ],
+      "credit": "Vitra Circle / Verner Panton",
+      "sha256": "f1060d40fc0ddd692d5e4f55199cc1d7a3ef97facbcf3bc17afc0bb19f89533f",
+      "local_original": "additions/heart-product.jpg"
+    },
+    {
+      "source_file": "additions/pantop.jpg",
+      "url": "https://verpan.com/products/pantop-o18-portable-lamp",
+      "image_url": "https://cdn.shopify.com/s/files/1/0513/1829/2651/files/Pantop_Portable_Orange.jpg?v=1756464941",
+      "alt": "Verner Panton · Pantop 便携灯 / VERPAN",
+      "object_id": "pantop",
+      "board": "dopamine",
+      "case_record_id": null,
+      "term_record_id": null,
+      "origin": "external-reference",
+      "native": [
+        1800,
+        1800
+      ],
+      "credit": "VERPAN / Verner Panton",
+      "sha256": "9feb79d2617ae89355fb85d0fd10591bee5300bea02062ed85cdf5e59ebe878b",
+      "local_original": "additions/pantop.jpg"
+    },
+    {
+      "unit_id": "u03-卡尔顿书架_索特萨斯_摄影Sailko_CCBY",
+      "display_number": "03",
+      "role": "细节",
+      "image": "assets/images/fdcd3cc6730c81df.jpg",
+      "source_file": "assets/originals/卡尔顿书架_索特萨斯_摄影Sailko_CCBYSA4.0.jpg",
+      "case_record_id": "reczz28HJJL2NkpP",
+      "term_record_id": "reczz28HJJL2GLvJ",
+      "alt": "卡尔顿 · 设计",
+      "url": "https://www.metmuseum.org/art/collection/search/486989",
+      "native": [
+        1506,
+        1600
+      ],
+      "colors": [
+        "#110e0b",
+        "#443930",
+        "#2d2118",
+        "#372d22",
+        "#5e9044"
+      ],
+      "desktop": [
+        340,
+        80,
+        140,
+        220,
+        5,
+        3
+      ],
+      "mobile": [
+        210,
+        1166,
+        164,
+        229,
+        5,
+        3
+      ],
+      "ref_desktop": [
+        460,
+        308
+      ],
+      "ref_mobile": [
+        350,
+        1403
+      ],
+      "object_id": "sottsass-carlton",
+      "origin": "existing-case",
+      "local_original": "source/web-prototypes/term-collage-trial-dopamine-2026-11-05/assets/originals/卡尔顿书架_索特萨斯_摄影Sailko_CCBYSA4.0.jpg"
+    }
+  ],
+  "decadence": [
+    {
+      "unit_id": "u03-climax_rgb.jpg",
+      "display_number": "03",
+      "role": "细节",
+      "image": "assets/images/ba8e80326d9f4425.jpg",
+      "source_file": "assets/originals/climax_rgb.jpg",
+      "case_record_id": "reczz28MnyHcRK5r",
+      "term_record_id": "reczz28MKp7HdDiG",
+      "alt": "《高潮》The Climax · 黑白插画、书籍设计",
+      "url": "https://www.metmuseum.org/art/collection/search/822368",
+      "native": [
+        912,
+        1280
+      ],
+      "colors": [
+        "#fcfcfc",
+        "#090909",
+        "#dddddd",
+        "#606060",
+        "#3c3c3c"
+      ],
+      "desktop": [
+        900,
+        50,
+        260,
+        300,
+        -3,
+        3
+      ],
+      "mobile": [
+        210,
+        1153,
+        164,
+        189,
+        -3,
+        3
+      ],
+      "ref_desktop": [
+        1140,
+        358
+      ],
+      "ref_mobile": [
+        350,
+        1350
+      ],
+      "object_id": "beardsley-climax",
+      "origin": "existing-case",
+      "local_original": "source/web-prototypes/term-collage-trial-decadence-2026-11-05/assets/originals/climax_rgb.jpg"
+    },
+    {
+      "unit_id": "u04-peacock.jpg",
+      "display_number": "04",
+      "role": "环境",
+      "image": "assets/images/f6ac6a4a94ce8364.jpg",
+      "source_file": "assets/originals/peacock.jpg",
+      "case_record_id": "reczz28MnyHcRaTA",
+      "term_record_id": "reczz28MKp7HdDiG",
+      "alt": "《孔雀裙》The Peacock Skirt · 黑白插画",
+      "url": "https://www.metmuseum.org/art/collection/search/822344",
+      "native": [
+        730,
+        1002
+      ],
+      "colors": [
+        "#e6e4d3",
+        "#f3f1e2",
+        "#d4cfbf",
+        "#3d3833",
+        "#f0eedd"
+      ],
+      "desktop": [
+        900,
+        370,
+        260,
+        230,
+        2,
+        4
+      ],
+      "mobile": [
+        16,
+        1360,
+        176,
+        155,
+        2,
+        4
+      ],
+      "ref_desktop": [
+        1150,
+        342
+      ],
+      "ref_mobile": [
+        172,
+        1523
+      ],
+      "object_id": "beardsley-peacock-skirt",
+      "origin": "existing-case",
+      "local_original": "source/web-prototypes/term-collage-trial-decadence-2026-11-05/assets/originals/peacock.jpg"
+    },
+    {
+      "unit_id": "u07-mm_442895.jpg",
+      "display_number": "07",
+      "role": "补充",
+      "image": "assets/images/a14bd849a9b52bdc.jpg",
+      "source_file": "assets/originals/mm_442895.jpg",
+      "case_record_id": "reczz28MnyHcQLe7",
+      "term_record_id": "reczz28MKp7HdDiG",
+      "alt": "Artisanal 2024 高级定制系列 · 高级定制、妆造、秀场表演",
+      "url": "https://www.vogue.com/fashion-shows/spring-2024-couture/maison-martin-margiela",
+      "native": [
+        1066,
+        1600
+      ],
+      "colors": [
+        "#120f0e",
+        "#3d3635",
+        "#301f19",
+        "#5b453c",
+        "#fcfafa"
+      ],
+      "desktop": [
+        540,
+        740,
+        500,
+        240,
+        -2,
+        4
+      ],
+      "mobile": [
+        220,
+        442,
+        154,
+        123,
+        -2,
+        4
+      ],
+      "ref_desktop": [
+        1020,
+        988
+      ],
+      "ref_mobile": [
+        350,
+        573
+      ],
+      "object_id": "margiela-2024-black-lattice-look",
+      "origin": "existing-case",
+      "local_original": "source/web-prototypes/term-collage-trial-decadence-2026-11-05/assets/originals/mm_442895.jpg"
+    },
+    {
+      "unit_id": "u05-redon_balloon.jpg",
+      "display_number": "05",
+      "role": "对照",
+      "image": "assets/images/08d558c85fd5ec1c.jpg",
+      "source_file": "assets/originals/redon_balloon.jpg",
+      "case_record_id": "reczz28MnyHcRudP",
+      "term_record_id": "reczz28MKp7HdDiG",
+      "alt": "《眼睛像一只奇异的气球，飞向无限》 · 石版画（Noirs）",
+      "url": "https://www.moma.org/collection/works/33013",
+      "native": [
+        1211,
+        1600
+      ],
+      "colors": [
+        "#e1d1c1",
+        "#cfc0b1",
+        "#3e3832",
+        "#c1b3a4",
+        "#b4a799"
+      ],
+      "desktop": [
+        560,
+        440,
+        320,
+        260,
+        -1,
+        3
+      ],
+      "mobile": [
+        16,
+        992,
+        176,
+        143,
+        -1,
+        3
+      ],
+      "ref_desktop": [
+        860,
+        708
+      ],
+      "ref_mobile": [
+        172,
+        1143
+      ],
+      "object_id": "redon-eye-balloon",
+      "origin": "existing-case",
+      "local_original": "source/web-prototypes/term-collage-trial-decadence-2026-11-05/assets/originals/redon_balloon.jpg"
+    },
+    {
+      "source_file": "additions/necklace.jpg",
+      "url": "https://www.metmuseum.org/art/collection/search/483898",
+      "image_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/483898/1794312/restricted",
+      "alt": "René Lalique · Necklace，ca.1897–99 / The Met",
+      "object_id": "necklace",
+      "board": "decadence",
+      "case_record_id": null,
+      "term_record_id": null,
+      "origin": "external-reference",
+      "native": [
+        450,
+        600
+      ],
+      "credit": "",
+      "sha256": "d3b1776289ea67dbe150f15365425a413d2e7c52fa5934ba8228582c26aa41d2",
+      "local_original": "additions/necklace.jpg"
+    },
+    {
+      "unit_id": "u01-mm_vogue_01.jpg",
+      "display_number": "01",
+      "role": "主图",
+      "image": "assets/images/34a06c7012863bdd.jpg",
+      "source_file": "assets/originals/mm_442885.jpg",
+      "case_record_id": "reczz28MnyHcQLe7",
+      "term_record_id": "reczz28MKp7HdDiG",
+      "alt": "Artisanal 2024 高级定制系列 · 高级定制、妆造、秀场表演",
+      "url": "https://www.vogue.com/fashion-shows/spring-2024-couture/maison-martin-margiela",
+      "native": [
+        1066,
+        1600
+      ],
+      "colors": [
+        "#11100e",
+        "#383633",
+        "#302a23",
+        "#2c221c",
+        "#635f5e"
+      ],
+      "desktop": [
+        36,
+        70,
+        540,
+        580,
+        -2,
+        2
+      ],
+      "mobile": [
+        16,
+        36,
+        358,
+        384,
+        -2,
+        2
+      ],
+      "ref_desktop": [
+        556,
+        658
+      ],
+      "ref_mobile": [
+        350,
+        428
+      ],
+      "object_id": "margiela-2024-olive-pleated-look",
+      "origin": "existing-case",
+      "local_original": "source/web-prototypes/term-collage-trial-decadence-2026-11-05/assets/originals/mm_442885.jpg"
+    },
+    {
+      "unit_id": "u02-lalique_official.jpg",
+      "display_number": "02",
+      "role": "补充",
+      "image": "assets/images/e6cfa71677a9851b.jpg",
+      "source_file": "assets/originals/lalique_official.jpg",
+      "case_record_id": "reczz28MnyHcQMQu",
+      "term_record_id": "reczz28MKp7HdDiG",
+      "alt": "《蜻蜓女子》Dragonfly Corsage Ornament · 珠宝、珐琅、黄金与宝石",
+      "url": "https://gulbenkian.pt/museu/en/works/dragonfly-corsage-ornament/",
+      "native": [
+        1600,
+        1345
+      ],
+      "colors": [
+        "#000000",
+        "#413e37",
+        "#63665e",
+        "#625643",
+        "#3d2f20"
+      ],
+      "desktop": [
+        560,
+        55,
+        320,
+        360,
+        4,
+        4
+      ],
+      "mobile": [
+        210,
+        790,
+        164,
+        184,
+        4,
+        4
+      ],
+      "ref_desktop": [
+        870,
+        27
+      ],
+      "ref_mobile": [
+        350,
+        982
+      ],
+      "object_id": "lalique-dragonfly-woman",
+      "origin": "existing-case",
+      "local_original": "source/web-prototypes/term-collage-trial-decadence-2026-11-05/assets/originals/lalique_official.jpg"
+    },
+    {
+      "unit_id": "u01-mm_vogue_01.jpg",
+      "display_number": "01",
+      "role": "主图",
+      "image": "assets/images/34a06c7012863bdd.jpg",
+      "source_file": "assets/originals/mm_vogue_01.jpg",
+      "case_record_id": "reczz28MnyHcQLe7",
+      "term_record_id": "reczz28MKp7HdDiG",
+      "alt": "Artisanal 2024 高级定制系列 · 高级定制、妆造、秀场表演",
+      "url": "https://www.vogue.com/fashion-shows/spring-2024-couture/maison-martin-margiela",
+      "native": [
+        1066,
+        1600
+      ],
+      "colors": [
+        "#11100e",
+        "#383633",
+        "#302a23",
+        "#2c221c",
+        "#635f5e"
+      ],
+      "desktop": [
+        36,
+        70,
+        540,
+        580,
+        -2,
+        2
+      ],
+      "mobile": [
+        16,
+        36,
+        358,
+        384,
+        -2,
+        2
+      ],
+      "ref_desktop": [
+        556,
+        658
+      ],
+      "ref_mobile": [
+        350,
+        428
+      ],
+      "object_id": "margiela-2024-male-corset-trousers",
+      "origin": "existing-case",
+      "local_original": "source/web-prototypes/term-collage-trial-decadence-2026-11-05/assets/originals/mm_vogue_01.jpg"
+    }
+  ]
+}
