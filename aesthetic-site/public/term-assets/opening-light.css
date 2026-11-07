@@ -1,0 +1,5 @@
+.opening-light-overlay{position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none;z-index:2}
+.opening-light-halo{position:absolute;pointer-events:none;z-index:2;transform-origin:50% 0;overflow:visible}
+.opening-light-active .chandelier{transform-origin:50% 0}
+.opening-light-active .term-name{will-change:opacity,filter}
+@media(prefers-reduced-motion:reduce){.opening-light-overlay,.opening-light-halo{display:none}}

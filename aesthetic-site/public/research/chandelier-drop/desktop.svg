@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+<title id="title">吊灯、水滴与词条名：桌面动线草图</title>
+<desc id="desc">保留吊灯原位置。灯芯先亮，光沿吊坠聚成一滴；手机向下偏左，桌面向左下，到达词条标题上缘。标题随后显现。</desc>
+<rect width="1440" height="900" fill="white"/>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5 0 10" fill="none" stroke="black"/></marker></defs>
+<g id="chandelier" transform="translate(1120 330)" stroke="black" stroke-width="1.5" fill="none">
+<path d="M0 -300V10M-110 -70Q0 80 110 -70M-70 -110Q0 10 70 -110M-110 -70V-130M-70 -110V-170M70 -110V-170M110 -70V-130"/>
+<g id="lights"><ellipse cx="-110" cy="-143" rx="5" ry="10"/><ellipse cx="-70" cy="-183" rx="5" ry="10"/><ellipse cx="70" cy="-183" rx="5" ry="10"/><ellipse cx="110" cy="-143" rx="5" ry="10"/></g>
+<path d="M0 10V55M0 55Q-20 88 0 94Q20 88 0 55Z"/></g>
+<path id="drop-path" d="M1120 424C1120 480 430 305 430 370" fill="none" stroke="black" stroke-width="1.5" stroke-dasharray="5 7" marker-end="url(#arrow)"/>
+<path id="drop" d="M0 -9Q-10 5 0 9Q10 5 0 -9Z" fill="white" stroke="black" transform="translate(1120 424)"/>
+<g id="copy" fill="black" font-family="serif"><text x="360" y="390" font-size="76">词条名字</text><text x="360" y="445" font-size="18">定义与原有介绍</text><text x="360" y="505" font-size="13">返回所属专题　全部专题</text></g>
+<text x="20" y="875" font-size="13" fill="black">结构草图 · 不代表最终光效或吊灯美术</text></svg>

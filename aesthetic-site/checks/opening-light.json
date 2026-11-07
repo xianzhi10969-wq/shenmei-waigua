@@ -1,0 +1,37 @@
+{
+  "results": [
+    {
+      "width": 390,
+      "simultaneous": true,
+      "totalMs": 1450,
+      "skipOnScroll": true,
+      "noReplay": true,
+      "navBelowCopy": true
+    },
+    {
+      "width": 1440,
+      "simultaneous": true,
+      "totalMs": 1450,
+      "skipOnScroll": true,
+      "noReplay": true,
+      "navBelowCopy": true
+    },
+    {
+      "width": 320,
+      "simultaneous": true,
+      "totalMs": 1450,
+      "skipOnScroll": true,
+      "noReplay": true,
+      "navBelowCopy": true
+    },
+    {
+      "width": 768,
+      "simultaneous": true,
+      "totalMs": 1450,
+      "skipOnScroll": true,
+      "noReplay": true,
+      "navBelowCopy": true
+    }
+  ],
+  "errors": []
+}

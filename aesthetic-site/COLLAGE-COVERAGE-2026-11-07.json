@@ -1,0 +1,613 @@
+{
+  "totalTerms": 101,
+  "integrated": 21,
+  "withoutExistingCollage": 80,
+  "terms": [
+    {
+      "id": "reczz28HJJL2GIls",
+      "name": "梦核",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c3247496c73/"
+    },
+    {
+      "id": "reczz28HJJL2GIv6",
+      "name": "阈限空间",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c3247497636/"
+    },
+    {
+      "id": "reczz28HJJL2GJ14",
+      "name": "诡异人偶",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474a3134/"
+    },
+    {
+      "id": "reczz28HJJL2GJ6i",
+      "name": "模拟恐怖",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474a3669/"
+    },
+    {
+      "id": "reczz28HJJL2GJBv",
+      "name": "甜亚系",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474a4276/"
+    },
+    {
+      "id": "reczz28HJJL2GJHl",
+      "name": "Coquette",
+      "collage": "integrated",
+      "url": "/terms/7265637a7a3238484a4a4c32474a486c/"
+    },
+    {
+      "id": "reczz28HJJL2GJND",
+      "name": "Girlhood",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474a4e44/"
+    },
+    {
+      "id": "reczz28HJJL2GJS1",
+      "name": "Softcore",
+      "collage": "integrated",
+      "url": "/terms/7265637a7a3238484a4a4c32474a5331/"
+    },
+    {
+      "id": "reczz28HJJL2GJXK",
+      "name": "复古",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474a584b/"
+    },
+    {
+      "id": "reczz28HJJL2GJcS",
+      "name": "旧互联网 Old Web",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474a6353/"
+    },
+    {
+      "id": "reczz28HJJL2GJht",
+      "name": "日杂",
+      "collage": "integrated",
+      "url": "/terms/7265637a7a3238484a4a4c32474a6874/"
+    },
+    {
+      "id": "reczz28HJJL2GJns",
+      "name": "画报风",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474a6e73/"
+    },
+    {
+      "id": "reczz28HJJL2GJt7",
+      "name": "复古摇滚",
+      "collage": "integrated",
+      "url": "/terms/7265637a7a3238484a4a4c32474a7437/"
+    },
+    {
+      "id": "reczz28HJJL2GK3M",
+      "name": "低能量",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474b334d/"
+    },
+    {
+      "id": "reczz28HJJL2GKfk",
+      "name": "心动",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474b666b/"
+    },
+    {
+      "id": "reczz28HJJL2GKkE",
+      "name": "暧昧",
+      "collage": "integrated",
+      "url": "/terms/7265637a7a3238484a4a4c32474b6b45/"
+    },
+    {
+      "id": "reczz28HJJL2GKpL",
+      "name": "拉扯感",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474b704c/"
+    },
+    {
+      "id": "reczz28HJJL2GL2L",
+      "name": "情欲张力",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474c324c/"
+    },
+    {
+      "id": "reczz28HJJL2GLCP",
+      "name": "治愈",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474c4350/"
+    },
+    {
+      "id": "reczz28HJJL2GLFs",
+      "name": "Cottagecore",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474c4673/"
+    },
+    {
+      "id": "reczz28HJJL2GLJb",
+      "name": "盛夏",
+      "collage": "integrated",
+      "url": "/terms/7265637a7a3238484a4a4c32474c4a62/"
+    },
+    {
+      "id": "reczz28HJJL2GLVe",
+      "name": "生命力",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474c5665/"
+    },
+    {
+      "id": "reczz28HJJL2GLZ0",
+      "name": "清冷",
+      "collage": "integrated",
+      "url": "/terms/7265637a7a3238484a4a4c32474c5a30/"
+    },
+    {
+      "id": "reczz28HJJL2GLgi",
+      "name": "朦胧",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474c6769/"
+    },
+    {
+      "id": "reczz28HJJL2GLjP",
+      "name": "空灵",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474c6a50/"
+    },
+    {
+      "id": "reczz28HJJL2GLnG",
+      "name": "梦境",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474c6e47/"
+    },
+    {
+      "id": "reczz28HJJL2GLvJ",
+      "name": "多巴胺",
+      "collage": "integrated",
+      "url": "/terms/7265637a7a3238484a4a4c32474c764a/"
+    },
+    {
+      "id": "reczz28HJJL2GLxu",
+      "name": "热烈",
+      "collage": "integrated",
+      "url": "/terms/7265637a7a3238484a4a4c32474c7875/"
+    },
+    {
+      "id": "reczz28HJJL2GM5u",
+      "name": "涂鸦",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474d3575/"
+    },
+    {
+      "id": "reczz28HJJL2GM8Z",
+      "name": "盐系",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474d385a/"
+    },
+    {
+      "id": "reczz28HJJL2GMBA",
+      "name": "禅意",
+      "collage": "integrated",
+      "url": "/terms/7265637a7a3238484a4a4c32474d4241/"
+    },
+    {
+      "id": "reczz28HJJL2GMEM",
+      "name": "等待",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474d454d/"
+    },
+    {
+      "id": "reczz28HJJL2GMGx",
+      "name": "宁静",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474d4778/"
+    },
+    {
+      "id": "reczz28HJJL2GMJz",
+      "name": "含蓄",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474d4a7a/"
+    },
+    {
+      "id": "reczz28HJJL2GMMk",
+      "name": "Normcore",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474d4d6b/"
+    },
+    {
+      "id": "reczz28HJJL2GMPN",
+      "name": "细水长流",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474d504e/"
+    },
+    {
+      "id": "reczz28HJJL2GMRw",
+      "name": "极简",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474d5277/"
+    },
+    {
+      "id": "reczz28HJJL2GMUe",
+      "name": "淡极生艳",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474d5565/"
+    },
+    {
+      "id": "reczz28HJJL2GMXK",
+      "name": "白月光",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474d584b/"
+    },
+    {
+      "id": "reczz28HJJL2GMZz",
+      "name": "意难平",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474d5a7a/"
+    },
+    {
+      "id": "reczz28HJJL2GMcc",
+      "name": "青涩",
+      "collage": "integrated",
+      "url": "/terms/7265637a7a3238484a4a4c32474d6363/"
+    },
+    {
+      "id": "reczz28HJJL2GMfJ",
+      "name": "告别",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474d664a/"
+    },
+    {
+      "id": "reczz28HJJL2GMrB",
+      "name": "沉浸式独处",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474d7242/"
+    },
+    {
+      "id": "reczz28HJJL2GMxt",
+      "name": "烟火味",
+      "collage": "integrated",
+      "url": "/terms/7265637a7a3238484a4a4c32474d7874/"
+    },
+    {
+      "id": "reczz28HJJL2GN4c",
+      "name": "生活切片",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474e3463/"
+    },
+    {
+      "id": "reczz28HJJL2GN7q",
+      "name": "破碎感",
+      "collage": "integrated",
+      "url": "/terms/7265637a7a3238484a4a4c32474e3771/"
+    },
+    {
+      "id": "reczz28HJJL2GNBK",
+      "name": "拓印",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474e424b/"
+    },
+    {
+      "id": "reczz28HJJL2GNFA",
+      "name": "质朴",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474e4641/"
+    },
+    {
+      "id": "reczz28HJJL2GNHq",
+      "name": "Riso 印刷",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474e4871/"
+    },
+    {
+      "id": "reczz28HJJL2GNOa",
+      "name": "新中式",
+      "collage": "integrated",
+      "url": "/terms/7265637a7a3238484a4a4c32474e4f61/"
+    },
+    {
+      "id": "reczz28HJJL2GNSP",
+      "name": "水墨",
+      "collage": "integrated",
+      "url": "/terms/7265637a7a3238484a4a4c32474e5350/"
+    },
+    {
+      "id": "reczz28HJJL2GNcx",
+      "name": "武侠",
+      "collage": "integrated",
+      "url": "/terms/7265637a7a3238484a4a4c32474e6378/"
+    },
+    {
+      "id": "reczz28HJJL2GNfa",
+      "name": "魏晋风",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474e6661/"
+    },
+    {
+      "id": "reczz28HJJL2GNiE",
+      "name": "仙侠",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474e6945/"
+    },
+    {
+      "id": "reczz28HJJL2GNnU",
+      "name": "轻盈",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474e6e55/"
+    },
+    {
+      "id": "reczz28HJJL2GNqc",
+      "name": "清透",
+      "collage": "integrated",
+      "url": "/terms/7265637a7a3238484a4a4c32474e7163/"
+    },
+    {
+      "id": "reczz28HJJL2GNwD",
+      "name": "流动",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474e7744/"
+    },
+    {
+      "id": "reczz28HJJL2GOA8",
+      "name": "松弛感",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474f4138/"
+    },
+    {
+      "id": "reczz28HJJL2GOCn",
+      "name": "法式不经意",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474f436e/"
+    },
+    {
+      "id": "reczz28HJJL2GOKi",
+      "name": "反差",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474f4b69/"
+    },
+    {
+      "id": "reczz28HJJL2GONM",
+      "name": "嚣张",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474f4e4d/"
+    },
+    {
+      "id": "reczz28HJJL2GOVG",
+      "name": "反诗意",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474f5647/"
+    },
+    {
+      "id": "reczz28HJJL2GOdG",
+      "name": "粗粝",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474f6447/"
+    },
+    {
+      "id": "reczz28HJJL2GOfq",
+      "name": "暗黑",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474f6671/"
+    },
+    {
+      "id": "reczz28HJJL2GOiU",
+      "name": "昏黄",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474f6955/"
+    },
+    {
+      "id": "reczz28HJJL2GOr1",
+      "name": "阴湿",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474f7231/"
+    },
+    {
+      "id": "reczz28HJJL2GOtf",
+      "name": "宿命感",
+      "collage": "integrated",
+      "url": "/terms/7265637a7a3238484a4a4c32474f7466/"
+    },
+    {
+      "id": "reczz28HJJL2GOwt",
+      "name": "刀子",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474f7774/"
+    },
+    {
+      "id": "reczz28HJJL2GOzV",
+      "name": "悲壮感",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c32474f7a56/"
+    },
+    {
+      "id": "reczz28HJJL2GP2A",
+      "name": "决绝",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c3247503241/"
+    },
+    {
+      "id": "reczz28HJJL2GP4n",
+      "name": "废土",
+      "collage": "integrated",
+      "url": "/terms/7265637a7a3238484a4a4c324750346e/"
+    },
+    {
+      "id": "reczz28HJJL2GP7R",
+      "name": "末世",
+      "collage": "integrated",
+      "url": "/terms/7265637a7a3238484a4a4c3247503752/"
+    },
+    {
+      "id": "reczz28HJJL2GPCk",
+      "name": "波普",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c324750436b/"
+    },
+    {
+      "id": "reczz28HJJL2GPFN",
+      "name": "赛博朋克",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a3238484a4a4c324750464e/"
+    },
+    {
+      "id": "reczz28MKp7HdDiG",
+      "name": "颓废美学",
+      "collage": "integrated",
+      "url": "/terms/7265637a7a32384d4b70374864446947/"
+    },
+    {
+      "id": "reczz28MKp7HdIot",
+      "name": "坎普",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a32384d4b70374864496f74/"
+    },
+    {
+      "id": "reczz28MKp7HfUmt",
+      "name": "酸性视觉",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a32384d4b70374866556d74/"
+    },
+    {
+      "id": "reczz28MKp7HfSC1",
+      "name": "孟菲斯",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a32384d4b70374866534331/"
+    },
+    {
+      "id": "reczz28MKp7HfeNy",
+      "name": "宋韵",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a32384d4b70374866654e79/"
+    },
+    {
+      "id": "reczz28MKp7HeRsf",
+      "name": "史诗感",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a32384d4b70374865527366/"
+    },
+    {
+      "id": "reczz28MKp7HcZiE",
+      "name": "巨物感",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a32384d4b703748635a6945/"
+    },
+    {
+      "id": "reczz28MKp7HdgPi",
+      "name": "朋克",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a32384d4b70374864675069/"
+    },
+    {
+      "id": "reczz28MKp7HeJf0",
+      "name": "机能风",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a32384d4b703748654a6630/"
+    },
+    {
+      "id": "reczz28MKp7HcT4e",
+      "name": "Grunge",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a32384d4b70374863543465/"
+    },
+    {
+      "id": "reczz28MKp7Hf5dr",
+      "name": "身体恐怖",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a32384d4b70374866356472/"
+    },
+    {
+      "id": "reczz28MKp7HdhY9",
+      "name": "波普超现实主义",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a32384d4b70374864685939/"
+    },
+    {
+      "id": "reczz28MKp7Hg1Xg",
+      "name": "哥特",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a32384d4b70374867315867/"
+    },
+    {
+      "id": "reczz28MKp7HcBBm",
+      "name": "黑色电影",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a32384d4b7037486342426d/"
+    },
+    {
+      "id": "reczz28MKp7HfXiT",
+      "name": "科幻视觉",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a32384d4b70374866586954/"
+    },
+    {
+      "id": "reczz28MKp7HdNoP",
+      "name": "蒸汽朋克",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a32384d4b703748644e6f50/"
+    },
+    {
+      "id": "reczz28MKp7HfS8b",
+      "name": "太阳朋克",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a32384d4b70374866533862/"
+    },
+    {
+      "id": "reczz28MKp7Hfsmz",
+      "name": "复古未来主义",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a32384d4b70374866736d7a/"
+    },
+    {
+      "id": "reczz28MKp7HdF81",
+      "name": "太空歌剧",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a32384d4b70374864463831/"
+    },
+    {
+      "id": "reczz28MKp7HdTGI",
+      "name": "Y2K",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a32384d4b70374864544749/"
+    },
+    {
+      "id": "reczz28MKp7HekcM",
+      "name": "蒸汽波",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a32384d4b703748656b634d/"
+    },
+    {
+      "id": "reczz28MKp7Hd34m",
+      "name": "Frutiger Aero",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a32384d4b7037486433346d/"
+    },
+    {
+      "id": "reczz28MKp7HcwDx",
+      "name": "怪核 Weirdcore",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a32384d4b70374863774478/"
+    },
+    {
+      "id": "reczz28MKp7HdI46",
+      "name": "Kidcore",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a32384d4b70374864493436/"
+    },
+    {
+      "id": "reczz28MKp7HcNdu",
+      "name": "Decora",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a32384d4b703748634e6475/"
+    },
+    {
+      "id": "reczz28MKp7HfoxS",
+      "name": "Yami Kawaii",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a32384d4b703748666f7853/"
+    },
+    {
+      "id": "reczz28MKwvta1Ka",
+      "name": "odd 风格",
+      "collage": "no-existing-collage",
+      "url": "/terms/7265637a7a32384d4b77767461314b61/"
+    }
+  ]
+}

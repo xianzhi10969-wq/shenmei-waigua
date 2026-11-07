@@ -1,4 +1,7 @@
 const stage=document.querySelector('.stage'),opening=document.querySelector('.opening'),paper=document.querySelector('.paper'),map=document.querySelector('.map-layer'),slider=document.querySelector('#progress'),phase=document.querySelector('#phase'),play=document.querySelector('#play');
+// Keep chapter navigation in the reading flow, clear of the chandelier artwork.
+const openingNavigation=document.querySelector('.term-parent');
+if(openingNavigation){openingNavigation.setAttribute('aria-label','返回专题');opening.querySelector('.opening-copy').append(openingNavigation);}
 const query=new URLSearchParams(location.search),capture=query.has('capture'),reduced=matchMedia('(prefers-reduced-motion: reduce)');if(capture)document.body.classList.add('capture');
 const clamp=x=>Math.max(0,Math.min(1,x)),smooth=x=>{x=clamp(x);return x*x*(3-2*x)};
 const pairs=[...document.querySelectorAll('.figure-ref')].sort((a,b)=>Number(a.textContent)-Number(b.textContent)).map((ref,i)=>({number:i+1,start:.24+i*.065,end:.29+i*.065,ref,figure:document.querySelector('.piece.'+ref.dataset.figure)}));
@@ -79,3 +82,8 @@ if (requestedParent && allowedParents.includes(requestedParent)) {
 
 // Shared bridge for archived SVG collages; keep Coquette's reveal behavior unchanged.
 window.termCollageNavigation={openCase(target,src){finishReveal();returnToRef=null;if(src)selectImage(target,src);scrollToContent(target);target.focus({preventScroll:true});}};
+
+// Independent motion candidate. The accepted opening remains the default.
+if(query.get('opening')==='light'&&!query.has('collage')&&!query.has('cases')&&!reduced.matches){
+  import('/term-assets/opening-light.mjs').then(m=>m.mountOpeningLight(window.demoReady)).catch(console.error);
+}

@@ -1,0 +1,25 @@
+{
+  "results": [
+    {
+      "width": 390,
+      "tearOnce": true,
+      "galleryTitleVisible": true,
+      "homeResourcesLab": true,
+      "nativeWheel": true,
+      "labHintResizes": true,
+      "resourceRoute60": true,
+      "termNavClear": true
+    },
+    {
+      "width": 1440,
+      "tearOnce": false,
+      "galleryTitleVisible": true,
+      "homeResourcesLab": true,
+      "nativeWheel": true,
+      "labHintResizes": true,
+      "resourceRoute60": true,
+      "termNavClear": true
+    }
+  ],
+  "errors": []
+}

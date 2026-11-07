@@ -1,0 +1,113 @@
+{
+  "scope": "Homepage continuation, mobile tear, term navigation repair; independent simultaneous light motion candidate",
+  "files": [
+    {
+      "path": "public/entrance/index.html",
+      "sha256": "40551065eb217d4f926bb9f3e82a7b76b30389645d14c6c3d123f342e59481f1",
+      "gitBlob": "a4d1a720d0c8075ba6d6a1c948b102edad9d0582",
+      "bytes": 9584
+    },
+    {
+      "path": "public/entrance/home-continuation.css",
+      "sha256": "1bb6a63b2975841ce9863bc1df48fee7bce68347fca2da8e3c193a580e294d2f",
+      "gitBlob": "d3cc01c76bed3adc25987915f02480df2a74492e",
+      "bytes": 490
+    },
+    {
+      "path": "public/entrance/home-continuation.mjs",
+      "sha256": "95fb42bd9cf25c6e1a95ec9053145895abf138c62007b56c44cc4da8d3651c19",
+      "gitBlob": "78a103ed95ee6833b9d017dc4ac39b935906e553",
+      "bytes": 2226
+    },
+    {
+      "path": "public/entrance/tear-once.js",
+      "sha256": "213f1862f1f60236a3313ddf4a40709c56f6692c1c91e4350cdc5f992b68ef56",
+      "gitBlob": "a65647f514330ec1bf2b78746a094d6325fa6f50",
+      "bytes": 5644
+    },
+    {
+      "path": "public/term-assets/site-term.css",
+      "sha256": "4a7cc84681fc84a7b31f0607ca983589ca8f54e87b3ae31b980bba2e5e1ca764",
+      "gitBlob": "4f15a194c8c6977e633bd1d781ff6e3eae6f4051",
+      "bytes": 2109
+    },
+    {
+      "path": "public/term-assets/term-page.js",
+      "sha256": "c9e361be8e6742b46b9df62beed69db63f4c90957a58855440092d54a28721bb",
+      "gitBlob": "2f4c0223cd21f720b10236ff8f2608fc6b035cbe",
+      "bytes": 8546
+    },
+    {
+      "path": "public/term-assets/opening-light.css",
+      "sha256": "1960d6d81c56ed7b4d337aec25ba643a6d77d768bf0a020a9a4e7e8678ff2065",
+      "gitBlob": "2b4430a0283291722fdbcbdde63b4994ff2c5079",
+      "bytes": 444
+    },
+    {
+      "path": "public/term-assets/opening-light.mjs",
+      "sha256": "0c70640e91f010f754d5b7af0e085c8e5884f4fbb03efdbcf271fd4d6087a3ba",
+      "gitBlob": "319f3462ce48283997f65126cec5627deb9872ef",
+      "bytes": 5463
+    },
+    {
+      "path": "public/research/chandelier-drop/index.html",
+      "sha256": "7c23bff10672d4627ec3781c4dc77850099fd39af990b776ea4b3c62fbd59ea4",
+      "gitBlob": "e69d02f9337230a8975acf95d915780e109d7764",
+      "bytes": 3244
+    },
+    {
+      "path": "public/research/chandelier-drop/mobile.svg",
+      "sha256": "bcf1b394fe0c1308416b304766b2dc337d15e2ff21ed8351c6125c8ed99cd677",
+      "gitBlob": "3c00d2aa0bb3972cc85356e8160031f8c6528d85",
+      "bytes": 1685
+    },
+    {
+      "path": "public/research/chandelier-drop/desktop.svg",
+      "sha256": "cb178e7c73bd5c6be38cc75860efb565f17dd4e189bfae1975f2319ccbcf1d93",
+      "gitBlob": "a00c13c775e63c625b7d72178c820314bc1acb16",
+      "bytes": 1694
+    },
+    {
+      "path": "checks/navigation-repair.py",
+      "sha256": "3615dc06583084325822824ba3e37ae824c2ea4f3f52fb8d4300292e2faa86ac",
+      "gitBlob": "18693f975c6b8413542cfc7c1bbdb118dd12c594",
+      "bytes": 3785
+    },
+    {
+      "path": "checks/navigation-repair.json",
+      "sha256": "1b5704d24649fc7bc09b06cd5f4d6c513e8a5e9c9282ae24f45007478ee2631c",
+      "gitBlob": "eb1833a4fc7522296962a59299466eebe4cfffbe",
+      "bytes": 517
+    },
+    {
+      "path": "checks/opening-light.py",
+      "sha256": "9769be92d06ff9d0c60fe71fede0f8f7ce527a5cb79746a86659b30dce1b7a33",
+      "gitBlob": "4a5761b476f0a48f21796c9ff8a5f2520f6d87ad",
+      "bytes": 2398
+    },
+    {
+      "path": "checks/opening-light.json",
+      "sha256": "a3c53c6c3f8ad9f2ba1e3bc212e875430485c8a2b15febed724fce210e218178",
+      "gitBlob": "42651509f1866f65502bacf2682fb9185fae889f",
+      "bytes": 690
+    },
+    {
+      "path": "checks/collage-integration.json",
+      "sha256": "9bff385cba2cba5fb3bfb2566b2d95dab44ce25ae23c5a3258dec5bae4e5e386",
+      "gitBlob": "f756d73fa33b2af7fb84e93c60d988f93a27abc5",
+      "bytes": 7797
+    },
+    {
+      "path": "COLLAGE-COVERAGE-2026-11-07.json",
+      "sha256": "443067711dda44f105c5bf1c90d4ae37cf2658b7b973ff8bf7fe808f3b93ce22",
+      "gitBlob": "90fe19ee98f3284dc70aee53f51004c803a161bb",
+      "bytes": 16835
+    },
+    {
+      "path": "NAVIGATION-AND-OPENING-REPAIR-2026-11-07.md",
+      "sha256": "c514016f231ea3db3ce640cc693590a86853f05b0abe65a57a014bf753623c2d",
+      "gitBlob": "5c3a321a7b2507b95613090b5204e65c66d0d2f6",
+      "bytes": 4263
+    }
+  ]
+}

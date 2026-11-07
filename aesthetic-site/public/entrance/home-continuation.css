@@ -1,0 +1,5 @@
+#home-resources,#home-imagery{position:relative;width:100%;background:#f6f3ed}
+/* Reset only legacy homepage header rules leaking into the existing P5 component. */
+#home-resources .p5-heading{justify-content:normal;align-items:normal;width:auto;min-height:0;font-size:inherit;letter-spacing:normal}
+#home-imagery iframe{display:block;width:100%;height:1100px;border:0;background:#f7f4ed}
+@media(max-width:680px){#home-resources .p5-heading{padding-top:0;padding-right:0;padding-bottom:0}}
