@@ -1,0 +1,2082 @@
+[
+  {
+    "slug": "zen",
+    "name": "禅意",
+    "english": "Zen",
+    "old_piece_count": 14,
+    "pieces": [
+      {
+        "title": "松林图屏风",
+        "asset": "assets/zen-19.jpg",
+        "size": [
+          1280,
+          598
+        ],
+        "source_path": "web-prototypes/remaining-twelve-dense-2026-11-07/assets/zen/松林图屏风_左隻_长谷川等伯_公有领域.jpg",
+        "official": "https://emuseum.nich.go.jp/detail?content_base_id=100151",
+        "reference": false,
+        "source_record": "reczz28HJJL2NlFs",
+        "object": "reczz28HJJL2NlFs",
+        "blob_sha": "c0a8686d50b3cc5b5717999e550014c20dc5d044",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "mobile": [
+          9,
+          103,
+          371,
+          302,
+          -1
+        ],
+        "desktop": [
+          22,
+          132,
+          676,
+          492,
+          -1
+        ]
+      },
+      {
+        "title": "内藤礼《Matrix》",
+        "asset": "assets/zen-14.jpg",
+        "size": [
+          2560,
+          1707
+        ],
+        "source_path": "web-prototypes/remaining-twelve-dense-2026-11-07/assets/zen/matrix_pd_1.jpg",
+        "official": "https://benesse-artsite.jp/en/art/teshima-artmuseum.html",
+        "reference": false,
+        "source_record": "reczz28Ldc0bKQuv",
+        "object": "reczz28Ldc0bKQuv",
+        "blob_sha": "f2656ed6a49b69ae1e9aa187355cc52f2796fa21",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "mobile": [
+          8,
+          379,
+          232,
+          386,
+          -2
+        ],
+        "desktop": [
+          670,
+          149,
+          500,
+          456,
+          2
+        ]
+      },
+      {
+        "title": "威廉·透纳《蓝色的里吉山》",
+        "asset": "assets/zen-n2.jpg",
+        "size": [
+          1280,
+          867
+        ],
+        "source_path": "aesthetic-site/public/media/f544fd331cc3f8a242488710.jpg",
+        "official": "",
+        "reference": true,
+        "source_record": "visual-ref:reczz28HJJL2A7mr",
+        "object": "visual-ref:reczz28HJJL2A7mr",
+        "blob_sha": "b4289fc6f705ecce42f21834e59d3d0b574b088d",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "mobile": [
+          227,
+          415,
+          150,
+          319,
+          2
+        ],
+        "desktop": [
+          34,
+          594,
+          566,
+          466,
+          1
+        ]
+      },
+      {
+        "title": "睡莲",
+        "asset": "assets/zen-n1.jpg",
+        "size": [
+          1600,
+          484
+        ],
+        "source_path": "aesthetic-site/public/media/e367861d9c142fe5762c3cda.jpg",
+        "official": "https://www.musee-orangerie.fr/en/node/197502",
+        "reference": true,
+        "source_record": "reczz28HJJL2NjzO",
+        "object": "reczz28HJJL2NjzO",
+        "blob_sha": "7b5d1cdb671ea7b37ff06553816487c9ef9738f0",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "mobile": [
+          14,
+          746,
+          361,
+          349,
+          1
+        ],
+        "desktop": [
+          579,
+          599,
+          591,
+          464,
+          -2
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "fervor",
+    "name": "热烈",
+    "english": "Fervor",
+    "old_piece_count": 11,
+    "pieces": [
+      {
+        "title": "酒神与阿里阿德涅",
+        "asset": "assets/fervor-11.jpg",
+        "size": [
+          1280,
+          1158
+        ],
+        "source_path": "web-prototypes/remaining-twelve-dense-2026-11-07/assets/fervor/酒神与阿里阿德涅_提香_公有领域.jpg",
+        "official": "https://www.nationalgallery.org.uk/paintings/titian-bacchus-and-ariadne",
+        "reference": false,
+        "source_record": "reczz28HJJL2Nkuf",
+        "object": "reczz28HJJL2Nkuf",
+        "blob_sha": "701bcb4ca2e9bda3350bc8e4d38dde2eedb6e619",
+        "focus": [
+          0.58,
+          0.44
+        ],
+        "mobile": [
+          9,
+          105,
+          371,
+          294,
+          -1
+        ],
+        "desktop": [
+          22,
+          132,
+          642,
+          467,
+          -2
+        ]
+      },
+      {
+        "title": "Flower Obsession",
+        "asset": "assets/fervor-1.jpg",
+        "size": [
+          2000,
+          1335
+        ],
+        "source_path": "web-prototypes/remaining-twelve-dense-2026-11-07/assets/fervor/flower_colossal_01.jpg",
+        "official": "https://www.ngv.vic.gov.au/exhibition/triennial-2017/",
+        "reference": false,
+        "source_record": "reczz28Ldd1wD1KQ",
+        "object": "reczz28Ldd1wD1KQ",
+        "blob_sha": "3acbd326c082716481562e5e7a13b41c62da7ab4",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "mobile": [
+          9,
+          366,
+          229,
+          312,
+          -2
+        ],
+        "desktop": [
+          651,
+          141,
+          521,
+          423,
+          1
+        ]
+      },
+      {
+        "title": "Pulse Room（心跳房间）",
+        "asset": "assets/fervor-8.jpg",
+        "size": [
+          2400,
+          1540
+        ],
+        "source_path": "web-prototypes/remaining-twelve-dense-2026-11-07/assets/fervor/pulse_washington_hires.jpg",
+        "official": "https://www.lozano-hemmer.com/artworks/pulse_room.php",
+        "reference": false,
+        "source_record": "reczz28Ldd1wDeSA",
+        "object": "reczz28Ldd1wDeSA",
+        "blob_sha": "11a4502c4cdaccb8caddcea78eda0c453b135ca2",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "mobile": [
+          223,
+          430,
+          157,
+          222,
+          2
+        ],
+        "desktop": [
+          29,
+          587,
+          438,
+          479,
+          1
+        ]
+      },
+      {
+        "title": "船上的午宴",
+        "asset": "assets/fervor-x1.jpg",
+        "size": [
+          1280,
+          948
+        ],
+        "source_path": "aesthetic-site/public/media/a4b61b4f285b1b9193acdf2c.jpg",
+        "official": "https://www.phillipscollection.org/collection/luncheon-boating-party",
+        "reference": true,
+        "source_record": "reczz28HJJL2NoJM",
+        "object": "reczz28HJJL2NoJM",
+        "blob_sha": "b90e64b67d4d4971cb4d5c405356c12badb32ca2",
+        "focus": [
+          0.52,
+          0.45
+        ],
+        "mobile": [
+          10,
+          662,
+          255,
+          419,
+          -1
+        ],
+        "desktop": [
+          448,
+          554,
+          405,
+          500,
+          -1
+        ]
+      },
+      {
+        "title": "晚餐，灯光效果",
+        "asset": "assets/fervor-x3.jpg",
+        "size": [
+          850,
+          542
+        ],
+        "source_path": "aesthetic-site/public/media/570899ea239ce9d42fa51fc2.jpg",
+        "official": "https://www.musee-orsay.fr/en/artworks/le-diner-effet-de-lampe-8035",
+        "reference": true,
+        "source_record": "reczz28HJJL2NmGE",
+        "object": "reczz28HJJL2NmGE",
+        "blob_sha": "fe9deae70d74f8345e338a61d1d8f5c633697776",
+        "focus": [
+          0.46,
+          0.57
+        ],
+        "mobile": [
+          228,
+          765,
+          149,
+          312,
+          2
+        ],
+        "desktop": [
+          825,
+          551,
+          337,
+          512,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "endtimes",
+    "name": "末世",
+    "english": "End Times",
+    "old_piece_count": 12,
+    "pieces": [
+      {
+        "title": "《城市》The City",
+        "asset": "assets/endtimes-5.webp",
+        "size": [
+          1500,
+          1166
+        ],
+        "source_path": "web-prototypes/remaining-twelve-dense-2026-11-07/assets/endtimes/city_library.jpg",
+        "official": "https://www.lorinix.net/the-city",
+        "reference": false,
+        "source_record": "reczz28Miu2sh6u5",
+        "object": "reczz28Miu2sh6u5",
+        "blob_sha": "98c78a4408abdf3c1cf76d55600480e50fdb2020",
+        "focus": [
+          0.52,
+          0.45
+        ],
+        "mobile": [
+          9,
+          105,
+          371,
+          294,
+          -1
+        ],
+        "desktop": [
+          22,
+          132,
+          642,
+          467,
+          -2
+        ]
+      },
+      {
+        "title": "《昂热启示录挂毯》Apocalypse Tapestry",
+        "asset": "assets/endtimes-2.jpg",
+        "size": [
+          2400,
+          1600
+        ],
+        "source_path": "web-prototypes/remaining-twelve-dense-2026-11-07/assets/endtimes/tapestry_hall_sm.jpg",
+        "official": "https://www.chateau-angers.fr/en/discover/la-tapisserie-de-l-apocalypse-un-chef-d-aeuvre-unique-au-monde",
+        "reference": false,
+        "source_record": "reczz28Miu2sgZLu",
+        "object": "reczz28Miu2sgZLu",
+        "blob_sha": "3b8f52bc32e3487b7568c227219869642e982373",
+        "focus": [
+          0.32,
+          0.51
+        ],
+        "mobile": [
+          9,
+          375,
+          221,
+          352,
+          -2
+        ],
+        "desktop": [
+          651,
+          141,
+          521,
+          423,
+          1
+        ]
+      },
+      {
+        "title": "《宇宙毁灭者跋陀罗迦梨》Bhadrakali, Destroyer of the Universe",
+        "asset": "assets/endtimes-11.jpg",
+        "size": [
+          609,
+          650
+        ],
+        "source_path": "web-prototypes/remaining-twelve-dense-2026-11-07/assets/endtimes/bhadra_destroyer.jpg",
+        "official": "https://www.metmuseum.org/art/collection/search/825645",
+        "reference": false,
+        "source_record": "reczz28Miu2sf2sd",
+        "object": "reczz28Miu2sf2sd",
+        "blob_sha": "abfba89c5f37549c89704aad4d43e00ebb343324",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "mobile": [
+          215,
+          404,
+          164,
+          278,
+          2
+        ],
+        "desktop": [
+          29,
+          587,
+          438,
+          479,
+          1
+        ]
+      },
+      {
+        "title": "《最后的暴乱》Last Riot",
+        "asset": "assets/endtimes-10.jpg",
+        "size": [
+          1350,
+          1080
+        ],
+        "source_path": "web-prototypes/remaining-twelve-dense-2026-11-07/assets/endtimes/lastriot_b6dp2a8.jpg",
+        "official": "https://aesfgroup.com/projects/last_riot/",
+        "reference": false,
+        "source_record": "reczz28Miu2sf9uj",
+        "object": "reczz28Miu2sf9uj",
+        "blob_sha": "3beb5cc226744424948ac7f43d5d563bb5557611",
+        "focus": [
+          0.58,
+          0.46
+        ],
+        "mobile": [
+          11,
+          704,
+          247,
+          386,
+          -1
+        ],
+        "desktop": [
+          448,
+          554,
+          405,
+          500,
+          -1
+        ]
+      },
+      {
+        "title": "暴风雪：汉尼拔和他的军队翻越阿尔卑斯山",
+        "asset": "assets/endtimes-x1.jpg",
+        "size": [
+          1280,
+          780
+        ],
+        "source_path": "aesthetic-site/public/media/7e30cde46e9babcfcff36709.jpg",
+        "official": "https://www.tate.org.uk/art/artworks/turner-snow-storm-hannibal-and-his-army-crossing-the-alps-n00490",
+        "reference": true,
+        "source_record": "reczz28HJJL2Nnrp",
+        "object": "reczz28HJJL2Nnrp",
+        "blob_sha": "b8e979bd8aa4ecfc628831c1c2609d21b0a1cc46",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "mobile": [
+          234,
+          724,
+          145,
+          345,
+          2
+        ],
+        "desktop": [
+          825,
+          551,
+          337,
+          512,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "ambiguity",
+    "name": "暧昧",
+    "english": "Ambiguity",
+    "old_piece_count": 12,
+    "pieces": [
+      {
+        "title": "Bill Viola《面纱》The Veiling",
+        "asset": "assets/ambiguity-9.jpg",
+        "size": [
+          1200,
+          800
+        ],
+        "source_path": "web-prototypes/remaining-twelve-dense-2026-11-07/assets/ambiguity/veiling_fwm_1.jpg",
+        "official": "https://www.guggenheim-bilbao.eus/en/exhibition/the-veiling",
+        "reference": false,
+        "source_record": "reczz28LdCQK8mJ5",
+        "object": "reczz28LdCQK8mJ5",
+        "blob_sha": "521ba0ffdf9e78cf32754fac987778e2c0ac0436",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "mobile": [
+          9,
+          105,
+          371,
+          281,
+          -1
+        ],
+        "desktop": [
+          22,
+          134,
+          694,
+          489,
+          -2
+        ]
+      },
+      {
+        "title": "窗前读信的少女",
+        "asset": "assets/ambiguity-11.jpg",
+        "size": [
+          1280,
+          1652
+        ],
+        "source_path": "web-prototypes/remaining-twelve-dense-2026-11-07/assets/ambiguity/窗前读信的少女_维米尔_公有领域.jpg",
+        "official": "https://www.skd.museum/en/besucherservice/presse/2021/ein-liebesgott-taucht-auf-vermeers-brieflesendes-maedchen-am-offenen-fenster-vollstaendig-restauriert/",
+        "reference": false,
+        "source_record": "reczz28HJJL2NjeY",
+        "object": "reczz28HJJL2NjeY",
+        "blob_sha": "93989f15d1646890753abf31e72b7b61407a60e5",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "mobile": [
+          9,
+          365,
+          226,
+          326,
+          -2
+        ],
+        "desktop": [
+          674,
+          153,
+          497,
+          407,
+          1
+        ]
+      },
+      {
+        "title": "Duane Michals《偶遇》Chance Meeting",
+        "asset": "assets/ambiguity-6.jpg",
+        "size": [
+          1732,
+          1949
+        ],
+        "source_path": "web-prototypes/remaining-twelve-dense-2026-11-07/assets/ambiguity/michals_reina_full.jpg",
+        "official": "https://www.getty.edu/art/collection/object/15F5VV",
+        "reference": false,
+        "source_record": "reczz28LdCQK71j7",
+        "object": "reczz28LdCQK71j7",
+        "blob_sha": "101915782388826b4b5a9a59621b29f00f4458eb",
+        "focus": [
+          0.51,
+          0.5
+        ],
+        "mobile": [
+          221,
+          390,
+          157,
+          277,
+          2
+        ],
+        "desktop": [
+          28,
+          604,
+          462,
+          460,
+          1
+        ]
+      },
+      {
+        "title": "古桥悌二《恋人》LOVERS",
+        "asset": "assets/ambiguity-1.jpg",
+        "size": [
+          1024,
+          683
+        ],
+        "source_path": "web-prototypes/remaining-twelve-dense-2026-11-07/assets/ambiguity/lovers_artnews_1.jpg",
+        "official": "https://www.moma.org/collection/works/81362",
+        "reference": false,
+        "source_record": "reczz28LdCQK9D4c",
+        "object": "reczz28LdCQK9D4c",
+        "blob_sha": "20051c6ffde8aa488b74dead32accacafc2b4f49",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "mobile": [
+          13,
+          665,
+          362,
+          216,
+          1
+        ],
+        "desktop": [
+          488,
+          573,
+          348,
+          485,
+          -1
+        ]
+      },
+      {
+        "title": "黑色不伦瑞克兵",
+        "asset": "assets/ambiguity-x1.jpg",
+        "size": [
+          1280,
+          1934
+        ],
+        "source_path": "aesthetic-site/public/media/165d3bff6cc576d51503a7a3.jpg",
+        "official": "https://www.liverpoolmuseums.org.uk/artifact/black-brunswickers",
+        "reference": true,
+        "source_record": "reczz28HJJL2Njof",
+        "object": "reczz28HJJL2Njof",
+        "blob_sha": "10aab8d93032c019f96e1ef5a00a88b555492cd9",
+        "focus": [
+          0.48,
+          0.38
+        ],
+        "mobile": [
+          10,
+          866,
+          188,
+          224,
+          -2
+        ],
+        "desktop": [
+          820,
+          535,
+          348,
+          300,
+          2
+        ]
+      },
+      {
+        "title": "亨利·霍利迪《但丁与贝雅特丽齐》",
+        "asset": "assets/ambiguity-n1.jpg",
+        "size": [
+          1280,
+          886
+        ],
+        "source_path": "aesthetic-site/public/media/496fd3457874fa36738f575e.jpg",
+        "official": "",
+        "reference": true,
+        "source_record": "visual-ref:reczz28HJJL2A7W7",
+        "object": "visual-ref:reczz28HJJL2A7W7",
+        "blob_sha": "9df4e544535e4c380a4cf6b06fe22167f9d63973",
+        "focus": [
+          0.58,
+          0.52
+        ],
+        "mobile": [
+          184,
+          862,
+          193,
+          229,
+          1
+        ],
+        "desktop": [
+          820,
+          804,
+          352,
+          256,
+          -1
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "inkwash",
+    "name": "水墨",
+    "english": "Ink Wash",
+    "old_piece_count": 11,
+    "pieces": [
+      {
+        "title": "徐冰《背后的故事》Background Story",
+        "asset": "assets/inkwash-6.jpg",
+        "size": [
+          700,
+          410
+        ],
+        "source_path": "web-prototypes/remaining-twelve-dense-2026-11-07/assets/inkwash/xubing_chazen_1.jpg",
+        "official": "https://museum.cornell.edu/exhibition/xu-bing-background-story/",
+        "reference": false,
+        "source_record": "reczz28LcucHlC54",
+        "object": "reczz28LcucHlC54",
+        "blob_sha": "c925b348764980495ee09bccdb0322fb43b513e7",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "mobile": [
+          9,
+          105,
+          371,
+          281,
+          -1
+        ],
+        "desktop": [
+          22,
+          134,
+          694,
+          489,
+          -2
+        ]
+      },
+      {
+        "title": "虎图",
+        "asset": "assets/inkwash-x1.jpg",
+        "size": [
+          1600,
+          839
+        ],
+        "source_path": "aesthetic-site/public/media/c58bebb8843a2a57a5a8d697.jpg",
+        "official": "https://www.muryoji.jp/museum/aboutrosetsu/index.html",
+        "reference": true,
+        "source_record": "reczz28HJJL2NoRe",
+        "object": "reczz28HJJL2NoRe",
+        "blob_sha": "5fd45b80c8379492bc37381e8742931d2b429ab2",
+        "focus": [
+          0.37,
+          0.45
+        ],
+        "mobile": [
+          9,
+          365,
+          226,
+          326,
+          -2
+        ],
+        "desktop": [
+          674,
+          153,
+          497,
+          407,
+          1
+        ]
+      },
+      {
+        "title": "杨泳梁《蜃市山水》Phantom Landscape",
+        "asset": "assets/inkwash-8.webp",
+        "size": [
+          2500,
+          2500
+        ],
+        "source_path": "web-prototypes/remaining-twelve-dense-2026-11-07/assets/inkwash/yang_phantom_1.jpg",
+        "official": "https://www.yangyongliang.com/phantom-landscape",
+        "reference": false,
+        "source_record": "reczz28LcucHiz5V",
+        "object": "reczz28LcucHiz5V",
+        "blob_sha": "117b663c91329dc6ad2307d69dbb9e8f5a873ec8",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "mobile": [
+          221,
+          390,
+          157,
+          277,
+          2
+        ],
+        "desktop": [
+          28,
+          604,
+          462,
+          460,
+          1
+        ]
+      },
+      {
+        "title": "邱黯雄《新山海经 II》The New Book of Mountains and Seas II",
+        "asset": "assets/inkwash-3.jpg",
+        "size": [
+          1600,
+          900
+        ],
+        "source_path": "web-prototypes/remaining-twelve-dense-2026-11-07/assets/inkwash/qiu_fosun_632ad00a70935911711522.jpg",
+        "official": "https://www.moma.org/collection/works/135052",
+        "reference": false,
+        "source_record": "reczz28LcucHkDng",
+        "object": "reczz28LcucHkDng",
+        "blob_sha": "e06b64f3fbbc3433d68d73d157c8dacb5475b73c",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "mobile": [
+          13,
+          665,
+          362,
+          216,
+          1
+        ],
+        "desktop": [
+          488,
+          573,
+          348,
+          485,
+          -1
+        ]
+      },
+      {
+        "title": "五柳先生传",
+        "asset": "assets/inkwash-x2.jpg",
+        "size": [
+          1857,
+          1992
+        ],
+        "source_path": "aesthetic-site/public/media/b95fa5f92d3ed6828fc1ad43.jpg",
+        "official": "https://epaper.gmw.cn/gmrb/html/2023-09/11/nw.D110000gmrb_20230911_2-13.htm",
+        "reference": true,
+        "source_record": "reczz28HJJL2NlWe",
+        "object": "reczz28HJJL2NlWe",
+        "blob_sha": "9b494e6188fb2ac22b143ae1b7aac77120761f0f",
+        "focus": [
+          0.53,
+          0.49
+        ],
+        "mobile": [
+          10,
+          866,
+          188,
+          224,
+          -2
+        ],
+        "desktop": [
+          820,
+          535,
+          348,
+          300,
+          2
+        ]
+      },
+      {
+        "title": "马远《寒江独钓图》",
+        "asset": "assets/inkwash-n1.jpg",
+        "size": [
+          1280,
+          685
+        ],
+        "source_path": "aesthetic-site/public/media/f64a85db4e4f0952c03c98a4.jpg",
+        "official": "",
+        "reference": true,
+        "source_record": "visual-ref:reczz28HJJL2A7Oz",
+        "object": "visual-ref:reczz28HJJL2A7Oz",
+        "blob_sha": "219098455623aa23dc169887416aa5dad6f5e622",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "mobile": [
+          184,
+          862,
+          193,
+          229,
+          1
+        ],
+        "desktop": [
+          820,
+          804,
+          352,
+          256,
+          -1
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "wuxia",
+    "name": "武侠",
+    "english": "Wuxia",
+    "old_piece_count": 12,
+    "pieces": [
+      {
+        "title": "《刺客聂隐娘》The Assassin",
+        "asset": "assets/wuxia-7.jpg",
+        "size": [
+          1920,
+          1080
+        ],
+        "source_path": "web-prototypes/remaining-twelve-dense-2026-11-07/assets/wuxia/assassin_lb.jpg",
+        "official": "https://www.festival-cannes.com/en/f/nie-yinniang/",
+        "reference": false,
+        "source_record": "reczz28MmyiICLBe",
+        "object": "reczz28MmyiICLBe",
+        "blob_sha": "fd5fd6f69375e8f76a02f840870512b660b0a8f9",
+        "focus": [
+          0.54,
+          0.44
+        ],
+        "mobile": [
+          9,
+          105,
+          371,
+          281,
+          -1
+        ],
+        "desktop": [
+          22,
+          134,
+          694,
+          489,
+          -2
+        ]
+      },
+      {
+        "title": "DAMOWANG 2024 秋冬系列",
+        "asset": "assets/wuxia-6.jpg",
+        "size": [
+          1080,
+          1620
+        ],
+        "source_path": "web-prototypes/remaining-twelve-dense-2026-11-07/assets/wuxia/damowang_4.jpg",
+        "official": "https://www.vogue.com.cn/fashion/industry/news_124124fd4e37142c.html",
+        "reference": false,
+        "source_record": "reczz28MmyiIBfka",
+        "object": "reczz28MmyiIBfka",
+        "blob_sha": "11a2917ca3be93b5b95fbbe92d44ef3dd9bfcd50",
+        "focus": [
+          0.5,
+          0.35
+        ],
+        "mobile": [
+          9,
+          365,
+          226,
+          326,
+          -2
+        ],
+        "desktop": [
+          674,
+          153,
+          497,
+          407,
+          1
+        ]
+      },
+      {
+        "title": "POST ARCHIVE FACTION (PAF)2025 秋冬系列",
+        "asset": "assets/wuxia-x1.jpg",
+        "size": [
+          1680,
+          2520
+        ],
+        "source_path": "aesthetic-site/public/media/dc10086406a62e2171df00f3.jpeg",
+        "official": "https://techuntermagazine.com/postarchivefaction-aw25-pfwhighlights",
+        "reference": true,
+        "source_record": "reczz28HJJL2NjFM",
+        "object": "reczz28HJJL2NjFM",
+        "blob_sha": "d4ad8f0ce05e18d25dc6ce88c57574ca4a0538d4",
+        "focus": [
+          0.48,
+          0.43
+        ],
+        "mobile": [
+          221,
+          390,
+          157,
+          277,
+          2
+        ],
+        "desktop": [
+          28,
+          604,
+          462,
+          460,
+          1
+        ]
+      },
+      {
+        "title": "Retainers of Anarchy",
+        "asset": "assets/wuxia-1.jpg",
+        "size": [
+          2500,
+          1557
+        ],
+        "source_path": "web-prototypes/remaining-twelve-dense-2026-11-07/assets/wuxia/retainers_1_rgb.jpg",
+        "official": "https://www.howietsui.com/retainers-of-anarchy",
+        "reference": false,
+        "source_record": "reczz28MmyiIADor",
+        "object": "reczz28MmyiIADor",
+        "blob_sha": "d81864b26de7cce5ef4d3397ece8c37287c8f805",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "mobile": [
+          13,
+          665,
+          362,
+          216,
+          1
+        ],
+        "desktop": [
+          488,
+          573,
+          348,
+          485,
+          -1
+        ]
+      },
+      {
+        "title": "《夜将》Yejiang / The Nightman Cometh",
+        "asset": "assets/wuxia-9.jpg",
+        "size": [
+          1280,
+          720
+        ],
+        "source_path": "web-prototypes/remaining-twelve-dense-2026-11-07/assets/wuxia/yejiang_gug.jpg",
+        "official": "https://www.guggenheim.org/artwork/artist/yang-fudong",
+        "reference": false,
+        "source_record": "reczz28MmyiIBtuF",
+        "object": "reczz28MmyiIBtuF",
+        "blob_sha": "16c5a4b813b46a6e217b2efdfeeddf217a3081d3",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "mobile": [
+          10,
+          866,
+          188,
+          224,
+          -2
+        ],
+        "desktop": [
+          820,
+          535,
+          348,
+          300,
+          2
+        ]
+      },
+      {
+        "title": "孙位《高逸图》局部",
+        "asset": "assets/wuxia-n1.jpg",
+        "size": [
+          1600,
+          424
+        ],
+        "source_path": "aesthetic-site/public/media/09c3a484ab8413b6cb8a7bd0.jpg",
+        "official": "",
+        "reference": true,
+        "source_record": "visual-ref:reczz28HJJL2A7jB",
+        "object": "visual-ref:reczz28HJJL2A7jB",
+        "blob_sha": "54567df2eb0bb42e0c2630a3d4242eb37b643deb",
+        "focus": [
+          0.46,
+          0.54
+        ],
+        "mobile": [
+          184,
+          862,
+          193,
+          229,
+          1
+        ],
+        "desktop": [
+          820,
+          804,
+          352,
+          256,
+          -1
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "wasteland",
+    "name": "废土",
+    "english": "Wasteland",
+    "old_piece_count": 13,
+    "pieces": [
+      {
+        "title": "《Stray》",
+        "asset": "assets/wasteland-7.jpg",
+        "size": [
+          3840,
+          2160
+        ],
+        "source_path": "web-prototypes/remaining-twelve-dense-2026-11-07/assets/wasteland/stray_1.jpg",
+        "official": "https://stray.game/",
+        "reference": false,
+        "source_record": "reczz28MoBSnwnPa",
+        "object": "reczz28MoBSnwnPa",
+        "blob_sha": "75c5763ca7d55a7a9a44d39693050550d010430d",
+        "focus": [
+          0.62,
+          0.51
+        ],
+        "mobile": [
+          9,
+          103,
+          371,
+          302,
+          -1
+        ],
+        "desktop": [
+          22,
+          132,
+          676,
+          492,
+          -1
+        ]
+      },
+      {
+        "title": "Gas｜Shell 加油站",
+        "asset": "assets/wasteland-1.jpg",
+        "size": [
+          960,
+          704
+        ],
+        "source_path": "web-prototypes/remaining-twelve-dense-2026-11-07/assets/wasteland/gas_shell.jpg",
+        "official": "https://www.davidlachapelle.com/series-gas",
+        "reference": false,
+        "source_record": "reczz28MoBSnxpUl",
+        "object": "Gas · Shell station",
+        "blob_sha": "e4610477e90eb147830fa3fb2da4d855b64fda6d",
+        "focus": [
+          0.51,
+          0.47
+        ],
+        "mobile": [
+          8,
+          379,
+          232,
+          386,
+          -2
+        ],
+        "desktop": [
+          670,
+          149,
+          500,
+          456,
+          2
+        ]
+      },
+      {
+        "title": "Gas｜Chevron 加油站",
+        "asset": "assets/wasteland-2.jpg",
+        "size": [
+          960,
+          704
+        ],
+        "source_path": "web-prototypes/remaining-twelve-dense-2026-11-07/assets/wasteland/gas_chevron.jpg",
+        "official": "https://www.davidlachapelle.com/series-gas",
+        "reference": false,
+        "source_record": "reczz28MoBSnxpUl",
+        "object": "Gas · Chevron station",
+        "blob_sha": "29677ed4a930b5d322da04bdfd4cdd5511609af4",
+        "focus": [
+          0.42,
+          0.58
+        ],
+        "mobile": [
+          222,
+          417,
+          157,
+          322,
+          2
+        ],
+        "desktop": [
+          66,
+          594,
+          636,
+          468,
+          1
+        ]
+      },
+      {
+        "title": "托马斯·科尔《帝国的进程：荒芜》",
+        "asset": "assets/wasteland-n1.jpg",
+        "size": [
+          1280,
+          796
+        ],
+        "source_path": "aesthetic-site/public/media/06d6c8eb00e76b2ef5397d85.jpg",
+        "official": "",
+        "reference": true,
+        "source_record": "visual-ref:reczz28HJJL2A8AY",
+        "object": "visual-ref:reczz28HJJL2A8AY",
+        "blob_sha": "b4e87390c85c80e89bc25295050413c2ab3b70ce",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "mobile": [
+          14,
+          746,
+          361,
+          349,
+          1
+        ],
+        "desktop": [
+          685,
+          576,
+          478,
+          477,
+          -2
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "zakka",
+    "name": "日杂",
+    "english": "Zakka",
+    "old_piece_count": 11,
+    "pieces": [
+      {
+        "title": "NEUTRAL COLORS Issue 4｜Work",
+        "asset": "assets/zakka-2.jpg",
+        "size": [
+          2048,
+          1557
+        ],
+        "source_path": "web-prototypes/remaining-twelve-dense-2026-11-07/assets/zakka/neutral4_spread.jpg",
+        "official": "https://neutral-colors.com/books_post/neutral-colors-4/",
+        "reference": false,
+        "source_record": "reczz28MRgdMRxNT",
+        "object": "reczz28MRgdMRxNT",
+        "blob_sha": "172cd42463fccff90c5eaa0de8a4d21fdf10330b",
+        "focus": [
+          0.48,
+          0.54
+        ],
+        "mobile": [
+          9,
+          105,
+          371,
+          294,
+          -1
+        ],
+        "desktop": [
+          22,
+          132,
+          642,
+          467,
+          -2
+        ]
+      },
+      {
+        "title": "POPEYE No.782｜シティーボーイのABC",
+        "asset": "assets/zakka-3.jpg",
+        "size": [
+          481,
+          620
+        ],
+        "source_path": "web-prototypes/remaining-twelve-dense-2026-11-07/assets/zakka/popeye782.jpg",
+        "official": "https://magazineworld.jp/popeye/back/?show=5",
+        "reference": false,
+        "source_record": "reczz28MRgdMRhwp",
+        "object": "reczz28MRgdMRhwp",
+        "blob_sha": "6959906bf4c80bfd3a3a38e4857b01409d1c7010",
+        "focus": [
+          0.53,
+          0.4
+        ],
+        "mobile": [
+          9,
+          375,
+          221,
+          352,
+          -2
+        ],
+        "desktop": [
+          651,
+          141,
+          521,
+          423,
+          1
+        ]
+      },
+      {
+        "title": "&Premium No.123｜部屋を、整える。",
+        "asset": "assets/zakka-5.jpg",
+        "size": [
+          794,
+          1024
+        ],
+        "source_path": "web-prototypes/remaining-twelve-dense-2026-11-07/assets/zakka/premium123.jpg",
+        "official": "https://andpremium.jp/book/premium-no-123/",
+        "reference": false,
+        "source_record": "reczz28MRgdMS2Dv",
+        "object": "reczz28MRgdMS2Dv",
+        "blob_sha": "1bd0845375d1645363f7df804b3367201aed7029",
+        "focus": [
+          0.5,
+          0.42
+        ],
+        "mobile": [
+          215,
+          404,
+          164,
+          278,
+          2
+        ],
+        "desktop": [
+          29,
+          587,
+          438,
+          479,
+          1
+        ]
+      },
+      {
+        "title": "GINZA No.324｜クローゼットスナップ！",
+        "asset": "assets/zakka-4.jpg",
+        "size": [
+          481,
+          620
+        ],
+        "source_path": "web-prototypes/remaining-twelve-dense-2026-11-07/assets/zakka/ginza324.jpg",
+        "official": "https://magazineworld.jp/ginza/ginza-324/",
+        "reference": false,
+        "source_record": "reczz28MRgdMRZAU",
+        "object": "reczz28MRgdMRZAU",
+        "blob_sha": "a48d78c9946d918e242a9676947adf2b4f2cf882",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "mobile": [
+          10,
+          700,
+          255,
+          396,
+          -2
+        ],
+        "desktop": [
+          448,
+          554,
+          405,
+          500,
+          -1
+        ]
+      },
+      {
+        "title": "在自己房间里的旅行",
+        "asset": "assets/zakka-x1.jpg",
+        "size": [
+          820,
+          1416
+        ],
+        "source_path": "aesthetic-site/public/media/8dd4728f236f108fb5c4958b.jpg",
+        "official": "https://www.gutenberg.org/files/40248/40248-h/40248-h.htm",
+        "reference": true,
+        "source_record": "reczz28HJJL2NmAu",
+        "object": "reczz28HJJL2NmAu",
+        "blob_sha": "478ea65c8747d591bbd3372948a6cab3f0e5922c",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "mobile": [
+          249,
+          786,
+          118,
+          244,
+          3
+        ],
+        "desktop": [
+          825,
+          551,
+          337,
+          512,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "cool",
+    "name": "清冷",
+    "english": "Cool Detachment",
+    "old_piece_count": 8,
+    "pieces": [
+      {
+        "title": "Snow（雪）",
+        "asset": "assets/cool-3.jpg",
+        "size": [
+          2400,
+          1200
+        ],
+        "source_path": "web-prototypes/remaining-twelve-dense-2026-11-07/assets/cool/snow_tp.jpg",
+        "official": "https://www.tokujin.com/works/2010-sensing-nature-snow/",
+        "reference": false,
+        "source_record": "reczz28MnyD4e5ab",
+        "object": "reczz28MnyD4e5ab",
+        "blob_sha": "0178f2195dcef5fb4f2accb5749f1c7e6f6fab54",
+        "focus": [
+          0.51,
+          0.54
+        ],
+        "mobile": [
+          9,
+          105,
+          371,
+          294,
+          -1
+        ],
+        "desktop": [
+          22,
+          132,
+          642,
+          467,
+          -2
+        ]
+      },
+      {
+        "title": "斯特兰德街的室内，地板上的阳光",
+        "asset": "assets/cool-x2.jpg",
+        "size": [
+          1280,
+          1122
+        ],
+        "source_path": "aesthetic-site/public/media/ef2c1db66eb171e4c81f476c.jpg",
+        "official": "https://connect.smk.dk/vaerker/5-kms-3696",
+        "reference": true,
+        "source_record": "reczz28HJJL2NlRN",
+        "object": "reczz28HJJL2NlRN",
+        "blob_sha": "1dbafba86ed4dd1c4e4a51ab99dcbf3461ab6aed",
+        "focus": [
+          0.49,
+          0.52
+        ],
+        "mobile": [
+          9,
+          375,
+          221,
+          352,
+          -2
+        ],
+        "desktop": [
+          651,
+          141,
+          521,
+          423,
+          1
+        ]
+      },
+      {
+        "title": "光之教堂",
+        "asset": "assets/cool-x4.jpg",
+        "size": [
+          800,
+          600
+        ],
+        "source_path": "aesthetic-site/public/media/362719f85cad7db06e92c555.jpg",
+        "official": "http://www.ibaraki-kasugaoka-church.jp/j-welcome.html",
+        "reference": true,
+        "source_record": "reczz28HJJL2Np5S",
+        "object": "reczz28HJJL2Np5S",
+        "blob_sha": "9a297acc82f53a260ce3c93f148f6f1d0434c70f",
+        "focus": [
+          0.5,
+          0.4
+        ],
+        "mobile": [
+          215,
+          404,
+          164,
+          278,
+          2
+        ],
+        "desktop": [
+          352,
+          591,
+          391,
+          472,
+          1
+        ]
+      },
+      {
+        "title": "Hokkaido（北海道）",
+        "asset": "assets/cool-a1-2.webp",
+        "size": [
+          2400,
+          2459
+        ],
+        "source_path": "aesthetic-site/public/media/d32b13551694226ca2529c60.jpg",
+        "official": "https://www.michaelkenna.com/gallery.php?id=6",
+        "reference": false,
+        "source_record": "reczz28MnyD4cUTQ",
+        "object": "reczz28MnyD4cUTQ",
+        "blob_sha": "851fba9db0c5550bb12f36082d2633c8e667e499",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "mobile": [
+          12,
+          705,
+          366,
+          137,
+          -1
+        ],
+        "desktop": [
+          29,
+          737,
+          324,
+          281,
+          -1
+        ]
+      },
+      {
+        "title": "海边的修士",
+        "asset": "assets/cool-x1.jpg",
+        "size": [
+          1280,
+          814
+        ],
+        "source_path": "aesthetic-site/public/media/ada66c83b0c873b36d1a7aea.jpg",
+        "official": "https://smb.museum-digital.de/object/144260",
+        "reference": true,
+        "source_record": "reczz28HJJL2Nj4k",
+        "object": "reczz28HJJL2Nj4k",
+        "blob_sha": "fd125af78fec54ffce507400aad32942f903ec2c",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "mobile": [
+          20,
+          835,
+          350,
+          256,
+          1
+        ],
+        "desktop": [
+          758,
+          596,
+          409,
+          452,
+          -1
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "first-crush",
+    "name": "青涩",
+    "english": "First Crush",
+    "old_piece_count": 11,
+    "pieces": [
+      {
+        "title": "Pre-Kiss｜水下的两人",
+        "asset": "assets/first-crush-12.jpg",
+        "size": [
+          1200,
+          816
+        ],
+        "source_path": "web-prototypes/remaining-twelve-dense-2026-11-07/assets/first-crush/prekiss_wmag.jpg",
+        "official": "https://store.aperture.org/products/olivia-bee-kids-in-love-2",
+        "reference": false,
+        "source_record": "reczz28LeedcHSnq",
+        "object": "Pre-Kiss · submerged pair",
+        "blob_sha": "bc9438535c9deea2e3f3c87e64dac1c79a58ec54",
+        "focus": [
+          0.51,
+          0.46
+        ],
+        "mobile": [
+          9,
+          105,
+          371,
+          294,
+          -1
+        ],
+        "desktop": [
+          22,
+          132,
+          642,
+          467,
+          -2
+        ]
+      },
+      {
+        "title": "The Teenage Gaze｜镜前的女孩",
+        "asset": "assets/first-crush-1.jpg",
+        "size": [
+          800,
+          530
+        ],
+        "source_path": "web-prototypes/remaining-twelve-dense-2026-11-07/assets/first-crush/teenage_2.jpg",
+        "official": "https://petra-collins.com/the-teenage-gaze/",
+        "reference": false,
+        "source_record": "reczz28LeedcIqM7",
+        "object": "The Teenage Gaze · girl at mirror",
+        "blob_sha": "36d9e6aabb9e2c9b5444354d9b8d5a8886b08c48",
+        "focus": [
+          0.59,
+          0.39
+        ],
+        "mobile": [
+          8,
+          363,
+          219,
+          319,
+          -2
+        ],
+        "desktop": [
+          651,
+          141,
+          521,
+          423,
+          1
+        ]
+      },
+      {
+        "title": "The Teenage Gaze｜镜中自拍的两人",
+        "asset": "assets/first-crush-6.jpg",
+        "size": [
+          800,
+          530
+        ],
+        "source_path": "web-prototypes/remaining-twelve-dense-2026-11-07/assets/first-crush/teenage_7.jpg",
+        "official": "https://petra-collins.com/the-teenage-gaze/",
+        "reference": false,
+        "source_record": "reczz28LeedcIqM7",
+        "object": "The Teenage Gaze · two girls taking a mirror photo",
+        "blob_sha": "45db7f61d84c6d277c064411b6547069bfdeb545",
+        "focus": [
+          0.54,
+          0.52
+        ],
+        "mobile": [
+          219,
+          405,
+          160,
+          269,
+          2
+        ],
+        "desktop": [
+          29,
+          587,
+          438,
+          479,
+          1
+        ]
+      },
+      {
+        "title": "Olivia Bee｜Kids in Love 摄影集选图 · 海边的三人",
+        "asset": "assets/first-crush-16.jpg",
+        "size": [
+          1000,
+          815
+        ],
+        "source_path": "web-prototypes/remaining-twelve-dense-2026-11-07/assets/first-crush/kidsinlove_closer.jpg",
+        "official": "https://store.aperture.org/products/olivia-bee-kids-in-love-2",
+        "reference": false,
+        "source_record": "reczz28LeedcHSnq",
+        "object": "Kids in Love · three figures in sea at sunset",
+        "blob_sha": "e397165be2f299bd496e3678ade6311065897a8f",
+        "focus": [
+          0.54,
+          0.49
+        ],
+        "mobile": [
+          9,
+          675,
+          368,
+          223,
+          -1
+        ],
+        "desktop": [
+          448,
+          554,
+          405,
+          500,
+          -1
+        ]
+      },
+      {
+        "title": "The Teenage Gaze｜夜里并排坐着的朋友",
+        "asset": "assets/first-crush-3.jpg",
+        "size": [
+          785,
+          523
+        ],
+        "source_path": "web-prototypes/remaining-twelve-dense-2026-11-07/assets/first-crush/teenage_4.jpg",
+        "official": "https://petra-collins.com/the-teenage-gaze/",
+        "reference": false,
+        "source_record": "reczz28LeedcIqM7",
+        "object": "The Teenage Gaze · group seated at night",
+        "blob_sha": "9fdba396845266ea1b0302f643c6e524a4683361",
+        "focus": [
+          0.56,
+          0.47
+        ],
+        "mobile": [
+          117,
+          865,
+          258,
+          222,
+          1
+        ],
+        "desktop": [
+          825,
+          551,
+          337,
+          512,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "fragility",
+    "name": "破碎感",
+    "english": "Fragility",
+    "old_piece_count": 10,
+    "pieces": [
+      {
+        "title": "House #3｜房屋三号",
+        "asset": "assets/fragility-1.jpg",
+        "size": [
+          1200,
+          1183
+        ],
+        "source_path": "web-prototypes/remaining-twelve-dense-2026-11-07/assets/fragility/house3.jpg",
+        "official": "https://www.nga.gov/artworks/157359-house-3",
+        "reference": false,
+        "source_record": "reczz28MSjtzerH5",
+        "object": "reczz28MSjtzerH5",
+        "blob_sha": "234e8bb8885f4b9c10e16c36a33740506f179b71",
+        "focus": [
+          0.46,
+          0.53
+        ],
+        "mobile": [
+          9,
+          105,
+          371,
+          294,
+          -1
+        ],
+        "desktop": [
+          22,
+          132,
+          642,
+          467,
+          -2
+        ]
+      },
+      {
+        "title": "Take Care of Yourself｜好好照顾自己",
+        "asset": "assets/fragility-2.jpg",
+        "size": [
+          1280,
+          960
+        ],
+        "source_path": "web-prototypes/remaining-twelve-dense-2026-11-07/assets/fragility/calle_louisiana.jpg",
+        "official": "https://phi.ca/en/events/sophie-calle-take-care-of-yourself/",
+        "reference": false,
+        "source_record": "reczz28MSjtzdloz",
+        "object": "reczz28MSjtzdloz",
+        "blob_sha": "6e43845c906bcc34e367fd276dfc9f5ca5d74ee9",
+        "focus": [
+          0.51,
+          0.55
+        ],
+        "mobile": [
+          9,
+          375,
+          221,
+          352,
+          -2
+        ],
+        "desktop": [
+          651,
+          141,
+          521,
+          423,
+          1
+        ]
+      },
+      {
+        "title": "星辰时刻｜一个连自己的悲惨都不知道的女孩",
+        "asset": "assets/fragility-3.jpg",
+        "size": [
+          314,
+          475
+        ],
+        "source_path": "web-prototypes/remaining-twelve-dense-2026-11-07/assets/fragility/hour_star.jpg",
+        "official": "https://www.ndbooks.com/book/the-hour-of-the-star/",
+        "reference": false,
+        "source_record": "reczz28MSjtzdNy0",
+        "object": "reczz28MSjtzdNy0",
+        "blob_sha": "c54c3b8fc196f0e7a44ca1daa90aa17fac9fb432",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "mobile": [
+          215,
+          404,
+          164,
+          278,
+          2
+        ],
+        "desktop": [
+          29,
+          587,
+          438,
+          479,
+          1
+        ]
+      },
+      {
+        "title": "玻璃动物园｜她说没关系的时候，心已经碎了",
+        "asset": "assets/fragility-4.jpg",
+        "size": [
+          307,
+          500
+        ],
+        "source_path": "web-prototypes/remaining-twelve-dense-2026-11-07/assets/fragility/glass_menagerie.jpg",
+        "official": "https://www.ndbooks.com/book/the-glass-menagerie/",
+        "reference": false,
+        "source_record": "reczz28MSjtzcGfC",
+        "object": "reczz28MSjtzcGfC",
+        "blob_sha": "085a859b046eb3f3af39c56a14c8c125cdb0d220",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "mobile": [
+          37,
+          713,
+          179,
+          363,
+          -3
+        ],
+        "desktop": [
+          521,
+          569,
+          282,
+          488,
+          -2
+        ]
+      },
+      {
+        "title": "A Girl Is a Half-formed Thing｜当一个人的语言本身开始破碎",
+        "asset": "assets/fragility-5.jpg",
+        "size": [
+          332,
+          500
+        ],
+        "source_path": "web-prototypes/remaining-twelve-dense-2026-11-07/assets/fragility/girl_halfformed.jpg",
+        "official": "https://www.coffeehousepress.org/products/a-girl-is-a-half-formed-thing",
+        "reference": false,
+        "source_record": "reczz28MSjtzdW6a",
+        "object": "reczz28MSjtzdW6a",
+        "blob_sha": "cd18d250dba575533a5fa6fa21bbf9f45ee08564",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "mobile": [
+          199,
+          716,
+          168,
+          368,
+          2
+        ],
+        "desktop": [
+          817,
+          573,
+          281,
+          490,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "fated",
+    "name": "宿命感",
+    "english": "Fated",
+    "old_piece_count": 11,
+    "pieces": [
+      {
+        "title": "人生的航程",
+        "asset": "assets/fated-1.jpg",
+        "size": [
+          1280,
+          876
+        ],
+        "source_path": "web-prototypes/remaining-twelve-dense-2026-11-07/assets/fated/人生的航程_青年_科尔_公有领域.jpg",
+        "official": "https://explorethomascole.org/project/the-voyage-of-life-series-page/",
+        "reference": false,
+        "source_record": "reczz28HJJL2NpG7",
+        "object": "reczz28HJJL2NpG7",
+        "blob_sha": "624dd17ef8956ffbce082c5dbe5854a47d2810e1",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "mobile": [
+          9,
+          105,
+          371,
+          281,
+          -1
+        ],
+        "desktop": [
+          22,
+          134,
+          694,
+          489,
+          -2
+        ]
+      },
+      {
+        "title": "伊利亚特",
+        "asset": "assets/fated-2.jpg",
+        "size": [
+          1000,
+          968
+        ],
+        "source_path": "web-prototypes/remaining-twelve-dense-2026-11-07/assets/fated/伊利亚特威尼斯A抄本细密画_CC0.jpg",
+        "official": "http://classics.mit.edu/Homer/iliad.html",
+        "reference": false,
+        "source_record": "reczz28HJJL2NpIk",
+        "object": "reczz28HJJL2NpIk",
+        "blob_sha": "d56ab678ef45a3589e6dddf76de125fffb21f03e",
+        "focus": [
+          0.51,
+          0.47
+        ],
+        "mobile": [
+          9,
+          365,
+          226,
+          326,
+          -2
+        ],
+        "desktop": [
+          674,
+          153,
+          497,
+          407,
+          1
+        ]
+      },
+      {
+        "title": "La Jetée",
+        "asset": "assets/fated-4.jpg",
+        "size": [
+          1200,
+          675
+        ],
+        "source_path": "web-prototypes/remaining-twelve-dense-2026-11-07/assets/fated/lajetee_cinematheque.jpg",
+        "official": "https://www.cinematheque.fr/film/49998.html",
+        "reference": false,
+        "source_record": "reczz28MpmQFmKwG",
+        "object": "reczz28MpmQFmKwG",
+        "blob_sha": "4ac0ab156db4139e3111b4332c1e065a68abfe59",
+        "focus": [
+          0.63,
+          0.43
+        ],
+        "mobile": [
+          221,
+          390,
+          157,
+          277,
+          2
+        ],
+        "desktop": [
+          28,
+          604,
+          462,
+          460,
+          1
+        ]
+      },
+      {
+        "title": "第五交响曲",
+        "asset": "assets/fated-3.jpg",
+        "size": [
+          1200,
+          873
+        ],
+        "source_path": "web-prototypes/remaining-twelve-dense-2026-11-07/assets/fated/第五交响曲手稿_贝多芬_CCBYSA4.0.jpg",
+        "official": "https://www.esm.rochester.edu/beethoven/symphony-no-5/",
+        "reference": false,
+        "source_record": "reczz28HJJL2NpLL",
+        "object": "reczz28HJJL2NpLL",
+        "blob_sha": "f6b3d1eb4b4880557a674ad3505a6b4d0ad0231a",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "mobile": [
+          18,
+          686,
+          357,
+          165,
+          1
+        ],
+        "desktop": [
+          488,
+          573,
+          348,
+          485,
+          -1
+        ]
+      },
+      {
+        "title": "伊卡洛斯坠落的风景",
+        "asset": "assets/fated-x1.jpg",
+        "size": [
+          1280,
+          835
+        ],
+        "source_path": "aesthetic-site/public/media/7649a604665102be2c8f7cb4.jpg",
+        "official": "https://artsandculture.google.com/asset/landscape-with-the-fall-of-icarus-pieter-bruegel-the-elder-after/6gGkgMwPyiEqUQ?hl=en",
+        "reference": true,
+        "source_record": "reczz28HJJL2Nojl",
+        "object": "reczz28HJJL2Nojl",
+        "blob_sha": "8fb0f7274ca883ffc900178762d2fbe1949e3e53",
+        "focus": [
+          0.59,
+          0.55
+        ],
+        "mobile": [
+          10,
+          866,
+          188,
+          224,
+          -2
+        ],
+        "desktop": [
+          820,
+          535,
+          348,
+          300,
+          2
+        ]
+      },
+      {
+        "title": "弗雷德里克·埃德温·丘奇《北极光》",
+        "asset": "assets/fated-n1.jpg",
+        "size": [
+          1280,
+          861
+        ],
+        "source_path": "aesthetic-site/public/media/7eee5a8c2d55aa38b0f86fde.jpg",
+        "official": "",
+        "reference": true,
+        "source_record": "visual-ref:reczz28HJJL2A7qg",
+        "object": "visual-ref:reczz28HJJL2A7qg",
+        "blob_sha": "f996a93067178db0c1f648d5fadce1216103b3c8",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "mobile": [
+          184,
+          862,
+          193,
+          229,
+          1
+        ],
+        "desktop": [
+          820,
+          804,
+          352,
+          256,
+          -1
+        ]
+      }
+    ]
+  }
+]
