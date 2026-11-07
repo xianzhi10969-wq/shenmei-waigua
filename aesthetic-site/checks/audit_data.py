@@ -12,7 +12,7 @@ class References(HTMLParser):
      if file.is_dir():file=file/'index.html'
      if not file.exists():missing.append([path,self.getpos()])
 for term in data['terms']:
- path=pub/'terms'/term['id']/'index.html';text=path.read_text();References().feed(text)
+ path=pub/'terms'/term['id'].encode().hex()/'index.html';text=path.read_text();References().feed(text)
  assert len(re.findall('class="case"',text))==len(term['caseIds']),term['name']
  for cid in term['caseIds']:
   case=next(c for c in data['cases'] if c['id']==cid)
@@ -20,7 +20,7 @@ for term in data['terms']:
   assert all(__import__('html').unescape(p) in __import__('html').unescape(re.sub('<[^>]+>','',text)) for p in case['whyLong'].replace('\\n','\n').split('\n\n') if p.strip()),case['name']
  checked+=1
 for case in data['cases']:
- with urllib.request.urlopen('http://127.0.0.1:8840/api/cases/'+case['id']) as response:
+ with urllib.request.urlopen('http://127.0.0.1:8840/api/cases/'+case['id'].encode().hex()+'.json') as response:
   assert json.load(response)==case
 for case in data['cases']:
  for src in case['images']:assert (pub/src.lstrip('/')).is_file()

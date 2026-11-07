@@ -13,6 +13,10 @@ TEMPLATE = (ROOT / 'src/term/index.html').read_text()
 COQUETTE_ID = 'reczz28HJJL2GJHl'
 
 
+def route_key(record_id):
+    return record_id.encode('utf-8').hex()
+
+
 def escape(value):
     return html.escape(str(value or ''), quote=True)
 
@@ -113,7 +117,7 @@ def build_term(term):
     if not cases:
         content = '<p class="content-status">这一页的案例正在整理中。</p>'
     related = [other for name in term.get('nextNames', []) for other in CATALOG['terms'] if other['name'] == name]
-    related_markup = ''.join(f'<a href="/terms/{other["id"]}/">{escape(other["name"])} ↗</a>' for other in related)
+    related_markup = ''.join(f'<a href="/terms/{route_key(other["id"])}/">{escape(other["name"])} ↗</a>' for other in related)
     page = page[:start] + f'<article class="reading" aria-label="词条与案例">{body}<section class="cases" aria-labelledby="cases-title"><header class="cases-heading"><h2 id="cases-title">看它如何成为画面。</h2></header>{content}</section><nav class="related-terms">{related_markup}</nav></article>\n' + page[end:]
     if term['id'] != COQUETTE_ID:
         start = page.index('<section class="notes">')
@@ -125,7 +129,7 @@ def build_term(term):
     origins = json.loads((ROOT / 'src/collage-origins.json').read_text())
     for original, current in origins.items():
         page = page.replace('data-case-image="' + original + '"', 'data-case-image="' + current + '"')
-    directory = PUBLIC / 'terms' / term['id']
+    directory = PUBLIC / 'terms' / route_key(term['id'])
     directory.mkdir(parents=True, exist_ok=True)
     (directory / 'index.html').write_text(page)
 
