@@ -1,0 +1,57 @@
+{
+  "manifest_version": "v1",
+  "format": "ndjson",
+  "base_token": "IGctbcuwPaE6hMsmAoicJddpn3U",
+  "table_id": "tbl2gR8WBoqCQyGz",
+  "rev": 239,
+  "timezone": "Asia/Shanghai",
+  "query_context": {
+    "record_scope": "selected_record_ids",
+    "requested_record_count": 1
+  },
+  "records_count": 1,
+  "page_count": 1,
+  "has_more": false,
+  "record_file": "/Users/yuriko/Documents/ChatGPT/审美外挂 2/aesthetic-site/checks/core-opening/healing-record.ndjson",
+  "record_file_size_bytes": 434,
+  "manifest_file": "/Users/yuriko/Documents/ChatGPT/审美外挂 2/aesthetic-site/checks/core-opening/healing-record.manifest.json",
+  "columns": {
+    "record_id": {
+      "physical_type": "string",
+      "stats": {
+        "max_length": 16
+      },
+      "example": "reczz28HJJL2GLCP"
+    },
+    "核心": {
+      "field_id": "fld2kWjGZc",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 34
+      },
+      "example": "那盆差点枯死的薄荷长出了新叶。ta给它添完水，顺手也给自己倒了一杯。"
+    },
+    "词": {
+      "field_id": "fld2Atu7vX",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 2
+      },
+      "example": "治愈"
+    },
+    "钩子": {
+      "field_id": "fld4n6xZoj",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 88
+      },
+      "example": "有人下班回家，发现门边那盆快枯的植物被浇过水。没人站出来说“我要治好你”，屋子却好像能再住一晚。做治愈若只放暖色、绒毯和“你一定会好起来”，难处被跳过去了，安慰也就落不到身上。"
+    }
+  }
+}

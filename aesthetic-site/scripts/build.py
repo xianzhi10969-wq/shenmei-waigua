@@ -93,13 +93,12 @@ def build_term(term):
     chinese = bool(re.search(r'[\u3400-\u9fff]', term['name']))
     title_class = 'term-name chinese-name' if chinese else 'term-name'
     definition = '带着调情意味的甜美风格' if term['id'] == COQUETTE_ID else (term['english'] if term['english'] != term['name'] else '')
-    intro = term['hook']
-    if term['id'] == COQUETTE_ID:
-        intro = '镜前的人把缎带系好，又故意留下一截没收齐的带尾。你看得出她为被看见做了准备，却不能确定她想让谁看。'
+    # Every opening reads 词条.核心 (fld2kWjGZc). No hook or hard-coded fallback.
+    intro = term.get('core', '')
     pending = '<p class="term-status">更新中</p>' if '已上线' not in term['state'] else ''
     opening_copy = (
         f'<div class="opening-copy">{pending}<h1 class="{title_class}" lang="{"zh-CN" if chinese else "en"}">{escape(term["name"])}</h1>'
-        f'<p class="term-definition">{escape(definition)}</p><p class="introduction">{escape(intro or term["core"])}</p>'
+        f'<p class="term-definition">{escape(definition)}</p><p class="introduction" data-source-field="核心">{escape(intro)}</p>'
     )
     page = page[:opening_copy_start] + opening_copy + page[opening_copy_end:]
     page = page.replace('<section class="opening"', '<section id="opening" class="opening"', 1)

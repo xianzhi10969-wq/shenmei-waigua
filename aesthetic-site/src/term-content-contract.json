@@ -712,7 +712,7 @@
     }
   },
   "presentation": {
-    "opening": "词条.钩子",
+    "opening": "词条.核心",
     "understanding": "词条.正文，仅开头导读，已移走旧【】拼装段落",
     "cases": "按案例.所属词条及是否保留取数，按顺序排列",
     "caseBody": [
@@ -726,6 +726,8 @@
       "从归档表生成页面",
       "将正文旧拼装稿重新合并回主表",
       "从词条旧案例文本猜测案例归属"
-    ]
+    ],
+    "openingFieldId": "fld2kWjGZc",
+    "openingEmpty": "核心为空则不展示引言，保留原更新中状态；禁止回退钩子或硬编码Coquette"
   }
 }

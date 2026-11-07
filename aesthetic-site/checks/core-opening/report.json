@@ -1,0 +1,39 @@
+{
+  "staticTermsChecked": 101,
+  "coreNonEmpty": 55,
+  "emptyNoFallback": 46,
+  "browserViews": [
+    {
+      "name": "治愈",
+      "width": 390,
+      "openingEqualsCore": true
+    },
+    {
+      "name": "Coquette",
+      "width": 390,
+      "openingEqualsCore": true
+    },
+    {
+      "name": "模拟恐怖",
+      "width": 390,
+      "openingEqualsCore": true
+    },
+    {
+      "name": "治愈",
+      "width": 1440,
+      "openingEqualsCore": true
+    },
+    {
+      "name": "Coquette",
+      "width": 1440,
+      "openingEqualsCore": true
+    },
+    {
+      "name": "模拟恐怖",
+      "width": 1440,
+      "openingEqualsCore": true
+    }
+  ],
+  "revisedCoreSketches": 4,
+  "errors": []
+}

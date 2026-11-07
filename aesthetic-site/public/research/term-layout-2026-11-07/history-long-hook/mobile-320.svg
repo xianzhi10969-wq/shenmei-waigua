@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="640" viewBox="0 0 320 640" role="img" aria-labelledby="label">
+<title id="label">治愈首屏排版结构：吊灯右移，完整引言同屏。320×640</title>
+<rect width="320" height="640" fill="white"/>
+<g id="lamp-placeholder" transform="translate(116.80000000000001 -72) scale(0.8)" fill="none" stroke="black" stroke-width="1.3">
+<path d="M150 0V175M150 175Q120 210 150 238Q180 210 150 175ZM150 238V282M30 218Q150 320 270 218M65 194Q150 250 235 194M30 218V154M65 194V130M235 194V130M270 218V154M110 245V183M190 245V183M150 282V320M150 320Q128 355 150 366Q172 355 150 320Z"/>
+<path d="M30 139Q20 151 30 154Q40 151 30 139ZM65 115Q55 127 65 130Q75 127 65 115ZM235 115Q225 127 235 130Q245 127 235 115ZM270 139Q260 151 270 154Q280 151 270 139ZM110 168Q100 180 110 183Q120 180 110 168ZM190 168Q180 180 190 183Q200 180 190 168Z"/>
+</g>
+<g id="editable-copy" fill="black" font-family="serif">
+<text id="title" x="24" y="250" font-size="52">治愈</text>
+<text id="english" x="24" y="280" font-size="14" letter-spacing="1.2">HEALING</text>
+<text id="introduction" x="24" y="336" font-size="16"><tspan x="24" dy="0">有人下班回家，发现门边那盆快枯的植</tspan><tspan x="24" dy="24">物被浇过水。没人站出来说“我要治好</tspan><tspan x="24" dy="24">你”，屋子却好像能再住一晚。做治愈</tspan><tspan x="24" dy="24">若只放暖色、绒毯和“你一定会好起来”</tspan><tspan x="24" dy="24">，难处被跳过去了，安慰也就落不到身</tspan><tspan x="24" dy="24">上。</tspan></text><text id="navigation" x="24" y="504" font-size="12">← 田园图鉴　　全部专题</text><text id="continue" x="24" y="608" font-size="12">向下阅读作品 ↓</text></g>
+<g id="grid" display="none" fill="none" stroke="black" stroke-dasharray="3 5"><path d="M24 0V640M296 0V640"/><rect x="24" y="320" width="272" height="144"/></g>
+</svg>
