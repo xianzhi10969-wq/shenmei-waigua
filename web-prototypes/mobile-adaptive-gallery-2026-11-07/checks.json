@@ -1,0 +1,600 @@
+{
+  "status": "passed",
+  "views": [
+    {
+      "width": 320,
+      "chapter": "忧郁",
+      "terms": 2,
+      "frames": 1
+    },
+    {
+      "width": 320,
+      "chapter": "爱欲",
+      "terms": 4,
+      "frames": 3
+    },
+    {
+      "width": 320,
+      "chapter": "田园",
+      "terms": 4,
+      "frames": 3
+    },
+    {
+      "width": 320,
+      "chapter": "幽玄",
+      "terms": 5,
+      "frames": 3
+    },
+    {
+      "width": 320,
+      "chapter": "酒神",
+      "terms": 6,
+      "frames": 2
+    },
+    {
+      "width": 320,
+      "chapter": "留白",
+      "terms": 5,
+      "frames": 3
+    },
+    {
+      "width": 320,
+      "chapter": "平淡",
+      "terms": 4,
+      "frames": 2
+    },
+    {
+      "width": 320,
+      "chapter": "物哀",
+      "terms": 5,
+      "frames": 2
+    },
+    {
+      "width": 320,
+      "chapter": "日常",
+      "terms": 4,
+      "frames": 2
+    },
+    {
+      "width": 320,
+      "chapter": "侘寂",
+      "terms": 2,
+      "frames": 1
+    },
+    {
+      "width": 320,
+      "chapter": "气韵",
+      "terms": 3,
+      "frames": 2
+    },
+    {
+      "width": 320,
+      "chapter": "侠",
+      "terms": 3,
+      "frames": 2
+    },
+    {
+      "width": 320,
+      "chapter": "轻逸",
+      "terms": 3,
+      "frames": 2
+    },
+    {
+      "width": 320,
+      "chapter": "崇高",
+      "terms": 2,
+      "frames": 0
+    },
+    {
+      "width": 320,
+      "chapter": "从容",
+      "terms": 2,
+      "frames": 1
+    },
+    {
+      "width": 320,
+      "chapter": "酷",
+      "terms": 4,
+      "frames": 1
+    },
+    {
+      "width": 320,
+      "chapter": "怪诞",
+      "terms": 3,
+      "frames": 1
+    },
+    {
+      "width": 320,
+      "chapter": "阴翳",
+      "terms": 5,
+      "frames": 2
+    },
+    {
+      "width": 320,
+      "chapter": "悲剧",
+      "terms": 4,
+      "frames": 2
+    },
+    {
+      "width": 320,
+      "chapter": "废墟",
+      "terms": 2,
+      "frames": 2
+    },
+    {
+      "width": 320,
+      "chapter": "未来想象",
+      "terms": 6,
+      "frames": 0
+    },
+    {
+      "width": 320,
+      "chapter": "乡愁",
+      "terms": 8,
+      "frames": 4
+    },
+    {
+      "width": 320,
+      "chapter": "诡异",
+      "terms": 5,
+      "frames": 2
+    },
+    {
+      "width": 320,
+      "chapter": "可爱",
+      "terms": 6,
+      "frames": 2
+    },
+    {
+      "width": 390,
+      "chapter": "忧郁",
+      "terms": 2,
+      "frames": 1
+    },
+    {
+      "width": 390,
+      "chapter": "爱欲",
+      "terms": 4,
+      "frames": 3
+    },
+    {
+      "width": 390,
+      "chapter": "田园",
+      "terms": 4,
+      "frames": 3
+    },
+    {
+      "width": 390,
+      "chapter": "幽玄",
+      "terms": 5,
+      "frames": 3
+    },
+    {
+      "width": 390,
+      "chapter": "酒神",
+      "terms": 6,
+      "frames": 2
+    },
+    {
+      "width": 390,
+      "chapter": "留白",
+      "terms": 5,
+      "frames": 3
+    },
+    {
+      "width": 390,
+      "chapter": "平淡",
+      "terms": 4,
+      "frames": 2
+    },
+    {
+      "width": 390,
+      "chapter": "物哀",
+      "terms": 5,
+      "frames": 2
+    },
+    {
+      "width": 390,
+      "chapter": "日常",
+      "terms": 4,
+      "frames": 2
+    },
+    {
+      "width": 390,
+      "chapter": "侘寂",
+      "terms": 2,
+      "frames": 1
+    },
+    {
+      "width": 390,
+      "chapter": "气韵",
+      "terms": 3,
+      "frames": 2
+    },
+    {
+      "width": 390,
+      "chapter": "侠",
+      "terms": 3,
+      "frames": 2
+    },
+    {
+      "width": 390,
+      "chapter": "轻逸",
+      "terms": 3,
+      "frames": 2
+    },
+    {
+      "width": 390,
+      "chapter": "崇高",
+      "terms": 2,
+      "frames": 0
+    },
+    {
+      "width": 390,
+      "chapter": "从容",
+      "terms": 2,
+      "frames": 1
+    },
+    {
+      "width": 390,
+      "chapter": "酷",
+      "terms": 4,
+      "frames": 1
+    },
+    {
+      "width": 390,
+      "chapter": "怪诞",
+      "terms": 3,
+      "frames": 1
+    },
+    {
+      "width": 390,
+      "chapter": "阴翳",
+      "terms": 5,
+      "frames": 2
+    },
+    {
+      "width": 390,
+      "chapter": "悲剧",
+      "terms": 4,
+      "frames": 2
+    },
+    {
+      "width": 390,
+      "chapter": "废墟",
+      "terms": 2,
+      "frames": 2
+    },
+    {
+      "width": 390,
+      "chapter": "未来想象",
+      "terms": 6,
+      "frames": 0
+    },
+    {
+      "width": 390,
+      "chapter": "乡愁",
+      "terms": 8,
+      "frames": 4
+    },
+    {
+      "width": 390,
+      "chapter": "诡异",
+      "terms": 5,
+      "frames": 2
+    },
+    {
+      "width": 390,
+      "chapter": "可爱",
+      "terms": 6,
+      "frames": 2
+    },
+    {
+      "width": 430,
+      "chapter": "忧郁",
+      "terms": 2,
+      "frames": 1
+    },
+    {
+      "width": 430,
+      "chapter": "爱欲",
+      "terms": 4,
+      "frames": 3
+    },
+    {
+      "width": 430,
+      "chapter": "田园",
+      "terms": 4,
+      "frames": 3
+    },
+    {
+      "width": 430,
+      "chapter": "幽玄",
+      "terms": 5,
+      "frames": 3
+    },
+    {
+      "width": 430,
+      "chapter": "酒神",
+      "terms": 6,
+      "frames": 2
+    },
+    {
+      "width": 430,
+      "chapter": "留白",
+      "terms": 5,
+      "frames": 3
+    },
+    {
+      "width": 430,
+      "chapter": "平淡",
+      "terms": 4,
+      "frames": 2
+    },
+    {
+      "width": 430,
+      "chapter": "物哀",
+      "terms": 5,
+      "frames": 2
+    },
+    {
+      "width": 430,
+      "chapter": "日常",
+      "terms": 4,
+      "frames": 2
+    },
+    {
+      "width": 430,
+      "chapter": "侘寂",
+      "terms": 2,
+      "frames": 1
+    },
+    {
+      "width": 430,
+      "chapter": "气韵",
+      "terms": 3,
+      "frames": 2
+    },
+    {
+      "width": 430,
+      "chapter": "侠",
+      "terms": 3,
+      "frames": 2
+    },
+    {
+      "width": 430,
+      "chapter": "轻逸",
+      "terms": 3,
+      "frames": 2
+    },
+    {
+      "width": 430,
+      "chapter": "崇高",
+      "terms": 2,
+      "frames": 0
+    },
+    {
+      "width": 430,
+      "chapter": "从容",
+      "terms": 2,
+      "frames": 1
+    },
+    {
+      "width": 430,
+      "chapter": "酷",
+      "terms": 4,
+      "frames": 1
+    },
+    {
+      "width": 430,
+      "chapter": "怪诞",
+      "terms": 3,
+      "frames": 1
+    },
+    {
+      "width": 430,
+      "chapter": "阴翳",
+      "terms": 5,
+      "frames": 2
+    },
+    {
+      "width": 430,
+      "chapter": "悲剧",
+      "terms": 4,
+      "frames": 2
+    },
+    {
+      "width": 430,
+      "chapter": "废墟",
+      "terms": 2,
+      "frames": 2
+    },
+    {
+      "width": 430,
+      "chapter": "未来想象",
+      "terms": 6,
+      "frames": 0
+    },
+    {
+      "width": 430,
+      "chapter": "乡愁",
+      "terms": 8,
+      "frames": 4
+    },
+    {
+      "width": 430,
+      "chapter": "诡异",
+      "terms": 5,
+      "frames": 2
+    },
+    {
+      "width": 430,
+      "chapter": "可爱",
+      "terms": 6,
+      "frames": 2
+    },
+    {
+      "width": 1440,
+      "chapter": "忧郁",
+      "terms": 2,
+      "frames": 1
+    },
+    {
+      "width": 1440,
+      "chapter": "爱欲",
+      "terms": 4,
+      "frames": 3
+    },
+    {
+      "width": 1440,
+      "chapter": "田园",
+      "terms": 4,
+      "frames": 3
+    },
+    {
+      "width": 1440,
+      "chapter": "幽玄",
+      "terms": 5,
+      "frames": 3
+    },
+    {
+      "width": 1440,
+      "chapter": "酒神",
+      "terms": 6,
+      "frames": 2
+    },
+    {
+      "width": 1440,
+      "chapter": "留白",
+      "terms": 5,
+      "frames": 3
+    },
+    {
+      "width": 1440,
+      "chapter": "平淡",
+      "terms": 4,
+      "frames": 2
+    },
+    {
+      "width": 1440,
+      "chapter": "物哀",
+      "terms": 5,
+      "frames": 2
+    },
+    {
+      "width": 1440,
+      "chapter": "日常",
+      "terms": 4,
+      "frames": 2
+    },
+    {
+      "width": 1440,
+      "chapter": "侘寂",
+      "terms": 2,
+      "frames": 1
+    },
+    {
+      "width": 1440,
+      "chapter": "气韵",
+      "terms": 3,
+      "frames": 2
+    },
+    {
+      "width": 1440,
+      "chapter": "侠",
+      "terms": 3,
+      "frames": 2
+    },
+    {
+      "width": 1440,
+      "chapter": "轻逸",
+      "terms": 3,
+      "frames": 2
+    },
+    {
+      "width": 1440,
+      "chapter": "崇高",
+      "terms": 2,
+      "frames": 0
+    },
+    {
+      "width": 1440,
+      "chapter": "从容",
+      "terms": 2,
+      "frames": 1
+    },
+    {
+      "width": 1440,
+      "chapter": "酷",
+      "terms": 4,
+      "frames": 1
+    },
+    {
+      "width": 1440,
+      "chapter": "怪诞",
+      "terms": 3,
+      "frames": 1
+    },
+    {
+      "width": 1440,
+      "chapter": "阴翳",
+      "terms": 5,
+      "frames": 2
+    },
+    {
+      "width": 1440,
+      "chapter": "悲剧",
+      "terms": 4,
+      "frames": 2
+    },
+    {
+      "width": 1440,
+      "chapter": "废墟",
+      "terms": 2,
+      "frames": 2
+    },
+    {
+      "width": 1440,
+      "chapter": "未来想象",
+      "terms": 6,
+      "frames": 0
+    },
+    {
+      "width": 1440,
+      "chapter": "乡愁",
+      "terms": 8,
+      "frames": 4
+    },
+    {
+      "width": 1440,
+      "chapter": "诡异",
+      "terms": 5,
+      "frames": 2
+    },
+    {
+      "width": 1440,
+      "chapter": "可爱",
+      "terms": 6,
+      "frames": 2
+    }
+  ],
+  "viewCount": 96,
+  "errors": [],
+  "checks": [
+    "all original aspect ratios within 1px",
+    "3px mat + 9px rail on every side",
+    "no horizontal overflow",
+    "all 101 terms reachable across 24 chapters",
+    "missing covers have no empty frame",
+    "lightbox + Escape",
+    "tone comparison",
+    "index scrolling + return to top",
+    "real term page entry + browser back",
+    "failed image fallback"
+  ],
+  "limits": [
+    "browser emulation, not physical phone",
+    "neutral structural frame, ornamental adaptive asset not built",
+    "visual acceptance pending"
+  ]
+}
