@@ -1,0 +1,8 @@
+/* The archived SVG keeps its own coordinate system and scoped styles. */
+.board.collage-board{width:100%;height:auto;max-width:1200px;zoom:1!important;margin:0 auto;background:#fff}
+.collage-art{display:block;width:100%;height:auto;aspect-ratio:var(--desktop-ratio);border:0}
+.board .core.collage-core{position:static;width:auto;margin:28px 36px 48px;font:22px/36px EntryCN,serif;letter-spacing:0}
+.board .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.collage-dialog{width:min(1000px,94vw);max-height:94dvh;box-sizing:border-box;border:0;padding:20px;background:#f8f6ef;color:#263c32;font:16px/1.6 EntryCN,serif}
+.collage-dialog::backdrop{background:#131218d9}.collage-dialog img{display:block;max-width:100%;width:auto;height:auto;max-height:66dvh;object-fit:contain;margin:12px auto}.collage-dialog h2{font:20px/1.5 EntryCN,serif;margin:16px 0 8px}.collage-dialog nav{display:flex;flex-wrap:wrap;gap:12px 24px}.collage-dialog button{background:transparent;border:1px solid #263c3266;padding:8px 14px;cursor:pointer;color:inherit}.collage-dialog .dialog-close{display:block;margin-left:auto}.collage-dialog [hidden]{display:none}
+@media(max-width:700px){.collage-art{aspect-ratio:var(--mobile-ratio)}.board .core.collage-core{margin:24px 28px 36px;font-size:20px;line-height:32px}.collage-dialog{padding:16px}.collage-dialog img{max-height:60dvh}}

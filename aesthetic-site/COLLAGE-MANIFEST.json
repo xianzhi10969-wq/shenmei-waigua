@@ -1,0 +1,1392 @@
+{
+  "date": "2026-11-07",
+  "scope": "Collage integration only; independent of concurrent homepage work",
+  "fileCount": 277,
+  "files": [
+    {
+      "path": "INTEGRATION-2026-11-07.md",
+      "bytes": 3177,
+      "sha256": "aa5d30627551b1e8c5492dbbeba4affe7e5622179666605aa7d9d63937c2a3f7"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5330,
+      "sha256": "4f20b4eb24a5d4c26621ce15a3e42d6141ec84ca3579b3d450d98da9cf86ea44"
+    },
+    {
+      "path": "checks/collage-integration.cjs",
+      "bytes": 3786,
+      "sha256": "90dcce8e0abd1abf4ba991037994447834a7879db1dcb903429ca6356ca9ee92"
+    },
+    {
+      "path": "checks/collage-integration.json",
+      "bytes": 7797,
+      "sha256": "9bff385cba2cba5fb3bfb2566b2d95dab44ce25ae23c5a3258dec5bae4e5e386"
+    },
+    {
+      "path": "checks/integration-navigation.cjs",
+      "bytes": 3481,
+      "sha256": "82e764fa86475958eac178a8106f1280722c92aaae4eecb5e8222b5915a97177"
+    },
+    {
+      "path": "checks/integration-navigation.json",
+      "bytes": 269,
+      "sha256": "08ed297c19428fcc340fa78ddc449b23086389117ef98d2f8f9eb2c0f620700c"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/README.md",
+      "bytes": 3907,
+      "sha256": "8fcc71bfecf87738bbf08dd90a4cd8fd337948f0ba868cd3849a613b5523bba1"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/additions/bowie-guitar.jpg",
+      "bytes": 60376,
+      "sha256": "96287cd67c088e5e50c264cd855cdc27c95ba487d48f911868c28cd2296ac088"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/additions/bowie-shoes.jpg",
+      "bytes": 69780,
+      "sha256": "7aab3b4afb7516139649578c73b6aa2a8623fb04c1d5a61ddae1626177cdbd18"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/additions/bowie-suit.jpg",
+      "bytes": 102339,
+      "sha256": "4913ef2a4e9c060ecd46591b366db0cb3577e91f06eb049ab92bdc7b9e6232f3"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/additions/circus.jpg",
+      "bytes": 343888,
+      "sha256": "bb78200aaef5c783e03ffa4fc756fcce24461dcfe84c124cd2c7c8c49f161404"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/additions/heart-product.jpg",
+      "bytes": 71469,
+      "sha256": "f1060d40fc0ddd692d5e4f55199cc1d7a3ef97facbcf3bc17afc0bb19f89533f"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/additions/hockney-large.jpg",
+      "bytes": 37819,
+      "sha256": "31ac9a1e23e97db33649f2ceded13a67a52752e526199e70f0bbad4debe6f7c5"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/additions/jellyfish.jpg",
+      "bytes": 56464,
+      "sha256": "fd18bf74ea95bcf5cbbaa953f3270f6348464e3292201d61f5572dc36242cbac"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/additions/living.jpg",
+      "bytes": 351959,
+      "sha256": "a0dda552b5304f4a568f9177b104760a6e8b0dace638f0e095b8fd6ddb5cb62f"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/additions/necklace.jpg",
+      "bytes": 69348,
+      "sha256": "d3b1776289ea67dbe150f15365425a413d2e7c52fa5934ba8228582c26aa41d2"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/additions/pantop.jpg",
+      "bytes": 32286,
+      "sha256": "9feb79d2617ae89355fb85d0fd10591bee5300bea02062ed85cdf5e59ebe878b"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/additions/roly.jpg",
+      "bytes": 265854,
+      "sha256": "a4196f1b7c90a416f0099617115a021479f9b16f61f7dff54d36df6b16ad570d"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/additions/shylight.jpg",
+      "bytes": 79366,
+      "sha256": "7ba1911cf24d850aa953a3a75264bc9b39528056ef4b2337723fa8f7c80f51e3"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/additions/sofa-large.jpg",
+      "bytes": 175172,
+      "sha256": "27db2e0e3cd62868a7a34791a0047d83a79013575fdaf64c35a9ae6d58881af1"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/additions/sorolla.jpg",
+      "bytes": 922886,
+      "sha256": "fec84285cd466264c9017629cf13527048f2239cbbd9554de01eb8dc0e84af56"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/additions/swim.jpg",
+      "bytes": 50394,
+      "sha256": "76f23a97b6322a60b7ceccf5d1fe2a399659628877a244aa452c86b85aed0190"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/additions/synthi.jpg",
+      "bytes": 104763,
+      "sha256": "fcdd1e0663481f8664ea06fb501a9dd28054d9edb9ba4614fb72ce4c9f513804"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/additions/tahiti.jpg",
+      "bytes": 28005,
+      "sha256": "3f1ada7fcdb32a2452b11591f0d2468b18b9549292ee9ccbde1ffd39479d9390"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/additions/ufo.jpg",
+      "bytes": 223388,
+      "sha256": "7c5013e75d9fa72b6007f456dc2c72948f7ab10110e40288534f4be23175ce0c"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/new/bowie-guitar-cut.png",
+      "bytes": 501156,
+      "sha256": "836cae4b3fda2750a6d05bdcab40e084058ceb40302142c0d451788888ae52b7"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/new/bowie-shoes-cut.png",
+      "bytes": 511218,
+      "sha256": "1016989030eb92a1806d83c850669c33ebb6822d3936e63085fa9af68c37e8db"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/new/bowie-suit-cut.png",
+      "bytes": 775904,
+      "sha256": "b4db21b54ee01e9698c792c9d50ce09548ff5619542678ae4538f4dd891b780e"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/new/brooch-cut.png",
+      "bytes": 1012674,
+      "sha256": "436adf16d8ae4b338dbaa3e8a605fc5bcb3e2b4929301ef0cb7c24334ecca2b5"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/new/carlton-cut.png",
+      "bytes": 7346194,
+      "sha256": "fba3584b6124254d3c9802e73c62a60905130d51a5a6be843605855951d492d0"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/new/chaise-cut.png",
+      "bytes": 211203,
+      "sha256": "0ac0b361e51e00195010a8b0fd2c0b6ee8d54e1f1659d983dd11811e81d8fafd"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/new/decadence-desktop.svg",
+      "bytes": 961287,
+      "sha256": "5b6ef9290bf639a2f36f9e64774fce27da2a4e2e2a9eb90b691a04c35c5d2c69"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/new/decadence-mobile.svg",
+      "bytes": 961269,
+      "sha256": "0a8cd1bf30fcde708bba67bc2857d978712688b2a4bc1916fa02ef01ce1e5288"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/new/dopamine-desktop.svg",
+      "bytes": 962362,
+      "sha256": "712a4e58ffac7af70115cfac6b8d29cd1bf9e240ca10555cc192abb52ddcd05b"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/new/dopamine-mobile.svg",
+      "bytes": 962370,
+      "sha256": "eda29d4bec36b2c2791bb65087e7838b45e9f1a210e9163e92c989f33ee62c1b"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/new/dress-cut.png",
+      "bytes": 407776,
+      "sha256": "510b20c49c706b9879b6b436632bb98b67525356e53387e4d7b58f76d461fb5f"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/new/figure-cut.png",
+      "bytes": 1480039,
+      "sha256": "997e7d566823e3a7c4326ed2585fafa94e30cbf5f4c16cb1d56cda7af2f254f4"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/new/heart-product-cut.png",
+      "bytes": 869139,
+      "sha256": "d5093e378d7314ac281c7837b19753f0990f2b73a1fe7fa3bac1d3d51a3c2f6e"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/new/living-cut.png",
+      "bytes": 913624,
+      "sha256": "768ab063c3cd182fbe72f93248890c325a8e9df85947edc08a56ce16eeb75090"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/new/midsummer-desktop.svg",
+      "bytes": 961035,
+      "sha256": "6b95b1f57ef19eeaa9e2e368de669ce0d8e121e26a3ac3af5014f5581190cdbd"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/new/midsummer-mobile.svg",
+      "bytes": 961018,
+      "sha256": "5e574979a0b072eb7715bbfd2dc496ced787ea47536a381c44d96997872dd78c"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/new/necklace-cut.png",
+      "bytes": 223397,
+      "sha256": "79206298675c132b139c0f4da1051307bebdd8cf0301e037861f31cbb8510bce"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/new/pantop-cut.png",
+      "bytes": 302519,
+      "sha256": "2775cc9be39a605e1f0577d3a22d6e7f218f30ddd20477b8cf5aceb82be3465d"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/new/retro-rock-desktop.svg",
+      "bytes": 962519,
+      "sha256": "ae7412385e9cda3d533e777969db14e3924813321c671410418bcab81f222cae"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/new/retro-rock-mobile.svg",
+      "bytes": 962501,
+      "sha256": "2a965fb1a989f192de98178c8b66b066b239f77635cc0f875808697374f060ad"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/new/ring-cut.png",
+      "bytes": 1219774,
+      "sha256": "6e31ee11433d77462d1d406bff3361b2d6c795fd115b1780e7df81a4c2b02377"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/new/roly-cut.png",
+      "bytes": 284839,
+      "sha256": "24ea8d1319ad52ad0774a532f955f602a3563a9777bbcb3eb17589b31a0531a9"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/new/shylight-cut.png",
+      "bytes": 664538,
+      "sha256": "535371d06747efe9d9286b817162f9aeaf04f73b7a2f2b87ea05dfbbd90d1fe3"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/new/sofa-large-cut.png",
+      "bytes": 2010256,
+      "sha256": "effe925f62fb1438b9937246582b81d7fcef620ae5e12251a4d8390b1ee6ea3e"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/new/softcore-desktop.svg",
+      "bytes": 961322,
+      "sha256": "893716a17fd821152e5135633890f03409d94430c879d87243dcea6cac8d6d83"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/new/softcore-mobile.svg",
+      "bytes": 961319,
+      "sha256": "d64f4486c0a2997ba9b9d607a6bd6a844516063fefb250704ba0468f866e5265"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/new/swim-cut.png",
+      "bytes": 313630,
+      "sha256": "438739650226adf33f85dec2e41c9c6eebeaf7ec7871f6db21cfc2c9e84315a4"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/new/synthi-cut.png",
+      "bytes": 1075394,
+      "sha256": "8b80960d9d9ce8176e88ebd4050aaf04ce3c926bb3aa501779c7914adb8976c7"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/new/woman-cut.png",
+      "bytes": 1118341,
+      "sha256": "de030633081ee8ff4e2229a9dd78045a2ad7c8c518d4f5e181ee4b0e1fbf57bc"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/source/web-prototypes/term-collage-trial-decadence-2026-11-05/assets/originals/climax_rgb.jpg",
+      "bytes": 293250,
+      "sha256": "ba8e80326d9f442517cb2bade5023b80b6d06604c1cc2f67e8579bcc1bc1fcdd"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/source/web-prototypes/term-collage-trial-decadence-2026-11-05/assets/originals/lalique_official.jpg",
+      "bytes": 138541,
+      "sha256": "e6cfa71677a9851b9acbd5b3a71c712e0106ac4a4b59b1b149da8e332e511b4a"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/source/web-prototypes/term-collage-trial-decadence-2026-11-05/assets/originals/mm_442885.jpg",
+      "bytes": 371844,
+      "sha256": "a16238cc99d673da419dd9669996e599f9b8df3229c3e09e62825baa2b40c2a0"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/source/web-prototypes/term-collage-trial-decadence-2026-11-05/assets/originals/mm_442895.jpg",
+      "bytes": 407200,
+      "sha256": "a14bd849a9b52bdcdac209ffbb3b7bfc410ac7dcd8acede036ef6acc6d12d932"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/source/web-prototypes/term-collage-trial-decadence-2026-11-05/assets/originals/mm_vogue_01.jpg",
+      "bytes": 430517,
+      "sha256": "34a06c7012863bdd23988261f0b10ae2911758fe65c1450fab86bbb59d881b74"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/source/web-prototypes/term-collage-trial-decadence-2026-11-05/assets/originals/peacock.jpg",
+      "bytes": 340390,
+      "sha256": "f6ac6a4a94ce8364175575d8273ae8cecb09fac0baafd0411c89f7ca2bc78166"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/source/web-prototypes/term-collage-trial-decadence-2026-11-05/assets/originals/redon_balloon.jpg",
+      "bytes": 2192400,
+      "sha256": "08d558c85fd5ec1c5fe88ce688d539c4f038e3939f67a546bac194065ea056b6"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/source/web-prototypes/term-collage-trial-dopamine-2026-11-05/assets/originals/forest_1_emmanuelle_moureaux_Forest_of_Numbers.jpg",
+      "bytes": 482412,
+      "sha256": "24a2992551d23ecd33aa9ba94581d1eb4b8a1bf84197bee8e60e7416bd613a0f"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/source/web-prototypes/term-collage-trial-dopamine-2026-11-05/assets/originals/judy_10358_Multi-Color_Atmosphere_F.jpg",
+      "bytes": 2127637,
+      "sha256": "2c10099a6f7ed708cff48e29898d42c0a64525b6944356f793b223ece09f802f"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/source/web-prototypes/term-collage-trial-dopamine-2026-11-05/assets/originals/卡尔顿书架_索特萨斯_摄影Sailko_CCBYSA4.0.jpg",
+      "bytes": 4340578,
+      "sha256": "fdcd3cc6730c81dfa4d9518baf470263d81b30e95eaeed1a194e169b74e93777"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/source/web-prototypes/term-collage-trial-midsummer-2026-11-05/assets/originals/H38.jpg",
+      "bytes": 343923,
+      "sha256": "7f74c9b20634b541349bd001aa9c039e3ad9d49f1e43a48cd2c9e119169745ef"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/source/web-prototypes/term-collage-trial-midsummer-2026-11-05/assets/originals/H59.jpg",
+      "bytes": 319146,
+      "sha256": "78fcbbf218fad31fcbd34fe177980eb73b3d2f583397ad6ea0b77fe76e6d252f"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/source/web-prototypes/term-collage-trial-midsummer-2026-11-05/assets/originals/ip_10.jpg",
+      "bytes": 198841,
+      "sha256": "edf92be6b382e42c857b84baf36a4cf072452201df93fc6db91719e99a66056f"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/source/web-prototypes/term-collage-trial-midsummer-2026-11-05/assets/originals/sp_og.jpg",
+      "bytes": 371495,
+      "sha256": "d50cc5dca98c20fad4bdde8c48b3786b44a328a295be76819964ef21c18652e8"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/source/web-prototypes/term-collage-trial-midsummer-2026-11-05/assets/originals/v88_1-15.png",
+      "bytes": 392898,
+      "sha256": "3d368d517894eb570f285016fd7bd560b7ec2c19523442650d5854b0f14de44c"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/source/web-prototypes/term-collage-trial-retro-rock-2026-11-05/assets/originals/eye_ring.jpg",
+      "bytes": 126446,
+      "sha256": "be904547b33b561b2e125a3aea40bd9ac0d2e9be12df54e8a5dd48c3d983c15b"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/source/web-prototypes/term-collage-trial-retro-rock-2026-11-05/assets/originals/granny_vam.jpg",
+      "bytes": 78055,
+      "sha256": "dcd3fb446d7453884ee699d04201d112cf5af868bf6f8dcf7914fec4a632303f"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/source/web-prototypes/term-collage-trial-retro-rock-2026-11-05/assets/originals/keith_skull.jpg",
+      "bytes": 29763,
+      "sha256": "712f94ea6a37faf00e6acd0947ece387c1bb5a62e0a73d0e1edc485cd8745028"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/source/web-prototypes/term-collage-trial-retro-rock-2026-11-05/assets/originals/stevie_rhiannon.jpg",
+      "bytes": 58189,
+      "sha256": "652c0fa37447cc032b3ae1807b8e8d3dc473d95eb037ae334070eed1bf9a1596"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/source/web-prototypes/term-collage-trial-softcore-2026-11-05/assets/originals/nendo_04.jpg",
+      "bytes": 94872,
+      "sha256": "56128d14210a08f78667cc6fdab63eeeec350cd1a93b8c7c374a26d0cc03d80d"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/source/web-prototypes/term-collage-trial-softcore-2026-11-05/assets/originals/passage_01.jpg",
+      "bytes": 367388,
+      "sha256": "f802afa143d995434845e560dd3e7db01ad76fba6cc3ab511478be94649a74ac"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/source/web-prototypes/term-collage-trial-softcore-2026-11-05/assets/originals/pompom_arthur.jpg",
+      "bytes": 81342,
+      "sha256": "3c739a81390893ceaf50456d7e234c3bc48cb6809c37c17518a3569e5ccddfe8"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/source/web-prototypes/term-collage-trial-softcore-2026-11-05/assets/originals/sparrow_official_5.jpg",
+      "bytes": 227602,
+      "sha256": "4e98262df7e4104270ec3e08f96042b4eabd949bb22dd13d1c5e638df7ef54b9"
+    },
+    {
+      "path": "public/collages/collage-unique-v3-2026-11-07/source/web-prototypes/term-collage-trial-softcore-2026-11-05/assets/originals/朱莉娅_杰克逊_卡梅隆_CC0.jpg",
+      "bytes": 267172,
+      "sha256": "6cb68c6b97be4ac329aef33bfcf41ca3b4a6191b7befb3f6fe0d55cea7731723"
+    },
+    {
+      "path": "public/collages/index.html",
+      "bytes": 3069,
+      "sha256": "8ce7697380da84a4fa6ae6e220686002c5b426abb4b980c577a913bf71d52932"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/README.md",
+      "bytes": 5095,
+      "sha256": "fa7d658814ed980ad49b0ec8ae83b28290284d490c96624b1f910c626d8843b7"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/ambiguity-desktop.svg",
+      "bytes": 7084,
+      "sha256": "deaca0f514bbe520f402598619e1a45d90b706efc4918ce334f05ff205df0cdd"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/ambiguity-mobile.svg",
+      "bytes": 7059,
+      "sha256": "f456c541477e88dfd0bbd9d80f0dc935350872c5935d4669e15fde6d25387d48"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/ambiguity/lovers_artnews_1.jpg",
+      "bytes": 173367,
+      "sha256": "8ec760047b59bb828248b44a5bd9025bd9fcec1480b6678bceab98c1cf470811"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/ambiguity/lovers_artnews_2.jpg",
+      "bytes": 87838,
+      "sha256": "0e80e84dbafa01f689f16cc644baa816eb24a2a1657c2d2d5b798e111a948d8a"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/ambiguity/lovers_icc_1.jpg",
+      "bytes": 53299,
+      "sha256": "23ef31f77e8c259608e10e9ac44317726417b1ea1952229a86289a874efd9966"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/ambiguity/michals_getty_1.jpg",
+      "bytes": 259967,
+      "sha256": "5009fa9fa66a9df7a986b7c0070476e24a4d0463feaa73926d45df2816f39ff2"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/ambiguity/michals_reina_full.jpg",
+      "bytes": 271251,
+      "sha256": "c26e6fd2409bf7513c587cbdab89ee7b298c38c19f763c0bf03790b35dca3dd0"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/ambiguity/veiling_fwm_1.jpg",
+      "bytes": 610336,
+      "sha256": "3ee10b44a1d41d084e616331ca75e8cb7ec647f0361a33da78390d47e746dc77"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/ambiguity/veiling_fwm_2.jpg",
+      "bytes": 139170,
+      "sha256": "56879033aa8932e5971064a40612419d955171cff2c790dd9897218df24fb657"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/ambiguity/veiling_gugg_1.jpg",
+      "bytes": 773167,
+      "sha256": "cba9f98d288be119f6598772d0f82ec0186c7172c5dca7b33621774cdcdc64d7"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/ambiguity/窗前读信的少女_维米尔_公有领域.jpg",
+      "bytes": 705450,
+      "sha256": "1d8dec69bb04c67b30663f808cdca88727efb36bdfc9fcbe00269132b783c568"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/cool/kenna_raw.jpg",
+      "bytes": 3251342,
+      "sha256": "3cc414af826c15c3a6e59ed0c2da1cc58a70184dbbd7956d99e373bf47201357"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/cool/snow_1.jpg",
+      "bytes": 138918,
+      "sha256": "bcfbd0ef9024b6b3a0d53f0ba2825bc3bd778332764003f0e4e784fc0b909d0d"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/cool/snow_2.jpg",
+      "bytes": 124997,
+      "sha256": "74d12f70e0ed0d407dcaf904b57d38d8dedfa4dfd9ba1184cb491b5917793502"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/cool/snow_tp.jpg",
+      "bytes": 362143,
+      "sha256": "8150f30abb0498fa0379c18b9ad605bbed5537b432739ccbdf2d27ba63354eba"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/endtimes/bhadra_destroyer.jpg",
+      "bytes": 289246,
+      "sha256": "c285089513c9118986a03b193b01eb1879920a99aaa7a4b87a08cf4bf0a6a1cd"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/endtimes/city_circulation.jpg",
+      "bytes": 499398,
+      "sha256": "7f00e284b0f1d26dec640a6fabf5d7c8566fc1f2f587b625c647f596cc804ebd"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/endtimes/city_library.jpg",
+      "bytes": 548032,
+      "sha256": "4274c8e6ad0ab7d5eb20d6e97988467ccb4413bf3d8083ce41e9f899a94dde29"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/endtimes/city_subway.jpg",
+      "bytes": 381610,
+      "sha256": "41394b50662ca056d64e8adf937d114545e865db1e484cedb2250c3f7c165e1c"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/endtimes/lastriot_7cgrglf.jpg",
+      "bytes": 1040815,
+      "sha256": "fee6743222052b7739ba0eb4fb0625fe63af1765e2b7e97d8a8c4718e2d00e90"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/endtimes/lastriot_b6dp2a8.jpg",
+      "bytes": 483114,
+      "sha256": "28034d3b6fa4f6035390346a1b5d39405ffcb5862e323beb0c92d4295a8145a7"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/endtimes/lastriot_h2dywgk.jpg",
+      "bytes": 1252976,
+      "sha256": "57a3cd21bd25bd5654b0cb050aa35cece9a1844fc2f6f61ca2e9559af12346e1"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/endtimes/tapestry_angers.jpg",
+      "bytes": 2019147,
+      "sha256": "5bac6641553eb1929239827dd5ab22e144aaaf3b261f08810732d6d994e3261b"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/endtimes/tapestry_hall_sm.jpg",
+      "bytes": 976528,
+      "sha256": "05a394830b9dc203fa9e5a3f7b5adf344a88dfcae1b902def22d122b80abd291"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/endtimes/tapestry_panel.jpg",
+      "bytes": 2182246,
+      "sha256": "9077494985ef463c484eb48d9dfd3a4dacf88a37d8ebc712e463958f15f710a8"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/fated/lajetee_cinematheque.jpg",
+      "bytes": 383074,
+      "sha256": "ae26f23a1e500f497556e999e17067d223f8b4dc794c548bbd8b26b93a708716"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/fated/melancholia_magnolia_1.jpg",
+      "bytes": 2546018,
+      "sha256": "951a177ea83690f27fc7379f4281c16e6f5b7fbc560165b3c89f64162e57c3ac"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/fated/人生的航程_青年_科尔_公有领域.jpg",
+      "bytes": 346409,
+      "sha256": "421275d994268e1809cd42cbd857535aa9bb8a04658c93ca1ec750fd51732dc5"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/fated/伊利亚特威尼斯A抄本细密画_CC0.jpg",
+      "bytes": 265576,
+      "sha256": "04cc6b9ca79c9629d2f93359a18ff8763d1cef3c88f6b32fcb588e374596f1ac"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/fated/第五交响曲手稿_贝多芬_CCBYSA4.0.jpg",
+      "bytes": 144590,
+      "sha256": "f6849d4299c682e0f2557b359b820aea1566e6b2176c68d110d28d067f77f7f0"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/fervor/flower_colossal_01.jpg",
+      "bytes": 610675,
+      "sha256": "f152005355d6aaee3ea8839cc9e4632b255e38a058918f4b495829b0a1d5f23c"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/fervor/flower_colossal_03.jpg",
+      "bytes": 615691,
+      "sha256": "6bde4ba17a1e559561839b2c6ad14c28397568768b93e713c9e82bcb920d59e7"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/fervor/flower_colossal_05.jpg",
+      "bytes": 604522,
+      "sha256": "95eb7dc4da7a4c79396263d1d0f2f4996d736d89a34193114e25e594252ececf"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/fervor/pulse_kanazawa_hires.jpg",
+      "bytes": 774533,
+      "sha256": "6d500eb8bdb59218bc16469c087ab69344203d59efbea0c24ba0023a6377745a"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/fervor/pulse_mexico_hires.jpg",
+      "bytes": 629143,
+      "sha256": "cdae4e860589f11e4cd29706b17d98df0ff83892e8ad9b9bcc997d3d42e02c3f"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/fervor/pulse_room_kanazawa_2025_ko_003.jpg",
+      "bytes": 36082,
+      "sha256": "69da4949fa7145dec40c3a37c3312446a9075f9570cdb26ba3cd47038bc17576"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/fervor/pulse_washington_hires.jpg",
+      "bytes": 587973,
+      "sha256": "0922ca9250c5aae1e677f847fb0c438c2ce93a0c309a82a5ccd68debe4a80e92"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/fervor/酒神与阿里阿德涅_提香_公有领域.jpg",
+      "bytes": 429143,
+      "sha256": "77c30b1ea94167704ebd7a9930b8dcae9eccedd97efb4400a08d53dd3d420cd7"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/first-crush/kidsinlove_aperture.jpg",
+      "bytes": 521007,
+      "sha256": "573919b5ab25391a1d11c51a3c9fca2f8994c96e02a666ce6110acc956c2449d"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/first-crush/kidsinlove_closer.jpg",
+      "bytes": 801283,
+      "sha256": "223d9be769d3e383706f9e4bc627953944567fc14fbe422932a2049bc35c3925"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/first-crush/kidsinlove_july.jpg",
+      "bytes": 363822,
+      "sha256": "75a57bd86d766a9d1fd6fd554d906bcb447936adec07cbfb59c314dfdaad8b27"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/first-crush/prekiss_wmag.jpg",
+      "bytes": 145870,
+      "sha256": "0f7660091f799e1392ddd779109ac8270b6004939282a26d4fd78f86a7ba6438"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/first-crush/teenage_2.jpg",
+      "bytes": 50616,
+      "sha256": "10dee686235bc2e2970fbd31790319c2b3baafccf22892e0ef34c9cd1f7fd249"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/first-crush/teenage_271.jpg",
+      "bytes": 58657,
+      "sha256": "6fd190bd9ad2f7b2b660a71f1ffad1d549c0f0a9b064148d00a59962f3731da1"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/first-crush/teenage_4.jpg",
+      "bytes": 61392,
+      "sha256": "dd49d4ffc8030addd0b4eb988e991a320e5c7750f98da142cd9627e04d97511e"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/first-crush/teenage_7.jpg",
+      "bytes": 39749,
+      "sha256": "fcc7e35400e614033a2d08102ece7ecb1ec578af1b86f53ab148a1aa0b16fe80"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/fonts/2ce479b703b54faa.woff2",
+      "bytes": 76324,
+      "sha256": "2ce479b703b54faa92acf46dc5edc719bb2b2f7ced3f3be6bb910f43aed30d0c"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/fonts/758883b3b8e23791.woff2",
+      "bytes": 27112,
+      "sha256": "758883b3b8e23791c11016c419acc385942a94ec06ec6422b6768fc685d2d2f9"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/fragility/calle_louisiana.jpg",
+      "bytes": 311320,
+      "sha256": "162075f234798140c7dc4b2efccde909430351765700ba48e1e49f5df00e3a15"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/fragility/girl_halfformed.jpg",
+      "bytes": 46796,
+      "sha256": "05638ad04b8d316e7bbe4f55e9612da9d55f40623cd72cd20956c78aa418f57e"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/fragility/glass_menagerie.jpg",
+      "bytes": 46454,
+      "sha256": "64b7003d4d12fd056f6a98ba1a13b50aee84c46ca316e15f9187692e1601fe85"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/fragility/hour_star.jpg",
+      "bytes": 20360,
+      "sha256": "37aa6017eaaf9f3c36b6c14b3ce70249d8d8c56c9eaa8a8a2d06ee107ab33b95"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/fragility/house3.jpg",
+      "bytes": 112815,
+      "sha256": "4f7dc08b9a3b913c1f29acdf51b550e804a940390ccee1a1803e057cc7fa665f"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/inkwash/qiu_exhib_782.jpg",
+      "bytes": 38414,
+      "sha256": "37974a533e34f5df5a7bde70f6c3488d86215e73dbf03dfcd1b132bd1555b78e"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/inkwash/qiu_fosun_632ad00a6f7b5641731039.jpg",
+      "bytes": 345838,
+      "sha256": "46b5ddee752a3b2b515f35511b9a09f0af094867b2bd5ffaf6e19bb912488014"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/inkwash/qiu_fosun_632ad00a70272736467085.jpg",
+      "bytes": 410430,
+      "sha256": "c86c1518ca2e78ac9bc30315e1ce559a4bcfef29b20406bc27241ad17b807066"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/inkwash/qiu_fosun_632ad00a70935911711522.jpg",
+      "bytes": 373348,
+      "sha256": "b0206762363d232f350de1527fece418eda1e60c220a62130537e8267b9787e4"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/inkwash/xubing_chazen_1.jpg",
+      "bytes": 190860,
+      "sha256": "bc4b95024670340b53d3caeaccdd04a591e240a5d5a2e40527f62ae9bce90a09"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/inkwash/xubing_cornell_1.jpg",
+      "bytes": 1175006,
+      "sha256": "58fad13f275ac5197dfc58864ffa70d527ed766da4d9ee9d2dc09e85e04121d6"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/inkwash/xubing_cornell_2.jpg",
+      "bytes": 365440,
+      "sha256": "0e7d9c6ddd0db1e92720c3829865b8c892f1b3b4ae2932d63e26b2912c2f71d5"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/inkwash/yang_phantom_1.jpg",
+      "bytes": 210786,
+      "sha256": "2d52bb8459d39915989ede48acba4071bcc9750b070007af55ad7596dee2f2ae"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/inkwash/yang_phantom_2.jpg",
+      "bytes": 319402,
+      "sha256": "3eba32e9c42a110f9a267a4bf843a13413553df2361087ccc6637696cbaa62e2"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/inkwash/yang_phantom_3.jpg",
+      "bytes": 245086,
+      "sha256": "9bf7df22d354982d218c2e7941751f79b63fb3e28ee29d5155f0a72910a7db4f"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/wasteland/es_billboards.jpg",
+      "bytes": 1826785,
+      "sha256": "0ec2665cc8380e3a444057f343b722abe3a15321449589d2c29db1f8a89def78"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/wasteland/es_on_ramp.jpg",
+      "bytes": 1262368,
+      "sha256": "64f140b1beb2d4d4347161dcf735d8ed1c30b2d332376a65cd933d70a6aaeca0"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/wasteland/es_warmachines.jpg",
+      "bytes": 1970363,
+      "sha256": "5041673e708eebf76f0fecca493f087ecb0397bef5a63e524071bbb1c5f16f77"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/wasteland/gas_bp.jpg",
+      "bytes": 597942,
+      "sha256": "b48b61cb332c563575dcf65723c2ff67b8ac5eb85f91c00dd5c2845dd3b955a1"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/wasteland/gas_chevron.jpg",
+      "bytes": 684640,
+      "sha256": "c643154c009a11042bd108720f3524656496d8d3b6177c4406bfcae5e79adc7d"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/wasteland/gas_shell.jpg",
+      "bytes": 703852,
+      "sha256": "a414e348039c8727d441b72f9aae15e089dcef8e73d1dccb82fc68d7027b5229"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/wasteland/stray_1.jpg",
+      "bytes": 438210,
+      "sha256": "2ecdc0b92c6aa8c8cfddfc92b2d944293eb2b71e0182f42e2eca905f50935df0"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/wasteland/stray_2.jpg",
+      "bytes": 1177712,
+      "sha256": "6b424693720fa306187a6058bd67f80ad074fbfde3ac4a5a8cbab663867b3a9f"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/wasteland/stray_3.jpg",
+      "bytes": 1119763,
+      "sha256": "35ae5b89e19e17a233d1dca9405e1b2a317ff9f3802b9e0c3b14c59c6a659156"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/wuxia/assassin_flixster.jpg",
+      "bytes": 300761,
+      "sha256": "6116a1056450c6173ad61a51506a02a59286482cc1ac33c8897045b2b86a6522"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/wuxia/assassin_lb.jpg",
+      "bytes": 161809,
+      "sha256": "c4d91c20b18284596783ddacdd231bfde81d1f8ee351c1244c58ce8d74a96b84"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/wuxia/damowang_3.jpg",
+      "bytes": 218131,
+      "sha256": "c9816b0607ebf01a30596f18c10e478206b728c90a17dfe4b2b54851133e9845"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/wuxia/damowang_4.jpg",
+      "bytes": 98198,
+      "sha256": "05c49c340ed4c6a9477105f5b3e70d8b9d4987a5bf48a611776700dda1cf7301"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/wuxia/retainers_1_rgb.jpg",
+      "bytes": 669027,
+      "sha256": "e2c1ada0ed4cf7c00c429cc2e0807eb6cca90a454086e5a68070e73c3b613ef1"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/wuxia/retainers_2_rgb.jpg",
+      "bytes": 482198,
+      "sha256": "84b4768cf3a6fcf51fd8336b8cd5953593a56efcc9b1f0de453abc449250f2f9"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/wuxia/retainers_sydney.jpg",
+      "bytes": 164933,
+      "sha256": "de9aead307bf90b7d1a2326181f6f5d435c8a81321ef16a993a47bbe93e18b9e"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/wuxia/yejiang_gug.jpg",
+      "bytes": 332973,
+      "sha256": "5c0afd05a5dcc075df087503885a274e92048bdb2e26d33b214d7a8dd914119a"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/zakka/ginza324.jpg",
+      "bytes": 1037069,
+      "sha256": "28d62aab712cb3a87871da9dcea51c59a9528ad5e0caf020428070ce9067c2a6"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/zakka/neutral4_cover.jpg",
+      "bytes": 339531,
+      "sha256": "ad427eb9ec46360096d8575f7b50528645cb8a1f10a8a13ea4dfe590d63951cd"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/zakka/neutral4_spread.jpg",
+      "bytes": 266100,
+      "sha256": "5d7229f6c0f43ecfdb0abb4f9f9b294b321272a50e0c7425c10a4d7b1c1e3665"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/zakka/popeye782.jpg",
+      "bytes": 120593,
+      "sha256": "2679e6babc3e65e0b5cf4888dc261d42d4e7617c5139864042881556b98bd34b"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/zakka/premium123.jpg",
+      "bytes": 157963,
+      "sha256": "d9d940771872835d12eea010ffa253706d4fcb978319902f7ddc515776324c1c"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/zen/iced_01.jpg",
+      "bytes": 2543225,
+      "sha256": "7950a3680cea6b80859d10742906112aefe55c4787ea981c168d0d971fc6f799"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/zen/iced_09.jpg",
+      "bytes": 3395487,
+      "sha256": "8c720629c7cd9d9362a6388cb4cb221dfca000b3970f6c07c1ad03ba5e5f94ae"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/zen/matrix_art100.jpg",
+      "bytes": 748865,
+      "sha256": "93ded57d980535b733841df0dc3610afd9b51244b759190550ea930f19c9c8fc"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/zen/matrix_pd_1.jpg",
+      "bytes": 308100,
+      "sha256": "4cd9db584835fd1c86169bea5d42bfdb3c0c90bfd425471a30bfb626e2b67c27"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/zen/matrix_pd_3.jpg",
+      "bytes": 871210,
+      "sha256": "760c687ec37f7351aa80e715252e97805611d47a02b3ffbe0b6290532b45592a"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/zen/motoi_lab_charleston.jpg",
+      "bytes": 1042564,
+      "sha256": "7cfd1a099738d37118e2197974ffd69197cf2d7cdffb5cfa691ae31e682dc4f4"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/zen/motoi_lab_roppongi.jpg",
+      "bytes": 1330105,
+      "sha256": "983862cf2be67d1cecdee5230882a3b3939b6a249e7a10ea5172eddcb8c97efd"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/zen/motoi_project_06.jpg",
+      "bytes": 2757444,
+      "sha256": "38656dd60d13cc1fb94807220ba408d46f278a5a5f8d8642f346e6595033703b"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/zen/motoi_sea_03.jpg",
+      "bytes": 2710923,
+      "sha256": "499ff3032eb573ce66b29781a886b217d6d42e82548eafef827c2fe74697e4d4"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/zen/motoi_sea_08.jpg",
+      "bytes": 3016945,
+      "sha256": "bb9e4038713118e7e680f21af2e575382fbcf0eedeee384fb906d4aebd0068f9"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/zen/松林图屏风_左隻_长谷川等伯_公有领域.jpg",
+      "bytes": 139173,
+      "sha256": "fbdc137f069d003ad1ea158282e9e73d3bc9d12ba4a2d69e468634185f1456f2"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/assets/zen/龙安寺石庭_摄影DXR_CCBYSA4.0.jpg",
+      "bytes": 4760120,
+      "sha256": "9b67ff5e13b3b3f82ac13e0c53ef7afc7e8a886819c2c8511ce4c8c570509a40"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/cool-desktop.svg",
+      "bytes": 4264,
+      "sha256": "54f07b4027476c945e07fbae81e2c7d29d057193944c01d4b7d6f7a434c75942"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/cool-mobile.svg",
+      "bytes": 4221,
+      "sha256": "e2464e0f945b2eb0e27660e3a14bca675f46736b9c98afc5ad949f7cf89755b7"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/endtimes-desktop.svg",
+      "bytes": 6572,
+      "sha256": "a0ed34cfe338cdd3892094d23ba38f35b015eab70049ca15bb4534a92d7c5d31"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/endtimes-mobile.svg",
+      "bytes": 6494,
+      "sha256": "b843854d113054dd00a0ab851d5ee8a94141af39face30ab0763685348d7b6fe"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/fated-desktop.svg",
+      "bytes": 6122,
+      "sha256": "8685df160a1ba7dbb65ecce0a58914a2c9716de08eee0e06aa2cc33bee388899"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/fated-mobile.svg",
+      "bytes": 6100,
+      "sha256": "a0bcb79f9774f2c9037510c4a1d0dc5e5ac01969dadef3e3cd7b6618b2e76adb"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/fervor-desktop.svg",
+      "bytes": 6655,
+      "sha256": "5849adb1196ada74a24c8a17ba97b9590963d11d1ae13598b6027fbf2d990310"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/fervor-mobile.svg",
+      "bytes": 6607,
+      "sha256": "e0a894693d13ef952d1f86dadb91cd974d6adf813d6a24558b730b2cf735785e"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/first-crush-desktop.svg",
+      "bytes": 5797,
+      "sha256": "66298bcb536a45cfd9a7ffcbcd21eb8719dc136a97714ab4ce438a7bc02b6a8c"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/first-crush-mobile.svg",
+      "bytes": 5779,
+      "sha256": "205571118144e0a6c5a65ec272c9f9911c9e8cf834153b8ccb0e32e32681c7e3"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/fragility-desktop.svg",
+      "bytes": 6658,
+      "sha256": "d08702b899b2aff2a92b6ad5c5569f622fac31052b90739d1e5e9881115f5acd"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/fragility-mobile.svg",
+      "bytes": 6632,
+      "sha256": "9f28284a0b4d6914760b47022e03931d593a68ac963ee6710b0ec854e32f1209"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/inkwash-desktop.svg",
+      "bytes": 6666,
+      "sha256": "527862cb1abc78674226889146a888452c256022742afa521adedda60e531897"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/inkwash-mobile.svg",
+      "bytes": 6581,
+      "sha256": "a7dad7fddc558a74cfb4753141e278981a9d945bded5801a852e0ec9448ca853"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/licenses/Cormorant-OFL.txt",
+      "bytes": 4388,
+      "sha256": "ecd1b9f2f5bd3ac0614ce50c6024c69044a555afe1dcd79e7a33de738ee59410"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/licenses/Zhuque-OFL.txt",
+      "bytes": 4390,
+      "sha256": "d6cec39519f63e3848da753f071e04cae96322dc92f5834734f9060cc6322104"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/wasteland-desktop.svg",
+      "bytes": 7179,
+      "sha256": "7fe75b30cac3d59fb963a7cd98f6dfebacc29b84f2ad18ab94cdf9258c7d547e"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/wasteland-mobile.svg",
+      "bytes": 7118,
+      "sha256": "2db2d13e7497bf2cc79e70bee0293a07b3e00984e4e66e5c679d89d2a4f3d0d5"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/wuxia-desktop.svg",
+      "bytes": 6894,
+      "sha256": "58c43ef2642a7742fefca9263db8de4d665d93233c0854c83270e048ca72e7b4"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/wuxia-mobile.svg",
+      "bytes": 6840,
+      "sha256": "21235e0dd978d48af0a1293219f113cd71d69493f5f790e59d008db132551adc"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/zakka-desktop.svg",
+      "bytes": 5949,
+      "sha256": "574a973d87260fc96bc1bd49dc29dd2b65c2680646b5eb895b6ac0b3fdfb4fc6"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/zakka-mobile.svg",
+      "bytes": 5917,
+      "sha256": "d32f71c6b17098e5cd6578a537e10f86a8293f068726d6821fee22b8ea6f987b"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/zen-desktop.svg",
+      "bytes": 7576,
+      "sha256": "8f395a8f1ce01e150b724e691169299df7d2a3bfa7332816d5d4f809ffc18f8e"
+    },
+    {
+      "path": "public/collages/remaining-twelve-dense-2026-11-07/zen-mobile.svg",
+      "bytes": 7548,
+      "sha256": "681e2e8e7eb84244d4961aa5c1e78bae5ea5e9ac5596e8adeebc2eb9f13f7764"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/ACCEPTANCE.md",
+      "bytes": 480,
+      "sha256": "d3fbf2516a65202b3f3f95ba63d87434f8e9120c466445864cf7294123312e64"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/README.md",
+      "bytes": 2485,
+      "sha256": "da82118794cf66ab9aacf47c75daafd853c6f75c4b05326aefadd4d2f694200d"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/assets/fonts/2ce479b703b54faa.woff2",
+      "bytes": 76324,
+      "sha256": "2ce479b703b54faa92acf46dc5edc719bb2b2f7ced3f3be6bb910f43aed30d0c"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/assets/fonts/758883b3b8e23791.woff2",
+      "bytes": 27112,
+      "sha256": "758883b3b8e23791c11016c419acc385942a94ec06ec6422b6768fc685d2d2f9"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/assets/hustle/spoerri_buffalo_full.jpg",
+      "bytes": 153771,
+      "sha256": "e275e88105cde18d86c9899d1413f592b95182ffb1df6a7fe2e15082e7d06761"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/assets/hustle/spoerri_kunst.jpg",
+      "bytes": 79264,
+      "sha256": "7c41a920f1142558597ccebd0ee1debd261769b22fa2b6ff78660e9c1be2c343"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/assets/hustle/storefront_01.jpg",
+      "bytes": 488691,
+      "sha256": "3c7e0cde407ee00ddf5078998c4dae64f07fa8f8adc89d0d88fea42964ec1a4a"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/assets/hustle/storefront_03.jpg",
+      "bytes": 476455,
+      "sha256": "dd5d7e19b42c805f8df7b90f79005ebba2500ea21ced50c2a615bf95095810c7"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/assets/hustle/storefront_p020-021.jpg",
+      "bytes": 649694,
+      "sha256": "ec60d7b409695427d78edb18c5fee12e3de3f17160c0b73ddc593b2a920f5ce3"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/assets/hustle/storefront_p036-037.jpg",
+      "bytes": 558986,
+      "sha256": "fe2ff1f7f0c96f61dc6763026cc4aa2d824093855ef037dc0d48d769faab2b73"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/assets/hustle/wastenot_caps_2k.jpg",
+      "bytes": 874809,
+      "sha256": "9a308f3de5ec9314395779218e57792e17fdffac011d3d9c150187d1a621dd5e"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/assets/hustle/wastenot_domestic_2k.jpg",
+      "bytes": 690441,
+      "sha256": "d13e26a58096f490d16acee79dc101980d86b7ee0299b405a10fbe1caca8461c"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/assets/hustle/wolf_back_door_01.jpg",
+      "bytes": 242936,
+      "sha256": "0107d22506c3b04dd19b776169679c66ce8e36337bb552a30fdcf1d9dc69c091"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/assets/hustle/wolf_back_door_02.jpg",
+      "bytes": 229786,
+      "sha256": "43ef3dc6aacb05da036abe2c4f8668461696547ca3750b6566e3bb599a1cfceb"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/assets/hustle/wolf_back_door_03.jpg",
+      "bytes": 221403,
+      "sha256": "accbd68b40c920311adbcbfdfef8c620f58d08b6fa875a0dbf5b41a039e1841f"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/assets/hustle/wolf_back_door_05.jpg",
+      "bytes": 241892,
+      "sha256": "182373921aa27583eba0478ef256bd40ef403f2f3bba9b939d05eabe63e18514"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/assets/hustle/wolf_back_door_08.jpg",
+      "bytes": 249646,
+      "sha256": "1e59cb02a28e5195991744a4d554885fdc2c801a5186704f2b6f0c650aedc75c"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/assets/hustle/wolf_back_door_09.jpg",
+      "bytes": 222472,
+      "sha256": "96152587d86138a72d8a87767d03eba722dc69677604359844fac02fc1618fbc"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/assets/hustle/wolf_back_door_12.jpg",
+      "bytes": 226329,
+      "sha256": "f3e7a5a63bc964b067dd20151cbecfb7f0cffd2369cb9234dbc723c729f3d198"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/assets/new-chinese/brick_aerial.jpg",
+      "bytes": 292298,
+      "sha256": "51d05fa16367c844ef82be2c870fbe71d71de732a7856c2af2d0f3a91aac5d97"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/assets/new-chinese/brick_corridor.jpg",
+      "bytes": 544746,
+      "sha256": "556faf3d896f0971c31826a812d05853391005b9994926b79fa15e8ca3b0236a"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/assets/new-chinese/brick_courtyard.jpg",
+      "bytes": 454539,
+      "sha256": "afd674c53de97e72922bb909cb9dc51568d2195c6732e20a5aee94d5b78cf7b5"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/assets/new-chinese/samuel_vogue.jpg",
+      "bytes": 281285,
+      "sha256": "8f144683289f83644368a969130a434dca5361f950be659296a478d3da0fada6"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/assets/new-chinese/samuel_vogue2.jpg",
+      "bytes": 295305,
+      "sha256": "0892a41c47506b6f4cc48756a9ef2bfb0124978d3eec6253117f2f46f16d5bf7"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/assets/new-chinese/shaofan_wright.jpg",
+      "bytes": 139487,
+      "sha256": "d878154f5011a46169c6d70bb7fe2370e86b6e56cd78aaf6cd66b2440bcaeb06"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/assets/translucent/illum_01_R.jpg",
+      "bytes": 899644,
+      "sha256": "6dd67e2656d6a8c75b1071cd53a9b505bb2212b9a5a900fff8c12a77d3f06145"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/assets/translucent/illum_02_L.jpg",
+      "bytes": 371936,
+      "sha256": "86309438eae6dad6c41fb9fce249904fb9312ee83e08349714c7f28b29f9c09f"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/assets/translucent/illum_02_R.jpg",
+      "bytes": 1107119,
+      "sha256": "007755e1f0cbc15c7052a6adf5dda49a2d94f832c65c21e5b04af6570340ca98"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/assets/translucent/illum_03_L.jpg",
+      "bytes": 1725517,
+      "sha256": "c23d267401b9b5111ddb17382ebfe9781faf4e78e00d70d3a35bd3d9da1285b4"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/assets/translucent/illum_03_R.jpg",
+      "bytes": 1219069,
+      "sha256": "646cab7db4a3c47582638dd7887312986970ea443b04d25769098e018abf5776"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/assets/translucent/illum_04_L.jpg",
+      "bytes": 1221514,
+      "sha256": "886cfa0cf0b27f126e2415d2a804ea81961c35e475e0e84bd9f78d53d83231a8"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/assets/translucent/illum_cover.jpg",
+      "bytes": 1925905,
+      "sha256": "83633244cef4e06ec9992588915cb311123095e543aad6716f071b58c7a6c218"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/assets/translucent/liquid_03.jpg",
+      "bytes": 332518,
+      "sha256": "150cbda2b7316442cf742ea55807a522e6551a3ccde9831040cc836c73666986"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/assets/translucent/liquid_10.jpg",
+      "bytes": 171916,
+      "sha256": "b76f1f5cc434325f789d5b213e23760606f276b21c40bfa0a76c93cd2f9877fa"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/assets/translucent/liquid_11.jpg",
+      "bytes": 328312,
+      "sha256": "bd3f07aa0d99a11f04d32fb286e6bc9c74f711fdeeb7d76606241717a4798b4d"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/assets/translucent/liquid_12.jpg",
+      "bytes": 186603,
+      "sha256": "e44aa30e771b849d61906be462cd498a8b814e78142cbdc0c06d1f4888aab317"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/assets/translucent/rain_02.jpg",
+      "bytes": 14128,
+      "sha256": "1ed6f5d857023303ef0f451d4b805fc4e4902d70c1b88edd842f97693e27ea70"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/assets/translucent/rain_jb_35.jpg",
+      "bytes": 203719,
+      "sha256": "129af8e4e7e9f7843766db669c8ae2fcef7fe676af302e81e7869a60220739e1"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/assets/translucent/rain_sketch.jpg",
+      "bytes": 46609,
+      "sha256": "6a135b0f1cc8b86644596f4b88be5622b833f37fcb27bef9ce45daa485f9ff08"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/assets/translucent/well_alt_143255.jpeg",
+      "bytes": 956212,
+      "sha256": "13f6ad9863bec252d3239a22f4e3e4adf25702a446090f7c3cd41e7f7c0efd42"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/assets/translucent/well_kub_og3.jpg",
+      "bytes": 352608,
+      "sha256": "6645d32de8043ba9d097b3ec24e26fb8456ac49b6e037e7e571a2a1258f51f9e"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/assets/translucent/well_pinault_2.jpg",
+      "bytes": 83446,
+      "sha256": "9a8a28b4efd55e8fb6d612a975c8da582e1492674957349b8c8c33e1f17480e4"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/hustle-desktop.svg",
+      "bytes": 8967,
+      "sha256": "4cb8809325c26030287a1ba253fefdcb2e2d79021e081800abecaf92259a884f"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/hustle-mobile.svg",
+      "bytes": 8887,
+      "sha256": "d5edc14ffa216528c0911d762a2ed430257a4f1a4b4b7e29680eb301cfb5cbab"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/licenses/Cormorant-OFL.txt",
+      "bytes": 4388,
+      "sha256": "ecd1b9f2f5bd3ac0614ce50c6024c69044a555afe1dcd79e7a33de738ee59410"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/licenses/Zhuque-OFL.txt",
+      "bytes": 4390,
+      "sha256": "d6cec39519f63e3848da753f071e04cae96322dc92f5834734f9060cc6322104"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/new-chinese-desktop.svg",
+      "bytes": 9394,
+      "sha256": "fcb29b45100eee5e63b6430021cbc573626c686c5892f2288da725abe6982881"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/new-chinese-mobile.svg",
+      "bytes": 9317,
+      "sha256": "cce31938af0ef23d77130b719328ffcb4fbff2f7741732a5927b439e180a0a1c"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/translucent-desktop.svg",
+      "bytes": 9778,
+      "sha256": "8c2956af1dfb0fbc54d718ca32471ecf21d266ebfbab2acabbd6ee9c740281d1"
+    },
+    {
+      "path": "public/collages/three-pinterest-dense-v2-2026-11-07/translucent-mobile.svg",
+      "bytes": 9775,
+      "sha256": "16597295a13c462734cb97a551da10d677d7d62e14ad9d5290014ce180e66306"
+    },
+    {
+      "path": "public/term-assets/collage.css",
+      "bytes": 1431,
+      "sha256": "50511fcedf42860b5c4bc46b357257282ec04215720b809ecbc294e945d1fb24"
+    },
+    {
+      "path": "public/term-assets/collage.js",
+      "bytes": 3153,
+      "sha256": "6eaf07fc1b599f6a5eca804eb4b024bb5eb410f4ad51620e886c867f0b9acb2a"
+    },
+    {
+      "path": "public/term-assets/term-page.js",
+      "bytes": 7964,
+      "sha256": "785e4a7ac84342102da4f5e0bd98ec8ec0bc23830e6d9a987231a336c94b0f36"
+    },
+    {
+      "path": "public/terms/7265637a7a3238484a4a4c32474a5331/index.html",
+      "bytes": 37662,
+      "sha256": "433141e18b95f96182cf15a27c05bda7da36d6f402464fad096dfb6f704ff191"
+    },
+    {
+      "path": "public/terms/7265637a7a3238484a4a4c32474a6874/index.html",
+      "bytes": 26180,
+      "sha256": "212ccd12773a1c6670b71f92a370c443481a82b9032231b7ac3a5360918b265e"
+    },
+    {
+      "path": "public/terms/7265637a7a3238484a4a4c32474a7437/index.html",
+      "bytes": 25326,
+      "sha256": "62b84848e3d1696ce675eca64d66d364e5784b329d91df5ed970f31d8f9fd060"
+    },
+    {
+      "path": "public/terms/7265637a7a3238484a4a4c32474b6b45/index.html",
+      "bytes": 31734,
+      "sha256": "97494bc3aae36d56679b7df5d9ffc0c8c5a3fbde396295b21b627d727d68b1d5"
+    },
+    {
+      "path": "public/terms/7265637a7a3238484a4a4c32474c4a62/index.html",
+      "bytes": 34869,
+      "sha256": "6a0539238404ae3145bea665784fdf751021d6f3f3d7d6bfce926521bfcefab9"
+    },
+    {
+      "path": "public/terms/7265637a7a3238484a4a4c32474c5a30/index.html",
+      "bytes": 20391,
+      "sha256": "5169e6e6172ab75ea9c7917b360da428b220143417d4b85d9605bc173908b38f"
+    },
+    {
+      "path": "public/terms/7265637a7a3238484a4a4c32474c764a/index.html",
+      "bytes": 26640,
+      "sha256": "cbf7be0d03590d81cac2da3d9f645ee62546b233c2c87b12e59e9d6ff12f1ece"
+    },
+    {
+      "path": "public/terms/7265637a7a3238484a4a4c32474c7875/index.html",
+      "bytes": 25855,
+      "sha256": "f6082f20c1bbd4884845253ad3372ff15ff2f25a1ffa09563faadef316de2b24"
+    },
+    {
+      "path": "public/terms/7265637a7a3238484a4a4c32474d4241/index.html",
+      "bytes": 35339,
+      "sha256": "ad24790d45fb15c5e26a0b02e3cbc0eda9c78e6fbc8fef8a864a7aa4fb4d1e6c"
+    },
+    {
+      "path": "public/terms/7265637a7a3238484a4a4c32474d6363/index.html",
+      "bytes": 24238,
+      "sha256": "47650b5bf8257fe25ce6c39e5e658d675c1c61d75f0810918958ce89abcb8317"
+    },
+    {
+      "path": "public/terms/7265637a7a3238484a4a4c32474d7874/index.html",
+      "bytes": 30302,
+      "sha256": "76121d32f9029dd598d07b04e88057bf7423765b004f15c79708e20ebe928cbf"
+    },
+    {
+      "path": "public/terms/7265637a7a3238484a4a4c32474e3771/index.html",
+      "bytes": 28190,
+      "sha256": "961da47468630eed84b13f8ab2e5a4f0dc013945b65d31da4cf496ac724dc829"
+    },
+    {
+      "path": "public/terms/7265637a7a3238484a4a4c32474e4f61/index.html",
+      "bytes": 28196,
+      "sha256": "5bed27fc482abc6f8ba7c9d08f331502a7d96c6a15340c78f63087bc606b5769"
+    },
+    {
+      "path": "public/terms/7265637a7a3238484a4a4c32474e5350/index.html",
+      "bytes": 26027,
+      "sha256": "89ed67a0bfa584d4f772e4638ebc288ff8761f3d5f8c2bed3662e18ca96828ca"
+    },
+    {
+      "path": "public/terms/7265637a7a3238484a4a4c32474e6378/index.html",
+      "bytes": 26797,
+      "sha256": "22b40ec9e6d12f3c4d132caf4475942dabb4164e3bb77f573a8f2897b54ea575"
+    },
+    {
+      "path": "public/terms/7265637a7a3238484a4a4c32474e7163/index.html",
+      "bytes": 34419,
+      "sha256": "c0c8ecda441db74ff6b815d0ecc337f47e022524641748aa677d27a4cc048190"
+    },
+    {
+      "path": "public/terms/7265637a7a3238484a4a4c32474f7466/index.html",
+      "bytes": 21041,
+      "sha256": "78ff167397c4621631080c99bb5d06103224d9ee32c8b983e783ab6f4c208fdf"
+    },
+    {
+      "path": "public/terms/7265637a7a3238484a4a4c324750346e/index.html",
+      "bytes": 25231,
+      "sha256": "ed0b1d68c69758515ccd43b5adb76725d0e7c304d9c8bc7811ee50ffea4fb1f4"
+    },
+    {
+      "path": "public/terms/7265637a7a3238484a4a4c3247503752/index.html",
+      "bytes": 28545,
+      "sha256": "c932332d7fb0cc9f9b42e5df0ac94f3a16e1ecda2be24a6e7b6e8855df2d145e"
+    },
+    {
+      "path": "public/terms/7265637a7a32384d4b70374864446947/index.html",
+      "bytes": 27972,
+      "sha256": "39c4069ea90df047396ba78b33f9fb714280b5030716132dbb8214fd8bdf7d4f"
+    },
+    {
+      "path": "scripts/build.py",
+      "bytes": 12410,
+      "sha256": "a3517705ad7cc29260b4e119644954db02a6c6ffa87dca8441e36e7ad1fee9f2"
+    },
+    {
+      "path": "scripts/import_collages.py",
+      "bytes": 4561,
+      "sha256": "ef32813746ba7d3e418e4facbd436fe9e40dca9d2055f50963355d8b501ce5af"
+    },
+    {
+      "path": "src/collages.json",
+      "bytes": 101519,
+      "sha256": "ba645b92afe9a4fc587003f8643f0dee59c138215013cfe8373cf270619664e4"
+    }
+  ]
+}

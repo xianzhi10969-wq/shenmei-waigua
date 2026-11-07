@@ -11,6 +11,7 @@ PUBLIC = ROOT / 'public'
 CATALOG = json.loads((ROOT / 'src/catalog.json').read_text())
 TEMPLATE = (ROOT / 'src/term/index.html').read_text()
 COQUETTE_ID = 'reczz28HJJL2GJHl'
+COLLAGES = {row['termId']: row for row in json.loads((ROOT / 'src/collages.json').read_text())} if (ROOT / 'src/collages.json').exists() else {}
 
 
 def route_key(record_id):
@@ -57,7 +58,7 @@ def case_markup(case, index, term=None):
             supplementary.append(f'<section class="case-detail"><h4>{label}</h4>{paragraphs(case[field])}</section>')
     official = safe_url(case.get('official', ''))
     source = f'<a class="official" href="{escape(official)}" target="_blank" rel="noopener">查看作品官方页面 ↗</a>' if official else ''
-    destination = '#top' if term and term['id'] == COQUETTE_ID else '#opening'
+    destination = '#top' if term and (term['id'] == COQUETTE_ID or term['id'] in COLLAGES) else '#opening'
     back_label = '↑ 回到风格图谱' if destination == '#top' else '↑ 回到词条开场'
     metadata = ' · '.join(str(case.get(field, '')) for field in ['author', 'year', 'collection'] if case.get(field))
     layout_class = 'case-layout' if images else 'case-layout text-only'
@@ -105,11 +106,28 @@ def build_term(term):
     if term['id'] != COQUETTE_ID:
         start = page.index('<div class="board-shell">')
         end = page.index('<article class="reading"', start)
-        page = page[:start] + (
+        board = (
             f'<div class="board-shell"><section class="board text-board" id="top" aria-label="{escape(term["name"])}的作品阅读">'
             f'<h2 class="title">{escape(term["name"])}</h2><p class="map-index"></p>'
             f'<p class="core">{escape(term["core"])}</p></section></div>'
-        ) + page[end:]
+        )
+        if term['id'] in COLLAGES:
+            collage = COLLAGES[term['id']]
+            board = (
+                f'<div class="board-shell"><section class="board collage-board" id="top" aria-label="{escape(term["name"])}风格图谱">'
+                f'<h2 class="title sr-only">{escape(term["name"])}风格图谱</h2><p class="map-index" hidden></p>'
+                f'<object class="collage-art" type="image/svg+xml" aria-label="{escape(term["name"])}拼贴，点击作品查看原图" '
+                f'data-desktop="{collage["desktop"]}" data-mobile="{collage["mobile"]}" '
+                f'style="--desktop-ratio:{collage["desktopRatio"]};--mobile-ratio:{collage["mobileRatio"]}">'
+                f'<a href="{collage["desktop"]}" target="_blank">打开完整拼贴</a></object>'
+                f'<p class="core collage-core">{escape(term["core"])}</p></section></div>'
+                '<script type="application/json" id="collage-data">' + json.dumps(collage, ensure_ascii=False).replace('</', '<\\/') + '</script>'
+            )
+            page = page.replace('</head>', '<link rel="stylesheet" href="/term-assets/collage.css"><script defer src="/term-assets/collage.js"></script></head>')
+        # Recalculate because the optional head tags shift the substring offsets.
+        start = page.index('<div class="board-shell">')
+        end = page.index('<article class="reading"', start)
+        page = page[:start] + board + page[end:]
     start = page.index('<article class="reading"')
     end = page.index('<section class="notes">', start)
     body = '<section class="understanding"><p>Coquette 最初并不是一种关于粉色、蕾丝、蝴蝶结的美学，而是一种关于「如何制造吸引力」的行为艺术。这件事早在一百多年前，就有社会学家专门研究过。</p></section>' if term['id'] == COQUETTE_ID else ''
@@ -140,10 +158,19 @@ def main():
         (PUBLIC / 'term-assets' / name).write_text(text)
     for term in CATALOG['terms']:
         build_term(term)
+    build_collage_index()
     case_dir = PUBLIC / 'cases'
     case_dir.mkdir(exist_ok=True)
     (case_dir / 'index.json').write_text(json.dumps(CATALOG['cases'], ensure_ascii=False))
     print(f'Built {len(CATALOG["terms"])} terms and retained {len(CATALOG["cases"])} cases.')
+
+
+def build_collage_index():
+    rows = [{'termId': COQUETTE_ID, 'name': 'Coquette', 'status': 'accepted'}] + list(COLLAGES.values())
+    links = ''.join(f'<li><a href="/terms/{route_key(row["termId"])}/?collage=1">{escape(row["name"])}</a><span>{"待审图" if row["status"] == "pending-review" else "已确认拼贴"}</span></li>' for row in rows)
+    directory = PUBLIC / 'collages'
+    directory.mkdir(exist_ok=True)
+    (directory / 'index.html').write_text('<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>拼贴目录 · 审美外挂</title><link rel="stylesheet" href="/assets/fonts.css"><style>body{max-width:760px;margin:48px auto;padding:0 24px;background:#f8f6ef;color:#263c32;font:18px/1.8 Georgia,"Songti SC",serif}a{color:inherit;text-underline-offset:5px}h1{font-size:32px;font-weight:400}ul{padding:0;list-style:none}li{display:flex;justify-content:space-between;gap:24px;padding:12px 0;border-bottom:1px solid #263c3222}span{font-size:13px;color:#6c756d}</style><nav><a href="/">← 整站首页</a> · <a href="/#/chapters">全部专题</a></nav><h1>风格图谱 · 拼贴目录</h1><p>21 张拼贴已接入词条。点击直达图谱，往上回到开场，往下阅读完整案例。</p><ul>' + links + '</ul></html>')
 
 
 if __name__ == '__main__':

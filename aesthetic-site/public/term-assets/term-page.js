@@ -67,7 +67,7 @@ document.querySelectorAll('.figure-ref').forEach(a=>a.addEventListener('click',e
 document.querySelectorAll('.back-to-map').forEach(a=>a.addEventListener('click',e=>{
  e.preventDefault();if(a.hash==='#opening'){replay();return;}const target=returnToRef||document.querySelector('.board .title');target.setAttribute('tabindex','-1');scrollToContent(target,true);target.focus({preventScroll:true});if(returnToRef)returnToRef.tabIndex=0;
 }));
-layout();window.demoReady=Promise.all([document.fonts.ready,...[...document.querySelectorAll('.opening img,.board img')].map(i=>i.decode().catch(()=>{}))]);window.demoReady.then(()=>{loaded=true;layout();if(query.has('cases')){finishReveal();scrollToContent(document.querySelector('.cases-heading'));}else{stage.scrollTop=0;render();stage.focus({preventScroll:true});}schedule();});
+layout();window.demoReady=Promise.all([document.fonts.ready,...[...document.querySelectorAll('.opening img,.board img')].map(i=>i.decode().catch(()=>{}))]);window.demoReady.then(()=>{loaded=true;layout();if(query.has('collage')){finishReveal();scrollToContent(document.querySelector('.board'));}else if(query.has('cases')){finishReveal();scrollToContent(document.querySelector('.cases-heading'));}else{stage.scrollTop=0;render();stage.focus({preventScroll:true});}schedule();});
 
 // Preserve an explicitly selected parent chapter for terms that belong to more than one.
 const parentNavigation = document.querySelector('.term-parent');
@@ -76,3 +76,6 @@ const allowedParents = JSON.parse(parentNavigation?.dataset.parents || '[]');
 if (requestedParent && allowedParents.includes(requestedParent)) {
   parentNavigation.querySelector('a').href = '/#/chapter/' + encodeURIComponent(requestedParent);
 }
+
+// Shared bridge for archived SVG collages; keep Coquette's reveal behavior unchanged.
+window.termCollageNavigation={openCase(target,src){finishReveal();returnToRef=null;if(src)selectImage(target,src);scrollToContent(target);target.focus({preventScroll:true});}};

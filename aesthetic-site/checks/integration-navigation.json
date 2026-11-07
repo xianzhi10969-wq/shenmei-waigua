@@ -1,0 +1,12 @@
+{
+  "homepageStarNavigation": true,
+  "browserBack": true,
+  "chapterReturn": true,
+  "coquetteExactImage": true,
+  "nativeSVGClick": true,
+  "escapeClose": true,
+  "nativeWheelOverSVG": true,
+  "reverseScrollToOpening": true,
+  "responsiveSwap": true,
+  "errors": []
+}
