@@ -1,0 +1,38 @@
+{
+  "p5-half-door-original.png": {
+    "source": "Figma968:226 / 902:45",
+    "imageHash": "8dce8fe4292fe7640d1d6bbc3a4c6bd32c4d85db",
+    "bytes": 1473082,
+    "sha256": "ab7798a8658e837b3aedd78abd59a3946d7d6a30daf7a8f9e0cf8efdcabda29c"
+  },
+  "p5-foliage-v6.png": {
+    "source": "Figma968:249",
+    "imageHash": "c8f76c2211b3f05badabe0d3205939fa14de6fe6",
+    "bytes": 207963,
+    "sha256": "ab4e9ca1ff9f2b72673284b258e512412bdace406188b7477ca04afe19933c01"
+  },
+  "star-mobile.svg": {
+    "source": "Figma968:227",
+    "size": "44x44",
+    "bytes": 2912,
+    "sha256": "3e432f887c8ca15cb57bbd39752a11af62587544dfc269bc5feea20f515e3538"
+  },
+  "star-desktop.svg": {
+    "source": "Figma902:46",
+    "size": "48x48",
+    "bytes": 2693,
+    "sha256": "16c45c262fdff0d8f5810261d494a0d61907f4eb539b17587a6fe735f76f7788"
+  },
+  "noto-serif-sc-300-p5.ttf": {
+    "source": "Google Fonts Noto Serif SC, text subset, weight 300",
+    "license": "SIL OFL 1.1",
+    "bytes": 23576,
+    "sha256": "9fe24f79981542011ead0f61c9ced176bb6d8a130094fb1f5340497dbc514afb"
+  },
+  "noto-serif-sc-400-p5.ttf": {
+    "source": "Google Fonts Noto Serif SC, text subset, weight 400",
+    "license": "SIL OFL 1.1",
+    "bytes": 23600,
+    "sha256": "6216d286d02132091cee4a205108427077b357cfddca3c47d06e2b12d15c4364"
+  }
+}

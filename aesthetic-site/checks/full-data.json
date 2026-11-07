@@ -1,0 +1,13 @@
+{
+  "terms": 101,
+  "caseEndpoints": 144,
+  "localMedia": 407,
+  "brokenLocalTermReferences": [],
+  "fullCaseAnalysis": "verified for every linked case",
+  "sourceRevisions": {
+    "chapters": 118,
+    "terms": 232,
+    "cases": 412,
+    "sections": 38
+  }
+}

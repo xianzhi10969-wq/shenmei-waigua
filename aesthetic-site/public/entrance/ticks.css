@@ -1,0 +1,9 @@
+.pager{position:relative;display:block;flex:none;width:593px;height:40px;margin:36.889px 0 0;left:.5px}
+.arrow{position:absolute;top:0;padding:10px 3.5px;min-width:42px;width:42px;height:40px;min-height:40px}
+#previous{left:0}#next{right:0}
+.ruler{position:absolute;inset:0;pointer-events:none;--spacing:20px;--normal:6px;--active:12px;--start:10.5px}
+.tick-strip{position:absolute;left:56px;top:0;width:480px;height:40px;overflow:hidden}
+.tick,.current-tick{position:absolute;display:block;background:var(--ink);top:calc((40px - var(--normal))/2);left:calc(var(--start) + var(--i)*var(--spacing) - .5px);width:1px;height:var(--normal)}
+.current-tick{left:calc(var(--start) - 1px);top:calc((40px - var(--active))/2);width:2px;height:var(--active);transform:translateX(calc(var(--position)*var(--spacing)));will-change:transform}
+
+@media(max-width:680px){.pager{width:289px;height:40px;margin-top:5.26px}.ruler{--spacing:8px;--normal:5px;--active:10px;--start:4.5px}.tick-strip{left:48px;width:192px}}

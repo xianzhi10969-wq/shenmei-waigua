@@ -1,0 +1,5 @@
+.standalone-case-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:36px;align-items:start}
+.case-page .reading{max-width:1128px}.case-index-link{display:block;padding:24px 0;border-bottom:1px solid #c7bdb2;text-decoration:none}.case-index-link span{display:block;font-size:14px;margin-top:10px;color:#80766e}
+.site-directory-trigger{border:0;background:none;color:inherit;font:14px/24px inherit;cursor:pointer;padding:12px 0}
+.site-directory-slot{position:relative;max-width:1080px;margin:0 auto;padding:12px 24px}
+@media(max-width:700px){.standalone-case-layout{display:block}.standalone-case-layout .case-copy{margin-top:32px}}

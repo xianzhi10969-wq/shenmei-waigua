@@ -1,0 +1,152 @@
+{
+  "verifiedDate": "2026-11-07",
+  "source": "Feishu read-only aesthetic-feishu/user",
+  "counts": {
+    "chapters": 24,
+    "terms": 101,
+    "rawCases": 195,
+    "retainedCases": 144,
+    "publishedTerms": 55,
+    "pendingTerms": 46,
+    "localMedia": 407,
+    "feelings": 40,
+    "questions": 9,
+    "imagery": 70,
+    "resources": 60
+  },
+  "revisions": {
+    "chapters": 118,
+    "terms": 232,
+    "cases": 412,
+    "sections": 38,
+    "feelings": 8,
+    "questions": 7,
+    "imagery": 6
+  },
+  "knownContentIssues": {
+    "rawCounts": {
+      "chapters": 24,
+      "terms": 101,
+      "cases": 195,
+      "sections": 34
+    },
+    "publicCases": 144,
+    "publishedTerms": 55,
+    "publishedMissingCover": [
+      "梦核",
+      "甜亚系",
+      "复古摇滚",
+      "意难平",
+      "青涩",
+      "松弛感",
+      "波普",
+      "颓废美学",
+      "odd 风格"
+    ],
+    "chapters": [
+      {
+        "name": "忧郁",
+        "count": 2
+      },
+      {
+        "name": "爱欲",
+        "count": 4
+      },
+      {
+        "name": "田园",
+        "count": 4
+      },
+      {
+        "name": "幽玄",
+        "count": 5
+      },
+      {
+        "name": "酒神",
+        "count": 6
+      },
+      {
+        "name": "留白",
+        "count": 5
+      },
+      {
+        "name": "平淡",
+        "count": 4
+      },
+      {
+        "name": "物哀",
+        "count": 5
+      },
+      {
+        "name": "日常",
+        "count": 4
+      },
+      {
+        "name": "侘寂",
+        "count": 2
+      },
+      {
+        "name": "气韵",
+        "count": 3
+      },
+      {
+        "name": "侠",
+        "count": 3
+      },
+      {
+        "name": "轻逸",
+        "count": 3
+      },
+      {
+        "name": "崇高",
+        "count": 2
+      },
+      {
+        "name": "从容",
+        "count": 2
+      },
+      {
+        "name": "酷",
+        "count": 4
+      },
+      {
+        "name": "怪诞",
+        "count": 3
+      },
+      {
+        "name": "阴翳",
+        "count": 5
+      },
+      {
+        "name": "悲剧",
+        "count": 4
+      },
+      {
+        "name": "废墟",
+        "count": 2
+      },
+      {
+        "name": "未来想象",
+        "count": 6
+      },
+      {
+        "name": "乡愁",
+        "count": 8
+      },
+      {
+        "name": "诡异",
+        "count": 5
+      },
+      {
+        "name": "可爱",
+        "count": 6
+      }
+    ],
+    "unmatchedCases": [
+      "reczz28HJJL2Nj4k",
+      "reczz28HJJL2Nj7N",
+      "reczz28HJJL2NjKe",
+      "reczz28HJJL2NjNu",
+      "reczz28HJJL2Nnrp"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+/* One native scroll surface: the opening remains reachable above the map. */
+.stage{overflow-y:auto;overflow-x:hidden;overscroll-behavior-y:contain;outline:none;scroll-behavior:auto;scrollbar-width:thin}
+.scene{position:sticky;top:0;height:100%;margin-bottom:calc(var(--transition-distance) - (100dvh - 56px));pointer-events:none}
+.capture .scene{margin-bottom:calc(var(--transition-distance) - 100dvh)}
+.scene .paper{position:absolute;inset:0}
+.scene .opening{position:absolute;inset:0;background:transparent;overflow:hidden}
+.scene .opening .opening-inner{min-height:720px}
+.map-layer{position:relative;inset:auto;overflow:visible;height:auto;will-change:opacity,transform;scrollbar-width:auto}
+.stage .map-layer{overflow:visible}
+.controls button{min-width:96px}
+@media(max-width:700px){.scene .opening .opening-inner{transform:translateY(-120px);min-height:0}.controls button{min-width:84px;font-size:12px}}

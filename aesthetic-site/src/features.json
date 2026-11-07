@@ -1,0 +1,2728 @@
+{
+  "feelings": [
+    {
+      "id": "reczz28HiWupie6K",
+      "name": "神秘",
+      "alias": "神秘感、有秘密、猜不透",
+      "description": "你看见足够多的线索，却总有一小块藏在转角后，忍不住想再往里走。",
+      "order": 1,
+      "chapterNames": [
+        "幽玄",
+        "阴翳",
+        "酷"
+      ],
+      "termNames": [
+        "朦胧",
+        "清冷",
+        "幽光",
+        "暗黑",
+        "腹黑"
+      ]
+    },
+    {
+      "id": "reczz28HiWupieEK",
+      "name": "深沉",
+      "alias": "深邃、有城府、沉得住气",
+      "description": "话和光都只露一部分，你知道下面还有重量，却不被催着立刻看完。",
+      "order": 2,
+      "chapterNames": [
+        "阴翳",
+        "平淡",
+        "留白"
+      ],
+      "termNames": [
+        "暗黑",
+        "昏黄",
+        "淡人",
+        "含蓄"
+      ]
+    },
+    {
+      "id": "reczz28HiWupieIB",
+      "name": "强势",
+      "alias": "气场大、压迫感、女王",
+      "description": "一个人先占住空间，连旁人的目光和动作都得绕着他重新安排。",
+      "order": 3,
+      "chapterNames": [
+        "酷",
+        "崇高",
+        "侠"
+      ],
+      "termNames": [
+        "嚣张",
+        "武侠",
+        "侠女"
+      ]
+    },
+    {
+      "id": "reczz28HiWupieN4",
+      "name": "温柔",
+      "alias": "软、治愈、让人安心",
+      "description": "有人替你留了一个能慢慢靠近的位置，不催你马上好起来。",
+      "order": 4,
+      "chapterNames": [
+        "可爱",
+        "田园",
+        "阴翳"
+      ],
+      "termNames": [
+        "Softcore",
+        "治愈",
+        "昏黄"
+      ]
+    },
+    {
+      "id": "reczz28HiWupieQB",
+      "name": "危险",
+      "alias": "有攻击性、让人不安、黑化",
+      "description": "看起来可以靠近的东西，同时留着会伤人的证据；你知道，却仍想看。",
+      "order": 5,
+      "chapterNames": [
+        "悲剧",
+        "怪诞",
+        "阴翳"
+      ],
+      "termNames": [
+        "宿命感",
+        "刀子",
+        "病娇",
+        "暗黑"
+      ]
+    },
+    {
+      "id": "reczz28HiWupieTZ",
+      "name": "阴沉",
+      "alias": "丧、压抑、天阴着",
+      "description": "光迟迟进不来，事情也迟迟不动，房间像在替人压着一句话。",
+      "order": 6,
+      "chapterNames": [
+        "阴翳",
+        "忧郁"
+      ],
+      "termNames": [
+        "阴湿",
+        "低能量"
+      ]
+    },
+    {
+      "id": "reczz28HiWupieX9",
+      "name": "有距离感",
+      "alias": "高冷、疏远、靠近不了",
+      "description": "人和物都看得清楚，偏偏有一段空间、规矩或沉默让你跨不过去。",
+      "order": 7,
+      "chapterNames": [
+        "幽玄",
+        "酷",
+        "平淡"
+      ],
+      "termNames": [
+        "清冷",
+        "疏离",
+        "有态度",
+        "淡人"
+      ]
+    },
+    {
+      "id": "reczz28HiWupieat",
+      "name": "甜",
+      "alias": "少女、软萌、可口",
+      "description": "小小的愿望得到认真回应，轻快里还留一点人物自己的主意。",
+      "order": 8,
+      "chapterNames": [
+        "可爱",
+        "爱欲",
+        "怪诞"
+      ],
+      "termNames": [
+        "甜亚系",
+        "Coquette",
+        "心动"
+      ]
+    },
+    {
+      "id": "reczz28HiWupiede",
+      "name": "干净",
+      "alias": "清爽、不脏、一眼舒服",
+      "description": "多余的东西退开以后，材料、边缘和正在发生的动作都看得清楚。",
+      "order": 9,
+      "chapterNames": [
+        "留白",
+        "平淡",
+        "轻逸"
+      ],
+      "termNames": [
+        "盐系",
+        "极简",
+        "清透"
+      ]
+    },
+    {
+      "id": "reczz28HiWupiegz",
+      "name": "高级",
+      "alias": "贵、有质感、不廉价",
+      "description": "细节各有位置，没有一件东西急着替整张画面宣布身价。",
+      "order": 10,
+      "chapterNames": [
+        "平淡",
+        "从容",
+        "留白"
+      ],
+      "termNames": [
+        "淡人",
+        "淡极生艳",
+        "法式",
+        "盐系"
+      ]
+    },
+    {
+      "id": "reczz28HiWupieji",
+      "name": "安静",
+      "alias": "静谧、无声、不吵",
+      "description": "声音仍在，动作也还在，只是它们都慢到你终于能注意到。",
+      "order": 11,
+      "chapterNames": [
+        "留白",
+        "日常",
+        "平淡"
+      ],
+      "termNames": [
+        "宁静",
+        "禅意",
+        "沉浸式独处",
+        "细水长流"
+      ]
+    },
+    {
+      "id": "reczz28HiWupiemM",
+      "name": "热闹",
+      "alias": "嗨、有活力、人多",
+      "description": "几个人各忙各的，却不断碰面、接话，把一处地方一起用热了。",
+      "order": 12,
+      "chapterNames": [
+        "酒神",
+        "日常",
+        "坎普"
+      ],
+      "termNames": [
+        "热烈",
+        "多巴胺",
+        "烟火味"
+      ]
+    },
+    {
+      "id": "reczz28HiWupiepT",
+      "name": "孤单",
+      "alias": "一个人、空、没人",
+      "description": "周围并非没有人，只是这时缺了那个本该接住他的人。",
+      "order": 13,
+      "chapterNames": [
+        "忧郁",
+        "留白",
+        "废墟"
+      ],
+      "termNames": [
+        "等待",
+        "末世",
+        "低能量"
+      ]
+    },
+    {
+      "id": "reczz28HiWupies9",
+      "name": "脆弱",
+      "alias": "易碎、柔弱、让人心疼",
+      "description": "东西还完整地被拿在手里，一条裂缝却提醒你它经不起再碰一次。",
+      "order": 14,
+      "chapterNames": [
+        "侘寂",
+        "物哀",
+        "忧郁"
+      ],
+      "termNames": [
+        "破碎感",
+        "青涩",
+        "眼泪"
+      ]
+    },
+    {
+      "id": "reczz28HiWupieum",
+      "name": "有年代感",
+      "alias": "旧、复古、老照片",
+      "description": "物件的用法、磨损和说话速度，把它曾属于的时间带了进来。",
+      "order": 15,
+      "chapterNames": [
+        "乡愁",
+        "侘寂"
+      ],
+      "termNames": [
+        "复古",
+        "古早",
+        "画报风",
+        "沧桑"
+      ]
+    },
+    {
+      "id": "reczz28HiWupiexU",
+      "name": "震撼",
+      "alias": "大、壮阔、史诗",
+      "description": "眼前的力量大到改变了人的尺度，你想后退，又舍不得移开眼。",
+      "order": 16,
+      "chapterNames": [
+        "崇高",
+        "悲剧"
+      ],
+      "termNames": [
+        "璀璨",
+        "悲壮感"
+      ]
+    },
+    {
+      "id": "reczz28HiWupif0C",
+      "name": "慢",
+      "alias": "不急、悠长、岁月",
+      "description": "一件事没有停，只是每一步都给足时间，让你看见它怎样变化。",
+      "order": 17,
+      "chapterNames": [
+        "平淡",
+        "从容",
+        "日常"
+      ],
+      "termNames": [
+        "细水长流",
+        "松弛感",
+        "沉浸式独处"
+      ]
+    },
+    {
+      "id": "reczz28HiWupif2t",
+      "name": "浮夸",
+      "alias": "夸张、演的、戏剧化",
+      "description": "它明知自己穿得太亮、演得太满，却认真到让你也愿意跟着玩。",
+      "order": 18,
+      "chapterNames": [
+        "坎普",
+        "怪诞"
+      ],
+      "termNames": [
+        "波普",
+        "反诗意"
+      ]
+    },
+    {
+      "id": "reczz28HiWupif5Z",
+      "name": "不装",
+      "alias": "真实、接地气、大实话",
+      "description": "台面已经搭得很漂亮，人物偏把真实的小麻烦和大实话带上来。",
+      "order": 19,
+      "chapterNames": [
+        "怪诞",
+        "日常",
+        "从容"
+      ],
+      "termNames": [
+        "反诗意",
+        "流水账",
+        "烟火味",
+        "随性"
+      ]
+    },
+    {
+      "id": "reczz28HiWupif8C",
+      "name": "沉重",
+      "alias": "厚、有分量、悲",
+      "description": "结局的方向仿佛早在那里，人物每走一步仍得亲自承担。",
+      "order": 20,
+      "chapterNames": [
+        "悲剧",
+        "废墟",
+        "崇高"
+      ],
+      "termNames": [
+        "悲壮感",
+        "决绝",
+        "废土"
+      ]
+    },
+    {
+      "id": "reczz28HiWupifAp",
+      "name": "轻",
+      "alias": "飘、没有重量、透气",
+      "description": "你先感觉到它原本会落下，随后看见它被风或动作轻轻托起来。",
+      "order": 21,
+      "chapterNames": [
+        "轻逸",
+        "从容"
+      ],
+      "termNames": [
+        "轻盈",
+        "清透",
+        "随性",
+        "慵懒"
+      ]
+    },
+    {
+      "id": "reczz28HiWupifDV",
+      "name": "暗",
+      "alias": "黑、低调、暗调",
+      "description": "光只照到必要的一小处，其余地方不消失，等你慢慢辨认。",
+      "order": 22,
+      "chapterNames": [
+        "阴翳",
+        "日常"
+      ],
+      "termNames": [
+        "暗黑",
+        "幽光",
+        "odd 风格"
+      ]
+    },
+    {
+      "id": "reczz28HiWupifGB",
+      "name": "湿",
+      "alias": "潮、雨、水汽",
+      "description": "雨落到伞、衣服和路面，远处的人因此又近了一点、又模糊了一点。",
+      "order": 23,
+      "chapterNames": [
+        "幽玄",
+        "阴翳",
+        "怪诞"
+      ],
+      "termNames": [
+        "阴湿"
+      ]
+    },
+    {
+      "id": "reczz28HiWupifIq",
+      "name": "野",
+      "alias": "不羁、放飞、原始",
+      "description": "人先顺着自己的兴致动起来，路还没安排好，身体已经出发。",
+      "order": 24,
+      "chapterNames": [
+        "酒神",
+        "侠",
+        "田园"
+      ],
+      "termNames": [
+        "狂放",
+        "涂鸦",
+        "魏晋风",
+        "生命力"
+      ]
+    },
+    {
+      "id": "reczz28HiWupifLw",
+      "name": "稳",
+      "alias": "情绪稳定、不慌、靠得住",
+      "description": "事情照样推过来，他也会调整，却没有把每次变化都当成灾难。",
+      "order": 25,
+      "chapterNames": [
+        "从容",
+        "平淡",
+        "酷"
+      ],
+      "termNames": [
+        "松弛感",
+        "淡人",
+        "有态度"
+      ]
+    },
+    {
+      "id": "reczz28HiWupifOY",
+      "name": "疯",
+      "alias": "癫、失控、上头",
+      "description": "一个人的节奏越走越快，终于把旁人也拉进同一场失控。",
+      "order": 26,
+      "chapterNames": [
+        "酒神",
+        "怪诞",
+        "坎普"
+      ],
+      "termNames": [
+        "狂放",
+        "病娇",
+        "波普"
+      ]
+    },
+    {
+      "id": "reczz28HiWupifRH",
+      "name": "傲",
+      "alias": "高傲、不屑、气场",
+      "description": "他知道旁人在看，也知道可能会输，仍把自己的姿态摆在那里。",
+      "order": 27,
+      "chapterNames": [
+        "酷",
+        "幽玄"
+      ],
+      "termNames": [
+        "嚣张",
+        "有态度",
+        "清冷"
+      ]
+    },
+    {
+      "id": "reczz28HiWupifTz",
+      "name": "遗憾",
+      "alias": "错过、BE、意难平",
+      "description": "另一条路曾经近得能想象，如今只能在继续往前的日子里偶尔回头。",
+      "order": 28,
+      "chapterNames": [
+        "物哀",
+        "悲剧"
+      ],
+      "termNames": [
+        "意难平",
+        "白月光",
+        "刀子"
+      ]
+    },
+    {
+      "id": "reczz28HiWupifWf",
+      "name": "怀念",
+      "alias": "想回去、回忆杀、童年",
+      "description": "一件小东西把过去带回来，你认得它，也知道已经回不到当时。",
+      "order": 29,
+      "chapterNames": [
+        "乡愁",
+        "物哀"
+      ],
+      "termNames": [
+        "古早",
+        "复古",
+        "思念"
+      ]
+    },
+    {
+      "id": "reczz28HiWupifZO",
+      "name": "想靠近",
+      "alias": "心动、暧昧、上头",
+      "description": "话还没想好，目光和身体已经先向那个人多走了一步。",
+      "order": 30,
+      "chapterNames": [
+        "爱欲",
+        "可爱"
+      ],
+      "termNames": [
+        "心动",
+        "暧昧",
+        "拉扯感",
+        "Softcore"
+      ]
+    },
+    {
+      "id": "reczz28HiWupifc4",
+      "name": "想逃",
+      "alias": "迷茫、窒息、不想待",
+      "description": "目的地还没有名字，眼前这间屋子却已经小到待不下去。",
+      "order": 31,
+      "chapterNames": [
+        "忧郁",
+        "幽玄",
+        "废墟"
+      ],
+      "termNames": [
+        "末世",
+        "破碎感"
+      ]
+    },
+    {
+      "id": "reczz28HiWupifeq",
+      "name": "有故事感",
+      "alias": "电影感、有前史、叙事",
+      "description": "画面给了前因的痕迹和后果的影子，你会追问中间发生了什么。",
+      "order": 32,
+      "chapterNames": [
+        "悲剧",
+        "侠",
+        "乡愁"
+      ],
+      "termNames": [
+        "宿命感",
+        "武侠",
+        "画报风"
+      ]
+    },
+    {
+      "id": "reczz28HiWupifhY",
+      "name": "东方",
+      "alias": "中式、国风、古画",
+      "description": "旧的空间、笔法和材料关系还在，今天的人仍能走进去、用起来。",
+      "order": 33,
+      "chapterNames": [
+        "气韵",
+        "留白",
+        "幽玄"
+      ],
+      "termNames": [
+        "新中式",
+        "水墨",
+        "禅意"
+      ]
+    },
+    {
+      "id": "reczz28HiWupifkE",
+      "name": "西式古典",
+      "alias": "宫廷、洛可可、油画",
+      "description": "对称、体量和装饰共同把人带进一个讲究秩序与气派的场面。",
+      "order": 34,
+      "chapterNames": [
+        "可爱",
+        "乡愁",
+        "崇高"
+      ],
+      "termNames": [
+        "Coquette",
+        "画报风"
+      ]
+    },
+    {
+      "id": "reczz28HiWupifnM",
+      "name": "未来感",
+      "alias": "科技、赛博、冷光",
+      "description": "熟悉的东西换了一套运行规则，你能看懂它，又猜不准下一步。",
+      "order": 35,
+      "chapterNames": [
+        "坎普",
+        "崇高",
+        "阴翳"
+      ],
+      "termNames": [
+        "赛博",
+        "幽光"
+      ]
+    },
+    {
+      "id": "reczz28HiWupifq8",
+      "name": "松",
+      "alias": "chill、慵懒、随便",
+      "description": "人物确实在应对眼前的事，只是动作里不再多花一份紧张。",
+      "order": 36,
+      "chapterNames": [
+        "从容",
+        "侠"
+      ],
+      "termNames": [
+        "松弛感",
+        "慵懒",
+        "魏晋风"
+      ]
+    },
+    {
+      "id": "reczz28HiWupifss",
+      "name": "紧",
+      "alias": "拉扯、对峙、一触即发",
+      "description": "两股力同时拉住一件事，人物还没动，观众已在等哪边先松。",
+      "order": 37,
+      "chapterNames": [
+        "爱欲",
+        "忧郁"
+      ],
+      "termNames": [
+        "刀子"
+      ]
+    },
+    {
+      "id": "reczz28HiWupifvb",
+      "name": "庄严",
+      "alias": "神圣、肃穆、仪式",
+      "description": "空间把人的声音和脚步收小，只让一个最重要的方向留在眼前。",
+      "order": 38,
+      "chapterNames": [
+        "崇高",
+        "阴翳",
+        "悲剧"
+      ],
+      "termNames": [
+        "暗黑",
+        "悲壮感"
+      ]
+    },
+    {
+      "id": "reczz28HiWupifyJ",
+      "name": "清醒",
+      "alias": "克制、冷静、不上头",
+      "description": "情绪已经被看见，人物仍把注意力放回自己能决定的下一步。",
+      "order": 39,
+      "chapterNames": [
+        "平淡",
+        "留白",
+        "幽玄"
+      ],
+      "termNames": [
+        "淡人",
+        "含蓄",
+        "清冷"
+      ]
+    },
+    {
+      "id": "reczz28HiWupig11",
+      "name": "天真",
+      "alias": "纯、没被规矩管住、小孩",
+      "description": "他还不知道哪种愿望会被大人笑话，所以先认真地试了一次。",
+      "order": 40,
+      "chapterNames": [
+        "可爱",
+        "物哀",
+        "乡愁"
+      ],
+      "termNames": [
+        "Girlhood",
+        "青涩",
+        "古早"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "reczz28MLgEjaVIu",
+      "question": "为什么盛夏的美有一种隐秘的悲剧性？",
+      "intro": "盛夏最美的地方，不是生命正在生长，而是生命正在毫无保留地燃烧自己。",
+      "order": 1,
+      "termIds": [
+        "reczz28HJJL2GLJb"
+      ]
+    },
+    {
+      "id": "reczz28MLgEjZOqa",
+      "question": "为什么夏天还没有结束，我们就已经开始怀念它？",
+      "intro": "盛夏是一种提前发生的怀旧。",
+      "order": 2,
+      "termIds": [
+        "reczz28HJJL2GLJb"
+      ]
+    },
+    {
+      "id": "reczz28MnySVMfug",
+      "question": "为什么颓废美学里，“没有生命力”也是一种美？",
+      "intro": "美不一定要证明自己是活的。一朵明天就会枯萎的真花，往往比永不凋谢的塑料花更动人——颓废美学迷恋的，正是盛宴将尽时仍极尽奢华的那一刻。",
+      "order": 3,
+      "termIds": [
+        "reczz28MKp7HdDiG"
+      ]
+    },
+    {
+      "id": "reczz28MR6X8jQue",
+      "question": "为什么有些多巴胺穿搭很美，有些却「辣眼睛」？",
+      "intro": "美感不是来自刺激本身，而是来自刺激与秩序的相互作用。",
+      "order": 4,
+      "termIds": [
+        "reczz28HJJL2GLvJ"
+      ]
+    },
+    {
+      "id": "reczz28MR6X8gQZM",
+      "question": "为什么近几年时尚会出现两个极端？",
+      "intro": "多巴胺审美试图从无聊中制造快乐，而极简审美试图从过载中恢复平静。",
+      "order": 5,
+      "termIds": [
+        "reczz28HJJL2GLvJ"
+      ]
+    },
+    {
+      "id": "reczz28MRgmhGxWn",
+      "question": "为什么学过版式的人，和没学过的人差那么大？",
+      "intro": "因为两种人看到的根本不是同一个画面。",
+      "order": 6,
+      "termIds": [
+        "reczz28HJJL2GJht"
+      ]
+    },
+    {
+      "id": "reczz28MRgmhH0fO",
+      "question": "摇滚是怎么从一种声音，变成一种可以穿在身上的态度？",
+      "intro": "音乐创造了一群人，服装让他们能够认出彼此。",
+      "order": 7,
+      "termIds": [
+        "reczz28HJJL2GJt7"
+      ]
+    },
+    {
+      "id": "reczz28MRgmhERYD",
+      "question": "为什么音乐会变成一种时尚审美？",
+      "intro": "当一种声音发展出足够鲜明的身体表达与视觉符号，它就也可以被看见、被穿戴。",
+      "order": 8,
+      "termIds": [
+        "reczz28HJJL2GJt7"
+      ]
+    },
+    {
+      "id": "reczz28MivOQ9pGl",
+      "question": "人类为什么需要末世？因为我们无法忍受没有结局的故事",
+      "intro": "我们永远生活在一个巨大故事的中间。末世叙事把混乱的时间组织成有开头、发展、危机和结局的整体——人类未必真的渴望世界毁灭，我们可能只是渴望世界拥有一个结局。",
+      "order": 9,
+      "termIds": [
+        "reczz28HJJL2GP7R"
+      ]
+    }
+  ],
+  "imagery": [
+    {
+      "id": "reczz28MulKusfwu",
+      "title": "时钟 ＋ 发芽",
+      "imageA": "时钟",
+      "imageB": "发芽",
+      "operation": "相遇",
+      "theme": "时间",
+      "prompt": "一株幼苗占据了时钟的哪一处，才让你觉得时间正在生长？",
+      "order": 1
+    },
+    {
+      "id": "reczz28Mv68qZDkE",
+      "title": "日历 ＋ 潮汐",
+      "imageA": "日历",
+      "imageB": "潮汐",
+      "operation": "相遇",
+      "theme": "时间",
+      "prompt": "日历翻页的动作消失后，哪一次潮水算新的一天？",
+      "order": 2
+    },
+    {
+      "id": "reczz28Mv68qYmxF",
+      "title": "沙漏 ＋ 冰川",
+      "imageA": "沙漏",
+      "imageB": "冰川",
+      "operation": "相遇",
+      "theme": "时间",
+      "prompt": "沙漏已经空了，冰川才移动一寸。谁在等待谁？",
+      "order": 3
+    },
+    {
+      "id": "reczz28Mv68qaxYl",
+      "title": "旧照片 ＋ 苔藓",
+      "imageA": "旧照片",
+      "imageB": "苔藓",
+      "operation": "相遇",
+      "theme": "记忆",
+      "prompt": "照片被苔藓慢慢吞没，哪一块仍需要清晰？",
+      "order": 4
+    },
+    {
+      "id": "reczz28Mv68qYcoW",
+      "title": "录音机 ＋ 雨",
+      "imageA": "录音机",
+      "imageB": "雨",
+      "operation": "相遇",
+      "theme": "记忆",
+      "prompt": "录音机播放起雨声时，哪段回忆会先浮现？",
+      "order": 5
+    },
+    {
+      "id": "reczz28Mv68qaJEw",
+      "title": "信封 ＋ 化石",
+      "imageA": "信封",
+      "imageB": "化石",
+      "operation": "相遇",
+      "theme": "记忆",
+      "prompt": "一封信如何变成几千年后的遗迹？",
+      "order": 6
+    },
+    {
+      "id": "reczz28Mv68qXSFY",
+      "title": "婚纱 ＋ 盔甲",
+      "imageA": "婚纱",
+      "imageB": "盔甲",
+      "operation": "相遇",
+      "theme": "身份",
+      "prompt": "婚纱像盔甲一样合上时，穿它的人准备迎接什么？",
+      "order": 7
+    },
+    {
+      "id": "reczz28Mv68qaXm3",
+      "title": "肖像 ＋ 面具",
+      "imageA": "肖像",
+      "imageB": "面具",
+      "operation": "相遇",
+      "theme": "身份",
+      "prompt": "哪一个才是别人真正看见的脸？",
+      "order": 8
+    },
+    {
+      "id": "reczz28Mv68qaYfH",
+      "title": "皇冠 ＋ 伤口",
+      "imageA": "皇冠",
+      "imageB": "伤口",
+      "operation": "相遇",
+      "theme": "身份",
+      "prompt": "皇冠压住伤口时，谁会先看见血迹？",
+      "order": 9
+    },
+    {
+      "id": "reczz28Mv68qazmq",
+      "title": "卧室 ＋ 鱼缸",
+      "imageA": "卧室",
+      "imageB": "鱼缸",
+      "operation": "相遇",
+      "theme": "空间",
+      "prompt": "卧室的一面墙成了鱼缸，房间里的人会先看见鱼还是自己？",
+      "order": 10
+    },
+    {
+      "id": "reczz28Mv68qXepm",
+      "title": "楼梯 ＋ 迷雾",
+      "imageA": "楼梯",
+      "imageB": "迷雾",
+      "operation": "相遇",
+      "theme": "空间",
+      "prompt": "楼梯在雾里消失；最后一个还能辨认的台阶是什么样？",
+      "order": 11
+    },
+    {
+      "id": "reczz28Mv68qbI1L",
+      "title": "窗户 ＋ 海底",
+      "imageA": "窗户",
+      "imageB": "海底",
+      "operation": "相遇",
+      "theme": "空间",
+      "prompt": "把窗外换成另一种生态环境，会怎样改变家的感觉？",
+      "order": 12
+    },
+    {
+      "id": "reczz28Mv68qXiTV",
+      "title": "女人 － 笑容",
+      "imageA": "女人",
+      "imageB": "笑容",
+      "operation": "抽离",
+      "theme": "身份",
+      "prompt": "笑容消失后，旁人会从她的哪一个动作误读她？",
+      "order": 13
+    },
+    {
+      "id": "reczz28Mv68qZkpn",
+      "title": "英雄 － 勇气",
+      "imageA": "英雄",
+      "imageB": "勇气",
+      "operation": "抽离",
+      "theme": "身份",
+      "prompt": "英雄失去勇气的那一刻，哪一个动作仍让你认出他？",
+      "order": 14
+    },
+    {
+      "id": "reczz28Mv68qXni4",
+      "title": "国王 － 王冠",
+      "imageA": "国王",
+      "imageB": "王冠",
+      "operation": "抽离",
+      "theme": "身份",
+      "prompt": "王冠不在了，国王会靠什么让人让路？",
+      "order": 15
+    },
+    {
+      "id": "reczz28Mv68qXwGM",
+      "title": "时钟 － 刻度",
+      "imageA": "时钟",
+      "imageB": "刻度",
+      "operation": "抽离",
+      "theme": "时间",
+      "prompt": "没有数字与刻度，怎样让人感到时间正在经过？",
+      "order": 16
+    },
+    {
+      "id": "reczz28Mv68qadkN",
+      "title": "生日 － 年龄",
+      "imageA": "生日",
+      "imageB": "年龄",
+      "operation": "抽离",
+      "theme": "时间",
+      "prompt": "生日不再写年龄；蛋糕上会出现什么？",
+      "order": 17
+    },
+    {
+      "id": "reczz28Mv68qZFou",
+      "title": "黄昏 － 夕阳",
+      "imageA": "黄昏",
+      "imageB": "夕阳",
+      "operation": "抽离",
+      "theme": "时间",
+      "prompt": "黄昏没有夕阳，你会让哪一道光先退下去？",
+      "order": 18
+    },
+    {
+      "id": "reczz28Mv68qZodx",
+      "title": "相册 － 人像",
+      "imageA": "相册",
+      "imageB": "人像",
+      "operation": "抽离",
+      "theme": "记忆",
+      "prompt": "相册里的人像都被留白代替，哪件小物仍能让你认出他们？",
+      "order": 19
+    },
+    {
+      "id": "reczz28Mv68qb6ap",
+      "title": "家乡 － 地名",
+      "imageA": "家乡",
+      "imageB": "地名",
+      "operation": "抽离",
+      "theme": "记忆",
+      "prompt": "不写地名，哪些声音、颜色或习惯还能指向家乡？",
+      "order": 20
+    },
+    {
+      "id": "reczz28Mv68qZaob",
+      "title": "日记 － 文字",
+      "imageA": "日记",
+      "imageB": "文字",
+      "operation": "抽离",
+      "theme": "记忆",
+      "prompt": "不能写字的日记，第一天会收进什么？",
+      "order": 21
+    },
+    {
+      "id": "reczz28MulKuqtaQ",
+      "title": "房间 － 门",
+      "imageA": "房间",
+      "imageB": "门",
+      "operation": "抽离",
+      "theme": "空间",
+      "prompt": "房间没有门，里面的人怎样离开？",
+      "order": 22
+    },
+    {
+      "id": "reczz28Mv68qaA64",
+      "title": "城市 － 路标",
+      "imageA": "城市",
+      "imageB": "路标",
+      "operation": "抽离",
+      "theme": "空间",
+      "prompt": "路标被拆走后，人们会靠什么辨认回家的方向？",
+      "order": 23
+    },
+    {
+      "id": "reczz28Mv68qaJ6C",
+      "title": "剧院 － 观众",
+      "imageA": "剧院",
+      "imageB": "观众",
+      "operation": "抽离",
+      "theme": "空间",
+      "prompt": "没有观众的剧院里，最后一位演员会把台词说给谁？",
+      "order": 24
+    },
+    {
+      "id": "reczz28Mv68qXhAe",
+      "title": "秒针 → 藤蔓",
+      "imageA": "秒针",
+      "imageB": "藤蔓",
+      "operation": "替换",
+      "theme": "时间",
+      "prompt": "让藤蔓承担秒针的工作，时间会以什么速度流动？",
+      "order": 25
+    },
+    {
+      "id": "reczz28Mv68qaBTS",
+      "title": "日历的数字 → 天气",
+      "imageA": "日历的数字",
+      "imageB": "天气",
+      "operation": "替换",
+      "theme": "时间",
+      "prompt": "日期换成天气后，你会怎样区分两个同样下雨的星期二？",
+      "order": 26
+    },
+    {
+      "id": "reczz28Mv68qZVML",
+      "title": "时钟表盘 → 湖面",
+      "imageA": "时钟表盘",
+      "imageB": "湖面",
+      "operation": "替换",
+      "theme": "时间",
+      "prompt": "湖面代替表盘；你会用什么变化刻出一天的经过？",
+      "order": 27
+    },
+    {
+      "id": "reczz28Mv68qZKGr",
+      "title": "照片中的人 → 影子",
+      "imageA": "照片中的人",
+      "imageB": "影子",
+      "operation": "替换",
+      "theme": "记忆",
+      "prompt": "影子站在照片里，谁的姿势还能让人认出来？",
+      "order": 28
+    },
+    {
+      "id": "reczz28Mv68qYrqK",
+      "title": "回忆的声音 → 气味",
+      "imageA": "回忆的声音",
+      "imageB": "气味",
+      "operation": "替换",
+      "theme": "记忆",
+      "prompt": "一种气味突然带回童年的声音，它会来自哪个场景？",
+      "order": 29
+    },
+    {
+      "id": "reczz28Mv68qbVRc",
+      "title": "墓碑上的名字 → 花朵",
+      "imageA": "墓碑上的名字",
+      "imageB": "花朵",
+      "operation": "替换",
+      "theme": "记忆",
+      "prompt": "墓碑不刻姓名，只长出不同的花；来访者如何辨认要找的人？",
+      "order": 30
+    },
+    {
+      "id": "reczz28Mv68qaryn",
+      "title": "肖像里的脸 → 文字",
+      "imageA": "肖像里的脸",
+      "imageB": "文字",
+      "operation": "替换",
+      "theme": "身份",
+      "prompt": "肖像由别人对她说的话组成；哪些字句应该出现在脸的位置？",
+      "order": 31
+    },
+    {
+      "id": "reczz28Mv68qYLkD",
+      "title": "勋章 → 伤疤",
+      "imageA": "勋章",
+      "imageB": "伤疤",
+      "operation": "替换",
+      "theme": "身份",
+      "prompt": "勋章变成伤疤，授奖仪式上人们会如何看待它？",
+      "order": 32
+    },
+    {
+      "id": "reczz28Mv68qXh9q",
+      "title": "制服 → 睡衣",
+      "imageA": "制服",
+      "imageB": "睡衣",
+      "operation": "替换",
+      "theme": "身份",
+      "prompt": "睡衣成了制服，哪些细节仍会泄露职业？",
+      "order": 33
+    },
+    {
+      "id": "reczz28Mv68qZTtk",
+      "title": "河流 → 公路",
+      "imageA": "河流",
+      "imageB": "公路",
+      "operation": "替换",
+      "theme": "空间",
+      "prompt": "河流开始遵守车道规则，哪一段水流会先堵住？",
+      "order": 34
+    },
+    {
+      "id": "reczz28Mv68qZYg3",
+      "title": "城市地图 → 掌纹",
+      "imageA": "城市地图",
+      "imageB": "掌纹",
+      "operation": "替换",
+      "theme": "空间",
+      "prompt": "城市地图只用掌纹画成，哪一条线通往家？",
+      "order": 35
+    },
+    {
+      "id": "reczz28Mv68qa4N9",
+      "title": "墙壁 → 镜子",
+      "imageA": "墙壁",
+      "imageB": "镜子",
+      "operation": "替换",
+      "theme": "空间",
+      "prompt": "墙面全是镜子，哪一处反光会让你误以为有出口？",
+      "order": 36
+    },
+    {
+      "id": "reczz28MulKuruau",
+      "title": "雨伞 ＋ 星图",
+      "imageA": "雨伞",
+      "imageB": "星图",
+      "operation": "相遇",
+      "theme": "夜晚",
+      "prompt": "雨伞撑开时，星图会落在伞面、投在地上，还是照亮伞下的人？",
+      "order": 37
+    },
+    {
+      "id": "reczz28MulKuri1O",
+      "title": "旧车站 ＋ 潮汐",
+      "imageA": "旧车站",
+      "imageB": "潮汐",
+      "operation": "相遇",
+      "theme": "离别",
+      "prompt": "潮水每天来去，车站却等一次出发。画面里哪一个动作先发生？",
+      "order": 38
+    },
+    {
+      "id": "reczz28MulKuq4RF",
+      "title": "镜子 ＋ 雪",
+      "imageA": "镜子",
+      "imageB": "雪",
+      "operation": "相遇",
+      "theme": "自我",
+      "prompt": "当倒影被雪慢慢盖住，画面还留下什么可以认出自己？",
+      "order": 39
+    },
+    {
+      "id": "reczz28MulKurpfT",
+      "title": "钟表 － 指针",
+      "imageA": "钟表",
+      "imageB": "指针",
+      "operation": "抽离",
+      "theme": "时间",
+      "prompt": "拿掉最会报时的部分，还能用哪些痕迹让人感到时间？",
+      "order": 40
+    },
+    {
+      "id": "reczz28MulKurYAn",
+      "title": "城市 － 声音",
+      "imageA": "城市",
+      "imageB": "声音",
+      "operation": "抽离",
+      "theme": "城市",
+      "prompt": "把声音全部拿掉后，什么细节最能让人意识到这座城仍在运转？",
+      "order": 41
+    },
+    {
+      "id": "reczz28MulKupEUL",
+      "title": "花园 － 季节",
+      "imageA": "花园",
+      "imageB": "季节",
+      "operation": "抽离",
+      "theme": "自然",
+      "prompt": "四季不再更替的花园，你会用什么证明它还在生长？",
+      "order": 42
+    },
+    {
+      "id": "reczz28MulKuqvqD",
+      "title": "路灯 → 月亮",
+      "imageA": "路灯",
+      "imageB": "月亮",
+      "operation": "替换",
+      "theme": "夜晚",
+      "prompt": "让月亮承担路灯的工作：街道的距离感会怎样改变？",
+      "order": 43
+    },
+    {
+      "id": "reczz28MulKur21r",
+      "title": "信封 → 种子",
+      "imageA": "信封",
+      "imageB": "种子",
+      "operation": "替换",
+      "theme": "记忆",
+      "prompt": "让种子代替信封寄出一句没说完的话；它会被种在哪里？",
+      "order": 44
+    },
+    {
+      "id": "reczz28MulKupYCv",
+      "title": "窗户 → 海面",
+      "imageA": "窗户",
+      "imageB": "海面",
+      "operation": "替换",
+      "theme": "空间",
+      "prompt": "窗户变成海面；你希望屋里先漂进什么？",
+      "order": 45
+    },
+    {
+      "id": "reczz28MulKusrRA",
+      "title": "闹钟 → 心跳",
+      "imageA": "闹钟",
+      "imageB": "心跳",
+      "operation": "替换",
+      "theme": "时间",
+      "prompt": "清晨由心跳叫醒，你会把紧张或平静画成怎样的节奏？",
+      "order": 46
+    },
+    {
+      "id": "reczz28OKWGqBEiy",
+      "title": "纸船 ＋ 门铃",
+      "imageA": "纸船",
+      "imageB": "门铃",
+      "operation": "相遇",
+      "theme": "归来",
+      "prompt": "门铃响时，纸船刚驶到哪里？",
+      "order": 47
+    },
+    {
+      "id": "reczz28OKWGqC2uR",
+      "title": "霓虹 ＋ 种子",
+      "imageA": "霓虹",
+      "imageB": "种子",
+      "operation": "相遇",
+      "theme": "城市",
+      "prompt": "一粒种子在霓虹灯下发芽，谁会第一个发现它？",
+      "order": 48
+    },
+    {
+      "id": "reczz28OKWGqAQn3",
+      "title": "手套 ＋ 月食",
+      "imageA": "手套",
+      "imageB": "月食",
+      "operation": "相遇",
+      "theme": "夜晚",
+      "prompt": "月亮变暗的那几分钟，遗落的手套会被谁拾起？",
+      "order": 49
+    },
+    {
+      "id": "reczz28OKWGq9kWp",
+      "title": "窗帘 ＋ 山脉",
+      "imageA": "窗帘",
+      "imageB": "山脉",
+      "operation": "相遇",
+      "theme": "空间",
+      "prompt": "拉开窗帘后，山的轮廓从房间的哪条线开始？",
+      "order": 50
+    },
+    {
+      "id": "reczz28OKWGqBgEz",
+      "title": "收据 ＋ 海浪",
+      "imageA": "收据",
+      "imageB": "海浪",
+      "operation": "相遇",
+      "theme": "记忆",
+      "prompt": "海浪把一张旧收据冲上岸，哪一行字还看得清？",
+      "order": 51
+    },
+    {
+      "id": "reczz28OKWGqAhnw",
+      "title": "骰子 ＋ 候鸟",
+      "imageA": "骰子",
+      "imageB": "候鸟",
+      "operation": "相遇",
+      "theme": "选择",
+      "prompt": "候鸟把去处交给骰子，掷出哪一面会改变队形？",
+      "order": 52
+    },
+    {
+      "id": "reczz28OKWGqBpq8",
+      "title": "玻璃杯 ＋ 雷声",
+      "imageA": "玻璃杯",
+      "imageB": "雷声",
+      "operation": "相遇",
+      "theme": "感官",
+      "prompt": "先听见雷声，再看杯中的水。第一道波纹会在什么时候出现？",
+      "order": 53
+    },
+    {
+      "id": "reczz28OKWGqAzWi",
+      "title": "车票 ＋ 羽毛",
+      "imageA": "车票",
+      "imageB": "羽毛",
+      "operation": "相遇",
+      "theme": "离别",
+      "prompt": "车票轻得像羽毛，却怎么也吹不走；它留在谁手里？",
+      "order": 54
+    },
+    {
+      "id": "reczz28OKWGqAUms",
+      "title": "地图 － 边界",
+      "imageA": "地图",
+      "imageB": "边界",
+      "operation": "抽离",
+      "theme": "空间",
+      "prompt": "没有边界线的地图，哪些痕迹仍会让你停下脚步？",
+      "order": 55
+    },
+    {
+      "id": "reczz28OKWGqA7HG",
+      "title": "影子 － 身体",
+      "imageA": "影子",
+      "imageB": "身体",
+      "operation": "抽离",
+      "theme": "身份",
+      "prompt": "影子独自走过街口，路人从哪里认出它属于谁？",
+      "order": 56
+    },
+    {
+      "id": "reczz28OKWGq9aLQ",
+      "title": "情书 － 收件人",
+      "imageA": "情书",
+      "imageB": "收件人",
+      "operation": "抽离",
+      "theme": "关系",
+      "prompt": "收件人一栏空白，这封情书会被放在什么地方？",
+      "order": 57
+    },
+    {
+      "id": "reczz28OKWGqBMFy",
+      "title": "电影 － 结尾",
+      "imageA": "电影",
+      "imageB": "结尾",
+      "operation": "抽离",
+      "theme": "叙事",
+      "prompt": "故事停在结尾前一分钟，你愿意让观众带走哪一帧？",
+      "order": 58
+    },
+    {
+      "id": "reczz28OKWGq9Lbs",
+      "title": "花束 － 花",
+      "imageA": "花束",
+      "imageB": "花",
+      "operation": "抽离",
+      "theme": "关系",
+      "prompt": "只剩包装纸与丝带的花束，还能传达哪一种心意？",
+      "order": 59
+    },
+    {
+      "id": "reczz28OKWGq8o8N",
+      "title": "雨天 － 水",
+      "imageA": "雨天",
+      "imageB": "水",
+      "operation": "抽离",
+      "theme": "感官",
+      "prompt": "没有一滴水，画面还可以如何让人确信正在下雨？",
+      "order": 60
+    },
+    {
+      "id": "reczz28OKWGqA6RV",
+      "title": "舞会 － 音乐",
+      "imageA": "舞会",
+      "imageB": "音乐",
+      "operation": "抽离",
+      "theme": "身体",
+      "prompt": "乐声停了，谁还在原地保持舞步？",
+      "order": 61
+    },
+    {
+      "id": "reczz28OKWGqCD3L",
+      "title": "书桌 － 主人",
+      "imageA": "书桌",
+      "imageB": "主人",
+      "operation": "抽离",
+      "theme": "记忆",
+      "prompt": "桌上只剩使用痕迹，你会先让人看见哪件东西？",
+      "order": 62
+    },
+    {
+      "id": "reczz28OKWGq9Rc8",
+      "title": "信号灯 → 潮汐",
+      "imageA": "信号灯",
+      "imageB": "潮汐",
+      "operation": "替换",
+      "theme": "城市",
+      "prompt": "路口由潮水决定通行，行人要等什么退去？",
+      "order": 63
+    },
+    {
+      "id": "reczz28OKWGqBkLH",
+      "title": "路牌 → 月亮",
+      "imageA": "路牌",
+      "imageB": "月亮",
+      "operation": "替换",
+      "theme": "夜晚",
+      "prompt": "月亮挂在街口指路，哪条路会被它藏起来？",
+      "order": 64
+    },
+    {
+      "id": "reczz28OKWGqAGVZ",
+      "title": "伤疤 → 刺绣",
+      "imageA": "伤疤",
+      "imageB": "刺绣",
+      "operation": "替换",
+      "theme": "身份",
+      "prompt": "伤疤被绣成花纹后，谁知道它原来的位置？",
+      "order": 65
+    },
+    {
+      "id": "reczz28OKWGqAUJJ",
+      "title": "门把手 → 温度计",
+      "imageA": "门把手",
+      "imageB": "温度计",
+      "operation": "替换",
+      "theme": "空间",
+      "prompt": "每次开门都要读温度，这座房子在防备什么？",
+      "order": 66
+    },
+    {
+      "id": "reczz28OKWGqCbe2",
+      "title": "姓名牌 → 指纹",
+      "imageA": "姓名牌",
+      "imageB": "指纹",
+      "operation": "替换",
+      "theme": "身份",
+      "prompt": "名字由指纹代替后，陌生人会怎样介绍自己？",
+      "order": 67
+    },
+    {
+      "id": "reczz28OKWGq8sOA",
+      "title": "火车时刻表 → 鸟鸣",
+      "imageA": "火车时刻表",
+      "imageB": "鸟鸣",
+      "operation": "替换",
+      "theme": "时间",
+      "prompt": "列车跟着鸟鸣出发，乘客怎样知道它误点了？",
+      "order": 68
+    },
+    {
+      "id": "reczz28OKWGqCdks",
+      "title": "生日蜡烛 → 灯塔",
+      "imageA": "生日蜡烛",
+      "imageB": "灯塔",
+      "operation": "替换",
+      "theme": "时间",
+      "prompt": "生日蛋糕上立起一座灯塔，愿望会指向哪片海？",
+      "order": 69
+    },
+    {
+      "id": "reczz28OKWGq8yZk",
+      "title": "画框 → 门",
+      "imageA": "画框",
+      "imageB": "门",
+      "operation": "替换",
+      "theme": "空间",
+      "prompt": "画框换成门，观众走近作品时会先摸到什么？",
+      "order": 70
+    }
+  ],
+  "resources": [
+    {
+      "id": "reczz28HJJL2Bi7d",
+      "name": "纽约现代艺术博物馆 藏品库",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.moma.org/collection/works/80419",
+      "media": [
+        "绘画",
+        "摄影",
+        "设计"
+      ],
+      "chapterNames": [
+        "诡异"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BiGR",
+      "name": "华盛顿国家美术馆",
+      "types": [
+        "网站"
+      ],
+      "url": "https://nga.gov/features/slideshows/degas-cassatt.html",
+      "media": [
+        "绘画"
+      ],
+      "chapterNames": [
+        "可爱"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BiKl",
+      "name": "休斯顿美术馆 数字藏品",
+      "types": [
+        "网站"
+      ],
+      "url": "https://emuseum.mfah.org/objects/148871/mrs-camerons-photographs-from-the-life",
+      "media": [
+        "摄影",
+        "绘画"
+      ],
+      "chapterNames": [
+        "可爱"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BiOb",
+      "name": "Smarthistory 艺术史讲解",
+      "types": [
+        "网站"
+      ],
+      "url": "https://smarthistory.org/cassatt-little-girl-in-a-blue-armchair",
+      "media": [
+        "绘画",
+        "雕塑",
+        "建筑"
+      ],
+      "chapterNames": [
+        "可爱",
+        "诡异"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BiRM",
+      "name": "耶鲁大学图书馆 电影笔记",
+      "types": [
+        "网站"
+      ],
+      "url": "https://web.library.yale.edu/film/notes/fn00063",
+      "media": [
+        "电影"
+      ],
+      "chapterNames": [
+        "可爱"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BiUk",
+      "name": "英国电影学会 BFI",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www2.bfi.org.uk/node/18859",
+      "media": [
+        "电影"
+      ],
+      "chapterNames": [
+        "可爱"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BiYI",
+      "name": "澳大利亚动态影像中心 ACMI",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.acmi.net.au/works/100355--coraline/",
+      "media": [
+        "电影",
+        "动画",
+        "游戏"
+      ],
+      "chapterNames": [
+        "诡异"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BicM",
+      "name": "伦敦弗洛伊德博物馆",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.freud.org.uk/event/freud-and-the-uncanny/",
+      "media": [
+        "文学",
+        "心理学"
+      ],
+      "chapterNames": [
+        "诡异"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2Bif4",
+      "name": "东京国立近代美术馆",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.momat.go.jp/wp-content/uploads/2026/06/Sugimoto-List-English-2.pdf",
+      "media": [
+        "摄影",
+        "绘画"
+      ],
+      "chapterNames": [
+        "诡异"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BiiV",
+      "name": "阿姆斯特丹国立博物馆「夜巡行动」",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.rijksmuseum.nl/en/whats-on/exhibitions/operation-night-watch",
+      "media": [
+        "绘画"
+      ],
+      "chapterNames": [
+        "乡愁"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BimB",
+      "name": "威廉·莫里斯学会",
+      "types": [
+        "网站"
+      ],
+      "url": "https://williammorrissociety.org/the-ideal-book-william-morris-and-the-kelmscott-press/",
+      "media": [
+        "设计",
+        "印刷"
+      ],
+      "chapterNames": [
+        "乡愁"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2Bioo",
+      "name": "互联网档案馆《乔叟作品集》全本扫描",
+      "types": [
+        "网站"
+      ],
+      "url": "https://archive.org/details/MorrisChaucer",
+      "media": [
+        "设计",
+        "印刷"
+      ],
+      "chapterNames": [
+        "乡愁"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BirQ",
+      "name": "法国国家图书馆 Essentiels",
+      "types": [
+        "网站"
+      ],
+      "url": "https://essentiels.bnf.fr/fr/focus/eba92c2d-2eae-4634-9bbe-b29495396bf8-proust-et-memoire-involontaire",
+      "media": [
+        "文学"
+      ],
+      "chapterNames": [
+        "乡愁"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2Biu9",
+      "name": "维也纳艺术史博物馆",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.khm.at/en/artworks/children-s-games-321",
+      "media": [
+        "绘画"
+      ],
+      "chapterNames": [
+        "乡愁"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2Biwk",
+      "name": "卡尔·拉松故居",
+      "types": [
+        "网站"
+      ],
+      "url": "https://carllarsson.se/en/",
+      "media": [
+        "绘画",
+        "室内设计"
+      ],
+      "chapterNames": [
+        "乡愁"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BizO",
+      "name": "暮しの手帖社",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.kurashi-no-techo.co.jp/company",
+      "media": [
+        "设计",
+        "杂志"
+      ],
+      "chapterNames": [
+        "乡愁"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2Bj21",
+      "name": "慕夏基金会",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.muchafoundation.org/en/gallery/browse-works/object/21",
+      "media": [
+        "设计",
+        "海报",
+        "插画"
+      ],
+      "chapterNames": [
+        "乡愁"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2Bj4d",
+      "name": "南加州大学图书馆 民国海报专题",
+      "types": [
+        "网站"
+      ],
+      "url": "https://scalar.usc.edu/works/republican-era-chinese-posters-as-seen-from-the-university-of-southern-california-library-collection/the-poster-artist-zheng-mantuo",
+      "media": [
+        "插画",
+        "海报"
+      ],
+      "chapterNames": [
+        "乡愁"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2Bj7I",
+      "name": "库珀·休伊特设计博物馆",
+      "types": [
+        "网站"
+      ],
+      "url": "https://si.edu/object/association%3Achndm_1979-34-25",
+      "media": [
+        "设计",
+        "海报"
+      ],
+      "chapterNames": [
+        "乡愁"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BjAx",
+      "name": "Criterion《布达佩斯大饭店》",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.criterion.com/films/29601-the-grand-budapest-hotel",
+      "media": [
+        "电影"
+      ],
+      "chapterNames": [
+        "乡愁"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BjE7",
+      "name": "《怀旧的未来》作者本人的长文",
+      "types": [
+        "文章"
+      ],
+      "url": "https://hedgehogreview.com/issues/the-uses-of-the-past/articles/nostalgia-and-its-discontents",
+      "media": [
+        "理论"
+      ],
+      "chapterNames": [
+        "乡愁"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BjGr",
+      "name": "大都会艺术博物馆《忧郁 I》藏品页",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.metmuseum.org/art/collection/search/336228",
+      "media": [
+        "版画"
+      ],
+      "chapterNames": [
+        "忧郁"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BjJS",
+      "name": "A Happy Occasion for Melencolia I（大都会艺术博物馆 Perspectives）",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.metmuseum.org/perspectives/melencolia-i",
+      "media": [
+        "版画"
+      ],
+      "chapterNames": [
+        "忧郁"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BjM2",
+      "name": "泰特美术馆「卡姆登镇画派」研究出版物",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.tate.org.uk/art/research-publications/camden-town-group",
+      "media": [
+        "绘画"
+      ],
+      "chapterNames": [
+        "忧郁"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BjOl",
+      "name": "Criterion Current",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.criterion.com/current",
+      "media": [
+        "电影"
+      ],
+      "chapterNames": [
+        "忧郁"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BjRS",
+      "name": "罗伯特·伯顿《忧郁的解剖》（The Anatomy of Melancholy，1621）",
+      "types": [
+        "书"
+      ],
+      "url": "https://www.gutenberg.org/ebooks/10800",
+      "media": [
+        "文学"
+      ],
+      "chapterNames": [
+        "忧郁"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BjUS",
+      "name": "《会饮篇》乔伊特英译全文（MIT Internet Classics Archive）",
+      "types": [
+        "网站"
+      ],
+      "url": "https://classics.mit.edu/Plato/symposium.html",
+      "media": [
+        "文学"
+      ],
+      "chapterNames": [
+        "爱欲"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BjXB",
+      "name": "德累斯顿历代大师画廊・维米尔研究页",
+      "types": [
+        "网站"
+      ],
+      "url": "https://gemaeldegalerie.skd.museum/en/research/vermeer/",
+      "media": [
+        "绘画"
+      ],
+      "chapterNames": [
+        "爱欲"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BjZn",
+      "name": "The Criterion Collection・Current",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.criterion.com/current",
+      "media": [
+        "电影"
+      ],
+      "chapterNames": [
+        "爱欲"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BjcX",
+      "name": "WNYC《Aria Code》播客",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.wnycstudios.org/podcasts/aria-code",
+      "media": [
+        "音乐"
+      ],
+      "chapterNames": [
+        "爱欲"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BjfD",
+      "name": "Poetry Foundation",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.poetryfoundation.org/",
+      "media": [
+        "诗"
+      ],
+      "chapterNames": [
+        "爱欲"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2Bjhs",
+      "name": "简·奥斯汀故居线上展《傲慢与偏见》的诞生",
+      "types": [
+        "网站"
+      ],
+      "url": "https://janeaustens.house/online-exhibition/the-making-of-pride-and-prejudice/the-making-of-pride-and-prejudice-2/",
+      "media": [
+        "文学"
+      ],
+      "chapterNames": [
+        "爱欲"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BjkX",
+      "name": "利物浦国家博物馆・利华夫人美术馆藏品",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.liverpoolmuseums.org.uk/artifact/black-brunswickers",
+      "media": [
+        "绘画"
+      ],
+      "chapterNames": [
+        "爱欲"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BjnE",
+      "name": "The Latin Library：维吉尔《牧歌》拉丁原文",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.thelatinlibrary.com/vergil/ec1.shtml",
+      "media": [
+        "诗"
+      ],
+      "chapterNames": [
+        "田园"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2Bjpq",
+      "name": "橘园美术馆《睡莲》教学资料",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.musee-orangerie.fr/sites/default/files/2023-03/dossier_pedagogique_nympheas_0.pdf",
+      "media": [
+        "绘画"
+      ],
+      "chapterNames": [
+        "田园"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BjsY",
+      "name": "Van Gogh Letters",
+      "types": [
+        "网站"
+      ],
+      "url": "https://vangoghletters.org/vg/letters/let800/letter.html",
+      "media": [
+        "绘画"
+      ],
+      "chapterNames": [
+        "田园"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BjvH",
+      "name": "波恩贝多芬故居：用贝多芬的耳朵听",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.beethoven.de/en/g/mit-beethovens-ohr-gehoert",
+      "media": [
+        "音乐"
+      ],
+      "chapterNames": [
+        "田园"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2Bjxx",
+      "name": "V&A：Peter Rabbit, the tale of the tale",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.vam.ac.uk/articles/peter-rabbit-the-tale-of-the-tale",
+      "media": [
+        "插画"
+      ],
+      "chapterNames": [
+        "田园"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2Bk0Z",
+      "name": "摩根图书馆：Beatrix Potter: Drawn to Nature",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.themorgan.org/exhibitions/online/drawn-to-nature/10",
+      "media": [
+        "插画"
+      ],
+      "chapterNames": [
+        "田园"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2Bk3C",
+      "name": "凡尔赛宫：王后的小村庄",
+      "types": [
+        "网站"
+      ],
+      "url": "https://en.chateauversailles.fr/discover/estate/estate-trianon/queen-hamlet",
+      "media": [
+        "建筑"
+      ],
+      "chapterNames": [
+        "田园"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BkPT",
+      "name": "福尔杰莎士比亚图书馆：十四行诗",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.folger.edu/explore/shakespeares-works/shakespeares-sonnets/",
+      "media": [
+        "诗"
+      ],
+      "chapterNames": [
+        "田园"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BkSp",
+      "name": "文化数字图书馆·能与世阿弥",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www2.ntj.jac.go.jp/dglib/contents/learn/edc9/",
+      "media": [
+        "戏剧"
+      ],
+      "chapterNames": [
+        "幽玄"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BkWd",
+      "name": "the-noh.com 能剧剧目数据库",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.the-noh.com/en/plays/data/program_117.html",
+      "media": [
+        "戏剧"
+      ],
+      "chapterNames": [
+        "幽玄"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2Bkaa",
+      "name": "惠斯勒油画全集（格拉斯哥大学）",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.whistlerpaintings.gla.ac.uk/catalogue/display/?mid=y140",
+      "media": [
+        "绘画"
+      ],
+      "chapterNames": [
+        "幽玄"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2Bkdo",
+      "name": "芭蕉 DB（山梨县立大学 伊藤洋）",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www2.yamanashi-ken.ac.jp/~itoyo/basho/",
+      "media": [
+        "诗"
+      ],
+      "chapterNames": [
+        "幽玄"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BkhB",
+      "name": "布鲁克林博物馆·广重《名所江户百景》",
+      "types": [
+        "网站"
+      ],
+      "url": "https://artsandculture.google.com/story/hiroshige-s-one-hundred-famous-views-of-edo-brooklyn-museum/pgWRwzk-PQcA8A",
+      "media": [
+        "绘画"
+      ],
+      "chapterNames": [
+        "幽玄"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2Bkkk",
+      "name": "Nietzsche Source",
+      "types": [
+        "网站"
+      ],
+      "url": "http://www.nietzschesource.org/texts/eKGWB/GT",
+      "media": [
+        "文学"
+      ],
+      "chapterNames": [
+        "酒神"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2Bkod",
+      "name": "Smarthistory",
+      "types": [
+        "网站"
+      ],
+      "url": "https://smarthistory.org/titian-bacchus-and-ariadne/",
+      "media": [
+        "绘画"
+      ],
+      "chapterNames": [
+        "酒神"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BkrK",
+      "name": "Tate: Matisse cut-outs",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.tate.org.uk/imap/cutouts-matisse-text.shtml",
+      "media": [
+        "绘画"
+      ],
+      "chapterNames": [
+        "酒神"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2Bkue",
+      "name": "Memphis Milano",
+      "types": [
+        "网站"
+      ],
+      "url": "https://memphis.it/en/history/",
+      "media": [
+        "设计"
+      ],
+      "chapterNames": [
+        "酒神"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BkyK",
+      "name": "Ciné-Tamaris",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.cine-tamaris.fr/les-demoiselles-de-rochefort/",
+      "media": [
+        "电影"
+      ],
+      "chapterNames": [
+        "酒神"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2Bl2I",
+      "name": "故宫名画记",
+      "types": [
+        "网站"
+      ],
+      "url": "https://minghuaji.dpm.org.cn/",
+      "media": [
+        "绘画"
+      ],
+      "chapterNames": [
+        "留白"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2Bl4y",
+      "name": "e国宝",
+      "types": [
+        "网站"
+      ],
+      "url": "https://emuseum.nich.go.jp/",
+      "media": [
+        "绘画、工艺"
+      ],
+      "chapterNames": [
+        "留白"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2Bl8S",
+      "name": "ColBase",
+      "types": [
+        "网站"
+      ],
+      "url": "https://colbase.nich.go.jp/",
+      "media": [
+        "绘画、工艺、建筑"
+      ],
+      "chapterNames": [
+        "留白"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BlBA",
+      "name": "MoMA: There Will Never Be Silence",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.moma.org/calendar/exhibitions/1386",
+      "media": [
+        "音乐"
+      ],
+      "chapterNames": [
+        "留白"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BlDo",
+      "name": "The Paintings of James McNeill Whistler",
+      "types": [
+        "网站"
+      ],
+      "url": "https://whistlerpaintings.gla.ac.uk/",
+      "media": [
+        "绘画"
+      ],
+      "chapterNames": [
+        "留白"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BlGY",
+      "name": "SMK Open（丹麦国立美术馆开放藏品库）",
+      "types": [
+        "网站"
+      ],
+      "url": "https://open.smk.dk/",
+      "media": [
+        "绘画、素描、版画"
+      ],
+      "chapterNames": [
+        "平淡"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BlJG",
+      "name": "Rijksmuseum 藏品库",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.rijksmuseum.nl/en/collection",
+      "media": [
+        "绘画、版画、摄影"
+      ],
+      "chapterNames": [
+        "平淡"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BlM0",
+      "name": "中华思想文化术语传播网",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.chinesethought.cn/",
+      "media": [
+        "文学、美学术语"
+      ],
+      "chapterNames": [
+        "平淡"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BlOi",
+      "name": "MoMA：Nicholas Nixon, 40 Years of The Brown Sisters",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.moma.org/explore/inside_out/2014/12/05/nicholas-nixon-40-years-of-the-brown-sisters/",
+      "media": [
+        "摄影"
+      ],
+      "chapterNames": [
+        "平淡"
+      ]
+    }
+  ],
+  "feelingRoutes": [
+    {
+      "id": "reczz28NI87wvsFi",
+      "feelingId": "reczz28HiWupieji",
+      "question": "你想要的「安静」，更接近哪一种？",
+      "label": "安静得让人想靠近",
+      "detail": "有温度，仍能感到生活在继续",
+      "reason": "你在意的是安定与亲近，而不只是音量低。",
+      "avoid": "冷漠、无人感",
+      "nextQuestion": "这种温度来自人物关系、生活痕迹，还是节奏？",
+      "order": 1,
+      "candidates": [
+        {
+          "id": "reczz28NI8A1uhMd",
+          "termId": "reczz28HJJL2GMxt",
+          "reason": "生活痕迹使安静里仍有人气。",
+          "difference": "看见的是具体的人怎样生活。",
+          "order": 1
+        },
+        {
+          "id": "reczz28NI8A1uTkz",
+          "termId": "reczz28HJJL2GOA8",
+          "reason": "不紧绷的身体和节奏，让安静像一种许可。",
+          "difference": "看见的是人怎样放松下来。",
+          "order": 2
+        },
+        {
+          "id": "reczz28NI8A1tIkv",
+          "termId": "reczz28HJJL2GMBA",
+          "reason": "留白与节制使注意力慢慢稳定。",
+          "difference": "看见的是减去干扰后的专注。",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "reczz28NI87wvuNw",
+      "feelingId": "reczz28HiWupieji",
+      "question": "你想要的「安静」，更接近哪一种？",
+      "label": "安静得让人不敢靠近",
+      "detail": "疏远、克制，像隔着无形的距离",
+      "reason": "你在意的是情绪怎样被保留，以及观看者离它有多远。",
+      "avoid": "温馨、热闹",
+      "nextQuestion": "这段距离来自人物、视线，还是独处的选择？",
+      "order": 2,
+      "candidates": [
+        {
+          "id": "reczz28NI8A1uNIq",
+          "termId": "reczz28HJJL2GLZ0",
+          "reason": "对象清晰可见，情绪却保持距离。",
+          "difference": "看得清，仍碰不到。",
+          "order": 1
+        },
+        {
+          "id": "reczz28NI8A1w8QJ",
+          "termId": "reczz28HJJL2GLgi",
+          "reason": "遮蔽让对象不肯完全显露。",
+          "difference": "距离来自看不清。",
+          "order": 2
+        },
+        {
+          "id": "reczz28NI8A1twD7",
+          "termId": "reczz28HJJL2GMrB",
+          "reason": "人物主动拥有自己的时间。",
+          "difference": "距离是自足，而非拒绝。",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "reczz28NI87wtO3X",
+      "feelingId": "reczz28HiWupieji",
+      "question": "你想要的「安静」，更接近哪一种？",
+      "label": "安静得像时间停住了",
+      "detail": "空间空着，行动中断，隐约令人不安",
+      "reason": "你寻找的可能是停滞，而不是舒适。",
+      "avoid": "治愈、安心",
+      "nextQuestion": "让你停下来的，是空场所、疲惫的人，还是错位的记忆？",
+      "order": 3,
+      "candidates": [
+        {
+          "id": "reczz28NI8A1tCgP",
+          "termId": "reczz28HJJL2GIv6",
+          "reason": "本来用于经过的场所失去正常活动。",
+          "difference": "停住的是空间的用途。",
+          "order": 1
+        },
+        {
+          "id": "reczz28NI8A1s6G9",
+          "termId": "reczz28HJJL2GK3M",
+          "reason": "人物仍在场，却缺少向前的动力。",
+          "difference": "停住的是身体与行动。",
+          "order": 2
+        },
+        {
+          "id": "reczz28NI8A1sUS9",
+          "termId": "reczz28HJJL2GIls",
+          "reason": "熟悉之物的位置或时间对不上记忆。",
+          "difference": "停住的是记忆的线索。",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "reczz28NI87wupB7",
+      "feelingId": "reczz28HiWupifWf",
+      "question": "你想要的「怀念」，更接近哪一种？",
+      "label": "想起有人陪伴的旧日生活",
+      "detail": "熟悉的物件、季节和日常细节",
+      "reason": "你怀念的是曾经被人陪伴的具体生活。",
+      "avoid": "阴森、纯粹猎奇",
+      "nextQuestion": "去掉旧滤镜后，哪件生活细节还会让你想起那时？",
+      "order": 4,
+      "candidates": [
+        {
+          "id": "reczz28NI8A1uV0p",
+          "termId": "reczz28HJJL2GMxt",
+          "reason": "人与日常活动让过去显得可触摸。",
+          "difference": "重点是生活仍在流动。",
+          "order": 1
+        },
+        {
+          "id": "reczz28NI8A1u0DB",
+          "termId": "reczz28HJJL2GJXK",
+          "reason": "旧物的材质与磨损留下时间痕迹。",
+          "difference": "重点是物的年代与手感。",
+          "order": 2
+        },
+        {
+          "id": "reczz28NI8A1s6BX",
+          "termId": "reczz28HJJL2GLJb",
+          "reason": "光与季节带回身体记住的时刻。",
+          "difference": "重点是季节经验。",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "reczz28NI87wvk8O",
+      "feelingId": "reczz28HiWupifWf",
+      "question": "你想要的「怀念」，更接近哪一种？",
+      "label": "像做过却记不清的梦",
+      "detail": "熟悉，但无法确定在哪里见过",
+      "reason": "你在意记忆的不确定性，而不只是旧东西。",
+      "avoid": "写实复刻",
+      "nextQuestion": "这种陌生感来自空间错位、画面模糊，还是旧媒介？",
+      "order": 5,
+      "candidates": [
+        {
+          "id": "reczz28NI8A1tAFz",
+          "termId": "reczz28HJJL2GIls",
+          "reason": "熟悉的记忆被放到不合理的位置。",
+          "difference": "回忆本身对不上。",
+          "order": 1
+        },
+        {
+          "id": "reczz28NI8A1usds",
+          "termId": "reczz28HJJL2GLgi",
+          "reason": "轮廓和细节不完全出现。",
+          "difference": "看得到，却无法确认。",
+          "order": 2
+        },
+        {
+          "id": "reczz28NI8A1tdCM",
+          "termId": "reczz28HJJL2GJcS",
+          "reason": "旧媒介的界面与痕迹唤起个人年代记忆。",
+          "difference": "想起曾经怎样上网、怎样长大。",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "reczz28NI87wu8e7",
+      "feelingId": "reczz28HiWupifWf",
+      "question": "你想要的「怀念」，更接近哪一种？",
+      "label": "美好已经过去，再也回不来",
+      "detail": "有遗憾，仍想着另一种可能的结局",
+      "reason": "这里的核心是未完成与失去，而非年代装饰。",
+      "avoid": "只有复古滤镜",
+      "nextQuestion": "你放不下的是结局、当时的自己，还是早已注定的过程？",
+      "order": 6,
+      "candidates": [
+        {
+          "id": "reczz28NI8A1uZJE",
+          "termId": "reczz28HJJL2GMZz",
+          "reason": "未实现的另一种结局持续牵动人。",
+          "difference": "放不下的是可能性。",
+          "order": 1
+        },
+        {
+          "id": "reczz28NI8A1w5Yj",
+          "termId": "reczz28HJJL2GMcc",
+          "reason": "过去的人还未定型，未来尚未关闭。",
+          "difference": "怀念的是开始时的未完成。",
+          "order": 2
+        },
+        {
+          "id": "reczz28NI8A1vzbT",
+          "termId": "reczz28HJJL2GOtf",
+          "reason": "回头看时，开端已被结局笼罩。",
+          "difference": "无法挽回像是早有预兆。",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "reczz28NI87wsrzz",
+      "feelingId": "reczz28HiWupies9",
+      "question": "你想要的「脆弱」，更接近哪一种？",
+      "label": "还没长大，还没定型",
+      "detail": "笨拙、敏感，却仍有生长空间",
+      "reason": "脆弱可以来自尚未成熟，不一定已有伤口。",
+      "avoid": "伤害猎奇",
+      "nextQuestion": "完全不出现伤口，这种敏感还成立吗？",
+      "order": 7,
+      "candidates": [
+        {
+          "id": "reczz28NI8A1uRy7",
+          "termId": "reczz28HJJL2GMcc",
+          "reason": "正在成为某种人的过程本身动人。",
+          "difference": "未完成比受伤更重要。",
+          "order": 1
+        },
+        {
+          "id": "reczz28NI8A1tzPr",
+          "termId": "reczz28HJJL2GJND",
+          "reason": "成长中的女孩经验与身份仍在变化。",
+          "difference": "关注具体成长处境。",
+          "order": 2
+        },
+        {
+          "id": "reczz28NI8A1tmK4",
+          "termId": "reczz28HJJL2GNqc",
+          "reason": "轻盈与通透让存在显得容易被扰动。",
+          "difference": "通过视觉厚度表现易碎。",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "reczz28NI87wtdQk",
+      "feelingId": "reczz28HiWupies9",
+      "question": "你想要的「脆弱」，更接近哪一种？",
+      "label": "美好的东西已经出现裂痕",
+      "detail": "曾经完整，如今受损或逐渐衰退",
+      "reason": "让人动容的，可能是损伤之后仍留存的愿望。",
+      "avoid": "只堆裂纹元素",
+      "nextQuestion": "更打动你的是裂痕本身、消耗过程，还是失去的可能？",
+      "order": 8,
+      "candidates": [
+        {
+          "id": "reczz28NI8A1t1Rd",
+          "termId": "reczz28HJJL2GN7q",
+          "reason": "伤口与仍然存在的渴望形成张力。",
+          "difference": "裂痕之下还有生命。",
+          "order": 1
+        },
+        {
+          "id": "reczz28NI8A1sGx5",
+          "termId": "reczz28MKp7HdDiG",
+          "reason": "过度成熟与衰退也可能产生美。",
+          "difference": "美来自渐渐耗损。",
+          "order": 2
+        },
+        {
+          "id": "reczz28NI8A1tE1t",
+          "termId": "reczz28HJJL2GMZz",
+          "reason": "受损让人想到另一种没有发生的结果。",
+          "difference": "痛点在未实现的可能。",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "reczz28NI87wtanw",
+      "feelingId": "reczz28HiWupies9",
+      "question": "你想要的「脆弱」，更接近哪一种？",
+      "label": "外表坚强，内在快要崩塌",
+      "detail": "克制着，没有公开说出痛苦",
+      "reason": "你寻找的是外显与内在的张力。",
+      "avoid": "直白哭戏",
+      "nextQuestion": "观众能从哪个微小动作看出强撑？",
+      "order": 9,
+      "candidates": [
+        {
+          "id": "reczz28NI8A1teOH",
+          "termId": "reczz28HJJL2GLZ0",
+          "reason": "清晰的外表与被保留的情绪之间有距离。",
+          "difference": "表面未失控。",
+          "order": 1
+        },
+        {
+          "id": "reczz28NI8A1u8I3",
+          "termId": "reczz28HJJL2GOtf",
+          "reason": "人物仍行动，却面对难以回避的结局。",
+          "difference": "压力来自未来。",
+          "order": 2
+        },
+        {
+          "id": "reczz28NI8A1sb9C",
+          "termId": "reczz28HJJL2GK3M",
+          "reason": "回应变得微弱，身体难以向前。",
+          "difference": "压力落在身体和行动。",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "reczz28NI87wsjlP",
+      "feelingId": "reczz28HiWupiegz",
+      "question": "你想要的「高级」，更接近哪一种？",
+      "label": "克制、不张扬",
+      "detail": "少而准，有呼吸感，不急着展示身价",
+      "reason": "你说的高级，可能是对分寸的偏好。",
+      "avoid": "过度装饰",
+      "nextQuestion": "如果多加一件强烈的元素，这种分寸还在吗？",
+      "order": 10,
+      "candidates": [
+        {
+          "id": "reczz28NI8A1tLrT",
+          "termId": "reczz28HJJL2GM8Z",
+          "reason": "低刺激、清爽的视觉处理使细节更显眼。",
+          "difference": "克制在色彩与外观。",
+          "order": 1
+        },
+        {
+          "id": "reczz28NI8A1ue9I",
+          "termId": "reczz28HJJL2GOA8",
+          "reason": "不费力的姿态减少刻意展示。",
+          "difference": "克制在状态与节奏。",
+          "order": 2
+        },
+        {
+          "id": "reczz28NI8A1s8OC",
+          "termId": "reczz28HJJL2GNqc",
+          "reason": "减轻厚度与阻碍，让光和物更容易通过。",
+          "difference": "克制在视觉的重量。",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "reczz28NI87wvbdZ",
+      "feelingId": "reczz28HiWupiegz",
+      "question": "你想要的「高级」，更接近哪一种？",
+      "label": "繁复、浓烈，却不杂乱",
+      "detail": "装饰丰富，仍能看出内部秩序",
+      "reason": "复杂不等于混乱；你可能喜欢有组织的丰盛。",
+      "avoid": "极简、寡淡",
+      "nextQuestion": "哪些细节属于同一套秩序，哪些只是堆砌？",
+      "order": 11,
+      "candidates": [
+        {
+          "id": "reczz28NI8A1tpck",
+          "termId": "reczz28HJJL2GJHl",
+          "reason": "精巧装饰与柔媚元素组织视觉魅力。",
+          "difference": "繁复偏向亲密和柔软。",
+          "order": 1
+        },
+        {
+          "id": "reczz28NI8A1vR0U",
+          "termId": "reczz28HJJL2GNOa",
+          "reason": "传统形式在当代继续生长。",
+          "difference": "秩序来自历史与当下的转译。",
+          "order": 2
+        },
+        {
+          "id": "reczz28NI8A1tGpd",
+          "termId": "reczz28HJJL2GJt7",
+          "reason": "装饰性与不服从相互拉扯。",
+          "difference": "丰盛里保留叛逆。",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "reczz28NI87wwJZi",
+      "feelingId": "reczz28HiWupiegz",
+      "question": "你想要的「高级」，更接近哪一种？",
+      "label": "陌生、前卫，超出预期",
+      "detail": "不容易归入常见模板，带一点不适",
+      "reason": "你可能看重偏离预期的方式，而非昂贵或简洁。",
+      "avoid": "现成模板",
+      "nextQuestion": "陌生感来自日常的错位、意义的反转，还是残存之物？",
+      "order": 12,
+      "candidates": [
+        {
+          "id": "reczz28NI8A1w3Gy",
+          "termId": "reczz28MKwvta1Ka",
+          "reason": "平常场景里出现一处不合常理的关系。",
+          "difference": "陌生感藏在日常。",
+          "order": 1
+        },
+        {
+          "id": "reczz28NI8A1uRsL",
+          "termId": "reczz28HJJL2GOVG",
+          "reason": "破坏人们对优美叙事的预期。",
+          "difference": "陌生感来自意义的反转。",
+          "order": 2
+        },
+        {
+          "id": "reczz28NI8A1se6I",
+          "termId": "reczz28HJJL2GP4n",
+          "reason": "文明残存的结构被重新观看。",
+          "difference": "陌生感来自结束之后的世界。",
+          "order": 3
+        }
+      ]
+    }
+  ]
+}
