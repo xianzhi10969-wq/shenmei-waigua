@@ -1,0 +1,26 @@
+{
+  "results": [
+    {
+      "width": 390,
+      "homeChapterTermCases": true,
+      "all144Cases": true,
+      "longestHook": "Coquette",
+      "feeling40": true,
+      "curiosity9": true,
+      "imagery70": true,
+      "resources60": true
+    },
+    {
+      "width": 1440,
+      "homeChapterTermCases": true,
+      "all144Cases": true,
+      "longestHook": "Coquette",
+      "feeling40": true,
+      "curiosity9": true,
+      "imagery70": true,
+      "resources60": true
+    }
+  ],
+  "scriptErrors": [],
+  "failedResponses": []
+}

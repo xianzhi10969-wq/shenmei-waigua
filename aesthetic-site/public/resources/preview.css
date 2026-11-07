@@ -1,0 +1,6 @@
+/* Review-host styles are separate so p5.css is safe to embed in the main site. */
+body { margin: 0; background: #f6f3ed; }
+.p5-review { max-width: 560px; margin: 0 auto; padding: 32px 24px 48px; border-top: 1px solid #ccc; color: #666; font: 14px/1.8 system-ui, sans-serif; }
+.p5-review p { margin: 0 0 8px; }
+.p5-review output { display: block; color: #242424; }
+@media print { .p5-review { display: none; } }

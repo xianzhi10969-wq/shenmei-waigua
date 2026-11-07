@@ -1,0 +1,13 @@
+/* A physical opaque paper plane with genuine transparent openings. */
+#aperture{will-change:transform;clip-path:none;mask:url(#paper-cut);-webkit-mask:url(#paper-cut);transform-origin:top left}
+#adopted-p3{transform:none!important}
+#night-veil{opacity:1!important;visibility:visible!important;z-index:0;will-change:auto}
+#night-solid{transform:none!important}
+#traveller{z-index:1}
+#aperture{z-index:2}
+#aperture header,#aperture .pager,#aperture .definition,#aperture .credits{opacity:var(--paper-ui,0)}
+.scroll-invitation{z-index:3}
+#paper-mask-defs{position:absolute;left:0;top:0;width:0;height:0;pointer-events:none}
+
+/* The star is an independent foreground layer, never covered by the paper. */
+#traveller{z-index:4!important}

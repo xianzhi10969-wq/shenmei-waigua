@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-07",
+  "skill": ".agents/skills/shenmei-editorial-layout/SKILL.md",
+  "upstream": [
+    "page-composition.md#image-text-relationships",
+    "typography-rules.md#heading-hierarchy"
+  ],
+  "E01": "All cases keep title, creator, image, one-line insight, full analysis and source.",
+  "E03": "Term reading keeps accepted 17px/30px mobile and 18px/33px desktop body.",
+  "E04": "Existing Coquette type roles are reused with complete glyph coverage.",
+  "E05": "Original image aspect ratios use contain in term galleries. Long introductions remain reachable before transition.",
+  "E06": "Existing opening and sequential collage behavior are retained.",
+  "E07": "HTML text, separate original images, explicit stable data IDs.",
+  "Figma": "Read source structure 81:3, 81:23 and 82:24 in prior term correction. This integration adds no new Figma nodes.",
+  "status": "Term template accepted. Full multi-page integration is for review."
+}
