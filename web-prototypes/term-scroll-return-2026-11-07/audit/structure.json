@@ -1,0 +1,22 @@
+{
+  "figma_file": "pIL4mlWLHxph3pqXlIVq1s",
+  "desktop_case_section": "81:23",
+  "desktop_full_page": "81:3",
+  "mobile_case": "82:24",
+  "mobile_full_page": "82:2",
+  "case_fields": [
+    "作品名",
+    "作者",
+    "年份",
+    "媒介",
+    "图",
+    "一句为什么",
+    "为什么好",
+    "官方页"
+  ],
+  "correction": "Restore full case reading; practices-only body was incorrect.",
+  "case_count": 3,
+  "case_images": 9,
+  "collage_units": 10,
+  "baseline_commit": "13c7d07b73274fc7d307ecd1fb94595dc132b0ee"
+}
