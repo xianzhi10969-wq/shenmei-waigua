@@ -33,6 +33,12 @@ export function createSceneStarTrigger() {
       return null; // The travelling star belongs to the transition until it is seated.
     }
     if (mobile) {
+      const stack = document.getElementById('mstack');
+      if (stack?.dataset.starFlight === 'true') {
+        // Match desktop: the star becomes a control after it seats in the water.
+        if (stack.dataset.starSeated !== 'true') return null;
+        return rectAnchor(document.getElementById('mstar'), 'p2');
+      }
       const image = document.getElementById('mp1'), scene = document.getElementById('mp1-scene');
       if (image?.complete && image.naturalWidth && !['pending', 'running'].includes(scene?.dataset.revealing)) {
         const r = image.getBoundingClientRect();
@@ -40,7 +46,7 @@ export function createSceneStarTrigger() {
         if (p1.y > 0 && p1.y < innerHeight) return p1;
       }
       const star = document.getElementById('mstar');
-      return star?.complete && star.naturalWidth ? rectAnchor(star, 'p2') : null;
+      return star?.complete && star.naturalWidth && getComputedStyle(star).visibility !== 'hidden' ? rectAnchor(star, 'p2') : null;
     }
     // The protected desktop opening lives in a same-origin, scaled iframe.
     const frame = document.getElementById('v4');

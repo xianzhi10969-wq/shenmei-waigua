@@ -1,0 +1,32 @@
+[
+  {
+    "width": 390,
+    "height": 844,
+    "dpr": 2,
+    "scrollSamples": 101,
+    "reverse": "identical states",
+    "handoffMaxCSSpx": 0,
+    "textMargin": "visible star stays left of number column",
+    "errors": []
+  },
+  {
+    "width": 430,
+    "height": 932,
+    "dpr": 3,
+    "scrollSamples": 101,
+    "reverse": "identical states",
+    "handoffMaxCSSpx": 0.01202392578125,
+    "textMargin": "visible star stays left of number column",
+    "errors": []
+  },
+  {
+    "width": 320,
+    "height": 740,
+    "dpr": 2,
+    "scrollSamples": 101,
+    "reverse": "identical states",
+    "handoffMaxCSSpx": 0.012821197509765625,
+    "textMargin": "visible star stays left of number column",
+    "errors": []
+  }
+]
