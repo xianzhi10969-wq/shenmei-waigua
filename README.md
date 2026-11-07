@@ -1,5 +1,7 @@
 # 审美外挂｜项目总入口（更新至 2026-10-24）
 
+> **2026-11-07｜词条页当前确认版完整源码**：[吊灯开场→完整风格图谱→逐案例介绍解析](web-prototypes/term-scroll-return-2026-11-07/README.md)已纳入master。包含全部运行代码、26个素材文件、数据快照、字体许可与检查；可直接打开index.html。上下滚动返回吊灯已确认，原图谱十图依次显现保留。本次为Coquette完整页面存库，全词条批量接入与生产发布另行接续。
+
 > **2026-11-04｜词条看板代码存库**：[Coquette 拼贴 v3、字体与黑框对照](web-prototypes/term-style-board-2026-11-03/README.md)已保存到 master。整体方向认可，字体可微调，现有词条页接入待定；未替换生产页面。
 
 > **2026-10-31｜Netlify 首发记录（纠正“从未部署”误判）**：早期完整站 `aesthetic-site` **先通过 Netlify Drop 发布**，历史后台显示 **2026-10-14 11:16**；站点 [subtle-peony-38e354.netlify.app](https://subtle-peony-38e354.netlify.app/)，[后台部署记录](https://app.netlify.com/projects/subtle-peony-38e354/deploys)。完整 V2 源码留在历史分支 `codex/backup-accepted-term-v2-2026-10-15` 的 [`aesthetic-site/`（提交 b95caf9）](https://github.com/xianzhi10969-wq/shenmei-waigua/tree/b95caf91555549ddbd9ef58bccf3625fa8f76102/aesthetic-site)，**不在 master 根目录**。10/20 的 [P3/P4 Sites 动效预览](https://aura-p34-motion-study-20261020.xianzhi10969.chatgpt.site/) 是另一套原型，不能代替早期完整站。Netlify 当前可用性/当前线上版本尚未复核；Netlify Drop 不需要 GitHub 部署分支。详细出处与跨 AI 查找规则见 [整站总控·部署历史纠正](PROJECT_CONTROL.md#2026-10-31部署历史纠正完整站先发布于-netlify必读)。

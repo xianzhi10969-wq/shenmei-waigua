@@ -1,0 +1,28 @@
+[
+  {
+    "width": 390,
+    "openingWaitsForScroll": true,
+    "wheelBackMidReveal": true,
+    "wheelBackAfterComplete": true,
+    "keyboardHomePageDown": true,
+    "sequentialReveal": true,
+    "caseLinkReturn": true,
+    "caseDeepLinkCanReachOpening": true
+  },
+  {
+    "width": 1440,
+    "openingWaitsForScroll": true,
+    "wheelBackMidReveal": true,
+    "wheelBackAfterComplete": true,
+    "keyboardHomePageDown": true,
+    "sequentialReveal": true,
+    "caseLinkReturn": true,
+    "caseDeepLinkCanReachOpening": true
+  },
+  {
+    "mobileTouchSwipeBack": true
+  },
+  {
+    "reducedMotionOpeningAndCasesAccessible": true
+  }
+]

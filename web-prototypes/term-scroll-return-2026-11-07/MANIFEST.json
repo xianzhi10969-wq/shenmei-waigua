@@ -1,0 +1,260 @@
+{
+  "source_commit": "f70bb6e28861f804e0f5cb6204a9ac25f673c709",
+  "scope": "Complete approved Coquette term page source and runtime assets",
+  "file_count_excluding_manifest": 42,
+  "total_bytes_excluding_manifest": 22091017,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2540,
+      "sha256": "294f2b6242ab322fef03cca41b2256be2618eb8938a5f29d3b31c852804ff1ca",
+      "git_blob": "d58622b48662ab5d226c1b36101481b6f6bfe3c7"
+    },
+    {
+      "path": "assets/chandelier-02.png",
+      "bytes": 1233154,
+      "sha256": "8e65da4c7de40d22a58819eca2bac3b8aabd21e83575d3f0aa5a3e7dbd2a8c28",
+      "git_blob": "17b2f40d4f4f311bb0ba0fbf3505ddf8ae8772cb"
+    },
+    {
+      "path": "assets/fonts/0ad1510514849c1e.woff2",
+      "bytes": 35732,
+      "sha256": "0ad1510514849c1e6bd955f9f41e3516e3549f4b3a09583fcf592226e4891eb3",
+      "git_blob": "0b295224b6420b5def7238fcaf5c96dbb2995755"
+    },
+    {
+      "path": "assets/fonts/2ce479b703b54faa.woff2",
+      "bytes": 76324,
+      "sha256": "2ce479b703b54faa92acf46dc5edc719bb2b2f7ced3f3be6bb910f43aed30d0c",
+      "git_blob": "6f20f77ab4ed327cd24b5c859fb155cde96fe7b3"
+    },
+    {
+      "path": "assets/fonts/758883b3b8e23791.woff2",
+      "bytes": 27112,
+      "sha256": "758883b3b8e23791c11016c419acc385942a94ec06ec6422b6768fc685d2d2f9",
+      "git_blob": "3dc5d79e21c979065126bd4a70da55f1f86b9437"
+    },
+    {
+      "path": "assets/fonts/EntryCN.woff2",
+      "bytes": 131472,
+      "sha256": "14b45a430bdde33054bf4bf9485fd3b41a93e32c29e00c412eee66c8ab42c38c",
+      "git_blob": "cbfbe9d9e3d7db8653e9a9edc40fd24b38a4a31a"
+    },
+    {
+      "path": "assets/fonts/IntroCN.woff2",
+      "bytes": 34628,
+      "sha256": "b69facec94fa32c1f426a40842bf8142442d75b010dad19a1c9d9c459a11217e",
+      "git_blob": "0d6027973a475699f32a60bd7ac66e1b14c668e4"
+    },
+    {
+      "path": "assets/images/21c35addd4dd3bee.png",
+      "bytes": 2948401,
+      "sha256": "21c35addd4dd3beed028d27c29bae5239a6b76c095146a6fbe43c99351ba3d99",
+      "git_blob": "e11e7a4b5f321b7033ff4bdaf24fdfa24617bd2d"
+    },
+    {
+      "path": "assets/images/2a51e79a090a90d7.png",
+      "bytes": 3020030,
+      "sha256": "2a51e79a090a90d7efaa44e383f0f9cdbb94513f2504b311026059df791807fd",
+      "git_blob": "f174b8b9da5da8d74c0d4e8eff82f65b57afdedd"
+    },
+    {
+      "path": "assets/images/3d58cd710ebcd3a4.png",
+      "bytes": 74778,
+      "sha256": "3d58cd710ebcd3a4fabc42d5c1ef29b92cabca718bfe241ea3fde1f0ab5e98e4",
+      "git_blob": "96dcdb26f8446898e5955bec337b0ad3db0e123c"
+    },
+    {
+      "path": "assets/images/5bc9b782769739e5.png",
+      "bytes": 4869673,
+      "sha256": "5bc9b782769739e58c866792c5c41be071b497afcf1a03b38d191ef2988d2499",
+      "git_blob": "39d988317d89ada268a35a39761c1648756a1e7a"
+    },
+    {
+      "path": "assets/images/7109201d5d1829f4.png",
+      "bytes": 26221,
+      "sha256": "7109201d5d1829f460c8c792a728e4d671831ed57b6b3239be3475b0b83c53fa",
+      "git_blob": "9122c3aa0ce2e00dc6582491b21de52a1c3c88bd"
+    },
+    {
+      "path": "assets/images/93cd905d6297ebb1.png",
+      "bytes": 294219,
+      "sha256": "93cd905d6297ebb1541bea8a291ef10fbd710317135b8eac0d713b0340d38e3c",
+      "git_blob": "cb85f5b16dbd0844c55eca9228eb4ae226168f21"
+    },
+    {
+      "path": "assets/images/add6460cb1c9a220.png",
+      "bytes": 294287,
+      "sha256": "add6460cb1c9a220ca981633704fb39de78160a7387459b73cc17dfbba1f87cc",
+      "git_blob": "a470e01185021123a644d712949b51de20482ca8"
+    },
+    {
+      "path": "assets/images/aed4a8d4d6d31d1c.png",
+      "bytes": 675667,
+      "sha256": "aed4a8d4d6d31d1c3450dd258320913ac3e6c5bffa8553f41f2ecd85154e124a",
+      "git_blob": "cf6e20a38840039c17433a54e7ceddfd2de07622"
+    },
+    {
+      "path": "assets/images/b1e200c45e872162.png",
+      "bytes": 3292581,
+      "sha256": "b1e200c45e8721626d67328feb0309f96cf4a9fe3e780c1cd74d92922fa1e9ef",
+      "git_blob": "e5358b5214533abe5ea1c1d05f7dd137a9bb1ead"
+    },
+    {
+      "path": "assets/images/daee6ee6acb078a3.png",
+      "bytes": 321301,
+      "sha256": "daee6ee6acb078a349653be7f06b7c273b625d9169a17d3094fb51976271a8d9",
+      "git_blob": "fadbbb9d71c5907a69fd2441145a5d5a8fd7db94"
+    },
+    {
+      "path": "assets/originals/gaultier_ss24_1.jpg",
+      "bytes": 695684,
+      "sha256": "ed73520d6fe0daba8ad8488cefd85ce435c94254deda898c46ea47db1394fc29",
+      "git_blob": "8b27ff02f7e57257ee60d3db99a4218c6cc7990c"
+    },
+    {
+      "path": "assets/originals/gaultier_ss24_2.jpg",
+      "bytes": 653347,
+      "sha256": "67bdb414736bdbf1ffc60e26384f21ad8b21a9848b597f2f7d3fe423915645f1",
+      "git_blob": "ff9ca7090f54ccb67d416125ada81decf76c9ea6"
+    },
+    {
+      "path": "assets/originals/gaultier_ss24_3.jpg",
+      "bytes": 674520,
+      "sha256": "fedcdd5d855c4bcb5385d9224d115da41f776f76d1c26d7aafb88af4fb335a54",
+      "git_blob": "17b6111a33b9cc97efd65a28243fd4e65579210b"
+    },
+    {
+      "path": "assets/originals/juno_champagne.jpg",
+      "bytes": 291616,
+      "sha256": "34820b79b52730b8ec7cbb0d30c699e20493d034822fc29beb3ee5fd98efe314",
+      "git_blob": "c6c25df3a7a2c83cc85e81246106b029a2b58cf5"
+    },
+    {
+      "path": "assets/originals/juno_first_night.jpg",
+      "bytes": 380720,
+      "sha256": "ddeebc80790e8c694a3a64ab810c1e7194d3fdbcb3571bce64e8611faf6bec30",
+      "git_blob": "a53ba4dfb828f2775f69be6e43e891ef5da4e716"
+    },
+    {
+      "path": "assets/originals/juno_honeymoon_suite.jpg",
+      "bytes": 271262,
+      "sha256": "555ea9684cc10de32e50f270df4f8f9d0ce759830caae0d5b1805e8d548e5d1b",
+      "git_blob": "b7d478970ad8332bebad468f43a1e7c3835f2390"
+    },
+    {
+      "path": "assets/originals/sandy_ss24_1.jpg",
+      "bytes": 282006,
+      "sha256": "52539e67f173308d78ea43337581e6edb5c911298f14241efd92cdeca72459ea",
+      "git_blob": "77315d92c531519233fb7c8e74c2f2816513b6c6"
+    },
+    {
+      "path": "assets/originals/sandy_ss24_2.jpg",
+      "bytes": 274879,
+      "sha256": "c9988b4253a29ca411d22a67318f80291f3950e246f194106f1bfcc1c778f471",
+      "git_blob": "e2f43f9cae15526d610cb5e1976e28d458caf766"
+    },
+    {
+      "path": "assets/originals/sandy_ss24_3.jpg",
+      "bytes": 265886,
+      "sha256": "799483e3e01b611ac0db8bd47bd2bb403d3747b24bdf62316eb9107f12a7fbfa",
+      "git_blob": "1abd94f5e6ec5835ae8ff05c69678f9d40685b75"
+    },
+    {
+      "path": "assets/originals/swing.jpg",
+      "bytes": 866794,
+      "sha256": "65fafbb80af0a05c70ea6aca309e48daa1a6618e0b1744234ad6c21f3721d959",
+      "git_blob": "a5dfcabebd986507b9c4aba7ba2296f49aaf8488"
+    },
+    {
+      "path": "audit/protection.json",
+      "bytes": 635,
+      "sha256": "38476974bbfe3089f89441a48225681e898a764635d230ce7a0963e0551c9e7f",
+      "git_blob": "b871553e51c854b69fe18fd2781eff51536869e8"
+    },
+    {
+      "path": "audit/structure.json",
+      "bytes": 527,
+      "sha256": "7e21454586b9f0b11551d5741ce9281f93bf0f5c0f0f474a3d77b3f0fa902212",
+      "git_blob": "837e5f78b89da49770056d64083dc54d07c9d7dd"
+    },
+    {
+      "path": "cases.css",
+      "bytes": 3493,
+      "sha256": "36ec47f4ccecb315df2e123ffe7fed09b5c6115bb8e77a73d95724d8ce1940d1",
+      "git_blob": "27880df566545d157378def60d6e57d38d940e11"
+    },
+    {
+      "path": "cases.json",
+      "bytes": 8309,
+      "sha256": "8a667767080628c5224ee527d2bc7cc9ce951d23f568633aa57b64b37b2c4536",
+      "git_blob": "80867a82a38f89383bf909a9c357aab2c0f8c193"
+    },
+    {
+      "path": "checks/scroll.py",
+      "bytes": 4892,
+      "sha256": "152ea3edfb753f5fd67f7f3f027ab39985f528d813c18c80bc77331d39365f74",
+      "git_blob": "804a9ecb25c25e8eb349cd85b1834c2a8a471892"
+    },
+    {
+      "path": "connected.css",
+      "bytes": 5036,
+      "sha256": "2151dd49c9550eb06a644c156cdebc235aa9323c3f7f4c3aa8849c617996c13d",
+      "git_blob": "af27b7ab124af7dc938ed564b818b4e87eea8245"
+    },
+    {
+      "path": "content.json",
+      "bytes": 1498,
+      "sha256": "c455b6d464902aea505fc1ebd952e97373598c52e577b8009acfe1dcc7c8c693",
+      "git_blob": "ba0655c80b5f47f46bfb5ca7cf2b6c96460b1794"
+    },
+    {
+      "path": "demo.css",
+      "bytes": 1999,
+      "sha256": "7e35809b88062a2063b5438cc124263ebab0c4a0c24b699b27207c6b19f3de36",
+      "git_blob": "106b85683a1158f1c52357325fb1dcb98fd9be96"
+    },
+    {
+      "path": "demo.js",
+      "bytes": 6542,
+      "sha256": "3719db298b2ebbfcb8ff984749635a3e0175a8d051aaca9dcc24d6ef44cc53ac",
+      "git_blob": "9624529202fa435c77bb18d5935df187baba7ed7"
+    },
+    {
+      "path": "index.html",
+      "bytes": 26474,
+      "sha256": "9e0256dbc94fbd2f807f26abb9ec72c129b1d1625975dae3b726ee2a62de3cf3",
+      "git_blob": "b7ae8fd84bb95764e923f5678fc57cdeac633dd6"
+    },
+    {
+      "path": "licenses/Cormorant-OFL.txt",
+      "bytes": 4388,
+      "sha256": "ecd1b9f2f5bd3ac0614ce50c6024c69044a555afe1dcd79e7a33de738ee59410",
+      "git_blob": "69aa063b53f4e3dfdd8ba65ad561463d7719dfcd"
+    },
+    {
+      "path": "licenses/Zhuque-OFL.txt",
+      "bytes": 4390,
+      "sha256": "d6cec39519f63e3848da753f071e04cae96322dc92f5834734f9060cc6322104",
+      "git_blob": "5767769a70528d89007dcd948fff8b547b510d9c"
+    },
+    {
+      "path": "previews/scroll-checks.json",
+      "bytes": 629,
+      "sha256": "f41ca4cd2ee53c0a02da2bb8a0e06380f62bf671f1551273d86a1a11d31e5b40",
+      "git_blob": "e0d2b2e3da0a3da6cca2bdaab17805dda217914c"
+    },
+    {
+      "path": "scroll.css",
+      "bytes": 913,
+      "sha256": "f3193d26e2357d4ef52ea7cf89baec7572b75646c0922198beb6a3897957633b",
+      "git_blob": "d6b2a094b651c73ec357ee994511fa8fc3692b3d"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 6458,
+      "sha256": "61ae1fbdd20898435e5d1ebc8828ece95956722f2382d4d25b71362d2905d024",
+      "git_blob": "bab99153718efad50b817e9dbc1365a89ba27a4e"
+    }
+  ]
+}
