@@ -1,0 +1,356 @@
+[
+  {
+    "source": 7,
+    "desktop": [
+      18,
+      127,
+      680,
+      418,
+      -2
+    ],
+    "mobile": [
+      8,
+      108,
+      373,
+      240,
+      -2
+    ],
+    "label": "交锋的眼神与剑",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "assassin_lb.jpg",
+    "case_record_id": "reczz28MmyiICLBe",
+    "original": "assets/wuxia/assassin_lb.jpg",
+    "case_title": "《刺客聂隐娘》The Assassin",
+    "source_url": "https://www.festival-cannes.com/en/f/nie-yinniang/",
+    "term_record_id": "reczz28HJJL2GNcx"
+  },
+  {
+    "source": 8,
+    "desktop": [
+      911,
+      128,
+      270,
+      456,
+      2
+    ],
+    "mobile": [
+      265,
+      360,
+      114,
+      243,
+      3
+    ],
+    "label": "聂隐娘海报",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "assassin_flixster.jpg",
+    "case_record_id": "reczz28MmyiICLBe",
+    "original": "assets/wuxia/assassin_flixster.jpg",
+    "case_title": "《刺客聂隐娘》The Assassin",
+    "source_url": "https://www.festival-cannes.com/en/f/nie-yinniang/",
+    "term_record_id": "reczz28HJJL2GNcx"
+  },
+  {
+    "source": 9,
+    "desktop": [
+      18,
+      739,
+      807,
+      337,
+      2
+    ],
+    "mobile": [
+      8,
+      861,
+      371,
+      231,
+      -2
+    ],
+    "label": "夜将的荒原",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "yejiang_gug.jpg",
+    "case_record_id": "reczz28MmyiIBtuF",
+    "original": "assets/wuxia/yejiang_gug.jpg",
+    "case_title": "《夜将》Yejiang / The Nightman Cometh",
+    "source_url": "https://www.guggenheim.org/artwork/artist/yang-fudong",
+    "term_record_id": "reczz28HJJL2GNcx"
+  },
+  {
+    "source": 1,
+    "desktop": [
+      20,
+      467,
+      443,
+      315,
+      -2
+    ],
+    "mobile": [
+      8,
+      348,
+      175,
+      211,
+      -2
+    ],
+    "label": "城市里的侠客",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "retainers_1_rgb.jpg",
+    "case_record_id": "reczz28MmyiIADor",
+    "original": "assets/wuxia/retainers_1_rgb.jpg",
+    "case_title": "Retainers of Anarchy",
+    "source_url": "https://www.howietsui.com/retainers-of-anarchy",
+    "term_record_id": "reczz28HJJL2GNcx"
+  },
+  {
+    "source": 3,
+    "desktop": [
+      779,
+      715,
+      405,
+      363,
+      -2
+    ],
+    "mobile": [
+      213,
+      707,
+      168,
+      218,
+      3
+    ],
+    "label": "长卷影像的现场",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "retainers_sydney.jpg",
+    "case_record_id": "reczz28MmyiIADor",
+    "original": "assets/wuxia/retainers_sydney.jpg",
+    "case_title": "Retainers of Anarchy",
+    "source_url": "https://www.howietsui.com/retainers-of-anarchy",
+    "term_record_id": "reczz28HJJL2GNcx"
+  },
+  {
+    "source": 2,
+    "desktop": [
+      687,
+      141,
+      300,
+      245,
+      -4
+    ],
+    "mobile": [
+      8,
+      668,
+      172,
+      185,
+      -3
+    ],
+    "label": "算法图像里的盘中人",
+    "crop": [
+      300,
+      130,
+      600,
+      650
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "retainers_2_rgb.jpg",
+    "case_record_id": "reczz28MmyiIADor",
+    "original": "assets/wuxia/retainers_2_rgb.jpg",
+    "case_title": "Retainers of Anarchy",
+    "source_url": "https://www.howietsui.com/retainers-of-anarchy",
+    "term_record_id": "reczz28HJJL2GNcx"
+  },
+  {
+    "source": 1,
+    "desktop": [
+      685,
+      367,
+      250,
+      371,
+      2
+    ],
+    "mobile": [
+      241,
+      523,
+      138,
+      233,
+      2
+    ],
+    "label": "长卷里的城市细部",
+    "crop": [
+      100,
+      40,
+      410,
+      840
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "retainers_1_rgb.jpg",
+    "case_record_id": "reczz28MmyiIADor",
+    "original": "assets/wuxia/retainers_1_rgb.jpg",
+    "case_title": "Retainers of Anarchy",
+    "source_url": "https://www.howietsui.com/retainers-of-anarchy",
+    "term_record_id": "reczz28HJJL2GNcx"
+  },
+  {
+    "source": 5,
+    "desktop": [
+      49,
+      164,
+      165,
+      284,
+      -4
+    ],
+    "mobile": [
+      8,
+      119,
+      102,
+      198,
+      -4
+    ],
+    "label": "黑白造型",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "damowang_3.jpg",
+    "case_record_id": "reczz28MmyiIBfka",
+    "original": "assets/wuxia/damowang_3.jpg",
+    "case_title": "DAMOWANG 2024 秋冬系列",
+    "source_url": "https://www.vogue.com.cn/fashion/industry/news_124124fd4e37142c.html",
+    "term_record_id": "reczz28HJJL2GNcx"
+  },
+  {
+    "source": 6,
+    "desktop": [
+      365,
+      233,
+      473,
+      792,
+      0
+    ],
+    "mobile": [
+      109,
+      357,
+      222,
+      558,
+      0
+    ],
+    "label": "完整江湖造型",
+    "crop": [
+      245,
+      105,
+      580,
+      860
+    ],
+    "mask": "coat",
+    "shape": null,
+    "file": "damowang_4.jpg",
+    "case_record_id": "reczz28MmyiIBfka",
+    "original": "assets/wuxia/damowang_4.jpg",
+    "case_title": "DAMOWANG 2024 秋冬系列",
+    "source_url": "https://www.vogue.com.cn/fashion/industry/news_124124fd4e37142c.html",
+    "term_record_id": "reczz28HJJL2GNcx"
+  },
+  {
+    "source": 7,
+    "desktop": [
+      895,
+      560,
+      270,
+      191,
+      4
+    ],
+    "mobile": [
+      8,
+      556,
+      122,
+      125,
+      3
+    ],
+    "label": "剑锋与手",
+    "crop": [
+      0,
+      0,
+      420,
+      760
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "assassin_lb.jpg",
+    "case_record_id": "reczz28MmyiICLBe",
+    "original": "assets/wuxia/assassin_lb.jpg",
+    "case_title": "《刺客聂隐娘》The Assassin",
+    "source_url": "https://www.festival-cannes.com/en/f/nie-yinniang/",
+    "term_record_id": "reczz28HJJL2GNcx"
+  },
+  {
+    "source": 9,
+    "desktop": [
+      67,
+      859,
+      180,
+      194,
+      -4
+    ],
+    "mobile": [
+      18,
+      944,
+      115,
+      128,
+      -4
+    ],
+    "label": "旗与荒原",
+    "crop": [
+      650,
+      0,
+      270,
+      1000
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "yejiang_gug.jpg",
+    "case_record_id": "reczz28MmyiIBtuF",
+    "original": "assets/wuxia/yejiang_gug.jpg",
+    "case_title": "《夜将》Yejiang / The Nightman Cometh",
+    "source_url": "https://www.guggenheim.org/artwork/artist/yang-fudong",
+    "term_record_id": "reczz28HJJL2GNcx"
+  },
+  {
+    "source": 6,
+    "desktop": [
+      935,
+      829,
+      235,
+      225,
+      4
+    ],
+    "mobile": [
+      273,
+      936,
+      107,
+      150,
+      3
+    ],
+    "label": "衣料垂落的光",
+    "crop": [
+      410,
+      550,
+      240,
+      330
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "damowang_4.jpg",
+    "case_record_id": "reczz28MmyiIBfka",
+    "original": "assets/wuxia/damowang_4.jpg",
+    "case_title": "DAMOWANG 2024 秋冬系列",
+    "source_url": "https://www.vogue.com.cn/fashion/industry/news_124124fd4e37142c.html",
+    "term_record_id": "reczz28HJJL2GNcx"
+  }
+]

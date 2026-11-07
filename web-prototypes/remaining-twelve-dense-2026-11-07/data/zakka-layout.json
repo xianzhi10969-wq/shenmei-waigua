@@ -1,0 +1,334 @@
+[
+  {
+    "source": 2,
+    "desktop": [
+      18,
+      130,
+      711,
+      530,
+      -2
+    ],
+    "mobile": [
+      8,
+      103,
+      373,
+      286,
+      -2
+    ],
+    "label": "书页里的书房",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "neutral4_spread.jpg",
+    "case_record_id": "reczz28MRgdMRxNT",
+    "original": "assets/zakka/neutral4_spread.jpg",
+    "case_title": "NEUTRAL COLORS Issue 4｜Work",
+    "source_url": "https://neutral-colors.com/books_post/neutral-colors-4/",
+    "term_record_id": "reczz28HJJL2GJht"
+  },
+  {
+    "source": 5,
+    "desktop": [
+      678,
+      126,
+      504,
+      470,
+      2
+    ],
+    "mobile": [
+      205,
+      557,
+      176,
+      242,
+      2
+    ],
+    "label": "房间与生活",
+    "crop": [
+      0,
+      420,
+      1000,
+      580
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "premium123.jpg",
+    "case_record_id": "reczz28MRgdMS2Dv",
+    "original": "assets/zakka/premium123.jpg",
+    "case_title": "&Premium No.123｜部屋を、整える。",
+    "source_url": "https://andpremium.jp/book/premium-no-123/",
+    "term_record_id": "reczz28HJJL2GJht"
+  },
+  {
+    "source": 1,
+    "desktop": [
+      24,
+      699,
+      509,
+      379,
+      2
+    ],
+    "mobile": [
+      8,
+      851,
+      218,
+      241,
+      -2
+    ],
+    "label": "NEUTRAL COLORS完整书本",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "neutral4_cover.jpg",
+    "case_record_id": "reczz28MRgdMRxNT",
+    "original": "assets/zakka/neutral4_cover.jpg",
+    "case_title": "NEUTRAL COLORS Issue 4｜Work",
+    "source_url": "https://neutral-colors.com/books_post/neutral-colors-4/",
+    "term_record_id": "reczz28HJJL2GJht"
+  },
+  {
+    "source": 4,
+    "desktop": [
+      820,
+      649,
+      355,
+      429,
+      -2
+    ],
+    "mobile": [
+      235,
+      842,
+      146,
+      247,
+      2
+    ],
+    "label": "GINZA衣柜封面",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "ginza324.jpg",
+    "case_record_id": "reczz28MRgdMRZAU",
+    "original": "assets/zakka/ginza324.jpg",
+    "case_title": "GINZA No.324｜クローゼットスナップ！",
+    "source_url": "https://magazineworld.jp/ginza/ginza-324/",
+    "term_record_id": "reczz28HJJL2GJht"
+  },
+  {
+    "source": 3,
+    "desktop": [
+      385,
+      422,
+      357,
+      459,
+      -4
+    ],
+    "mobile": [
+      100,
+      326,
+      215,
+      277,
+      -4
+    ],
+    "label": "POPEYE生活物件图鉴",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "popeye782.jpg",
+    "case_record_id": "reczz28MRgdMRhwp",
+    "original": "assets/zakka/popeye782.jpg",
+    "case_title": "POPEYE No.782｜シティーボーイのABC",
+    "source_url": "https://magazineworld.jp/popeye/back/?show=5",
+    "term_record_id": "reczz28HJJL2GJht"
+  },
+  {
+    "source": 4,
+    "desktop": [
+      33,
+      417,
+      278,
+      369,
+      3
+    ],
+    "mobile": [
+      8,
+      494,
+      121,
+      248,
+      3
+    ],
+    "label": "衣柜中的衣服",
+    "crop": [
+      230,
+      175,
+      580,
+      680
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "ginza324.jpg",
+    "case_record_id": "reczz28MRgdMRZAU",
+    "original": "assets/zakka/ginza324.jpg",
+    "case_title": "GINZA No.324｜クローゼットスナップ！",
+    "source_url": "https://magazineworld.jp/ginza/ginza-324/",
+    "term_record_id": "reczz28HJJL2GJht"
+  },
+  {
+    "source": 5,
+    "desktop": [
+      573,
+      812,
+      245,
+      263,
+      4
+    ],
+    "mobile": [
+      118,
+      775,
+      135,
+      211,
+      -3
+    ],
+    "label": "窗边的生活",
+    "crop": [
+      310,
+      450,
+      670,
+      500
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "premium123.jpg",
+    "case_record_id": "reczz28MRgdMS2Dv",
+    "original": "assets/zakka/premium123.jpg",
+    "case_title": "&Premium No.123｜部屋を、整える。",
+    "source_url": "https://andpremium.jp/book/premium-no-123/",
+    "term_record_id": "reczz28HJJL2GJht"
+  },
+  {
+    "source": 3,
+    "desktop": [
+      855,
+      277,
+      204,
+      250,
+      -5
+    ],
+    "mobile": [
+      270,
+      148,
+      102,
+      129,
+      4
+    ],
+    "label": "衬衫与夹克",
+    "crop": [
+      90,
+      280,
+      430,
+      300
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "popeye782.jpg",
+    "case_record_id": "reczz28MRgdMRhwp",
+    "original": "assets/zakka/popeye782.jpg",
+    "case_title": "POPEYE No.782｜シティーボーイのABC",
+    "source_url": "https://magazineworld.jp/popeye/back/?show=5",
+    "term_record_id": "reczz28HJJL2GJht"
+  },
+  {
+    "source": 3,
+    "desktop": [
+      39,
+      867,
+      185,
+      184,
+      -5
+    ],
+    "mobile": [
+      8,
+      745,
+      105,
+      125,
+      -4
+    ],
+    "label": "运动鞋与小物",
+    "crop": [
+      500,
+      580,
+      420,
+      280
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "popeye782.jpg",
+    "case_record_id": "reczz28MRgdMRhwp",
+    "original": "assets/zakka/popeye782.jpg",
+    "case_title": "POPEYE No.782｜シティーボーイのABC",
+    "source_url": "https://magazineworld.jp/popeye/back/?show=5",
+    "term_record_id": "reczz28HJJL2GJht"
+  },
+  {
+    "source": 2,
+    "desktop": [
+      758,
+      515,
+      233,
+      186,
+      4
+    ],
+    "mobile": [
+      213,
+      413,
+      169,
+      128,
+      3
+    ],
+    "label": "桌上与手边",
+    "crop": [
+      150,
+      600,
+      450,
+      340
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "neutral4_spread.jpg",
+    "case_record_id": "reczz28MRgdMRxNT",
+    "original": "assets/zakka/neutral4_spread.jpg",
+    "case_title": "NEUTRAL COLORS Issue 4｜Work",
+    "source_url": "https://neutral-colors.com/books_post/neutral-colors-4/",
+    "term_record_id": "reczz28HJJL2GJht"
+  },
+  {
+    "source": 3,
+    "desktop": [
+      235,
+      915,
+      173,
+      141,
+      4
+    ],
+    "mobile": [
+      21,
+      921,
+      107,
+      148,
+      4
+    ],
+    "label": "读物与日用品",
+    "crop": [
+      450,
+      740,
+      490,
+      150
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "popeye782.jpg",
+    "case_record_id": "reczz28MRgdMRhwp",
+    "original": "assets/zakka/popeye782.jpg",
+    "case_title": "POPEYE No.782｜シティーボーイのABC",
+    "source_url": "https://magazineworld.jp/popeye/back/?show=5",
+    "term_record_id": "reczz28HJJL2GJht"
+  }
+]

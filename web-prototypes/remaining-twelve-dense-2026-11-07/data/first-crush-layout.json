@@ -1,0 +1,319 @@
+[
+  {
+    "source": 12,
+    "desktop": [
+      18,
+      129,
+      653,
+      490,
+      -2
+    ],
+    "mobile": [
+      8,
+      105,
+      373,
+      268,
+      -2
+    ],
+    "label": "吻之前的水下",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "prekiss_wmag.jpg",
+    "case_record_id": "reczz28LeedcHSnq",
+    "original": "assets/first-crush/prekiss_wmag.jpg",
+    "case_title": "Pre-Kiss",
+    "source_url": "https://store.aperture.org/products/olivia-bee-kids-in-love-2",
+    "term_record_id": "reczz28HJJL2GMcc"
+  },
+  {
+    "source": 1,
+    "desktop": [
+      679,
+      128,
+      504,
+      389,
+      2
+    ],
+    "mobile": [
+      198,
+      379,
+      182,
+      216,
+      2
+    ],
+    "label": "镜前的眼神",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "teenage_2.jpg",
+    "case_record_id": "reczz28LeedcIqM7",
+    "original": "assets/first-crush/teenage_2.jpg",
+    "case_title": "The Teenage Gaze",
+    "source_url": "https://petra-collins.com/the-teenage-gaze/",
+    "term_record_id": "reczz28HJJL2GMcc"
+  },
+  {
+    "source": 16,
+    "desktop": [
+      20,
+      691,
+      579,
+      387,
+      2
+    ],
+    "mobile": [
+      8,
+      865,
+      219,
+      227,
+      -2
+    ],
+    "label": "海边的黄昏",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "kidsinlove_closer.jpg",
+    "case_record_id": "reczz28LeedcHSnq",
+    "original": "assets/first-crush/kidsinlove_closer.jpg",
+    "case_title": "Pre-Kiss",
+    "source_url": "https://store.aperture.org/products/olivia-bee-kids-in-love-2",
+    "term_record_id": "reczz28HJJL2GMcc"
+  },
+  {
+    "source": 3,
+    "desktop": [
+      601,
+      698,
+      584,
+      381,
+      -2
+    ],
+    "mobile": [
+      198,
+      917,
+      183,
+      175,
+      2
+    ],
+    "label": "坐在一起的朋友",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "teenage_4.jpg",
+    "case_record_id": "reczz28LeedcIqM7",
+    "original": "assets/first-crush/teenage_4.jpg",
+    "case_title": "The Teenage Gaze",
+    "source_url": "https://petra-collins.com/the-teenage-gaze/",
+    "term_record_id": "reczz28HJJL2GMcc"
+  },
+  {
+    "source": 6,
+    "desktop": [
+      24,
+      461,
+      357,
+      281,
+      -3
+    ],
+    "mobile": [
+      8,
+      380,
+      188,
+      220,
+      -3
+    ],
+    "label": "镜子里的自拍",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "teenage_7.jpg",
+    "case_record_id": "reczz28LeedcIqM7",
+    "original": "assets/first-crush/teenage_7.jpg",
+    "case_title": "The Teenage Gaze",
+    "source_url": "https://petra-collins.com/the-teenage-gaze/",
+    "term_record_id": "reczz28HJJL2GMcc"
+  },
+  {
+    "source": 10,
+    "desktop": [
+      869,
+      474,
+      307,
+      269,
+      3
+    ],
+    "mobile": [
+      8,
+      626,
+      177,
+      210,
+      3
+    ],
+    "label": "没有表演的日常",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "teenage_271.jpg",
+    "case_record_id": "reczz28LeedcIqM7",
+    "original": "assets/first-crush/teenage_271.jpg",
+    "case_title": "The Teenage Gaze",
+    "source_url": "https://petra-collins.com/the-teenage-gaze/",
+    "term_record_id": "reczz28HJJL2GMcc"
+  },
+  {
+    "source": 17,
+    "desktop": [
+      392,
+      379,
+      282,
+      587,
+      0
+    ],
+    "mobile": [
+      141,
+      579,
+      161,
+      340,
+      0
+    ],
+    "label": "海浪里的拥抱",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "kidsinlove_july.jpg",
+    "case_record_id": "reczz28LeedcHSnq",
+    "original": "assets/first-crush/kidsinlove_july.jpg",
+    "case_title": "Pre-Kiss",
+    "source_url": "https://store.aperture.org/products/olivia-bee-kids-in-love-2",
+    "term_record_id": "reczz28HJJL2GMcc"
+  },
+  {
+    "source": 15,
+    "desktop": [
+      687,
+      518,
+      183,
+      259,
+      -4
+    ],
+    "mobile": [
+      279,
+      637,
+      98,
+      176,
+      4
+    ],
+    "label": "Kids in Love书本",
+    "crop": [
+      260,
+      80,
+      490,
+      840
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "kidsinlove_aperture.jpg",
+    "case_record_id": "reczz28LeedcHSnq",
+    "original": "assets/first-crush/kidsinlove_aperture.jpg",
+    "case_title": "Pre-Kiss",
+    "source_url": "https://store.aperture.org/products/olivia-bee-kids-in-love-2",
+    "term_record_id": "reczz28HJJL2GMcc"
+  },
+  {
+    "source": 1,
+    "desktop": [
+      1006,
+      173,
+      166,
+      184,
+      -4
+    ],
+    "mobile": [
+      9,
+      191,
+      110,
+      130,
+      -4
+    ],
+    "label": "手上的手链",
+    "crop": [
+      60,
+      220,
+      440,
+      500
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "teenage_2.jpg",
+    "case_record_id": "reczz28LeedcIqM7",
+    "original": "assets/first-crush/teenage_2.jpg",
+    "case_title": "The Teenage Gaze",
+    "source_url": "https://petra-collins.com/the-teenage-gaze/",
+    "term_record_id": "reczz28HJJL2GMcc"
+  },
+  {
+    "source": 16,
+    "desktop": [
+      34,
+      863,
+      212,
+      195,
+      -4
+    ],
+    "mobile": [
+      19,
+      926,
+      118,
+      142,
+      -4
+    ],
+    "label": "倒影与脚步",
+    "crop": [
+      360,
+      500,
+      400,
+      460
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "kidsinlove_closer.jpg",
+    "case_record_id": "reczz28LeedcHSnq",
+    "original": "assets/first-crush/kidsinlove_closer.jpg",
+    "case_title": "Pre-Kiss",
+    "source_url": "https://store.aperture.org/products/olivia-bee-kids-in-love-2",
+    "term_record_id": "reczz28HJJL2GMcc"
+  },
+  {
+    "source": 12,
+    "desktop": [
+      689,
+      914,
+      213,
+      154,
+      4
+    ],
+    "mobile": [
+      277,
+      815,
+      99,
+      81,
+      3
+    ],
+    "label": "气泡与发梢",
+    "crop": [
+      500,
+      30,
+      450,
+      400
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "prekiss_wmag.jpg",
+    "case_record_id": "reczz28LeedcHSnq",
+    "original": "assets/first-crush/prekiss_wmag.jpg",
+    "case_title": "Pre-Kiss",
+    "source_url": "https://store.aperture.org/products/olivia-bee-kids-in-love-2",
+    "term_record_id": "reczz28HJJL2GMcc"
+  }
+]

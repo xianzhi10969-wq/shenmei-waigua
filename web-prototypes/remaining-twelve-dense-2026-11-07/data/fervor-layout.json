@@ -1,0 +1,319 @@
+[
+  {
+    "source": 11,
+    "desktop": [
+      18,
+      130,
+      553,
+      544,
+      -2
+    ],
+    "mobile": [
+      8,
+      103,
+      258,
+      259,
+      -2
+    ],
+    "label": "酒神与阿里阿德涅",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "酒神与阿里阿德涅_提香_公有领域.jpg",
+    "case_record_id": "reczz28HJJL2Nkuf",
+    "original": "assets/fervor/酒神与阿里阿德涅_提香_公有领域.jpg",
+    "case_title": "酒神与阿里阿德涅",
+    "source_url": "https://www.nationalgallery.org.uk/paintings/titian-bacchus-and-ariadne",
+    "term_record_id": "reczz28HJJL2GLxu"
+  },
+  {
+    "source": 1,
+    "desktop": [
+      566,
+      125,
+      618,
+      482,
+      2
+    ],
+    "mobile": [
+      173,
+      345,
+      207,
+      237,
+      2
+    ],
+    "label": "花占领房间",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "flower_colossal_01.jpg",
+    "case_record_id": "reczz28Ldd1wD1KQ",
+    "original": "assets/fervor/flower_colossal_01.jpg",
+    "case_title": "Flower Obsession",
+    "source_url": "https://www.ngv.vic.gov.au/exhibition/triennial-2017/",
+    "term_record_id": "reczz28HJJL2GLxu"
+  },
+  {
+    "source": 9,
+    "desktop": [
+      20,
+      692,
+      464,
+      385,
+      2
+    ],
+    "mobile": [
+      8,
+      682,
+      199,
+      223,
+      -2
+    ],
+    "label": "参与者的心跳",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "pulse_mexico_hires.jpg",
+    "case_record_id": "reczz28Ldd1wDeSA",
+    "original": "assets/fervor/pulse_mexico_hires.jpg",
+    "case_title": "Pulse Room（心跳房间）",
+    "source_url": "https://www.lozano-hemmer.com/artworks/pulse_room.php",
+    "term_record_id": "reczz28HJJL2GLxu"
+  },
+  {
+    "source": 3,
+    "desktop": [
+      698,
+      641,
+      484,
+      437,
+      -2
+    ],
+    "mobile": [
+      189,
+      863,
+      191,
+      229,
+      2
+    ],
+    "label": "花房的另一重门",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "flower_colossal_03.jpg",
+    "case_record_id": "reczz28Ldd1wD1KQ",
+    "original": "assets/fervor/flower_colossal_03.jpg",
+    "case_title": "Flower Obsession",
+    "source_url": "https://www.ngv.vic.gov.au/exhibition/triennial-2017/",
+    "term_record_id": "reczz28HJJL2GLxu"
+  },
+  {
+    "source": 7,
+    "desktop": [
+      463,
+      713,
+      310,
+      364,
+      2
+    ],
+    "mobile": [
+      228,
+      105,
+      152,
+      237,
+      2
+    ],
+    "label": "灯泡阵列",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "pulse_kanazawa_hires.jpg",
+    "case_record_id": "reczz28Ldd1wDeSA",
+    "original": "assets/fervor/pulse_kanazawa_hires.jpg",
+    "case_title": "Pulse Room（心跳房间）",
+    "source_url": "https://www.lozano-hemmer.com/artworks/pulse_room.php",
+    "term_record_id": "reczz28HJJL2GLxu"
+  },
+  {
+    "source": 4,
+    "desktop": [
+      848,
+      385,
+      325,
+      264,
+      4
+    ],
+    "mobile": [
+      8,
+      367,
+      163,
+      207,
+      -3
+    ],
+    "label": "花朵密度",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "flower_colossal_05.jpg",
+    "case_record_id": "reczz28Ldd1wD1KQ",
+    "original": "assets/fervor/flower_colossal_05.jpg",
+    "case_title": "Flower Obsession",
+    "source_url": "https://www.ngv.vic.gov.au/exhibition/triennial-2017/",
+    "term_record_id": "reczz28HJJL2GLxu"
+  },
+  {
+    "source": 8,
+    "desktop": [
+      353,
+      453,
+      343,
+      290,
+      -4
+    ],
+    "mobile": [
+      132,
+      564,
+      248,
+      169,
+      -3
+    ],
+    "label": "手与感应器",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "pulse_washington_hires.jpg",
+    "case_record_id": "reczz28Ldd1wDeSA",
+    "original": "assets/fervor/pulse_washington_hires.jpg",
+    "case_title": "Pulse Room（心跳房间）",
+    "source_url": "https://www.lozano-hemmer.com/artworks/pulse_room.php",
+    "term_record_id": "reczz28HJJL2GLxu"
+  },
+  {
+    "source": 11,
+    "desktop": [
+      52,
+      518,
+      230,
+      216,
+      -5
+    ],
+    "mobile": [
+      12,
+      899,
+      161,
+      193,
+      -4
+    ],
+    "label": "豹与牵引的力量",
+    "crop": [
+      210,
+      635,
+      300,
+      290
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "酒神与阿里阿德涅_提香_公有领域.jpg",
+    "case_record_id": "reczz28HJJL2Nkuf",
+    "original": "assets/fervor/酒神与阿里阿德涅_提香_公有领域.jpg",
+    "case_title": "酒神与阿里阿德涅",
+    "source_url": "https://www.nationalgallery.org.uk/paintings/titian-bacchus-and-ariadne",
+    "term_record_id": "reczz28HJJL2GLxu"
+  },
+  {
+    "source": 11,
+    "desktop": [
+      716,
+      180,
+      198,
+      256,
+      -5
+    ],
+    "mobile": [
+      8,
+      547,
+      137,
+      155,
+      -4
+    ],
+    "label": "飞起的布料与身体",
+    "crop": [
+      340,
+      190,
+      300,
+      430
+    ],
+    "mask": null,
+    "shape": "torn",
+    "file": "酒神与阿里阿德涅_提香_公有领域.jpg",
+    "case_record_id": "reczz28HJJL2Nkuf",
+    "original": "assets/fervor/酒神与阿里阿德涅_提香_公有领域.jpg",
+    "case_title": "酒神与阿里阿德涅",
+    "source_url": "https://www.nationalgallery.org.uk/paintings/titian-bacchus-and-ariadne",
+    "term_record_id": "reczz28HJJL2GLxu"
+  },
+  {
+    "source": 10,
+    "desktop": [
+      1000,
+      733,
+      170,
+      248,
+      4
+    ],
+    "mobile": [
+      274,
+      690,
+      103,
+      157,
+      4
+    ],
+    "label": "垂落的灯丝",
+    "crop": [
+      450,
+      0,
+      400,
+      900
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "pulse_room_kanazawa_2025_ko_003.jpg",
+    "case_record_id": "reczz28Ldd1wDeSA",
+    "original": "assets/fervor/pulse_room_kanazawa_2025_ko_003.jpg",
+    "case_title": "Pulse Room（心跳房间）",
+    "source_url": "https://www.lozano-hemmer.com/artworks/pulse_room.php",
+    "term_record_id": "reczz28HJJL2GLxu"
+  },
+  {
+    "source": 4,
+    "desktop": [
+      477,
+      932,
+      193,
+      138,
+      -4
+    ],
+    "mobile": [
+      160,
+      784,
+      121,
+      119,
+      -4
+    ],
+    "label": "花瓣近景",
+    "crop": [
+      50,
+      350,
+      350,
+      380
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "flower_colossal_05.jpg",
+    "case_record_id": "reczz28Ldd1wD1KQ",
+    "original": "assets/fervor/flower_colossal_05.jpg",
+    "case_title": "Flower Obsession",
+    "source_url": "https://www.ngv.vic.gov.au/exhibition/triennial-2017/",
+    "term_record_id": "reczz28HJJL2GLxu"
+  }
+]

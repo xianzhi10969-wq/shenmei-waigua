@@ -1,0 +1,564 @@
+{
+  "count": 93,
+  "all_unchanged": true,
+  "files": [
+    {
+      "file": "assets/wasteland/es_warmachines.jpg",
+      "case_record_id": "reczz28MoBSnzMZH",
+      "sha256": "5041673e708eebf76f0fecca493f087ecb0397bef5a63e524071bbb1c5f16f77",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/wasteland/es_billboards.jpg",
+      "case_record_id": "reczz28MoBSnzMZH",
+      "sha256": "0ec2665cc8380e3a444057f343b722abe3a15321449589d2c29db1f8a89def78",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/wasteland/gas_shell.jpg",
+      "case_record_id": "reczz28MoBSnxpUl",
+      "sha256": "a414e348039c8727d441b72f9aae15e089dcef8e73d1dccb82fc68d7027b5229",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/wasteland/es_on_ramp.jpg",
+      "case_record_id": "reczz28MoBSnzMZH",
+      "sha256": "64f140b1beb2d4d4347161dcf735d8ed1c30b2d332376a65cd933d70a6aaeca0",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/wasteland/gas_bp.jpg",
+      "case_record_id": "reczz28MoBSnxpUl",
+      "sha256": "b48b61cb332c563575dcf65723c2ff67b8ac5eb85f91c00dd5c2845dd3b955a1",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/wasteland/stray_3.jpg",
+      "case_record_id": "reczz28MoBSnwnPa",
+      "sha256": "35ae5b89e19e17a233d1dca9405e1b2a317ff9f3802b9e0c3b14c59c6a659156",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/wasteland/stray_2.jpg",
+      "case_record_id": "reczz28MoBSnwnPa",
+      "sha256": "6b424693720fa306187a6058bd67f80ad074fbfde3ac4a5a8cbab663867b3a9f",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/wasteland/gas_chevron.jpg",
+      "case_record_id": "reczz28MoBSnxpUl",
+      "sha256": "c643154c009a11042bd108720f3524656496d8d3b6177c4406bfcae5e79adc7d",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/wasteland/stray_1.jpg",
+      "case_record_id": "reczz28MoBSnwnPa",
+      "sha256": "2ecdc0b92c6aa8c8cfddfc92b2d944293eb2b71e0182f42e2eca905f50935df0",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/fragility/hour_star.jpg",
+      "case_record_id": "reczz28MSjtzdNy0",
+      "sha256": "37aa6017eaaf9f3c36b6c14b3ce70249d8d8c56c9eaa8a8a2d06ee107ab33b95",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/fragility/girl_halfformed.jpg",
+      "case_record_id": "reczz28MSjtzdW6a",
+      "sha256": "05638ad04b8d316e7bbe4f55e9612da9d55f40623cd72cd20956c78aa418f57e",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/fragility/house3.jpg",
+      "case_record_id": "reczz28MSjtzerH5",
+      "sha256": "4f7dc08b9a3b913c1f29acdf51b550e804a940390ccee1a1803e057cc7fa665f",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/fragility/glass_menagerie.jpg",
+      "case_record_id": "reczz28MSjtzcGfC",
+      "sha256": "64b7003d4d12fd056f6a98ba1a13b50aee84c46ca316e15f9187692e1601fe85",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/fragility/calle_louisiana.jpg",
+      "case_record_id": "reczz28MSjtzdloz",
+      "sha256": "162075f234798140c7dc4b2efccde909430351765700ba48e1e49f5df00e3a15",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/fervor/pulse_washington_hires.jpg",
+      "case_record_id": "reczz28Ldd1wDeSA",
+      "sha256": "0922ca9250c5aae1e677f847fb0c438c2ce93a0c309a82a5ccd68debe4a80e92",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/fervor/酒神与阿里阿德涅_提香_公有领域.jpg",
+      "case_record_id": "reczz28HJJL2Nkuf",
+      "sha256": "77c30b1ea94167704ebd7a9930b8dcae9eccedd97efb4400a08d53dd3d420cd7",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/fervor/pulse_room_kanazawa_2025_ko_003.jpg",
+      "case_record_id": "reczz28Ldd1wDeSA",
+      "sha256": "69da4949fa7145dec40c3a37c3312446a9075f9570cdb26ba3cd47038bc17576",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/fervor/pulse_kanazawa_hires.jpg",
+      "case_record_id": "reczz28Ldd1wDeSA",
+      "sha256": "6d500eb8bdb59218bc16469c087ab69344203d59efbea0c24ba0023a6377745a",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/fervor/flower_colossal_03.jpg",
+      "case_record_id": "reczz28Ldd1wD1KQ",
+      "sha256": "6bde4ba17a1e559561839b2c6ad14c28397568768b93e713c9e82bcb920d59e7",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/fervor/flower_colossal_01.jpg",
+      "case_record_id": "reczz28Ldd1wD1KQ",
+      "sha256": "f152005355d6aaee3ea8839cc9e4632b255e38a058918f4b495829b0a1d5f23c",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/fervor/pulse_mexico_hires.jpg",
+      "case_record_id": "reczz28Ldd1wDeSA",
+      "sha256": "cdae4e860589f11e4cd29706b17d98df0ff83892e8ad9b9bcc997d3d42e02c3f",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/fervor/flower_colossal_05.jpg",
+      "case_record_id": "reczz28Ldd1wD1KQ",
+      "sha256": "95eb7dc4da7a4c79396263d1d0f2f4996d736d89a34193114e25e594252ececf",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/ambiguity/veiling_fwm_2.jpg",
+      "case_record_id": "reczz28LdCQK8mJ5",
+      "sha256": "56879033aa8932e5971064a40612419d955171cff2c790dd9897218df24fb657",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/ambiguity/veiling_fwm_1.jpg",
+      "case_record_id": "reczz28LdCQK8mJ5",
+      "sha256": "3ee10b44a1d41d084e616331ca75e8cb7ec647f0361a33da78390d47e746dc77",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/ambiguity/窗前读信的少女_维米尔_公有领域.jpg",
+      "case_record_id": "reczz28HJJL2NjeY",
+      "sha256": "1d8dec69bb04c67b30663f808cdca88727efb36bdfc9fcbe00269132b783c568",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/ambiguity/michals_reina_full.jpg",
+      "case_record_id": "reczz28LdCQK71j7",
+      "sha256": "c26e6fd2409bf7513c587cbdab89ee7b298c38c19f763c0bf03790b35dca3dd0",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/ambiguity/lovers_artnews_1.jpg",
+      "case_record_id": "reczz28LdCQK9D4c",
+      "sha256": "8ec760047b59bb828248b44a5bd9025bd9fcec1480b6678bceab98c1cf470811",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/ambiguity/lovers_artnews_2.jpg",
+      "case_record_id": "reczz28LdCQK9D4c",
+      "sha256": "0e80e84dbafa01f689f16cc644baa816eb24a2a1657c2d2d5b798e111a948d8a",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/ambiguity/michals_getty_1.jpg",
+      "case_record_id": "reczz28LdCQK71j7",
+      "sha256": "5009fa9fa66a9df7a986b7c0070476e24a4d0463feaa73926d45df2816f39ff2",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/ambiguity/lovers_icc_1.jpg",
+      "case_record_id": "reczz28LdCQK9D4c",
+      "sha256": "23ef31f77e8c259608e10e9ac44317726417b1ea1952229a86289a874efd9966",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/ambiguity/veiling_gugg_1.jpg",
+      "case_record_id": "reczz28LdCQK8mJ5",
+      "sha256": "cba9f98d288be119f6598772d0f82ec0186c7172c5dca7b33621774cdcdc64d7",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/zen/motoi_lab_charleston.jpg",
+      "case_record_id": "reczz28Ldc0bJUeQ",
+      "sha256": "7cfd1a099738d37118e2197974ffd69197cf2d7cdffb5cfa691ae31e682dc4f4",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/zen/matrix_art100.jpg",
+      "case_record_id": "reczz28Ldc0bKQuv",
+      "sha256": "93ded57d980535b733841df0dc3610afd9b51244b759190550ea930f19c9c8fc",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/zen/motoi_sea_08.jpg",
+      "case_record_id": "reczz28Ldc0bJUeQ",
+      "sha256": "bb9e4038713118e7e680f21af2e575382fbcf0eedeee384fb906d4aebd0068f9",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/zen/motoi_lab_roppongi.jpg",
+      "case_record_id": "reczz28Ldc0bJUeQ",
+      "sha256": "983862cf2be67d1cecdee5230882a3b3939b6a249e7a10ea5172eddcb8c97efd",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/zen/motoi_project_06.jpg",
+      "case_record_id": "reczz28Ldc0bJUeQ",
+      "sha256": "38656dd60d13cc1fb94807220ba408d46f278a5a5f8d8642f346e6595033703b",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/zen/iced_09.jpg",
+      "case_record_id": "reczz28Ldc0bMeA5",
+      "sha256": "8c720629c7cd9d9362a6388cb4cb221dfca000b3970f6c07c1ad03ba5e5f94ae",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/zen/龙安寺石庭_摄影DXR_CCBYSA4.0.jpg",
+      "case_record_id": "reczz28HJJL2NlAY",
+      "sha256": "9b67ff5e13b3b3f82ac13e0c53ef7afc7e8a886819c2c8511ce4c8c570509a40",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/zen/iced_01.jpg",
+      "case_record_id": "reczz28Ldc0bMeA5",
+      "sha256": "7950a3680cea6b80859d10742906112aefe55c4787ea981c168d0d971fc6f799",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/zen/matrix_pd_1.jpg",
+      "case_record_id": "reczz28Ldc0bKQuv",
+      "sha256": "4cd9db584835fd1c86169bea5d42bfdb3c0c90bfd425471a30bfb626e2b67c27",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/zen/松林图屏风_左隻_长谷川等伯_公有领域.jpg",
+      "case_record_id": "reczz28HJJL2NlFs",
+      "sha256": "fbdc137f069d003ad1ea158282e9e73d3bc9d12ba4a2d69e468634185f1456f2",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/zen/matrix_pd_3.jpg",
+      "case_record_id": "reczz28Ldc0bKQuv",
+      "sha256": "760c687ec37f7351aa80e715252e97805611d47a02b3ffbe0b6290532b45592a",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/zen/motoi_sea_03.jpg",
+      "case_record_id": "reczz28Ldc0bJUeQ",
+      "sha256": "499ff3032eb573ce66b29781a886b217d6d42e82548eafef827c2fe74697e4d4",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/fated/人生的航程_青年_科尔_公有领域.jpg",
+      "case_record_id": "reczz28HJJL2NpG7",
+      "sha256": "421275d994268e1809cd42cbd857535aa9bb8a04658c93ca1ec750fd51732dc5",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/fated/lajetee_cinematheque.jpg",
+      "case_record_id": "reczz28MpmQFmKwG",
+      "sha256": "ae26f23a1e500f497556e999e17067d223f8b4dc794c548bbd8b26b93a708716",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/fated/melancholia_magnolia_1.jpg",
+      "case_record_id": "reczz28MpmQFo3uh",
+      "sha256": "951a177ea83690f27fc7379f4281c16e6f5b7fbc560165b3c89f64162e57c3ac",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/fated/伊利亚特威尼斯A抄本细密画_CC0.jpg",
+      "case_record_id": "reczz28HJJL2NpIk",
+      "sha256": "04cc6b9ca79c9629d2f93359a18ff8763d1cef3c88f6b32fcb588e374596f1ac",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/fated/第五交响曲手稿_贝多芬_CCBYSA4.0.jpg",
+      "case_record_id": "reczz28HJJL2NpLL",
+      "sha256": "f6849d4299c682e0f2557b359b820aea1566e6b2176c68d110d28d067f77f7f0",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/cool/snow_tp.jpg",
+      "case_record_id": "reczz28MnyD4e5ab",
+      "sha256": "8150f30abb0498fa0379c18b9ad605bbed5537b432739ccbdf2d27ba63354eba",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/cool/kenna_raw.jpg",
+      "case_record_id": "reczz28MnyD4cUTQ",
+      "sha256": "3cc414af826c15c3a6e59ed0c2da1cc58a70184dbbd7956d99e373bf47201357",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/cool/snow_1.jpg",
+      "case_record_id": "reczz28MnyD4e5ab",
+      "sha256": "bcfbd0ef9024b6b3a0d53f0ba2825bc3bd778332764003f0e4e784fc0b909d0d",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/cool/snow_2.jpg",
+      "case_record_id": "reczz28MnyD4e5ab",
+      "sha256": "74d12f70e0ed0d407dcaf904b57d38d8dedfa4dfd9ba1184cb491b5917793502",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/wuxia/damowang_4.jpg",
+      "case_record_id": "reczz28MmyiIBfka",
+      "sha256": "05c49c340ed4c6a9477105f5b3e70d8b9d4987a5bf48a611776700dda1cf7301",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/wuxia/damowang_3.jpg",
+      "case_record_id": "reczz28MmyiIBfka",
+      "sha256": "c9816b0607ebf01a30596f18c10e478206b728c90a17dfe4b2b54851133e9845",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/wuxia/yejiang_gug.jpg",
+      "case_record_id": "reczz28MmyiIBtuF",
+      "sha256": "5c0afd05a5dcc075df087503885a274e92048bdb2e26d33b214d7a8dd914119a",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/wuxia/retainers_sydney.jpg",
+      "case_record_id": "reczz28MmyiIADor",
+      "sha256": "de9aead307bf90b7d1a2326181f6f5d435c8a81321ef16a993a47bbe93e18b9e",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/wuxia/assassin_lb.jpg",
+      "case_record_id": "reczz28MmyiICLBe",
+      "sha256": "c4d91c20b18284596783ddacdd231bfde81d1f8ee351c1244c58ce8d74a96b84",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/wuxia/assassin_flixster.jpg",
+      "case_record_id": "reczz28MmyiICLBe",
+      "sha256": "6116a1056450c6173ad61a51506a02a59286482cc1ac33c8897045b2b86a6522",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/wuxia/retainers_1_rgb.jpg",
+      "case_record_id": "reczz28MmyiIADor",
+      "sha256": "e2c1ada0ed4cf7c00c429cc2e0807eb6cca90a454086e5a68070e73c3b613ef1",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/wuxia/retainers_2_rgb.jpg",
+      "case_record_id": "reczz28MmyiIADor",
+      "sha256": "84b4768cf3a6fcf51fd8336b8cd5953593a56efcc9b1f0de453abc449250f2f9",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/endtimes/tapestry_panel.jpg",
+      "case_record_id": "reczz28Miu2sgZLu",
+      "sha256": "9077494985ef463c484eb48d9dfd3a4dacf88a37d8ebc712e463958f15f710a8",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/endtimes/city_circulation.jpg",
+      "case_record_id": "reczz28Miu2sh6u5",
+      "sha256": "7f00e284b0f1d26dec640a6fabf5d7c8566fc1f2f587b625c647f596cc804ebd",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/endtimes/tapestry_hall_sm.jpg",
+      "case_record_id": "reczz28Miu2sgZLu",
+      "sha256": "05a394830b9dc203fa9e5a3f7b5adf344a88dfcae1b902def22d122b80abd291",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/endtimes/lastriot_b6dp2a8.jpg",
+      "case_record_id": "reczz28Miu2sf9uj",
+      "sha256": "28034d3b6fa4f6035390346a1b5d39405ffcb5862e323beb0c92d4295a8145a7",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/endtimes/lastriot_h2dywgk.jpg",
+      "case_record_id": "reczz28Miu2sf9uj",
+      "sha256": "57a3cd21bd25bd5654b0cb050aa35cece9a1844fc2f6f61ca2e9559af12346e1",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/endtimes/city_library.jpg",
+      "case_record_id": "reczz28Miu2sh6u5",
+      "sha256": "4274c8e6ad0ab7d5eb20d6e97988467ccb4413bf3d8083ce41e9f899a94dde29",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/endtimes/tapestry_angers.jpg",
+      "case_record_id": "reczz28Miu2sgZLu",
+      "sha256": "5bac6641553eb1929239827dd5ab22e144aaaf3b261f08810732d6d994e3261b",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/endtimes/lastriot_7cgrglf.jpg",
+      "case_record_id": "reczz28Miu2sf9uj",
+      "sha256": "fee6743222052b7739ba0eb4fb0625fe63af1765e2b7e97d8a8c4718e2d00e90",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/endtimes/bhadra_destroyer.jpg",
+      "case_record_id": "reczz28Miu2sf2sd",
+      "sha256": "c285089513c9118986a03b193b01eb1879920a99aaa7a4b87a08cf4bf0a6a1cd",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/endtimes/city_subway.jpg",
+      "case_record_id": "reczz28Miu2sh6u5",
+      "sha256": "41394b50662ca056d64e8adf937d114545e865db1e484cedb2250c3f7c165e1c",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/first-crush/kidsinlove_closer.jpg",
+      "case_record_id": "reczz28LeedcHSnq",
+      "sha256": "223d9be769d3e383706f9e4bc627953944567fc14fbe422932a2049bc35c3925",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/first-crush/teenage_271.jpg",
+      "case_record_id": "reczz28LeedcIqM7",
+      "sha256": "6fd190bd9ad2f7b2b660a71f1ffad1d549c0f0a9b064148d00a59962f3731da1",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/first-crush/kidsinlove_july.jpg",
+      "case_record_id": "reczz28LeedcHSnq",
+      "sha256": "75a57bd86d766a9d1fd6fd554d906bcb447936adec07cbfb59c314dfdaad8b27",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/first-crush/kidsinlove_aperture.jpg",
+      "case_record_id": "reczz28LeedcHSnq",
+      "sha256": "573919b5ab25391a1d11c51a3c9fca2f8994c96e02a666ce6110acc956c2449d",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/first-crush/prekiss_wmag.jpg",
+      "case_record_id": "reczz28LeedcHSnq",
+      "sha256": "0f7660091f799e1392ddd779109ac8270b6004939282a26d4fd78f86a7ba6438",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/first-crush/teenage_7.jpg",
+      "case_record_id": "reczz28LeedcIqM7",
+      "sha256": "fcc7e35400e614033a2d08102ece7ecb1ec578af1b86f53ab148a1aa0b16fe80",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/first-crush/teenage_4.jpg",
+      "case_record_id": "reczz28LeedcIqM7",
+      "sha256": "dd49d4ffc8030addd0b4eb988e991a320e5c7750f98da142cd9627e04d97511e",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/first-crush/teenage_2.jpg",
+      "case_record_id": "reczz28LeedcIqM7",
+      "sha256": "10dee686235bc2e2970fbd31790319c2b3baafccf22892e0ef34c9cd1f7fd249",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/zakka/popeye782.jpg",
+      "case_record_id": "reczz28MRgdMRhwp",
+      "sha256": "2679e6babc3e65e0b5cf4888dc261d42d4e7617c5139864042881556b98bd34b",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/zakka/neutral4_cover.jpg",
+      "case_record_id": "reczz28MRgdMRxNT",
+      "sha256": "ad427eb9ec46360096d8575f7b50528645cb8a1f10a8a13ea4dfe590d63951cd",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/zakka/neutral4_spread.jpg",
+      "case_record_id": "reczz28MRgdMRxNT",
+      "sha256": "5d7229f6c0f43ecfdb0abb4f9f9b294b321272a50e0c7425c10a4d7b1c1e3665",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/zakka/premium123.jpg",
+      "case_record_id": "reczz28MRgdMS2Dv",
+      "sha256": "d9d940771872835d12eea010ffa253706d4fcb978319902f7ddc515776324c1c",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/zakka/ginza324.jpg",
+      "case_record_id": "reczz28MRgdMRZAU",
+      "sha256": "28d62aab712cb3a87871da9dcea51c59a9528ad5e0caf020428070ce9067c2a6",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/inkwash/xubing_chazen_1.jpg",
+      "case_record_id": "reczz28LcucHlC54",
+      "sha256": "bc4b95024670340b53d3caeaccdd04a591e240a5d5a2e40527f62ae9bce90a09",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/inkwash/qiu_fosun_632ad00a70935911711522.jpg",
+      "case_record_id": "reczz28LcucHkDng",
+      "sha256": "b0206762363d232f350de1527fece418eda1e60c220a62130537e8267b9787e4",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/inkwash/qiu_fosun_632ad00a6f7b5641731039.jpg",
+      "case_record_id": "reczz28LcucHkDng",
+      "sha256": "46b5ddee752a3b2b515f35511b9a09f0af094867b2bd5ffaf6e19bb912488014",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/inkwash/qiu_exhib_782.jpg",
+      "case_record_id": "reczz28LcucHkDng",
+      "sha256": "37974a533e34f5df5a7bde70f6c3488d86215e73dbf03dfcd1b132bd1555b78e",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/inkwash/qiu_fosun_632ad00a70272736467085.jpg",
+      "case_record_id": "reczz28LcucHkDng",
+      "sha256": "c86c1518ca2e78ac9bc30315e1ce559a4bcfef29b20406bc27241ad17b807066",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/inkwash/xubing_cornell_1.jpg",
+      "case_record_id": "reczz28LcucHlC54",
+      "sha256": "58fad13f275ac5197dfc58864ffa70d527ed766da4d9ee9d2dc09e85e04121d6",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/inkwash/xubing_cornell_2.jpg",
+      "case_record_id": "reczz28LcucHlC54",
+      "sha256": "0e7d9c6ddd0db1e92720c3829865b8c892f1b3b4ae2932d63e26b2912c2f71d5",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/inkwash/yang_phantom_1.jpg",
+      "case_record_id": "reczz28LcucHiz5V",
+      "sha256": "2d52bb8459d39915989ede48acba4071bcc9750b070007af55ad7596dee2f2ae",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/inkwash/yang_phantom_3.jpg",
+      "case_record_id": "reczz28LcucHiz5V",
+      "sha256": "9bf7df22d354982d218c2e7941751f79b63fb3e28ee29d5155f0a72910a7db4f",
+      "original_unchanged": true
+    },
+    {
+      "file": "assets/inkwash/yang_phantom_2.jpg",
+      "case_record_id": "reczz28LcucHiz5V",
+      "sha256": "3eba32e9c42a110f9a267a4bf843a13413553df2361087ccc6637696cbaa62e2",
+      "original_unchanged": true
+    }
+  ]
+}

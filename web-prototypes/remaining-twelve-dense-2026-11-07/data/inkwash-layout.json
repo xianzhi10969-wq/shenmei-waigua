@@ -1,0 +1,324 @@
+[
+  {
+    "source": 10,
+    "desktop": [
+      18,
+      129,
+      1166,
+      248,
+      -1
+    ],
+    "mobile": [
+      8,
+      107,
+      373,
+      135,
+      -1
+    ],
+    "label": "城市组成的长卷",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "yang_phantom_3.jpg",
+    "case_record_id": "reczz28LcucHiz5V",
+    "original": "assets/inkwash/yang_phantom_3.jpg",
+    "case_title": "杨泳梁《蜃市山水》Phantom Landscape",
+    "source_url": "https://www.yangyongliang.com/phantom-landscape",
+    "term_record_id": "reczz28HJJL2GNSP"
+  },
+  {
+    "source": 5,
+    "desktop": [
+      18,
+      374,
+      423,
+      438,
+      -2
+    ],
+    "mobile": [
+      8,
+      369,
+      170,
+      251,
+      -2
+    ],
+    "label": "山水的灯箱",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "xubing_cornell_1.jpg",
+    "case_record_id": "reczz28LcucHlC54",
+    "original": "assets/inkwash/xubing_cornell_1.jpg",
+    "case_title": "徐冰《背后的故事》Background Story",
+    "source_url": "https://museum.cornell.edu/exhibition/xu-bing-background-story/",
+    "term_record_id": "reczz28HJJL2GNSP"
+  },
+  {
+    "source": 1,
+    "desktop": [
+      673,
+      369,
+      509,
+      370,
+      2
+    ],
+    "mobile": [
+      180,
+      347,
+      200,
+      217,
+      2
+    ],
+    "label": "新山海经的展厅",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "qiu_fosun_632ad00a6f7b5641731039.jpg",
+    "case_record_id": "reczz28LcucHkDng",
+    "original": "assets/inkwash/qiu_fosun_632ad00a6f7b5641731039.jpg",
+    "case_title": "邱黯雄《新山海经 II》The New Book of Mountains and Seas II",
+    "source_url": "https://www.moma.org/collection/works/135052",
+    "term_record_id": "reczz28HJJL2GNSP"
+  },
+  {
+    "source": 7,
+    "desktop": [
+      22,
+      824,
+      700,
+      253,
+      2
+    ],
+    "mobile": [
+      9,
+      865,
+      372,
+      226,
+      2
+    ],
+    "label": "山水与背后的空间",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "xubing_cornell_2.jpg",
+    "case_record_id": "reczz28LcucHlC54",
+    "original": "assets/inkwash/xubing_cornell_2.jpg",
+    "case_title": "徐冰《背后的故事》Background Story",
+    "source_url": "https://museum.cornell.edu/exhibition/xu-bing-background-story/",
+    "term_record_id": "reczz28HJJL2GNSP"
+  },
+  {
+    "source": 3,
+    "desktop": [
+      718,
+      768,
+      464,
+      310,
+      -2
+    ],
+    "mobile": [
+      211,
+      637,
+      170,
+      227,
+      -3
+    ],
+    "label": "影像与观看",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "qiu_fosun_632ad00a70935911711522.jpg",
+    "case_record_id": "reczz28LcucHkDng",
+    "original": "assets/inkwash/qiu_fosun_632ad00a70935911711522.jpg",
+    "case_title": "邱黯雄《新山海经 II》The New Book of Mountains and Seas II",
+    "source_url": "https://www.moma.org/collection/works/135052",
+    "term_record_id": "reczz28HJJL2GNSP"
+  },
+  {
+    "source": 8,
+    "desktop": [
+      246,
+      254,
+      429,
+      430,
+      0
+    ],
+    "mobile": [
+      67,
+      192,
+      230,
+      230,
+      0
+    ],
+    "label": "输电塔进入山水",
+    "crop": [
+      110,
+      90,
+      780,
+      800
+    ],
+    "mask": null,
+    "shape": "round",
+    "file": "yang_phantom_1.jpg",
+    "case_record_id": "reczz28LcucHiz5V",
+    "original": "assets/inkwash/yang_phantom_1.jpg",
+    "case_title": "杨泳梁《蜃市山水》Phantom Landscape",
+    "source_url": "https://www.yangyongliang.com/phantom-landscape",
+    "term_record_id": "reczz28HJJL2GNSP"
+  },
+  {
+    "source": 9,
+    "desktop": [
+      660,
+      539,
+      332,
+      332,
+      0
+    ],
+    "mobile": [
+      17,
+      630,
+      208,
+      208,
+      0
+    ],
+    "label": "雾与高楼",
+    "crop": [
+      110,
+      90,
+      780,
+      800
+    ],
+    "mask": null,
+    "shape": "round",
+    "file": "yang_phantom_2.jpg",
+    "case_record_id": "reczz28LcucHiz5V",
+    "original": "assets/inkwash/yang_phantom_2.jpg",
+    "case_title": "杨泳梁《蜃市山水》Phantom Landscape",
+    "source_url": "https://www.yangyongliang.com/phantom-landscape",
+    "term_record_id": "reczz28HJJL2GNSP"
+  },
+  {
+    "source": 6,
+    "desktop": [
+      132,
+      700,
+      480,
+      185,
+      -4
+    ],
+    "mobile": [
+      18,
+      813,
+      245,
+      104,
+      -4
+    ],
+    "label": "背后的故事横卷",
+    "crop": [
+      0,
+      215,
+      1000,
+      540
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "xubing_chazen_1.jpg",
+    "case_record_id": "reczz28LcucHlC54",
+    "original": "assets/inkwash/xubing_chazen_1.jpg",
+    "case_title": "徐冰《背后的故事》Background Story",
+    "source_url": "https://museum.cornell.edu/exhibition/xu-bing-background-story/",
+    "term_record_id": "reczz28HJJL2GNSP"
+  },
+  {
+    "source": 2,
+    "desktop": [
+      859,
+      171,
+      300,
+      174,
+      4
+    ],
+    "mobile": [
+      225,
+      499,
+      155,
+      122,
+      3
+    ],
+    "label": "机器的形态序列",
+    "crop": [
+      0,
+      150,
+      1000,
+      700
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "qiu_fosun_632ad00a70272736467085.jpg",
+    "case_record_id": "reczz28LcucHkDng",
+    "original": "assets/inkwash/qiu_fosun_632ad00a70272736467085.jpg",
+    "case_title": "邱黯雄《新山海经 II》The New Book of Mountains and Seas II",
+    "source_url": "https://www.moma.org/collection/works/135052",
+    "term_record_id": "reczz28HJJL2GNSP"
+  },
+  {
+    "source": 10,
+    "desktop": [
+      469,
+      923,
+      210,
+      151,
+      -4
+    ],
+    "mobile": [
+      8,
+      941,
+      121,
+      148,
+      -4
+    ],
+    "label": "山其实是楼",
+    "crop": [
+      410,
+      0,
+      180,
+      1000
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "yang_phantom_3.jpg",
+    "case_record_id": "reczz28LcucHiz5V",
+    "original": "assets/inkwash/yang_phantom_3.jpg",
+    "case_title": "杨泳梁《蜃市山水》Phantom Landscape",
+    "source_url": "https://www.yangyongliang.com/phantom-landscape",
+    "term_record_id": "reczz28HJJL2GNSP"
+  },
+  {
+    "source": 4,
+    "desktop": [
+      995,
+      534,
+      180,
+      206,
+      4
+    ],
+    "mobile": [
+      281,
+      908,
+      95,
+      170,
+      3
+    ],
+    "label": "机器与旧世界",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "qiu_exhib_782.jpg",
+    "case_record_id": "reczz28LcucHkDng",
+    "original": "assets/inkwash/qiu_exhib_782.jpg",
+    "case_title": "邱黯雄《新山海经 II》The New Book of Mountains and Seas II",
+    "source_url": "https://www.moma.org/collection/works/135052",
+    "term_record_id": "reczz28HJJL2GNSP"
+  }
+]

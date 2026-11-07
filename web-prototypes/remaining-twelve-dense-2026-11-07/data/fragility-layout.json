@@ -1,0 +1,297 @@
+[
+  {
+    "source": 1,
+    "desktop": [
+      18,
+      130,
+      678,
+      687,
+      -2
+    ],
+    "mobile": [
+      8,
+      105,
+      373,
+      385,
+      -2
+    ],
+    "label": "从房间里褪去的身体",
+    "crop": null,
+    "mask": null,
+    "shape": "torn",
+    "file": "house3.jpg",
+    "case_record_id": "reczz28MSjtzerH5",
+    "original": "assets/fragility/house3.jpg",
+    "case_title": "House #3｜房屋三号",
+    "source_url": "https://www.nga.gov/artworks/157359-house-3",
+    "term_record_id": "reczz28HJJL2GN7q"
+  },
+  {
+    "source": 2,
+    "desktop": [
+      677,
+      132,
+      505,
+      418,
+      2
+    ],
+    "mobile": [
+      192,
+      496,
+      188,
+      227,
+      2
+    ],
+    "label": "107种回应的展览",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "calle_louisiana.jpg",
+    "case_record_id": "reczz28MSjtzdloz",
+    "original": "assets/fragility/calle_louisiana.jpg",
+    "case_title": "Take Care of Yourself｜好好照顾自己",
+    "source_url": "https://phi.ca/en/events/sophie-calle-take-care-of-yourself/",
+    "term_record_id": "reczz28HJJL2GN7q"
+  },
+  {
+    "source": 1,
+    "desktop": [
+      20,
+      808,
+      636,
+      270,
+      2
+    ],
+    "mobile": [
+      8,
+      860,
+      223,
+      232,
+      -2
+    ],
+    "label": "散落的墙皮与木板",
+    "crop": [
+      0,
+      620,
+      1000,
+      380
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "house3.jpg",
+    "case_record_id": "reczz28MSjtzerH5",
+    "original": "assets/fragility/house3.jpg",
+    "case_title": "House #3｜房屋三号",
+    "source_url": "https://www.nga.gov/artworks/157359-house-3",
+    "term_record_id": "reczz28HJJL2GN7q"
+  },
+  {
+    "source": 2,
+    "desktop": [
+      657,
+      801,
+      524,
+      275,
+      -2
+    ],
+    "mobile": [
+      210,
+      888,
+      172,
+      203,
+      2
+    ],
+    "label": "桌上的信与纸",
+    "crop": [
+      120,
+      430,
+      740,
+      470
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "calle_louisiana.jpg",
+    "case_record_id": "reczz28MSjtzdloz",
+    "original": "assets/fragility/calle_louisiana.jpg",
+    "case_title": "Take Care of Yourself｜好好照顾自己",
+    "source_url": "https://phi.ca/en/events/sophie-calle-take-care-of-yourself/",
+    "term_record_id": "reczz28HJJL2GN7q"
+  },
+  {
+    "source": 3,
+    "desktop": [
+      757,
+      354,
+      289,
+      437,
+      -4
+    ],
+    "mobile": [
+      246,
+      480,
+      135,
+      204,
+      4
+    ],
+    "label": "星辰时刻封面",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "hour_star.jpg",
+    "case_record_id": "reczz28MSjtzdNy0",
+    "original": "assets/fragility/hour_star.jpg",
+    "case_title": "星辰时刻｜一个连自己的悲惨都不知道的女孩",
+    "source_url": "https://www.ndbooks.com/book/the-hour-of-the-star/",
+    "term_record_id": "reczz28HJJL2GN7q"
+  },
+  {
+    "source": 4,
+    "desktop": [
+      364,
+      647,
+      230,
+      375,
+      3
+    ],
+    "mobile": [
+      8,
+      665,
+      144,
+      235,
+      -3
+    ],
+    "label": "玻璃动物园封面",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "glass_menagerie.jpg",
+    "case_record_id": "reczz28MSjtzcGfC",
+    "original": "assets/fragility/glass_menagerie.jpg",
+    "case_title": "玻璃动物园｜她说没关系的时候，心已经碎了",
+    "source_url": "https://www.ndbooks.com/book/the-glass-menagerie/",
+    "term_record_id": "reczz28HJJL2GN7q"
+  },
+  {
+    "source": 5,
+    "desktop": [
+      965,
+      656,
+      206,
+      310,
+      4
+    ],
+    "mobile": [
+      238,
+      713,
+      140,
+      211,
+      3
+    ],
+    "label": "破碎的语言封面",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "girl_halfformed.jpg",
+    "case_record_id": "reczz28MSjtzdW6a",
+    "original": "assets/fragility/girl_halfformed.jpg",
+    "case_title": "A Girl Is a Half-formed Thing｜当一个人的语言本身开始破碎",
+    "source_url": "https://www.coffeehousepress.org/products/a-girl-is-a-half-formed-thing",
+    "term_record_id": "reczz28HJJL2GN7q"
+  },
+  {
+    "source": 1,
+    "desktop": [
+      49,
+      628,
+      247,
+      207,
+      -4
+    ],
+    "mobile": [
+      15,
+      437,
+      180,
+      198,
+      -4
+    ],
+    "label": "窗与光",
+    "crop": [
+      430,
+      70,
+      430,
+      470
+    ],
+    "mask": null,
+    "shape": "torn",
+    "file": "house3.jpg",
+    "case_record_id": "reczz28MSjtzerH5",
+    "original": "assets/fragility/house3.jpg",
+    "case_title": "House #3｜房屋三号",
+    "source_url": "https://www.nga.gov/artworks/157359-house-3",
+    "term_record_id": "reczz28HJJL2GN7q"
+  },
+  {
+    "source": 2,
+    "desktop": [
+      552,
+      461,
+      257,
+      211,
+      3
+    ],
+    "mobile": [
+      111,
+      592,
+      172,
+      145,
+      3
+    ],
+    "label": "投影里的回应",
+    "crop": [
+      200,
+      150,
+      550,
+      320
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "calle_louisiana.jpg",
+    "case_record_id": "reczz28MSjtzdloz",
+    "original": "assets/fragility/calle_louisiana.jpg",
+    "case_title": "Take Care of Yourself｜好好照顾自己",
+    "source_url": "https://phi.ca/en/events/sophie-calle-take-care-of-yourself/",
+    "term_record_id": "reczz28HJJL2GN7q"
+  },
+  {
+    "source": 3,
+    "desktop": [
+      609,
+      879,
+      190,
+      188,
+      -5
+    ],
+    "mobile": [
+      16,
+      932,
+      111,
+      144,
+      -4
+    ],
+    "label": "眼与手的局部",
+    "crop": [
+      80,
+      230,
+      820,
+      520
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "hour_star.jpg",
+    "case_record_id": "reczz28MSjtzdNy0",
+    "original": "assets/fragility/hour_star.jpg",
+    "case_title": "星辰时刻｜一个连自己的悲惨都不知道的女孩",
+    "source_url": "https://www.ndbooks.com/book/the-hour-of-the-star/",
+    "term_record_id": "reczz28HJJL2GN7q"
+  }
+]

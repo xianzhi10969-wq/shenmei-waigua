@@ -1,0 +1,248 @@
+[
+  {
+    "source": 3,
+    "desktop": [
+      18,
+      130,
+      1165,
+      582,
+      -1
+    ],
+    "mobile": [
+      8,
+      110,
+      372,
+      322,
+      -1
+    ],
+    "label": "雪装置的完整空间",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "snow_tp.jpg",
+    "case_record_id": "reczz28MnyD4e5ab",
+    "original": "assets/cool/snow_tp.jpg",
+    "case_title": "Snow（雪）",
+    "source_url": "https://www.tokujin.com/works/2010-sensing-nature-snow/",
+    "term_record_id": "reczz28HJJL2GLZ0"
+  },
+  {
+    "source": 4,
+    "desktop": [
+      21,
+      686,
+      701,
+      389,
+      2
+    ],
+    "mobile": [
+      8,
+      770,
+      372,
+      320,
+      1
+    ],
+    "label": "雪中的九棵树",
+    "crop": [
+      0,
+      300,
+      1000,
+      560
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "kenna_raw.jpg",
+    "case_record_id": "reczz28MnyD4cUTQ",
+    "original": "assets/cool/kenna_raw.jpg",
+    "case_title": "Hokkaido（北海道）",
+    "source_url": "https://www.michaelkenna.com/gallery.php?id=6",
+    "term_record_id": "reczz28HJJL2GLZ0"
+  },
+  {
+    "source": 2,
+    "desktop": [
+      787,
+      508,
+      394,
+      568,
+      2
+    ],
+    "mobile": [
+      218,
+      492,
+      163,
+      290,
+      2
+    ],
+    "label": "人与雪墙的尺度",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "snow_2.jpg",
+    "case_record_id": "reczz28MnyD4e5ab",
+    "original": "assets/cool/snow_2.jpg",
+    "case_title": "Snow（雪）",
+    "source_url": "https://www.tokujin.com/works/2010-sensing-nature-snow/",
+    "term_record_id": "reczz28HJJL2GLZ0"
+  },
+  {
+    "source": 1,
+    "desktop": [
+      45,
+      395,
+      388,
+      345,
+      -3
+    ],
+    "mobile": [
+      8,
+      470,
+      203,
+      289,
+      -2
+    ],
+    "label": "雪墙的光与影",
+    "crop": [
+      0,
+      90,
+      680,
+      700
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "snow_1.jpg",
+    "case_record_id": "reczz28MnyD4e5ab",
+    "original": "assets/cool/snow_1.jpg",
+    "case_title": "Snow（雪）",
+    "source_url": "https://www.tokujin.com/works/2010-sensing-nature-snow/",
+    "term_record_id": "reczz28HJJL2GLZ0"
+  },
+  {
+    "source": 4,
+    "desktop": [
+      463,
+      276,
+      292,
+      342,
+      3
+    ],
+    "mobile": [
+      17,
+      305,
+      180,
+      204,
+      -3
+    ],
+    "label": "枝条近景",
+    "crop": [
+      450,
+      380,
+      280,
+      300
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "kenna_raw.jpg",
+    "case_record_id": "reczz28MnyD4cUTQ",
+    "original": "assets/cool/kenna_raw.jpg",
+    "case_title": "Hokkaido（北海道）",
+    "source_url": "https://www.michaelkenna.com/gallery.php?id=6",
+    "term_record_id": "reczz28HJJL2GLZ0"
+  },
+  {
+    "source": 2,
+    "desktop": [
+      399,
+      650,
+      295,
+      253,
+      -4
+    ],
+    "mobile": [
+      27,
+      731,
+      156,
+      140,
+      -4
+    ],
+    "label": "雪的颗粒",
+    "crop": [
+      50,
+      0,
+      700,
+      390
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "snow_2.jpg",
+    "case_record_id": "reczz28MnyD4e5ab",
+    "original": "assets/cool/snow_2.jpg",
+    "case_title": "Snow（雪）",
+    "source_url": "https://www.tokujin.com/works/2010-sensing-nature-snow/",
+    "term_record_id": "reczz28HJJL2GLZ0"
+  },
+  {
+    "source": 3,
+    "desktop": [
+      958,
+      199,
+      195,
+      236,
+      4
+    ],
+    "mobile": [
+      238,
+      172,
+      122,
+      158,
+      3
+    ],
+    "label": "安静的身影",
+    "crop": [
+      460,
+      490,
+      150,
+      470
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "snow_tp.jpg",
+    "case_record_id": "reczz28MnyD4e5ab",
+    "original": "assets/cool/snow_tp.jpg",
+    "case_title": "Snow（雪）",
+    "source_url": "https://www.tokujin.com/works/2010-sensing-nature-snow/",
+    "term_record_id": "reczz28HJJL2GLZ0"
+  },
+  {
+    "source": 4,
+    "desktop": [
+      702,
+      859,
+      211,
+      210,
+      -4
+    ],
+    "mobile": [
+      215,
+      911,
+      156,
+      168,
+      -3
+    ],
+    "label": "树的间距",
+    "crop": [
+      0,
+      370,
+      350,
+      320
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "kenna_raw.jpg",
+    "case_record_id": "reczz28MnyD4cUTQ",
+    "original": "assets/cool/kenna_raw.jpg",
+    "case_title": "Hokkaido（北海道）",
+    "source_url": "https://www.michaelkenna.com/gallery.php?id=6",
+    "term_record_id": "reczz28HJJL2GLZ0"
+  }
+]

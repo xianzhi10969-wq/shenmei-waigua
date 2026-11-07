@@ -1,0 +1,346 @@
+[
+  {
+    "source": 8,
+    "desktop": [
+      20,
+      126,
+      606,
+      430,
+      -2
+    ],
+    "mobile": [
+      8,
+      106,
+      241,
+      260,
+      -2
+    ],
+    "label": "光穿过面纱",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "veiling_gugg_1.jpg",
+    "case_record_id": "reczz28LdCQK8mJ5",
+    "original": "assets/ambiguity/veiling_gugg_1.jpg",
+    "case_title": "Bill Viola《面纱》The Veiling",
+    "source_url": "https://www.guggenheim-bilbao.eus/en/exhibition/the-veiling",
+    "term_record_id": "reczz28HJJL2GKkE"
+  },
+  {
+    "source": 1,
+    "desktop": [
+      669,
+      128,
+      512,
+      309,
+      2
+    ],
+    "mobile": [
+      234,
+      113,
+      147,
+      196,
+      3
+    ],
+    "label": "伸手之前",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "lovers_artnews_1.jpg",
+    "case_record_id": "reczz28LdCQK9D4c",
+    "original": "assets/ambiguity/lovers_artnews_1.jpg",
+    "case_title": "古桥悌二《恋人》LOVERS",
+    "source_url": "https://www.moma.org/collection/works/81362",
+    "term_record_id": "reczz28HJJL2GKkE"
+  },
+  {
+    "source": 9,
+    "desktop": [
+      23,
+      677,
+      569,
+      401,
+      2
+    ],
+    "mobile": [
+      8,
+      776,
+      214,
+      316,
+      -2
+    ],
+    "label": "两端的人影",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "veiling_fwm_1.jpg",
+    "case_record_id": "reczz28LdCQK8mJ5",
+    "original": "assets/ambiguity/veiling_fwm_1.jpg",
+    "case_title": "Bill Viola《面纱》The Veiling",
+    "source_url": "https://www.guggenheim-bilbao.eus/en/exhibition/the-veiling",
+    "term_record_id": "reczz28HJJL2GKkE"
+  },
+  {
+    "source": 4,
+    "desktop": [
+      754,
+      703,
+      426,
+      377,
+      -2
+    ],
+    "mobile": [
+      221,
+      908,
+      160,
+      185,
+      2
+    ],
+    "label": "恋人的装置现场",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "lovers_artnews_2.jpg",
+    "case_record_id": "reczz28LdCQK9D4c",
+    "original": "assets/ambiguity/lovers_artnews_2.jpg",
+    "case_title": "古桥悌二《恋人》LOVERS",
+    "source_url": "https://www.moma.org/collection/works/81362",
+    "term_record_id": "reczz28HJJL2GKkE"
+  },
+  {
+    "source": 11,
+    "desktop": [
+      479,
+      254,
+      319,
+      608,
+      0
+    ],
+    "mobile": [
+      163,
+      329,
+      208,
+      455,
+      0
+    ],
+    "label": "读信的少女",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "窗前读信的少女_维米尔_公有领域.jpg",
+    "case_record_id": "reczz28HJJL2NjeY",
+    "original": "assets/ambiguity/窗前读信的少女_维米尔_公有领域.jpg",
+    "case_title": "窗前读信的少女",
+    "source_url": "https://www.skd.museum/en/besucherservice/presse/2021/ein-liebesgott-taucht-auf-vermeers-brieflesendes-maedchen-am-offenen-fenster-vollstaendig-restauriert/",
+    "term_record_id": "reczz28HJJL2GKkE"
+  },
+  {
+    "source": 6,
+    "desktop": [
+      850,
+      323,
+      306,
+      387,
+      4
+    ],
+    "mobile": [
+      8,
+      354,
+      164,
+      246,
+      -3
+    ],
+    "label": "六次错身的完整序列",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "michals_reina_full.jpg",
+    "case_record_id": "reczz28LdCQK71j7",
+    "original": "assets/ambiguity/michals_reina_full.jpg",
+    "case_title": "Duane Michals《偶遇》Chance Meeting",
+    "source_url": "https://www.getty.edu/art/collection/object/15F5VV",
+    "term_record_id": "reczz28HJJL2GKkE"
+  },
+  {
+    "source": 5,
+    "desktop": [
+      30,
+      467,
+      331,
+      241,
+      -4
+    ],
+    "mobile": [
+      9,
+      617,
+      173,
+      158,
+      3
+    ],
+    "label": "偶遇的一瞬",
+    "crop": [
+      130,
+      115,
+      745,
+      730
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "michals_getty_1.jpg",
+    "case_record_id": "reczz28LdCQK71j7",
+    "original": "assets/ambiguity/michals_getty_1.jpg",
+    "case_title": "Duane Michals《偶遇》Chance Meeting",
+    "source_url": "https://www.getty.edu/art/collection/object/15F5VV",
+    "term_record_id": "reczz28HJJL2GKkE"
+  },
+  {
+    "source": 3,
+    "desktop": [
+      283,
+      732,
+      233,
+      257,
+      -4
+    ],
+    "mobile": [
+      237,
+      777,
+      139,
+      147,
+      4
+    ],
+    "label": "蓝色光环中的身体",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "lovers_icc_1.jpg",
+    "case_record_id": "reczz28LdCQK9D4c",
+    "original": "assets/ambiguity/lovers_icc_1.jpg",
+    "case_title": "古桥悌二《恋人》LOVERS",
+    "source_url": "https://www.moma.org/collection/works/81362",
+    "term_record_id": "reczz28HJJL2GKkE"
+  },
+  {
+    "source": 10,
+    "desktop": [
+      177,
+      280,
+      352,
+      246,
+      3
+    ],
+    "mobile": [
+      14,
+      186,
+      169,
+      151,
+      3
+    ],
+    "label": "光替他们靠近",
+    "crop": null,
+    "mask": null,
+    "shape": "torn",
+    "file": "veiling_fwm_2.jpg",
+    "case_record_id": "reczz28LdCQK8mJ5",
+    "original": "assets/ambiguity/veiling_fwm_2.jpg",
+    "case_title": "Bill Viola《面纱》The Veiling",
+    "source_url": "https://www.guggenheim-bilbao.eus/en/exhibition/the-veiling",
+    "term_record_id": "reczz28HJJL2GKkE"
+  },
+  {
+    "source": 6,
+    "desktop": [
+      591,
+      869,
+      202,
+      185,
+      -4
+    ],
+    "mobile": [
+      190,
+      977,
+      110,
+      112,
+      -3
+    ],
+    "label": "回头的时差",
+    "crop": [
+      520,
+      355,
+      420,
+      270
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "michals_reina_full.jpg",
+    "case_record_id": "reczz28LdCQK71j7",
+    "original": "assets/ambiguity/michals_reina_full.jpg",
+    "case_title": "Duane Michals《偶遇》Chance Meeting",
+    "source_url": "https://www.getty.edu/art/collection/object/15F5VV",
+    "term_record_id": "reczz28HJJL2GKkE"
+  },
+  {
+    "source": 11,
+    "desktop": [
+      978,
+      768,
+      181,
+      201,
+      4
+    ],
+    "mobile": [
+      8,
+      919,
+      112,
+      164,
+      -4
+    ],
+    "label": "手里的信",
+    "crop": [
+      390,
+      535,
+      240,
+      240
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "窗前读信的少女_维米尔_公有领域.jpg",
+    "case_record_id": "reczz28HJJL2NjeY",
+    "original": "assets/ambiguity/窗前读信的少女_维米尔_公有领域.jpg",
+    "case_title": "窗前读信的少女",
+    "source_url": "https://www.skd.museum/en/besucherservice/presse/2021/ein-liebesgott-taucht-auf-vermeers-brieflesendes-maedchen-am-offenen-fenster-vollstaendig-restauriert/",
+    "term_record_id": "reczz28HJJL2GKkE"
+  },
+  {
+    "source": 11,
+    "desktop": [
+      39,
+      155,
+      150,
+      240,
+      -5
+    ],
+    "mobile": [
+      278,
+      123,
+      91,
+      170,
+      -4
+    ],
+    "label": "帘子的边界",
+    "crop": [
+      760,
+      0,
+      220,
+      780
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "窗前读信的少女_维米尔_公有领域.jpg",
+    "case_record_id": "reczz28HJJL2NjeY",
+    "original": "assets/ambiguity/窗前读信的少女_维米尔_公有领域.jpg",
+    "case_title": "窗前读信的少女",
+    "source_url": "https://www.skd.museum/en/besucherservice/presse/2021/ein-liebesgott-taucht-auf-vermeers-brieflesendes-maedchen-am-offenen-fenster-vollstaendig-restauriert/",
+    "term_record_id": "reczz28HJJL2GKkE"
+  }
+]

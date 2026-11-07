@@ -1,0 +1,383 @@
+[
+  {
+    "source": 4,
+    "desktop": [
+      18,
+      125,
+      580,
+      520,
+      -2
+    ],
+    "mobile": [
+      8,
+      104,
+      241,
+      281,
+      -2
+    ],
+    "label": "失效的未来机器",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "es_warmachines.jpg",
+    "case_record_id": "reczz28MoBSnzMZH",
+    "original": "assets/wasteland/es_warmachines.jpg",
+    "case_title": "《电幻国度》The Electric State",
+    "source_url": "https://www.simonstalenhag.se/es.html",
+    "term_record_id": "reczz28HJJL2GP4n"
+  },
+  {
+    "source": 1,
+    "desktop": [
+      599,
+      127,
+      583,
+      420,
+      2
+    ],
+    "mobile": [
+      216,
+      110,
+      165,
+      247,
+      2
+    ],
+    "label": "雨林中的加油站",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "gas_shell.jpg",
+    "case_record_id": "reczz28MoBSnxpUl",
+    "original": "assets/wasteland/gas_shell.jpg",
+    "case_title": "Gas｜加油站",
+    "source_url": "https://www.davidlachapelle.com/series-gas",
+    "term_record_id": "reczz28HJJL2GP4n"
+  },
+  {
+    "source": 8,
+    "desktop": [
+      20,
+      660,
+      590,
+      417,
+      2
+    ],
+    "mobile": [
+      8,
+      762,
+      224,
+      330,
+      -2
+    ],
+    "label": "留下生活的街道",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "stray_2.jpg",
+    "case_record_id": "reczz28MoBSnwnPa",
+    "original": "assets/wasteland/stray_2.jpg",
+    "case_title": "《Stray》",
+    "source_url": "https://stray.game/",
+    "term_record_id": "reczz28HJJL2GP4n"
+  },
+  {
+    "source": 6,
+    "desktop": [
+      606,
+      706,
+      577,
+      373,
+      -2
+    ],
+    "mobile": [
+      196,
+      869,
+      184,
+      223,
+      2
+    ],
+    "label": "路边的巨大遗物",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "es_on_ramp.jpg",
+    "case_record_id": "reczz28MoBSnzMZH",
+    "original": "assets/wasteland/es_on_ramp.jpg",
+    "case_title": "《电幻国度》The Electric State",
+    "source_url": "https://www.simonstalenhag.se/es.html",
+    "term_record_id": "reczz28HJJL2GP4n"
+  },
+  {
+    "source": 5,
+    "desktop": [
+      26,
+      493,
+      418,
+      246,
+      -3
+    ],
+    "mobile": [
+      8,
+      381,
+      193,
+      185,
+      2
+    ],
+    "label": "荒野里的广告",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "es_billboards.jpg",
+    "case_record_id": "reczz28MoBSnzMZH",
+    "original": "assets/wasteland/es_billboards.jpg",
+    "case_title": "《电幻国度》The Electric State",
+    "source_url": "https://www.simonstalenhag.se/es.html",
+    "term_record_id": "reczz28HJJL2GP4n"
+  },
+  {
+    "source": 2,
+    "desktop": [
+      879,
+      462,
+      304,
+      301,
+      3
+    ],
+    "mobile": [
+      225,
+      599,
+      154,
+      270,
+      3
+    ],
+    "label": "灯还亮着",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "gas_chevron.jpg",
+    "case_record_id": "reczz28MoBSnxpUl",
+    "original": "assets/wasteland/gas_chevron.jpg",
+    "case_title": "Gas｜加油站",
+    "source_url": "https://www.davidlachapelle.com/series-gas",
+    "term_record_id": "reczz28HJJL2GP4n"
+  },
+  {
+    "source": 3,
+    "desktop": [
+      614,
+      546,
+      297,
+      227,
+      -3
+    ],
+    "mobile": [
+      8,
+      578,
+      172,
+      195,
+      -3
+    ],
+    "label": "绿色招牌",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "gas_bp.jpg",
+    "case_record_id": "reczz28MoBSnxpUl",
+    "original": "assets/wasteland/gas_bp.jpg",
+    "case_title": "Gas｜加油站",
+    "source_url": "https://www.davidlachapelle.com/series-gas",
+    "term_record_id": "reczz28HJJL2GP4n"
+  },
+  {
+    "source": 8,
+    "desktop": [
+      715,
+      402,
+      210,
+      310,
+      4
+    ],
+    "mobile": [
+      228,
+      337,
+      153,
+      270,
+      2
+    ],
+    "label": "仍亮着的招牌",
+    "crop": [
+      450,
+      0,
+      500,
+      600
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "stray_2.jpg",
+    "case_record_id": "reczz28MoBSnwnPa",
+    "original": "assets/wasteland/stray_2.jpg",
+    "case_title": "《Stray》",
+    "source_url": "https://stray.game/",
+    "term_record_id": "reczz28HJJL2GP4n"
+  },
+  {
+    "source": 7,
+    "desktop": [
+      411,
+      262,
+      340,
+      646,
+      0
+    ],
+    "mobile": [
+      120,
+      355,
+      199,
+      378,
+      0
+    ],
+    "label": "城市留下的猫",
+    "crop": [
+      590,
+      25,
+      350,
+      975
+    ],
+    "mask": "cat",
+    "shape": null,
+    "file": "stray_1.jpg",
+    "case_record_id": "reczz28MoBSnwnPa",
+    "original": "assets/wasteland/stray_1.jpg",
+    "case_title": "《Stray》",
+    "source_url": "https://stray.game/",
+    "term_record_id": "reczz28HJJL2GP4n"
+  },
+  {
+    "source": 4,
+    "desktop": [
+      31,
+      855,
+      209,
+      210,
+      -4
+    ],
+    "mobile": [
+      8,
+      946,
+      120,
+      137,
+      -3
+    ],
+    "label": "机器的壳",
+    "crop": [
+      360,
+      180,
+      360,
+      470
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "es_warmachines.jpg",
+    "case_record_id": "reczz28MoBSnzMZH",
+    "original": "assets/wasteland/es_warmachines.jpg",
+    "case_title": "《电幻国度》The Electric State",
+    "source_url": "https://www.simonstalenhag.se/es.html",
+    "term_record_id": "reczz28HJJL2GP4n"
+  },
+  {
+    "source": 9,
+    "desktop": [
+      920,
+      832,
+      255,
+      238,
+      4
+    ],
+    "mobile": [
+      220,
+      922,
+      158,
+      169,
+      4
+    ],
+    "label": "仍在继续的日常",
+    "crop": [
+      50,
+      180,
+      480,
+      750
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "stray_3.jpg",
+    "case_record_id": "reczz28MoBSnwnPa",
+    "original": "assets/wasteland/stray_3.jpg",
+    "case_title": "《Stray》",
+    "source_url": "https://stray.game/",
+    "term_record_id": "reczz28HJJL2GP4n"
+  },
+  {
+    "source": 7,
+    "desktop": [
+      738,
+      149,
+      159,
+      198,
+      -4
+    ],
+    "mobile": [
+      275,
+      160,
+      93,
+      160,
+      4
+    ],
+    "label": "机器人的脸",
+    "crop": [
+      90,
+      0,
+      190,
+      420
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "stray_1.jpg",
+    "case_record_id": "reczz28MoBSnwnPa",
+    "original": "assets/wasteland/stray_1.jpg",
+    "case_title": "《Stray》",
+    "source_url": "https://stray.game/",
+    "term_record_id": "reczz28HJJL2GP4n"
+  },
+  {
+    "source": 5,
+    "desktop": [
+      283,
+      927,
+      219,
+      136,
+      4
+    ],
+    "mobile": [
+      21,
+      723,
+      131,
+      93,
+      4
+    ],
+    "label": "广告牌上的未来",
+    "crop": [
+      90,
+      155,
+      450,
+      400
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "es_billboards.jpg",
+    "case_record_id": "reczz28MoBSnzMZH",
+    "original": "assets/wasteland/es_billboards.jpg",
+    "case_title": "《电幻国度》The Electric State",
+    "source_url": "https://www.simonstalenhag.se/es.html",
+    "term_record_id": "reczz28HJJL2GP4n"
+  }
+]

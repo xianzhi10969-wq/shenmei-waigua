@@ -1,0 +1,329 @@
+[
+  {
+    "source": 1,
+    "desktop": [
+      18,
+      126,
+      716,
+      501,
+      -2
+    ],
+    "mobile": [
+      8,
+      105,
+      374,
+      259,
+      -2
+    ],
+    "label": "人生航程完整画面",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "人生的航程_青年_科尔_公有领域.jpg",
+    "case_record_id": "reczz28HJJL2NpG7",
+    "original": "assets/fated/人生的航程_青年_科尔_公有领域.jpg",
+    "case_title": "人生的航程",
+    "source_url": "https://explorethomascole.org/project/the-voyage-of-life-series-page/",
+    "term_record_id": "reczz28HJJL2GOtf"
+  },
+  {
+    "source": 3,
+    "desktop": [
+      731,
+      125,
+      451,
+      353,
+      2
+    ],
+    "mobile": [
+      213,
+      391,
+      168,
+      213,
+      2
+    ],
+    "label": "反复追来的节奏",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "第五交响曲手稿_贝多芬_CCBYSA4.0.jpg",
+    "case_record_id": "reczz28HJJL2NpLL",
+    "original": "assets/fated/第五交响曲手稿_贝多芬_CCBYSA4.0.jpg",
+    "case_title": "第五交响曲",
+    "source_url": "https://www.esm.rochester.edu/beethoven/symphony-no-5/",
+    "term_record_id": "reczz28HJJL2GOtf"
+  },
+  {
+    "source": 2,
+    "desktop": [
+      19,
+      633,
+      403,
+      445,
+      2
+    ],
+    "mobile": [
+      8,
+      810,
+      182,
+      281,
+      -2
+    ],
+    "label": "古老抄本中的命运",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "伊利亚特威尼斯A抄本细密画_CC0.jpg",
+    "case_record_id": "reczz28HJJL2NpIk",
+    "original": "assets/fated/伊利亚特威尼斯A抄本细密画_CC0.jpg",
+    "case_title": "伊利亚特",
+    "source_url": "http://classics.mit.edu/Homer/iliad.html",
+    "term_record_id": "reczz28HJJL2GOtf"
+  },
+  {
+    "source": 4,
+    "desktop": [
+      756,
+      725,
+      428,
+      353,
+      -2
+    ],
+    "mobile": [
+      176,
+      879,
+      205,
+      214,
+      2
+    ],
+    "label": "记忆里的最后一刻",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "lajetee_cinematheque.jpg",
+    "case_record_id": "reczz28MpmQFmKwG",
+    "original": "assets/fated/lajetee_cinematheque.jpg",
+    "case_title": "La Jetée",
+    "source_url": "https://www.cinematheque.fr/film/49998.html",
+    "term_record_id": "reczz28HJJL2GOtf"
+  },
+  {
+    "source": 5,
+    "desktop": [
+      370,
+      419,
+      504,
+      591,
+      0
+    ],
+    "mobile": [
+      86,
+      421,
+      240,
+      448,
+      0
+    ],
+    "label": "水中的新娘",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "melancholia_magnolia_1.jpg",
+    "case_record_id": "reczz28MpmQFo3uh",
+    "original": "assets/fated/melancholia_magnolia_1.jpg",
+    "case_title": "Melancholia",
+    "source_url": "https://www.festival-cannes.com/en/f/melancholia/",
+    "term_record_id": "reczz28HJJL2GOtf"
+  },
+  {
+    "source": 1,
+    "desktop": [
+      56,
+      459,
+      260,
+      282,
+      -4
+    ],
+    "mobile": [
+      8,
+      360,
+      155,
+      225,
+      -3
+    ],
+    "label": "同一条船与远方",
+    "crop": [
+      200,
+      490,
+      480,
+      480
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "人生的航程_青年_科尔_公有领域.jpg",
+    "case_record_id": "reczz28HJJL2NpG7",
+    "original": "assets/fated/人生的航程_青年_科尔_公有领域.jpg",
+    "case_title": "人生的航程",
+    "source_url": "https://explorethomascole.org/project/the-voyage-of-life-series-page/",
+    "term_record_id": "reczz28HJJL2GOtf"
+  },
+  {
+    "source": 2,
+    "desktop": [
+      982,
+      421,
+      191,
+      288,
+      3
+    ],
+    "mobile": [
+      272,
+      649,
+      107,
+      232,
+      3
+    ],
+    "label": "抄本的面孔",
+    "crop": [
+      200,
+      20,
+      500,
+      660
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "伊利亚特威尼斯A抄本细密画_CC0.jpg",
+    "case_record_id": "reczz28HJJL2NpIk",
+    "original": "assets/fated/伊利亚特威尼斯A抄本细密画_CC0.jpg",
+    "case_title": "伊利亚特",
+    "source_url": "http://classics.mit.edu/Homer/iliad.html",
+    "term_record_id": "reczz28HJJL2GOtf"
+  },
+  {
+    "source": 3,
+    "desktop": [
+      451,
+      908,
+      279,
+      166,
+      -4
+    ],
+    "mobile": [
+      39,
+      932,
+      157,
+      153,
+      -4
+    ],
+    "label": "谱纸与笔迹",
+    "crop": [
+      0,
+      120,
+      580,
+      380
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "第五交响曲手稿_贝多芬_CCBYSA4.0.jpg",
+    "case_record_id": "reczz28HJJL2NpLL",
+    "original": "assets/fated/第五交响曲手稿_贝多芬_CCBYSA4.0.jpg",
+    "case_title": "第五交响曲",
+    "source_url": "https://www.esm.rochester.edu/beethoven/symphony-no-5/",
+    "term_record_id": "reczz28HJJL2GOtf"
+  },
+  {
+    "source": 5,
+    "desktop": [
+      24,
+      158,
+      185,
+      200,
+      -4
+    ],
+    "mobile": [
+      8,
+      159,
+      113,
+      127,
+      -4
+    ],
+    "label": "铃兰与手",
+    "crop": [
+      360,
+      510,
+      270,
+      300
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "melancholia_magnolia_1.jpg",
+    "case_record_id": "reczz28MpmQFo3uh",
+    "original": "assets/fated/melancholia_magnolia_1.jpg",
+    "case_title": "Melancholia",
+    "source_url": "https://www.festival-cannes.com/en/f/melancholia/",
+    "term_record_id": "reczz28HJJL2GOtf"
+  },
+  {
+    "source": 5,
+    "desktop": [
+      883,
+      550,
+      280,
+      194,
+      4
+    ],
+    "mobile": [
+      8,
+      609,
+      126,
+      170,
+      -3
+    ],
+    "label": "水面与花",
+    "crop": [
+      650,
+      20,
+      330,
+      650
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "melancholia_magnolia_1.jpg",
+    "case_record_id": "reczz28MpmQFo3uh",
+    "original": "assets/fated/melancholia_magnolia_1.jpg",
+    "case_title": "Melancholia",
+    "source_url": "https://www.festival-cannes.com/en/f/melancholia/",
+    "term_record_id": "reczz28HJJL2GOtf"
+  },
+  {
+    "source": 4,
+    "desktop": [
+      929,
+      842,
+      226,
+      213,
+      4
+    ],
+    "mobile": [
+      255,
+      931,
+      116,
+      144,
+      4
+    ],
+    "label": "身影与栏杆",
+    "crop": [
+      580,
+      100,
+      300,
+      850
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "lajetee_cinematheque.jpg",
+    "case_record_id": "reczz28MpmQFmKwG",
+    "original": "assets/fated/lajetee_cinematheque.jpg",
+    "case_title": "La Jetée",
+    "source_url": "https://www.cinematheque.fr/film/49998.html",
+    "term_record_id": "reczz28HJJL2GOtf"
+  }
+]

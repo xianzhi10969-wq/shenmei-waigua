@@ -1,0 +1,395 @@
+[
+  {
+    "source": 19,
+    "desktop": [
+      18,
+      126,
+      548,
+      257,
+      -2
+    ],
+    "mobile": [
+      8,
+      103,
+      262,
+      148,
+      -2
+    ],
+    "label": "松林与纸面",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "松林图屏风_左隻_长谷川等伯_公有领域.jpg",
+    "case_record_id": "reczz28HJJL2NlFs",
+    "original": "assets/zen/松林图屏风_左隻_长谷川等伯_公有领域.jpg",
+    "case_title": "松林图屏风",
+    "source_url": "https://emuseum.nich.go.jp/detail?content_base_id=100151",
+    "term_record_id": "reczz28HJJL2GMBA"
+  },
+  {
+    "source": 17,
+    "desktop": [
+      562,
+      128,
+      620,
+      433,
+      2
+    ],
+    "mobile": [
+      161,
+      245,
+      221,
+      223,
+      2
+    ],
+    "label": "天光落入水滴空间",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "matrix_art100.jpg",
+    "case_record_id": "reczz28Ldc0bKQuv",
+    "original": "assets/zen/matrix_art100.jpg",
+    "case_title": "内藤礼《Matrix》",
+    "source_url": "https://benesse-artsite.jp/en/art/teshima-artmuseum.html",
+    "term_record_id": "reczz28HJJL2GMBA"
+  },
+  {
+    "source": 13,
+    "desktop": [
+      20,
+      671,
+      477,
+      408,
+      -2
+    ],
+    "mobile": [
+      8,
+      707,
+      192,
+      223,
+      -2
+    ],
+    "label": "盐线迷宫",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "motoi_lab_roppongi.jpg",
+    "case_record_id": "reczz28Ldc0bJUeQ",
+    "original": "assets/zen/motoi_lab_roppongi.jpg",
+    "case_title": "山本基《Return to the Sea Project》",
+    "source_url": "https://www.motoi-works.com/en/works/return-to-theseaproject",
+    "term_record_id": "reczz28HJJL2GMBA"
+  },
+  {
+    "source": 18,
+    "desktop": [
+      637,
+      711,
+      547,
+      368,
+      2
+    ],
+    "mobile": [
+      171,
+      893,
+      211,
+      199,
+      2
+    ],
+    "label": "石与砂的关系",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "龙安寺石庭_摄影DXR_CCBYSA4.0.jpg",
+    "case_record_id": "reczz28HJJL2NlAY",
+    "original": "assets/zen/龙安寺石庭_摄影DXR_CCBYSA4.0.jpg",
+    "case_title": "龙安寺石庭",
+    "source_url": "https://www.pref.kyoto.jp/isan/ryoanji.html",
+    "term_record_id": "reczz28HJJL2GMBA"
+  },
+  {
+    "source": 16,
+    "desktop": [
+      922,
+      407,
+      260,
+      360,
+      -3
+    ],
+    "mobile": [
+      269,
+      102,
+      112,
+      180,
+      3
+    ],
+    "label": "岛屿与海",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "matrix_pd_3.jpg",
+    "case_record_id": "reczz28Ldc0bKQuv",
+    "original": "assets/zen/matrix_pd_3.jpg",
+    "case_title": "内藤礼《Matrix》",
+    "source_url": "https://benesse-artsite.jp/en/art/teshima-artmuseum.html",
+    "term_record_id": "reczz28HJJL2GMBA"
+  },
+  {
+    "source": 14,
+    "desktop": [
+      19,
+      359,
+      443,
+      327,
+      2
+    ],
+    "mobile": [
+      8,
+      246,
+      201,
+      185,
+      -3
+    ],
+    "label": "Matrix内部",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "matrix_pd_1.jpg",
+    "case_record_id": "reczz28Ldc0bKQuv",
+    "original": "assets/zen/matrix_pd_1.jpg",
+    "case_title": "内藤礼《Matrix》",
+    "source_url": "https://benesse-artsite.jp/en/art/teshima-artmuseum.html",
+    "term_record_id": "reczz28HJJL2GMBA"
+  },
+  {
+    "source": 11,
+    "desktop": [
+      410,
+      827,
+      289,
+      253,
+      -3
+    ],
+    "mobile": [
+      8,
+      925,
+      177,
+      167,
+      -3
+    ],
+    "label": "把盐还给海",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "motoi_sea_08.jpg",
+    "case_record_id": "reczz28Ldc0bJUeQ",
+    "original": "assets/zen/motoi_sea_08.jpg",
+    "case_title": "山本基《Return to the Sea Project》",
+    "source_url": "https://www.motoi-works.com/en/works/return-to-theseaproject",
+    "term_record_id": "reczz28HJJL2GMBA"
+  },
+  {
+    "source": 9,
+    "desktop": [
+      61,
+      645,
+      225,
+      211,
+      4
+    ],
+    "mobile": [
+      8,
+      445,
+      132,
+      149,
+      3
+    ],
+    "label": "脚下的盐",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "motoi_project_06.jpg",
+    "case_record_id": "reczz28Ldc0bJUeQ",
+    "original": "assets/zen/motoi_project_06.jpg",
+    "case_title": "山本基《Return to the Sea Project》",
+    "source_url": "https://www.motoi-works.com/en/works/return-to-theseaproject",
+    "term_record_id": "reczz28HJJL2GMBA"
+  },
+  {
+    "source": 12,
+    "desktop": [
+      776,
+      555,
+      285,
+      235,
+      4
+    ],
+    "mobile": [
+      227,
+      675,
+      153,
+      157,
+      4
+    ],
+    "label": "盐的总形",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "motoi_lab_charleston.jpg",
+    "case_record_id": "reczz28Ldc0bJUeQ",
+    "original": "assets/zen/motoi_lab_charleston.jpg",
+    "case_title": "山本基《Return to the Sea Project》",
+    "source_url": "https://www.motoi-works.com/en/works/return-to-theseaproject",
+    "term_record_id": "reczz28HJJL2GMBA"
+  },
+  {
+    "source": 6,
+    "desktop": [
+      40,
+      247,
+      171,
+      229,
+      -5
+    ],
+    "mobile": [
+      8,
+      591,
+      139,
+      143,
+      -4
+    ],
+    "label": "冻结的花瓣",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "iced_09.jpg",
+    "case_record_id": "reczz28Ldc0bMeA5",
+    "original": "assets/zen/iced_09.jpg",
+    "case_title": "东信《ICED FLOWERS for Dries Van Noten's》",
+    "source_url": "https://azumamakoto.com/en/project/x-2w_gp5z/",
+    "term_record_id": "reczz28HJJL2GMBA"
+  },
+  {
+    "source": 18,
+    "desktop": [
+      953,
+      664,
+      216,
+      160,
+      4
+    ],
+    "mobile": [
+      269,
+      465,
+      112,
+      243,
+      2
+    ],
+    "label": "砂纹与石",
+    "crop": [
+      260,
+      540,
+      650,
+      400
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "龙安寺石庭_摄影DXR_CCBYSA4.0.jpg",
+    "case_record_id": "reczz28HJJL2NlAY",
+    "original": "assets/zen/龙安寺石庭_摄影DXR_CCBYSA4.0.jpg",
+    "case_title": "龙安寺石庭",
+    "source_url": "https://www.pref.kyoto.jp/isan/ryoanji.html",
+    "term_record_id": "reczz28HJJL2GMBA"
+  },
+  {
+    "source": 1,
+    "desktop": [
+      370,
+      175,
+      407,
+      760,
+      0
+    ],
+    "mobile": [
+      126,
+      393,
+      176,
+      328,
+      0
+    ],
+    "label": "完整冰花柱",
+    "crop": [
+      542,
+      0,
+      390,
+      955
+    ],
+    "mask": "ice",
+    "shape": null,
+    "file": "iced_01.jpg",
+    "case_record_id": "reczz28Ldc0bMeA5",
+    "original": "assets/zen/iced_01.jpg",
+    "case_title": "东信《ICED FLOWERS for Dries Van Noten's》",
+    "source_url": "https://azumamakoto.com/en/project/x-2w_gp5z/",
+    "term_record_id": "reczz28HJJL2GMBA"
+  },
+  {
+    "source": 10,
+    "desktop": [
+      751,
+      880,
+      226,
+      176,
+      -4
+    ],
+    "mobile": [
+      205,
+      803,
+      172,
+      132,
+      -3
+    ],
+    "label": "抛盐的动作",
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "file": "motoi_sea_03.jpg",
+    "case_record_id": "reczz28Ldc0bJUeQ",
+    "original": "assets/zen/motoi_sea_03.jpg",
+    "case_title": "山本基《Return to the Sea Project》",
+    "source_url": "https://www.motoi-works.com/en/works/return-to-theseaproject",
+    "term_record_id": "reczz28HJJL2GMBA"
+  },
+  {
+    "source": 19,
+    "desktop": [
+      954,
+      875,
+      220,
+      193,
+      4
+    ],
+    "mobile": [
+      215,
+      961,
+      154,
+      125,
+      3
+    ],
+    "label": "松针与墨色",
+    "crop": [
+      335,
+      80,
+      300,
+      780
+    ],
+    "mask": null,
+    "shape": null,
+    "file": "松林图屏风_左隻_长谷川等伯_公有领域.jpg",
+    "case_record_id": "reczz28HJJL2NlFs",
+    "original": "assets/zen/松林图屏风_左隻_长谷川等伯_公有领域.jpg",
+    "case_title": "松林图屏风",
+    "source_url": "https://emuseum.nich.go.jp/detail?content_base_id=100151",
+    "term_record_id": "reczz28HJJL2GMBA"
+  }
+]

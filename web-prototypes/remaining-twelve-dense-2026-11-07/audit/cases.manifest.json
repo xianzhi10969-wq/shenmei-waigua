@@ -1,0 +1,276 @@
+{
+  "manifest_version": "v1",
+  "format": "ndjson",
+  "base_token": "IGctbcuwPaE6hMsmAoicJddpn3U",
+  "table_id": "tblpdRYutnm12T0y",
+  "rev": 412,
+  "timezone": "Asia/Shanghai",
+  "query_context": {
+    "record_scope": "selected_record_ids",
+    "requested_record_count": 45
+  },
+  "records_count": 45,
+  "page_count": 1,
+  "has_more": false,
+  "record_file": "/Users/yuriko/Documents/ChatGPT/审美外挂 2/output/remaining-twelve-dense-2026-11-07/audit/cases.ndjson",
+  "record_file_size_bytes": 94874,
+  "manifest_file": "/Users/yuriko/Documents/ChatGPT/审美外挂 2/output/remaining-twelve-dense-2026-11-07/audit/cases.manifest.json",
+  "columns": {
+    "record_id": {
+      "physical_type": "string",
+      "stats": {
+        "max_length": 16
+      },
+      "example": "reczz28Ldc0bMeA5"
+    },
+    "一句为什么": {
+      "field_id": "fldTvoyuFO",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 95
+      },
+      "example": "远看是山，近看全是钢筋水泥。"
+    },
+    "为什么好": {
+      "field_id": "fldDtWYGfk",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 383
+      },
+      "example": "两扇六折屏风只用水墨画松，浓淡之间的留白变成空气和距离。少画的地方，反而把整片林子连起来。"
+    },
+    "事实来源": {
+      "field_id": "fldLTmDAyy",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 35,
+        "max_length": 739
+      },
+      "example": "戛纳电影节档案页；Magnolia 官方页 https://www.magpictures.com/melancholia/ 与 press kit"
+    },
+    "作品原文名": {
+      "field_id": "fld6DFsQdJ",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 82
+      },
+      "example": "Gas"
+    },
+    "作品名": {
+      "field_id": "fld7dhdDbF",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 49
+      },
+      "example": "Pre-Kiss"
+    },
+    "作者": {
+      "field_id": "fld6YNOrMF",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 41
+      },
+      "example": "AES+F"
+    },
+    "出处行": {
+      "field_id": "fld7xctQui",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 40,
+        "max_length": 36
+      },
+      "example": "克里斯·马克《La Jetée》（1962）。"
+    },
+    "反转": {
+      "field_id": "fld9VA45yr",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 37,
+        "max_length": 197
+      },
+      "example": "一整队吵吵闹闹的人，冲向了一个刚被丢下的人。"
+    },
+    "取色图源": {
+      "field_id": "fld73aGKwC",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 38,
+        "max_length": 120
+      },
+      "example": "https://www.japan.travel/en/spot/1145/"
+    },
+    "图": {
+      "field_id": "fldFbHwhMG",
+      "field_type": "attachment",
+      "physical_type": "array<struct<file_token string, size number, name string>>",
+      "stats": {
+        "empty_count": 1,
+        "max_length": 11,
+        "avg_length": 2.6
+      },
+      "example": [
+        {
+          "file_token": "PmPNb8MzroviivxESguclcD4n5e",
+          "name": "house3.jpg",
+          "size": 112815
+        }
+      ]
+    },
+    "图注": {
+      "field_id": "fldTINuLzG",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 27,
+        "max_length": 75
+      },
+      "example": "NEUTRAL COLORS Issue 4《Work》（2023）· 图源官方站点"
+    },
+    "媒介": {
+      "field_id": "fld6z1UtaH",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 22
+      },
+      "example": "诗"
+    },
+    "官方页": {
+      "field_id": "fld7zQhSoK",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 156
+      },
+      "example": "https://stray.game/"
+    },
+    "年份": {
+      "field_id": "fld7lTv2WD",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 19
+      },
+      "example": "2016"
+    },
+    "所属词条": {
+      "field_id": "fld1TTLF9F",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 3
+      },
+      "example": "禅意"
+    },
+    "手法": {
+      "field_id": "fld6g8eInM",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 42,
+        "max_length": 100
+      },
+      "example": "写一生，最容易一段段交代发生过什么。托马斯·科尔让同一条河穿过四幅画：婴儿在春光里启程，少年自己掌舵，壮年被急流带走，老人又坐回破船。河没有停，船头的沙漏却一步步空下去。"
+    },
+    "收藏地或出品方": {
+      "field_id": "fld54dGM5K",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 1,
+        "max_length": 60
+      },
+      "example": "Coffee House Press"
+    },
+    "是否保留": {
+      "field_id": "fldSTyGQVe",
+      "field_type": "checkbox",
+      "physical_type": "boolean",
+      "stats": {
+        "true_count": 42
+      },
+      "example": true
+    },
+    "核查备注": {
+      "field_id": "fld5QF7voQ",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 37,
+        "max_length": 856
+      },
+      "example": "拍摄时长：维基写「15 个月」，Criterion 上 Charles Yu 的文章写「一年多」，文中用保守的「一年多」。「活鸡、唱歌、一起过夜」出自 Charles Yu 文章，前文写的是「试过的不同版本、废镜头」，文中写「都试过」。「同一天搬进相邻的两",
+      "example_truncated": true
+    },
+    "画面": {
+      "field_id": "fld1E1B6Uw",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 37,
+        "max_length": 230
+      },
+      "example": "1962 年的香港，周慕云和苏丽珍在同一天搬进相邻的两户。后来他们发现，他的妻子和她的丈夫，走到了一起。"
+    },
+    "细节": {
+      "field_id": "fld7Mc2mhU",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 37,
+        "max_length": 295
+      },
+      "example": "这是一座枯山水，也就是「干」的山水庭院。围着它的土墙，是用油煮过的黏土砌的。"
+    },
+    "缺席": {
+      "field_id": "fld6sGYmGB",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 37,
+        "max_length": 202
+      },
+      "example": "她身后，是一面空空的浅色墙。"
+    },
+    "补充讲解": {
+      "field_id": "fld4Jgw0Wb",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 37,
+        "max_length": 474
+      },
+      "example": "https://smarthistory.org/titian-bacchus-and-ariadne/"
+    },
+    "顺序": {
+      "field_id": "fld6SgrU59",
+      "field_type": "number",
+      "physical_type": "number|null",
+      "stats": {
+        "null_count": 0,
+        "min": 1,
+        "max": 5,
+        "avg": 2.4
+      },
+      "example": 3
+    }
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "manifest_version": "v1",
+  "format": "ndjson",
+  "base_token": "IGctbcuwPaE6hMsmAoicJddpn3U",
+  "table_id": "tbl2gR8WBoqCQyGz",
+  "rev": 232,
+  "timezone": "Asia/Shanghai",
+  "query_context": {
+    "record_scope": "selected_record_ids",
+    "requested_record_count": 12
+  },
+  "records_count": 12,
+  "page_count": 1,
+  "has_more": false,
+  "record_file": "/Users/yuriko/Documents/ChatGPT/审美外挂 2/output/remaining-twelve-dense-2026-11-07/audit/terms.ndjson",
+  "record_file_size_bytes": 31834,
+  "manifest_file": "/Users/yuriko/Documents/ChatGPT/审美外挂 2/output/remaining-twelve-dense-2026-11-07/audit/terms.manifest.json",
+  "columns": {
+    "Pinterest 搜索词": {
+      "field_id": "fld1VOeRMF",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 38
+      },
+      "example": "zen"
+    },
+    "record_id": {
+      "physical_type": "string",
+      "stats": {
+        "max_length": 16
+      },
+      "example": "reczz28HJJL2GMBA"
+    },
+    "做俗了": {
+      "field_id": "fld17L6Ocn",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 89
+      },
+      "example": "黑白滤镜、飞白贴图、山形剪影和题字堆满，看着像“国风”，却没有一笔与水和纸发生关系。水墨要让人看见墨怎样落下、散开、停住。"
+    },
+    "做法1": {
+      "field_id": "fld7ni1HRv",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 43
+      },
+      "example": "先给人物一条愿意守的线，再安排冲突来试它。武力要碰到选择，才有侠。"
+    },
+    "做法2": {
+      "field_id": "fld5bPAjM9",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 45
+      },
+      "example": "让修补或继续使用留下痕迹。伤不必被抹平，人物仍可以把东西握在手里。"
+    },
+    "做法3": {
+      "field_id": "fld2AOGrs2",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 47
+      },
+      "example": "把脆弱放在具体关系中。谁发现裂缝、谁小心避开，能让破碎不只是自我展示。"
+    },
+    "元素用法": {
+      "field_id": "fld1NfgAvl",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 12,
+        "max_length": 0
+      },
+      "hint": "All values are empty; type inference may be ambiguous. Avoid analyzing this column unless required."
+    },
+    "在本章的位置": {
+      "field_id": "fld1vG78lh",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 32
+      },
+      "example": "慢慢过的日子"
+    },
+    "好奇心问题": {
+      "field_id": "fld7TmjV3D",
+      "field_type": "link",
+      "physical_type": "array<struct<id string>>",
+      "stats": {
+        "empty_count": 10,
+        "max_length": 1,
+        "avg_length": 0.16666666666666666
+      },
+      "example": [
+        {
+          "id": "reczz28MivOQ9pGl"
+        }
+      ]
+    },
+    "封面图": {
+      "field_id": "fldJTgBTUW",
+      "field_type": "attachment",
+      "physical_type": "array<struct<file_token string, size number, name string>>",
+      "stats": {
+        "empty_count": 1,
+        "max_length": 1,
+        "avg_length": 0.9166666666666666
+      },
+      "example": [
+        {
+          "file_token": "QxNKbD8gioqe47xM1TScji5hnZg",
+          "name": "肉馅饼宴席静物_赫达_CC0.jpg",
+          "size": 428476
+        }
+      ]
+    },
+    "所属章节": {
+      "field_id": "fld3Sz8ecb",
+      "field_type": "select",
+      "physical_type": "array<string>",
+      "stats": {
+        "empty_count": 0,
+        "max_length": 1,
+        "avg_length": 1
+      },
+      "example": [
+        "侠"
+      ]
+    },
+    "接着看": {
+      "field_id": "fld2HU3cs4",
+      "field_type": "select",
+      "physical_type": "array<string>",
+      "stats": {
+        "empty_count": 0,
+        "max_length": 2,
+        "avg_length": 1.6666666666666667
+      },
+      "example": [
+        "禅意"
+      ]
+    },
+    "核心": {
+      "field_id": "fld2kWjGZc",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 45
+      },
+      "example": "武侠之美，不在刀剑，而在一身自由，半生羁绊。"
+    },
+    "案例": {
+      "field_id": "fld1ks5nKX",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 128
+      },
+      "example": "La Jetée,Melancholia"
+    },
+    "检索词": {
+      "field_id": "fld1Nk16sh",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 80
+      },
+      "example": "日杂,仿日杂,日系杂志,生活感,手帐,拼贴,zakka,慢生活,窗台,手写字,米色,北欧风"
+    },
+    "正文": {
+      "field_id": "fld19jh0kS",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 1674
+      },
+      "example": "青涩是一种注定消失的美。第一次登台的人终究会习惯舞台，第一次恋爱的人会学会亲吻，第一次尝试独立的人会越来越熟练。"
+    },
+    "状态": {
+      "field_id": "fld5LXn5Hv",
+      "field_type": "select",
+      "physical_type": "array<string>",
+      "stats": {
+        "empty_count": 0,
+        "max_length": 1,
+        "avg_length": 1
+      },
+      "example": [
+        "已上线"
+      ]
+    },
+    "章内序号": {
+      "field_id": "fldIncWKWs",
+      "field_type": "number",
+      "physical_type": "number|null",
+      "stats": {
+        "null_count": 12
+      },
+      "hint": "All values are empty; type inference may be ambiguous. Avoid analyzing this column unless required."
+    },
+    "英文": {
+      "field_id": "fld30VFKCt",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 15
+      },
+      "example": "Zen"
+    },
+    "词": {
+      "field_id": "fld2Atu7vX",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 3
+      },
+      "example": "禅意"
+    },
+    "词条页": {
+      "field_id": "fldrGAmbHF",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 12,
+        "max_length": 0
+      },
+      "hint": "All values are empty; type inference may be ambiguous. Avoid analyzing this column unless required."
+    },
+    "适合的角色": {
+      "field_id": "fld5SW984T",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 12,
+        "max_length": 0
+      },
+      "hint": "All values are empty; type inference may be ambiguous. Avoid analyzing this column unless required."
+    },
+    "配色": {
+      "field_id": "fld77Ne9i3",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 112
+      },
+      "example": "待取色（从《星际拓荒》原作取两组）"
+    },
+    "配色图": {
+      "field_id": "fld3XzgzcK",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 12,
+        "max_length": 0
+      },
+      "hint": "All values are empty; type inference may be ambiguous. Avoid analyzing this column unless required."
+    },
+    "钩子": {
+      "field_id": "fld4n6xZoj",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 87
+      },
+      "example": "一个能飞檐走壁的人，却可能逃不过自己许下的一句承诺。身体是轻的，命运却是重的。"
+    }
+  }
+}

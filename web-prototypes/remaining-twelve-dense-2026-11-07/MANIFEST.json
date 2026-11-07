@@ -1,0 +1,1137 @@
+[
+  {
+    "path": "candidates.json",
+    "sha": "75e63c2f1749069f4bc06c8a1bd67573526cce4f",
+    "size": 12256
+  },
+  {
+    "path": "ambiguity.html",
+    "sha": "440530d3e3feea4668bb5ea4e7151b08ecacd2a9",
+    "size": 21738
+  },
+  {
+    "path": "build.py",
+    "sha": "98dfe11f62d8d3acd83420cf25e1427bf1e87e90",
+    "size": 7386
+  },
+  {
+    "path": "zen-mobile.svg",
+    "sha": "8fad7189e89fe6465b5738b25328e46d4e30561c",
+    "size": 7548
+  },
+  {
+    "path": "wuxia.html",
+    "sha": "7f6b65fc1f9db7cf7045354da66733a8a87a01ec",
+    "size": 20633
+  },
+  {
+    "path": "wasteland-mobile.svg",
+    "sha": "3e04b68ce6b12e20b764922d3ecab9846659b56a",
+    "size": 7118
+  },
+  {
+    "path": "fragility.html",
+    "sha": "95339844ad81211465d52caede188a5c3703a167",
+    "size": 19819
+  },
+  {
+    "path": "cool-desktop.svg",
+    "sha": "89c674ed94b3833528a9007661968d258de957d8",
+    "size": 4264
+  },
+  {
+    "path": "fervor.html",
+    "sha": "8a6a630ce1c9dadfce7f3735cec5e5f93871a53d",
+    "size": 19898
+  },
+  {
+    "path": "wuxia-mobile-structure.svg",
+    "sha": "2aa57d1007bfc92d71188fd06819f866ccea0024",
+    "size": 5567
+  },
+  {
+    "path": "ambiguity-desktop-structure.svg",
+    "sha": "2fa19e1229b0fd2b6b23f5379fb62417e7986e3c",
+    "size": 5760
+  },
+  {
+    "path": "index.html",
+    "sha": "54246af2119a41ccaf6ac60cea38eab321b78f3b",
+    "size": 2625
+  },
+  {
+    "path": "wasteland-mobile-structure.svg",
+    "sha": "9b6c460a51f8da97e4731d129537e52f77c8b77b",
+    "size": 5900
+  },
+  {
+    "path": "wasteland-desktop.svg",
+    "sha": "e9a7411b65518d7795114e5eaf6e22f0146bf6dc",
+    "size": 7179
+  },
+  {
+    "path": "ambiguity-desktop.svg",
+    "sha": "d1af1cc5a5c405e0f93884f8d543fd6db562db06",
+    "size": 7084
+  },
+  {
+    "path": "inkwash-mobile-structure.svg",
+    "sha": "ff7d8ed91aa50b4bd7370fae35e8fe347b03d59a",
+    "size": 5549
+  },
+  {
+    "path": "styles.css",
+    "sha": "32d80d33c9f9743c2d81639ceecae664c00f7f2b",
+    "size": 1595
+  },
+  {
+    "path": "inkwash-mobile.svg",
+    "sha": "395e5951dbf8722c0cd7f25ebe63d8607478cb5e",
+    "size": 6581
+  },
+  {
+    "path": "endtimes-desktop-structure.svg",
+    "sha": "ebc45e895341fb3518ddcded49f5b054f0186cf7",
+    "size": 5787
+  },
+  {
+    "path": "zakka-desktop.svg",
+    "sha": "dc74a84e7f84a40222ebc65e4a248a0158607c1a",
+    "size": 5949
+  },
+  {
+    "path": "fragility-mobile.svg",
+    "sha": "419f8254e393f3f3b70cbe8b4bd4451afb59ba92",
+    "size": 6632
+  },
+  {
+    "path": "wuxia-desktop.svg",
+    "sha": "2ea236a459b50a7164ebdfed10716dcbe23215f7",
+    "size": 6894
+  },
+  {
+    "path": "cool-mobile-structure.svg",
+    "sha": "654a18b8c0ead34e7a16c3ead760f6b15585c9cf",
+    "size": 3784
+  },
+  {
+    "path": "EVIDENCE.md",
+    "sha": "d02bd95c9e4e18263ded9c2a8b3891357f6915aa",
+    "size": 2200
+  },
+  {
+    "path": "render.cjs",
+    "sha": "51c7ba0b924d8a4b49402f4014d23f9ea422ab44",
+    "size": 1841
+  },
+  {
+    "path": "zakka-mobile-structure.svg",
+    "sha": "93327abf46454b3052b9b749c80598122c4a5713",
+    "size": 5288
+  },
+  {
+    "path": "fervor-desktop.svg",
+    "sha": "0cc1a6e234f1acf66115587e23593f04bb0ec541",
+    "size": 6655
+  },
+  {
+    "path": "endtimes.html",
+    "sha": "2328ea3dd6c5a9f078be5f640d4edbec1861a85a",
+    "size": 20300
+  },
+  {
+    "path": "fervor-mobile-structure.svg",
+    "sha": "7eccb40cd7bef6894a129d446add35eae399d3ec",
+    "size": 5251
+  },
+  {
+    "path": "fervor-desktop-structure.svg",
+    "sha": "b3687a46c1ed1236c70842674e38521d396215e8",
+    "size": 5269
+  },
+  {
+    "path": "first-crush-desktop.svg",
+    "sha": "a1e5623d4b29dc06a37ddd2ad3b8f68152b3a416",
+    "size": 5797
+  },
+  {
+    "path": "image-index.json",
+    "sha": "762402baf6a03e8f0e3eba62351c2ac5a1fdc47b",
+    "size": 27093
+  },
+  {
+    "path": "wuxia-desktop-structure.svg",
+    "sha": "b38ba6bcd38f6c01a21a9554fc7a47abd13f3565",
+    "size": 5588
+  },
+  {
+    "path": "ambiguity-mobile-structure.svg",
+    "sha": "cbd503d491245fb9f43fdcca34b815134f998904",
+    "size": 5735
+  },
+  {
+    "path": "wasteland-desktop-structure.svg",
+    "sha": "ab3fc88fa99e2694671569b9ac98b25cc94218b3",
+    "size": 5928
+  },
+  {
+    "path": "first-crush-mobile.svg",
+    "sha": "e8e1ea2402ab06236db7d78f5865974714cf9985",
+    "size": 5779
+  },
+  {
+    "path": "viewer.js",
+    "sha": "72689e3a427aaf5b936fc9943a17d7fffcbe1dca",
+    "size": 951
+  },
+  {
+    "path": "cool-desktop-structure.svg",
+    "sha": "8f7a2445ae64a02fcd5b7c4c6a1887b56160ad46",
+    "size": 3799
+  },
+  {
+    "path": "fated.html",
+    "sha": "4798883b4f2c82d32445a0913c39625a6f9fa21f",
+    "size": 19126
+  },
+  {
+    "path": "checks.json",
+    "sha": "60f2c4c875f4cf621576fa2e87f19ac372cc0830",
+    "size": 7255
+  },
+  {
+    "path": "README.md",
+    "sha": "2e0f31f2b6409b1ed2e5320de9e1d3a931ef7028",
+    "size": 5095
+  },
+  {
+    "path": "zakka.html",
+    "sha": "66ac7a7e76034a603b8134539d781396fa8f9655",
+    "size": 18479
+  },
+  {
+    "path": "first-crush-mobile-structure.svg",
+    "sha": "8da1558e0a5bdb243bdf80efe52b5de6d86fac74",
+    "size": 5027
+  },
+  {
+    "path": "fragility-mobile-structure.svg",
+    "sha": "7524228dcf214f6a45c35f4659585368ef4f15bc",
+    "size": 5008
+  },
+  {
+    "path": "check.cjs",
+    "sha": "96e49eab8228705b5d1b4d6d46abc88f33a9ebbc",
+    "size": 3103
+  },
+  {
+    "path": "masks.json",
+    "sha": "aa08bb298e4f9fa87126ad884e4cde54578f662b",
+    "size": 858
+  },
+  {
+    "path": "inkwash-desktop-structure.svg",
+    "sha": "1fd09f9b6062ba353d88c1dcb46879e975647c94",
+    "size": 5568
+  },
+  {
+    "path": "inkwash-desktop.svg",
+    "sha": "1bc358d3d79f9974a08eb73423b171ecefb3f02a",
+    "size": 6666
+  },
+  {
+    "path": "fragility-desktop-structure.svg",
+    "sha": "0516d0eb15ba714a60704178f1ce648033a7435c",
+    "size": 5025
+  },
+  {
+    "path": "zakka-desktop-structure.svg",
+    "sha": "8b30a3420dbba71dc3a9ca9b124a5c9c5733bd92",
+    "size": 5303
+  },
+  {
+    "path": "inkwash.html",
+    "sha": "d5ee17bab8098deedfe6bca2aacc219a0551aad8",
+    "size": 20015
+  },
+  {
+    "path": "zen-desktop.svg",
+    "sha": "8ac4037e809a55d8c2c5e12ef1631b478da071f6",
+    "size": 7576
+  },
+  {
+    "path": "fragility-desktop.svg",
+    "sha": "3d7ca8f4a3c5d153b3fa3b6fd8cf0ac58859fd32",
+    "size": 6658
+  },
+  {
+    "path": "endtimes-mobile.svg",
+    "sha": "f1bd406a5519e437f77c200c063af2e659302332",
+    "size": 6494
+  },
+  {
+    "path": "first-crush.html",
+    "sha": "6523a495b67f920f2e36d7c310b149ee4a2c8b04",
+    "size": 17527
+  },
+  {
+    "path": "endtimes-desktop.svg",
+    "sha": "2251e120066ce610ad7ce5780ce918b8394826d0",
+    "size": 6572
+  },
+  {
+    "path": "zen-mobile-structure.svg",
+    "sha": "2ab2d986b8c5be7f834a651fcdecbf230813bf50",
+    "size": 6366
+  },
+  {
+    "path": "fated-mobile.svg",
+    "sha": "8be75767eacee47fe1011f3a37153b1b09e54e17",
+    "size": 6100
+  },
+  {
+    "path": "ambiguity-mobile.svg",
+    "sha": "1f18c2c9444dc61528ef0c3c99b66d1842e72bd5",
+    "size": 7059
+  },
+  {
+    "path": "wasteland.html",
+    "sha": "f9601b43801ba3b8e7bf99f76a5196395dc6d730",
+    "size": 20990
+  },
+  {
+    "path": "fated-mobile-structure.svg",
+    "sha": "36efc12e9d54dd4db31a892ab26201abe1c43e6f",
+    "size": 5215
+  },
+  {
+    "path": "fated-desktop-structure.svg",
+    "sha": "a910900b187b2c9c4cf1583064a6a53d3f644526",
+    "size": 5233
+  },
+  {
+    "path": "endtimes-mobile-structure.svg",
+    "sha": "129197379e36b5cb333859e0e06e1ff3d1d1e5b7",
+    "size": 5768
+  },
+  {
+    "path": "overview.cjs",
+    "sha": "60decea6a9223764afbba0895c0af2af9b33e72d",
+    "size": 1269
+  },
+  {
+    "path": "fervor-mobile.svg",
+    "sha": "a8942ae15dba086e935e34f601c369f4edbcaa67",
+    "size": 6607
+  },
+  {
+    "path": "zen-desktop-structure.svg",
+    "sha": "441bbc0ca29af7cb3ba81a464807a978247a16fa",
+    "size": 6392
+  },
+  {
+    "path": "layouts.py",
+    "sha": "f5a06561d30f630696a7fdde7134959e87be914c",
+    "size": 11782
+  },
+  {
+    "path": "wuxia-mobile.svg",
+    "sha": "350508734a42b22ccd2ac6b2374c440900280d29",
+    "size": 6840
+  },
+  {
+    "path": "first-crush-desktop-structure.svg",
+    "sha": "e5f0824a2df99e07d744eff2de976971ebefe693",
+    "size": 5051
+  },
+  {
+    "path": "fated-desktop.svg",
+    "sha": "a431c9d65d66a95ab51c53f5efe097e91ebb16c5",
+    "size": 6122
+  },
+  {
+    "path": "cool.html",
+    "sha": "7d208af9436d918e44bbdfb5314b9191c492fca0",
+    "size": 13095
+  },
+  {
+    "path": "cool-mobile.svg",
+    "sha": "41fec41136e6dfcbf4c2c9b2785572545fbb8ff2",
+    "size": 4221
+  },
+  {
+    "path": "zen.html",
+    "sha": "318b7bc6e85762f3400d9300badc1621067fde42",
+    "size": 23251
+  },
+  {
+    "path": "zakka-mobile.svg",
+    "sha": "ec2a7ec24eed1c3a024fef7d92d58af310add512",
+    "size": 5917
+  },
+  {
+    "path": "licenses/Cormorant-OFL.txt",
+    "sha": "69aa063b53f4e3dfdd8ba65ad561463d7719dfcd",
+    "size": 4388
+  },
+  {
+    "path": "licenses/Zhuque-OFL.txt",
+    "sha": "5767769a70528d89007dcd948fff8b547b510d9c",
+    "size": 4390
+  },
+  {
+    "path": "audit/source-integrity.json",
+    "sha": "89ff22b448e9efe24c968b65165204198c223162",
+    "size": 21175
+  },
+  {
+    "path": "audit/cases.manifest.json",
+    "sha": "5833d4cd0e3bf2c748f80954fbcc3df5936056ec",
+    "size": 7851
+  },
+  {
+    "path": "audit/terms.ndjson",
+    "sha": "4318e32503e9241351a9ec779dd6adae288413d1",
+    "size": 31834
+  },
+  {
+    "path": "audit/cases.ndjson",
+    "sha": "f9b32ae2aab13433e120965ae56f87b164af3f6c",
+    "size": 94874
+  },
+  {
+    "path": "audit/terms.manifest.json",
+    "sha": "444a3ac0fedb0d49e2e68f976d2891491cea4baf",
+    "size": 8151
+  },
+  {
+    "path": "audit/image-dimensions.json",
+    "sha": "92303ab4b33167ddb1aa1b012ed1287a36e34237",
+    "size": 8151
+  },
+  {
+    "path": "previews/first-crush-mobile.jpg",
+    "sha": "7fd4f6de05fd952fbbb4724fc922fa8abcd94dcb",
+    "size": 89364
+  },
+  {
+    "path": "previews/first-crush-desktop.jpg",
+    "sha": "76762bc258515683a9be62be895f88b4ad9ae9bf",
+    "size": 236510
+  },
+  {
+    "path": "previews/fervor-desktop.jpg",
+    "sha": "0d0b1f59f77ad2c294bf84459ea1caa78b3d09b2",
+    "size": 360807
+  },
+  {
+    "path": "previews/wuxia-desktop.jpg",
+    "sha": "695014be9363a52226e9890d07cdef07ce26120b",
+    "size": 275262
+  },
+  {
+    "path": "previews/fragility-mobile.jpg",
+    "sha": "dea099c78a9bd17a07bd8a18e79fe2da54c2bcd7",
+    "size": 105921
+  },
+  {
+    "path": "previews/zakka-desktop.jpg",
+    "sha": "bc520ad47e27e8784ba02d6d868f381a232c0e7d",
+    "size": 314625
+  },
+  {
+    "path": "previews/inkwash-mobile.jpg",
+    "sha": "97b8134a6360dea03f5a9ea893b68186c730fa29",
+    "size": 93139
+  },
+  {
+    "path": "previews/ambiguity-desktop.jpg",
+    "sha": "49499b7faf32c338331312a821b92554dc27a255",
+    "size": 220472
+  },
+  {
+    "path": "previews/wasteland-desktop.jpg",
+    "sha": "d226ff5ad7208074728cc54712b4aedf04015738",
+    "size": 266164
+  },
+  {
+    "path": "previews/cool-desktop.jpg",
+    "sha": "db5e7d314a2cee317d50ec54bb05bdaf990ec7e1",
+    "size": 148252
+  },
+  {
+    "path": "previews/wasteland-mobile.jpg",
+    "sha": "e530d884f9babdd6c3bc52870894f15b9353f747",
+    "size": 105997
+  },
+  {
+    "path": "previews/zen-mobile.jpg",
+    "sha": "96b10f266b6b26c3bf74db8b8d3e83aafddfdd34",
+    "size": 132014
+  },
+  {
+    "path": "previews/zakka-mobile.jpg",
+    "sha": "d45e5da34c93ce6b82c6e84c66dd6bd4560e4343",
+    "size": 122820
+  },
+  {
+    "path": "previews/cool-mobile.jpg",
+    "sha": "f8cf2e0532d6a754d83b17fe98079b3e005964d9",
+    "size": 61030
+  },
+  {
+    "path": "previews/fated-desktop.jpg",
+    "sha": "c424b334e1ba6df103655f87b849982935d50e51",
+    "size": 317224
+  },
+  {
+    "path": "previews/wuxia-mobile.jpg",
+    "sha": "76a920f1bda9dfea385a3dfd5e2f580609452c58",
+    "size": 104925
+  },
+  {
+    "path": "previews/fervor-mobile.jpg",
+    "sha": "14fcca1b8951f67befc58287d807e4cefa0d510f",
+    "size": 135321
+  },
+  {
+    "path": "previews/ambiguity-mobile.jpg",
+    "sha": "97eef7b3df93ee999a72e9a605f50593ed684754",
+    "size": 94849
+  },
+  {
+    "path": "previews/fated-mobile.jpg",
+    "sha": "49882e8c66cd7a90ad601f14f9dd31e989fc4319",
+    "size": 117579
+  },
+  {
+    "path": "previews/endtimes-desktop.jpg",
+    "sha": "c468c9135f26e8b93046c0e794ce22481c478e7b",
+    "size": 395260
+  },
+  {
+    "path": "previews/endtimes-mobile.jpg",
+    "sha": "0a375bcfd3d274b3c25987c52f9d127d6eb6ef7e",
+    "size": 138025
+  },
+  {
+    "path": "previews/fragility-desktop.jpg",
+    "sha": "86bfeb0f314747c84ccf245883d4df5e976085b7",
+    "size": 270032
+  },
+  {
+    "path": "previews/zen-desktop.jpg",
+    "sha": "efb97fc912af9d1438620deb21fb7ba8c18bc0c6",
+    "size": 388350
+  },
+  {
+    "path": "previews/inkwash-desktop.jpg",
+    "sha": "1df979b7154806ee761e805daeea9f02d835ba10",
+    "size": 250371
+  },
+  {
+    "path": "data/fated-content.json",
+    "sha": "261c2d9470e21ce9b2fed7e76c30bb0a242bba61",
+    "size": 24002
+  },
+  {
+    "path": "data/wuxia-content.json",
+    "sha": "31a9fcdb71373516f3f657422e8306bc991c5051",
+    "size": 9731
+  },
+  {
+    "path": "data/endtimes-content.json",
+    "sha": "f80b09beb373624a153b6b205b6cb57f4efbf8d8",
+    "size": 10690
+  },
+  {
+    "path": "data/zen-content.json",
+    "sha": "f16abf2879ecd7b6fb9d1095fdb652781f9da084",
+    "size": 18730
+  },
+  {
+    "path": "data/fated-layout.json",
+    "sha": "b622c210f24686907a3e7b342a5b2c4ae518748d",
+    "size": 6632
+  },
+  {
+    "path": "data/endtimes-layout.json",
+    "sha": "8553fc6ba12fd18ee99c3eb0d3639df4741165dc",
+    "size": 7069
+  },
+  {
+    "path": "data/fragility-content.json",
+    "sha": "7b52e0074469698390135fdf9ba2466478c4cefb",
+    "size": 11301
+  },
+  {
+    "path": "data/zen-layout.json",
+    "sha": "2a096b5348fd25f49bea3387b0967a8f34b13433",
+    "size": 8151
+  },
+  {
+    "path": "data/fragility-layout.json",
+    "sha": "8a45017efa21668c70847812389296d387d8cd93",
+    "size": 5994
+  },
+  {
+    "path": "data/inkwash-layout.json",
+    "sha": "6d463c2fd798149d58fdc6f65670d95884b3323f",
+    "size": 6770
+  },
+  {
+    "path": "data/wasteland-content.json",
+    "sha": "75b20ae2bb73c2aa8fc4e11af1eb974689378702",
+    "size": 8826
+  },
+  {
+    "path": "data/cool-content.json",
+    "sha": "75147ccb0b38630a3f24b1b155cce27c0c411d1b",
+    "size": 6435
+  },
+  {
+    "path": "data/fervor-content.json",
+    "sha": "2509032cce9042028367cae9dda264c4c1067b42",
+    "size": 10399
+  },
+  {
+    "path": "data/first-crush-layout.json",
+    "sha": "3882305edfedcaea64a0e2371aa19900209de068",
+    "size": 6189
+  },
+  {
+    "path": "data/fervor-layout.json",
+    "sha": "2f1604b9463548819890a5b44886b5dcf4d6ff96",
+    "size": 6629
+  },
+  {
+    "path": "data/zakka-layout.json",
+    "sha": "94c3f7d236403dd306890715f7253c0c06a5732e",
+    "size": 6459
+  },
+  {
+    "path": "data/wuxia-layout.json",
+    "sha": "859ce54265e8e3d9041058e93594e5093f416f96",
+    "size": 6964
+  },
+  {
+    "path": "data/ambiguity-layout.json",
+    "sha": "fea24f30bf7d90eb5fca23dc34b52b1afd6931ef",
+    "size": 7461
+  },
+  {
+    "path": "data/wasteland-layout.json",
+    "sha": "a346568afed3cc69f4a92aeee922ef2df02946ac",
+    "size": 7112
+  },
+  {
+    "path": "data/ambiguity-content.json",
+    "sha": "e1deffd968227d4d7d0459a6dd9e368b71b42505",
+    "size": 15889
+  },
+  {
+    "path": "data/first-crush-content.json",
+    "sha": "b7f89d3a21df8612a20dde806c413724cb3bebe6",
+    "size": 7067
+  },
+  {
+    "path": "data/zakka-content.json",
+    "sha": "a722d5a555d95b324570c0f69017a898b6255fdb",
+    "size": 9704
+  },
+  {
+    "path": "data/cool-layout.json",
+    "sha": "b0f5a6ff0087aee59ab31efc492842502aca4184",
+    "size": 4518
+  },
+  {
+    "path": "data/inkwash-content.json",
+    "sha": "f213ca2d6a0a3f1053d07d51f82d0731aeef2e0d",
+    "size": 13291
+  },
+  {
+    "path": "assets/wasteland/es_warmachines.jpg",
+    "sha": "4e79354f93ac61b4f23cc61f045768f1120ce50d",
+    "size": 1970363
+  },
+  {
+    "path": "assets/wasteland/es_billboards.jpg",
+    "sha": "3fb076a8c8bae63997728eb929d50dec75ae9105",
+    "size": 1826785
+  },
+  {
+    "path": "assets/wasteland/gas_shell.jpg",
+    "sha": "e4610477e90eb147830fa3fb2da4d855b64fda6d",
+    "size": 703852
+  },
+  {
+    "path": "assets/wasteland/es_on_ramp.jpg",
+    "sha": "868d69946f81208739aaa3f58672cadd9cdec726",
+    "size": 1262368
+  },
+  {
+    "path": "assets/wasteland/gas_bp.jpg",
+    "sha": "5a34d8cf5823e94b93c9f8751f6bbc9c19929e13",
+    "size": 597942
+  },
+  {
+    "path": "assets/wasteland/stray_3.jpg",
+    "sha": "668be49608ce5d6ced81627315fc3b6e90532f49",
+    "size": 1119763
+  },
+  {
+    "path": "assets/wasteland/stray_2.jpg",
+    "sha": "cde9bf9ecf8f6737d5ec073864d12d31daba2dd1",
+    "size": 1177712
+  },
+  {
+    "path": "assets/wasteland/gas_chevron.jpg",
+    "sha": "29677ed4a930b5d322da04bdfd4cdd5511609af4",
+    "size": 684640
+  },
+  {
+    "path": "assets/wasteland/stray_1.jpg",
+    "sha": "75c5763ca7d55a7a9a44d39693050550d010430d",
+    "size": 438210
+  },
+  {
+    "path": "assets/fragility/hour_star.jpg",
+    "sha": "c54c3b8fc196f0e7a44ca1daa90aa17fac9fb432",
+    "size": 20360
+  },
+  {
+    "path": "assets/fragility/girl_halfformed.jpg",
+    "sha": "cd18d250dba575533a5fa6fa21bbf9f45ee08564",
+    "size": 46796
+  },
+  {
+    "path": "assets/fragility/house3.jpg",
+    "sha": "234e8bb8885f4b9c10e16c36a33740506f179b71",
+    "size": 112815
+  },
+  {
+    "path": "assets/fragility/glass_menagerie.jpg",
+    "sha": "085a859b046eb3f3af39c56a14c8c125cdb0d220",
+    "size": 46454
+  },
+  {
+    "path": "assets/fragility/calle_louisiana.jpg",
+    "sha": "6e43845c906bcc34e367fd276dfc9f5ca5d74ee9",
+    "size": 311320
+  },
+  {
+    "path": "assets/fervor/pulse_washington_hires.jpg",
+    "sha": "11a4502c4cdaccb8caddcea78eda0c453b135ca2",
+    "size": 587973
+  },
+  {
+    "path": "assets/fervor/酒神与阿里阿德涅_提香_公有领域.jpg",
+    "sha": "701bcb4ca2e9bda3350bc8e4d38dde2eedb6e619",
+    "size": 429143
+  },
+  {
+    "path": "assets/fervor/pulse_room_kanazawa_2025_ko_003.jpg",
+    "sha": "b0f1bb5cc5ea4e2ff5e1d2c2c1a49f99d8e74989",
+    "size": 36082
+  },
+  {
+    "path": "assets/fervor/pulse_kanazawa_hires.jpg",
+    "sha": "df13b3b18d0c23d7a5f005f88288b6357c63c078",
+    "size": 774533
+  },
+  {
+    "path": "assets/fervor/flower_colossal_03.jpg",
+    "sha": "6ee320adc2c51993e27b849ad142178f614c735e",
+    "size": 615691
+  },
+  {
+    "path": "assets/fervor/flower_colossal_01.jpg",
+    "sha": "3acbd326c082716481562e5e7a13b41c62da7ab4",
+    "size": 610675
+  },
+  {
+    "path": "assets/fervor/pulse_mexico_hires.jpg",
+    "sha": "8da49f9c3f59bdf1955b3e414fe90083c7f227f2",
+    "size": 629143
+  },
+  {
+    "path": "assets/fervor/flower_colossal_05.jpg",
+    "sha": "f07ed2386d07d999698c9eb2560c480f7b3688cd",
+    "size": 604522
+  },
+  {
+    "path": "assets/ambiguity/veiling_fwm_2.jpg",
+    "sha": "93be7424ce6540ccec2958b4dc8eb1ebe3ff6045",
+    "size": 139170
+  },
+  {
+    "path": "assets/ambiguity/veiling_fwm_1.jpg",
+    "sha": "521ba0ffdf9e78cf32754fac987778e2c0ac0436",
+    "size": 610336
+  },
+  {
+    "path": "assets/ambiguity/窗前读信的少女_维米尔_公有领域.jpg",
+    "sha": "93989f15d1646890753abf31e72b7b61407a60e5",
+    "size": 705450
+  },
+  {
+    "path": "assets/ambiguity/michals_reina_full.jpg",
+    "sha": "101915782388826b4b5a9a59621b29f00f4458eb",
+    "size": 271251
+  },
+  {
+    "path": "assets/ambiguity/lovers_artnews_1.jpg",
+    "sha": "20051c6ffde8aa488b74dead32accacafc2b4f49",
+    "size": 173367
+  },
+  {
+    "path": "assets/ambiguity/lovers_artnews_2.jpg",
+    "sha": "3544c1091fe3905ce4873fedede22e69577c8680",
+    "size": 87838
+  },
+  {
+    "path": "assets/ambiguity/michals_getty_1.jpg",
+    "sha": "c16ea2362b26eccdf894d9ba6709e31af13e67d3",
+    "size": 259967
+  },
+  {
+    "path": "assets/ambiguity/lovers_icc_1.jpg",
+    "sha": "a73ab0e2c622dc3e01732570dafce2730a1e97be",
+    "size": 53299
+  },
+  {
+    "path": "assets/ambiguity/veiling_gugg_1.jpg",
+    "sha": "9984c855a6ee2057a933e2619f26f2c377dc2266",
+    "size": 773167
+  },
+  {
+    "path": "assets/zen/motoi_lab_charleston.jpg",
+    "sha": "7a79a112fc9d42f0032a58286cc5be9806752f54",
+    "size": 1042564
+  },
+  {
+    "path": "assets/zen/matrix_art100.jpg",
+    "sha": "87488faebb2e3360d3dd515829b1b11fe62e6244",
+    "size": 748865
+  },
+  {
+    "path": "assets/zen/motoi_sea_08.jpg",
+    "sha": "2e010970fd6c93794bb9d9157ddae6fb09d8c8b3",
+    "size": 3016945
+  },
+  {
+    "path": "assets/zen/motoi_lab_roppongi.jpg",
+    "sha": "e57cb979f3cf6cebee6005886d4ce55b6e968289",
+    "size": 1330105
+  },
+  {
+    "path": "assets/zen/motoi_project_06.jpg",
+    "sha": "3fc6f1d263832c78acf37e522be53133909a5536",
+    "size": 2757444
+  },
+  {
+    "path": "assets/zen/iced_09.jpg",
+    "sha": "5601328e6623bc479f5f694467b85b2ff095c644",
+    "size": 3395487
+  },
+  {
+    "path": "assets/zen/龙安寺石庭_摄影DXR_CCBYSA4.0.jpg",
+    "sha": "2340a95b6515361a6524e8c9d1580f19cafbf879",
+    "size": 4760120
+  },
+  {
+    "path": "assets/zen/iced_01.jpg",
+    "sha": "a69004b1450217d609251c3ba7918e6cc24fd7d2",
+    "size": 2543225
+  },
+  {
+    "path": "assets/zen/matrix_pd_1.jpg",
+    "sha": "f2656ed6a49b69ae1e9aa187355cc52f2796fa21",
+    "size": 308100
+  },
+  {
+    "path": "assets/zen/松林图屏风_左隻_长谷川等伯_公有领域.jpg",
+    "sha": "c0a8686d50b3cc5b5717999e550014c20dc5d044",
+    "size": 139173
+  },
+  {
+    "path": "assets/zen/matrix_pd_3.jpg",
+    "sha": "77e7105c28061a34466a47a439b57046bd1965c0",
+    "size": 871210
+  },
+  {
+    "path": "assets/zen/motoi_sea_03.jpg",
+    "sha": "8d4f14b380f514e96497e65fa1b5556e31daf170",
+    "size": 2710923
+  },
+  {
+    "path": "assets/fated/人生的航程_青年_科尔_公有领域.jpg",
+    "sha": "624dd17ef8956ffbce082c5dbe5854a47d2810e1",
+    "size": 346409
+  },
+  {
+    "path": "assets/fated/lajetee_cinematheque.jpg",
+    "sha": "4ac0ab156db4139e3111b4332c1e065a68abfe59",
+    "size": 383074
+  },
+  {
+    "path": "assets/fated/melancholia_magnolia_1.jpg",
+    "sha": "b536cca1ca4cb6d6993771f2b8f6c32082799f02",
+    "size": 2546018
+  },
+  {
+    "path": "assets/fated/伊利亚特威尼斯A抄本细密画_CC0.jpg",
+    "sha": "d56ab678ef45a3589e6dddf76de125fffb21f03e",
+    "size": 265576
+  },
+  {
+    "path": "assets/fated/第五交响曲手稿_贝多芬_CCBYSA4.0.jpg",
+    "sha": "f6b3d1eb4b4880557a674ad3505a6b4d0ad0231a",
+    "size": 144590
+  },
+  {
+    "path": "assets/cool/snow_tp.jpg",
+    "sha": "0178f2195dcef5fb4f2accb5749f1c7e6f6fab54",
+    "size": 362143
+  },
+  {
+    "path": "assets/cool/kenna_raw.jpg",
+    "sha": "783439f042bc01e54e6f60c3b2bd7d66b80476dd",
+    "size": 3251342
+  },
+  {
+    "path": "assets/cool/snow_1.jpg",
+    "sha": "94e7a101c8243a7023e642b34a4e0f6100e92ce9",
+    "size": 138918
+  },
+  {
+    "path": "assets/cool/snow_2.jpg",
+    "sha": "ce14891527738fd7fa004a856889b8c275b40614",
+    "size": 124997
+  },
+  {
+    "path": "assets/wuxia/damowang_4.jpg",
+    "sha": "11a2917ca3be93b5b95fbbe92d44ef3dd9bfcd50",
+    "size": 98198
+  },
+  {
+    "path": "assets/wuxia/damowang_3.jpg",
+    "sha": "0f1c6010e2882b69f15767e670379883b38ca1af",
+    "size": 218131
+  },
+  {
+    "path": "assets/wuxia/yejiang_gug.jpg",
+    "sha": "16c5a4b813b46a6e217b2efdfeeddf217a3081d3",
+    "size": 332973
+  },
+  {
+    "path": "assets/wuxia/retainers_sydney.jpg",
+    "sha": "204c2b3e009d9897b4018a2596c0c5606f3cd46a",
+    "size": 164933
+  },
+  {
+    "path": "assets/wuxia/assassin_lb.jpg",
+    "sha": "fd5fd6f69375e8f76a02f840870512b660b0a8f9",
+    "size": 161809
+  },
+  {
+    "path": "assets/wuxia/assassin_flixster.jpg",
+    "sha": "7e5307d4f447bd6cdfc14b4f69a24ee5f2253142",
+    "size": 300761
+  },
+  {
+    "path": "assets/wuxia/retainers_1_rgb.jpg",
+    "sha": "d81864b26de7cce5ef4d3397ece8c37287c8f805",
+    "size": 669027
+  },
+  {
+    "path": "assets/wuxia/retainers_2_rgb.jpg",
+    "sha": "8b849d4c4d7b387154e4e2f4ece54404be730fe5",
+    "size": 482198
+  },
+  {
+    "path": "assets/endtimes/tapestry_panel.jpg",
+    "sha": "824d850cbb24cd4cd86565a5ebc3eafabe98e915",
+    "size": 2182246
+  },
+  {
+    "path": "assets/endtimes/city_circulation.jpg",
+    "sha": "f2e27b49aaf3c02fcbc1e12a07eeecbad714e4b9",
+    "size": 499398
+  },
+  {
+    "path": "assets/endtimes/tapestry_hall_sm.jpg",
+    "sha": "3b8f52bc32e3487b7568c227219869642e982373",
+    "size": 976528
+  },
+  {
+    "path": "assets/endtimes/lastriot_b6dp2a8.jpg",
+    "sha": "3beb5cc226744424948ac7f43d5d563bb5557611",
+    "size": 483114
+  },
+  {
+    "path": "assets/endtimes/lastriot_h2dywgk.jpg",
+    "sha": "4153598494a5230bbf8c6e1b3c429dbf35ef9fa7",
+    "size": 1252976
+  },
+  {
+    "path": "assets/endtimes/city_library.jpg",
+    "sha": "98c78a4408abdf3c1cf76d55600480e50fdb2020",
+    "size": 548032
+  },
+  {
+    "path": "assets/endtimes/tapestry_angers.jpg",
+    "sha": "1fead402a2959920d08a70fb799212decb38fcc3",
+    "size": 2019147
+  },
+  {
+    "path": "assets/endtimes/lastriot_7cgrglf.jpg",
+    "sha": "1ed0c6412d71cbda2ac97cfdf74bc42fc56b48bb",
+    "size": 1040815
+  },
+  {
+    "path": "assets/endtimes/bhadra_destroyer.jpg",
+    "sha": "abfba89c5f37549c89704aad4d43e00ebb343324",
+    "size": 289246
+  },
+  {
+    "path": "assets/endtimes/city_subway.jpg",
+    "sha": "b08f56e58389703e4a9ad833e8362675b695005e",
+    "size": 381610
+  },
+  {
+    "path": "assets/first-crush/kidsinlove_closer.jpg",
+    "sha": "e397165be2f299bd496e3678ade6311065897a8f",
+    "size": 801283
+  },
+  {
+    "path": "assets/first-crush/teenage_271.jpg",
+    "sha": "bb510aac274ba30cc47ecbd20d68973a6f2275e2",
+    "size": 58657
+  },
+  {
+    "path": "assets/first-crush/kidsinlove_july.jpg",
+    "sha": "6d269110ed6dba8cdbb17239d3480ea460b2657e",
+    "size": 363822
+  },
+  {
+    "path": "assets/first-crush/kidsinlove_aperture.jpg",
+    "sha": "74d4864e01490542e00d2e35c00fee3b249d43d8",
+    "size": 521007
+  },
+  {
+    "path": "assets/first-crush/prekiss_wmag.jpg",
+    "sha": "bc9438535c9deea2e3f3c87e64dac1c79a58ec54",
+    "size": 145870
+  },
+  {
+    "path": "assets/first-crush/teenage_7.jpg",
+    "sha": "45db7f61d84c6d277c064411b6547069bfdeb545",
+    "size": 39749
+  },
+  {
+    "path": "assets/first-crush/teenage_4.jpg",
+    "sha": "9fdba396845266ea1b0302f643c6e524a4683361",
+    "size": 61392
+  },
+  {
+    "path": "assets/first-crush/teenage_2.jpg",
+    "sha": "36d9e6aabb9e2c9b5444354d9b8d5a8886b08c48",
+    "size": 50616
+  },
+  {
+    "path": "assets/zakka/popeye782.jpg",
+    "sha": "6959906bf4c80bfd3a3a38e4857b01409d1c7010",
+    "size": 120593
+  },
+  {
+    "path": "assets/zakka/neutral4_cover.jpg",
+    "sha": "ae861160d85c175ab5190186bdc4c1f8846658fb",
+    "size": 339531
+  },
+  {
+    "path": "assets/zakka/neutral4_spread.jpg",
+    "sha": "172cd42463fccff90c5eaa0de8a4d21fdf10330b",
+    "size": 266100
+  },
+  {
+    "path": "assets/zakka/premium123.jpg",
+    "sha": "1bd0845375d1645363f7df804b3367201aed7029",
+    "size": 157963
+  },
+  {
+    "path": "assets/zakka/ginza324.jpg",
+    "sha": "a48d78c9946d918e242a9676947adf2b4f2cf882",
+    "size": 1037069
+  },
+  {
+    "path": "assets/fonts/2ce479b703b54faa.woff2",
+    "sha": "6f20f77ab4ed327cd24b5c859fb155cde96fe7b3",
+    "size": 76324
+  },
+  {
+    "path": "assets/fonts/0ad1510514849c1e.woff2",
+    "sha": "0b295224b6420b5def7238fcaf5c96dbb2995755",
+    "size": 35732
+  },
+  {
+    "path": "assets/fonts/758883b3b8e23791.woff2",
+    "sha": "3dc5d79e21c979065126bd4a70da55f1f86b9437",
+    "size": 27112
+  },
+  {
+    "path": "assets/inkwash/xubing_chazen_1.jpg",
+    "sha": "c925b348764980495ee09bccdb0322fb43b513e7",
+    "size": 190860
+  },
+  {
+    "path": "assets/inkwash/qiu_fosun_632ad00a70935911711522.jpg",
+    "sha": "e06b64f3fbbc3433d68d73d157c8dacb5475b73c",
+    "size": 373348
+  },
+  {
+    "path": "assets/inkwash/qiu_fosun_632ad00a6f7b5641731039.jpg",
+    "sha": "1aea1840856ee6180e737d1aca6b06d4bf5a6a61",
+    "size": 345838
+  },
+  {
+    "path": "assets/inkwash/qiu_exhib_782.jpg",
+    "sha": "9b1b223149d7a956c9a30cf8b9581ae89cb49a2a",
+    "size": 38414
+  },
+  {
+    "path": "assets/inkwash/qiu_fosun_632ad00a70272736467085.jpg",
+    "sha": "29b880c99f7ea7bafb7bcb143c5972f848c6e7f7",
+    "size": 410430
+  },
+  {
+    "path": "assets/inkwash/xubing_cornell_1.jpg",
+    "sha": "30a0ad876e76d6a38800cbe3985967066da6699e",
+    "size": 1175006
+  },
+  {
+    "path": "assets/inkwash/xubing_cornell_2.jpg",
+    "sha": "95ab1709459868d035c4f33100dd1583fee0ac89",
+    "size": 365440
+  },
+  {
+    "path": "assets/inkwash/yang_phantom_1.jpg",
+    "sha": "117b663c91329dc6ad2307d69dbb9e8f5a873ec8",
+    "size": 210786
+  },
+  {
+    "path": "assets/inkwash/yang_phantom_3.jpg",
+    "sha": "32a0665708dc0ba0ca68c9000be19bc509b2055f",
+    "size": 245086
+  },
+  {
+    "path": "assets/inkwash/yang_phantom_2.jpg",
+    "sha": "ca108a089454f94dd5765c212bc097c42761ab3c",
+    "size": 319402
+  },
+  {
+    "path": "audit/rebuild.json",
+    "sha": "c624c5835ce8f38d4313d9319ce408e52f2b3abd",
+    "size": 2661
+  }
+]
