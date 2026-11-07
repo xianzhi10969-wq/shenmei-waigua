@@ -1,0 +1,230 @@
+[
+  {
+    "slug": "translucent",
+    "mode": "desktop",
+    "source": "#source-01",
+    "click": true
+  },
+  {
+    "slug": "translucent",
+    "mode": "desktop",
+    "source": "#source-02",
+    "click": true
+  },
+  {
+    "slug": "translucent",
+    "mode": "desktop",
+    "source": "#source-03",
+    "click": true
+  },
+  {
+    "slug": "translucent",
+    "mode": "desktop",
+    "source": "#source-04",
+    "click": true
+  },
+  {
+    "slug": "translucent",
+    "mode": "desktop",
+    "source": "#source-05",
+    "click": true
+  },
+  {
+    "slug": "translucent",
+    "mode": "desktop",
+    "source": "#source-06",
+    "click": true
+  },
+  {
+    "slug": "translucent",
+    "mode": "desktop",
+    "source": "#source-07",
+    "click": true
+  },
+  {
+    "slug": "translucent",
+    "mode": "mobile",
+    "source": "#source-01",
+    "click": true
+  },
+  {
+    "slug": "translucent",
+    "mode": "mobile",
+    "source": "#source-02",
+    "click": true
+  },
+  {
+    "slug": "translucent",
+    "mode": "mobile",
+    "source": "#source-03",
+    "click": true
+  },
+  {
+    "slug": "translucent",
+    "mode": "mobile",
+    "source": "#source-04",
+    "click": true
+  },
+  {
+    "slug": "translucent",
+    "mode": "mobile",
+    "source": "#source-05",
+    "click": true
+  },
+  {
+    "slug": "translucent",
+    "mode": "mobile",
+    "source": "#source-06",
+    "click": true
+  },
+  {
+    "slug": "translucent",
+    "mode": "mobile",
+    "source": "#source-07",
+    "click": true
+  },
+  {
+    "slug": "hustle",
+    "mode": "desktop",
+    "source": "#source-01",
+    "click": true
+  },
+  {
+    "slug": "hustle",
+    "mode": "desktop",
+    "source": "#source-02",
+    "click": true
+  },
+  {
+    "slug": "hustle",
+    "mode": "desktop",
+    "source": "#source-03",
+    "click": true
+  },
+  {
+    "slug": "hustle",
+    "mode": "desktop",
+    "source": "#source-04",
+    "click": true
+  },
+  {
+    "slug": "hustle",
+    "mode": "desktop",
+    "source": "#source-05",
+    "click": true
+  },
+  {
+    "slug": "hustle",
+    "mode": "desktop",
+    "source": "#source-06",
+    "click": true
+  },
+  {
+    "slug": "hustle",
+    "mode": "mobile",
+    "source": "#source-01",
+    "click": true
+  },
+  {
+    "slug": "hustle",
+    "mode": "mobile",
+    "source": "#source-02",
+    "click": true
+  },
+  {
+    "slug": "hustle",
+    "mode": "mobile",
+    "source": "#source-03",
+    "click": true
+  },
+  {
+    "slug": "hustle",
+    "mode": "mobile",
+    "source": "#source-04",
+    "click": true
+  },
+  {
+    "slug": "hustle",
+    "mode": "mobile",
+    "source": "#source-05",
+    "click": true
+  },
+  {
+    "slug": "hustle",
+    "mode": "mobile",
+    "source": "#source-06",
+    "click": true
+  },
+  {
+    "slug": "new-chinese",
+    "mode": "desktop",
+    "source": "#source-01",
+    "click": true
+  },
+  {
+    "slug": "new-chinese",
+    "mode": "desktop",
+    "source": "#source-02",
+    "click": true
+  },
+  {
+    "slug": "new-chinese",
+    "mode": "desktop",
+    "source": "#source-03",
+    "click": true
+  },
+  {
+    "slug": "new-chinese",
+    "mode": "desktop",
+    "source": "#source-04",
+    "click": true
+  },
+  {
+    "slug": "new-chinese",
+    "mode": "desktop",
+    "source": "#source-05",
+    "click": true
+  },
+  {
+    "slug": "new-chinese",
+    "mode": "desktop",
+    "source": "#source-06",
+    "click": true
+  },
+  {
+    "slug": "new-chinese",
+    "mode": "mobile",
+    "source": "#source-01",
+    "click": true
+  },
+  {
+    "slug": "new-chinese",
+    "mode": "mobile",
+    "source": "#source-02",
+    "click": true
+  },
+  {
+    "slug": "new-chinese",
+    "mode": "mobile",
+    "source": "#source-03",
+    "click": true
+  },
+  {
+    "slug": "new-chinese",
+    "mode": "mobile",
+    "source": "#source-04",
+    "click": true
+  },
+  {
+    "slug": "new-chinese",
+    "mode": "mobile",
+    "source": "#source-05",
+    "click": true
+  },
+  {
+    "slug": "new-chinese",
+    "mode": "mobile",
+    "source": "#source-06",
+    "click": true
+  }
+]

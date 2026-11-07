@@ -1,0 +1,176 @@
+{
+  "height": 1140,
+  "mheight": 1170,
+  "items": [
+    {
+      "file": "brick_corridor.jpg",
+      "case": 1,
+      "desktop": [
+        55,
+        254,
+        530,
+        415,
+        0
+      ],
+      "mobile": [
+        20,
+        211,
+        295,
+        231,
+        0
+      ],
+      "view": null,
+      "mask": null,
+      "shape": null,
+      "label": "青普扬州行馆 · 水院",
+      "ref_desktop": [
+        60,
+        688
+      ],
+      "ref_mobile": [
+        24,
+        462
+      ]
+    },
+    {
+      "file": "brick_courtyard.jpg",
+      "case": 1,
+      "desktop": [
+        78,
+        725,
+        204,
+        269,
+        -4
+      ],
+      "mobile": [
+        220,
+        670,
+        145,
+        192,
+        -4
+      ],
+      "view": null,
+      "mask": null,
+      "shape": null,
+      "label": "青普扬州行馆 · 建筑手稿"
+    },
+    {
+      "file": "brick_aerial.jpg",
+      "case": 1,
+      "desktop": [
+        321,
+        785,
+        374,
+        249,
+        0
+      ],
+      "mobile": [
+        201,
+        982,
+        166,
+        111,
+        0
+      ],
+      "view": null,
+      "mask": null,
+      "shape": null,
+      "label": "青普扬州行馆 · 水面与院墙"
+    },
+    {
+      "file": "samuel_vogue.jpg",
+      "case": 2,
+      "desktop": [
+        743,
+        739,
+        170,
+        255,
+        3
+      ],
+      "mobile": [
+        38,
+        865,
+        145,
+        218,
+        3
+      ],
+      "view": null,
+      "mask": null,
+      "shape": null,
+      "label": "Samuel Guì Yang · 黑色造型"
+    },
+    {
+      "file": "shaofan_wright.jpg",
+      "case": 3,
+      "desktop": [
+        922,
+        270,
+        325,
+        447,
+        0
+      ],
+      "mobile": [
+        26,
+        520,
+        190,
+        261,
+        0
+      ],
+      "view": "330 160 960 1320",
+      "mask": "chair",
+      "shape": null,
+      "label": "邵帆 · 不锈钢圈椅"
+    },
+    {
+      "file": "samuel_vogue2.jpg",
+      "case": 2,
+      "desktop": [
+        505,
+        190,
+        257,
+        740,
+        0
+      ],
+      "mobile": [
+        212,
+        181,
+        145,
+        418,
+        0
+      ],
+      "view": "410 210 570 1640",
+      "mask": "red",
+      "shape": null,
+      "label": "Samuel Guì Yang · 红色造型",
+      "ref_mobile": [
+        336,
+        612
+      ]
+    }
+  ],
+  "dims": {
+    "brick_corridor.jpg": [
+      1800,
+      1409
+    ],
+    "brick_courtyard.jpg": [
+      1136,
+      1500
+    ],
+    "brick_aerial.jpg": [
+      1800,
+      1200
+    ],
+    "samuel_vogue.jpg": [
+      1280,
+      1920
+    ],
+    "shaofan_wright.jpg": [
+      2000,
+      2000
+    ],
+    "samuel_vogue2.jpg": [
+      1280,
+      1920
+    ]
+  }
+}

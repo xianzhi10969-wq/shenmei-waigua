@@ -1,0 +1,168 @@
+{
+  "height": 1120,
+  "mheight": 1290,
+  "items": [
+    {
+      "file": "wolf_back_door_01.jpg",
+      "case": 0,
+      "desktop": [
+        870,
+        217,
+        365,
+        292,
+        2
+      ],
+      "mobile": [
+        233,
+        165,
+        139,
+        180,
+        2
+      ],
+      "view": "90 30 720 650",
+      "mask": null,
+      "shape": null,
+      "label": "香港后门 · 晾晒"
+    },
+    {
+      "file": "storefront_03.jpg",
+      "case": 1,
+      "desktop": [
+        65,
+        220,
+        350,
+        515,
+        0
+      ],
+      "mobile": [
+        20,
+        185,
+        198,
+        292,
+        0
+      ],
+      "view": null,
+      "mask": null,
+      "shape": null,
+      "label": "东京店构 · 店面全貌",
+      "ref_mobile": [
+        24,
+        480
+      ]
+    },
+    {
+      "file": "spoerri_buffalo_full.jpg",
+      "case": 2,
+      "desktop": [
+        443,
+        325,
+        505,
+        505,
+        0
+      ],
+      "mobile": [
+        105,
+        431,
+        266,
+        266,
+        0
+      ],
+      "view": "15 30 770 735",
+      "mask": "breakfast",
+      "shape": null,
+      "label": "琪琪的早餐 I · 完整装置"
+    },
+    {
+      "file": "wolf_back_door_05.jpg",
+      "case": 0,
+      "desktop": [
+        980,
+        622,
+        242,
+        302,
+        -3
+      ],
+      "mobile": [
+        22,
+        725,
+        155,
+        194,
+        -3
+      ],
+      "view": null,
+      "mask": null,
+      "shape": null,
+      "label": "香港后门 · 铁网与杯子"
+    },
+    {
+      "file": "wastenot_domestic_2k.jpg",
+      "case": 3,
+      "desktop": [
+        357,
+        850,
+        487,
+        195,
+        2
+      ],
+      "mobile": [
+        25,
+        1080,
+        340,
+        136,
+        2
+      ],
+      "view": "0 150 2000 800",
+      "mask": null,
+      "shape": null,
+      "label": "物尽其用 · 家庭物件"
+    },
+    {
+      "file": "storefront_p012-013.jpg",
+      "case": 1,
+      "desktop": [
+        100,
+        780,
+        180,
+        260,
+        0
+      ],
+      "mobile": [
+        216,
+        800,
+        154,
+        222,
+        0
+      ],
+      "view": "550 20 450 650",
+      "mask": null,
+      "shape": null,
+      "label": "东京店构 · 肉店"
+    }
+  ],
+  "dims": {
+    "wolf_back_door_01.jpg": [
+      900,
+      720
+    ],
+    "storefront_03.jpg": [
+      1020,
+      1500
+    ],
+    "spoerri_buffalo_full.jpg": [
+      800,
+      798
+    ],
+    "wolf_back_door_05.jpg": [
+      720,
+      900
+    ],
+    "wastenot_domestic_2k.jpg": [
+      2000,
+      1333
+    ],
+    "storefront_p012-013.jpg": [
+      1000,
+      679
+    ]
+  }
+}

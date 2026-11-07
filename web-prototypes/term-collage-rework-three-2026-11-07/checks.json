@@ -1,0 +1,107 @@
+[
+  {
+    "slug": "translucent",
+    "width": 320,
+    "images": true,
+    "noHorizontalOverflow": true,
+    "sourceOpens": true
+  },
+  {
+    "slug": "translucent",
+    "width": 390,
+    "images": true,
+    "noHorizontalOverflow": true,
+    "sourceOpens": true
+  },
+  {
+    "slug": "translucent",
+    "width": 430,
+    "images": true,
+    "noHorizontalOverflow": true,
+    "sourceOpens": true
+  },
+  {
+    "slug": "translucent",
+    "width": 768,
+    "images": true,
+    "noHorizontalOverflow": true,
+    "sourceOpens": true
+  },
+  {
+    "slug": "translucent",
+    "width": 1440,
+    "images": true,
+    "noHorizontalOverflow": true,
+    "sourceOpens": true
+  },
+  {
+    "slug": "hustle",
+    "width": 320,
+    "images": true,
+    "noHorizontalOverflow": true,
+    "sourceOpens": true
+  },
+  {
+    "slug": "hustle",
+    "width": 390,
+    "images": true,
+    "noHorizontalOverflow": true,
+    "sourceOpens": true
+  },
+  {
+    "slug": "hustle",
+    "width": 430,
+    "images": true,
+    "noHorizontalOverflow": true,
+    "sourceOpens": true
+  },
+  {
+    "slug": "hustle",
+    "width": 768,
+    "images": true,
+    "noHorizontalOverflow": true,
+    "sourceOpens": true
+  },
+  {
+    "slug": "hustle",
+    "width": 1440,
+    "images": true,
+    "noHorizontalOverflow": true,
+    "sourceOpens": true
+  },
+  {
+    "slug": "new-chinese",
+    "width": 320,
+    "images": true,
+    "noHorizontalOverflow": true,
+    "sourceOpens": true
+  },
+  {
+    "slug": "new-chinese",
+    "width": 390,
+    "images": true,
+    "noHorizontalOverflow": true,
+    "sourceOpens": true
+  },
+  {
+    "slug": "new-chinese",
+    "width": 430,
+    "images": true,
+    "noHorizontalOverflow": true,
+    "sourceOpens": true
+  },
+  {
+    "slug": "new-chinese",
+    "width": 768,
+    "images": true,
+    "noHorizontalOverflow": true,
+    "sourceOpens": true
+  },
+  {
+    "slug": "new-chinese",
+    "width": 1440,
+    "images": true,
+    "noHorizontalOverflow": true,
+    "sourceOpens": true
+  }
+]

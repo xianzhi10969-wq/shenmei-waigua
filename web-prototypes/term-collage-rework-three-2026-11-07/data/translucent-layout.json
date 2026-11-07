@@ -1,0 +1,198 @@
+{
+  "height": 1120,
+  "mheight": 1220,
+  "items": [
+    {
+      "file": "illum_01_L.jpg",
+      "case": 2,
+      "desktop": [
+        65,
+        225,
+        490,
+        490,
+        0
+      ],
+      "mobile": [
+        22,
+        170,
+        285,
+        285,
+        0
+      ],
+      "view": null,
+      "mask": null,
+      "shape": "ellipse",
+      "label": "Illuminance · 光的近景",
+      "ref_mobile": [
+        24,
+        473
+      ]
+    },
+    {
+      "file": "illum_02_L.jpg",
+      "case": 2,
+      "desktop": [
+        707,
+        215,
+        175,
+        175,
+        0
+      ],
+      "mobile": [
+        259,
+        144,
+        106,
+        106,
+        0
+      ],
+      "view": null,
+      "mask": null,
+      "shape": "ellipse",
+      "label": "Illuminance · 折射"
+    },
+    {
+      "file": "rain_jb_35.jpg",
+      "case": 1,
+      "desktop": [
+        984,
+        210,
+        240,
+        360,
+        0
+      ],
+      "mobile": [
+        250,
+        548,
+        117,
+        175,
+        0
+      ],
+      "view": null,
+      "mask": null,
+      "shape": null,
+      "label": "Rain Bottle · 展陈"
+    },
+    {
+      "file": "liquid_03.jpg",
+      "case": 3,
+      "desktop": [
+        415,
+        407,
+        590,
+        472,
+        0
+      ],
+      "mobile": [
+        62,
+        430,
+        280,
+        224,
+        0
+      ],
+      "view": "135 145 1495 1220",
+      "mask": "table",
+      "shape": null,
+      "label": "Liquid Glacial · 完整桌体",
+      "ref_mobile": [
+        195,
+        680
+      ]
+    },
+    {
+      "file": "well_kub_og3.jpg",
+      "case": 0,
+      "desktop": [
+        80,
+        770,
+        435,
+        290,
+        -3
+      ],
+      "mobile": [
+        22,
+        770,
+        267,
+        178,
+        -3
+      ],
+      "view": null,
+      "mask": null,
+      "shape": null,
+      "label": "Well and Truly · 装置全景"
+    },
+    {
+      "file": "rain_group.jpg",
+      "case": 1,
+      "desktop": [
+        1070,
+        695,
+        164,
+        240,
+        3
+      ],
+      "mobile": [
+        257,
+        987,
+        109,
+        160,
+        3
+      ],
+      "view": "0 0 800 1000",
+      "mask": null,
+      "shape": null,
+      "label": "Rain Bottle · 雨的形态"
+    },
+    {
+      "file": "well_pinault_1.jpg",
+      "case": 0,
+      "desktop": [
+        668,
+        905,
+        182,
+        121,
+        0
+      ],
+      "mobile": [
+        35,
+        1040,
+        168,
+        112,
+        0
+      ],
+      "view": "40 380 300 200",
+      "mask": null,
+      "shape": "ellipse",
+      "label": "Well and Truly · 铸造玻璃局部"
+    }
+  ],
+  "dims": {
+    "illum_01_L.jpg": [
+      3000,
+      3000
+    ],
+    "illum_02_L.jpg": [
+      3000,
+      3000
+    ],
+    "rain_jb_35.jpg": [
+      655,
+      982
+    ],
+    "liquid_03.jpg": [
+      2000,
+      1600
+    ],
+    "well_kub_og3.jpg": [
+      2400,
+      1600
+    ],
+    "rain_group.jpg": [
+      800,
+      1000
+    ],
+    "well_pinault_1.jpg": [
+      900,
+      600
+    ]
+  }
+}
