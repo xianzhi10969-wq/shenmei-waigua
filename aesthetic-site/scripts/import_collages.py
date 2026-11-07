@@ -91,6 +91,10 @@ def main():
     registry += import_batch('collage-unique-v3-2026-11-07', entries, unique=True)
     candidates = json.loads((WORKSPACE / 'output/remaining-twelve-dense-2026-11-07/candidates.json').read_text())
     registry += import_batch('remaining-twelve-dense-2026-11-07', [(c['slug'], c['id']) for c in candidates], status='pending-review')
+    existing_path = ROOT / 'src/collages.json'
+    refreshed_ids = {row['termId'] for row in registry}
+    if existing_path.exists():
+        registry += [row for row in json.loads(existing_path.read_text()) if row['termId'] not in refreshed_ids]
     (ROOT / 'src/collages.json').write_text(json.dumps(registry, ensure_ascii=False, indent=2))
     print(f'Imported {len(registry)} compositions, {sum(len(r["pieces"]) for r in registry)} pieces.')
 

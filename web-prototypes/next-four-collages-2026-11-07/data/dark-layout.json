@@ -1,0 +1,249 @@
+[
+  {
+    "source": "mat-4",
+    "label": "暗屋中的整场召唤",
+    "desktop": [
+      20,
+      129,
+      731,
+      529,
+      -2
+    ],
+    "mobile": [
+      8,
+      109,
+      373,
+      287,
+      -2
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "original": "assets/originals/mat-4.jpg",
+    "case_record_id": "reczz28HJJL2Nozt",
+    "case_title": "圣马太蒙召",
+    "source_url": "https://saintlouis-rome.net/horaires-visite-opening-hours/caravage/",
+    "term_record_id": "reczz28HJJL2GOfq",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "1c76660abfdb6d08d4f65fcd9c0ba0abf7162595d75123b36eca01992ff066dc"
+  },
+  {
+    "source": "reczz28HJJL2Np5S",
+    "label": "从混凝土墙切进来的光",
+    "desktop": [
+      744,
+      129,
+      435,
+      642,
+      2
+    ],
+    "mobile": [
+      223,
+      375,
+      156,
+      356,
+      2
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "original": "assets/originals/362719f85cad7db06e92c555.jpg",
+    "case_record_id": "reczz28HJJL2Np5S",
+    "case_title": "光之教堂",
+    "source_url": "http://www.ibaraki-kasugaoka-church.jp/j-welcome.html",
+    "term_record_id": "reczz28HJJL2GOfq",
+    "caseImage": "/media/362719f85cad7db06e92c555.jpg",
+    "origin": "existing-case",
+    "originalSha256": "41eb06282205e0ea9e2ef7bf6d649f99c0a402712d3c0ca62227c911c65a31a9"
+  },
+  {
+    "source": "mat-3",
+    "label": "绘画还在真正的礼拜堂里",
+    "desktop": [
+      20,
+      649,
+      472,
+      428,
+      2
+    ],
+    "mobile": [
+      8,
+      739,
+      228,
+      350,
+      -2
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "original": "assets/originals/mat-3.jpg",
+    "case_record_id": "reczz28HJJL2Nozt",
+    "case_title": "圣马太蒙召",
+    "source_url": "https://saintlouis-rome.net/horaires-visite-opening-hours/caravage/",
+    "term_record_id": "reczz28HJJL2GOfq",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "77c5ddb02c8a10958f95378a26d8d88e83c646a1b82b6ca94188c564a7e92fd5"
+  },
+  {
+    "source": "mat-9",
+    "label": "一只手让暗场有了方向",
+    "desktop": [
+      414,
+      423,
+      526,
+      234,
+      -4
+    ],
+    "mobile": [
+      8,
+      377,
+      269,
+      150,
+      -4
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "original": "assets/originals/mat-9.jpg",
+    "case_record_id": "reczz28HJJL2Nozt",
+    "case_title": "圣马太蒙召",
+    "source_url": "https://saintlouis-rome.net/horaires-visite-opening-hours/caravage/",
+    "term_record_id": "reczz28HJJL2GOfq",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "4c77d2ab36d1d67145efa28fe727160f5f510ebd7731a6b808e3bad27a2cda13"
+  },
+  {
+    "source": "reczz28HJJL2Nozt",
+    "label": "被光找到的收税人",
+    "desktop": [
+      478,
+      751,
+      701,
+      328,
+      -2
+    ],
+    "mobile": [
+      174,
+      845,
+      204,
+      243,
+      3
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "original": "assets/originals/8e22a80c10cf021cce82ea27.jpg",
+    "case_record_id": "reczz28HJJL2Nozt",
+    "case_title": "圣马太蒙召",
+    "source_url": "https://saintlouis-rome.net/horaires-visite-opening-hours/caravage/",
+    "term_record_id": "reczz28HJJL2GOfq",
+    "caseImage": "/media/8e22a80c10cf021cce82ea27.jpg",
+    "origin": "existing-case",
+    "originalSha256": "df725af734ae0a238ee85450910eaa3b4add01b7fffe78db432e5e1f103f569a"
+  },
+  {
+    "source": "reczz28HJJL2Np5S",
+    "label": "长椅之间的暗部",
+    "desktop": [
+      915,
+      665,
+      264,
+      246,
+      4
+    ],
+    "mobile": [
+      239,
+      693,
+      139,
+      178,
+      4
+    ],
+    "crop": [
+      0,
+      645,
+      680,
+      350
+    ],
+    "mask": null,
+    "shape": null,
+    "original": "assets/originals/362719f85cad7db06e92c555.jpg",
+    "case_record_id": "reczz28HJJL2Np5S",
+    "case_title": "光之教堂",
+    "source_url": "http://www.ibaraki-kasugaoka-church.jp/j-welcome.html",
+    "term_record_id": "reczz28HJJL2GOfq",
+    "caseImage": "/media/362719f85cad7db06e92c555.jpg",
+    "origin": "existing-case",
+    "originalSha256": "41eb06282205e0ea9e2ef7bf6d649f99c0a402712d3c0ca62227c911c65a31a9"
+  },
+  {
+    "source": "mat-3",
+    "label": "拱顶与金色画框",
+    "desktop": [
+      51,
+      162,
+      255,
+      281,
+      -4
+    ],
+    "mobile": [
+      8,
+      541,
+      193,
+      214,
+      -4
+    ],
+    "crop": [
+      80,
+      0,
+      840,
+      520
+    ],
+    "mask": null,
+    "shape": "arch",
+    "original": "assets/originals/mat-3.jpg",
+    "case_record_id": "reczz28HJJL2Nozt",
+    "case_title": "圣马太蒙召",
+    "source_url": "https://saintlouis-rome.net/horaires-visite-opening-hours/caravage/",
+    "term_record_id": "reczz28HJJL2GOfq",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "77c5ddb02c8a10958f95378a26d8d88e83c646a1b82b6ca94188c564a7e92fd5"
+  },
+  {
+    "source": "reczz28HJJL2Np5S",
+    "label": "光的交点",
+    "desktop": [
+      49,
+      798,
+      238,
+      224,
+      -4
+    ],
+    "mobile": [
+      27,
+      941,
+      174,
+      144,
+      -4
+    ],
+    "crop": [
+      335,
+      60,
+      440,
+      410
+    ],
+    "mask": null,
+    "shape": "ellipse",
+    "original": "assets/originals/362719f85cad7db06e92c555.jpg",
+    "case_record_id": "reczz28HJJL2Np5S",
+    "case_title": "光之教堂",
+    "source_url": "http://www.ibaraki-kasugaoka-church.jp/j-welcome.html",
+    "term_record_id": "reczz28HJJL2GOfq",
+    "caseImage": "/media/362719f85cad7db06e92c555.jpg",
+    "origin": "existing-case",
+    "originalSha256": "41eb06282205e0ea9e2ef7bf6d649f99c0a402712d3c0ca62227c911c65a31a9"
+  }
+]

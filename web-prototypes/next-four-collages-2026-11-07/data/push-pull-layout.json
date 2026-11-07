@@ -1,0 +1,271 @@
+[
+  {
+    "source": "reczz28HJJL2Njof",
+    "label": "有人要离开，有人拦住门",
+    "desktop": [
+      815,
+      126,
+      364,
+      934,
+      2
+    ],
+    "mobile": [
+      266,
+      119,
+      113,
+      966,
+      2
+    ],
+    "crop": [
+      766,
+      0,
+      230,
+      1000
+    ],
+    "mask": null,
+    "shape": null,
+    "original": "assets/originals/165d3bff6cc576d51503a7a3.jpg",
+    "case_record_id": "reczz28HJJL2Njof",
+    "case_title": "黑色不伦瑞克兵",
+    "source_url": "https://www.liverpoolmuseums.org.uk/artifact/black-brunswickers",
+    "term_record_id": "reczz28HJJL2GKpL",
+    "caseImage": "/media/165d3bff6cc576d51503a7a3.jpg",
+    "origin": "existing-case",
+    "originalSha256": "df20c1e0fb2284aeb74bcc15b328c06fd76628dfd5e9f14fe95fe20e3c9ea142"
+  },
+  {
+    "source": "reczz28HJJL2NjvZ",
+    "label": "傲慢与偏见的初版扉页",
+    "desktop": [
+      20,
+      158,
+      471,
+      639,
+      -4
+    ],
+    "mobile": [
+      8,
+      153,
+      219,
+      377,
+      -4
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "original": "assets/originals/f128da53fbb14fe754e9e55e.jpg",
+    "case_record_id": "reczz28HJJL2NjvZ",
+    "case_title": "傲慢与偏见",
+    "source_url": "https://janeaustens.house/online-exhibition/the-making-of-pride-and-prejudice/the-making-of-pride-and-prejudice-2/",
+    "term_record_id": "reczz28HJJL2GKpL",
+    "caseImage": "/media/f128da53fbb14fe754e9e55e.jpg",
+    "origin": "existing-case",
+    "originalSha256": "e686b2e9742d8e47ea97d66abc90a296f47e5ed823d3befaa24ddb5928eb4ab5"
+  },
+  {
+    "source": "reczz28HJJL2Njof",
+    "label": "贴近与推拒的两个人",
+    "desktop": [
+      288,
+      156,
+      658,
+      863,
+      0
+    ],
+    "mobile": [
+      83,
+      230,
+      283,
+      745,
+      0
+    ],
+    "crop": [
+      142,
+      65,
+      748,
+      891
+    ],
+    "mask": "couple",
+    "shape": null,
+    "display": "assets/cutouts/dog.webp",
+    "original": "assets/originals/165d3bff6cc576d51503a7a3.jpg",
+    "case_record_id": "reczz28HJJL2Njof",
+    "case_title": "黑色不伦瑞克兵",
+    "source_url": "https://www.liverpoolmuseums.org.uk/artifact/black-brunswickers",
+    "term_record_id": "reczz28HJJL2GKpL",
+    "caseImage": "/media/165d3bff6cc576d51503a7a3.jpg",
+    "origin": "existing-case",
+    "originalSha256": "df20c1e0fb2284aeb74bcc15b328c06fd76628dfd5e9f14fe95fe20e3c9ea142"
+  },
+  {
+    "source": "reczz28HJJL2Njof",
+    "label": "墙上的出征图",
+    "desktop": [
+      19,
+      828,
+      405,
+      248,
+      -3
+    ],
+    "mobile": [
+      8,
+      844,
+      176,
+      246,
+      -3
+    ],
+    "crop": [
+      0,
+      0,
+      285,
+      346
+    ],
+    "mask": null,
+    "shape": null,
+    "original": "assets/originals/165d3bff6cc576d51503a7a3.jpg",
+    "case_record_id": "reczz28HJJL2Njof",
+    "case_title": "黑色不伦瑞克兵",
+    "source_url": "https://www.liverpoolmuseums.org.uk/artifact/black-brunswickers",
+    "term_record_id": "reczz28HJJL2GKpL",
+    "caseImage": "/media/165d3bff6cc576d51503a7a3.jpg",
+    "origin": "existing-case",
+    "originalSha256": "df20c1e0fb2284aeb74bcc15b328c06fd76628dfd5e9f14fe95fe20e3c9ea142"
+  },
+  {
+    "source": "reczz28HJJL2Njof",
+    "label": "朝相反方向用力的手",
+    "desktop": [
+      869,
+      628,
+      303,
+      264,
+      -4
+    ],
+    "mobile": [
+      8,
+      520,
+      150,
+      130,
+      -5
+    ],
+    "crop": [
+      653,
+      398,
+      190,
+      188
+    ],
+    "mask": null,
+    "shape": "ellipse",
+    "original": "assets/originals/165d3bff6cc576d51503a7a3.jpg",
+    "case_record_id": "reczz28HJJL2Njof",
+    "case_title": "黑色不伦瑞克兵",
+    "source_url": "https://www.liverpoolmuseums.org.uk/artifact/black-brunswickers",
+    "term_record_id": "reczz28HJJL2GKpL",
+    "caseImage": "/media/165d3bff6cc576d51503a7a3.jpg",
+    "origin": "existing-case",
+    "originalSha256": "df20c1e0fb2284aeb74bcc15b328c06fd76628dfd5e9f14fe95fe20e3c9ea142"
+  },
+  {
+    "source": "reczz28HJJL2Njof",
+    "label": "脚边也在等待的小狗",
+    "desktop": [
+      53,
+      570,
+      253,
+      438,
+      -4
+    ],
+    "mobile": [
+      8,
+      658,
+      138,
+      230,
+      -3
+    ],
+    "crop": [
+      97,
+      692,
+      202,
+      273
+    ],
+    "mask": "dog",
+    "shape": null,
+    "display": "assets/cutouts/dog.webp",
+    "original": "assets/originals/165d3bff6cc576d51503a7a3.jpg",
+    "case_record_id": "reczz28HJJL2Njof",
+    "case_title": "黑色不伦瑞克兵",
+    "source_url": "https://www.liverpoolmuseums.org.uk/artifact/black-brunswickers",
+    "term_record_id": "reczz28HJJL2GKpL",
+    "caseImage": "/media/165d3bff6cc576d51503a7a3.jpg",
+    "origin": "existing-case",
+    "originalSha256": "df20c1e0fb2284aeb74bcc15b328c06fd76628dfd5e9f14fe95fe20e3c9ea142"
+  },
+  {
+    "source": "reczz28HJJL2Njof",
+    "label": "红缎带打在白色绸缎上",
+    "desktop": [
+      864,
+      257,
+      302,
+      310,
+      5
+    ],
+    "mobile": [
+      249,
+      117,
+      130,
+      174,
+      4
+    ],
+    "crop": [
+      446,
+      330,
+      285,
+      260
+    ],
+    "mask": null,
+    "shape": "torn",
+    "original": "assets/originals/165d3bff6cc576d51503a7a3.jpg",
+    "case_record_id": "reczz28HJJL2Njof",
+    "case_title": "黑色不伦瑞克兵",
+    "source_url": "https://www.liverpoolmuseums.org.uk/artifact/black-brunswickers",
+    "term_record_id": "reczz28HJJL2GKpL",
+    "caseImage": "/media/165d3bff6cc576d51503a7a3.jpg",
+    "origin": "existing-case",
+    "originalSha256": "df20c1e0fb2284aeb74bcc15b328c06fd76628dfd5e9f14fe95fe20e3c9ea142"
+  },
+  {
+    "source": "reczz28HJJL2NjvZ",
+    "label": "仍然留在书页上的作者名",
+    "desktop": [
+      426,
+      961,
+      520,
+      114,
+      3
+    ],
+    "mobile": [
+      89,
+      990,
+      287,
+      98,
+      3
+    ],
+    "crop": [
+      60,
+      193,
+      875,
+      170
+    ],
+    "mask": null,
+    "shape": null,
+    "original": "assets/originals/f128da53fbb14fe754e9e55e.jpg",
+    "case_record_id": "reczz28HJJL2NjvZ",
+    "case_title": "傲慢与偏见",
+    "source_url": "https://janeaustens.house/online-exhibition/the-making-of-pride-and-prejudice/the-making-of-pride-and-prejudice-2/",
+    "term_record_id": "reczz28HJJL2GKpL",
+    "caseImage": "/media/f128da53fbb14fe754e9e55e.jpg",
+    "origin": "existing-case",
+    "originalSha256": "e686b2e9742d8e47ea97d66abc90a296f47e5ed823d3befaa24ddb5928eb4ab5"
+  }
+]

@@ -93,13 +93,12 @@ def build_term(term):
     chinese = bool(re.search(r'[\u3400-\u9fff]', term['name']))
     title_class = 'term-name chinese-name' if chinese else 'term-name'
     definition = '带着调情意味的甜美风格' if term['id'] == COQUETTE_ID else (term['english'] if term['english'] != term['name'] else '')
-    intro = term['hook']
-    if term['id'] == COQUETTE_ID:
-        intro = '镜前的人把缎带系好，又故意留下一截没收齐的带尾。你看得出她为被看见做了准备，却不能确定她想让谁看。'
+    # Every opening reads 词条.核心 (fld2kWjGZc). No hook or hard-coded fallback.
+    intro = term.get('core', '')
     pending = '<p class="term-status">更新中</p>' if '已上线' not in term['state'] else ''
     opening_copy = (
         f'<div class="opening-copy">{pending}<h1 class="{title_class}" lang="{"zh-CN" if chinese else "en"}">{escape(term["name"])}</h1>'
-        f'<p class="term-definition">{escape(definition)}</p><p class="introduction">{escape(intro or term["core"])}</p>'
+        f'<p class="term-definition">{escape(definition)}</p><p class="introduction" data-source-field="核心">{escape(intro)}</p>'
     )
     page = page[:opening_copy_start] + opening_copy + page[opening_copy_end:]
     page = page.replace('<section class="opening"', '<section id="opening" class="opening"', 1)
@@ -173,7 +172,7 @@ def build_collage_index():
     links = ''.join(f'<li><a href="/terms/{route_key(row["termId"])}/?collage=1">{escape(row["name"])}</a><span>{"待审图" if row["status"] == "pending-review" else "已确认拼贴"}</span></li>' for row in rows)
     directory = PUBLIC / 'collages'
     directory.mkdir(exist_ok=True)
-    (directory / 'index.html').write_text('<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>拼贴目录 · 审美外挂</title><link rel="stylesheet" href="/assets/fonts.css"><style>body{max-width:760px;margin:48px auto;padding:0 24px;background:#f8f6ef;color:#263c32;font:18px/1.8 Georgia,"Songti SC",serif}a{color:inherit;text-underline-offset:5px}h1{font-size:32px;font-weight:400}ul{padding:0;list-style:none}li{display:flex;justify-content:space-between;gap:24px;padding:12px 0;border-bottom:1px solid #263c3222}span{font-size:13px;color:#6c756d}</style><nav><a href="/">← 整站首页</a> · <a href="/#/chapters">全部专题</a></nav><h1>风格图谱 · 拼贴目录</h1><p>21 张拼贴已接入词条。点击直达图谱，往上回到开场，往下阅读完整案例。</p><ul>' + links + '</ul></html>')
+    (directory / 'index.html').write_text('<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>拼贴目录 · 审美外挂</title><link rel="stylesheet" href="/assets/fonts.css"><style>body{max-width:760px;margin:48px auto;padding:0 24px;background:#f8f6ef;color:#263c32;font:18px/1.8 Georgia,"Songti SC",serif}a{color:inherit;text-underline-offset:5px}h1{font-size:32px;font-weight:400}ul{padding:0;list-style:none}li{display:flex;justify-content:space-between;gap:24px;padding:12px 0;border-bottom:1px solid #263c3222}span{font-size:13px;color:#6c756d}</style><nav><a href="/">← 整站首页</a> · <a href="/#/chapters">全部专题</a></nav><h1>风格图谱 · 拼贴目录</h1><p>' + str(len(rows)) + ' 张拼贴已接入词条。点击直达图谱，往上回到开场，往下阅读完整案例。</p><ul>' + links + '</ul></html>')
 
 
 if __name__ == '__main__':
