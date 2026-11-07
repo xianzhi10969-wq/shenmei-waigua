@@ -11,14 +11,14 @@ with sync_playwright() as p:
   page.goto('http://127.0.0.1:8840/entrance/?at=1');page.wait_for_function('window.GALLERY_REVIEW?.topic?.id');page.wait_for_timeout(800)
   link=page.locator('.p4-entry a').first;href=link.get_attribute('href');assert '#/chapter/rec' in href;link.click();page.wait_for_selector('.chapter-identity');assert page.locator('.gallery-card').count()>0
   page.screenshot(path=str(out/f'chapter-{w}.png'))
-  page.goto('http://127.0.0.1:8840/terms/reczz28HJJL2GJHl/');page.evaluate('window.demoReady');page.wait_for_timeout(200)
+  page.goto('http://127.0.0.1:8840/terms/7265637a7a3238484a4a4c32474a486c/');page.evaluate('window.demoReady');page.wait_for_timeout(200)
   assert page.locator('.opening').evaluate('(e)=>+e.style.opacity')==1;assert page.locator('.case').count()==3
   page.mouse.move(w//2,h//2);page.mouse.wheel(0,8000);page.wait_for_function('transitionDemo.progress===1');page.locator('.back-to-map').first.click();assert page.locator('.map-layer').get_attribute('aria-hidden')=='false'
   page.evaluate('document.querySelector(".stage").scrollTop=0');page.wait_for_timeout(100);assert page.locator('.opening').evaluate('(e)=>+e.style.opacity')==1
   page.screenshot(path=str(out/f'term-opening-{w}.png'))
   # Long real introduction must be entirely reachable before its exit transition starts.
   longest=max(catalog['terms'],key=lambda t:len(t['hook']))
-  page.goto('http://127.0.0.1:8840/terms/'+longest['id']+'/');page.evaluate('window.demoReady');page.wait_for_timeout(100)
+  page.goto('http://127.0.0.1:8840/terms/'+longest['id'].encode().hex()+'/');page.evaluate('window.demoReady');page.wait_for_timeout(100)
   bounds=page.evaluate('({height:document.querySelector(".scene").getBoundingClientRect().height,bottom:document.querySelector(".opening-copy").getBoundingClientRect().bottom,scrollHeight:document.querySelector(".stage").scrollHeight})')
   assert bounds['bottom']<=bounds['height']+1,(longest['name'],bounds)
   page.evaluate('document.querySelector(".stage").scrollTop=10000');page.wait_for_function('transitionDemo.progress===1');assert not page.evaluate('document.querySelector(".stage").scrollWidth>innerWidth+1')

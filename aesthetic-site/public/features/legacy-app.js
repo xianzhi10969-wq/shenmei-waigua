@@ -2,7 +2,7 @@ let DATA;
 const app = document.getElementById('app');
 const e = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const url = value => { try { const u = new URL(value); return /^https?:$/.test(u.protocol) ? u.href : ''; } catch { return ''; } };
-const href = (kind, id) => kind==='term'?`/terms/${encodeURIComponent(id)}/`:['chapter','case'].includes(kind)?`/#/${kind}/${encodeURIComponent(id)}`:`#/${kind}/${encodeURIComponent(id)}`;
+const href = (kind, id) => kind==='term'?`/terms/${window.storageKey(id)}/`:['chapter','case'].includes(kind)?`/#/${kind}/${encodeURIComponent(id)}`:`#/${kind}/${encodeURIComponent(id)}`;
 const img = (path, alt, cls = '') => path ? `<img class="${cls}" src="${e(path.startsWith('/')?path:'/'+path)}" alt="${e(alt)}" loading="lazy">` : '';
 const shell = main => `<div class="shell"><header class="feature-header"><a href="/entrance/">← 首页</a><a href="/#/chapters">美学专题</a><a href="/#/cases">全部案例</a></header>${main}</div>`;
 const prose = value => {
@@ -223,7 +223,7 @@ function route() {
  if(kind==='curiosity')curiosity();
  else if(kind==='imagery')imagery(id);
  else if(kind==='resources')resources(id);
- else if(kind==='term')location.assign('/terms/'+encodeURIComponent(id)+'/');
+ else if(kind==='term')location.assign('/terms/'+window.storageKey(id)+'/');
  else if(kind==='chapter'||kind==='case')location.assign('/#/'+kind+'/'+encodeURIComponent(id));
  else feelingPage();
  document.title=({curiosity:'好奇心漫游',imagery:'意象实验室',resources:'艺术资源'}[kind]||'寻找感觉')+' · 审美外挂';

@@ -79,8 +79,8 @@ async function route(){
   if(kind==='chapters')chapterIndex();
   else if(kind==='cases')caseIndex();
   else if(kind==='chapter'||kind==='chapter-story'){const c=chapterById(id);if(!c)throw new Error('没有找到这个专题。');kind==='chapter'?chapterView(c):chapterStory(c);}
-  else if(kind==='term'){location.assign('/terms/'+encodeURIComponent(id)+'/'+(origin?'?from='+encodeURIComponent(origin.id):''));return;}
-  else if(kind==='case'){main.innerHTML='<p class="loading" role="status">正在展开案例…</p>';const c=await api('/api/cases/'+encodeURIComponent(id));if(seq!==generation)return;const t=catalog.terms.find(t=>t.name===c.termName);title(c.name);main.innerHTML=`<div class="case-page paper">${backBar(t?t.name:'全部专题',t?termURL(t,origin):'#/chapters')}<article class="reading">${caseMarkup(c,0,true)}</article></div>`;}
+  else if(kind==='term'){location.assign('/terms/'+window.storageKey(id)+'/'+(origin?'?from='+encodeURIComponent(origin.id):''));return;}
+  else if(kind==='case'){main.innerHTML='<p class="loading" role="status">正在展开案例…</p>';const c=await api('/api/cases/'+window.storageKey(id)+'.json');if(seq!==generation)return;const t=catalog.terms.find(t=>t.name===c.termName);title(c.name);main.innerHTML=`<div class="case-page paper">${backBar(t?t.name:'全部专题',t?termURL(t,origin):'#/chapters')}<article class="reading">${caseMarkup(c,0,true)}</article></div>`;}
   else throw new Error('没有找到这个页面。');
   hydrate();main.focus({preventScroll:true});requestAnimationFrame(()=>{if(seq===generation)scrollTo(0,positions.get(hash)||0);});
  }catch(error){if(seq!==generation)return;main.innerHTML=`<div class="error-page paper"><h1>${esc(error.message)}</h1><p>你可以重试，或返回专题目录。</p><button data-retry>重新加载</button><a href="#/chapters">全部专题 ↗</a></div>`;}
