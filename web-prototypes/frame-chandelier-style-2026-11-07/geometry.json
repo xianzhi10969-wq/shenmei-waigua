@@ -1,0 +1,18 @@
+{
+  "source": "aesthetic-site/public/assets/frames.json index 0",
+  "nativeSize": [
+    342,
+    244
+  ],
+  "mount": [
+    30.639,
+    25.236,
+    284.862,
+    190.951,
+    6.26
+  ],
+  "variables": [
+    "frame drawing only"
+  ],
+  "status": "existing structure reused; style candidate"
+}

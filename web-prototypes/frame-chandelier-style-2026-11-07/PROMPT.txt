@@ -1,0 +1,13 @@
+Create ONE finished ornamental picture-frame illustration as a transparent production asset for an art website.
+
+REFERENCE ROLES
+Image 1 is the existing horizontal picture frame. Use its overall rectangular proportions, narrow border footprint, corner positions and quiet large rectangular opening as the composition guide. Its right-hand cut-and-paste seams are source defects to repair into one continuous drawing.
+Image 2 is the chandelier and is the authoritative drawing-style reference. Transfer the chandelier's warm ivory filled material, precise dark ink contours, thin parallel hand-engraved hatching, light fluted relief and restrained etched highlights to the frame. The frame should appear drawn by the same hand, at the same level of finish and same line-density hierarchy.
+
+SUBJECT
+An elegant continuous warm-ivory ornamental rectangular picture frame, front elevation. Landscape canvas in the same 342:244 proportion as Image 1. Preserve the slender airy outer silhouette and four corner scrolls with small centered top/bottom flourishes. Reinterpret the existing narrow curling ribbons and leaves as solid ivory carved forms with restrained scalloped/fluted surfaces. A small number of clear contour lines, spare thin engraved lines where forms turn, spacious luminous ivory surfaces. Detail concentrated at the corners and centered flourishes, long rails calm and narrow. It must read clearly when the full frame is only 342 CSS pixels wide. Delicate crafted beauty with a slight hand-drawn irregularity. Every rail joins continuously at the corners.
+
+GEOMETRY AND DELIVERY
+The complete frame fits inside the canvas with a little transparent breathing room, like Image 1. Keep the central opening very large and rectangular. The protected image-mount region begins around x=8.96%, y=10.34%, spans 83.29% canvas width and 78.26% canvas height; the ornament should stay around its edge so the artwork can be placed there separately. All space inside the frame opening and outside the frame silhouette must be genuinely alpha-transparent. Only the ivory body of the frame and its ink drawing are opaque. High-resolution crisp illustration, landscape. Deliver just this single complete frame, empty center, no painting, no words, no paper rectangle, no UI.
+
+Keep the visual restraint and understated line-based relief of the chandelier. Avoid shiny gold, metallic rendering, gray airbrush gradients, cast shadows, photorealistic bevels, heavy black baroque masses, extra dangling crystals or candles, huge crown crests, dense filigree filling the rails, and any black or white background.

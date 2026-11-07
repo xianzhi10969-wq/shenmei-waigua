@@ -1,0 +1,45 @@
+{
+  "status": "candidate for user review",
+  "files": [
+    {
+      "path": "assets/frame-horizontal-v1.png",
+      "bytes": 567991,
+      "sha256": "94730618956323dbe938457bbfb2283b6cc3a8a976e0e20ddfc963fba17baf82"
+    },
+    {
+      "path": "geometry.svg",
+      "bytes": 499,
+      "sha256": "1a71ba33b2e387c6818fe4bb46ecfb080b643a610cdf04d27eb76506f5cce22d"
+    },
+    {
+      "path": "geometry.json",
+      "bytes": 288,
+      "sha256": "9d78f3f79055dd37c7bf3cb99613456dd13d3b1c691347845f87923bbfa7f5a7"
+    },
+    {
+      "path": "PROMPT.txt",
+      "bytes": 2603,
+      "sha256": "7d6ca5820e0942b9336ca613a168542b14021e418af934ccd74d115c6d5f2433"
+    },
+    {
+      "path": "checks.json",
+      "bytes": 657,
+      "sha256": "88ce3dc06e5d7c9ccd936e2f41e9d678dff6bcaaacb4df9f28322bb17fa43a54"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3460,
+      "sha256": "1dcb1aa7f196fccc4460e9f53fe9bdd9cf0fe853d344715f63c53959d375556c"
+    },
+    {
+      "path": "build_preview.py",
+      "bytes": 2714,
+      "sha256": "7b81ba001234ac69fc6e3f96a2c16cebfb08748f999d0d04924777f9fc2f1b37"
+    },
+    {
+      "path": "sources.json",
+      "bytes": 451,
+      "sha256": "0ce93b0ee89e4e9c0dbc01d72b25aae2f46b14cf39fce7ab8dd207b69a453035"
+    }
+  ]
+}
