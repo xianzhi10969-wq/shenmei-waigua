@@ -1,12 +1,14 @@
 import {starMotion} from './star-motion.mjs';
 import {paperMotion,clamp,ease} from './paper-motion.mjs';
 import {attachGalleryGestures} from './gesture-adapter.mjs';
+import {createMobileHomeStar} from './mobile-home-star.mjs?v=20261107-seam';
 const $=s=>document.querySelector(s),Q=new URLSearchParams(location.search),NS='http://www.w3.org/2000/svg';
 try{history.scrollRestoration='manual'}catch{}
 const cinema=$('#cinema'),journey=$('#journey'),p3=$('#adopted-p3'),paper=$('#aperture'),traveller=$('#traveller');
 let starStart={x:0,y:0,size:90},starEnd={x:0,y:0};
 const reduced=matchMedia('(prefers-reduced-motion: reduce)');
 const baseline=$('#baseline'),v4=$('#v4'),mstack=$('#mstack');let v4scale=1,bmode='',bLimit=0;
+let renderMobileStar=null;
 let span=1,start=0,height=innerHeight,holdNight=Q.has('night'),sceneRef=null;
 const needP3Now=Q.has('at')||Q.has('still')||Q.has('night');
 let journeyHydrated=false,masksPrefetched=false,p3Signaled=false;
@@ -53,9 +55,15 @@ v4?.addEventListener('load',syncV4);
 function layout(){
  height=innerHeight;const W=cinema.clientWidth,H=Math.max(height,p3.scrollHeight||height),mobile=innerWidth<=680;
  cinema.style.height=H+'px';span=Math.round(height*1.55);journey.style.height=(H+span)+'px';
- // P1→P2: desktop = protected v4 iframe untouched, scroll-synced (water-iris v2 ?chain=1 rule); phone = 390 originals stacked.
+ // P1→P2: protected desktop v4; mobile original scenes + independent v4 star flight.
  const want=mobile?'m':'d';if(want!==bmode){bmode=want;document.body.dataset.base=want;if(mobile)hydrateMobileBase();if(!mobile&&!v4.src){v4.src=v4.dataset.src;}}
- if(mobile){const k=W/390,docH=(844+1060)*k;bLimit=Math.max(0,docH-height);mstack.style.width=W+'px';const st=$('#mstar');st.style.width=st.style.height=90*k+'px';st.style.left=(70-45)*k+'px';st.style.top=(844+859-45)*k+'px';}
+ if(mobile){const k=W/390,docH=(844+1060)*k;bLimit=Math.max(0,docH-height);mstack.style.width=W+'px';const st=$('#mstar');st.style.width=st.style.height=90*k+'px';st.style.left=(70-45)*k+'px';st.style.top=(844+859-45)*k+'px';
+  if(!renderMobileStar){
+   let scene=$('#mp1-scene');
+   if(!scene){scene=document.createElement('div');scene.id='mp1-scene';$('#mp1').before(scene);scene.append($('#mp1'));}
+   renderMobileStar=createMobileHomeStar(mstack,scene,st);
+  }
+ }
  else{v4scale=Math.min(1,W/1440);const fh=height/v4scale;bLimit=Math.max(0,1711-fh)*v4scale;v4.style.height=fh+'px';v4.style.transform=`scale(${v4scale}) translateX(-50%)`;}
  baseline.style.height=(bLimit+height)+'px';journey.style.marginTop=(-height)+'px';start=journey.offsetTop;
  mask.setAttribute('width',W);mask.setAttribute('height',H);solid.setAttribute('width',W);solid.setAttribute('height',H);
@@ -82,7 +90,13 @@ function layout(){
  render();
 }
 function render(){
- const b=Math.min(scrollY,start);if(bmode==='d'){syncV4();}else if(bmode==='m'){mstack.style.transform=`translate3d(0,${-b}px,0)`;}
+ const b=Math.min(scrollY,start);if(bmode==='d'){syncV4();}else if(bmode==='m'){
+  // offsetTop rounds to CSS pixels. Map its endpoint back to the exact image
+  // height so 430px phones reach the seated star before the P3 handoff.
+  const mobileScroll=start>0?b*bLimit/start:0;
+  mstack.style.transform=`translate3d(0,${-mobileScroll}px,0)`;
+  renderMobileStar(mobileScroll,bLimit,cinema.clientWidth,reduced.matches);
+ }
  // paper.css forces child layers visible; hiding the parent alone lets the
  // deferred night layer cover P1. Opacity hides the entire composited scene.
  const beforeJourney=!p3Signaled||scrollY<start-1;

@@ -1,0 +1,27 @@
+[
+  {
+    "width": 390,
+    "height": 844,
+    "dpr": 2,
+    "limit": 1060,
+    "errors": []
+  },
+  {
+    "width": 430,
+    "height": 932,
+    "dpr": 3,
+    "limit": 1167,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "dpr": 1,
+    "limit": 811,
+    "errors": []
+  },
+  {
+    "reducedMotion": true,
+    "pass": true
+  }
+]

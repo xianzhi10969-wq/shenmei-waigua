@@ -1,9 +1,14 @@
 {
   "date": "2026-11-07",
-  "scope": "Full website source, verified snapshots and complete local runtime assets",
-  "fileCountExcludingManifest": 1133,
-  "totalBytesExcludingManifest": 333831894,
+  "scope": "Full website base plus mobile home seam repair. Parallel collage integration is maintained separately.",
+  "fileCountExcludingManifest": 1142,
+  "totalBytesExcludingManifest": 334976631,
   "files": [
+    {
+      "path": "HOME-SEAM-FIX-2026-11-07.md",
+      "bytes": 3096,
+      "sha256": "149339dee2ae40f6c6defde83de75ed7d31792c83816cb6eb5269f81b2e0e5a7"
+    },
     {
       "path": "README.md",
       "bytes": 4854,
@@ -58,6 +63,21 @@
       "path": "checks/home-390.png",
       "bytes": 251855,
       "sha256": "c1c8530420bc6c17f4d25d800a078b20d049af4688bb3d956df1046f1187a949"
+    },
+    {
+      "path": "checks/home-seam/desktop-reduced-motion.json",
+      "bytes": 344,
+      "sha256": "65b76e1b5cffd689c05cb7df84900f23f680a4e647fbf0a0375563d74a0f9a2a"
+    },
+    {
+      "path": "checks/home-seam/verification.json",
+      "bytes": 714,
+      "sha256": "f6af8cec69ed49abcc69713c1efd7febdd2ab21024201cbdcd24877dd3eaf11b"
+    },
+    {
+      "path": "checks/home_seam.py",
+      "bytes": 3169,
+      "sha256": "95daed6908fdc5b2dde7273152372e85f34eb6e7cff81fb53a2d38ea27b9d848"
     },
     {
       "path": "checks/navigation.py",
@@ -2060,6 +2080,16 @@
       "sha256": "a1f4f9f3924dd24a56df9d0609c8c788c01f9de444ff2f5dfec5fb63afac94f9"
     },
     {
+      "path": "public/entrance-link.css",
+      "bytes": 333,
+      "sha256": "1137375b8acaf1fcbab579cbd02269403a803dd1b661cd0375ea5c4f71ea0c3f"
+    },
+    {
+      "path": "public/entrance-link.js",
+      "bytes": 724,
+      "sha256": "60202439aabead763cf841ba83b061b8cdd7a0e3d454f41101210389e9a3ecfd"
+    },
+    {
       "path": "public/entrance/README.md",
       "bytes": 3790,
       "sha256": "590890681394fbc4d74dc7c1d8a5c35ba3cbd5c5b057dc360c1ed85eda2028c8"
@@ -2450,6 +2480,11 @@
       "sha256": "4706706a4356d8ca67b4f6faa60cf7a12f00457e69bf44651d3974f525eccdc6"
     },
     {
+      "path": "public/entrance/assets/p1-brand-composition-a-v20261102.svg",
+      "bytes": 96264,
+      "sha256": "742fe17ef02e3e9d7b6e7f6657ca36e9e4b784bf1bc40d7fed82d363bf00c941"
+    },
+    {
       "path": "public/entrance/assets/paper-patch.png",
       "bytes": 16696,
       "sha256": "e724b26b63835ae56521bc2cf8853bc5cd3404c987981fb92a22c56071dcceaf"
@@ -2516,8 +2551,8 @@
     },
     {
       "path": "public/entrance/continuous.css",
-      "bytes": 1087,
-      "sha256": "c0d1870dd9b48e318153b52e72f5dfe98f84bc0d6e2ef927598bf0393dc8ab8c"
+      "bytes": 1698,
+      "sha256": "631cf5d90658bc53920184884aeb8dfba4b8f10586ee16832cace2e3cedc5a68"
     },
     {
       "path": "public/entrance/cover-extension.css",
@@ -2541,8 +2576,13 @@
     },
     {
       "path": "public/entrance/index.html",
-      "bytes": 9126,
-      "sha256": "e75f458e85b8512b02e1aa8dd890e586a251ad2066cb60a487d629690b2e1fda"
+      "bytes": 9117,
+      "sha256": "2d9ccf469b60284ffc800debe8c7ce1042b14d990b5cf68497fd5cfc467277a9"
+    },
+    {
+      "path": "public/entrance/mobile-home-star.mjs",
+      "bytes": 2738,
+      "sha256": "f8769a70b66f8d63cbe96c5f9c626c8ab4c170db03bc2d9acb65b1b0af4776d7"
     },
     {
       "path": "public/entrance/mobile-star-blink.js",
@@ -2650,6 +2690,11 @@
       "sha256": "b9a9df57d989d62528987641d1a5d5d6bd4a753e0f33e95a4ab4c45344b6a182"
     },
     {
+      "path": "public/entrance/p3-stained-glass-v3-2026-10-23/assets/m_p2_layered_v20261107.svg",
+      "bytes": 1031866,
+      "sha256": "7f8ac525d7c0f5fb7cf7d964926387be9454f5726dd8c9329618e2d556c45e5d"
+    },
+    {
       "path": "public/entrance/p3-stained-glass-v3-2026-10-23/assets/m_p2_nostar.png",
       "bytes": 607485,
       "sha256": "d81ac2e061111904cab92354346a27bdcbc15ff5db3bc31ca561aa67b413f0d4"
@@ -2676,8 +2721,8 @@
     },
     {
       "path": "public/entrance/star-navigation-anchor.mjs",
-      "bytes": 6914,
-      "sha256": "46dfa8a0004c80a2993da474ccb850591cab42160b1e4bc90369390ab5b9389d"
+      "bytes": 7288,
+      "sha256": "9027300c4ca5634e4475f2e98b8453a86024d5718233bd81718d1c13e6f57ed0"
     },
     {
       "path": "public/entrance/star-navigation-data.mjs",
@@ -2687,7 +2732,7 @@
     {
       "path": "public/entrance/star-navigation-host.mjs",
       "bytes": 728,
-      "sha256": "3e3c39171f929edb45c4946b86bf740d261ed04dbf1f90b7ecd989645f2f59e4"
+      "sha256": "41057983f7a4dd879cfe0a77c7b9d4e96a728578444126ac3e2710a6ce451129"
     },
     {
       "path": "public/entrance/star-navigation.css",
@@ -2721,18 +2766,8 @@
     },
     {
       "path": "public/entrance/transition.mjs",
-      "bytes": 9909,
-      "sha256": "3801e25fb505024555a8f813400562cc4d2cb76ed68e02a8f7e7cc07df3a9e8f"
-    },
-    {
-      "path": "public/entrance-link.css",
-      "bytes": 333,
-      "sha256": "1137375b8acaf1fcbab579cbd02269403a803dd1b661cd0375ea5c4f71ea0c3f"
-    },
-    {
-      "path": "public/entrance-link.js",
-      "bytes": 724,
-      "sha256": "60202439aabead763cf841ba83b061b8cdd7a0e3d454f41101210389e9a3ecfd"
+      "bytes": 10502,
+      "sha256": "4134ce1aee6a9816fa1880b3247dc53c8e3a9038e95f575118dcd9c04ce5aea4"
     },
     {
       "path": "public/features/data.json",
@@ -5595,6 +5630,11 @@
       "sha256": "77cd06da0ee3c88eeadad85dae3847bd460938996d2926836c149641493b7d2c"
     },
     {
+      "path": "scripts/build_home_seam.py",
+      "bytes": 2174,
+      "sha256": "fa8fc5cc5f5a6f99d4dc6c7c1dd52c07222a757ffe911030667f81138255ba2e"
+    },
+    {
       "path": "scripts/export_api.py",
       "bytes": 862,
       "sha256": "17afc41101a260adccccd4afc9bff2490fa4c5e762d7979d374e7c6237bcd022"
@@ -5623,6 +5663,11 @@
       "path": "src/fonts/ZhuqueFangsong-Regular.ttf",
       "bytes": 8824084,
       "sha256": "558c62730844fe54ba220146ed62f859d4e2880188d92d985f8921c6e3743bc4"
+    },
+    {
+      "path": "src/home-seam/geometry.json",
+      "bytes": 2803,
+      "sha256": "f98352c91a5df711b2bf6014ba1b18eabcb161273ecba0a60f8e6296182f9a44"
     },
     {
       "path": "src/source-status.json",
