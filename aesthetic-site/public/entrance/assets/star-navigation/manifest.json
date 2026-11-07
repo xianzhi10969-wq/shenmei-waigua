@@ -1,0 +1,10 @@
+{
+  "source": "local V15 illustration set; pixels unchanged; 01–04 approved individually, 05 retained when user moved to implementation",
+  "sha256": {
+    "mirror-water-v10.png": "3900669a34fc3407cf9f4eba89c2529d07530ddba0424ea24f15bd729a7d81d6",
+    "topics-style-samples-v8.png": "854875f9ca9b359c744dcdfe2857139eb4cc889676dd5050100cbd8db3368f4a",
+    "curiosity-key-v9.png": "5113a2ab764e0211b1e89f1c97c10957b679e39f96e32dc7489eaad6365812f1",
+    "imagery-vessel-v11.png": "386ed0b5b2a16c151f92b73f5719b28ddb60e3489b5505cefbb582413e13ecb8",
+    "resources-folio-v12.png": "92f991b034730443648a7d5ae9b639c6c78175f09fb8385c2a0596562db9bc08"
+  }
+}
