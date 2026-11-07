@@ -1,1 +1,12 @@
-.p4-entry{display:flex;justify-content:center;gap:32px;margin:16px auto 24px;font-family:CabinetSong,'Songti SC',serif;font-size:14px;line-height:24px}.p4-entry a{color:#24221f;text-decoration:none;min-height:44px;padding:10px 0;border-bottom:1px solid #a9a394}.p4-entry a:focus-visible{outline:2px solid #9c5260;outline-offset:4px}
+/* P3 repair: keep the complete window and all navigation within one viewport. */
+#adopted-p3 .gallery{min-height:100svh;padding-bottom:max(16px,env(safe-area-inset-bottom));}
+#adopted-p3 .all-topics-link{display:inline-flex;align-items:center;min-height:32px;color:inherit;text-decoration:none;letter-spacing:.08em;font-size:12px;}
+#adopted-p3 .all-topics-link:focus-visible{outline:1px solid currentColor;outline-offset:3px}
+#adopted-p3 .topic-hit{cursor:pointer;outline:none}
+#adopted-p3 .topic-hit:focus-visible rect{stroke:#776854;stroke-width:2;stroke-dasharray:4 4}
+#adopted-p3 .ribbon-cn{font-size:34px;letter-spacing:1.5px}
+#adopted-p3 .ribbon-cn[data-long="true"]{font-size:28px;letter-spacing:1px}
+#adopted-p3 .definition{font-size:13px;line-height:1.7}
+#adopted-p3 .credits{flex:none}
+#adopted-p3 .credits[open]{position:relative;z-index:8;background:var(--paper);}
+@media(max-width:680px){#adopted-p3 .definition{font-size:12px}#adopted-p3 .all-topics-link{font-size:11px}}

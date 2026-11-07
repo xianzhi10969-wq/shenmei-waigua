@@ -1,0 +1,40 @@
+{
+  "scope": "P3 interaction and viewport repair delta; supplements full-site MANIFEST",
+  "files": [
+    {
+      "path": "public/entrance-link.js",
+      "sha256": "38fa6e1f8431a21818f3cebcfb3c6e41d43fe81a4bb0c91006f0147cf1227d51",
+      "bytes": 4156
+    },
+    {
+      "path": "public/entrance-link.css",
+      "sha256": "ad11dd565fb59289137f9adf9e1fe15ec0c0dceceecd156d3de8270b2d232158",
+      "bytes": 987
+    },
+    {
+      "path": "public/entrance/gesture-adapter.mjs",
+      "sha256": "489dc1ead64548d888687ba6696f5d18b629d9823ff10ae365c22ee55325de66",
+      "bytes": 1592
+    },
+    {
+      "path": "P3-NAVIGATION-REPAIR-2026-11-07.md",
+      "sha256": "5f3da71c9992d3796fb6b2ceac6f4b15ce3a6f6f1843ce30f47168a77120ebb2",
+      "bytes": 3381
+    },
+    {
+      "path": "checks/p3-navigation-repair/check.cjs",
+      "sha256": "9ec8fc66f3c4fb7dd941de2ae8b5d14e6b2c1b596813dcf6960b44593d286581",
+      "bytes": 4509
+    },
+    {
+      "path": "checks/p3-navigation-repair/checks.json",
+      "sha256": "55cac5e0ea8a2cced122b9252097e27ff28d289dc607ae010dadbf4618c64edc",
+      "bytes": 42624
+    },
+    {
+      "path": "checks/p3-navigation-repair/structure.svg",
+      "sha256": "0eab90f8fd69f47efc7641151f515aff5f385fe258ca78968a93296319271431",
+      "bytes": 1460
+    }
+  ]
+}
