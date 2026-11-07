@@ -1,0 +1,275 @@
+[
+  {
+    "source": "reczz28HJJL2NiuF",
+    "label": "胡蝶与手中的花",
+    "desktop": [
+      20,
+      266,
+      680,
+      650,
+      -3
+    ],
+    "mobile": [
+      8,
+      309,
+      282,
+      420,
+      -3
+    ],
+    "crop": [
+      100,
+      220,
+      800,
+      650
+    ],
+    "mask": null,
+    "shape": null,
+    "original": "assets/originals/dc2bb87e278d294117158851.jpg",
+    "case_record_id": "reczz28HJJL2NiuF",
+    "case_title": "良友创刊号封面",
+    "source_url": "https://www.shhk.gov.cn/xwzx/002008/002008040/20230515/1a0ad634-1e24-4796-8597-ca5a465ebbda.html",
+    "term_record_id": "reczz28HJJL2GJns",
+    "caseImage": "/media/dc2bb87e278d294117158851.jpg",
+    "origin": "existing-case",
+    "originalSha256": "38d96b05066eab782a06279e7b7e936ce9dc97466a2d46320d77349650288134"
+  },
+  {
+    "source": "reczz28HJJL2NiuF",
+    "label": "良友的红字刊头",
+    "desktop": [
+      20,
+      125,
+      576,
+      164,
+      -2
+    ],
+    "mobile": [
+      8,
+      113,
+      231,
+      156,
+      -3
+    ],
+    "crop": [
+      0,
+      0,
+      1000,
+      215
+    ],
+    "mask": null,
+    "shape": null,
+    "original": "assets/originals/dc2bb87e278d294117158851.jpg",
+    "case_record_id": "reczz28HJJL2NiuF",
+    "case_title": "良友创刊号封面",
+    "source_url": "https://www.shhk.gov.cn/xwzx/002008/002008040/20230515/1a0ad634-1e24-4796-8597-ca5a465ebbda.html",
+    "term_record_id": "reczz28HJJL2GJns",
+    "caseImage": "/media/dc2bb87e278d294117158851.jpg",
+    "origin": "existing-case",
+    "originalSha256": "38d96b05066eab782a06279e7b7e936ce9dc97466a2d46320d77349650288134"
+  },
+  {
+    "source": "reczz28HJJL2NioP",
+    "label": "吉斯蒙达的马赛克刊头",
+    "desktop": [
+      655,
+      129,
+      520,
+      181,
+      3
+    ],
+    "mobile": [
+      160,
+      104,
+      222,
+      109,
+      3
+    ],
+    "crop": [
+      35,
+      18,
+      910,
+      148
+    ],
+    "mask": null,
+    "shape": null,
+    "original": "assets/originals/3b6d081597a4e5dbd444c0d6.jpg",
+    "case_record_id": "reczz28HJJL2NioP",
+    "case_title": "吉斯蒙达",
+    "source_url": "https://www.muchafoundation.org/en/gallery/browse-works/object/21",
+    "term_record_id": "reczz28HJJL2GJns",
+    "caseImage": "/media/3b6d081597a4e5dbd444c0d6.jpg",
+    "origin": "existing-case",
+    "originalSha256": "ffeb96ee089a212c4cb8e3abe312fcfcc468a316dddd1f0f7036d6ee5b8192a0"
+  },
+  {
+    "source": "reczz28HJJL2NioP",
+    "label": "萨拉的长袍与侧身",
+    "desktop": [
+      558,
+      198,
+      567,
+      850,
+      0
+    ],
+    "mobile": [
+      163,
+      201,
+      220,
+      716,
+      0
+    ],
+    "crop": [
+      25,
+      160,
+      940,
+      810
+    ],
+    "mask": "gismonda",
+    "shape": null,
+    "display": "assets/cutouts/gismonda.webp",
+    "original": "assets/originals/3b6d081597a4e5dbd444c0d6.jpg",
+    "case_record_id": "reczz28HJJL2NioP",
+    "case_title": "吉斯蒙达",
+    "source_url": "https://www.muchafoundation.org/en/gallery/browse-works/object/21",
+    "term_record_id": "reczz28HJJL2GJns",
+    "caseImage": "/media/3b6d081597a4e5dbd444c0d6.jpg",
+    "origin": "existing-case",
+    "originalSha256": "ffeb96ee089a212c4cb8e3abe312fcfcc468a316dddd1f0f7036d6ee5b8192a0"
+  },
+  {
+    "source": "reczz28HJJL2NioP",
+    "label": "长袍上的植物纹样",
+    "desktop": [
+      31,
+      855,
+      302,
+      224,
+      -4
+    ],
+    "mobile": [
+      8,
+      735,
+      191,
+      181,
+      -4
+    ],
+    "crop": [
+      316,
+      424,
+      370,
+      220
+    ],
+    "mask": null,
+    "shape": "torn",
+    "original": "assets/originals/3b6d081597a4e5dbd444c0d6.jpg",
+    "case_record_id": "reczz28HJJL2NioP",
+    "case_title": "吉斯蒙达",
+    "source_url": "https://www.muchafoundation.org/en/gallery/browse-works/object/21",
+    "term_record_id": "reczz28HJJL2GJns",
+    "caseImage": "/media/3b6d081597a4e5dbd444c0d6.jpg",
+    "origin": "existing-case",
+    "originalSha256": "ffeb96ee089a212c4cb8e3abe312fcfcc468a316dddd1f0f7036d6ee5b8192a0"
+  },
+  {
+    "source": "reczz28HJJL2NioP",
+    "label": "剧院名称的弧形排字",
+    "desktop": [
+      322,
+      922,
+      638,
+      157,
+      3
+    ],
+    "mobile": [
+      60,
+      917,
+      319,
+      172,
+      3
+    ],
+    "crop": [
+      80,
+      801,
+      840,
+      170
+    ],
+    "mask": null,
+    "shape": null,
+    "original": "assets/originals/3b6d081597a4e5dbd444c0d6.jpg",
+    "case_record_id": "reczz28HJJL2NioP",
+    "case_title": "吉斯蒙达",
+    "source_url": "https://www.muchafoundation.org/en/gallery/browse-works/object/21",
+    "term_record_id": "reczz28HJJL2GJns",
+    "caseImage": "/media/3b6d081597a4e5dbd444c0d6.jpg",
+    "origin": "existing-case",
+    "originalSha256": "ffeb96ee089a212c4cb8e3abe312fcfcc468a316dddd1f0f7036d6ee5b8192a0"
+  },
+  {
+    "source": "reczz28HJJL2NiuF",
+    "label": "捧在胸前的花束",
+    "desktop": [
+      28,
+      545,
+      272,
+      250,
+      5
+    ],
+    "mobile": [
+      8,
+      537,
+      140,
+      149,
+      5
+    ],
+    "crop": [
+      280,
+      625,
+      330,
+      200
+    ],
+    "mask": null,
+    "shape": "ellipse",
+    "original": "assets/originals/dc2bb87e278d294117158851.jpg",
+    "case_record_id": "reczz28HJJL2NiuF",
+    "case_title": "良友创刊号封面",
+    "source_url": "https://www.shhk.gov.cn/xwzx/002008/002008040/20230515/1a0ad634-1e24-4796-8597-ca5a465ebbda.html",
+    "term_record_id": "reczz28HJJL2GJns",
+    "caseImage": "/media/dc2bb87e278d294117158851.jpg",
+    "origin": "existing-case",
+    "originalSha256": "38d96b05066eab782a06279e7b7e936ce9dc97466a2d46320d77349650288134"
+  },
+  {
+    "source": "reczz28HJJL2NiuF",
+    "label": "1926年的出版信息",
+    "desktop": [
+      804,
+      944,
+      372,
+      122,
+      -3
+    ],
+    "mobile": [
+      203,
+      819,
+      176,
+      114,
+      -3
+    ],
+    "crop": [
+      15,
+      883,
+      970,
+      110
+    ],
+    "mask": null,
+    "shape": null,
+    "original": "assets/originals/dc2bb87e278d294117158851.jpg",
+    "case_record_id": "reczz28HJJL2NiuF",
+    "case_title": "良友创刊号封面",
+    "source_url": "https://www.shhk.gov.cn/xwzx/002008/002008040/20230515/1a0ad634-1e24-4796-8597-ca5a465ebbda.html",
+    "term_record_id": "reczz28HJJL2GJns",
+    "caseImage": "/media/dc2bb87e278d294117158851.jpg",
+    "origin": "existing-case",
+    "originalSha256": "38d96b05066eab782a06279e7b7e936ce9dc97466a2d46320d77349650288134"
+  }
+]

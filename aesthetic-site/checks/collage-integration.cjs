@@ -42,7 +42,7 @@ for(const width of [390,1440]){
  }
  }
 }
-await page.goto('http://127.0.0.1:8840/collages/');if(await page.locator('li').count()!==21)throw Error('Index count');
+await page.goto('http://127.0.0.1:8840/collages/');if(await page.locator('li').count()!==rows.length+1)throw Error('Index count');
 await browser.close();
 fs.writeFileSync(path.join(root,'checks/collage-integration.json'),JSON.stringify({reports,errors},null,2));
 console.log(JSON.stringify({views:reports.length,clicks:reports.reduce((s,r)=>s+r.clicks,0),errors}));if(errors.length)process.exit(1);

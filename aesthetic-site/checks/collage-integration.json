@@ -201,6 +201,46 @@
       "svgWidth": 390
     },
     {
+      "slug": "editorial",
+      "width": 390,
+      "clicks": 8,
+      "caseLinks": 8,
+      "visible": true,
+      "height": 1110,
+      "overflow": false,
+      "svgWidth": 390
+    },
+    {
+      "slug": "low-energy",
+      "width": 390,
+      "clicks": 8,
+      "caseLinks": 8,
+      "visible": true,
+      "height": 1110,
+      "overflow": false,
+      "svgWidth": 390
+    },
+    {
+      "slug": "push-pull",
+      "width": 390,
+      "clicks": 8,
+      "caseLinks": 8,
+      "visible": true,
+      "height": 1110,
+      "overflow": false,
+      "svgWidth": 390
+    },
+    {
+      "slug": "dark",
+      "width": 390,
+      "clicks": 8,
+      "caseLinks": 8,
+      "visible": true,
+      "height": 1110,
+      "overflow": false,
+      "svgWidth": 390
+    },
+    {
       "slug": "translucent",
       "width": 1200,
       "clicks": 17,
@@ -395,6 +435,46 @@
       "width": 1200,
       "clicks": 11,
       "caseLinks": 5,
+      "visible": true,
+      "height": 1100,
+      "overflow": false,
+      "svgWidth": 1200
+    },
+    {
+      "slug": "editorial",
+      "width": 1200,
+      "clicks": 8,
+      "caseLinks": 8,
+      "visible": true,
+      "height": 1100,
+      "overflow": false,
+      "svgWidth": 1200
+    },
+    {
+      "slug": "low-energy",
+      "width": 1200,
+      "clicks": 8,
+      "caseLinks": 8,
+      "visible": true,
+      "height": 1100,
+      "overflow": false,
+      "svgWidth": 1200
+    },
+    {
+      "slug": "push-pull",
+      "width": 1200,
+      "clicks": 8,
+      "caseLinks": 8,
+      "visible": true,
+      "height": 1100,
+      "overflow": false,
+      "svgWidth": 1200
+    },
+    {
+      "slug": "dark",
+      "width": 1200,
+      "clicks": 8,
+      "caseLinks": 8,
       "visible": true,
       "height": 1100,
       "overflow": false,

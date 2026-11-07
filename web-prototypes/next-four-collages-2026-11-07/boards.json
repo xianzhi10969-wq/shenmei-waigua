@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "editorial",
+    "name": "画报风",
+    "english": "Pictorial",
+    "id": "reczz28HJJL2GJns",
+    "caseIds": [
+      "reczz28HJJL2NioP",
+      "reczz28HJJL2NiuF"
+    ]
+  },
+  {
+    "slug": "low-energy",
+    "name": "低能量",
+    "english": "Low Energy",
+    "id": "reczz28HJJL2GK3M",
+    "caseIds": [
+      "reczz28HJJL2NjFM",
+      "reczz28HJJL2NjCi",
+      "reczz28HJJL2NjI0"
+    ]
+  },
+  {
+    "slug": "push-pull",
+    "name": "拉扯感",
+    "english": "Push and Pull",
+    "id": "reczz28HJJL2GKpL",
+    "caseIds": [
+      "reczz28HJJL2Njof",
+      "reczz28HJJL2NjvZ"
+    ]
+  },
+  {
+    "slug": "dark",
+    "name": "暗黑",
+    "english": "Dark Aesthetic",
+    "id": "reczz28HJJL2GOfq",
+    "caseIds": [
+      "reczz28HJJL2Nozt",
+      "reczz28HJJL2Np2q",
+      "reczz28HJJL2Np5S"
+    ]
+  }
+]

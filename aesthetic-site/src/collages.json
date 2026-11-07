@@ -2265,5 +2265,345 @@
     "desktopRatio": 1.0909090909090908,
     "mobile": "/collages/remaining-twelve-dense-2026-11-07/fated-mobile.svg",
     "mobileRatio": 0.35135135135135137
+  },
+  {
+    "slug": "editorial",
+    "termId": "reczz28HJJL2GJns",
+    "name": "画报风",
+    "batch": "next-four-collages-2026-11-07",
+    "status": "pending-review",
+    "pieces": [
+      {
+        "original": "/collages/next-four-collages-2026-11-07/assets/originals/dc2bb87e278d294117158851.jpg",
+        "title": "良友创刊号封面",
+        "label": "胡蝶与手中的花",
+        "source": "https://www.shhk.gov.cn/xwzx/002008/002008040/20230515/1a0ad634-1e24-4796-8597-ca5a465ebbda.html",
+        "caseId": "reczz28HJJL2NiuF",
+        "caseImage": "/media/dc2bb87e278d294117158851.jpg",
+        "origin": "existing-case"
+      },
+      {
+        "original": "/collages/next-four-collages-2026-11-07/assets/originals/dc2bb87e278d294117158851.jpg",
+        "title": "良友创刊号封面",
+        "label": "良友的红字刊头",
+        "source": "https://www.shhk.gov.cn/xwzx/002008/002008040/20230515/1a0ad634-1e24-4796-8597-ca5a465ebbda.html",
+        "caseId": "reczz28HJJL2NiuF",
+        "caseImage": "/media/dc2bb87e278d294117158851.jpg",
+        "origin": "existing-case"
+      },
+      {
+        "original": "/collages/next-four-collages-2026-11-07/assets/originals/3b6d081597a4e5dbd444c0d6.jpg",
+        "title": "吉斯蒙达",
+        "label": "吉斯蒙达的马赛克刊头",
+        "source": "https://www.muchafoundation.org/en/gallery/browse-works/object/21",
+        "caseId": "reczz28HJJL2NioP",
+        "caseImage": "/media/3b6d081597a4e5dbd444c0d6.jpg",
+        "origin": "existing-case"
+      },
+      {
+        "original": "/collages/next-four-collages-2026-11-07/assets/originals/3b6d081597a4e5dbd444c0d6.jpg",
+        "title": "吉斯蒙达",
+        "label": "萨拉的长袍与侧身",
+        "source": "https://www.muchafoundation.org/en/gallery/browse-works/object/21",
+        "caseId": "reczz28HJJL2NioP",
+        "caseImage": "/media/3b6d081597a4e5dbd444c0d6.jpg",
+        "origin": "existing-case"
+      },
+      {
+        "original": "/collages/next-four-collages-2026-11-07/assets/originals/3b6d081597a4e5dbd444c0d6.jpg",
+        "title": "吉斯蒙达",
+        "label": "长袍上的植物纹样",
+        "source": "https://www.muchafoundation.org/en/gallery/browse-works/object/21",
+        "caseId": "reczz28HJJL2NioP",
+        "caseImage": "/media/3b6d081597a4e5dbd444c0d6.jpg",
+        "origin": "existing-case"
+      },
+      {
+        "original": "/collages/next-four-collages-2026-11-07/assets/originals/3b6d081597a4e5dbd444c0d6.jpg",
+        "title": "吉斯蒙达",
+        "label": "剧院名称的弧形排字",
+        "source": "https://www.muchafoundation.org/en/gallery/browse-works/object/21",
+        "caseId": "reczz28HJJL2NioP",
+        "caseImage": "/media/3b6d081597a4e5dbd444c0d6.jpg",
+        "origin": "existing-case"
+      },
+      {
+        "original": "/collages/next-four-collages-2026-11-07/assets/originals/dc2bb87e278d294117158851.jpg",
+        "title": "良友创刊号封面",
+        "label": "捧在胸前的花束",
+        "source": "https://www.shhk.gov.cn/xwzx/002008/002008040/20230515/1a0ad634-1e24-4796-8597-ca5a465ebbda.html",
+        "caseId": "reczz28HJJL2NiuF",
+        "caseImage": "/media/dc2bb87e278d294117158851.jpg",
+        "origin": "existing-case"
+      },
+      {
+        "original": "/collages/next-four-collages-2026-11-07/assets/originals/dc2bb87e278d294117158851.jpg",
+        "title": "良友创刊号封面",
+        "label": "1926年的出版信息",
+        "source": "https://www.shhk.gov.cn/xwzx/002008/002008040/20230515/1a0ad634-1e24-4796-8597-ca5a465ebbda.html",
+        "caseId": "reczz28HJJL2NiuF",
+        "caseImage": "/media/dc2bb87e278d294117158851.jpg",
+        "origin": "existing-case"
+      }
+    ],
+    "desktop": "/collages/next-four-collages-2026-11-07/editorial-desktop.svg",
+    "desktopRatio": 1.0909090909090908,
+    "mobile": "/collages/next-four-collages-2026-11-07/editorial-mobile.svg",
+    "mobileRatio": 0.35135135135135137
+  },
+  {
+    "slug": "low-energy",
+    "termId": "reczz28HJJL2GK3M",
+    "name": "低能量",
+    "batch": "next-four-collages-2026-11-07",
+    "status": "pending-review",
+    "pieces": [
+      {
+        "original": "/collages/next-four-collages-2026-11-07/assets/originals/paf-1.jpg",
+        "title": "POST ARCHIVE FACTION (PAF)2025 秋冬系列",
+        "label": "把走秀变成起床之前",
+        "source": "https://techuntermagazine.com/postarchivefaction-aw25-pfwhighlights",
+        "caseId": "reczz28HJJL2NjFM",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/next-four-collages-2026-11-07/assets/originals/f393df569975a468ce3786fa.jpg",
+        "title": "休息",
+        "label": "背向观众的休息",
+        "source": "https://www.musee-orsay.fr/fr/oeuvres/hvile-85460",
+        "caseId": "reczz28HJJL2NjI0",
+        "caseImage": null,
+        "origin": "existing-case"
+      },
+      {
+        "original": "/collages/next-four-collages-2026-11-07/assets/originals/paf-8.jpg",
+        "title": "POST ARCHIVE FACTION (PAF)2025 秋冬系列",
+        "label": "灰格纹里的蜷缩",
+        "source": "https://techuntermagazine.com/postarchivefaction-aw25-pfwhighlights",
+        "caseId": "reczz28HJJL2NjFM",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/next-four-collages-2026-11-07/assets/originals/paf-10.jpg",
+        "title": "POST ARCHIVE FACTION (PAF)2025 秋冬系列",
+        "label": "西装也可以躺下来",
+        "source": "https://techuntermagazine.com/postarchivefaction-aw25-pfwhighlights",
+        "caseId": "reczz28HJJL2NjFM",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/next-four-collages-2026-11-07/assets/originals/dc10086406a62e2171df00f3.jpeg",
+        "title": "POST ARCHIVE FACTION (PAF)2025 秋冬系列",
+        "label": "深色层叠造型",
+        "source": "https://techuntermagazine.com/postarchivefaction-aw25-pfwhighlights",
+        "caseId": "reczz28HJJL2NjFM",
+        "caseImage": "/media/dc10086406a62e2171df00f3.jpeg",
+        "origin": "existing-case"
+      },
+      {
+        "original": "/collages/next-four-collages-2026-11-07/assets/originals/10d7f17390496215e383b7a7.jpg",
+        "title": "奥勃洛莫夫",
+        "label": "奥勃洛莫夫的初版扉页",
+        "source": "https://www.britannica.com/topic/Oblomov",
+        "caseId": "reczz28HJJL2NjCi",
+        "caseImage": "/media/10d7f17390496215e383b7a7.jpg",
+        "origin": "existing-case"
+      },
+      {
+        "original": "/collages/next-four-collages-2026-11-07/assets/originals/paf-6.jpg",
+        "title": "POST ARCHIVE FACTION (PAF)2025 秋冬系列",
+        "label": "床边的鞋",
+        "source": "https://techuntermagazine.com/postarchivefaction-aw25-pfwhighlights",
+        "caseId": "reczz28HJJL2NjFM",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/next-four-collages-2026-11-07/assets/originals/f393df569975a468ce3786fa.jpg",
+        "title": "休息",
+        "label": "边柜上的一只白色碗",
+        "source": "https://www.musee-orsay.fr/fr/oeuvres/hvile-85460",
+        "caseId": "reczz28HJJL2NjI0",
+        "caseImage": null,
+        "origin": "existing-case"
+      }
+    ],
+    "desktop": "/collages/next-four-collages-2026-11-07/low-energy-desktop.svg",
+    "desktopRatio": 1.0909090909090908,
+    "mobile": "/collages/next-four-collages-2026-11-07/low-energy-mobile.svg",
+    "mobileRatio": 0.35135135135135137
+  },
+  {
+    "slug": "push-pull",
+    "termId": "reczz28HJJL2GKpL",
+    "name": "拉扯感",
+    "batch": "next-four-collages-2026-11-07",
+    "status": "pending-review",
+    "pieces": [
+      {
+        "original": "/collages/next-four-collages-2026-11-07/assets/originals/165d3bff6cc576d51503a7a3.jpg",
+        "title": "黑色不伦瑞克兵",
+        "label": "有人要离开，有人拦住门",
+        "source": "https://www.liverpoolmuseums.org.uk/artifact/black-brunswickers",
+        "caseId": "reczz28HJJL2Njof",
+        "caseImage": null,
+        "origin": "existing-case"
+      },
+      {
+        "original": "/collages/next-four-collages-2026-11-07/assets/originals/f128da53fbb14fe754e9e55e.jpg",
+        "title": "傲慢与偏见",
+        "label": "傲慢与偏见的初版扉页",
+        "source": "https://janeaustens.house/online-exhibition/the-making-of-pride-and-prejudice/the-making-of-pride-and-prejudice-2/",
+        "caseId": "reczz28HJJL2NjvZ",
+        "caseImage": "/media/f128da53fbb14fe754e9e55e.jpg",
+        "origin": "existing-case"
+      },
+      {
+        "original": "/collages/next-four-collages-2026-11-07/assets/originals/165d3bff6cc576d51503a7a3.jpg",
+        "title": "黑色不伦瑞克兵",
+        "label": "贴近与推拒的两个人",
+        "source": "https://www.liverpoolmuseums.org.uk/artifact/black-brunswickers",
+        "caseId": "reczz28HJJL2Njof",
+        "caseImage": null,
+        "origin": "existing-case"
+      },
+      {
+        "original": "/collages/next-four-collages-2026-11-07/assets/originals/165d3bff6cc576d51503a7a3.jpg",
+        "title": "黑色不伦瑞克兵",
+        "label": "墙上的出征图",
+        "source": "https://www.liverpoolmuseums.org.uk/artifact/black-brunswickers",
+        "caseId": "reczz28HJJL2Njof",
+        "caseImage": null,
+        "origin": "existing-case"
+      },
+      {
+        "original": "/collages/next-four-collages-2026-11-07/assets/originals/165d3bff6cc576d51503a7a3.jpg",
+        "title": "黑色不伦瑞克兵",
+        "label": "朝相反方向用力的手",
+        "source": "https://www.liverpoolmuseums.org.uk/artifact/black-brunswickers",
+        "caseId": "reczz28HJJL2Njof",
+        "caseImage": null,
+        "origin": "existing-case"
+      },
+      {
+        "original": "/collages/next-four-collages-2026-11-07/assets/originals/165d3bff6cc576d51503a7a3.jpg",
+        "title": "黑色不伦瑞克兵",
+        "label": "脚边也在等待的小狗",
+        "source": "https://www.liverpoolmuseums.org.uk/artifact/black-brunswickers",
+        "caseId": "reczz28HJJL2Njof",
+        "caseImage": null,
+        "origin": "existing-case"
+      },
+      {
+        "original": "/collages/next-four-collages-2026-11-07/assets/originals/165d3bff6cc576d51503a7a3.jpg",
+        "title": "黑色不伦瑞克兵",
+        "label": "红缎带打在白色绸缎上",
+        "source": "https://www.liverpoolmuseums.org.uk/artifact/black-brunswickers",
+        "caseId": "reczz28HJJL2Njof",
+        "caseImage": null,
+        "origin": "existing-case"
+      },
+      {
+        "original": "/collages/next-four-collages-2026-11-07/assets/originals/f128da53fbb14fe754e9e55e.jpg",
+        "title": "傲慢与偏见",
+        "label": "仍然留在书页上的作者名",
+        "source": "https://janeaustens.house/online-exhibition/the-making-of-pride-and-prejudice/the-making-of-pride-and-prejudice-2/",
+        "caseId": "reczz28HJJL2NjvZ",
+        "caseImage": "/media/f128da53fbb14fe754e9e55e.jpg",
+        "origin": "existing-case"
+      }
+    ],
+    "desktop": "/collages/next-four-collages-2026-11-07/push-pull-desktop.svg",
+    "desktopRatio": 1.0909090909090908,
+    "mobile": "/collages/next-four-collages-2026-11-07/push-pull-mobile.svg",
+    "mobileRatio": 0.35135135135135137
+  },
+  {
+    "slug": "dark",
+    "termId": "reczz28HJJL2GOfq",
+    "name": "暗黑",
+    "batch": "next-four-collages-2026-11-07",
+    "status": "pending-review",
+    "pieces": [
+      {
+        "original": "/collages/next-four-collages-2026-11-07/assets/originals/mat-4.jpg",
+        "title": "圣马太蒙召",
+        "label": "暗屋中的整场召唤",
+        "source": "https://saintlouis-rome.net/horaires-visite-opening-hours/caravage/",
+        "caseId": "reczz28HJJL2Nozt",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/next-four-collages-2026-11-07/assets/originals/362719f85cad7db06e92c555.jpg",
+        "title": "光之教堂",
+        "label": "从混凝土墙切进来的光",
+        "source": "http://www.ibaraki-kasugaoka-church.jp/j-welcome.html",
+        "caseId": "reczz28HJJL2Np5S",
+        "caseImage": "/media/362719f85cad7db06e92c555.jpg",
+        "origin": "existing-case"
+      },
+      {
+        "original": "/collages/next-four-collages-2026-11-07/assets/originals/mat-3.jpg",
+        "title": "圣马太蒙召",
+        "label": "绘画还在真正的礼拜堂里",
+        "source": "https://saintlouis-rome.net/horaires-visite-opening-hours/caravage/",
+        "caseId": "reczz28HJJL2Nozt",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/next-four-collages-2026-11-07/assets/originals/mat-9.jpg",
+        "title": "圣马太蒙召",
+        "label": "一只手让暗场有了方向",
+        "source": "https://saintlouis-rome.net/horaires-visite-opening-hours/caravage/",
+        "caseId": "reczz28HJJL2Nozt",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/next-four-collages-2026-11-07/assets/originals/8e22a80c10cf021cce82ea27.jpg",
+        "title": "圣马太蒙召",
+        "label": "被光找到的收税人",
+        "source": "https://saintlouis-rome.net/horaires-visite-opening-hours/caravage/",
+        "caseId": "reczz28HJJL2Nozt",
+        "caseImage": "/media/8e22a80c10cf021cce82ea27.jpg",
+        "origin": "existing-case"
+      },
+      {
+        "original": "/collages/next-four-collages-2026-11-07/assets/originals/362719f85cad7db06e92c555.jpg",
+        "title": "光之教堂",
+        "label": "长椅之间的暗部",
+        "source": "http://www.ibaraki-kasugaoka-church.jp/j-welcome.html",
+        "caseId": "reczz28HJJL2Np5S",
+        "caseImage": "/media/362719f85cad7db06e92c555.jpg",
+        "origin": "existing-case"
+      },
+      {
+        "original": "/collages/next-four-collages-2026-11-07/assets/originals/mat-3.jpg",
+        "title": "圣马太蒙召",
+        "label": "拱顶与金色画框",
+        "source": "https://saintlouis-rome.net/horaires-visite-opening-hours/caravage/",
+        "caseId": "reczz28HJJL2Nozt",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/next-four-collages-2026-11-07/assets/originals/362719f85cad7db06e92c555.jpg",
+        "title": "光之教堂",
+        "label": "光的交点",
+        "source": "http://www.ibaraki-kasugaoka-church.jp/j-welcome.html",
+        "caseId": "reczz28HJJL2Np5S",
+        "caseImage": "/media/362719f85cad7db06e92c555.jpg",
+        "origin": "existing-case"
+      }
+    ],
+    "desktop": "/collages/next-four-collages-2026-11-07/dark-desktop.svg",
+    "desktopRatio": 1.0909090909090908,
+    "mobile": "/collages/next-four-collages-2026-11-07/dark-mobile.svg",
+    "mobileRatio": 0.35135135135135137
   }
 ]

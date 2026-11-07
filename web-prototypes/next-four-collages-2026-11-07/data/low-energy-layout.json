@@ -1,0 +1,240 @@
+[
+  {
+    "source": "paf-1",
+    "label": "把走秀变成起床之前",
+    "desktop": [
+      19,
+      127,
+      1158,
+      409,
+      -1
+    ],
+    "mobile": [
+      8,
+      112,
+      373,
+      256,
+      -1
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "original": "assets/originals/paf-1.jpg",
+    "case_record_id": "reczz28HJJL2NjFM",
+    "case_title": "POST ARCHIVE FACTION (PAF)2025 秋冬系列",
+    "source_url": "https://techuntermagazine.com/postarchivefaction-aw25-pfwhighlights",
+    "term_record_id": "reczz28HJJL2GK3M",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "367922153d88fd28bd85ead8230c2091e6527bf282aaab6700d597429e697cd2"
+  },
+  {
+    "source": "reczz28HJJL2NjI0",
+    "label": "背向观众的休息",
+    "desktop": [
+      19,
+      554,
+      472,
+      524,
+      -2
+    ],
+    "mobile": [
+      8,
+      624,
+      193,
+      312,
+      -2
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "original": "assets/originals/f393df569975a468ce3786fa.jpg",
+    "case_record_id": "reczz28HJJL2NjI0",
+    "case_title": "休息",
+    "source_url": "https://www.musee-orsay.fr/fr/oeuvres/hvile-85460",
+    "term_record_id": "reczz28HJJL2GK3M",
+    "caseImage": "/media/f393df569975a468ce3786fa.jpg",
+    "origin": "existing-case",
+    "originalSha256": "13fe326b0de6542cfff83a774795097ac4637022d098adcd7831e3ebf7144e2f"
+  },
+  {
+    "source": "paf-8",
+    "label": "灰格纹里的蜷缩",
+    "desktop": [
+      848,
+      227,
+      329,
+      502,
+      4
+    ],
+    "mobile": [
+      234,
+      283,
+      145,
+      275,
+      4
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "original": "assets/originals/paf-8.jpg",
+    "case_record_id": "reczz28HJJL2NjFM",
+    "case_title": "POST ARCHIVE FACTION (PAF)2025 秋冬系列",
+    "source_url": "https://techuntermagazine.com/postarchivefaction-aw25-pfwhighlights",
+    "term_record_id": "reczz28HJJL2GK3M",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "7794f553aa1810d36d05c4b99f31c21a27ec62ef9ac43b7fb8dffb11c864848a"
+  },
+  {
+    "source": "paf-10",
+    "label": "西装也可以躺下来",
+    "desktop": [
+      498,
+      458,
+      358,
+      532,
+      3
+    ],
+    "mobile": [
+      111,
+      435,
+      217,
+      351,
+      3
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "original": "assets/originals/paf-10.jpg",
+    "case_record_id": "reczz28HJJL2NjFM",
+    "case_title": "POST ARCHIVE FACTION (PAF)2025 秋冬系列",
+    "source_url": "https://techuntermagazine.com/postarchivefaction-aw25-pfwhighlights",
+    "term_record_id": "reczz28HJJL2GK3M",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "a7e3c7cc0b940c29296fdd754334821dd8aac539cdce8269c7eb2564938e3e07"
+  },
+  {
+    "source": "reczz28HJJL2NjFM",
+    "label": "深色层叠造型",
+    "desktop": [
+      125,
+      311,
+      382,
+      571,
+      -5
+    ],
+    "mobile": [
+      8,
+      326,
+      173,
+      289,
+      -4
+    ],
+    "crop": null,
+    "mask": "paf",
+    "shape": null,
+    "display": "assets/cutouts/paf-black.webp",
+    "original": "assets/originals/dc10086406a62e2171df00f3.jpeg",
+    "case_record_id": "reczz28HJJL2NjFM",
+    "case_title": "POST ARCHIVE FACTION (PAF)2025 秋冬系列",
+    "source_url": "https://techuntermagazine.com/postarchivefaction-aw25-pfwhighlights",
+    "term_record_id": "reczz28HJJL2GK3M",
+    "caseImage": "/media/dc10086406a62e2171df00f3.jpeg",
+    "origin": "existing-case",
+    "originalSha256": "ddf1987db4813013728e0f09cce08cd2a7e196b01769ef8b5c2987a6d90a0a54"
+  },
+  {
+    "source": "reczz28HJJL2NjCi",
+    "label": "奥勃洛莫夫的初版扉页",
+    "desktop": [
+      389,
+      718,
+      253,
+      359,
+      -8
+    ],
+    "mobile": [
+      178,
+      770,
+      128,
+      231,
+      -7
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "original": "assets/originals/10d7f17390496215e383b7a7.jpg",
+    "case_record_id": "reczz28HJJL2NjCi",
+    "case_title": "奥勃洛莫夫",
+    "source_url": "https://www.britannica.com/topic/Oblomov",
+    "term_record_id": "reczz28HJJL2GK3M",
+    "caseImage": "/media/10d7f17390496215e383b7a7.jpg",
+    "origin": "existing-case",
+    "originalSha256": "0c7b7070da97bde558774be35ad5ac5f2124d81fe089fd9c94b36a9aaedb1f1a"
+  },
+  {
+    "source": "paf-6",
+    "label": "床边的鞋",
+    "desktop": [
+      804,
+      735,
+      370,
+      342,
+      4
+    ],
+    "mobile": [
+      228,
+      908,
+      151,
+      180,
+      4
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "original": "assets/originals/paf-6.jpg",
+    "case_record_id": "reczz28HJJL2NjFM",
+    "case_title": "POST ARCHIVE FACTION (PAF)2025 秋冬系列",
+    "source_url": "https://techuntermagazine.com/postarchivefaction-aw25-pfwhighlights",
+    "term_record_id": "reczz28HJJL2GK3M",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "785c2f9eb61584e0525487223b2244cb32fd687ce906f144a78262e10c1a5955"
+  },
+  {
+    "source": "reczz28HJJL2NjI0",
+    "label": "边柜上的一只白色碗",
+    "desktop": [
+      881,
+      127,
+      280,
+      190,
+      -3
+    ],
+    "mobile": [
+      8,
+      942,
+      190,
+      150,
+      -3
+    ],
+    "crop": [
+      630,
+      412,
+      370,
+      260
+    ],
+    "mask": null,
+    "shape": "torn",
+    "original": "assets/originals/f393df569975a468ce3786fa.jpg",
+    "case_record_id": "reczz28HJJL2NjI0",
+    "case_title": "休息",
+    "source_url": "https://www.musee-orsay.fr/fr/oeuvres/hvile-85460",
+    "term_record_id": "reczz28HJJL2GK3M",
+    "caseImage": "/media/f393df569975a468ce3786fa.jpg",
+    "origin": "existing-case",
+    "originalSha256": "13fe326b0de6542cfff83a774795097ac4637022d098adcd7831e3ebf7144e2f"
+  }
+]
