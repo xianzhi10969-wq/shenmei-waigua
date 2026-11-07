@@ -1,0 +1,420 @@
+[
+  {
+    "file": "illum_01_R.jpg",
+    "desktop": [
+      18,
+      125,
+      465,
+      390,
+      -2
+    ],
+    "mobile": [
+      8,
+      96,
+      225,
+      260,
+      -2
+    ],
+    "label": "水与透光",
+    "crop": null,
+    "mask": null,
+    "case_record_id": "reczz28LeeYH6DgG",
+    "original": "assets/translucent/illum_01_R.jpg",
+    "case_title": "Illuminance（照度）",
+    "source_url": "https://rinkokawauchi.com/en/works/194/"
+  },
+  {
+    "file": "illum_03_L.jpg",
+    "desktop": [
+      458,
+      120,
+      370,
+      325,
+      2
+    ],
+    "mobile": [
+      221,
+      102,
+      161,
+      217,
+      2
+    ],
+    "label": "树隙中的光",
+    "crop": null,
+    "mask": null,
+    "case_record_id": "reczz28LeeYH6DgG",
+    "original": "assets/translucent/illum_03_L.jpg",
+    "case_title": "Illuminance（照度）",
+    "source_url": "https://rinkokawauchi.com/en/works/194/"
+  },
+  {
+    "file": "rain_jb_35.jpg",
+    "desktop": [
+      815,
+      132,
+      370,
+      446,
+      -2
+    ],
+    "mobile": [
+      245,
+      316,
+      138,
+      247,
+      2
+    ],
+    "label": "雨瓶阵列",
+    "crop": null,
+    "mask": null,
+    "case_record_id": "reczz28LeeYH62Cx",
+    "original": "assets/translucent/rain_jb_35.jpg",
+    "case_title": "Rain Bottle（雨之瓶）",
+    "source_url": "https://www.nendo.jp/en/works/rain-bottle-2/"
+  },
+  {
+    "file": "illum_04_L.jpg",
+    "desktop": [
+      20,
+      498,
+      392,
+      335,
+      2
+    ],
+    "mobile": [
+      8,
+      356,
+      199,
+      246,
+      2
+    ],
+    "label": "海水的旋涡",
+    "crop": null,
+    "mask": null,
+    "case_record_id": "reczz28LeeYH6DgG",
+    "original": "assets/translucent/illum_04_L.jpg",
+    "case_title": "Illuminance（照度）",
+    "source_url": "https://rinkokawauchi.com/en/works/194/"
+  },
+  {
+    "file": "well_kub_og3.jpg",
+    "desktop": [
+      382,
+      450,
+      470,
+      320,
+      -2
+    ],
+    "mobile": [
+      125,
+      579,
+      253,
+      178,
+      -2
+    ],
+    "label": "玻璃装置全景",
+    "crop": null,
+    "mask": null,
+    "case_record_id": "reczz28LeeYH4bwm",
+    "original": "assets/translucent/well_kub_og3.jpg",
+    "case_title": "Well and Truly",
+    "source_url": "https://lesoeuvres.pinaultcollection.com/en/artwork/well-and-truly"
+  },
+  {
+    "file": "illum_02_R.jpg",
+    "desktop": [
+      29,
+      814,
+      365,
+      265,
+      -2
+    ],
+    "mobile": [
+      8,
+      767,
+      189,
+      178,
+      -3
+    ],
+    "label": "叶片上的水珠",
+    "crop": null,
+    "mask": null,
+    "case_record_id": "reczz28LeeYH6DgG",
+    "original": "assets/translucent/illum_02_R.jpg",
+    "case_title": "Illuminance（照度）",
+    "source_url": "https://rinkokawauchi.com/en/works/194/"
+  },
+  {
+    "file": "liquid_11.jpg",
+    "desktop": [
+      395,
+      794,
+      440,
+      285,
+      2
+    ],
+    "mobile": [
+      174,
+      897,
+      208,
+      198,
+      2
+    ],
+    "label": "蓝色玻璃凳",
+    "crop": null,
+    "mask": null,
+    "case_record_id": "reczz28LeeYH59r1",
+    "original": "assets/translucent/liquid_11.jpg",
+    "case_title": "Liquid Glacial（液态冰川）",
+    "source_url": "https://www.zaha-hadid-design.com/pages/liquid"
+  },
+  {
+    "file": "well_pinault_2.jpg",
+    "desktop": [
+      826,
+      745,
+      357,
+      332,
+      -1
+    ],
+    "mobile": [
+      8,
+      947,
+      163,
+      146,
+      -2
+    ],
+    "label": "水色与建筑",
+    "crop": null,
+    "mask": null,
+    "case_record_id": "reczz28LeeYH4bwm",
+    "original": "assets/translucent/well_pinault_2.jpg",
+    "case_title": "Well and Truly",
+    "source_url": "https://lesoeuvres.pinaultcollection.com/en/artwork/well-and-truly"
+  },
+  {
+    "file": "illum_cover.jpg",
+    "desktop": [
+      655,
+      316,
+      200,
+      225,
+      -6
+    ],
+    "mobile": [
+      9,
+      602,
+      130,
+      159,
+      -5
+    ],
+    "label": "透光的花瓣",
+    "crop": null,
+    "mask": null,
+    "case_record_id": "reczz28LeeYH6DgG",
+    "original": "assets/translucent/illum_cover.jpg",
+    "case_title": "Illuminance（照度）",
+    "source_url": "https://rinkokawauchi.com/en/works/194/"
+  },
+  {
+    "file": "illum_02_L.jpg",
+    "desktop": [
+      25,
+      354,
+      175,
+      174,
+      -5
+    ],
+    "mobile": [
+      288,
+      753,
+      94,
+      114,
+      5
+    ],
+    "label": "蓝色折射",
+    "crop": null,
+    "mask": null,
+    "case_record_id": "reczz28LeeYH6DgG",
+    "original": "assets/translucent/illum_02_L.jpg",
+    "case_title": "Illuminance（照度）",
+    "source_url": "https://rinkokawauchi.com/en/works/194/"
+  },
+  {
+    "file": "rain_sketch.jpg",
+    "desktop": [
+      427,
+      169,
+      164,
+      225,
+      -4
+    ],
+    "mobile": [
+      163,
+      770,
+      116,
+      130,
+      4
+    ],
+    "label": "雨的形态手稿",
+    "crop": null,
+    "mask": null,
+    "case_record_id": "reczz28LeeYH62Cx",
+    "original": "assets/translucent/rain_sketch.jpg",
+    "case_title": "Rain Bottle（雨之瓶）",
+    "source_url": "https://www.nendo.jp/en/works/rain-bottle-2/"
+  },
+  {
+    "file": "liquid_03.jpg",
+    "desktop": [
+      280,
+      375,
+      525,
+      423,
+      0
+    ],
+    "mobile": [
+      67,
+      355,
+      242,
+      195,
+      0
+    ],
+    "label": "完整玻璃桌",
+    "crop": [
+      77,
+      103,
+      850,
+      867
+    ],
+    "mask": "table",
+    "case_record_id": "reczz28LeeYH59r1",
+    "original": "assets/translucent/liquid_03.jpg",
+    "case_title": "Liquid Glacial（液态冰川）",
+    "source_url": "https://www.zaha-hadid-design.com/pages/liquid"
+  },
+  {
+    "file": "well_alt_143255.jpeg",
+    "desktop": [
+      919,
+      579,
+      240,
+      268,
+      5
+    ],
+    "mobile": [
+      274,
+      578,
+      107,
+      140,
+      4
+    ],
+    "label": "蓝色玻璃近景",
+    "crop": [
+      130,
+      220,
+      750,
+      650
+    ],
+    "mask": null,
+    "case_record_id": "reczz28LeeYH4bwm",
+    "original": "assets/translucent/well_alt_143255.jpeg",
+    "case_title": "Well and Truly",
+    "source_url": "https://lesoeuvres.pinaultcollection.com/en/artwork/well-and-truly"
+  },
+  {
+    "file": "liquid_12.jpg",
+    "desktop": [
+      595,
+      646,
+      360,
+      225,
+      -5
+    ],
+    "mobile": [
+      98,
+      675,
+      181,
+      121,
+      -4
+    ],
+    "label": "波浪玻璃器皿",
+    "crop": null,
+    "mask": null,
+    "case_record_id": "reczz28LeeYH59r1",
+    "original": "assets/translucent/liquid_12.jpg",
+    "case_title": "Liquid Glacial（液态冰川）",
+    "source_url": "https://www.zaha-hadid-design.com/pages/liquid"
+  },
+  {
+    "file": "rain_02.jpg",
+    "desktop": [
+      197,
+      619,
+      103,
+      230,
+      -6
+    ],
+    "mobile": [
+      21,
+      175,
+      61,
+      156,
+      -5
+    ],
+    "label": "一瓶雨",
+    "crop": null,
+    "mask": null,
+    "case_record_id": "reczz28LeeYH62Cx",
+    "original": "assets/translucent/rain_02.jpg",
+    "case_title": "Rain Bottle（雨之瓶）",
+    "source_url": "https://www.nendo.jp/en/works/rain-bottle-2/"
+  },
+  {
+    "file": "liquid_10.jpg",
+    "desktop": [
+      1008,
+      274,
+      165,
+      285,
+      5
+    ],
+    "mobile": [
+      292,
+      122,
+      78,
+      151,
+      4
+    ],
+    "label": "透明椅",
+    "crop": null,
+    "mask": null,
+    "case_record_id": "reczz28LeeYH59r1",
+    "original": "assets/translucent/liquid_10.jpg",
+    "case_title": "Liquid Glacial（液态冰川）",
+    "source_url": "https://www.zaha-hadid-design.com/pages/liquid"
+  },
+  {
+    "file": "illum_03_R.jpg",
+    "desktop": [
+      456,
+      887,
+      155,
+      169,
+      -5
+    ],
+    "mobile": [
+      196,
+      985,
+      107,
+      107,
+      -4
+    ],
+    "label": "掌心里的小生命",
+    "crop": null,
+    "mask": null,
+    "case_record_id": "reczz28LeeYH6DgG",
+    "original": "assets/translucent/illum_03_R.jpg",
+    "case_title": "Illuminance（照度）",
+    "source_url": "https://rinkokawauchi.com/en/works/194/"
+  }
+]

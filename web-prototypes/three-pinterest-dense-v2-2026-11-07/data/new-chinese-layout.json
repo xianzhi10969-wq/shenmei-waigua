@@ -1,0 +1,359 @@
+[
+  {
+    "file": "brick_corridor.jpg",
+    "desktop": [
+      19,
+      123,
+      643,
+      491,
+      -2
+    ],
+    "mobile": [
+      8,
+      109,
+      266,
+      258,
+      -2
+    ],
+    "label": "院墙、水面与树",
+    "crop": null,
+    "mask": null,
+    "case_record_id": "reczz28MjE1CRfHX",
+    "original": "assets/new-chinese/brick_corridor.jpg",
+    "case_title": "《砖墙》青普扬州行馆 The Brick Wall",
+    "source_url": "https://neriandhu.com/en/works/the-brick-wall-tsingpu-yangzhou-retreat"
+  },
+  {
+    "file": "samuel_vogue.jpg",
+    "desktop": [
+      850,
+      122,
+      333,
+      505,
+      2
+    ],
+    "mobile": [
+      230,
+      111,
+      151,
+      238,
+      2
+    ],
+    "label": "黑色造型全貌",
+    "crop": null,
+    "mask": null,
+    "case_record_id": "reczz28MjE1CSNUN",
+    "original": "assets/new-chinese/samuel_vogue.jpg",
+    "case_title": "Samuel Guì Yang 2024 秋冬系列",
+    "source_url": "https://www.vogue.com/fashion-shows/shanghai-fall-2024/samuel-gui-yang/slideshow/collection"
+  },
+  {
+    "file": "brick_aerial.jpg",
+    "desktop": [
+      25,
+      659,
+      727,
+      417,
+      1
+    ],
+    "mobile": [
+      9,
+      682,
+      270,
+      235,
+      -2
+    ],
+    "label": "水面与连廊",
+    "crop": null,
+    "mask": null,
+    "case_record_id": "reczz28MjE1CRfHX",
+    "original": "assets/new-chinese/brick_aerial.jpg",
+    "case_title": "《砖墙》青普扬州行馆 The Brick Wall",
+    "source_url": "https://neriandhu.com/en/works/the-brick-wall-tsingpu-yangzhou-retreat"
+  },
+  {
+    "file": "samuel_vogue2.jpg",
+    "desktop": [
+      834,
+      717,
+      346,
+      360,
+      -2
+    ],
+    "mobile": [
+      254,
+      895,
+      127,
+      200,
+      2
+    ],
+    "label": "红鞋与几何地面",
+    "crop": [
+      300,
+      720,
+      600,
+      280
+    ],
+    "mask": null,
+    "case_record_id": "reczz28MjE1CSNUN",
+    "original": "assets/new-chinese/samuel_vogue2.jpg",
+    "case_title": "Samuel Guì Yang 2024 秋冬系列",
+    "source_url": "https://www.vogue.com/fashion-shows/shanghai-fall-2024/samuel-gui-yang/slideshow/collection"
+  },
+  {
+    "file": "brick_corridor.jpg",
+    "desktop": [
+      614,
+      122,
+      247,
+      286,
+      3
+    ],
+    "mobile": [
+      8,
+      919,
+      240,
+      177,
+      2
+    ],
+    "label": "层层砖石",
+    "crop": [
+      570,
+      300,
+      400,
+      530
+    ],
+    "mask": null,
+    "case_record_id": "reczz28MjE1CRfHX",
+    "original": "assets/new-chinese/brick_corridor.jpg",
+    "case_title": "《砖墙》青普扬州行馆 The Brick Wall",
+    "source_url": "https://neriandhu.com/en/works/the-brick-wall-tsingpu-yangzhou-retreat"
+  },
+  {
+    "file": "brick_corridor.jpg",
+    "desktop": [
+      604,
+      395,
+      307,
+      672,
+      -1
+    ],
+    "mobile": [
+      247,
+      495,
+      134,
+      411,
+      1
+    ],
+    "label": "砖墙的肌理",
+    "crop": [
+      680,
+      180,
+      300,
+      720
+    ],
+    "mask": null,
+    "case_record_id": "reczz28MjE1CRfHX",
+    "original": "assets/new-chinese/brick_corridor.jpg",
+    "case_title": "《砖墙》青普扬州行馆 The Brick Wall",
+    "source_url": "https://neriandhu.com/en/works/the-brick-wall-tsingpu-yangzhou-retreat"
+  },
+  {
+    "file": "brick_courtyard.jpg",
+    "desktop": [
+      45,
+      445,
+      292,
+      378,
+      -4
+    ],
+    "mobile": [
+      8,
+      354,
+      171,
+      230,
+      -3
+    ],
+    "label": "建筑师的手稿",
+    "crop": null,
+    "mask": null,
+    "case_record_id": "reczz28MjE1CRfHX",
+    "original": "assets/new-chinese/brick_courtyard.jpg",
+    "case_title": "《砖墙》青普扬州行馆 The Brick Wall",
+    "source_url": "https://neriandhu.com/en/works/the-brick-wall-tsingpu-yangzhou-retreat"
+  },
+  {
+    "file": "samuel_vogue.jpg",
+    "desktop": [
+      299,
+      829,
+      202,
+      235,
+      -5
+    ],
+    "mobile": [
+      270,
+      354,
+      110,
+      154,
+      3
+    ],
+    "label": "绿包与衣服的结",
+    "crop": [
+      450,
+      370,
+      300,
+      350
+    ],
+    "mask": null,
+    "case_record_id": "reczz28MjE1CSNUN",
+    "original": "assets/new-chinese/samuel_vogue.jpg",
+    "case_title": "Samuel Guì Yang 2024 秋冬系列",
+    "source_url": "https://www.vogue.com/fashion-shows/shanghai-fall-2024/samuel-gui-yang/slideshow/collection"
+  },
+  {
+    "file": "shaofan_wright.jpg",
+    "desktop": [
+      853,
+      583,
+      326,
+      185,
+      4
+    ],
+    "mobile": [
+      134,
+      934,
+      142,
+      147,
+      -4
+    ],
+    "label": "钢管的弧线",
+    "crop": [
+      180,
+      100,
+      460,
+      280
+    ],
+    "mask": null,
+    "case_record_id": "reczz28MjE1CQqVq",
+    "original": "assets/new-chinese/shaofan_wright.jpg",
+    "case_title": "邵帆《椅》系列｜不锈钢圈椅",
+    "source_url": "https://www.metmuseum.org/art/collection/search/76089"
+  },
+  {
+    "file": "samuel_vogue2.jpg",
+    "desktop": [
+      340,
+      127,
+      338,
+      849,
+      0
+    ],
+    "mobile": [
+      140,
+      251,
+      193,
+      557,
+      0
+    ],
+    "label": "红色造型完整轮廓",
+    "crop": [
+      320,
+      110,
+      446,
+      855
+    ],
+    "mask": "red",
+    "case_record_id": "reczz28MjE1CSNUN",
+    "original": "assets/new-chinese/samuel_vogue2.jpg",
+    "case_title": "Samuel Guì Yang 2024 秋冬系列",
+    "source_url": "https://www.vogue.com/fashion-shows/shanghai-fall-2024/samuel-gui-yang/slideshow/collection"
+  },
+  {
+    "file": "shaofan_wright.jpg",
+    "desktop": [
+      647,
+      377,
+      342,
+      470,
+      0
+    ],
+    "mobile": [
+      224,
+      547,
+      153,
+      210,
+      0
+    ],
+    "label": "不锈钢圈椅",
+    "crop": [
+      206,
+      100,
+      600,
+      825
+    ],
+    "mask": "chair",
+    "case_record_id": "reczz28MjE1CQqVq",
+    "original": "assets/new-chinese/shaofan_wright.jpg",
+    "case_title": "邵帆《椅》系列｜不锈钢圈椅",
+    "source_url": "https://www.metmuseum.org/art/collection/search/76089"
+  },
+  {
+    "file": "samuel_vogue2.jpg",
+    "desktop": [
+      33,
+      860,
+      212,
+      206,
+      -5
+    ],
+    "mobile": [
+      10,
+      598,
+      122,
+      117,
+      -3
+    ],
+    "label": "衣领与布料",
+    "crop": [
+      375,
+      260,
+      290,
+      200
+    ],
+    "mask": null,
+    "case_record_id": "reczz28MjE1CSNUN",
+    "original": "assets/new-chinese/samuel_vogue2.jpg",
+    "case_title": "Samuel Guì Yang 2024 秋冬系列",
+    "source_url": "https://www.vogue.com/fashion-shows/shanghai-fall-2024/samuel-gui-yang/slideshow/collection"
+  },
+  {
+    "file": "brick_aerial.jpg",
+    "desktop": [
+      517,
+      927,
+      235,
+      146,
+      4
+    ],
+    "mobile": [
+      27,
+      817,
+      145,
+      95,
+      4
+    ],
+    "label": "水中的倒影",
+    "crop": [
+      0,
+      570,
+      1000,
+      430
+    ],
+    "mask": null,
+    "case_record_id": "reczz28MjE1CRfHX",
+    "original": "assets/new-chinese/brick_aerial.jpg",
+    "case_title": "《砖墙》青普扬州行馆 The Brick Wall",
+    "source_url": "https://neriandhu.com/en/works/the-brick-wall-tsingpu-yangzhou-retreat"
+  }
+]

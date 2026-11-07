@@ -1,0 +1,275 @@
+{
+  "manifest_version": "v1",
+  "format": "ndjson",
+  "base_token": "IGctbcuwPaE6hMsmAoicJddpn3U",
+  "table_id": "tblpdRYutnm12T0y",
+  "rev": 412,
+  "timezone": "Asia/Shanghai",
+  "query_context": {
+    "record_scope": "selected_record_ids",
+    "requested_record_count": 12
+  },
+  "records_count": 12,
+  "page_count": 1,
+  "has_more": false,
+  "record_file": "/Users/yuriko/Documents/ChatGPT/审美外挂 2/output/collage-dense-v2-2026-11-07/audit/cases.ndjson",
+  "record_file_size_bytes": 19539,
+  "manifest_file": "/Users/yuriko/Documents/ChatGPT/审美外挂 2/output/collage-dense-v2-2026-11-07/audit/cases.manifest.json",
+  "columns": {
+    "record_id": {
+      "physical_type": "string",
+      "stats": {
+        "max_length": 16
+      },
+      "example": "reczz28LeeYH4bwm"
+    },
+    "一句为什么": {
+      "field_id": "fldTvoyuFO",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 23
+      },
+      "example": "原来雨不只有一种形状。"
+    },
+    "为什么好": {
+      "field_id": "fldDtWYGfk",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 220
+      },
+      "example": "透明亚克力桌子的表面保持平整，下面却有层层水纹，纹路向下汇聚成漩涡般的桌腿。原本坚硬的家具，看起来像一股正在流动的清水。\n\n清透不等于透明。透明是材料的性质，清透是一种视觉感受——这张桌子证明：坚硬的东西也可以存在得很轻。"
+    },
+    "事实来源": {
+      "field_id": "fldLTmDAyy",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 12,
+        "max_length": 0
+      },
+      "hint": "All values are empty; type inference may be ambiguous. Avoid analyzing this column unless required."
+    },
+    "作品原文名": {
+      "field_id": "fld6DFsQdJ",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 53
+      },
+      "example": "Back Door"
+    },
+    "作品名": {
+      "field_id": "fld7dhdDbF",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 25
+      },
+      "example": "香港后门"
+    },
+    "作者": {
+      "field_id": "fld6YNOrMF",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 31
+      },
+      "example": "Nendo"
+    },
+    "出处行": {
+      "field_id": "fld7xctQui",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 12,
+        "max_length": 0
+      },
+      "hint": "All values are empty; type inference may be ambiguous. Avoid analyzing this column unless required."
+    },
+    "反转": {
+      "field_id": "fld9VA45yr",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 12,
+        "max_length": 0
+      },
+      "hint": "All values are empty; type inference may be ambiguous. Avoid analyzing this column unless required."
+    },
+    "取色图源": {
+      "field_id": "fld73aGKwC",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 12,
+        "max_length": 0
+      },
+      "hint": "All values are empty; type inference may be ambiguous. Avoid analyzing this column unless required."
+    },
+    "图": {
+      "field_id": "fldFbHwhMG",
+      "field_type": "attachment",
+      "physical_type": "array<struct<file_token string, size number, name string>>",
+      "stats": {
+        "empty_count": 0,
+        "max_length": 9,
+        "avg_length": 5.416666666666667
+      },
+      "example": [
+        {
+          "file_token": "ECIMbKTJcoa454xAzWJchCA3nZf",
+          "name": "shaofan_wright.jpg",
+          "size": 139487
+        }
+      ]
+    },
+    "图注": {
+      "field_id": "fldTINuLzG",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 12,
+        "max_length": 0
+      },
+      "hint": "All values are empty; type inference may be ambiguous. Avoid analyzing this column unless required."
+    },
+    "媒介": {
+      "field_id": "fld6z1UtaH",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 10
+      },
+      "example": "摄影"
+    },
+    "官方页": {
+      "field_id": "fld7zQhSoK",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 91
+      },
+      "example": "https://rinkokawauchi.com/en/works/194/"
+    },
+    "年份": {
+      "field_id": "fld7lTv2WD",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 19
+      },
+      "example": "2014"
+    },
+    "所属词条": {
+      "field_id": "fld1TTLF9F",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 3
+      },
+      "example": "清透"
+    },
+    "手法": {
+      "field_id": "fld6g8eInM",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 12,
+        "max_length": 0
+      },
+      "hint": "All values are empty; type inference may be ambiguous. Avoid analyzing this column unless required."
+    },
+    "收藏地或出品方": {
+      "field_id": "fld54dGM5K",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 8,
+        "max_length": 45
+      },
+      "example": "上海时装周；Vogue Runway 33 套完整秀场"
+    },
+    "是否保留": {
+      "field_id": "fldSTyGQVe",
+      "field_type": "checkbox",
+      "physical_type": "boolean",
+      "stats": {
+        "true_count": 12
+      },
+      "example": true
+    },
+    "核查备注": {
+      "field_id": "fld5QF7voQ",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 12,
+        "max_length": 0
+      },
+      "hint": "All values are empty; type inference may be ambiguous. Avoid analyzing this column unless required."
+    },
+    "画面": {
+      "field_id": "fld1E1B6Uw",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 12,
+        "max_length": 0
+      },
+      "hint": "All values are empty; type inference may be ambiguous. Avoid analyzing this column unless required."
+    },
+    "细节": {
+      "field_id": "fld7Mc2mhU",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 12,
+        "max_length": 0
+      },
+      "hint": "All values are empty; type inference may be ambiguous. Avoid analyzing this column unless required."
+    },
+    "缺席": {
+      "field_id": "fld6sGYmGB",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 12,
+        "max_length": 0
+      },
+      "hint": "All values are empty; type inference may be ambiguous. Avoid analyzing this column unless required."
+    },
+    "补充讲解": {
+      "field_id": "fld4Jgw0Wb",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 12,
+        "max_length": 0
+      },
+      "hint": "All values are empty; type inference may be ambiguous. Avoid analyzing this column unless required."
+    },
+    "顺序": {
+      "field_id": "fld6SgrU59",
+      "field_type": "number",
+      "physical_type": "number|null",
+      "stats": {
+        "null_count": 0,
+        "min": 1,
+        "max": 4,
+        "avg": 2.5
+      },
+      "example": 1
+    }
+  }
+}

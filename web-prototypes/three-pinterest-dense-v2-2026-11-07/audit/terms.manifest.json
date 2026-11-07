@@ -1,0 +1,284 @@
+{
+  "manifest_version": "v1",
+  "format": "ndjson",
+  "base_token": "IGctbcuwPaE6hMsmAoicJddpn3U",
+  "table_id": "tbl2gR8WBoqCQyGz",
+  "rev": 232,
+  "timezone": "Asia/Shanghai",
+  "query_context": {
+    "record_scope": "selected_record_ids",
+    "requested_record_count": 3
+  },
+  "records_count": 3,
+  "page_count": 1,
+  "has_more": false,
+  "record_file": "/Users/yuriko/Documents/ChatGPT/审美外挂 2/output/collage-dense-v2-2026-11-07/audit/terms.ndjson",
+  "record_file_size_bytes": 6793,
+  "manifest_file": "/Users/yuriko/Documents/ChatGPT/审美外挂 2/output/collage-dense-v2-2026-11-07/audit/terms.manifest.json",
+  "columns": {
+    "Pinterest 搜索词": {
+      "field_id": "fld1VOeRMF",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 32
+      },
+      "example": "street food"
+    },
+    "record_id": {
+      "physical_type": "string",
+      "stats": {
+        "max_length": 16
+      },
+      "example": "reczz28HJJL2GNqc"
+    },
+    "做俗了": {
+      "field_id": "fld17L6Ocn",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 68
+      },
+      "example": "霓虹招牌、暖色滤镜、满桌吃食和热气一起铺开，却没有一个人真正买卖、说话或收拾残局。烟火味靠生活互相碰见，不靠把画面烤黄。"
+    },
+    "做法1": {
+      "field_id": "fld7ni1HRv",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 39
+      },
+      "example": "先画出不止一种生活活动，让它们在同一处相遇。只有人多，不等于有烟火。"
+    },
+    "做法2": {
+      "field_id": "fld5bPAjM9",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 39
+      },
+      "example": "保留前后景的差别。透不是把一切变薄，观众要认得哪层在前、哪层在后。"
+    },
+    "做法3": {
+      "field_id": "fld2AOGrs2",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 36
+      },
+      "example": "让水、玻璃或空气改变光的样子。材料参与了，清透才不是统一提高亮度。"
+    },
+    "元素用法": {
+      "field_id": "fld1NfgAvl",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 3,
+        "max_length": 0
+      },
+      "hint": "All values are empty; type inference may be ambiguous. Avoid analyzing this column unless required."
+    },
+    "在本章的位置": {
+      "field_id": "fld1vG78lh",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 14
+      },
+      "example": "减掉厚度"
+    },
+    "好奇心问题": {
+      "field_id": "fld7TmjV3D",
+      "field_type": "link",
+      "physical_type": "array<struct<id string>>",
+      "stats": {
+        "empty_count": 3,
+        "max_length": 0,
+        "avg_length": 0
+      },
+      "hint": "All values are empty; type inference may be ambiguous. Avoid analyzing this column unless required."
+    },
+    "封面图": {
+      "field_id": "fldJTgBTUW",
+      "field_type": "attachment",
+      "physical_type": "array<struct<file_token string, size number, name string>>",
+      "stats": {
+        "empty_count": 0,
+        "max_length": 1,
+        "avg_length": 1
+      },
+      "example": [
+        {
+          "file_token": "X2XMb0tlZoeHwMxj4JJcHpYmnsd",
+          "name": "shaofan_wright.jpg",
+          "size": 139487
+        }
+      ]
+    },
+    "所属章节": {
+      "field_id": "fld3Sz8ecb",
+      "field_type": "select",
+      "physical_type": "array<string>",
+      "stats": {
+        "empty_count": 0,
+        "max_length": 1,
+        "avg_length": 1
+      },
+      "example": [
+        "轻逸"
+      ]
+    },
+    "接着看": {
+      "field_id": "fld2HU3cs4",
+      "field_type": "select",
+      "physical_type": "array<string>",
+      "stats": {
+        "empty_count": 0,
+        "max_length": 2,
+        "avg_length": 2
+      },
+      "example": [
+        "盐系",
+        "清冷"
+      ]
+    },
+    "核心": {
+      "field_id": "fld2kWjGZc",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 46
+      },
+      "example": "烟火味最迷人的地方，是它让我们感觉到「世界还在好好生活」。"
+    },
+    "案例": {
+      "field_id": "fld1ks5nKX",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 83
+      },
+      "example": "香港后门,琪琪的早餐 I,东京店构,物尽其用"
+    },
+    "检索词": {
+      "field_id": "fld1Nk16sh",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 93
+      },
+      "example": "清透,清透感,清透妆,清透水彩,清透感插画,通透感,透明感,玻璃感,水光感,冰块,逆光,透光,蓝调,translucent,clear aesthetic"
+    },
+    "正文": {
+      "field_id": "fld19jh0kS",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 283
+      },
+      "example": "为什么我们看到一条拥挤的老街、窗外晾晒的衣服、热气腾腾的小店，会觉得它有一种独特的美？而且我们不仅觉得它美，还会觉得它让人安心，甚至有点幸福？"
+    },
+    "状态": {
+      "field_id": "fld5LXn5Hv",
+      "field_type": "select",
+      "physical_type": "array<string>",
+      "stats": {
+        "empty_count": 0,
+        "max_length": 1,
+        "avg_length": 1
+      },
+      "example": [
+        "已上线"
+      ]
+    },
+    "章内序号": {
+      "field_id": "fldIncWKWs",
+      "field_type": "number",
+      "physical_type": "number|null",
+      "stats": {
+        "null_count": 3
+      },
+      "hint": "All values are empty; type inference may be ambiguous. Avoid analyzing this column unless required."
+    },
+    "英文": {
+      "field_id": "fld30VFKCt",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 17
+      },
+      "example": "Translucent"
+    },
+    "词": {
+      "field_id": "fld2Atu7vX",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 3
+      },
+      "example": "清透"
+    },
+    "词条页": {
+      "field_id": "fldrGAmbHF",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 3,
+        "max_length": 0
+      },
+      "hint": "All values are empty; type inference may be ambiguous. Avoid analyzing this column unless required."
+    },
+    "适合的角色": {
+      "field_id": "fld5SW984T",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 3,
+        "max_length": 0
+      },
+      "hint": "All values are empty; type inference may be ambiguous. Avoid analyzing this column unless required."
+    },
+    "配色": {
+      "field_id": "fld77Ne9i3",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 19
+      },
+      "example": "待取色（从《清明上河图》原作取两组）"
+    },
+    "配色图": {
+      "field_id": "fld3XzgzcK",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 3,
+        "max_length": 0
+      },
+      "hint": "All values are empty; type inference may be ambiguous. Avoid analyzing this column unless required."
+    },
+    "钩子": {
+      "field_id": "fld4n6xZoj",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 82
+      },
+      "example": "清晨光穿过一只水杯，桌上亮出一块会移动的影子；人能看清杯子，也能看见光继续往后走。清透若只把照片曝光拉高、皮肤磨白，层次会被冲掉，东西像要从画面里蒸发。"
+    }
+  }
+}
