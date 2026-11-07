@@ -16,8 +16,8 @@
   },
   "revisions": {
     "chapters": 118,
-    "terms": 232,
-    "cases": 412,
+    "terms": 239,
+    "cases": 420,
     "sections": 38,
     "feelings": 8,
     "questions": 7,
@@ -148,5 +148,15 @@
       "reczz28HJJL2NjNu",
       "reczz28HJJL2Nnrp"
     ]
+  },
+  "contentContract": "term-content-contract.json",
+  "fieldCleanup": {
+    "date": "2026-11-07",
+    "authorization": "User explicitly requested moving or deleting unused fields in this round",
+    "termArchive": "tblqaZJEUegXiCbL",
+    "caseArchive": "tblG3MFT7U7y2gGI",
+    "termFields": 18,
+    "caseFields": 16,
+    "legacyBodiesArchived": 34
   }
 }

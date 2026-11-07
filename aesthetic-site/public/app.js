@@ -59,9 +59,11 @@ function chapterStory(c) {
 function caseMarkup(c, index, standalone=false, origin=null) {
  const meta=[c.author,c.year,c.medium,c.collection].filter(Boolean).map(esc).join(' · ');
  const gallery=c.images.length?`<div class="case-images">${c.images.map((src,i)=>`<button class="image-button ${i?'secondary':''}" data-image="${esc(src)}" data-caption="${esc(c.name)}">${photo(src,c.name)}</button>`).join('')}</div>`:'';
- const fields=[['画面',c.scene],['细节',c.detail],['手法',c.method],['反转',c.twist],['缺席',c.absence],['补充讲解',c.extra]].filter(([,text])=>text);
- const official=safeLink(c.official);
- return `<section class="case-block" id="case-${c.id}"><header class="case-heading"><p class="eyebrow">CASE ${pad(index+1)}</p><h2>${esc(c.name)}</h2><p class="case-meta">${meta}</p></header><div class="standalone-case-layout">${gallery}<div class="case-copy">${c.why?`<p class="case-why">${esc(c.why)}</p>`:''}${paragraphs(c.whyLong)}${fields.map(([label,text])=>`<section><h3>${label}</h3>${paragraphs(text)}</section>`).join('')}${official?`<a href="${official}" target="_blank" rel="noopener">作品官方页面 ↗</a>`:''}</div></div></section>`;
+ const method = paragraphs(c.method);
+ const officialValue = String(c.official || '').replace(/^\[[^\]]*\]\((https?:\/\/[^\s]+)\)$/, '$1');
+ const official=safeLink(officialValue);
+ const source = official ? `<a class="official" href="${official}" target="_blank" rel="noopener">官方页 ↗</a>` : '';
+ return `<section class="case-block" id="case-${c.id}"><header class="case-heading"><p class="eyebrow">CASE ${pad(index+1)}</p><h2>${esc(c.name)}</h2><p class="case-meta">${meta} ${source}</p></header><div class="standalone-case-layout">${gallery}<div class="case-copy">${c.why?`<p class="case-why">${esc(c.why)}</p>`:''}${method}${paragraphs(c.whyLong)}</div></div></section>`;
 }
 const observer=new ResizeObserver(entries=>{for(const {target,contentRect} of entries){const a=target.querySelector('.native-art');if(a)a.style.transform=`scale(${contentRect.width/parseFloat(a.style.width)})`;}});
 function scaleFrames(){observer.disconnect();document.querySelectorAll('.frame-stage').forEach(el=>observer.observe(el));}

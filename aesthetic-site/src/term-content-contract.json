@@ -1,0 +1,731 @@
+{
+  "baseToken": "IGctbcuwPaE6hMsmAoicJddpn3U",
+  "identity": "aesthetic-feishu/user",
+  "activeTables": {
+    "terms": {
+      "id": "tbl2gR8WBoqCQyGz",
+      "fields": [
+        {
+          "default_value": null,
+          "id": "fld1vG78lh",
+          "name": "在本章的位置",
+          "style": {
+            "type": "plain"
+          },
+          "type": "text"
+        },
+        {
+          "id": "fldJTgBTUW",
+          "name": "封面图",
+          "style": {
+            "type": "plain"
+          },
+          "type": "attachment"
+        },
+        {
+          "default_value": null,
+          "id": "fld17L6Ocn",
+          "name": "做俗了",
+          "style": {
+            "type": "plain"
+          },
+          "type": "text"
+        },
+        {
+          "default_value": null,
+          "id": "fldIncWKWs",
+          "name": "章内序号",
+          "style": {
+            "percentage": false,
+            "precision": 0,
+            "thousands_separator": false,
+            "type": "plain"
+          },
+          "type": "number"
+        },
+        {
+          "default_value": null,
+          "id": "fld2Atu7vX",
+          "name": "词",
+          "style": {
+            "type": "plain"
+          },
+          "type": "text"
+        },
+        {
+          "default_value": null,
+          "id": "fld30VFKCt",
+          "name": "英文",
+          "style": {
+            "type": "plain"
+          },
+          "type": "text"
+        },
+        {
+          "bidirectional": true,
+          "bidirectional_link_field_id": "fldm1aA2bx",
+          "id": "fld7TmjV3D",
+          "link_table": "tblpb56XsIi8vErt",
+          "name": "好奇心问题",
+          "type": "link"
+        },
+        {
+          "default_value": null,
+          "id": "fld3Sz8ecb",
+          "multiple": true,
+          "name": "所属章节",
+          "options": [
+            {
+              "hue": "Blue",
+              "lightness": "Lighter",
+              "name": "诡异"
+            },
+            {
+              "hue": "Orange",
+              "lightness": "Lighter",
+              "name": "乡愁"
+            },
+            {
+              "hue": "Wathet",
+              "lightness": "Lighter",
+              "name": "留白"
+            },
+            {
+              "hue": "Yellow",
+              "lightness": "Lighter",
+              "name": "可爱"
+            },
+            {
+              "hue": "Turquoise",
+              "lightness": "Lighter",
+              "name": "物哀"
+            },
+            {
+              "hue": "Red",
+              "lightness": "Lighter",
+              "name": "幽玄"
+            },
+            {
+              "hue": "Purple",
+              "lightness": "Lighter",
+              "name": "忧郁"
+            },
+            {
+              "hue": "Green",
+              "lightness": "Lighter",
+              "name": "爱欲"
+            },
+            {
+              "hue": "Carmine",
+              "lightness": "Lighter",
+              "name": "田园"
+            },
+            {
+              "hue": "Lime",
+              "lightness": "Lighter",
+              "name": "酒神"
+            },
+            {
+              "hue": "Gray",
+              "lightness": "Lighter",
+              "name": "平淡"
+            },
+            {
+              "hue": "Blue",
+              "lightness": "Lighter",
+              "name": "日常"
+            },
+            {
+              "hue": "Orange",
+              "lightness": "Lighter",
+              "name": "侘寂"
+            },
+            {
+              "hue": "Wathet",
+              "lightness": "Lighter",
+              "name": "气韵"
+            },
+            {
+              "hue": "Yellow",
+              "lightness": "Lighter",
+              "name": "侠"
+            },
+            {
+              "hue": "Turquoise",
+              "lightness": "Lighter",
+              "name": "轻逸"
+            },
+            {
+              "hue": "Red",
+              "lightness": "Lighter",
+              "name": "崇高"
+            },
+            {
+              "hue": "Purple",
+              "lightness": "Lighter",
+              "name": "从容"
+            },
+            {
+              "hue": "Green",
+              "lightness": "Lighter",
+              "name": "酷"
+            },
+            {
+              "hue": "Carmine",
+              "lightness": "Lighter",
+              "name": "怪诞"
+            },
+            {
+              "hue": "Lime",
+              "lightness": "Lighter",
+              "name": "阴翳"
+            },
+            {
+              "hue": "Gray",
+              "lightness": "Lighter",
+              "name": "悲剧"
+            },
+            {
+              "hue": "Blue",
+              "lightness": "Lighter",
+              "name": "废墟"
+            },
+            {
+              "hue": "Orange",
+              "lightness": "Lighter",
+              "name": "未来想象"
+            }
+          ],
+          "type": "select"
+        },
+        {
+          "default_value": null,
+          "id": "fld7ni1HRv",
+          "name": "做法1",
+          "style": {
+            "type": "plain"
+          },
+          "type": "text"
+        },
+        {
+          "default_value": null,
+          "id": "fld1VOeRMF",
+          "name": "Pinterest 搜索词",
+          "style": {
+            "type": "plain"
+          },
+          "type": "text"
+        },
+        {
+          "default_value": null,
+          "id": "fld1Nk16sh",
+          "name": "检索词",
+          "style": {
+            "type": "plain"
+          },
+          "type": "text"
+        },
+        {
+          "default_value": null,
+          "id": "fld5bPAjM9",
+          "name": "做法2",
+          "style": {
+            "type": "plain"
+          },
+          "type": "text"
+        },
+        {
+          "default_value": null,
+          "id": "fld2kWjGZc",
+          "name": "核心",
+          "style": {
+            "type": "plain"
+          },
+          "type": "text"
+        },
+        {
+          "default_value": null,
+          "id": "fld5LXn5Hv",
+          "multiple": false,
+          "name": "状态",
+          "options": [
+            {
+              "hue": "Blue",
+              "lightness": "Lighter",
+              "name": "已上线"
+            },
+            {
+              "hue": "Orange",
+              "lightness": "Lighter",
+              "name": "更新中"
+            }
+          ],
+          "type": "select"
+        },
+        {
+          "default_value": null,
+          "id": "fld4n6xZoj",
+          "name": "钩子",
+          "style": {
+            "type": "plain"
+          },
+          "type": "text"
+        },
+        {
+          "default_value": null,
+          "id": "fld2AOGrs2",
+          "name": "做法3",
+          "style": {
+            "type": "plain"
+          },
+          "type": "text"
+        },
+        {
+          "default_value": null,
+          "id": "fld19jh0kS",
+          "name": "正文",
+          "style": {
+            "type": "plain"
+          },
+          "type": "text"
+        },
+        {
+          "default_value": null,
+          "id": "fld2HU3cs4",
+          "multiple": true,
+          "name": "接着看",
+          "options": [
+            {
+              "hue": "Blue",
+              "lightness": "Lighter",
+              "name": "阈限空间"
+            },
+            {
+              "hue": "Orange",
+              "lightness": "Lighter",
+              "name": "梦核"
+            },
+            {
+              "hue": "Wathet",
+              "lightness": "Lighter",
+              "name": "甜亚系"
+            },
+            {
+              "hue": "Yellow",
+              "lightness": "Lighter",
+              "name": "Coquette"
+            },
+            {
+              "hue": "Red",
+              "lightness": "Lighter",
+              "name": "Girlhood"
+            },
+            {
+              "hue": "Green",
+              "lightness": "Lighter",
+              "name": "朦胧"
+            },
+            {
+              "hue": "Carmine",
+              "lightness": "Lighter",
+              "name": "留白"
+            },
+            {
+              "hue": "Lime",
+              "lightness": "Lighter",
+              "name": "画报风"
+            },
+            {
+              "hue": "Blue",
+              "lightness": "Lighter",
+              "name": "日杂"
+            },
+            {
+              "hue": "Orange",
+              "lightness": "Lighter",
+              "name": "复古"
+            },
+            {
+              "hue": "Wathet",
+              "lightness": "Lighter",
+              "name": "复古摇滚"
+            },
+            {
+              "hue": "Yellow",
+              "lightness": "Lighter",
+              "name": "沉浸式独处"
+            },
+            {
+              "hue": "Turquoise",
+              "lightness": "Lighter",
+              "name": "松弛感"
+            },
+            {
+              "hue": "Purple",
+              "lightness": "Lighter",
+              "name": "等待"
+            },
+            {
+              "hue": "Carmine",
+              "lightness": "Lighter",
+              "name": "暧昧"
+            },
+            {
+              "hue": "Lime",
+              "lightness": "Lighter",
+              "name": "青涩"
+            },
+            {
+              "hue": "Gray",
+              "lightness": "Lighter",
+              "name": "拉扯感"
+            },
+            {
+              "hue": "Blue",
+              "lightness": "Lighter",
+              "name": "意难平"
+            },
+            {
+              "hue": "Orange",
+              "lightness": "Lighter",
+              "name": "热烈"
+            },
+            {
+              "hue": "Wathet",
+              "lightness": "Lighter",
+              "name": "孤独"
+            },
+            {
+              "hue": "Yellow",
+              "lightness": "Lighter",
+              "name": "清透"
+            },
+            {
+              "hue": "Turquoise",
+              "lightness": "Lighter",
+              "name": "水墨"
+            },
+            {
+              "hue": "Red",
+              "lightness": "Lighter",
+              "name": "Softcore"
+            },
+            {
+              "hue": "Green",
+              "lightness": "Lighter",
+              "name": "波普"
+            },
+            {
+              "hue": "Carmine",
+              "lightness": "Lighter",
+              "name": "盛夏"
+            },
+            {
+              "hue": "Lime",
+              "lightness": "Lighter",
+              "name": "清冷"
+            },
+            {
+              "hue": "Gray",
+              "lightness": "Lighter",
+              "name": "盐系"
+            },
+            {
+              "hue": "Blue",
+              "lightness": "Lighter",
+              "name": "烟火味"
+            },
+            {
+              "hue": "Orange",
+              "lightness": "Lighter",
+              "name": "白月光"
+            },
+            {
+              "hue": "Wathet",
+              "lightness": "Lighter",
+              "name": "宿命感"
+            },
+            {
+              "hue": "Yellow",
+              "lightness": "Lighter",
+              "name": "心动"
+            },
+            {
+              "hue": "Turquoise",
+              "lightness": "Lighter",
+              "name": "昏黄"
+            },
+            {
+              "hue": "Red",
+              "lightness": "Lighter",
+              "name": "禅意"
+            },
+            {
+              "hue": "Green",
+              "lightness": "Lighter",
+              "name": "魏晋风"
+            },
+            {
+              "hue": "Carmine",
+              "lightness": "Lighter",
+              "name": "武侠"
+            },
+            {
+              "hue": "Gray",
+              "lightness": "Lighter",
+              "name": "磅礴"
+            },
+            {
+              "hue": "Blue",
+              "lightness": "Lighter",
+              "name": "嚣张"
+            },
+            {
+              "hue": "Wathet",
+              "lightness": "Lighter",
+              "name": "破碎感"
+            },
+            {
+              "hue": "Yellow",
+              "lightness": "Lighter",
+              "name": "多巴胺"
+            },
+            {
+              "hue": "Blue",
+              "lightness": "Lighter",
+              "name": "Cottagecore"
+            },
+            {
+              "hue": "Orange",
+              "lightness": "Lighter",
+              "name": "Normcore"
+            },
+            {
+              "hue": "Wathet",
+              "lightness": "Lighter",
+              "name": "怪核 Weirdcore"
+            },
+            {
+              "hue": "Blue",
+              "lightness": "Lighter",
+              "name": "旧互联网 Old Web"
+            },
+            {
+              "hue": "Orange",
+              "lightness": "Lighter",
+              "name": "诡异人偶"
+            },
+            {
+              "hue": "Green",
+              "lightness": "Lighter",
+              "name": "odd 风格"
+            }
+          ],
+          "type": "select"
+        }
+      ]
+    },
+    "cases": {
+      "id": "tblpdRYutnm12T0y",
+      "fields": [
+        {
+          "id": "fldFbHwhMG",
+          "name": "图",
+          "style": {
+            "type": "plain"
+          },
+          "type": "attachment"
+        },
+        {
+          "default_value": null,
+          "id": "fld1TTLF9F",
+          "name": "所属词条",
+          "style": {
+            "type": "plain"
+          },
+          "type": "text"
+        },
+        {
+          "default_value": null,
+          "id": "fld6DFsQdJ",
+          "name": "作品原文名",
+          "style": {
+            "type": "plain"
+          },
+          "type": "text"
+        },
+        {
+          "default_value": null,
+          "id": "fld7lTv2WD",
+          "name": "年份",
+          "style": {
+            "type": "plain"
+          },
+          "type": "text"
+        },
+        {
+          "default_value": null,
+          "id": "fld54dGM5K",
+          "name": "收藏地或出品方",
+          "style": {
+            "type": "plain"
+          },
+          "type": "text"
+        },
+        {
+          "default_value": null,
+          "id": "fld7dhdDbF",
+          "name": "作品名",
+          "style": {
+            "type": "plain"
+          },
+          "type": "text"
+        },
+        {
+          "id": "fldSTyGQVe",
+          "name": "是否保留",
+          "type": "checkbox"
+        },
+        {
+          "default_value": null,
+          "id": "fldTvoyuFO",
+          "name": "一句为什么",
+          "style": {
+            "type": "plain"
+          },
+          "type": "text"
+        },
+        {
+          "default_value": null,
+          "id": "fld6g8eInM",
+          "name": "手法",
+          "style": {
+            "type": "plain"
+          },
+          "type": "text"
+        },
+        {
+          "default_value": null,
+          "id": "fld7zQhSoK",
+          "name": "官方页",
+          "style": {
+            "type": "plain"
+          },
+          "type": "text"
+        },
+        {
+          "default_value": null,
+          "id": "fld6SgrU59",
+          "name": "顺序",
+          "style": {
+            "percentage": false,
+            "precision": 0,
+            "thousands_separator": false,
+            "type": "plain"
+          },
+          "type": "number"
+        },
+        {
+          "default_value": null,
+          "id": "fld7xctQui",
+          "name": "出处行",
+          "style": {
+            "type": "plain"
+          },
+          "type": "text"
+        },
+        {
+          "default_value": null,
+          "id": "fld6YNOrMF",
+          "name": "作者",
+          "style": {
+            "type": "plain"
+          },
+          "type": "text"
+        },
+        {
+          "default_value": null,
+          "id": "fldDtWYGfk",
+          "name": "为什么好",
+          "style": {
+            "type": "plain"
+          },
+          "type": "text"
+        },
+        {
+          "default_value": null,
+          "id": "fld6z1UtaH",
+          "name": "媒介",
+          "style": {
+            "type": "plain"
+          },
+          "type": "text"
+        },
+        {
+          "default_value": null,
+          "id": "fldTINuLzG",
+          "name": "图注",
+          "style": {
+            "type": "plain"
+          },
+          "type": "text"
+        }
+      ]
+    }
+  },
+  "archives": {
+    "terms": {
+      "archive_id": "tblqaZJEUegXiCbL",
+      "source_id": "tbl2gR8WBoqCQyGz",
+      "moved_fields": [
+        "案例",
+        "元素用法",
+        "适合的角色",
+        "配色",
+        "配色图",
+        "词条页"
+      ],
+      "archive_verified": true,
+      "archived_records": 101,
+      "body_cleaned": true,
+      "body_records_cleaned": 34,
+      "source_records_verified": 101,
+      "source_field_count": 18
+    },
+    "cases": {
+      "archive_id": "tblG3MFT7U7y2gGI",
+      "source_id": "tblpdRYutnm12T0y",
+      "moved_fields": [
+        "画面",
+        "细节",
+        "反转",
+        "缺席",
+        "补充讲解",
+        "取色图源",
+        "事实来源",
+        "核查备注"
+      ],
+      "archive_verified": true,
+      "archived_records": 195,
+      "source_records_verified": 195,
+      "source_field_count": 16
+    }
+  },
+  "presentation": {
+    "opening": "词条.钩子",
+    "understanding": "词条.正文，仅开头导读，已移走旧【】拼装段落",
+    "cases": "按案例.所属词条及是否保留取数，按顺序排列",
+    "caseBody": [
+      "一句为什么",
+      "手法",
+      "为什么好"
+    ],
+    "sourceLink": "官方页，位于作品元数据行，继承12–14px字号",
+    "caseSectionTitle": "大师如何处理{词}",
+    "avoid": [
+      "从归档表生成页面",
+      "将正文旧拼装稿重新合并回主表",
+      "从词条旧案例文本猜测案例归属"
+    ]
+  }
+}

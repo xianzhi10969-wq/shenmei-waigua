@@ -29,6 +29,10 @@ def paragraphs(value):
 def safe_url(value):
     if isinstance(value, dict):
         value = value.get('link', '')
+    value = str(value or '').strip()
+    markdown_link = re.fullmatch(r'\[[^\]]*\]\((https?://[^\s]+)\)', value)
+    if markdown_link:
+        value = markdown_link.group(1)
     return value if str(value).startswith(('https://', 'http://')) else ''
 
 
@@ -52,25 +56,21 @@ def case_markup(case, index, term=None):
             f'<p class="gallery-caption"><span class="gallery-count" aria-live="polite">01 / {len(images):02}</span><span>点击大图查看原图 ↗</span></p>'
             f'{caption_markup}</div>'
         )
-    supplementary = []
-    for field, label in [('scene', '画面'), ('detail', '细节'), ('method', '手法'), ('twist', '反转'), ('absence', '缺席'), ('extra', '补充讲解')]:
-        if case.get(field):
-            supplementary.append(f'<section class="case-detail"><h4>{label}</h4>{paragraphs(case[field])}</section>')
     official = safe_url(case.get('official', ''))
-    source = f'<a class="official" href="{escape(official)}" target="_blank" rel="noopener">查看作品官方页面 ↗</a>' if official else ''
+    source = f'<a class="official" href="{escape(official)}" target="_blank" rel="noopener">官方页 ↗</a>' if official else ''
     destination = '#top' if term and (term['id'] == COQUETTE_ID or term['id'] in COLLAGES) else '#opening'
     back_label = '↑ 回到风格图谱' if destination == '#top' else '↑ 回到词条开场'
-    metadata = ' · '.join(str(case.get(field, '')) for field in ['author', 'year', 'collection'] if case.get(field))
+    metadata = ' · '.join(str(case.get(field, '')) for field in ['author', 'year', 'medium', 'collection'] if case.get(field))
     layout_class = 'case-layout' if images else 'case-layout text-only'
     return (
         f'<section class="case" id="{case_id}" data-record-id="{case["id"]}" tabindex="-1" aria-labelledby="{case_id}-title">'
         f'<header class="case-header"><p class="case-index">案例 {index + 1:02} <span>／ {escape(case.get("medium"))}</span></p>'
         f'<h3 id="{case_id}-title">{escape(case["name"])}</h3>'
         f'{original_name_markup}'
-        f'<p class="case-meta">{escape(metadata)}</p></header>'
+        f'<p class="case-meta">{escape(metadata)} {source}</p></header>'
         f'<div class="{layout_class}">{gallery}<div class="case-analysis">'
         f'{insight_markup}'
-        f'<div class="case-prose">{paragraphs(case.get("whyLong"))}{"".join(supplementary)}</div>{source}'
+        f'<div class="case-prose">{paragraphs(case.get("method"))}{paragraphs(case.get("whyLong"))}</div>'
         f'<a class="back-to-map" href="{destination}">{back_label}</a></div></div></section>'
     )
 
@@ -130,13 +130,16 @@ def build_term(term):
         page = page[:start] + board + page[end:]
     start = page.index('<article class="reading"')
     end = page.index('<section class="notes">', start)
-    body = '<section class="understanding"><p>Coquette 最初并不是一种关于粉色、蕾丝、蝴蝶结的美学，而是一种关于「如何制造吸引力」的行为艺术。这件事早在一百多年前，就有社会学家专门研究过。</p></section>' if term['id'] == COQUETTE_ID else ''
+    introduction = term.get('body', '') if '已上线' in term['state'] else ''
+    if term.get('hook') and introduction.startswith(term['hook']):
+        introduction = introduction[len(term['hook']):].strip()
+    body = f'<section class="understanding">{paragraphs(introduction)}</section>' if introduction else ''
     content = ''.join(case_markup(case, i, term) for i, case in enumerate(cases))
     if not cases:
         content = '<p class="content-status">这一页的案例正在整理中。</p>'
     related = [other for name in term.get('nextNames', []) for other in CATALOG['terms'] if other['name'] == name]
     related_markup = ''.join(f'<a href="/terms/{route_key(other["id"])}/">{escape(other["name"])} ↗</a>' for other in related)
-    page = page[:start] + f'<article class="reading" aria-label="词条与案例">{body}<section class="cases" aria-labelledby="cases-title"><header class="cases-heading"><h2 id="cases-title">看它如何成为画面。</h2></header>{content}</section><nav class="related-terms">{related_markup}</nav></article>\n' + page[end:]
+    page = page[:start] + f'<article class="reading" aria-label="词条与案例">{body}<section class="cases" aria-labelledby="cases-title"><header class="cases-heading"><h2 id="cases-title">大师如何处理{escape(term["name"])}</h2></header>{content}</section><nav class="related-terms">{related_markup}</nav></article>\n' + page[end:]
     if term['id'] != COQUETTE_ID:
         start = page.index('<section class="notes">')
         end = page.index('<details class="font-credits">', start)

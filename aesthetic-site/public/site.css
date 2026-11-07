@@ -3,3 +3,6 @@
 .site-directory-trigger{border:0;background:none;color:inherit;font:14px/24px inherit;cursor:pointer;padding:12px 0}
 .site-directory-slot{position:relative;max-width:1080px;margin:0 auto;padding:12px 24px}
 @media(max-width:700px){.standalone-case-layout{display:block}.standalone-case-layout .case-copy{margin-top:32px}}
+
+/* Source links accompany work metadata below the main reading hierarchy. */
+.case-meta .official{display:inline;font:inherit;color:#896271;margin:0 0 0 8px;white-space:nowrap;text-underline-offset:3px}
