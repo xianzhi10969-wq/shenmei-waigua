@@ -1,0 +1,61 @@
+{
+  "snapshot_date": "2026-11-05",
+  "source": {
+    "base": "IGctbcuwPaE6hMsmAoicJddpn3U",
+    "term_table": "tbl2gR8WBoqCQyGz",
+    "case_table": "tblpdRYutnm12T0y",
+    "profile": "aesthetic-feishu",
+    "as": "user",
+    "read_only": true
+  },
+  "term": {
+    "record_id": "reczz28HJJL2GNOa",
+    "词": "新中式",
+    "英文": "New Chinese Style",
+    "所属章节": [
+      "气韵"
+    ],
+    "在本章的位置": "住进今天的椅子、房子和衣服里",
+    "核心": "新中式不是让现代设计看起来像中国古代，而是想象中国传统如果没有停止生长，今天会变成什么样子。"
+  },
+  "cases": [
+    {
+      "id": "reczz28MjE1CR2rA",
+      "title": "龙鳞装《三十二篆金刚般若波罗蜜经》",
+      "media": "艺术书、实验装帧",
+      "imgs": 3,
+      "url": "http://www.artplusshanghai.com/a/Zhang-Xiaodong.html"
+    },
+    {
+      "id": "reczz28MjE1CRfHX",
+      "title": "《砖墙》青普扬州行馆 The Brick Wall",
+      "media": "建筑、空间设计",
+      "imgs": 3,
+      "url": "https://neriandhu.com/en/works/the-brick-wall-tsingpu-yangzhou-retreat"
+    },
+    {
+      "id": "reczz28MjE1CSNUN",
+      "title": "Samuel Guì Yang 2024 秋冬系列",
+      "media": "成衣时装",
+      "imgs": 2,
+      "url": "https://www.vogue.com/fashion-shows/shanghai-fall-2024/samuel-gui-yang/slideshow/collection"
+    },
+    {
+      "id": "reczz28MjE1CQqVq",
+      "title": "邵帆《椅》系列｜不锈钢圈椅",
+      "media": "家具设计、不锈钢雕塑",
+      "imgs": 1,
+      "url": "https://www.metmuseum.org/art/collection/search/76089"
+    }
+  ],
+  "editorial": {
+    "see": "不锈钢圈椅、时装、龙鳞装书、砖墙行馆",
+    "clues": [
+      "《砖墙》青普扬州行馆 The Brick Wall · 建筑、空间设计",
+      "Samuel Guì Yang 2024 秋冬系列 · 成衣时装",
+      "邵帆《椅》系列｜不锈钢圈椅 · 家具设计、不锈钢雕塑",
+      "《砖墙》青普扬州行馆 The Brick Wall · 建筑、空间设计"
+    ],
+    "avoid": "不与无关词条混图；不因附件多而硬凑"
+  }
+}

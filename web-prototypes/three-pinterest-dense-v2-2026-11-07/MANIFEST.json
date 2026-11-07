@@ -1,0 +1,447 @@
+[
+  {
+    "path": "build.py",
+    "sha": "9b2336be8a028606e672c33c3bcd5a9469363648",
+    "size": 13459
+  },
+  {
+    "path": "translucent-mobile.svg",
+    "sha": "43b4c50044791f4964e07942e3ab8eb4c39138ca",
+    "size": 9775
+  },
+  {
+    "path": "new-chinese-mobile-structure.svg",
+    "sha": "5495f09f8b724c66123f2b45ae7d81ca9e89fbb6",
+    "size": 6664
+  },
+  {
+    "path": "new-chinese.html",
+    "sha": "e64ae5198235d646c9bda15aa677b0e21daf710a",
+    "size": 25755
+  },
+  {
+    "path": "new-chinese-mobile.svg",
+    "sha": "bd9b8aff08f623bdc05978b705c305499181ca4d",
+    "size": 9317
+  },
+  {
+    "path": "index.html",
+    "sha": "207f8dc45494fd2cb6f5e0070f6b8cfe9c659dd5",
+    "size": 1313
+  },
+  {
+    "path": "hustle-mobile-structure.svg",
+    "sha": "3696298999dca4d2abaa4d2fe375eaa99250a43c",
+    "size": 7179
+  },
+  {
+    "path": "new-chinese-desktop-structure.svg",
+    "sha": "9201248e7beabf58c0e3cfb8b6a617062c161c50",
+    "size": 6688
+  },
+  {
+    "path": "styles.css",
+    "sha": "32d80d33c9f9743c2d81639ceecae664c00f7f2b",
+    "size": 1595
+  },
+  {
+    "path": "hustle-desktop.svg",
+    "sha": "8bb035753c94b2a40491f738c0d0e204980f603c",
+    "size": 8967
+  },
+  {
+    "path": "EVIDENCE.md",
+    "sha": "2428d48ec493b989bbd44cbe0d0d2b8463a4db20",
+    "size": 2018
+  },
+  {
+    "path": "render.cjs",
+    "sha": "5eb7467116607aa2b2455e2ff3eb85b1dd0b49d5",
+    "size": 1054
+  },
+  {
+    "path": "new-chinese-desktop.svg",
+    "sha": "6035625243a8df9565de6405af1164cec01537d3",
+    "size": 9394
+  },
+  {
+    "path": "viewer.js",
+    "sha": "72689e3a427aaf5b936fc9943a17d7fffcbe1dca",
+    "size": 951
+  },
+  {
+    "path": "translucent-desktop-structure.svg",
+    "sha": "29ae6b29edfa2f2eab86b8c480142ab6d65b7c55",
+    "size": 8025
+  },
+  {
+    "path": "checks.json",
+    "sha": "74e1a5c1a261973ec170064382535a954387454a",
+    "size": 1900
+  },
+  {
+    "path": "README.md",
+    "sha": "8a2414e858351c4afc203c73d7af87633277a683",
+    "size": 2485
+  },
+  {
+    "path": "check.cjs",
+    "sha": "8942c09c086174e1a95ad0359623fc330f747bc8",
+    "size": 2510
+  },
+  {
+    "path": "masks.json",
+    "sha": "e345a1f4b6ff0b35f0268dfd1f6297f02a6460f9",
+    "size": 2898
+  },
+  {
+    "path": "translucent-mobile-structure.svg",
+    "sha": "a5c831714fcd26f37e6d2f29064bc74ed09a7704",
+    "size": 7986
+  },
+  {
+    "path": "translucent-desktop.svg",
+    "sha": "efccc43b29eda5f8f759e642932940e99c7aa830",
+    "size": 9778
+  },
+  {
+    "path": "translucent.html",
+    "sha": "1c48596e24fa6d45a213ba22d9bebc355e30b00b",
+    "size": 27160
+  },
+  {
+    "path": "hustle.html",
+    "sha": "1dd9d6e26457adc9dae1a539c03e0a2793cd79f0",
+    "size": 24694
+  },
+  {
+    "path": "hustle-desktop-structure.svg",
+    "sha": "45640e898779da2369e47671a903128039c897b6",
+    "size": 7208
+  },
+  {
+    "path": "hustle-mobile.svg",
+    "sha": "0caefd99733f473223ab8c9d8b4837209280cec0",
+    "size": 8887
+  },
+  {
+    "path": "licenses/Cormorant-OFL.txt",
+    "sha": "69aa063b53f4e3dfdd8ba65ad561463d7719dfcd",
+    "size": 4388
+  },
+  {
+    "path": "licenses/Zhuque-OFL.txt",
+    "sha": "5767769a70528d89007dcd948fff8b547b510d9c",
+    "size": 4390
+  },
+  {
+    "path": "audit/source-integrity.json",
+    "sha": "8db8beae5b6ba081d1a30203768b8708c63315ca",
+    "size": 8663
+  },
+  {
+    "path": "audit/cases.manifest.json",
+    "sha": "0c91ef4b55b4b4c27f76788809100493fabcdcd7",
+    "size": 7883
+  },
+  {
+    "path": "audit/terms.ndjson",
+    "sha": "3fa22a76302f34d7051dcd98febd9e1b2a561355",
+    "size": 6793
+  },
+  {
+    "path": "audit/cases.ndjson",
+    "sha": "0dc25a89e8baddab5d162c8779c94e509c421000",
+    "size": 19539
+  },
+  {
+    "path": "audit/image-decode.json",
+    "sha": "7b121a65fa23d4b59de7053ee4007726504bd3c4",
+    "size": 8142
+  },
+  {
+    "path": "audit/terms.manifest.json",
+    "sha": "ee98bd6ee2feb26a71e919271819e6df07aabb06",
+    "size": 8379
+  },
+  {
+    "path": "before/hustle.jpg",
+    "sha": "637d65fa96cd6821bad3a53899dd87ea2d80a22b",
+    "size": 228872
+  },
+  {
+    "path": "before/new-chinese.jpg",
+    "sha": "7031cdfe9b573a482057ca2c66be35d27a273c2a",
+    "size": 179265
+  },
+  {
+    "path": "before/translucent.jpg",
+    "sha": "5e140d3d1da8e7dffc8ecc01e994d91e0c5f8612",
+    "size": 151579
+  },
+  {
+    "path": "previews/new-chinese-desktop.jpg",
+    "sha": "45d0ec3a126f9c44b615dc11c6a625e128a2d770",
+    "size": 336580
+  },
+  {
+    "path": "previews/hustle-desktop.jpg",
+    "sha": "43eaf14d86fdef507829ad41a146a3609d45a289",
+    "size": 431987
+  },
+  {
+    "path": "previews/new-chinese-mobile.jpg",
+    "sha": "b2b02f9d58de7490ad0e601164df19c3d268f40d",
+    "size": 124724
+  },
+  {
+    "path": "previews/translucent-mobile.jpg",
+    "sha": "30ad5b45d5649ef2a16f4dc45188da13d289f8d5",
+    "size": 105470
+  },
+  {
+    "path": "previews/hustle-mobile.jpg",
+    "sha": "6c714f493bc22ef730ccee550d0f0bd9a326e137",
+    "size": 163652
+  },
+  {
+    "path": "previews/translucent-desktop.jpg",
+    "sha": "3336efb8f6de4d12d71972cb35970cc50e6b6926",
+    "size": 255463
+  },
+  {
+    "path": "data/translucent-layout.json",
+    "sha": "eea1c2be04ac8f3415ef53d90d7cbaaf9b36b1fd",
+    "size": 8037
+  },
+  {
+    "path": "data/new-chinese-layout.json",
+    "sha": "c046a9e106794f3c41449a9d82491df3a2da32e0",
+    "size": 7176
+  },
+  {
+    "path": "data/hustle-content.json",
+    "sha": "2aa728597368a3857f17b5f244d37293b69888f1",
+    "size": 1702
+  },
+  {
+    "path": "data/hustle-layout.json",
+    "sha": "69ae55a023859fb53beba73aed56805150eb3cb4",
+    "size": 7149
+  },
+  {
+    "path": "data/translucent-content.json",
+    "sha": "33c23be25a1c3789426b66d1d4fed3c98694b6c5",
+    "size": 1766
+  },
+  {
+    "path": "data/new-chinese-content.json",
+    "sha": "ba0abe74554c2cef077bd91facb1606a32ed56c6",
+    "size": 2117
+  },
+  {
+    "path": "assets/translucent/illum_03_R.jpg",
+    "sha": "3e5fc7c2e7663977986f53137d5f0408774d7e3d",
+    "size": 1219069
+  },
+  {
+    "path": "assets/translucent/illum_01_R.jpg",
+    "sha": "b7ebe9805b201fd7961f2b4c28119fd7ea400216",
+    "size": 899644
+  },
+  {
+    "path": "assets/translucent/rain_sketch.jpg",
+    "sha": "0d266533d3a1171aba2b453132033d33cb44299e",
+    "size": 46609
+  },
+  {
+    "path": "assets/translucent/liquid_03.jpg",
+    "sha": "327a39dde7785ab1030edaf2159f4f23b5fe5f73",
+    "size": 332518
+  },
+  {
+    "path": "assets/translucent/illum_02_R.jpg",
+    "sha": "9f1792079948ae56944fae1f9c8bfedc14c6088e",
+    "size": 1107119
+  },
+  {
+    "path": "assets/translucent/liquid_11.jpg",
+    "sha": "10bec3fc31b4eebb93c8240d7ca51a0fe9d922ff",
+    "size": 328312
+  },
+  {
+    "path": "assets/translucent/rain_02.jpg",
+    "sha": "8044053a0063c57adb8ecfaae57df60fc33f0b85",
+    "size": 14128
+  },
+  {
+    "path": "assets/translucent/liquid_10.jpg",
+    "sha": "662eaa255121e9a4b278d1a396aec2cbf09429ab",
+    "size": 171916
+  },
+  {
+    "path": "assets/translucent/illum_cover.jpg",
+    "sha": "ba82b173c69dbcf4c3d707f4bcebae44b29feba8",
+    "size": 1925905
+  },
+  {
+    "path": "assets/translucent/liquid_12.jpg",
+    "sha": "8d4fc1e75eaad5abaa85f3d36778638a5fe5ff81",
+    "size": 186603
+  },
+  {
+    "path": "assets/translucent/well_kub_og3.jpg",
+    "sha": "983b798e894b238b5b850157d432855a60b864fe",
+    "size": 352608
+  },
+  {
+    "path": "assets/translucent/illum_02_L.jpg",
+    "sha": "0693215344d149d0ae88e1e8d600b66882a87308",
+    "size": 371936
+  },
+  {
+    "path": "assets/translucent/rain_jb_35.jpg",
+    "sha": "90ac727afbb5ddaed247263813b8faf3a5b9826f",
+    "size": 203719
+  },
+  {
+    "path": "assets/translucent/well_alt_143255.jpeg",
+    "sha": "97ee3dd9d6a2d0a9e0118afa91093fb742b74678",
+    "size": 956212
+  },
+  {
+    "path": "assets/translucent/well_pinault_2.jpg",
+    "sha": "30e24bfc075e9dbfd4ec4afa9656fa6798348e26",
+    "size": 83446
+  },
+  {
+    "path": "assets/translucent/illum_04_L.jpg",
+    "sha": "ec40bccb4e89193da9f3bc266ea85d13e90b670d",
+    "size": 1221514
+  },
+  {
+    "path": "assets/translucent/illum_03_L.jpg",
+    "sha": "1fc9557080fdf0388e025c05e6650644533b7d86",
+    "size": 1725517
+  },
+  {
+    "path": "assets/hustle/wastenot_caps_2k.jpg",
+    "sha": "206fa60331f8b8c7d33c404943e78a4541a7018d",
+    "size": 874809
+  },
+  {
+    "path": "assets/hustle/wolf_back_door_08.jpg",
+    "sha": "be0e228cbba960fa1195969aef98e5a916824f1d",
+    "size": 249646
+  },
+  {
+    "path": "assets/hustle/wolf_back_door_09.jpg",
+    "sha": "82b158e03ea97755533148f035e2e64538801942",
+    "size": 222472
+  },
+  {
+    "path": "assets/hustle/spoerri_kunst.jpg",
+    "sha": "1d70a2a456098ee73762b1130aad85104b497146",
+    "size": 79264
+  },
+  {
+    "path": "assets/hustle/storefront_p020-021.jpg",
+    "sha": "d0651dc805b91eb449270dee7349f1cf4a1e3a86",
+    "size": 649694
+  },
+  {
+    "path": "assets/hustle/spoerri_buffalo_full.jpg",
+    "sha": "261ded5d1becd45a242ff3e54e9ad1264bdfa0db",
+    "size": 153771
+  },
+  {
+    "path": "assets/hustle/wolf_back_door_01.jpg",
+    "sha": "1f7b1db8f947b8c544c3d94bf35263d284aed255",
+    "size": 242936
+  },
+  {
+    "path": "assets/hustle/wastenot_domestic_2k.jpg",
+    "sha": "0a9405417b553f63625a51af40263538549a28f7",
+    "size": 690441
+  },
+  {
+    "path": "assets/hustle/wolf_back_door_02.jpg",
+    "sha": "9a9526867f0b50ce5b789349942713f85bce200c",
+    "size": 229786
+  },
+  {
+    "path": "assets/hustle/wolf_back_door_03.jpg",
+    "sha": "492d7bd1c067b18e501873bb479a0bf6f63f24d4",
+    "size": 221403
+  },
+  {
+    "path": "assets/hustle/storefront_p036-037.jpg",
+    "sha": "b70a40ee02c8ebb57fa19e930328407927c39cdb",
+    "size": 558986
+  },
+  {
+    "path": "assets/hustle/storefront_03.jpg",
+    "sha": "b8859f079fa15c01cb14104c8b61e454ef2d4b26",
+    "size": 476455
+  },
+  {
+    "path": "assets/hustle/wolf_back_door_12.jpg",
+    "sha": "6ac16da0720caae0380de0ff5512408d808893b7",
+    "size": 226329
+  },
+  {
+    "path": "assets/hustle/wolf_back_door_05.jpg",
+    "sha": "c6b930ede324ca560c89116b0a7aa5643f6f4ab8",
+    "size": 241892
+  },
+  {
+    "path": "assets/hustle/storefront_01.jpg",
+    "sha": "6e766ff415fd659cd1f782ce0255e28be9d0768a",
+    "size": 488691
+  },
+  {
+    "path": "assets/new-chinese/brick_corridor.jpg",
+    "sha": "079a56e9fcd08db25b32fb8cb420016e635ccc20",
+    "size": 544746
+  },
+  {
+    "path": "assets/new-chinese/brick_courtyard.jpg",
+    "sha": "7a756012eb6881f9d338ef268da87c07673b3104",
+    "size": 454539
+  },
+  {
+    "path": "assets/new-chinese/shaofan_wright.jpg",
+    "sha": "86db3504b6ed22e88c356460116f125960bcb31d",
+    "size": 139487
+  },
+  {
+    "path": "assets/new-chinese/brick_aerial.jpg",
+    "sha": "c08654bacf54f959fdf6ed1b94ee649245a17408",
+    "size": 292298
+  },
+  {
+    "path": "assets/new-chinese/samuel_vogue.jpg",
+    "sha": "b0c581edd4bec3c621304dad7f2d2ce8f1cd8205",
+    "size": 281285
+  },
+  {
+    "path": "assets/new-chinese/samuel_vogue2.jpg",
+    "sha": "21cea2e3c82bf1c82a33046bf3ee131dea051a89",
+    "size": 295305
+  },
+  {
+    "path": "assets/fonts/2ce479b703b54faa.woff2",
+    "sha": "6f20f77ab4ed327cd24b5c859fb155cde96fe7b3",
+    "size": 76324
+  },
+  {
+    "path": "assets/fonts/0ad1510514849c1e.woff2",
+    "sha": "0b295224b6420b5def7238fcaf5c96dbb2995755",
+    "size": 35732
+  },
+  {
+    "path": "assets/fonts/758883b3b8e23791.woff2",
+    "sha": "3dc5d79e21c979065126bd4a70da55f1f86b9437",
+    "size": 27112
+  }
+]

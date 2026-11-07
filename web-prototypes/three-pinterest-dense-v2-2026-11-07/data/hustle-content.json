@@ -1,0 +1,61 @@
+{
+  "snapshot_date": "2026-11-05",
+  "source": {
+    "base": "IGctbcuwPaE6hMsmAoicJddpn3U",
+    "term_table": "tbl2gR8WBoqCQyGz",
+    "case_table": "tblpdRYutnm12T0y",
+    "profile": "aesthetic-feishu",
+    "as": "user",
+    "read_only": true
+  },
+  "term": {
+    "record_id": "reczz28HJJL2GMxt",
+    "词": "烟火味",
+    "英文": "Hustle and Bustle",
+    "所属章节": [
+      "日常"
+    ],
+    "在本章的位置": "推开门，走进满街的热气和人声",
+    "核心": "烟火味最迷人的地方，是它让我们感觉到「世界还在好好生活」。"
+  },
+  "cases": [
+    {
+      "id": "reczz28LeF2soAIy",
+      "title": "香港后门",
+      "media": "街头摄影",
+      "imgs": 8,
+      "url": "https://photomichaelwolf.com/hong-kong/back-door/"
+    },
+    {
+      "id": "reczz28LeF2skMR8",
+      "title": "东京店构",
+      "media": "水彩插画",
+      "imgs": 7,
+      "url": "https://mateuszurbanowicz.com/tokyo-storefronts/"
+    },
+    {
+      "id": "reczz28LeF2snCvV",
+      "title": "琪琪的早餐 I",
+      "media": "现成物装置",
+      "imgs": 3,
+      "url": "https://www.moma.org/collection/works/81430"
+    },
+    {
+      "id": "reczz28LeF2slBKE",
+      "title": "物尽其用",
+      "media": "大型装置",
+      "imgs": 3,
+      "url": "https://www.moma.org/calendar/exhibitions/960"
+    }
+  ],
+  "editorial": {
+    "see": "后门街景、早餐盘装置、水彩店面、宋冬物尽其用",
+    "clues": [
+      "香港后门 · 街头摄影",
+      "琪琪的早餐 I · 现成物装置",
+      "物尽其用 · 大型装置",
+      "香港后门 · 街头摄影"
+    ],
+    "avoid": "不与无关词条混图；不因附件多而硬凑"
+  }
+}

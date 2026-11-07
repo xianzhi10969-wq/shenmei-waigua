@@ -1,0 +1,30 @@
+{
+  "without_originals_directory": true,
+  "reproduced_files": [
+    "translucent-mobile.svg",
+    "new-chinese-mobile-structure.svg",
+    "new-chinese.html",
+    "new-chinese-mobile.svg",
+    "index.html",
+    "hustle-mobile-structure.svg",
+    "new-chinese-desktop-structure.svg",
+    "styles.css",
+    "hustle-desktop.svg",
+    "new-chinese-desktop.svg",
+    "viewer.js",
+    "translucent-desktop-structure.svg",
+    "translucent-mobile-structure.svg",
+    "translucent-desktop.svg",
+    "translucent.html",
+    "hustle.html",
+    "hustle-desktop-structure.svg",
+    "hustle-mobile.svg",
+    "data/translucent-layout.json",
+    "data/new-chinese-layout.json",
+    "data/hustle-content.json",
+    "data/hustle-layout.json",
+    "data/translucent-content.json",
+    "data/new-chinese-content.json"
+  ],
+  "all_identical": true
+}

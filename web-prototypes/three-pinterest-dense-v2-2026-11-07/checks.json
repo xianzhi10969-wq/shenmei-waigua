@@ -1,0 +1,111 @@
+{
+  "results": [
+    {
+      "s": "translucent",
+      "width": 320,
+      "overflow": false,
+      "images": true,
+      "units": 17
+    },
+    {
+      "s": "translucent",
+      "width": 390,
+      "overflow": false,
+      "images": true,
+      "units": 17
+    },
+    {
+      "s": "translucent",
+      "width": 430,
+      "overflow": false,
+      "images": true,
+      "units": 17
+    },
+    {
+      "s": "translucent",
+      "width": 768,
+      "overflow": false,
+      "images": true,
+      "units": 17
+    },
+    {
+      "s": "translucent",
+      "width": 1200,
+      "overflow": false,
+      "images": true,
+      "units": 17
+    },
+    {
+      "s": "hustle",
+      "width": 320,
+      "overflow": false,
+      "images": true,
+      "units": 15
+    },
+    {
+      "s": "hustle",
+      "width": 390,
+      "overflow": false,
+      "images": true,
+      "units": 15
+    },
+    {
+      "s": "hustle",
+      "width": 430,
+      "overflow": false,
+      "images": true,
+      "units": 15
+    },
+    {
+      "s": "hustle",
+      "width": 768,
+      "overflow": false,
+      "images": true,
+      "units": 15
+    },
+    {
+      "s": "hustle",
+      "width": 1200,
+      "overflow": false,
+      "images": true,
+      "units": 15
+    },
+    {
+      "s": "new-chinese",
+      "width": 320,
+      "overflow": false,
+      "images": true,
+      "units": 13
+    },
+    {
+      "s": "new-chinese",
+      "width": 390,
+      "overflow": false,
+      "images": true,
+      "units": 13
+    },
+    {
+      "s": "new-chinese",
+      "width": 430,
+      "overflow": false,
+      "images": true,
+      "units": 13
+    },
+    {
+      "s": "new-chinese",
+      "width": 768,
+      "overflow": false,
+      "images": true,
+      "units": 13
+    },
+    {
+      "s": "new-chinese",
+      "width": 1200,
+      "overflow": false,
+      "images": true,
+      "units": 13
+    }
+  ],
+  "originalsOpened": 90,
+  "errors": []
+}
