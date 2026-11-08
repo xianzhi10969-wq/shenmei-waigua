@@ -2972,5 +2972,363 @@
     "desktopRatio": 1.0909090909090908,
     "mobile": "/collages/nature-and-solitude-collages-2026-11-08/solitude-mobile.svg",
     "mobileRatio": 0.35135135135135137
+  },
+  {
+    "slug": "retro",
+    "termId": "reczz28HJJL2GJXK",
+    "name": "复古",
+    "batch": "mist-and-memory-collages-2026-11-08",
+    "status": "pending-review",
+    "pieces": [
+      {
+        "original": "/collages/mist-and-memory-collages-2026-11-08/assets/originals/1ac2c56cf75c933fa0af49f0.jpg",
+        "title": "乔叟作品集",
+        "label": "装饰书页与铅字",
+        "source": "https://www.artic.edu/artworks/271552/the-works-of-geoffrey-chaucer-now-newly-imprinted",
+        "caseId": "reczz28HJJL2NiS4",
+        "caseImage": "/media/1ac2c56cf75c933fa0af49f0.jpg",
+        "origin": "existing-case"
+      },
+      {
+        "original": "/collages/mist-and-memory-collages-2026-11-08/assets/originals/hotel-3.jpg",
+        "title": "布达佩斯大饭店",
+        "label": "旧饭店的粉色中庭",
+        "source": "https://www.searchlightpictures.com/thegrandbudapesthotel",
+        "caseId": "reczz28HJJL2NiVX",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/mist-and-memory-collages-2026-11-08/assets/originals/hotel-4.jpg",
+        "title": "布达佩斯大饭店",
+        "label": "书房与旧日叙述者",
+        "source": "https://www.searchlightpictures.com/thegrandbudapesthotel",
+        "caseId": "reczz28HJJL2NiVX",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/mist-and-memory-collages-2026-11-08/assets/originals/hotel-9.jpg",
+        "title": "布达佩斯大饭店",
+        "label": "窗边的早餐与柔粉天光",
+        "source": "https://www.searchlightpictures.com/thegrandbudapesthotel",
+        "caseId": "reczz28HJJL2NiVX",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/mist-and-memory-collages-2026-11-08/assets/originals/hotel-5.jpg",
+        "title": "布达佩斯大饭店",
+        "label": "Mendl盒子堆成的粉色山",
+        "source": "https://www.searchlightpictures.com/thegrandbudapesthotel",
+        "caseId": "reczz28HJJL2NiVX",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/mist-and-memory-collages-2026-11-08/assets/originals/hotel-8.jpg",
+        "title": "布达佩斯大饭店",
+        "label": "CONCIERGE礼宾台",
+        "source": "https://www.searchlightpictures.com/thegrandbudapesthotel",
+        "caseId": "reczz28HJJL2NiVX",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/mist-and-memory-collages-2026-11-08/assets/originals/hotel-11.jpg",
+        "title": "布达佩斯大饭店",
+        "label": "山间的大饭店",
+        "source": "https://www.searchlightpictures.com/thegrandbudapesthotel",
+        "caseId": "reczz28HJJL2NiVX",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/mist-and-memory-collages-2026-11-08/assets/originals/1ac2c56cf75c933fa0af49f0.jpg",
+        "title": "乔叟作品集",
+        "label": "藤叶边框里的一段插画",
+        "source": "https://www.artic.edu/artworks/271552/the-works-of-geoffrey-chaucer-now-newly-imprinted",
+        "caseId": "reczz28HJJL2NiS4",
+        "caseImage": "/media/1ac2c56cf75c933fa0af49f0.jpg",
+        "origin": "existing-case"
+      },
+      {
+        "original": "/collages/mist-and-memory-collages-2026-11-08/assets/originals/hotel-2.jpg",
+        "title": "布达佩斯大饭店",
+        "label": "紫色礼服与红色钥匙墙",
+        "source": "https://www.searchlightpictures.com/thegrandbudapesthotel",
+        "caseId": "reczz28HJJL2NiVX",
+        "caseImage": null,
+        "origin": "case-supplement"
+      }
+    ],
+    "desktop": "/collages/mist-and-memory-collages-2026-11-08/retro-desktop.svg",
+    "desktopRatio": 1.0909090909090908,
+    "mobile": "/collages/mist-and-memory-collages-2026-11-08/retro-mobile.svg",
+    "mobileRatio": 0.35135135135135137
+  },
+  {
+    "slug": "haze",
+    "termId": "reczz28HJJL2GLgi",
+    "name": "朦胧",
+    "batch": "mist-and-memory-collages-2026-11-08",
+    "status": "pending-review",
+    "pieces": [
+      {
+        "original": "/collages/mist-and-memory-collages-2026-11-08/assets/originals/blur-4.jpg",
+        "title": "模糊建筑",
+        "label": "灰色云层下的水面",
+        "source": "https://dsrny.com/project/blur-building",
+        "caseId": "reczz28HJJL2NkhS",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/mist-and-memory-collages-2026-11-08/assets/originals/e456d8f5e89aef03063cf73e.jpg",
+        "title": "辛崎之松",
+        "label": "雨线遮住远山",
+        "source": "https://www2.yamanashi-ken.ac.jp/~itoyo/basho/nozarasi/nozara27.htm",
+        "caseId": "reczz28HJJL2NkkB",
+        "caseImage": "/media/e456d8f5e89aef03063cf73e.jpg",
+        "origin": "existing-case"
+      },
+      {
+        "original": "/collages/mist-and-memory-collages-2026-11-08/assets/originals/blur-3.jpg",
+        "title": "模糊建筑",
+        "label": "夜里的白色雾体",
+        "source": "https://dsrny.com/project/blur-building",
+        "caseId": "reczz28HJJL2NkhS",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/mist-and-memory-collages-2026-11-08/assets/originals/blur-9.jpg",
+        "title": "模糊建筑",
+        "label": "雾里出现的人",
+        "source": "https://dsrny.com/project/blur-building",
+        "caseId": "reczz28HJJL2NkhS",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/mist-and-memory-collages-2026-11-08/assets/originals/blur-5.jpg",
+        "title": "模糊建筑",
+        "label": "栈桥在中途消失",
+        "source": "https://dsrny.com/project/blur-building",
+        "caseId": "reczz28HJJL2NkhS",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/mist-and-memory-collages-2026-11-08/assets/originals/blur-6.jpg",
+        "title": "模糊建筑",
+        "label": "走进雾的长桥",
+        "source": "https://dsrny.com/project/blur-building",
+        "caseId": "reczz28HJJL2NkhS",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/mist-and-memory-collages-2026-11-08/assets/originals/blur-7.jpg",
+        "title": "模糊建筑",
+        "label": "只剩朦胧的人影",
+        "source": "https://dsrny.com/project/blur-building",
+        "caseId": "reczz28HJJL2NkhS",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/mist-and-memory-collages-2026-11-08/assets/originals/plum.jpg",
+        "title": "月下赏梅图",
+        "label": "月色下的枝条与山路",
+        "source": "https://www.metmuseum.org/art/collection/search/44638",
+        "caseId": "reczz28HJJL2Nker",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/mist-and-memory-collages-2026-11-08/assets/originals/blur-1.jpg",
+        "title": "模糊建筑",
+        "label": "没有墙的云中建筑",
+        "source": "https://dsrny.com/project/blur-building",
+        "caseId": "reczz28HJJL2NkhS",
+        "caseImage": null,
+        "origin": "case-supplement"
+      }
+    ],
+    "desktop": "/collages/mist-and-memory-collages-2026-11-08/haze-desktop.svg",
+    "desktopRatio": 1.0909090909090908,
+    "mobile": "/collages/mist-and-memory-collages-2026-11-08/haze-mobile.svg",
+    "mobileRatio": 0.35135135135135137
+  },
+  {
+    "slug": "salt",
+    "termId": "reczz28HJJL2GM8Z",
+    "name": "盐系",
+    "batch": "mist-and-memory-collages-2026-11-08",
+    "status": "pending-review",
+    "pieces": [
+      {
+        "original": "/collages/mist-and-memory-collages-2026-11-08/assets/originals/muji-horizon.jpg",
+        "title": "MUJI企业广告·地平线",
+        "label": "MUJI地平线",
+        "source": "https://a-g-i.org/design/muji-corporate-advertising-poster-2003-horizon",
+        "caseId": "reczz28HJJL2Nl2e",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/mist-and-memory-collages-2026-11-08/assets/originals/utatane-2.jpg",
+        "title": "うたたね",
+        "label": "白砖和水流",
+        "source": "https://rinkokawauchi.com/en/publications/361/",
+        "caseId": "reczz28HJJL2Nl5H",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/mist-and-memory-collages-2026-11-08/assets/originals/utatane-4.jpg",
+        "title": "うたたね",
+        "label": "微光落在翻开的书页",
+        "source": "https://rinkokawauchi.com/en/publications/361/",
+        "caseId": "reczz28HJJL2Nl5H",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/mist-and-memory-collages-2026-11-08/assets/originals/utatane-3.jpg",
+        "title": "うたたね",
+        "label": "细小的群聚与白色光点",
+        "source": "https://rinkokawauchi.com/en/publications/361/",
+        "caseId": "reczz28HJJL2Nl5H",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/mist-and-memory-collages-2026-11-08/assets/originals/utatane-5.jpg",
+        "title": "うたたね",
+        "label": "一只手和西瓜的切面",
+        "source": "https://rinkokawauchi.com/en/publications/361/",
+        "caseId": "reczz28HJJL2Nl5H",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/mist-and-memory-collages-2026-11-08/assets/originals/utatane-1.jpg",
+        "title": "うたたね",
+        "label": "《うたたね》的浅蓝封面",
+        "source": "https://rinkokawauchi.com/en/publications/361/",
+        "caseId": "reczz28HJJL2Nl5H",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/mist-and-memory-collages-2026-11-08/assets/originals/317ea11c7e5832722216cda8.jpg",
+        "title": "白色交响曲第一号：白衣女孩",
+        "label": "白色的叠层与安静的站姿",
+        "source": "https://www.nga.gov/artworks/12198-symphony-white-no-1-white-girl",
+        "caseId": "reczz28HJJL2Nl7r",
+        "caseImage": null,
+        "origin": "existing-case"
+      },
+      {
+        "original": "/collages/mist-and-memory-collages-2026-11-08/assets/originals/utatane-2.jpg",
+        "title": "うたたね",
+        "label": "日光里的白砖局部",
+        "source": "https://rinkokawauchi.com/en/publications/361/",
+        "caseId": "reczz28HJJL2Nl5H",
+        "caseImage": null,
+        "origin": "case-supplement"
+      }
+    ],
+    "desktop": "/collages/mist-and-memory-collages-2026-11-08/salt-desktop.svg",
+    "desktopRatio": 1.0909090909090908,
+    "mobile": "/collages/mist-and-memory-collages-2026-11-08/salt-mobile.svg",
+    "mobileRatio": 0.35135135135135137
+  },
+  {
+    "slug": "french",
+    "termId": "reczz28HJJL2GOCn",
+    "name": "法式不经意",
+    "batch": "mist-and-memory-collages-2026-11-08",
+    "status": "pending-review",
+    "pieces": [
+      {
+        "original": "/collages/mist-and-memory-collages-2026-11-08/assets/originals/a4b61b4f285b1b9193acdf2c.jpg",
+        "title": "船上的午宴",
+        "label": "午宴在露台展开",
+        "source": "https://www.phillipscollection.org/collection/luncheon-boating-party",
+        "caseId": "reczz28HJJL2NoJM",
+        "caseImage": null,
+        "origin": "existing-case"
+      },
+      {
+        "original": "/collages/mist-and-memory-collages-2026-11-08/assets/originals/lartigue.jpg",
+        "title": "布洛涅森林大道，巴黎",
+        "label": "布洛涅森林大道，1911",
+        "source": "https://www.moma.org/collection/works/45027",
+        "caseId": "reczz28HJJL2NoLz",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/mist-and-memory-collages-2026-11-08/assets/originals/a4b61b4f285b1b9193acdf2c.jpg",
+        "title": "船上的午宴",
+        "label": "戴花帽的女子和她的小狗",
+        "source": "https://www.phillipscollection.org/collection/luncheon-boating-party",
+        "caseId": "reczz28HJJL2NoJM",
+        "caseImage": null,
+        "origin": "existing-case"
+      },
+      {
+        "original": "/collages/mist-and-memory-collages-2026-11-08/assets/originals/a4b61b4f285b1b9193acdf2c.jpg",
+        "title": "船上的午宴",
+        "label": "草帽下侧身听着的人",
+        "source": "https://www.phillipscollection.org/collection/luncheon-boating-party",
+        "caseId": "reczz28HJJL2NoJM",
+        "caseImage": null,
+        "origin": "existing-case"
+      },
+      {
+        "original": "/collages/mist-and-memory-collages-2026-11-08/assets/originals/a4b61b4f285b1b9193acdf2c.jpg",
+        "title": "船上的午宴",
+        "label": "玻璃杯边的一个笑脸",
+        "source": "https://www.phillipscollection.org/collection/luncheon-boating-party",
+        "caseId": "reczz28HJJL2NoJM",
+        "caseImage": null,
+        "origin": "existing-case"
+      },
+      {
+        "original": "/collages/mist-and-memory-collages-2026-11-08/assets/originals/a4b61b4f285b1b9193acdf2c.jpg",
+        "title": "船上的午宴",
+        "label": "餐桌上的玻璃杯与果盘",
+        "source": "https://www.phillipscollection.org/collection/luncheon-boating-party",
+        "caseId": "reczz28HJJL2NoJM",
+        "caseImage": null,
+        "origin": "existing-case"
+      },
+      {
+        "original": "/collages/mist-and-memory-collages-2026-11-08/assets/originals/lartigue.jpg",
+        "title": "布洛涅森林大道，巴黎",
+        "label": "车轮和大道的光",
+        "source": "https://www.moma.org/collection/works/45027",
+        "caseId": "reczz28HJJL2NoLz",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/mist-and-memory-collages-2026-11-08/assets/originals/lartigue.jpg",
+        "title": "布洛涅森林大道，巴黎",
+        "label": "帽子、长裙和擦肩而过的步伐",
+        "source": "https://www.moma.org/collection/works/45027",
+        "caseId": "reczz28HJJL2NoLz",
+        "caseImage": null,
+        "origin": "case-supplement"
+      }
+    ],
+    "desktop": "/collages/mist-and-memory-collages-2026-11-08/french-desktop.svg",
+    "desktopRatio": 1.0909090909090908,
+    "mobile": "/collages/mist-and-memory-collages-2026-11-08/french-mobile.svg",
+    "mobileRatio": 0.35135135135135137
   }
 ]

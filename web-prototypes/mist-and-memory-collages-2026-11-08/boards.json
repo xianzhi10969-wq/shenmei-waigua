@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "retro",
+    "id": "reczz28HJJL2GJXK",
+    "name": "复古",
+    "english": "Retro",
+    "caseIds": [
+      "reczz28HJJL2NiS4",
+      "reczz28HJJL2NiVX"
+    ]
+  },
+  {
+    "slug": "haze",
+    "id": "reczz28HJJL2GLgi",
+    "name": "朦胧",
+    "english": "Haze",
+    "caseIds": [
+      "reczz28HJJL2Nker",
+      "reczz28HJJL2NkhS",
+      "reczz28HJJL2NkkB"
+    ]
+  },
+  {
+    "slug": "salt",
+    "id": "reczz28HJJL2GM8Z",
+    "name": "盐系",
+    "english": "Salt Style",
+    "caseIds": [
+      "reczz28HJJL2Nl2e",
+      "reczz28HJJL2Nl5H",
+      "reczz28HJJL2Nl7r"
+    ]
+  },
+  {
+    "slug": "french",
+    "id": "reczz28HJJL2GOCn",
+    "name": "法式不经意",
+    "english": "French Sprezzatura",
+    "caseIds": [
+      "reczz28HJJL2NoJM",
+      "reczz28HJJL2NoLz"
+    ]
+  }
+]

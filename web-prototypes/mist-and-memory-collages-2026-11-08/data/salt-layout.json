@@ -1,0 +1,288 @@
+[
+  {
+    "source": "muji",
+    "label": "MUJI地平线",
+    "desktop": [
+      20,
+      132,
+      1160,
+      327,
+      -1
+    ],
+    "mobile": [
+      8,
+      111,
+      373,
+      182,
+      -2
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/muji-horizon.jpg",
+    "case_record_id": "reczz28HJJL2Nl2e",
+    "case_title": "MUJI企业广告·地平线",
+    "source_url": "https://a-g-i.org/design/muji-corporate-advertising-poster-2003-horizon",
+    "term_record_id": "reczz28HJJL2GM8Z",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "2636aea4cf4485f0fd4885c172d61b2b268fc9004fa99a030dbe1fc44b7c4c94"
+  },
+  {
+    "source": "utatane-2",
+    "label": "白砖和水流",
+    "desktop": [
+      20,
+      472,
+      471,
+      316,
+      -3
+    ],
+    "mobile": [
+      8,
+      301,
+      221,
+      228,
+      -3
+    ],
+    "crop": [
+      215,
+      160,
+      570,
+      700
+    ],
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/utatane-2.jpg",
+    "case_record_id": "reczz28HJJL2Nl5H",
+    "case_title": "うたたね",
+    "source_url": "https://rinkokawauchi.com/en/publications/361/",
+    "term_record_id": "reczz28HJJL2GM8Z",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "fc91d768e54a012d41da563197028d4ec15cb2e13addfaa8a7d129ca0b9df327"
+  },
+  {
+    "source": "utatane-4",
+    "label": "微光落在翻开的书页",
+    "desktop": [
+      686,
+      470,
+      490,
+      320,
+      3
+    ],
+    "mobile": [
+      200,
+      305,
+      179,
+      231,
+      3
+    ],
+    "crop": [
+      215,
+      160,
+      570,
+      700
+    ],
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/utatane-4.jpg",
+    "case_record_id": "reczz28HJJL2Nl5H",
+    "case_title": "うたたね",
+    "source_url": "https://rinkokawauchi.com/en/publications/361/",
+    "term_record_id": "reczz28HJJL2GM8Z",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "4b3dcdb85e1d9ee43341c5ffaddf5700b392ad9111b1e50dafa5bc443fbebb74"
+  },
+  {
+    "source": "utatane-3",
+    "label": "细小的群聚与白色光点",
+    "desktop": [
+      20,
+      800,
+      548,
+      278,
+      2
+    ],
+    "mobile": [
+      8,
+      775,
+      218,
+      315,
+      -3
+    ],
+    "crop": [
+      215,
+      160,
+      570,
+      700
+    ],
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/utatane-3.jpg",
+    "case_record_id": "reczz28HJJL2Nl5H",
+    "case_title": "うたたね",
+    "source_url": "https://rinkokawauchi.com/en/publications/361/",
+    "term_record_id": "reczz28HJJL2GM8Z",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "21e7dc3d83b480c440f114974ab436a34b4f4ce4c4af508614e69990bc1ad70a"
+  },
+  {
+    "source": "utatane-5",
+    "label": "一只手和西瓜的切面",
+    "desktop": [
+      666,
+      801,
+      511,
+      277,
+      -2
+    ],
+    "mobile": [
+      212,
+      814,
+      167,
+      277,
+      3
+    ],
+    "crop": [
+      205,
+      160,
+      600,
+      700
+    ],
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/utatane-5.jpg",
+    "case_record_id": "reczz28HJJL2Nl5H",
+    "case_title": "うたたね",
+    "source_url": "https://rinkokawauchi.com/en/publications/361/",
+    "term_record_id": "reczz28HJJL2GM8Z",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "6125523b7a1202ae70ccc6854b50b05d4380280c84d4b382bacf414eb3a72adf"
+  },
+  {
+    "source": "utatane-1",
+    "label": "《うたたね》的浅蓝封面",
+    "desktop": [
+      870,
+      235,
+      307,
+      332,
+      4
+    ],
+    "mobile": [
+      230,
+      535,
+      148,
+      265,
+      3
+    ],
+    "crop": [
+      336,
+      170,
+      328,
+      680
+    ],
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/utatane-1.jpg",
+    "case_record_id": "reczz28HJJL2Nl5H",
+    "case_title": "うたたね",
+    "source_url": "https://rinkokawauchi.com/en/publications/361/",
+    "term_record_id": "reczz28HJJL2GM8Z",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "b41ae517a8b3ff7fcc85a3db925323b630d1ce343b186a9bb5bad6c270ba2cab"
+  },
+  {
+    "source": "white-girl",
+    "label": "白色的叠层与安静的站姿",
+    "desktop": [
+      315,
+      278,
+      564,
+      799,
+      0
+    ],
+    "mobile": [
+      37,
+      368,
+      300,
+      630,
+      0
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "display": "assets/cutouts/white-girl.png",
+    "fit": "contain",
+    "pixelated": false,
+    "original": "assets/originals/317ea11c7e5832722216cda8.jpg",
+    "case_record_id": "reczz28HJJL2Nl7r",
+    "case_title": "白色交响曲第一号：白衣女孩",
+    "source_url": "https://www.nga.gov/artworks/12198-symphony-white-no-1-white-girl",
+    "term_record_id": "reczz28HJJL2GM8Z",
+    "caseImage": "/media/317ea11c7e5832722216cda8.jpg",
+    "origin": "existing-case",
+    "originalSha256": "c9855fcb7c0fbab88ebeff58fb5a471608c72314fbd3c5573b6986fd25152573"
+  },
+  {
+    "source": "utatane-2",
+    "label": "日光里的白砖局部",
+    "desktop": [
+      30,
+      308,
+      323,
+      231,
+      -5
+    ],
+    "mobile": [
+      8,
+      571,
+      150,
+      181,
+      -4
+    ],
+    "crop": [
+      225,
+      184,
+      268,
+      463
+    ],
+    "mask": null,
+    "shape": "torn",
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/utatane-2.jpg",
+    "case_record_id": "reczz28HJJL2Nl5H",
+    "case_title": "うたたね",
+    "source_url": "https://rinkokawauchi.com/en/publications/361/",
+    "term_record_id": "reczz28HJJL2GM8Z",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "fc91d768e54a012d41da563197028d4ec15cb2e13addfaa8a7d129ca0b9df327"
+  }
+]

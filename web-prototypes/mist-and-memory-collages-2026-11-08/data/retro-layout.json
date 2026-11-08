@@ -1,0 +1,310 @@
+[
+  {
+    "source": "chaucer",
+    "label": "装饰书页与铅字",
+    "desktop": [
+      20,
+      131,
+      403,
+      651,
+      -2
+    ],
+    "mobile": [
+      8,
+      112,
+      190,
+      317,
+      -3
+    ],
+    "crop": [
+      0,
+      490,
+      1000,
+      510
+    ],
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/1ac2c56cf75c933fa0af49f0.jpg",
+    "case_record_id": "reczz28HJJL2NiS4",
+    "case_title": "乔叟作品集",
+    "source_url": "https://www.artic.edu/artworks/271552/the-works-of-geoffrey-chaucer-now-newly-imprinted",
+    "term_record_id": "reczz28HJJL2GJXK",
+    "caseImage": "/media/1ac2c56cf75c933fa0af49f0.jpg",
+    "origin": "existing-case",
+    "originalSha256": "4c5c43ac241af0661b5618759dad038f8f6cad57b01b4f1671b55737863b1468"
+  },
+  {
+    "source": "hotel-3",
+    "label": "旧饭店的粉色中庭",
+    "desktop": [
+      428,
+      130,
+      751,
+      326,
+      2
+    ],
+    "mobile": [
+      194,
+      112,
+      185,
+      245,
+      3
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/hotel-3.jpg",
+    "case_record_id": "reczz28HJJL2NiVX",
+    "case_title": "布达佩斯大饭店",
+    "source_url": "https://www.searchlightpictures.com/thegrandbudapesthotel",
+    "term_record_id": "reczz28HJJL2GJXK",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "4130f76750699e708f791177dc8a39b6cac755541efda64088dd58668418cb3d"
+  },
+  {
+    "source": "hotel-4",
+    "label": "书房与旧日叙述者",
+    "desktop": [
+      20,
+      798,
+      506,
+      279,
+      2
+    ],
+    "mobile": [
+      8,
+      855,
+      225,
+      237,
+      -3
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/hotel-4.jpg",
+    "case_record_id": "reczz28HJJL2NiVX",
+    "case_title": "布达佩斯大饭店",
+    "source_url": "https://www.searchlightpictures.com/thegrandbudapesthotel",
+    "term_record_id": "reczz28HJJL2GJXK",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "cd5c1defad3e7143aef52ca1eeeb22bc691e295fbf6dfe6a0ebd90c071bfeb32"
+  },
+  {
+    "source": "hotel-9",
+    "label": "窗边的早餐与柔粉天光",
+    "desktop": [
+      744,
+      779,
+      432,
+      298,
+      -2
+    ],
+    "mobile": [
+      173,
+      721,
+      206,
+      242,
+      3
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/hotel-9.jpg",
+    "case_record_id": "reczz28HJJL2NiVX",
+    "case_title": "布达佩斯大饭店",
+    "source_url": "https://www.searchlightpictures.com/thegrandbudapesthotel",
+    "term_record_id": "reczz28HJJL2GJXK",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "3759ee3e437afd72ccabeaf4f46cb8b2d99bf7340083f4802d0011e39b6a3d51"
+  },
+  {
+    "source": "hotel-5",
+    "label": "Mendl盒子堆成的粉色山",
+    "desktop": [
+      761,
+      444,
+      416,
+      372,
+      3
+    ],
+    "mobile": [
+      8,
+      424,
+      182,
+      235,
+      -2
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/hotel-5.jpg",
+    "case_record_id": "reczz28HJJL2NiVX",
+    "case_title": "布达佩斯大饭店",
+    "source_url": "https://www.searchlightpictures.com/thegrandbudapesthotel",
+    "term_record_id": "reczz28HJJL2GJXK",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "55116f57535b352ae8b927c7286a0a17a56d097334ad7b0b15ba5f44705f0bf8"
+  },
+  {
+    "source": "hotel-8",
+    "label": "CONCIERGE礼宾台",
+    "desktop": [
+      20,
+      573,
+      436,
+      246,
+      -2
+    ],
+    "mobile": [
+      8,
+      642,
+      188,
+      229,
+      3
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/hotel-8.jpg",
+    "case_record_id": "reczz28HJJL2NiVX",
+    "case_title": "布达佩斯大饭店",
+    "source_url": "https://www.searchlightpictures.com/thegrandbudapesthotel",
+    "term_record_id": "reczz28HJJL2GJXK",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "6dabc99dadd4ced79b69603de84a74e11f1466eb48149c808f68605ccdd6267d"
+  },
+  {
+    "source": "hotel-11",
+    "label": "山间的大饭店",
+    "desktop": [
+      377,
+      277,
+      427,
+      687,
+      -4
+    ],
+    "mobile": [
+      144,
+      319,
+      235,
+      402,
+      -3
+    ],
+    "crop": [
+      0,
+      80,
+      1000,
+      920
+    ],
+    "mask": null,
+    "shape": "arch",
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/hotel-11.jpg",
+    "case_record_id": "reczz28HJJL2NiVX",
+    "case_title": "布达佩斯大饭店",
+    "source_url": "https://www.searchlightpictures.com/thegrandbudapesthotel",
+    "term_record_id": "reczz28HJJL2GJXK",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "9f91e9296cf6af6f4c237cd5052f9e5a68c7abb36ac5d6fa4d5224089ebaeebc"
+  },
+  {
+    "source": "chaucer",
+    "label": "藤叶边框里的一段插画",
+    "desktop": [
+      122,
+      194,
+      328,
+      284,
+      6
+    ],
+    "mobile": [
+      20,
+      228,
+      201,
+      182,
+      5
+    ],
+    "crop": [
+      58,
+      64,
+      870,
+      446
+    ],
+    "mask": null,
+    "shape": "torn",
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/1ac2c56cf75c933fa0af49f0.jpg",
+    "case_record_id": "reczz28HJJL2NiS4",
+    "case_title": "乔叟作品集",
+    "source_url": "https://www.artic.edu/artworks/271552/the-works-of-geoffrey-chaucer-now-newly-imprinted",
+    "term_record_id": "reczz28HJJL2GJXK",
+    "caseImage": "/media/1ac2c56cf75c933fa0af49f0.jpg",
+    "origin": "existing-case",
+    "originalSha256": "4c5c43ac241af0661b5618759dad038f8f6cad57b01b4f1671b55737863b1468"
+  },
+  {
+    "source": "hotel-2",
+    "label": "紫色礼服与红色钥匙墙",
+    "desktop": [
+      479,
+      761,
+      352,
+      313,
+      3
+    ],
+    "mobile": [
+      215,
+      926,
+      164,
+      169,
+      3
+    ],
+    "crop": [
+      300,
+      40,
+      460,
+      950
+    ],
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/hotel-2.jpg",
+    "case_record_id": "reczz28HJJL2NiVX",
+    "case_title": "布达佩斯大饭店",
+    "source_url": "https://www.searchlightpictures.com/thegrandbudapesthotel",
+    "term_record_id": "reczz28HJJL2GJXK",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "fb76a481edfaecbe862d1363286876a4b22cdedf7c0430687af765a18613baf0"
+  }
+]

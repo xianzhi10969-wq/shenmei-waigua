@@ -1,0 +1,183 @@
+{
+  "date": "2026-11-08",
+  "newViews": [
+    {
+      "slug": "retro",
+      "width": 390,
+      "clicks": 9,
+      "caseLinks": 9,
+      "visible": true,
+      "height": 1110,
+      "overflow": false,
+      "svgWidth": 390
+    },
+    {
+      "slug": "haze",
+      "width": 390,
+      "clicks": 9,
+      "caseLinks": 9,
+      "visible": true,
+      "height": 1110,
+      "overflow": false,
+      "svgWidth": 390
+    },
+    {
+      "slug": "salt",
+      "width": 390,
+      "clicks": 8,
+      "caseLinks": 8,
+      "visible": true,
+      "height": 1110,
+      "overflow": false,
+      "svgWidth": 390
+    },
+    {
+      "slug": "french",
+      "width": 390,
+      "clicks": 8,
+      "caseLinks": 8,
+      "visible": true,
+      "height": 1110,
+      "overflow": false,
+      "svgWidth": 390
+    },
+    {
+      "slug": "retro",
+      "width": 1200,
+      "clicks": 9,
+      "caseLinks": 9,
+      "visible": true,
+      "height": 1100,
+      "overflow": false,
+      "svgWidth": 1200
+    },
+    {
+      "slug": "haze",
+      "width": 1200,
+      "clicks": 9,
+      "caseLinks": 9,
+      "visible": true,
+      "height": 1100,
+      "overflow": false,
+      "svgWidth": 1200
+    },
+    {
+      "slug": "salt",
+      "width": 1200,
+      "clicks": 8,
+      "caseLinks": 8,
+      "visible": true,
+      "height": 1100,
+      "overflow": false,
+      "svgWidth": 1200
+    },
+    {
+      "slug": "french",
+      "width": 1200,
+      "clicks": 8,
+      "caseLinks": 8,
+      "visible": true,
+      "height": 1100,
+      "overflow": false,
+      "svgWidth": 1200
+    }
+  ],
+  "newOriginalEntrances": 68,
+  "standalone": {
+    "views": [
+      {
+        "slug": "retro",
+        "width": 390,
+        "clicks": 9,
+        "originalsLoaded": true,
+        "escape": true,
+        "overflow": false
+      },
+      {
+        "slug": "haze",
+        "width": 390,
+        "clicks": 9,
+        "originalsLoaded": true,
+        "escape": true,
+        "overflow": false
+      },
+      {
+        "slug": "salt",
+        "width": 390,
+        "clicks": 8,
+        "originalsLoaded": true,
+        "escape": true,
+        "overflow": false
+      },
+      {
+        "slug": "french",
+        "width": 390,
+        "clicks": 8,
+        "originalsLoaded": true,
+        "escape": true,
+        "overflow": false
+      },
+      {
+        "slug": "retro",
+        "width": 1440,
+        "clicks": 9,
+        "originalsLoaded": true,
+        "escape": true,
+        "overflow": false
+      },
+      {
+        "slug": "haze",
+        "width": 1440,
+        "clicks": 9,
+        "originalsLoaded": true,
+        "escape": true,
+        "overflow": false
+      },
+      {
+        "slug": "salt",
+        "width": 1440,
+        "clicks": 8,
+        "originalsLoaded": true,
+        "escape": true,
+        "overflow": false
+      },
+      {
+        "slug": "french",
+        "width": 1440,
+        "clicks": 8,
+        "originalsLoaded": true,
+        "escape": true,
+        "overflow": false
+      }
+    ],
+    "thumbnails": 4,
+    "errors": []
+  },
+  "siteViews": 64,
+  "siteOriginalEntrances": 648,
+  "errors": [],
+  "originalIntegrity": {
+    "files": 26,
+    "uniqueSha256": 26,
+    "allCaseMappingsVerified": true
+  },
+  "dataIntegrity": {
+    "terms": 101,
+    "cases": 144,
+    "media": 407,
+    "coreOpening": true,
+    "sourceRevisions": {
+      "chapters": 118,
+      "terms": 239,
+      "cases": 420,
+      "sections": 38
+    }
+  },
+  "limitations": [
+    "Browser-emulated mobile, not physical-device testing",
+    "New four are pending visual review",
+    "French board has eight fragments from two originals",
+    "Some official studio files are scaled from lower-resolution stills"
+  ],
+  "transientTestFailure": "First complete-site run hit ERR_SOCKET_NOT_CONNECTED on a localhost navigation. Endpoint returned 200 and a clean full retry passed all 64 views."
+}

@@ -1,0 +1,363 @@
+{
+  "chaucer": {
+    "file": "assets/originals/1ac2c56cf75c933fa0af49f0.jpg",
+    "caseId": "reczz28HJJL2NiS4",
+    "caseImage": "/media/1ac2c56cf75c933fa0af49f0.jpg",
+    "caseTitle": "乔叟作品集",
+    "source": "https://www.artic.edu/artworks/271552/the-works-of-geoffrey-chaucer-now-newly-imprinted",
+    "origin": "existing-case",
+    "sha256": "4c5c43ac241af0661b5618759dad038f8f6cad57b01b4f1671b55737863b1468",
+    "native": [
+      600,
+      867
+    ]
+  },
+  "hiroshige": {
+    "file": "assets/originals/e456d8f5e89aef03063cf73e.jpg",
+    "caseId": "reczz28HJJL2NkkB",
+    "caseImage": "/media/e456d8f5e89aef03063cf73e.jpg",
+    "caseTitle": "辛崎之松",
+    "source": "https://www2.yamanashi-ken.ac.jp/~itoyo/basho/nozarasi/nozara27.htm",
+    "origin": "existing-case",
+    "sha256": "dcb5669f902195519e337e1be4a439f38497f050412df06a6338261c1c07ecdf",
+    "native": [
+      3840,
+      2556
+    ]
+  },
+  "white-girl": {
+    "file": "assets/originals/317ea11c7e5832722216cda8.jpg",
+    "caseId": "reczz28HJJL2Nl7r",
+    "caseImage": "/media/317ea11c7e5832722216cda8.jpg",
+    "caseTitle": "白色交响曲第一号：白衣女孩",
+    "source": "https://www.nga.gov/artworks/12198-symphony-white-no-1-white-girl",
+    "origin": "existing-case",
+    "sha256": "c9855fcb7c0fbab88ebeff58fb5a471608c72314fbd3c5573b6986fd25152573",
+    "native": [
+      1280,
+      2566
+    ]
+  },
+  "renoir": {
+    "file": "assets/originals/a4b61b4f285b1b9193acdf2c.jpg",
+    "caseId": "reczz28HJJL2NoJM",
+    "caseImage": "/media/a4b61b4f285b1b9193acdf2c.jpg",
+    "caseTitle": "船上的午宴",
+    "source": "https://www.phillipscollection.org/collection/luncheon-boating-party",
+    "origin": "existing-case",
+    "sha256": "051adde60001aa128acd633e95b97a2086822461ec552de7c8b921928336720c",
+    "native": [
+      1280,
+      948
+    ]
+  },
+  "blur-1": {
+    "file": "assets/originals/blur-1.jpg",
+    "caseId": "reczz28HJJL2NkhS",
+    "caseImage": null,
+    "caseTitle": "模糊建筑",
+    "source": "https://dsrny.com/project/blur-building",
+    "origin": "case-supplement",
+    "sha256": "b0ac01af39b854abab05232f757b2d0bf8410a5b1fc3f59db510ae2daed9c15c",
+    "native": [
+      1200,
+      782
+    ],
+    "downloadUrl": "https://cdn.sanity.io/images/q2tdbkqz/production/fed9048b7a88b84e096a3362780a9da4f13b6abd-6210x4046.jpg?w=1200&fit=max"
+  },
+  "blur-3": {
+    "file": "assets/originals/blur-3.jpg",
+    "caseId": "reczz28HJJL2NkhS",
+    "caseImage": null,
+    "caseTitle": "模糊建筑",
+    "source": "https://dsrny.com/project/blur-building",
+    "origin": "case-supplement",
+    "sha256": "bffce798531853d98b15f87af4dd3ed2d30fa859abd78f9cd3b4bad5af28b410",
+    "native": [
+      1200,
+      782
+    ],
+    "downloadUrl": "https://cdn.sanity.io/images/q2tdbkqz/production/83565c256ca4782f860f0482665f6c5dd33d2209-6166x4018.jpg?w=1200&fit=max"
+  },
+  "blur-4": {
+    "file": "assets/originals/blur-4.jpg",
+    "caseId": "reczz28HJJL2NkhS",
+    "caseImage": null,
+    "caseTitle": "模糊建筑",
+    "source": "https://dsrny.com/project/blur-building",
+    "origin": "case-supplement",
+    "sha256": "66c72c6bafe8b4a825f65ef11306f934f082c40a9b9e89a40d486cd053ab61ba",
+    "native": [
+      1200,
+      796
+    ],
+    "downloadUrl": "https://cdn.sanity.io/images/q2tdbkqz/production/d19c2005df1702fed1c5c0419dbe03478b4b4a7c-2788x1850.jpg?w=1200&fit=max"
+  },
+  "blur-5": {
+    "file": "assets/originals/blur-5.jpg",
+    "caseId": "reczz28HJJL2NkhS",
+    "caseImage": null,
+    "caseTitle": "模糊建筑",
+    "source": "https://dsrny.com/project/blur-building",
+    "origin": "case-supplement",
+    "sha256": "94c9478645a635d42d0573c14df0ba717898bd7dfbcdcfc64529ecc7b64d82c1",
+    "native": [
+      1200,
+      900
+    ],
+    "downloadUrl": "https://cdn.sanity.io/images/q2tdbkqz/production/2dfaa034ad2b3586a363dd4d4c07caeef82912e1-2320x1740.jpg?w=1200&fit=max"
+  },
+  "blur-6": {
+    "file": "assets/originals/blur-6.jpg",
+    "caseId": "reczz28HJJL2NkhS",
+    "caseImage": null,
+    "caseTitle": "模糊建筑",
+    "source": "https://dsrny.com/project/blur-building",
+    "origin": "case-supplement",
+    "sha256": "78ab6f9c01eb21ccbc1aaaeb10ad28ee9a9f9ad21d899060df6fccbc5bd67a34",
+    "native": [
+      1200,
+      371
+    ],
+    "downloadUrl": "https://cdn.sanity.io/images/q2tdbkqz/production/07bb7b39f7873ad76c414014f448ba741af9d837-10341x3197.jpg?w=1200&fit=max"
+  },
+  "blur-7": {
+    "file": "assets/originals/blur-7.jpg",
+    "caseId": "reczz28HJJL2NkhS",
+    "caseImage": null,
+    "caseTitle": "模糊建筑",
+    "source": "https://dsrny.com/project/blur-building",
+    "origin": "case-supplement",
+    "sha256": "012fbb25b95f7c3a0f21439b2eb041cd4797f6ac32066346073ab34bb52021ab",
+    "native": [
+      1200,
+      270
+    ],
+    "downloadUrl": "https://cdn.sanity.io/images/q2tdbkqz/production/370c1b33291136a8487b5ca35bee128885c71385-11865x2673.jpg?w=1200&fit=max"
+  },
+  "blur-9": {
+    "file": "assets/originals/blur-9.jpg",
+    "caseId": "reczz28HJJL2NkhS",
+    "caseImage": null,
+    "caseTitle": "模糊建筑",
+    "source": "https://dsrny.com/project/blur-building",
+    "origin": "case-supplement",
+    "sha256": "63f131cac9ad73532f8ee6129a10e941cb47c1e1a40afaf4178571ae88116c58",
+    "native": [
+      1200,
+      900
+    ],
+    "downloadUrl": "https://cdn.sanity.io/images/q2tdbkqz/production/8510f5d0881bcc5e4f8dbcab15485977515134bd-2520x1890.jpg?w=1200&fit=max"
+  },
+  "utatane-1": {
+    "file": "assets/originals/utatane-1.jpg",
+    "caseId": "reczz28HJJL2Nl5H",
+    "caseImage": null,
+    "caseTitle": "うたたね",
+    "source": "https://rinkokawauchi.com/en/publications/361/",
+    "origin": "case-supplement",
+    "sha256": "b41ae517a8b3ff7fcc85a3db925323b630d1ce343b186a9bb5bad6c270ba2cab",
+    "native": [
+      1200,
+      770
+    ],
+    "downloadUrl": "https://rinkokawauchi.com/en/wp-content/uploads/sites/2/2017/12/20_UTATANE_0001_01-cover-1200x770.jpg"
+  },
+  "utatane-2": {
+    "file": "assets/originals/utatane-2.jpg",
+    "caseId": "reczz28HJJL2Nl5H",
+    "caseImage": null,
+    "caseTitle": "うたたね",
+    "source": "https://rinkokawauchi.com/en/publications/361/",
+    "origin": "case-supplement",
+    "sha256": "fc91d768e54a012d41da563197028d4ec15cb2e13addfaa8a7d129ca0b9df327",
+    "native": [
+      1200,
+      770
+    ],
+    "downloadUrl": "https://rinkokawauchi.com/en/wp-content/uploads/sites/2/2017/12/20_UTATANE_0002_02-1200x770.jpg"
+  },
+  "utatane-3": {
+    "file": "assets/originals/utatane-3.jpg",
+    "caseId": "reczz28HJJL2Nl5H",
+    "caseImage": null,
+    "caseTitle": "うたたね",
+    "source": "https://rinkokawauchi.com/en/publications/361/",
+    "origin": "case-supplement",
+    "sha256": "21e7dc3d83b480c440f114974ab436a34b4f4ce4c4af508614e69990bc1ad70a",
+    "native": [
+      1200,
+      770
+    ],
+    "downloadUrl": "https://rinkokawauchi.com/en/wp-content/uploads/sites/2/2017/12/20_UTATANE_0003_03-1200x770.jpg"
+  },
+  "utatane-4": {
+    "file": "assets/originals/utatane-4.jpg",
+    "caseId": "reczz28HJJL2Nl5H",
+    "caseImage": null,
+    "caseTitle": "うたたね",
+    "source": "https://rinkokawauchi.com/en/publications/361/",
+    "origin": "case-supplement",
+    "sha256": "4b3dcdb85e1d9ee43341c5ffaddf5700b392ad9111b1e50dafa5bc443fbebb74",
+    "native": [
+      1200,
+      770
+    ],
+    "downloadUrl": "https://rinkokawauchi.com/en/wp-content/uploads/sites/2/2017/12/20_UTATANE_0004_04-1200x770.jpg"
+  },
+  "utatane-5": {
+    "file": "assets/originals/utatane-5.jpg",
+    "caseId": "reczz28HJJL2Nl5H",
+    "caseImage": null,
+    "caseTitle": "うたたね",
+    "source": "https://rinkokawauchi.com/en/publications/361/",
+    "origin": "case-supplement",
+    "sha256": "6125523b7a1202ae70ccc6854b50b05d4380280c84d4b382bacf414eb3a72adf",
+    "native": [
+      1200,
+      770
+    ],
+    "downloadUrl": "https://rinkokawauchi.com/en/wp-content/uploads/sites/2/2017/12/20_UTATANE_0005_05-1200x770.jpg"
+  },
+  "hotel-11": {
+    "file": "assets/originals/hotel-11.jpg",
+    "caseId": "reczz28HJJL2NiVX",
+    "caseImage": null,
+    "caseTitle": "布达佩斯大饭店",
+    "source": "https://www.searchlightpictures.com/thegrandbudapesthotel",
+    "origin": "case-supplement",
+    "sha256": "9f91e9296cf6af6f4c237cd5052f9e5a68c7abb36ac5d6fa4d5224089ebaeebc",
+    "native": [
+      2000,
+      2966
+    ],
+    "downloadUrl": "https://cdn.craft.cloud/1103379d-4ffe-42c9-aa61-6a0f9497fce6/assets/film/thegrandbudapesthotel/grand_budapest_hotel.jpg?fit=contain&width=2000&s=fdgKy2wR-iOCWfU3okOECkL7loN_7HN_mmaRSI5y2Bk"
+  },
+  "hotel-2": {
+    "file": "assets/originals/hotel-2.jpg",
+    "caseId": "reczz28HJJL2NiVX",
+    "caseImage": null,
+    "caseTitle": "布达佩斯大饭店",
+    "source": "https://www.searchlightpictures.com/thegrandbudapesthotel",
+    "origin": "case-supplement",
+    "sha256": "fb76a481edfaecbe862d1363286876a4b22cdedf7c0430687af765a18613baf0",
+    "native": [
+      2000,
+      1230
+    ],
+    "downloadUrl": "https://cdn.craft.cloud/1103379d-4ffe-42c9-aa61-6a0f9497fce6/assets/film/thegrandbudapesthotel/GBH_05335_780x480.jpg?fit=contain&width=2000&s=IP3LxCaeyC5IT3tDHdxjLAFp7iubCJUB8krBpLyjHlo"
+  },
+  "hotel-3": {
+    "file": "assets/originals/hotel-3.jpg",
+    "caseId": "reczz28HJJL2NiVX",
+    "caseImage": null,
+    "caseTitle": "布达佩斯大饭店",
+    "source": "https://www.searchlightpictures.com/thegrandbudapesthotel",
+    "origin": "case-supplement",
+    "sha256": "4130f76750699e708f791177dc8a39b6cac755541efda64088dd58668418cb3d",
+    "native": [
+      2000,
+      1125
+    ],
+    "downloadUrl": "https://cdn.craft.cloud/1103379d-4ffe-42c9-aa61-6a0f9497fce6/assets/film/thegrandbudapesthotel/grand-budapest-hotel-featurette-hotel.jpg?fit=contain&width=2000&s=uUy9EJaJiTatI1-6_DIxJ03nB4Bmbhv8chA5VmXk7_c"
+  },
+  "hotel-4": {
+    "file": "assets/originals/hotel-4.jpg",
+    "caseId": "reczz28HJJL2NiVX",
+    "caseImage": null,
+    "caseTitle": "布达佩斯大饭店",
+    "source": "https://www.searchlightpictures.com/thegrandbudapesthotel",
+    "origin": "case-supplement",
+    "sha256": "cd5c1defad3e7143aef52ca1eeeb22bc691e295fbf6dfe6a0ebd90c071bfeb32",
+    "native": [
+      2000,
+      1230
+    ],
+    "downloadUrl": "https://cdn.craft.cloud/1103379d-4ffe-42c9-aa61-6a0f9497fce6/assets/film/thegrandbudapesthotel/GBH_06066_780x480.jpg?fit=contain&width=2000&s=2WNbNV69CL7J9LwE_rUmOVxlayO4AKBzCWThasPIW0U"
+  },
+  "hotel-5": {
+    "file": "assets/originals/hotel-5.jpg",
+    "caseId": "reczz28HJJL2NiVX",
+    "caseImage": null,
+    "caseTitle": "布达佩斯大饭店",
+    "source": "https://www.searchlightpictures.com/thegrandbudapesthotel",
+    "origin": "case-supplement",
+    "sha256": "55116f57535b352ae8b927c7286a0a17a56d097334ad7b0b15ba5f44705f0bf8",
+    "native": [
+      2000,
+      1230
+    ],
+    "downloadUrl": "https://cdn.craft.cloud/1103379d-4ffe-42c9-aa61-6a0f9497fce6/assets/film/thegrandbudapesthotel/grand-budapest_780x480.jpg?fit=contain&width=2000&s=4741MQp8bLYjC8NLnheN7bZq7lGJKUA32q5G6Ub2WZ0"
+  },
+  "hotel-8": {
+    "file": "assets/originals/hotel-8.jpg",
+    "caseId": "reczz28HJJL2NiVX",
+    "caseImage": null,
+    "caseTitle": "布达佩斯大饭店",
+    "source": "https://www.searchlightpictures.com/thegrandbudapesthotel",
+    "origin": "case-supplement",
+    "sha256": "6dabc99dadd4ced79b69603de84a74e11f1466eb48149c808f68605ccdd6267d",
+    "native": [
+      2000,
+      1230
+    ],
+    "downloadUrl": "https://cdn.craft.cloud/1103379d-4ffe-42c9-aa61-6a0f9497fce6/assets/film/thegrandbudapesthotel/GBH_22544_780x480.jpg?fit=contain&width=2000&s=Ss5SzejP6FCLb2YQJEgmtK5txF9hYf7X4Izn7esSNHU"
+  },
+  "hotel-9": {
+    "file": "assets/originals/hotel-9.jpg",
+    "caseId": "reczz28HJJL2NiVX",
+    "caseImage": null,
+    "caseTitle": "布达佩斯大饭店",
+    "source": "https://www.searchlightpictures.com/thegrandbudapesthotel",
+    "origin": "case-supplement",
+    "sha256": "3759ee3e437afd72ccabeaf4f46cb8b2d99bf7340083f4802d0011e39b6a3d51",
+    "native": [
+      2000,
+      1230
+    ],
+    "downloadUrl": "https://cdn.craft.cloud/1103379d-4ffe-42c9-aa61-6a0f9497fce6/assets/film/thegrandbudapesthotel/grand-budapest-hotel-not-leaving_780x480.jpg?fit=contain&width=2000&s=J4WdLnunEPK9kUa0edlEdkLUz92k-pVqFTIrvMcRvnE"
+  },
+  "lartigue": {
+    "file": "assets/originals/lartigue.jpg",
+    "caseId": "reczz28HJJL2NoLz",
+    "caseImage": null,
+    "caseTitle": "布洛涅森林大道，巴黎",
+    "source": "https://www.moma.org/collection/works/45027",
+    "origin": "case-supplement",
+    "sha256": "72ababdd9801bb6446b2ed991d743a1d77a5c5db00b335baa07ee417dbb94f36",
+    "native": [
+      2000,
+      1475
+    ],
+    "downloadUrl": "https://www.moma.org/media/W1siZiIsIjE3Mjg4MCJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=b4527d9c6ecfb13a"
+  },
+  "plum": {
+    "file": "assets/originals/plum.jpg",
+    "caseId": "reczz28HJJL2Nker",
+    "caseImage": null,
+    "caseTitle": "月下赏梅图",
+    "source": "https://www.metmuseum.org/art/collection/search/44638",
+    "origin": "case-supplement",
+    "sha256": "d973c55eadb2582bcf1c5224139661d1377c6abd1200bae0972d59243ec14522",
+    "native": [
+      1796,
+      1678
+    ],
+    "downloadUrl": "https://images.metmuseum.org/CRDImages/as/original/DP160432.jpg",
+    "rights": "Public Domain, The Metropolitan Museum of Art"
+  },
+  "muji": {
+    "file": "assets/originals/muji-horizon.jpg",
+    "caseId": "reczz28HJJL2Nl2e",
+    "caseImage": null,
+    "caseTitle": "MUJI企业广告·地平线",
+    "source": "https://a-g-i.org/design/muji-corporate-advertising-poster-2003-horizon",
+    "downloadUrl": "https://a-g-i.s3.eu-west-3.amazonaws.com/kenyahara/_1600xAUTO_crop_center-center_75_none/Uyuni-A.jpg",
+    "origin": "case-supplement",
+    "sha256": "2636aea4cf4485f0fd4885c172d61b2b268fc9004fa99a030dbe1fc44b7c4c94",
+    "native": [
+      1600,
+      566
+    ]
+  }
+}

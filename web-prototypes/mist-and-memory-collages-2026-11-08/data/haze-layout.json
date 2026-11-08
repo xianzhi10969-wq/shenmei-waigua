@@ -1,0 +1,300 @@
+[
+  {
+    "source": "blur-4",
+    "label": "灰色云层下的水面",
+    "desktop": [
+      20,
+      131,
+      661,
+      316,
+      -2
+    ],
+    "mobile": [
+      8,
+      110,
+      373,
+      177,
+      -2
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/blur-4.jpg",
+    "case_record_id": "reczz28HJJL2NkhS",
+    "case_title": "模糊建筑",
+    "source_url": "https://dsrny.com/project/blur-building",
+    "term_record_id": "reczz28HJJL2GLgi",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "66c72c6bafe8b4a825f65ef11306f934f082c40a9b9e89a40d486cd053ab61ba"
+  },
+  {
+    "source": "hiroshige",
+    "label": "雨线遮住远山",
+    "desktop": [
+      716,
+      130,
+      462,
+      432,
+      2
+    ],
+    "mobile": [
+      208,
+      280,
+      171,
+      293,
+      3
+    ],
+    "crop": [
+      43,
+      61,
+      917,
+      859
+    ],
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/e456d8f5e89aef03063cf73e.jpg",
+    "case_record_id": "reczz28HJJL2NkkB",
+    "case_title": "辛崎之松",
+    "source_url": "https://www2.yamanashi-ken.ac.jp/~itoyo/basho/nozarasi/nozara27.htm",
+    "term_record_id": "reczz28HJJL2GLgi",
+    "caseImage": "/media/e456d8f5e89aef03063cf73e.jpg",
+    "origin": "existing-case",
+    "originalSha256": "dcb5669f902195519e337e1be4a439f38497f050412df06a6338261c1c07ecdf"
+  },
+  {
+    "source": "blur-3",
+    "label": "夜里的白色雾体",
+    "desktop": [
+      20,
+      790,
+      633,
+      286,
+      2
+    ],
+    "mobile": [
+      8,
+      898,
+      373,
+      195,
+      2
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/blur-3.jpg",
+    "case_record_id": "reczz28HJJL2NkhS",
+    "case_title": "模糊建筑",
+    "source_url": "https://dsrny.com/project/blur-building",
+    "term_record_id": "reczz28HJJL2GLgi",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "bffce798531853d98b15f87af4dd3ed2d30fa859abd78f9cd3b4bad5af28b410"
+  },
+  {
+    "source": "blur-9",
+    "label": "雾里出现的人",
+    "desktop": [
+      846,
+      563,
+      331,
+      514,
+      -2
+    ],
+    "mobile": [
+      221,
+      685,
+      158,
+      281,
+      -3
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/blur-9.jpg",
+    "case_record_id": "reczz28HJJL2NkhS",
+    "case_title": "模糊建筑",
+    "source_url": "https://dsrny.com/project/blur-building",
+    "term_record_id": "reczz28HJJL2GLgi",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "63f131cac9ad73532f8ee6129a10e941cb47c1e1a40afaf4178571ae88116c58"
+  },
+  {
+    "source": "blur-5",
+    "label": "栈桥在中途消失",
+    "desktop": [
+      20,
+      465,
+      426,
+      376,
+      3
+    ],
+    "mobile": [
+      8,
+      272,
+      214,
+      270,
+      -3
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/blur-5.jpg",
+    "case_record_id": "reczz28HJJL2NkhS",
+    "case_title": "模糊建筑",
+    "source_url": "https://dsrny.com/project/blur-building",
+    "term_record_id": "reczz28HJJL2GLgi",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "94c9478645a635d42d0573c14df0ba717898bd7dfbcdcfc64529ecc7b64d82c1"
+  },
+  {
+    "source": "blur-6",
+    "label": "走进雾的长桥",
+    "desktop": [
+      451,
+      924,
+      426,
+      151,
+      -2
+    ],
+    "mobile": [
+      8,
+      777,
+      257,
+      130,
+      3
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/blur-6.jpg",
+    "case_record_id": "reczz28HJJL2NkhS",
+    "case_title": "模糊建筑",
+    "source_url": "https://dsrny.com/project/blur-building",
+    "term_record_id": "reczz28HJJL2GLgi",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "78ab6f9c01eb21ccbc1aaaeb10ad28ee9a9f9ad21d899060df6fccbc5bd67a34"
+  },
+  {
+    "source": "blur-7",
+    "label": "只剩朦胧的人影",
+    "desktop": [
+      479,
+      150,
+      343,
+      141,
+      4
+    ],
+    "mobile": [
+      86,
+      245,
+      292,
+      89,
+      3
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/blur-7.jpg",
+    "case_record_id": "reczz28HJJL2NkhS",
+    "case_title": "模糊建筑",
+    "source_url": "https://dsrny.com/project/blur-building",
+    "term_record_id": "reczz28HJJL2GLgi",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "012fbb25b95f7c3a0f21439b2eb041cd4797f6ac32066346073ab34bb52021ab"
+  },
+  {
+    "source": "plum",
+    "label": "月色下的枝条与山路",
+    "desktop": [
+      303,
+      348,
+      662,
+      595,
+      -3
+    ],
+    "mobile": [
+      34,
+      462,
+      329,
+      316,
+      -3
+    ],
+    "crop": [
+      45,
+      45,
+      910,
+      910
+    ],
+    "mask": null,
+    "shape": "ellipse",
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/plum.jpg",
+    "case_record_id": "reczz28HJJL2Nker",
+    "case_title": "月下赏梅图",
+    "source_url": "https://www.metmuseum.org/art/collection/search/44638",
+    "term_record_id": "reczz28HJJL2GLgi",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "d973c55eadb2582bcf1c5224139661d1377c6abd1200bae0972d59243ec14522"
+  },
+  {
+    "source": "blur-1",
+    "label": "没有墙的云中建筑",
+    "desktop": [
+      639,
+      689,
+      340,
+      248,
+      5
+    ],
+    "mobile": [
+      8,
+      731,
+      224,
+      150,
+      3
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": "ellipse",
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/blur-1.jpg",
+    "case_record_id": "reczz28HJJL2NkhS",
+    "case_title": "模糊建筑",
+    "source_url": "https://dsrny.com/project/blur-building",
+    "term_record_id": "reczz28HJJL2GLgi",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "b0ac01af39b854abab05232f757b2d0bf8410a5b1fc3f59db510ae2daed9c15c"
+  }
+]

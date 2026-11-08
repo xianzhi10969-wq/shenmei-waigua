@@ -1,0 +1,288 @@
+[
+  {
+    "source": "renoir",
+    "label": "午宴在露台展开",
+    "desktop": [
+      20,
+      132,
+      1160,
+      441,
+      -1
+    ],
+    "mobile": [
+      8,
+      112,
+      373,
+      251,
+      -2
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/a4b61b4f285b1b9193acdf2c.jpg",
+    "case_record_id": "reczz28HJJL2NoJM",
+    "case_title": "船上的午宴",
+    "source_url": "https://www.phillipscollection.org/collection/luncheon-boating-party",
+    "term_record_id": "reczz28HJJL2GOCn",
+    "caseImage": "/media/a4b61b4f285b1b9193acdf2c.jpg",
+    "origin": "existing-case",
+    "originalSha256": "051adde60001aa128acd633e95b97a2086822461ec552de7c8b921928336720c"
+  },
+  {
+    "source": "lartigue",
+    "label": "布洛涅森林大道，1911",
+    "desktop": [
+      20,
+      476,
+      1160,
+      601,
+      2
+    ],
+    "mobile": [
+      8,
+      752,
+      373,
+      341,
+      2
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/lartigue.jpg",
+    "case_record_id": "reczz28HJJL2NoLz",
+    "case_title": "布洛涅森林大道，巴黎",
+    "source_url": "https://www.moma.org/collection/works/45027",
+    "term_record_id": "reczz28HJJL2GOCn",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "72ababdd9801bb6446b2ed991d743a1d77a5c5db00b335baa07ee417dbb94f36"
+  },
+  {
+    "source": "renoir",
+    "label": "戴花帽的女子和她的小狗",
+    "desktop": [
+      20,
+      373,
+      319,
+      480,
+      -3
+    ],
+    "mobile": [
+      8,
+      371,
+      169,
+      324,
+      -3
+    ],
+    "crop": [
+      30,
+      395,
+      320,
+      600
+    ],
+    "mask": null,
+    "shape": "torn",
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/a4b61b4f285b1b9193acdf2c.jpg",
+    "case_record_id": "reczz28HJJL2NoJM",
+    "case_title": "船上的午宴",
+    "source_url": "https://www.phillipscollection.org/collection/luncheon-boating-party",
+    "term_record_id": "reczz28HJJL2GOCn",
+    "caseImage": "/media/a4b61b4f285b1b9193acdf2c.jpg",
+    "origin": "existing-case",
+    "originalSha256": "051adde60001aa128acd633e95b97a2086822461ec552de7c8b921928336720c"
+  },
+  {
+    "source": "renoir",
+    "label": "草帽下侧身听着的人",
+    "desktop": [
+      810,
+      481,
+      369,
+      592,
+      3
+    ],
+    "mobile": [
+      234,
+      536,
+      145,
+      302,
+      3
+    ],
+    "crop": [
+      635,
+      370,
+      350,
+      600
+    ],
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/a4b61b4f285b1b9193acdf2c.jpg",
+    "case_record_id": "reczz28HJJL2NoJM",
+    "case_title": "船上的午宴",
+    "source_url": "https://www.phillipscollection.org/collection/luncheon-boating-party",
+    "term_record_id": "reczz28HJJL2GOCn",
+    "caseImage": "/media/a4b61b4f285b1b9193acdf2c.jpg",
+    "origin": "existing-case",
+    "originalSha256": "051adde60001aa128acd633e95b97a2086822461ec552de7c8b921928336720c"
+  },
+  {
+    "source": "renoir",
+    "label": "玻璃杯边的一个笑脸",
+    "desktop": [
+      734,
+      168,
+      307,
+      298,
+      3
+    ],
+    "mobile": [
+      210,
+      337,
+      169,
+      191,
+      3
+    ],
+    "crop": [
+      576,
+      227,
+      164,
+      310
+    ],
+    "mask": null,
+    "shape": "torn",
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/a4b61b4f285b1b9193acdf2c.jpg",
+    "case_record_id": "reczz28HJJL2NoJM",
+    "case_title": "船上的午宴",
+    "source_url": "https://www.phillipscollection.org/collection/luncheon-boating-party",
+    "term_record_id": "reczz28HJJL2GOCn",
+    "caseImage": "/media/a4b61b4f285b1b9193acdf2c.jpg",
+    "origin": "existing-case",
+    "originalSha256": "051adde60001aa128acd633e95b97a2086822461ec552de7c8b921928336720c"
+  },
+  {
+    "source": "renoir",
+    "label": "餐桌上的玻璃杯与果盘",
+    "desktop": [
+      348,
+      849,
+      510,
+      227,
+      -3
+    ],
+    "mobile": [
+      8,
+      685,
+      252,
+      173,
+      -3
+    ],
+    "crop": [
+      145,
+      600,
+      700,
+      385
+    ],
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/a4b61b4f285b1b9193acdf2c.jpg",
+    "case_record_id": "reczz28HJJL2NoJM",
+    "case_title": "船上的午宴",
+    "source_url": "https://www.phillipscollection.org/collection/luncheon-boating-party",
+    "term_record_id": "reczz28HJJL2GOCn",
+    "caseImage": "/media/a4b61b4f285b1b9193acdf2c.jpg",
+    "origin": "existing-case",
+    "originalSha256": "051adde60001aa128acd633e95b97a2086822461ec552de7c8b921928336720c"
+  },
+  {
+    "source": "lartigue",
+    "label": "车轮和大道的光",
+    "desktop": [
+      20,
+      869,
+      311,
+      208,
+      -3
+    ],
+    "mobile": [
+      8,
+      951,
+      193,
+      143,
+      -3
+    ],
+    "crop": [
+      0,
+      0,
+      445,
+      590
+    ],
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/lartigue.jpg",
+    "case_record_id": "reczz28HJJL2NoLz",
+    "case_title": "布洛涅森林大道，巴黎",
+    "source_url": "https://www.moma.org/collection/works/45027",
+    "term_record_id": "reczz28HJJL2GOCn",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "72ababdd9801bb6446b2ed991d743a1d77a5c5db00b335baa07ee417dbb94f36"
+  },
+  {
+    "source": "lartigue",
+    "label": "帽子、长裙和擦肩而过的步伐",
+    "desktop": [
+      196,
+      275,
+      694,
+      730,
+      0
+    ],
+    "mobile": [
+      43,
+      358,
+      305,
+      489,
+      0
+    ],
+    "crop": [
+      330,
+      0,
+      475,
+      956
+    ],
+    "mask": null,
+    "shape": null,
+    "display": "assets/cutouts/lartigue.png",
+    "fit": "contain",
+    "pixelated": false,
+    "original": "assets/originals/lartigue.jpg",
+    "case_record_id": "reczz28HJJL2NoLz",
+    "case_title": "布洛涅森林大道，巴黎",
+    "source_url": "https://www.moma.org/collection/works/45027",
+    "term_record_id": "reczz28HJJL2GOCn",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "72ababdd9801bb6446b2ed991d743a1d77a5c5db00b335baa07ee417dbb94f36"
+  }
+]
