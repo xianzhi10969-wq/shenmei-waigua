@@ -21,6 +21,7 @@ for(const width of [390,1440]){
  const p=data.pieces[link.hasAttribute('data-index')?Number(link.dataset.index):Number(link.dataset.number)-1];
  if(modal.querySelector('img').getAttribute('src')!==p.original)throw Error('Wrong original');
  if(p.caseId){if(!document.getElementById('case-'+p.caseId))throw Error('Missing case');caseLinks++;}
+ await modal.querySelector('img').decode();
  modal.close();clicks++;
  }
  const r=art.getBoundingClientRect();

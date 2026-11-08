@@ -1,0 +1,268 @@
+[
+  {
+    "source": "ballet-6",
+    "label": "一排足尖，把重量留给舞台",
+    "desktop": [
+      20,
+      132,
+      1160,
+      300,
+      -1
+    ],
+    "mobile": [
+      8,
+      112,
+      373,
+      147,
+      -1
+    ],
+    "crop": [
+      0,
+      400,
+      1000,
+      580
+    ],
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/ballet-6.jpg",
+    "case_record_id": "reczz28HJJL2NnWm",
+    "case_title": "仙女",
+    "source_url": "https://www.operadeparis.fr/en/season-16-17/ballet/la-sylphide",
+    "term_record_id": "reczz28HJJL2GNnU",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "543fdc8fe7ab56d350a1498c03687da222f3125772cbac8cf4518f61e30d536e"
+  },
+  {
+    "source": "ballet-3",
+    "label": "抬起的裙摆与向前的步伐",
+    "desktop": [
+      20,
+      443,
+      440,
+      315,
+      -3
+    ],
+    "mobile": [
+      8,
+      272,
+      203,
+      205,
+      -3
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/ballet-3.jpg",
+    "case_record_id": "reczz28HJJL2NnWm",
+    "case_title": "仙女",
+    "source_url": "https://www.operadeparis.fr/en/season-16-17/ballet/la-sylphide",
+    "term_record_id": "reczz28HJJL2GNnU",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "bd6292860058c49cf3ad0180e8a72309668b0b438bd92196750ba9efa0588167"
+  },
+  {
+    "source": "ballet-5",
+    "label": "足尖上的平衡",
+    "desktop": [
+      890,
+      435,
+      286,
+      642,
+      2
+    ],
+    "mobile": [
+      221,
+      276,
+      158,
+      332,
+      3
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/ballet-5.jpg",
+    "case_record_id": "reczz28HJJL2NnWm",
+    "case_title": "仙女",
+    "source_url": "https://www.operadeparis.fr/en/season-16-17/ballet/la-sylphide",
+    "term_record_id": "reczz28HJJL2GNnU",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "c2236055cbbbe0f1fdf0e0dd450c0ede3c4cc37623e751c235c1dcbe28308ed2"
+  },
+  {
+    "source": "ballet-8",
+    "label": "手臂形成的弧线",
+    "desktop": [
+      20,
+      779,
+      484,
+      298,
+      2
+    ],
+    "mobile": [
+      8,
+      861,
+      373,
+      234,
+      2
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/ballet-8.jpg",
+    "case_record_id": "reczz28HJJL2NnWm",
+    "case_title": "仙女",
+    "source_url": "https://www.operadeparis.fr/en/season-16-17/ballet/la-sylphide",
+    "term_record_id": "reczz28HJJL2GNnU",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "e6b5135a77b37b08a8dbc1537b1a92e271cd3c3681df739f84d1e5d8af24b13f"
+  },
+  {
+    "source": "ballet-10",
+    "label": "树林里一层层展开的白裙",
+    "desktop": [
+      493,
+      813,
+      683,
+      264,
+      -2
+    ],
+    "mobile": [
+      8,
+      738,
+      373,
+      162,
+      -2
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/ballet-10.jpg",
+    "case_record_id": "reczz28HJJL2NnWm",
+    "case_title": "仙女",
+    "source_url": "https://www.operadeparis.fr/en/season-16-17/ballet/la-sylphide",
+    "term_record_id": "reczz28HJJL2GNnU",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "6c4462587c6b641a475a380cb310e4a0d941cdcf8720a29499f39d60d2dc6b1c"
+  },
+  {
+    "source": "ballet-2",
+    "label": "仙女停留在凡人的房间",
+    "desktop": [
+      461,
+      452,
+      422,
+      361,
+      2
+    ],
+    "mobile": [
+      8,
+      482,
+      210,
+      225,
+      -2
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/ballet-2.jpg",
+    "case_record_id": "reczz28HJJL2NnWm",
+    "case_title": "仙女",
+    "source_url": "https://www.operadeparis.fr/en/season-16-17/ballet/la-sylphide",
+    "term_record_id": "reczz28HJJL2GNnU",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "84ae58264377689336900a36557e350b42b3648158e10bc382764269a141199d"
+  },
+  {
+    "source": "ballet-9",
+    "label": "身体旋转时，裙子晚一步落下",
+    "desktop": [
+      483,
+      154,
+      416,
+      330,
+      3
+    ],
+    "mobile": [
+      183,
+      618,
+      196,
+      200,
+      3
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": "ellipse",
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/ballet-9.jpg",
+    "case_record_id": "reczz28HJJL2NnWm",
+    "case_title": "仙女",
+    "source_url": "https://www.operadeparis.fr/en/season-16-17/ballet/la-sylphide",
+    "term_record_id": "reczz28HJJL2GNnU",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "45906c78cdeb80c8386bd57fd5d4d3b0a0de6d561be58964e09a9b1b340681ee"
+  },
+  {
+    "source": "taglioni",
+    "label": "塔里奥尼饰仙女的历史石版画",
+    "desktop": [
+      296,
+      232,
+      618,
+      845,
+      0
+    ],
+    "mobile": [
+      45,
+      358,
+      302,
+      530,
+      0
+    ],
+    "crop": [
+      100,
+      50,
+      800,
+      830
+    ],
+    "mask": null,
+    "shape": null,
+    "display": "assets/cutouts/taglioni.png",
+    "fit": "contain",
+    "pixelated": false,
+    "original": "assets/originals/2850950e861fa4555a243af3.jpg",
+    "case_record_id": "reczz28HJJL2NnWm",
+    "case_title": "仙女",
+    "source_url": "https://www.operadeparis.fr/en/season-16-17/ballet/la-sylphide",
+    "term_record_id": "reczz28HJJL2GNnU",
+    "caseImage": "/media/2850950e861fa4555a243af3.jpg",
+    "origin": "existing-case",
+    "originalSha256": "aa80dff2a97c9d6937c9fdfe6421b96104826df2424f5b7420db9fc866f45a51"
+  }
+]

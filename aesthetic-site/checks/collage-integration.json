@@ -321,6 +321,46 @@
       "svgWidth": 390
     },
     {
+      "slug": "flutter",
+      "width": 390,
+      "clicks": 9,
+      "caseLinks": 9,
+      "visible": true,
+      "height": 1110,
+      "overflow": false,
+      "svgWidth": 390
+    },
+    {
+      "slug": "regret",
+      "width": 390,
+      "clicks": 8,
+      "caseLinks": 8,
+      "visible": true,
+      "height": 1110,
+      "overflow": false,
+      "svgWidth": 390
+    },
+    {
+      "slug": "airy",
+      "width": 390,
+      "clicks": 8,
+      "caseLinks": 8,
+      "visible": true,
+      "height": 1110,
+      "overflow": false,
+      "svgWidth": 390
+    },
+    {
+      "slug": "anti-poetic",
+      "width": 390,
+      "clicks": 8,
+      "caseLinks": 8,
+      "visible": true,
+      "height": 1110,
+      "overflow": false,
+      "svgWidth": 390
+    },
+    {
       "slug": "translucent",
       "width": 1200,
       "clicks": 17,
@@ -632,6 +672,46 @@
     },
     {
       "slug": "french",
+      "width": 1200,
+      "clicks": 8,
+      "caseLinks": 8,
+      "visible": true,
+      "height": 1100,
+      "overflow": false,
+      "svgWidth": 1200
+    },
+    {
+      "slug": "flutter",
+      "width": 1200,
+      "clicks": 9,
+      "caseLinks": 9,
+      "visible": true,
+      "height": 1100,
+      "overflow": false,
+      "svgWidth": 1200
+    },
+    {
+      "slug": "regret",
+      "width": 1200,
+      "clicks": 8,
+      "caseLinks": 8,
+      "visible": true,
+      "height": 1100,
+      "overflow": false,
+      "svgWidth": 1200
+    },
+    {
+      "slug": "airy",
+      "width": 1200,
+      "clicks": 8,
+      "caseLinks": 8,
+      "visible": true,
+      "height": 1100,
+      "overflow": false,
+      "svgWidth": 1200
+    },
+    {
+      "slug": "anti-poetic",
       "width": 1200,
       "clicks": 8,
       "caseLinks": 8,

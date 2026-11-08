@@ -1,0 +1,257 @@
+{
+  "date": "2026-11-08",
+  "newViews": [
+    {
+      "slug": "flutter",
+      "width": 390,
+      "clicks": 9,
+      "caseLinks": 9,
+      "visible": true,
+      "height": 1110,
+      "overflow": false,
+      "svgWidth": 390
+    },
+    {
+      "slug": "regret",
+      "width": 390,
+      "clicks": 8,
+      "caseLinks": 8,
+      "visible": true,
+      "height": 1110,
+      "overflow": false,
+      "svgWidth": 390
+    },
+    {
+      "slug": "airy",
+      "width": 390,
+      "clicks": 8,
+      "caseLinks": 8,
+      "visible": true,
+      "height": 1110,
+      "overflow": false,
+      "svgWidth": 390
+    },
+    {
+      "slug": "anti-poetic",
+      "width": 390,
+      "clicks": 8,
+      "caseLinks": 8,
+      "visible": true,
+      "height": 1110,
+      "overflow": false,
+      "svgWidth": 390
+    },
+    {
+      "slug": "flutter",
+      "width": 1200,
+      "clicks": 9,
+      "caseLinks": 9,
+      "visible": true,
+      "height": 1100,
+      "overflow": false,
+      "svgWidth": 1200
+    },
+    {
+      "slug": "regret",
+      "width": 1200,
+      "clicks": 8,
+      "caseLinks": 8,
+      "visible": true,
+      "height": 1100,
+      "overflow": false,
+      "svgWidth": 1200
+    },
+    {
+      "slug": "airy",
+      "width": 1200,
+      "clicks": 8,
+      "caseLinks": 8,
+      "visible": true,
+      "height": 1100,
+      "overflow": false,
+      "svgWidth": 1200
+    },
+    {
+      "slug": "anti-poetic",
+      "width": 1200,
+      "clicks": 8,
+      "caseLinks": 8,
+      "visible": true,
+      "height": 1100,
+      "overflow": false,
+      "svgWidth": 1200
+    }
+  ],
+  "newOriginalEntrances": 66,
+  "standalone": {
+    "views": [
+      {
+        "slug": "flutter",
+        "width": 390,
+        "clicks": 9,
+        "originalsLoaded": true,
+        "escape": true,
+        "overflow": false
+      },
+      {
+        "slug": "regret",
+        "width": 390,
+        "clicks": 8,
+        "originalsLoaded": true,
+        "escape": true,
+        "overflow": false
+      },
+      {
+        "slug": "airy",
+        "width": 390,
+        "clicks": 8,
+        "originalsLoaded": true,
+        "escape": true,
+        "overflow": false
+      },
+      {
+        "slug": "anti-poetic",
+        "width": 390,
+        "clicks": 8,
+        "originalsLoaded": true,
+        "escape": true,
+        "overflow": false
+      },
+      {
+        "slug": "flutter",
+        "width": 1440,
+        "clicks": 9,
+        "originalsLoaded": true,
+        "escape": true,
+        "overflow": false
+      },
+      {
+        "slug": "regret",
+        "width": 1440,
+        "clicks": 8,
+        "originalsLoaded": true,
+        "escape": true,
+        "overflow": false
+      },
+      {
+        "slug": "airy",
+        "width": 1440,
+        "clicks": 8,
+        "originalsLoaded": true,
+        "escape": true,
+        "overflow": false
+      },
+      {
+        "slug": "anti-poetic",
+        "width": 1440,
+        "clicks": 8,
+        "originalsLoaded": true,
+        "escape": true,
+        "overflow": false
+      }
+    ],
+    "thumbnails": 4,
+    "integrated": [
+      {
+        "slug": "flutter",
+        "width": 390,
+        "caseReading": true,
+        "returnToMap": true,
+        "returnToOpening": true,
+        "core": "朋友们走远了，ta还站在便利店门口。那瓶ta替ta拧开过的水握在手里，瓶身上的水珠早已干了。",
+        "coreMatchesCatalog": true
+      },
+      {
+        "slug": "regret",
+        "width": 390,
+        "caseReading": true,
+        "returnToMap": true,
+        "returnToOpening": true,
+        "core": "那趟列车开走了。ta还捏着两张车票，背面是已经来不及说的地址。",
+        "coreMatchesCatalog": true
+      },
+      {
+        "slug": "airy",
+        "width": 390,
+        "caseReading": true,
+        "returnToMap": true,
+        "returnToOpening": true,
+        "core": "孩子松开了气球，ta追了两步就停下，看那团红色慢慢朝着天空上升，越过屋顶。",
+        "coreMatchesCatalog": true
+      },
+      {
+        "slug": "anti-poetic",
+        "width": 390,
+        "caseReading": true,
+        "returnToMap": true,
+        "returnToOpening": true,
+        "core": "有人从天上坠进海里，岸边的农夫仍低头犁田。船借着风照常前行，没有人停下手里的活。",
+        "coreMatchesCatalog": true
+      },
+      {
+        "slug": "flutter",
+        "width": 1440,
+        "caseReading": true,
+        "returnToMap": true,
+        "returnToOpening": true,
+        "core": "朋友们走远了，ta还站在便利店门口。那瓶ta替ta拧开过的水握在手里，瓶身上的水珠早已干了。",
+        "coreMatchesCatalog": true
+      },
+      {
+        "slug": "regret",
+        "width": 1440,
+        "caseReading": true,
+        "returnToMap": true,
+        "returnToOpening": true,
+        "core": "那趟列车开走了。ta还捏着两张车票，背面是已经来不及说的地址。",
+        "coreMatchesCatalog": true
+      },
+      {
+        "slug": "airy",
+        "width": 1440,
+        "caseReading": true,
+        "returnToMap": true,
+        "returnToOpening": true,
+        "core": "孩子松开了气球，ta追了两步就停下，看那团红色慢慢朝着天空上升，越过屋顶。",
+        "coreMatchesCatalog": true
+      },
+      {
+        "slug": "anti-poetic",
+        "width": 1440,
+        "caseReading": true,
+        "returnToMap": true,
+        "returnToOpening": true,
+        "core": "有人从天上坠进海里，岸边的农夫仍低头犁田。船借着风照常前行，没有人停下手里的活。",
+        "coreMatchesCatalog": true
+      }
+    ],
+    "errors": []
+  },
+  "siteViews": 72,
+  "siteOriginalEntrances": 714,
+  "errors": [],
+  "originalIntegrity": {
+    "files": 30,
+    "uniqueSha256": 30,
+    "caseMappings": true,
+    "selectedCases": 7
+  },
+  "dataIntegrity": {
+    "terms": 101,
+    "cases": 144,
+    "localMedia": 407,
+    "sourceRevisions": {
+      "chapters": 118,
+      "terms": 239,
+      "cases": 420,
+      "sections": 38
+    }
+  },
+  "limitations": [
+    "Chrome mobile emulation, not physical devices",
+    "All four pending visual review",
+    "600x337 game screenshots, 624x702 movie stills and small Icarus crop have limited detail",
+    "Hand-traced farmer mask is candidate precision"
+  ],
+  "testHarness": "Initial complete-site runs hit ERR_SOCKET_NOT_CONNECTED while the test rapidly replaced modal image URLs and navigated away. The existing integration test now awaits each original image decode before closing. Two consecutive complete runs passed all 72 views and 714 loaded originals."
+}

@@ -1,0 +1,278 @@
+[
+  {
+    "source": "icarus",
+    "label": "世界仍忙着自己的事情",
+    "desktop": [
+      20,
+      132,
+      1160,
+      704,
+      -1
+    ],
+    "mobile": [
+      8,
+      112,
+      373,
+      343,
+      -2
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/7649a604665102be2c8f7cb4.jpg",
+    "case_record_id": "reczz28HJJL2Nojl",
+    "case_title": "伊卡洛斯坠落的风景",
+    "source_url": "https://artsandculture.google.com/asset/landscape-with-the-fall-of-icarus-pieter-bruegel-the-elder-after/6gGkgMwPyiEqUQ?hl=en",
+    "term_record_id": "reczz28HJJL2GOVG",
+    "caseImage": "/media/7649a604665102be2c8f7cb4.jpg",
+    "origin": "existing-case",
+    "originalSha256": "06ae1e2f737fa3f5f84b18cee2da34edf186f9a2df6a6dd7757d4a51357dd859"
+  },
+  {
+    "source": "parr-4",
+    "label": "海滨度假也带着日常的杂乱",
+    "desktop": [
+      20,
+      550,
+      1157,
+      528,
+      -2
+    ],
+    "mobile": [
+      8,
+      455,
+      373,
+      640,
+      -2
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/parr-4.jpg",
+    "case_record_id": "reczz28HJJL2NomO",
+    "case_title": "最后的度假胜地",
+    "source_url": "https://martinparrfoundation.org/exhibitions/the-last-resort/",
+    "term_record_id": "reczz28HJJL2GOVG",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "458b0dde6b1f38196483a8ecc6f1b72916ec3bb0d9bcb876a256c2cd69232e32"
+  },
+  {
+    "source": "parr-2",
+    "label": "休假没有替街头清场",
+    "desktop": [
+      20,
+      555,
+      431,
+      522,
+      -3
+    ],
+    "mobile": [
+      8,
+      466,
+      203,
+      312,
+      -3
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/parr-2.jpg",
+    "case_record_id": "reczz28HJJL2NomO",
+    "case_title": "最后的度假胜地",
+    "source_url": "https://martinparrfoundation.org/exhibitions/the-last-resort/",
+    "term_record_id": "reczz28HJJL2GOVG",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "01c6590e4ce113201b12a6da2bc344591cfcb1d6977f3ba85b2bfc8d9387cc3e"
+  },
+  {
+    "source": "parr-3",
+    "label": "冰淇淋柜台前的人群",
+    "desktop": [
+      774,
+      550,
+      403,
+      527,
+      3
+    ],
+    "mobile": [
+      216,
+      736,
+      163,
+      355,
+      3
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/parr-3.jpg",
+    "case_record_id": "reczz28HJJL2NomO",
+    "case_title": "最后的度假胜地",
+    "source_url": "https://martinparrfoundation.org/exhibitions/the-last-resort/",
+    "term_record_id": "reczz28HJJL2GOVG",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "b4b1ea4555f27e5688a3538a1bc88f30599a6935a6c1e4c5be3390076b8dc4e3"
+  },
+  {
+    "source": "icarus",
+    "label": "帆船照常借风前行",
+    "desktop": [
+      785,
+      156,
+      392,
+      405,
+      4
+    ],
+    "mobile": [
+      224,
+      324,
+      155,
+      219,
+      3
+    ],
+    "crop": [
+      650,
+      282,
+      265,
+      408
+    ],
+    "mask": null,
+    "shape": "ellipse",
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/7649a604665102be2c8f7cb4.jpg",
+    "case_record_id": "reczz28HJJL2Nojl",
+    "case_title": "伊卡洛斯坠落的风景",
+    "source_url": "https://artsandculture.google.com/asset/landscape-with-the-fall-of-icarus-pieter-bruegel-the-elder-after/6gGkgMwPyiEqUQ?hl=en",
+    "term_record_id": "reczz28HJJL2GOVG",
+    "caseImage": "/media/7649a604665102be2c8f7cb4.jpg",
+    "origin": "existing-case",
+    "originalSha256": "06ae1e2f737fa3f5f84b18cee2da34edf186f9a2df6a6dd7757d4a51357dd859"
+  },
+  {
+    "source": "icarus",
+    "label": "右下角那两条几乎被忽略的腿",
+    "desktop": [
+      550,
+      260,
+      231,
+      202,
+      -5
+    ],
+    "mobile": [
+      145,
+      258,
+      161,
+      153,
+      -4
+    ],
+    "crop": [
+      812,
+      703,
+      73,
+      93
+    ],
+    "mask": null,
+    "shape": "torn",
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/7649a604665102be2c8f7cb4.jpg",
+    "case_record_id": "reczz28HJJL2Nojl",
+    "case_title": "伊卡洛斯坠落的风景",
+    "source_url": "https://artsandculture.google.com/asset/landscape-with-the-fall-of-icarus-pieter-bruegel-the-elder-after/6gGkgMwPyiEqUQ?hl=en",
+    "term_record_id": "reczz28HJJL2GOVG",
+    "caseImage": "/media/7649a604665102be2c8f7cb4.jpg",
+    "origin": "existing-case",
+    "originalSha256": "06ae1e2f737fa3f5f84b18cee2da34edf186f9a2df6a6dd7757d4a51357dd859"
+  },
+  {
+    "source": "icarus",
+    "label": "仍然低头犁田的农夫",
+    "desktop": [
+      213,
+      313,
+      409,
+      619,
+      -3
+    ],
+    "mobile": [
+      8,
+      845,
+      132,
+      230,
+      -3
+    ],
+    "crop": [
+      340,
+      490,
+      185,
+      405
+    ],
+    "mask": "farmer",
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/7649a604665102be2c8f7cb4.jpg",
+    "case_record_id": "reczz28HJJL2Nojl",
+    "case_title": "伊卡洛斯坠落的风景",
+    "source_url": "https://artsandculture.google.com/asset/landscape-with-the-fall-of-icarus-pieter-bruegel-the-elder-after/6gGkgMwPyiEqUQ?hl=en",
+    "term_record_id": "reczz28HJJL2GOVG",
+    "caseImage": "/media/7649a604665102be2c8f7cb4.jpg",
+    "origin": "existing-case",
+    "originalSha256": "06ae1e2f737fa3f5f84b18cee2da34edf186f9a2df6a6dd7757d4a51357dd859"
+  },
+  {
+    "source": "parr-1",
+    "label": "孩子照常吃着手里的冰淇淋",
+    "desktop": [
+      435,
+      359,
+      503,
+      713,
+      0
+    ],
+    "mobile": [
+      61,
+      383,
+      274,
+      527,
+      0
+    ],
+    "crop": [
+      230,
+      60,
+      530,
+      900
+    ],
+    "mask": null,
+    "shape": null,
+    "display": "assets/cutouts/parr-children.png",
+    "fit": "contain",
+    "pixelated": false,
+    "original": "assets/originals/parr-1.jpg",
+    "case_record_id": "reczz28HJJL2NomO",
+    "case_title": "最后的度假胜地",
+    "source_url": "https://martinparrfoundation.org/exhibitions/the-last-resort/",
+    "term_record_id": "reczz28HJJL2GOVG",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "0237959cb2038b0bb5335ff218b4e1b55cabf2aef452b92527ead940651b81b7"
+  }
+]

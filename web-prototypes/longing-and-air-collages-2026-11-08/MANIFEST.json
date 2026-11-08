@@ -1,0 +1,437 @@
+{
+  "date": "2026-11-08",
+  "batch": "longing-and-air-collages-2026-11-08",
+  "status": "pending-review",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 6480,
+      "sha256": "76c673b91555103b24c75e4b9c852df812b91e8c8f081222a6eefe2e8f734d09"
+    },
+    {
+      "path": "airy-desktop-structure.svg",
+      "bytes": 3864,
+      "sha256": "6b2299dd3b8c158d274c914a97a599ff4e50dc6a2eb75ce8dbfe83fe997d6d57"
+    },
+    {
+      "path": "airy-desktop.svg",
+      "bytes": 4703,
+      "sha256": "c329b2378332bf8ac6a6035cf18e4070e7425904fc6c14622936da406e3d8f57"
+    },
+    {
+      "path": "airy-mobile-structure.svg",
+      "bytes": 3849,
+      "sha256": "135331065ec9e8d279e1386a50925ad057f01bbe2c9f9a007376b92c7ddf7dea"
+    },
+    {
+      "path": "airy-mobile.svg",
+      "bytes": 4650,
+      "sha256": "cf4e728e6dac95cbb4d960101bbfad07b06e24da0377e6396061a15558c7fb6c"
+    },
+    {
+      "path": "airy.html",
+      "bytes": 15072,
+      "sha256": "ff914dc26ca33eb807738e7505dcb608fe83b2af1dc99573041c55dd9a879dd9"
+    },
+    {
+      "path": "anti-poetic-desktop-structure.svg",
+      "bytes": 4054,
+      "sha256": "7becbba91af4434f46d34da54db0ce3380a4729964d5f8500f1d6d8ecf9de4e5"
+    },
+    {
+      "path": "anti-poetic-desktop.svg",
+      "bytes": 5888,
+      "sha256": "b3def284d6b03eeba93128fd30f35101a0c473e1a251833e147ee797eae38072"
+    },
+    {
+      "path": "anti-poetic-mobile-structure.svg",
+      "bytes": 4038,
+      "sha256": "ffe5ed26d53780afc65e7affea847a179777f32f2864bcca1baad1068d41fbd7"
+    },
+    {
+      "path": "anti-poetic-mobile.svg",
+      "bytes": 5850,
+      "sha256": "46afc235ce57d5c8917ee1675993f944ba97caf59e90fc694045cac2ab408c16"
+    },
+    {
+      "path": "anti-poetic.html",
+      "bytes": 18019,
+      "sha256": "3cc1cd7911c0cb5296ca082943e96bb9a98e481571ef2ca802d2bf6f5e90e6e5"
+    },
+    {
+      "path": "assets/cutouts/before-pair.png",
+      "bytes": 478558,
+      "sha256": "e0ff5bc838dd2a1e1790e70f84c74398fa250e9e5339e96f62c63ef1a8266897"
+    },
+    {
+      "path": "assets/cutouts/lalaland-pair.png",
+      "bytes": 472614,
+      "sha256": "e50ed6a54cb01cd1305adf9cff72982a9ab67942742e8cb6c7f5e38ab3fb34b4"
+    },
+    {
+      "path": "assets/cutouts/parr-children.png",
+      "bytes": 247152,
+      "sha256": "11fda0bf650ca8379d8738869294257ba9939eb1c6890421f03e43875a69f102"
+    },
+    {
+      "path": "assets/cutouts/sappho.png",
+      "bytes": 937243,
+      "sha256": "2e856681400239a9ef71c97fd035e9c9bf2fad14608693956c6fba11e82cfb7c"
+    },
+    {
+      "path": "assets/cutouts/taglioni.png",
+      "bytes": 199715,
+      "sha256": "c2b44f4a8e01e65acd0f2f5d1decc04a91029ea51e0f881913f14411d03a8e7c"
+    },
+    {
+      "path": "assets/fonts/0ad1510514849c1e.woff2",
+      "bytes": 35732,
+      "sha256": "0ad1510514849c1e6bd955f9f41e3516e3549f4b3a09583fcf592226e4891eb3"
+    },
+    {
+      "path": "assets/fonts/2ce479b703b54faa.woff2",
+      "bytes": 76324,
+      "sha256": "2ce479b703b54faa92acf46dc5edc719bb2b2f7ced3f3be6bb910f43aed30d0c"
+    },
+    {
+      "path": "assets/fonts/758883b3b8e23791.woff2",
+      "bytes": 27112,
+      "sha256": "758883b3b8e23791c11016c419acc385942a94ec06ec6422b6768fc685d2d2f9"
+    },
+    {
+      "path": "assets/originals/2850950e861fa4555a243af3.jpg",
+      "bytes": 723604,
+      "sha256": "aa80dff2a97c9d6937c9fdfe6421b96104826df2424f5b7420db9fc866f45a51"
+    },
+    {
+      "path": "assets/originals/7649a604665102be2c8f7cb4.jpg",
+      "bytes": 358098,
+      "sha256": "06ae1e2f737fa3f5f84b18cee2da34edf186f9a2df6a6dd7757d4a51357dd859"
+    },
+    {
+      "path": "assets/originals/ballet-10.jpg",
+      "bytes": 52093,
+      "sha256": "6c4462587c6b641a475a380cb310e4a0d941cdcf8720a29499f39d60d2dc6b1c"
+    },
+    {
+      "path": "assets/originals/ballet-2.jpg",
+      "bytes": 87375,
+      "sha256": "84ae58264377689336900a36557e350b42b3648158e10bc382764269a141199d"
+    },
+    {
+      "path": "assets/originals/ballet-3.jpg",
+      "bytes": 78755,
+      "sha256": "bd6292860058c49cf3ad0180e8a72309668b0b438bd92196750ba9efa0588167"
+    },
+    {
+      "path": "assets/originals/ballet-5.jpg",
+      "bytes": 189018,
+      "sha256": "c2236055cbbbe0f1fdf0e0dd450c0ede3c4cc37623e751c235c1dcbe28308ed2"
+    },
+    {
+      "path": "assets/originals/ballet-6.jpg",
+      "bytes": 65955,
+      "sha256": "543fdc8fe7ab56d350a1498c03687da222f3125772cbac8cf4518f61e30d536e"
+    },
+    {
+      "path": "assets/originals/ballet-8.jpg",
+      "bytes": 98477,
+      "sha256": "e6b5135a77b37b08a8dbc1537b1a92e271cd3c3681df739f84d1e5d8af24b13f"
+    },
+    {
+      "path": "assets/originals/ballet-9.jpg",
+      "bytes": 44266,
+      "sha256": "45906c78cdeb80c8386bd57fd5d4d3b0a0de6d561be58964e09a9b1b340681ee"
+    },
+    {
+      "path": "assets/originals/before-1.jpg",
+      "bytes": 83120,
+      "sha256": "d442a059165f21507f1560916b228dcf2821b99f635b5a4970150a5d605e820a"
+    },
+    {
+      "path": "assets/originals/before-11.jpg",
+      "bytes": 48755,
+      "sha256": "b30866b7838e217fbbe58e3ac8d4ba4a71d8516ab39256859491eb6420581c57"
+    },
+    {
+      "path": "assets/originals/before-13.jpg",
+      "bytes": 82122,
+      "sha256": "3e929e5ee12c7e4c74c84c6a59ad4a033a07728c52ad8c1cda5ddd7e0f13b6e3"
+    },
+    {
+      "path": "assets/originals/before-2.jpg",
+      "bytes": 123697,
+      "sha256": "61d8d1ebb26369adc14d3e84e1990e2e4d4cda61d7b836b0046cc5e42bf60ea1"
+    },
+    {
+      "path": "assets/originals/before-3.jpg",
+      "bytes": 103994,
+      "sha256": "003f9b54d69cdda445dc7bbb4d38ecec40e04643674f2bac5795cdd2361f097b"
+    },
+    {
+      "path": "assets/originals/before-5.jpg",
+      "bytes": 100336,
+      "sha256": "8a92396cc49362f1e732419a87097f3152582cff523bf037129ca3e1b1931085"
+    },
+    {
+      "path": "assets/originals/before-6.jpg",
+      "bytes": 78831,
+      "sha256": "c9f7993ea59199fe0b11225c2e615f75578033d2b33781c615a3debc9a856fc3"
+    },
+    {
+      "path": "assets/originals/before-7.jpg",
+      "bytes": 103238,
+      "sha256": "5bc3930e31126d3ede1d1b4cd6da21875b072b46c5f60461d45eb257275373d6"
+    },
+    {
+      "path": "assets/originals/d3ba3f57949bf623c80f471f.jpg",
+      "bytes": 231190,
+      "sha256": "56d6e2e7aa1a876011766539f1f8555fea4edbe48a76a897f722113e8b2afe49"
+    },
+    {
+      "path": "assets/originals/lalaland-1.jpg",
+      "bytes": 118102,
+      "sha256": "66b89653d96f307334f77ba987642b24dcd94dfbb3078cad165cb95cc252db94"
+    },
+    {
+      "path": "assets/originals/lalaland-2.jpg",
+      "bytes": 79927,
+      "sha256": "317dc12372221cccd7b5c09aa2bfa259ceae96947d4cad15387adc094c3cb22c"
+    },
+    {
+      "path": "assets/originals/lalaland-main.jpg",
+      "bytes": 152505,
+      "sha256": "ee85bd9bb2a2eeee7cec25128ec8e863eb11aef93e0bba4561ba9c10cda216b4"
+    },
+    {
+      "path": "assets/originals/moon-1.jpg",
+      "bytes": 17164,
+      "sha256": "2e3c40765ae9f0cc52e30c00e8ec354f332153b4c18b02068170c464a7838479"
+    },
+    {
+      "path": "assets/originals/moon-2.jpg",
+      "bytes": 21590,
+      "sha256": "71cfc707da5405bebadea875b3117074404e583af0f84b0a15e29c5abb40f7b7"
+    },
+    {
+      "path": "assets/originals/moon-4.jpg",
+      "bytes": 13985,
+      "sha256": "dfcca0cc1aaa390151de0f21959fb87e7d8f8f2267c0f9580b37a5554044198a"
+    },
+    {
+      "path": "assets/originals/moon-5.jpg",
+      "bytes": 41592,
+      "sha256": "5e203275686f9be81e9128da05d343b7205e7603766d1ac8a2ccf0564c8e3fe8"
+    },
+    {
+      "path": "assets/originals/moon-6.jpg",
+      "bytes": 10651,
+      "sha256": "6004c39b940bc7245899e57548cecee73ace6466665d6f08393f8121a2687647"
+    },
+    {
+      "path": "assets/originals/parr-1.jpg",
+      "bytes": 249452,
+      "sha256": "0237959cb2038b0bb5335ff218b4e1b55cabf2aef452b92527ead940651b81b7"
+    },
+    {
+      "path": "assets/originals/parr-2.jpg",
+      "bytes": 503305,
+      "sha256": "01c6590e4ce113201b12a6da2bc344591cfcb1d6977f3ba85b2bfc8d9387cc3e"
+    },
+    {
+      "path": "assets/originals/parr-3.jpg",
+      "bytes": 366305,
+      "sha256": "b4b1ea4555f27e5688a3538a1bc88f30599a6935a6c1e4c5be3390076b8dc4e3"
+    },
+    {
+      "path": "assets/originals/parr-4.jpg",
+      "bytes": 627932,
+      "sha256": "458b0dde6b1f38196483a8ecc6f1b72916ec3bb0d9bcb876a256c2cd69232e32"
+    },
+    {
+      "path": "boards.json",
+      "bytes": 778,
+      "sha256": "29af3d01e51de7b5df37f6c8b065196b96b62abe36d6d04e768d27f7c53ffbc5"
+    },
+    {
+      "path": "build.py",
+      "bytes": 8728,
+      "sha256": "28f773b13defe5f6c776dea27edf7fbed5895696ede2bfb62f091cf67db458dc"
+    },
+    {
+      "path": "case-snapshot.json",
+      "bytes": 14504,
+      "sha256": "18e3ca61c7eba6996063f52fa09921eb00346003cc70fa16893a947e0d3f7b7b"
+    },
+    {
+      "path": "checks.json",
+      "bytes": 6624,
+      "sha256": "2bbf4332de6640bf51d8db959796e1e64376f33d9e01a3d6e44a3dca0d0dd2c9"
+    },
+    {
+      "path": "data/airy-layout.json",
+      "bytes": 6099,
+      "sha256": "debd7c057cd6f07a3ae8e4b1e1007ddd351fa1398965abaff46a0404ab88f529"
+    },
+    {
+      "path": "data/anti-poetic-layout.json",
+      "bytes": 6711,
+      "sha256": "2177e065c57d7120b69137a5dec69e57c696562f6a05698d1c0766b6ef860b93"
+    },
+    {
+      "path": "data/flutter-layout.json",
+      "bytes": 7111,
+      "sha256": "6948722ca5bfab9c5624dcfbddcd4bb6f782ce5fcdf7ff44fc63fe852929208a"
+    },
+    {
+      "path": "data/regret-layout.json",
+      "bytes": 5814,
+      "sha256": "a0bdee8819e2e0bf42ea9427f2ef4850ce208ea01ff9dcba1c1ba0d0b4482698"
+    },
+    {
+      "path": "extract.swift",
+      "bytes": 1545,
+      "sha256": "c015dc127d3db2c473b6b6586c5b4f8bda17a3d4d0cc6a135543aa83e317fca5"
+    },
+    {
+      "path": "flutter-desktop-structure.svg",
+      "bytes": 4426,
+      "sha256": "f0247056c924944f2dac90d0ba0a1a9dae43860a94c5c30758f0711675c2aae7"
+    },
+    {
+      "path": "flutter-desktop.svg",
+      "bytes": 5093,
+      "sha256": "8554405a8ff473921cd0b461a2a05914e520408f60cd2f96d76b21738c04fac8"
+    },
+    {
+      "path": "flutter-mobile-structure.svg",
+      "bytes": 4407,
+      "sha256": "27febd62d0c288602035664293fb7719fb66881c2a4c98959a88884dcdc730ef"
+    },
+    {
+      "path": "flutter-mobile.svg",
+      "bytes": 5074,
+      "sha256": "9ff1cd367edfc9dea44f7dc556cad3492c6948fffc8a2ebd4bcdb5222b7ecc5e"
+    },
+    {
+      "path": "flutter.html",
+      "bytes": 16781,
+      "sha256": "e6c5fe1b312d30f4419159981c18046bbf0a50001f0e8423f370e9500bb137c4"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1362,
+      "sha256": "d35d0eb770fe0968dc6d284f833a698d8da5309a7d0a3aed8654830d9f45caeb"
+    },
+    {
+      "path": "layouts.py",
+      "bytes": 5098,
+      "sha256": "13249ca3aab44bd0dd5c761ee515cc9f4f6d954ceb6728bb231c2ff9d4432f65"
+    },
+    {
+      "path": "licenses/Cormorant-OFL.txt",
+      "bytes": 4388,
+      "sha256": "ecd1b9f2f5bd3ac0614ce50c6024c69044a555afe1dcd79e7a33de738ee59410"
+    },
+    {
+      "path": "licenses/Zhuque-OFL.txt",
+      "bytes": 4390,
+      "sha256": "d6cec39519f63e3848da753f071e04cae96322dc92f5834734f9060cc6322104"
+    },
+    {
+      "path": "masks.json",
+      "bytes": 351,
+      "sha256": "91c2a494c457d1615451e08937dd08577b4b2530051fe6af5b76c41596ceb195"
+    },
+    {
+      "path": "previews/airy-desktop.jpg",
+      "bytes": 234857,
+      "sha256": "f4bbe9329e1a068267c172011ce2a57f303d5ad6988bc9cc4dead8212fa0fbcb"
+    },
+    {
+      "path": "previews/airy-mobile.jpg",
+      "bytes": 108281,
+      "sha256": "c771b878a684a26c2b75a1eb64b012a85e83edd003fa72f0620a732ac0db3766"
+    },
+    {
+      "path": "previews/anti-poetic-desktop.jpg",
+      "bytes": 437563,
+      "sha256": "bec8d252b9d781888f0c66e793b7c6c93d120fcffbf32b579585939044c3ed28"
+    },
+    {
+      "path": "previews/anti-poetic-mobile.jpg",
+      "bytes": 165430,
+      "sha256": "4ef070030caba113378e7924a7aa90d15bab3a69d24afe1c0db5898563b0b38c"
+    },
+    {
+      "path": "previews/desktop-contact.jpg",
+      "bytes": 217685,
+      "sha256": "08caaa6e37918463db71ca7e9bab8e930df5dbf0796d91351a9c53dc267fae33"
+    },
+    {
+      "path": "previews/flutter-desktop.jpg",
+      "bytes": 284893,
+      "sha256": "6e04eea4a2b41dce3e6c75b30b17e0235c5565a0e4d34f6fbdddf75d97fd39a4"
+    },
+    {
+      "path": "previews/flutter-mobile.jpg",
+      "bytes": 114397,
+      "sha256": "abeb2f9966d2018e3173fd3193c2e2475a1dd55b59804416b414df48f6df2ec9"
+    },
+    {
+      "path": "previews/mobile-contact.jpg",
+      "bytes": 189957,
+      "sha256": "eadc0341da58ac7a00b94e7698a43ae58ea388f884b41a9654e4164881c42b05"
+    },
+    {
+      "path": "previews/regret-desktop.jpg",
+      "bytes": 258239,
+      "sha256": "1ed267a2ea8033f7f8f0b0279592c45865a650285b290cd4f629f3046349ec81"
+    },
+    {
+      "path": "previews/regret-mobile.jpg",
+      "bytes": 115283,
+      "sha256": "69a36aec912870cd072176dfc27fd9618b8b82e1734b6641d9ce5538784d60a9"
+    },
+    {
+      "path": "regret-desktop-structure.svg",
+      "bytes": 3807,
+      "sha256": "0a02882e8a2096f1e66ae6329f458c2122afdca60419f317b4e22c4e78342f30"
+    },
+    {
+      "path": "regret-desktop.svg",
+      "bytes": 4833,
+      "sha256": "f7c7e70a004a71a2e033ed8347d60d45a0f5fb21767854f6c716b24ab309bd92"
+    },
+    {
+      "path": "regret-mobile-structure.svg",
+      "bytes": 3791,
+      "sha256": "7db564a68a981a04b567f89383e395b1c05f26ba72de0570968667335ba0e670"
+    },
+    {
+      "path": "regret-mobile.svg",
+      "bytes": 4819,
+      "sha256": "3ade40047e912c8614092dab47c794feb5b4df098c8371884dca293ad05f150e"
+    },
+    {
+      "path": "regret.html",
+      "bytes": 15151,
+      "sha256": "b4c30def32fedac12bad8234742b3b41cba2257e0854633f1924cbff9c588ea5"
+    },
+    {
+      "path": "sources.json",
+      "bytes": 18048,
+      "sha256": "22fe419f81e564ff3670559a75454da30b2c0dadb1d3c90598cfa8b49e836099"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 1595,
+      "sha256": "e54b142dd9927d1aed90fd217c588178b655f1c5dbf1ef88939f6e488e4e7f20"
+    },
+    {
+      "path": "viewer.js",
+      "bytes": 951,
+      "sha256": "d89d199d64ef7ffb68a700a2cc8ac9640c2e73dd15a95e7012483a2661cb8713"
+    }
+  ]
+}

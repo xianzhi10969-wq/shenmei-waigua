@@ -1,0 +1,258 @@
+[
+  {
+    "source": "moon-1",
+    "label": "灯塔与回忆的入口",
+    "desktop": [
+      20,
+      132,
+      760,
+      360,
+      -2
+    ],
+    "mobile": [
+      8,
+      112,
+      373,
+      209,
+      -2
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": true,
+    "original": "assets/originals/moon-1.jpg",
+    "case_record_id": "reczz28HJJL2NlsB",
+    "case_title": "去月球",
+    "source_url": "https://freebirdgames.com/games/to-the-moon/",
+    "term_record_id": "reczz28HJJL2GMZz",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "2e3c40765ae9f0cc52e30c00e8ec354f332153b4c18b02068170c464a7838479"
+  },
+  {
+    "source": "lalaland-main",
+    "label": "那段仍然可以想象的舞步",
+    "desktop": [
+      800,
+      132,
+      377,
+      599,
+      2
+    ],
+    "mobile": [
+      223,
+      325,
+      156,
+      376,
+      3
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/lalaland-main.jpg",
+    "case_record_id": "reczz28HJJL2NlpW",
+    "case_title": "爱乐之城",
+    "source_url": "https://lionsgateplus.com/movies/la-la-land/",
+    "term_record_id": "reczz28HJJL2GMZz",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "ee85bd9bb2a2eeee7cec25128ec8e863eb11aef93e0bba4561ba9c10cda216b4"
+  },
+  {
+    "source": "moon-4",
+    "label": "倒着走进一生的房间",
+    "desktop": [
+      20,
+      502,
+      327,
+      273,
+      3
+    ],
+    "mobile": [
+      8,
+      333,
+      211,
+      212,
+      -3
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": true,
+    "original": "assets/originals/moon-4.jpg",
+    "case_record_id": "reczz28HJJL2NlsB",
+    "case_title": "去月球",
+    "source_url": "https://freebirdgames.com/games/to-the-moon/",
+    "term_record_id": "reczz28HJJL2GMZz",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "dfcca0cc1aaa390151de0f21959fb87e7d8f8f2267c0f9580b37a5554044198a"
+  },
+  {
+    "source": "moon-2",
+    "label": "终于走向那个愿望",
+    "desktop": [
+      20,
+      785,
+      430,
+      291,
+      -3
+    ],
+    "mobile": [
+      8,
+      548,
+      199,
+      202,
+      3
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": true,
+    "original": "assets/originals/moon-2.jpg",
+    "case_record_id": "reczz28HJJL2NlsB",
+    "case_title": "去月球",
+    "source_url": "https://freebirdgames.com/games/to-the-moon/",
+    "term_record_id": "reczz28HJJL2GMZz",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "71cfc707da5405bebadea875b3117074404e583af0f84b0a15e29c5abb40f7b7"
+  },
+  {
+    "source": "lalaland-1",
+    "label": "并肩的两个人与岔开的生活",
+    "desktop": [
+      314,
+      326,
+      494,
+      750,
+      0
+    ],
+    "mobile": [
+      60,
+      427,
+      271,
+      481,
+      0
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "display": "assets/cutouts/lalaland-pair.png",
+    "fit": "contain",
+    "pixelated": false,
+    "original": "assets/originals/lalaland-1.jpg",
+    "case_record_id": "reczz28HJJL2NlpW",
+    "case_title": "爱乐之城",
+    "source_url": "https://www.lionsgate.com/la-la-land-sweeps",
+    "term_record_id": "reczz28HJJL2GMZz",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "66b89653d96f307334f77ba987642b24dcd94dfbb3078cad165cb95cc252db94"
+  },
+  {
+    "source": "moon-6",
+    "label": "抬头的月亮与留下的灯塔",
+    "desktop": [
+      925,
+      742,
+      252,
+      334,
+      -2
+    ],
+    "mobile": [
+      8,
+      751,
+      221,
+      215,
+      -3
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": "ellipse",
+    "display": null,
+    "fit": null,
+    "pixelated": true,
+    "original": "assets/originals/moon-6.jpg",
+    "case_record_id": "reczz28HJJL2NlsB",
+    "case_title": "去月球",
+    "source_url": "https://freebirdgames.com/games/to-the-moon/",
+    "term_record_id": "reczz28HJJL2GMZz",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "6004c39b940bc7245899e57548cecee73ace6466665d6f08393f8121a2687647"
+  },
+  {
+    "source": "lalaland-2",
+    "label": "隔着桌子望向彼此",
+    "desktop": [
+      750,
+      730,
+      268,
+      346,
+      -3
+    ],
+    "mobile": [
+      215,
+      712,
+      164,
+      262,
+      3
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/lalaland-2.jpg",
+    "case_record_id": "reczz28HJJL2NlpW",
+    "case_title": "爱乐之城",
+    "source_url": "https://www.lionsgate.com/la-la-land-sweeps",
+    "term_record_id": "reczz28HJJL2GMZz",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "317dc12372221cccd7b5c09aa2bfa259ceae96947d4cad15387adc094c3cb22c"
+  },
+  {
+    "source": "moon-5",
+    "label": "夕阳下的同行",
+    "desktop": [
+      418,
+      817,
+      484,
+      261,
+      1
+    ],
+    "mobile": [
+      8,
+      900,
+      373,
+      195,
+      2
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": true,
+    "original": "assets/originals/moon-5.jpg",
+    "case_record_id": "reczz28HJJL2NlsB",
+    "case_title": "去月球",
+    "source_url": "https://freebirdgames.com/games/to-the-moon/",
+    "term_record_id": "reczz28HJJL2GMZz",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "5e203275686f9be81e9128da05d343b7205e7603766d1ac8a2ccf0564c8e3fe8"
+  }
+]

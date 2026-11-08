@@ -1,0 +1,43 @@
+[
+  {
+    "slug": "flutter",
+    "id": "reczz28HJJL2GKfk",
+    "name": "心动",
+    "english": "Crush",
+    "caseIds": [
+      "reczz28HJJL2NjUl",
+      "reczz28HJJL2NjYY"
+    ]
+  },
+  {
+    "slug": "regret",
+    "id": "reczz28HJJL2GMZz",
+    "name": "意难平",
+    "english": "Lingering Regret",
+    "caseIds": [
+      "reczz28HJJL2NlpW",
+      "reczz28HJJL2NlsB",
+      "reczz28HJJL2Nluq"
+    ]
+  },
+  {
+    "slug": "airy",
+    "id": "reczz28HJJL2GNnU",
+    "name": "轻盈",
+    "english": "Airy",
+    "caseIds": [
+      "reczz28HJJL2NnWm"
+    ]
+  },
+  {
+    "slug": "anti-poetic",
+    "id": "reczz28HJJL2GOVG",
+    "name": "反诗意",
+    "english": "Anti-Poetic",
+    "caseIds": [
+      "reczz28HJJL2Nojl",
+      "reczz28HJJL2NomO",
+      "reczz28HJJL2Nop1"
+    ]
+  }
+]
