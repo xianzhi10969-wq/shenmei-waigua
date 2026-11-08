@@ -1,0 +1,540 @@
+{
+  "reczz28HJJL2NjzO": {
+    "file": "assets/originals/e367861d9c142fe5762c3cda.jpg",
+    "caseId": "reczz28HJJL2NjzO",
+    "caseImage": "/media/e367861d9c142fe5762c3cda.jpg",
+    "caseTitle": "睡莲",
+    "source": "https://www.musee-orangerie.fr/en/node/197502",
+    "origin": "existing-case",
+    "sha256": "cc617a8d0d3d864fb67a80acb92fda6d91d80601b886cc1c4924c2a2aaab6de1",
+    "native": [
+      1600,
+      484
+    ]
+  },
+  "reczz28HJJL2NkAi": {
+    "file": "assets/originals/2c8380674f4a52e04dae89e9.jpg",
+    "caseId": "reczz28HJJL2NkAi",
+    "caseImage": "/media/2c8380674f4a52e04dae89e9.jpg",
+    "caseTitle": "彼得兔的故事",
+    "source": "https://www.vam.ac.uk/articles/peter-rabbit-the-tale-of-the-tale",
+    "origin": "existing-case",
+    "sha256": "15219b2d1452010df6155d575699f514d1e7b22b11ffa11be9d1d85d908e07c2",
+    "native": [
+      476,
+      557
+    ]
+  },
+  "reczz28HJJL2Nmc7": {
+    "file": "assets/originals/56486c4ce7d9614464ea11e7.jpg",
+    "caseId": "reczz28HJJL2Nmc7",
+    "caseImage": "/media/56486c4ce7d9614464ea11e7.jpg",
+    "caseTitle": "英国藻类图集：蓝晒印相",
+    "source": "https://www.metmuseum.org/art/collection/search/286656",
+    "origin": "existing-case",
+    "sha256": "2c1204abd088eb7b573e7fc4d1cff3e0e9e7cac24a5b654597fd83a394a6d95e",
+    "native": [
+      1280,
+      1568
+    ]
+  },
+  "reczz28HJJL2NmAu": {
+    "file": "assets/originals/8dd4728f236f108fb5c4958b.jpg",
+    "caseId": "reczz28HJJL2NmAu",
+    "caseImage": "/media/8dd4728f236f108fb5c4958b.jpg",
+    "caseTitle": "在自己房间里的旅行",
+    "source": "https://www.gutenberg.org/files/40248/40248-h/40248-h.htm",
+    "origin": "existing-case",
+    "sha256": "cdd0798f3736e008b7ee8f7247e7f9ab2bfd571cd30423f313d45d84a6e1ede3",
+    "native": [
+      820,
+      1416
+    ]
+  },
+  "monet-2": {
+    "file": "assets/originals/monet-2.jpg",
+    "caseId": "reczz28HJJL2NjzO",
+    "caseImage": null,
+    "caseTitle": "睡莲",
+    "label": "Claude Monet - Reflets d'arbres",
+    "source": "https://www.musee-orangerie.fr/en/node/197502",
+    "downloadUrl": "https://cdn.mediatheque.epmoo.fr/link/3c9igq/tsb1butq9d52xfk.jpg",
+    "origin": "case-supplement",
+    "sha256": "9e4e68e03f11ead548f8144a3d8cd6562215bccd4c3d05d3f786e796726b892e",
+    "native": [
+      850,
+      214
+    ]
+  },
+  "monet-4": {
+    "file": "assets/originals/monet-4.jpg",
+    "caseId": "reczz28HJJL2NjzO",
+    "caseImage": null,
+    "caseTitle": "睡莲",
+    "label": "Claude Monet - Le Matin clair aux saules",
+    "source": "https://www.musee-orangerie.fr/en/node/197502",
+    "downloadUrl": "https://cdn.mediatheque.epmoo.fr/link/3c9igq/jgx1bvc39ouy9z4.jpg",
+    "origin": "case-supplement",
+    "sha256": "2abaa002e4ccfba3f3224c5369f6c04c6ce2b12d1bd8a88d6c136f8c907ac439",
+    "native": [
+      850,
+      573
+    ]
+  },
+  "monet-5": {
+    "file": "assets/originals/monet-5.jpg",
+    "caseId": "reczz28HJJL2NjzO",
+    "caseImage": null,
+    "caseTitle": "睡莲",
+    "label": "Claude Monet - Les Deux Saules",
+    "source": "https://www.musee-orangerie.fr/en/node/197502",
+    "downloadUrl": "https://cdn.mediatheque.epmoo.fr/link/3c9igq/zij1bx8lt86f8io.jpg",
+    "origin": "case-supplement",
+    "sha256": "7085e6bdf411d12c3123b0dc182711678e212167f4adb9d15f352a2ff9189b8b",
+    "native": [
+      850,
+      104
+    ]
+  },
+  "monet-6": {
+    "file": "assets/originals/monet-6.jpg",
+    "caseId": "reczz28HJJL2NjzO",
+    "caseImage": null,
+    "caseTitle": "睡莲",
+    "label": "Claude Monet - Soleil couchant",
+    "source": "https://www.musee-orangerie.fr/en/node/197502",
+    "downloadUrl": "https://cdn.mediatheque.epmoo.fr/link/3c9igq/spd1bvc39bwjc00.jpg",
+    "origin": "case-supplement",
+    "sha256": "e225d9e50cb4c10076b5e0d801c3f6c622055a34e9be3813d23e8474bd7320ed",
+    "native": [
+      850,
+      298
+    ]
+  },
+  "monet-7": {
+    "file": "assets/originals/monet-7.jpg",
+    "caseId": "reczz28HJJL2NjzO",
+    "caseImage": null,
+    "caseTitle": "睡莲",
+    "label": "Claude Monet - Reflets verts",
+    "source": "https://www.musee-orangerie.fr/en/node/197502",
+    "downloadUrl": "https://cdn.mediatheque.epmoo.fr/link/3c9igq/cxv1bws9hr1dmyo.jpg",
+    "origin": "case-supplement",
+    "sha256": "a11d03564bbb8549981291521bdea16448f2a691300968edade428ed2a77e71e",
+    "native": [
+      850,
+      643
+    ]
+  },
+  "monet-8": {
+    "file": "assets/originals/monet-8.jpg",
+    "caseId": "reczz28HJJL2NjzO",
+    "caseImage": null,
+    "caseTitle": "睡莲",
+    "label": "Claude Monet - Matin",
+    "source": "https://www.musee-orangerie.fr/en/node/197502",
+    "downloadUrl": "https://cdn.mediatheque.epmoo.fr/link/3c9igq/aiq1butq7w36l40.jpg",
+    "origin": "case-supplement",
+    "sha256": "63ac93670cb117d8585ad908dbd68c4dbe7aedea569d652a61b33c8460c5787a",
+    "native": [
+      850,
+      605
+    ]
+  },
+  "monet-9": {
+    "file": "assets/originals/monet-9.jpg",
+    "caseId": "reczz28HJJL2NjzO",
+    "caseImage": null,
+    "caseTitle": "睡莲",
+    "label": "Claude Monet - Le Matin aux saules",
+    "source": "https://www.musee-orangerie.fr/en/node/197502",
+    "downloadUrl": "https://cdn.mediatheque.epmoo.fr/link/3c9igq/tej1butq8v5mdk0.jpg",
+    "origin": "case-supplement",
+    "sha256": "cf27895af1742ef74c37cbb7bd946037fb909a2adc2d5e6865fadf35c47889b7",
+    "native": [
+      636,
+      850
+    ]
+  },
+  "peter08": {
+    "file": "assets/originals/peter08.jpg",
+    "caseId": "reczz28HJJL2NkAi",
+    "caseImage": null,
+    "caseTitle": "彼得兔的故事",
+    "label": "彼得兔的故事插图 peter08",
+    "source": "https://www.vam.ac.uk/articles/peter-rabbit-the-tale-of-the-tale",
+    "downloadUrl": "https://www.gutenberg.org/files/14838/14838-h/images/peter08.jpg",
+    "origin": "case-supplement",
+    "sha256": "690baa2d2e36d33d51814143ef47c7d281875a46238f05829f71f459ac45a901",
+    "native": [
+      487,
+      575
+    ]
+  },
+  "peter19": {
+    "file": "assets/originals/peter19.jpg",
+    "caseId": "reczz28HJJL2NkAi",
+    "caseImage": null,
+    "caseTitle": "彼得兔的故事",
+    "label": "彼得兔的故事插图 peter19",
+    "source": "https://www.vam.ac.uk/articles/peter-rabbit-the-tale-of-the-tale",
+    "downloadUrl": "https://www.gutenberg.org/files/14838/14838-h/images/peter19.jpg",
+    "origin": "case-supplement",
+    "sha256": "a54180a60d14d381ea9bc9d68b5d994233c9a6afe2083cc87b0cf4eea1fbee75",
+    "native": [
+      440,
+      475
+    ]
+  },
+  "peter28": {
+    "file": "assets/originals/peter28.jpg",
+    "caseId": "reczz28HJJL2NkAi",
+    "caseImage": null,
+    "caseTitle": "彼得兔的故事",
+    "label": "彼得兔的故事插图 peter28",
+    "source": "https://www.vam.ac.uk/articles/peter-rabbit-the-tale-of-the-tale",
+    "downloadUrl": "https://www.gutenberg.org/files/14838/14838-h/images/peter28.jpg",
+    "origin": "case-supplement",
+    "sha256": "ea7ac2a377f985e4d00e31a2dec80f93bfe6da4cfd7078ad7aed3035602b673e",
+    "native": [
+      470,
+      568
+    ]
+  },
+  "peter36": {
+    "file": "assets/originals/peter36.jpg",
+    "caseId": "reczz28HJJL2NkAi",
+    "caseImage": null,
+    "caseTitle": "彼得兔的故事",
+    "label": "彼得兔的故事插图 peter36",
+    "source": "https://www.vam.ac.uk/articles/peter-rabbit-the-tale-of-the-tale",
+    "downloadUrl": "https://www.gutenberg.org/files/14838/14838-h/images/peter36.jpg",
+    "origin": "case-supplement",
+    "sha256": "733fc53f9d263334d1ca51e1d19fd7fac9b9be8512a4242f4f82bd2a464fb700",
+    "native": [
+      420,
+      433
+    ]
+  },
+  "peter39": {
+    "file": "assets/originals/peter39.jpg",
+    "caseId": "reczz28HJJL2NkAi",
+    "caseImage": null,
+    "caseTitle": "彼得兔的故事",
+    "label": "彼得兔的故事插图 peter39",
+    "source": "https://www.vam.ac.uk/articles/peter-rabbit-the-tale-of-the-tale",
+    "downloadUrl": "https://www.gutenberg.org/files/14838/14838-h/images/peter39.jpg",
+    "origin": "case-supplement",
+    "sha256": "d6407bc48b3500bdd726f0489ed26fcd9c0e94401e6b8f59c7d94b8d0d868e64",
+    "native": [
+      416,
+      545
+    ]
+  },
+  "peter47": {
+    "file": "assets/originals/peter47.jpg",
+    "caseId": "reczz28HJJL2NkAi",
+    "caseImage": null,
+    "caseTitle": "彼得兔的故事",
+    "label": "彼得兔的故事插图 peter47",
+    "source": "https://www.vam.ac.uk/articles/peter-rabbit-the-tale-of-the-tale",
+    "downloadUrl": "https://www.gutenberg.org/files/14838/14838-h/images/peter47.jpg",
+    "origin": "case-supplement",
+    "sha256": "8985840454a76c46c7d0ce7ba43af6f3d85f4e26a2c99af8b270f2e31ef9512c",
+    "native": [
+      461,
+      554
+    ]
+  },
+  "peter58": {
+    "file": "assets/originals/peter58.jpg",
+    "caseId": "reczz28HJJL2NkAi",
+    "caseImage": null,
+    "caseTitle": "彼得兔的故事",
+    "label": "彼得兔的故事插图 peter58",
+    "source": "https://www.vam.ac.uk/articles/peter-rabbit-the-tale-of-the-tale",
+    "downloadUrl": "https://www.gutenberg.org/files/14838/14838-h/images/peter58.jpg",
+    "origin": "case-supplement",
+    "sha256": "b0a5ffab2dbd49e78e47c8648dd0b063055d603cbaad1cc075f10e1157a52ce8",
+    "native": [
+      469,
+      535
+    ]
+  },
+  "stardew-1": {
+    "file": "assets/originals/stardew-1.png",
+    "caseId": "reczz28HJJL2NkDM",
+    "caseImage": null,
+    "caseTitle": "星露谷物语",
+    "label": "星露谷物语官网截图",
+    "source": "https://www.stardewvalley.net/",
+    "downloadUrl": "https://www.stardewvalley.net/wp-content/uploads/2018/12/1_1screenshot15.png",
+    "origin": "case-supplement",
+    "sha256": "fde9ebb9ea95b684249f3edb9194bac4c831c93c8e9bad7351c187020e331512",
+    "native": [
+      960,
+      540
+    ]
+  },
+  "stardew-13": {
+    "file": "assets/originals/stardew-13.png",
+    "caseId": "reczz28HJJL2NkDM",
+    "caseImage": null,
+    "caseTitle": "星露谷物语",
+    "label": "星露谷物语官网截图",
+    "source": "https://www.stardewvalley.net/",
+    "downloadUrl": "https://www.stardewvalley.net/wp-content/uploads/2018/12/StardewValley_11.png",
+    "origin": "case-supplement",
+    "sha256": "c615adc7e7f6851aabeb1100ceab064622e1496b58fb99d6fe701dc73d41dce3",
+    "native": [
+      960,
+      540
+    ]
+  },
+  "atkins-291498": {
+    "file": "assets/originals/atkins-291498-web.jpg",
+    "caseId": "reczz28HJJL2Nmc7",
+    "caseImage": null,
+    "caseTitle": "英国藻类图集：蓝晒印相",
+    "label": "Photographs of British Algae: Cyanotype Impressions",
+    "source": "https://www.metmuseum.org/art/collection/search/291498",
+    "downloadUrl": "https://images.metmuseum.org/CRDImages/ph/web-large/DP-17302-004.jpg",
+    "origin": "case-supplement",
+    "sha256": "524b4fc458dff940a365cfceb497ff58c0086e3bb9ccc98d4b936d6f12c241a4",
+    "native": [
+      510,
+      625
+    ],
+    "fullResolutionURL": "https://images.metmuseum.org/CRDImages/ph/original/DP-17302-004.jpg",
+    "accession": "2005.100.557 (1)",
+    "rights": "The Metropolitan Museum of Art, Open Access / Public Domain"
+  },
+  "atkins-291568": {
+    "file": "assets/originals/atkins-291568-web.jpg",
+    "caseId": "reczz28HJJL2Nmc7",
+    "caseImage": null,
+    "caseTitle": "英国藻类图集：蓝晒印相",
+    "label": "Dictyota atomaria",
+    "source": "https://www.metmuseum.org/art/collection/search/291568",
+    "downloadUrl": "https://images.metmuseum.org/CRDImages/ph/web-large/DP-17302-074.jpg",
+    "origin": "case-supplement",
+    "sha256": "7b083d1df13d69e42d20690e77d895ff18ccae1c4ce609ada32e2a6b7bd961f7",
+    "native": [
+      510,
+      625
+    ],
+    "fullResolutionURL": "https://images.metmuseum.org/CRDImages/ph/original/DP-17302-074.jpg",
+    "accession": "2005.100.557 (71)",
+    "rights": "The Metropolitan Museum of Art, Open Access / Public Domain"
+  },
+  "atkins-291589": {
+    "file": "assets/originals/atkins-291589-web.jpg",
+    "caseId": "reczz28HJJL2Nmc7",
+    "caseImage": null,
+    "caseTitle": "英国藻类图集：蓝晒印相",
+    "label": "Polysiphonia fibrata",
+    "source": "https://www.metmuseum.org/art/collection/search/291589",
+    "downloadUrl": "https://images.metmuseum.org/CRDImages/ph/web-large/DP-17302-096.jpg",
+    "origin": "case-supplement",
+    "sha256": "3119c603cda522a4decddb8c985b0d0d52a765c2c8f9158460900ce3627eb84c",
+    "native": [
+      527,
+      625
+    ],
+    "fullResolutionURL": "https://images.metmuseum.org/CRDImages/ph/original/DP-17302-096.jpg",
+    "accession": "2005.100.557 (93)",
+    "rights": "The Metropolitan Museum of Art, Open Access / Public Domain"
+  },
+  "atkins-291559": {
+    "file": "assets/originals/atkins-291559-web.jpg",
+    "caseId": "reczz28HJJL2Nmc7",
+    "caseImage": null,
+    "caseTitle": "英国藻类图集：蓝晒印相",
+    "label": "Schizonema ramosissimium",
+    "source": "https://www.metmuseum.org/art/collection/search/291559",
+    "downloadUrl": "https://images.metmuseum.org/CRDImages/ph/web-large/DP-17302-065.jpg",
+    "origin": "case-supplement",
+    "sha256": "34f36fc2bd462ff84f5425f11b0986830ff026fd702dfb077b16521440b32a86",
+    "native": [
+      510,
+      625
+    ],
+    "fullResolutionURL": "https://images.metmuseum.org/CRDImages/ph/original/DP-17302-065.jpg",
+    "accession": "2005.100.557 (62)",
+    "rights": "The Metropolitan Museum of Art, Open Access / Public Domain"
+  },
+  "atkins-291555": {
+    "file": "assets/originals/atkins-291555-web.jpg",
+    "caseId": "reczz28HJJL2Nmc7",
+    "caseImage": null,
+    "caseTitle": "英国藻类图集：蓝晒印相",
+    "label": "Schizonema implicatum",
+    "source": "https://www.metmuseum.org/art/collection/search/291555",
+    "downloadUrl": "https://images.metmuseum.org/CRDImages/ph/web-large/DP-17302-061.jpg",
+    "origin": "case-supplement",
+    "sha256": "22d3bc1bbec83c0671c5bd361e0a307dc58a5ab56fc1327f775715484aaaeaf7",
+    "native": [
+      510,
+      625
+    ],
+    "fullResolutionURL": "https://images.metmuseum.org/CRDImages/ph/original/DP-17302-061.jpg",
+    "accession": "2005.100.557 (58)",
+    "rights": "The Metropolitan Museum of Art, Open Access / Public Domain"
+  },
+  "atkins-291638": {
+    "file": "assets/originals/atkins-291638-web.jpg",
+    "caseId": "reczz28HJJL2Nmc7",
+    "caseImage": null,
+    "caseTitle": "英国藻类图集：蓝晒印相",
+    "label": "Ulva lactuca",
+    "source": "https://www.metmuseum.org/art/collection/search/291638",
+    "downloadUrl": "https://images.metmuseum.org/CRDImages/ph/web-large/DP-17302-145.jpg",
+    "origin": "case-supplement",
+    "sha256": "3827a0fb4cbaaecd12ca91e19d65b2c9a0c5f56c27b7bdef5fd9a66bd8322ed8",
+    "native": [
+      527,
+      625
+    ],
+    "fullResolutionURL": "https://images.metmuseum.org/CRDImages/ph/original/DP-17302-145.jpg",
+    "accession": "2005.100.557 (142)",
+    "rights": "The Metropolitan Museum of Art, Open Access / Public Domain"
+  },
+  "atkins-291575": {
+    "file": "assets/originals/atkins-291575-web.jpg",
+    "caseId": "reczz28HJJL2Nmc7",
+    "caseImage": null,
+    "caseTitle": "英国藻类图集：蓝晒印相",
+    "label": "Delesseria hypoglassum",
+    "source": "https://www.metmuseum.org/art/collection/search/291575",
+    "downloadUrl": "https://images.metmuseum.org/CRDImages/ph/web-large/DP-17302-081.jpg",
+    "origin": "case-supplement",
+    "sha256": "33968bfef9143e7f9be70cb4d68dab82be6e5f890aba4804a95d4dde64460034",
+    "native": [
+      510,
+      625
+    ],
+    "fullResolutionURL": "https://images.metmuseum.org/CRDImages/ph/original/DP-17302-081.jpg",
+    "accession": "2005.100.557 (78)",
+    "rights": "The Metropolitan Museum of Art, Open Access / Public Domain"
+  },
+  "unpacking-1": {
+    "file": "assets/originals/unpacking-1.png",
+    "caseId": "reczz28HJJL2Nm8E",
+    "caseImage": null,
+    "caseTitle": "Unpacking",
+    "label": "Unpacking官网 kids-sationery@2x.png",
+    "source": "https://www.unpackinggame.com/",
+    "downloadUrl": "https://unpackinggame.com/wp-content/uploads/2020/08/kids-sationery@2x.png",
+    "origin": "case-supplement",
+    "sha256": "3290eaaa387d854d93d914a8ec2007a03da9921eb6207eeb924857b8070bc6fa",
+    "native": [
+      248,
+      84
+    ]
+  },
+  "unpacking-2": {
+    "file": "assets/originals/unpacking-2.png",
+    "caseId": "reczz28HJJL2Nm8E",
+    "caseImage": null,
+    "caseTitle": "Unpacking",
+    "label": "Unpacking官网 Screenshot01.png",
+    "source": "https://www.unpackinggame.com/",
+    "downloadUrl": "https://unpackinggame.com/wp-content/uploads/2021/09/Screenshot01.png",
+    "origin": "case-supplement",
+    "sha256": "0302e27f39c28ee10a65e174d2e5d6e15abdcd6fa954e7dffc1d2bf97c566120",
+    "native": [
+      1920,
+      1080
+    ]
+  },
+  "unpacking-4": {
+    "file": "assets/originals/unpacking-4.png",
+    "caseId": "reczz28HJJL2Nm8E",
+    "caseImage": null,
+    "caseTitle": "Unpacking",
+    "label": "Unpacking官网 Screenshot03.png",
+    "source": "https://www.unpackinggame.com/",
+    "downloadUrl": "https://unpackinggame.com/wp-content/uploads/2021/09/Screenshot03.png",
+    "origin": "case-supplement",
+    "sha256": "d38de5b4a1f4040320de100309efa7e3cf8b2ed6f9ed6532977a709ad290c670",
+    "native": [
+      1920,
+      1080
+    ]
+  },
+  "unpacking-8": {
+    "file": "assets/originals/unpacking-8.png",
+    "caseId": "reczz28HJJL2Nm8E",
+    "caseImage": null,
+    "caseTitle": "Unpacking",
+    "label": "Unpacking官网 doublesize-studioapt_kitchen_partpacked.png",
+    "source": "https://www.unpackinggame.com/",
+    "downloadUrl": "https://unpackinggame.com/wp-content/uploads/2020/08/doublesize-studioapt_kitchen_partpacked.png",
+    "origin": "case-supplement",
+    "sha256": "52baeded6097d6bf6f118c768c797e3b5d38a743e24942781904321b8f8203e6",
+    "native": [
+      1124,
+      1406
+    ]
+  },
+  "unpacking-9": {
+    "file": "assets/originals/unpacking-9.png",
+    "caseId": "reczz28HJJL2Nm8E",
+    "caseImage": null,
+    "caseTitle": "Unpacking",
+    "label": "Unpacking官网 Teen-Stuff.png",
+    "source": "https://www.unpackinggame.com/",
+    "downloadUrl": "https://unpackinggame.com/wp-content/uploads/2020/08/Teen-Stuff.png",
+    "origin": "case-supplement",
+    "sha256": "0c7088da14175ea204877f06c3b7b910796676e5c523a72a7c380317ded8685a",
+    "native": [
+      294,
+      163
+    ]
+  },
+  "unpacking-11": {
+    "file": "assets/originals/unpacking-11.png",
+    "caseId": "reczz28HJJL2Nm8E",
+    "caseImage": null,
+    "caseTitle": "Unpacking",
+    "label": "Unpacking官网 doublsize-childroom_bedroom_partpacked.png",
+    "source": "https://www.unpackinggame.com/",
+    "downloadUrl": "https://unpackinggame.com/wp-content/uploads/2020/08/doublsize-childroom_bedroom_partpacked.png",
+    "origin": "case-supplement",
+    "sha256": "4e7adddd6202532a4c8bfb99a95e0d0b34c4dd13385b5627c8681f20305d4f04",
+    "native": [
+      1556,
+      1273
+    ]
+  },
+  "unpacking-12": {
+    "file": "assets/originals/unpacking-12.png",
+    "caseId": "reczz28HJJL2Nm8E",
+    "caseImage": null,
+    "caseTitle": "Unpacking",
+    "label": "Unpacking官网 Ducky-and-books@2x.png",
+    "source": "https://www.unpackinggame.com/",
+    "downloadUrl": "https://unpackinggame.com/wp-content/uploads/2020/08/Ducky-and-books@2x.png",
+    "origin": "case-supplement",
+    "sha256": "c1a5b7efc65042f956782e6b64687238cccf874d27025c0469fdd3969db439e0",
+    "native": [
+      214,
+      138
+    ]
+  },
+  "unpacking-13": {
+    "file": "assets/originals/unpacking-13.png",
+    "caseId": "reczz28HJJL2Nm8E",
+    "caseImage": null,
+    "caseTitle": "Unpacking",
+    "label": "Unpacking官网 Large-set-of-boxes@2x.png",
+    "source": "https://www.unpackinggame.com/",
+    "downloadUrl": "https://unpackinggame.com/wp-content/uploads/2020/08/Large-set-of-boxes@2x.png",
+    "origin": "case-supplement",
+    "sha256": "030acb3d9070df74b6be923a21721df5b245250d3d9e7758d6f0db3215a29e99",
+    "native": [
+      1066,
+      504
+    ]
+  }
+}

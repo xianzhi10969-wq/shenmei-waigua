@@ -2605,5 +2605,372 @@
     "desktopRatio": 1.0909090909090908,
     "mobile": "/collages/next-four-collages-2026-11-07/dark-mobile.svg",
     "mobileRatio": 0.35135135135135137
+  },
+  {
+    "slug": "healing",
+    "termId": "reczz28HJJL2GLCP",
+    "name": "治愈",
+    "batch": "nature-and-solitude-collages-2026-11-08",
+    "status": "pending-review",
+    "pieces": [
+      {
+        "original": "/collages/nature-and-solitude-collages-2026-11-08/assets/originals/e367861d9c142fe5762c3cda.jpg",
+        "title": "睡莲",
+        "label": "云映在水面上",
+        "source": "https://www.musee-orangerie.fr/en/node/197502",
+        "caseId": "reczz28HJJL2NjzO",
+        "caseImage": null,
+        "origin": "existing-case"
+      },
+      {
+        "original": "/collages/nature-and-solitude-collages-2026-11-08/assets/originals/monet-2.jpg",
+        "title": "睡莲",
+        "label": "树的倒影",
+        "source": "https://www.musee-orangerie.fr/en/node/197502",
+        "caseId": "reczz28HJJL2NjzO",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/nature-and-solitude-collages-2026-11-08/assets/originals/monet-4.jpg",
+        "title": "睡莲",
+        "label": "画沿着椭圆房间展开",
+        "source": "https://www.musee-orangerie.fr/en/node/197502",
+        "caseId": "reczz28HJJL2NjzO",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/nature-and-solitude-collages-2026-11-08/assets/originals/monet-9.jpg",
+        "title": "睡莲",
+        "label": "柳树落入光的水面",
+        "source": "https://www.musee-orangerie.fr/en/node/197502",
+        "caseId": "reczz28HJJL2NjzO",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/nature-and-solitude-collages-2026-11-08/assets/originals/monet-6.jpg",
+        "title": "睡莲",
+        "label": "落日的暖色",
+        "source": "https://www.musee-orangerie.fr/en/node/197502",
+        "caseId": "reczz28HJJL2NjzO",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/nature-and-solitude-collages-2026-11-08/assets/originals/monet-8.jpg",
+        "title": "睡莲",
+        "label": "坐下来看水的一间房",
+        "source": "https://www.musee-orangerie.fr/en/node/197502",
+        "caseId": "reczz28HJJL2NjzO",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/nature-and-solitude-collages-2026-11-08/assets/originals/monet-5.jpg",
+        "title": "睡莲",
+        "label": "两棵柳树连接的长画幅",
+        "source": "https://www.musee-orangerie.fr/en/node/197502",
+        "caseId": "reczz28HJJL2NjzO",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/nature-and-solitude-collages-2026-11-08/assets/originals/monet-7.jpg",
+        "title": "睡莲",
+        "label": "绿影里的睡莲",
+        "source": "https://www.musee-orangerie.fr/en/node/197502",
+        "caseId": "reczz28HJJL2NjzO",
+        "caseImage": null,
+        "origin": "case-supplement"
+      }
+    ],
+    "desktop": "/collages/nature-and-solitude-collages-2026-11-08/healing-desktop.svg",
+    "desktopRatio": 1.0909090909090908,
+    "mobile": "/collages/nature-and-solitude-collages-2026-11-08/healing-mobile.svg",
+    "mobileRatio": 0.35135135135135137
+  },
+  {
+    "slug": "cottagecore",
+    "termId": "reczz28HJJL2GLFs",
+    "name": "Cottagecore",
+    "batch": "nature-and-solitude-collages-2026-11-08",
+    "status": "pending-review",
+    "pieces": [
+      {
+        "original": "/collages/nature-and-solitude-collages-2026-11-08/assets/originals/peter08.jpg",
+        "title": "彼得兔的故事",
+        "label": "兔子一家住在树根下",
+        "source": "https://www.vam.ac.uk/articles/peter-rabbit-the-tale-of-the-tale",
+        "caseId": "reczz28HJJL2NkAi",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/nature-and-solitude-collages-2026-11-08/assets/originals/2c8380674f4a52e04dae89e9.jpg",
+        "title": "彼得兔的故事",
+        "label": "先吃一口，再担心追赶",
+        "source": "https://www.vam.ac.uk/articles/peter-rabbit-the-tale-of-the-tale",
+        "caseId": "reczz28HJJL2NkAi",
+        "caseImage": "/media/2c8380674f4a52e04dae89e9.jpg",
+        "origin": "existing-case"
+      },
+      {
+        "original": "/collages/nature-and-solitude-collages-2026-11-08/assets/originals/stardew-1.png",
+        "title": "星露谷物语",
+        "label": "从旧农地重新开始",
+        "source": "https://www.stardewvalley.net/",
+        "caseId": "reczz28HJJL2NkDM",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/nature-and-solitude-collages-2026-11-08/assets/originals/peter47.jpg",
+        "title": "彼得兔的故事",
+        "label": "菜园里的猫与鱼池",
+        "source": "https://www.vam.ac.uk/articles/peter-rabbit-the-tale-of-the-tale",
+        "caseId": "reczz28HJJL2NkAi",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/nature-and-solitude-collages-2026-11-08/assets/originals/peter58.jpg",
+        "title": "彼得兔的故事",
+        "label": "小桌上的面包与牛奶",
+        "source": "https://www.vam.ac.uk/articles/peter-rabbit-the-tale-of-the-tale",
+        "caseId": "reczz28HJJL2NkAi",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/nature-and-solitude-collages-2026-11-08/assets/originals/stardew-13.png",
+        "title": "星露谷物语",
+        "label": "夜晚也有小镇生活",
+        "source": "https://www.stardewvalley.net/",
+        "caseId": "reczz28HJJL2NkDM",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/nature-and-solitude-collages-2026-11-08/assets/originals/peter28.jpg",
+        "title": "彼得兔的故事",
+        "label": "叶子庇护下的躲藏",
+        "source": "https://www.vam.ac.uk/articles/peter-rabbit-the-tale-of-the-tale",
+        "caseId": "reczz28HJJL2NkAi",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/nature-and-solitude-collages-2026-11-08/assets/originals/peter39.jpg",
+        "title": "彼得兔的故事",
+        "label": "门边的花盆与工具",
+        "source": "https://www.vam.ac.uk/articles/peter-rabbit-the-tale-of-the-tale",
+        "caseId": "reczz28HJJL2NkAi",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/nature-and-solitude-collages-2026-11-08/assets/originals/peter19.jpg",
+        "title": "彼得兔的故事",
+        "label": "钻过栅栏的蓝外套小兔",
+        "source": "https://www.vam.ac.uk/articles/peter-rabbit-the-tale-of-the-tale",
+        "caseId": "reczz28HJJL2NkAi",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/nature-and-solitude-collages-2026-11-08/assets/originals/peter36.jpg",
+        "title": "彼得兔的故事",
+        "label": "菜园里的洒水壶",
+        "source": "https://www.vam.ac.uk/articles/peter-rabbit-the-tale-of-the-tale",
+        "caseId": "reczz28HJJL2NkAi",
+        "caseImage": null,
+        "origin": "case-supplement"
+      }
+    ],
+    "desktop": "/collages/nature-and-solitude-collages-2026-11-08/cottagecore-desktop.svg",
+    "desktopRatio": 1.0909090909090908,
+    "mobile": "/collages/nature-and-solitude-collages-2026-11-08/cottagecore-mobile.svg",
+    "mobileRatio": 0.35135135135135137
+  },
+  {
+    "slug": "imprint",
+    "termId": "reczz28HJJL2GNBK",
+    "name": "拓印",
+    "batch": "nature-and-solitude-collages-2026-11-08",
+    "status": "pending-review",
+    "pieces": [
+      {
+        "original": "/collages/nature-and-solitude-collages-2026-11-08/assets/originals/atkins-291498-web.jpg",
+        "title": "英国藻类图集：蓝晒印相",
+        "label": "蓝晒图集的手写扉页",
+        "source": "https://www.metmuseum.org/art/collection/search/291498",
+        "caseId": "reczz28HJJL2Nmc7",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/nature-and-solitude-collages-2026-11-08/assets/originals/atkins-291575-web.jpg",
+        "title": "英国藻类图集：蓝晒印相",
+        "label": "细长叶片怎样被光留下",
+        "source": "https://www.metmuseum.org/art/collection/search/291575",
+        "caseId": "reczz28HJJL2Nmc7",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/nature-and-solitude-collages-2026-11-08/assets/originals/atkins-291589-web.jpg",
+        "title": "英国藻类图集：蓝晒印相",
+        "label": "细如羽毛的分枝",
+        "source": "https://www.metmuseum.org/art/collection/search/291589",
+        "caseId": "reczz28HJJL2Nmc7",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/nature-and-solitude-collages-2026-11-08/assets/originals/atkins-291559-web.jpg",
+        "title": "英国藻类图集：蓝晒印相",
+        "label": "两簇小小的标本",
+        "source": "https://www.metmuseum.org/art/collection/search/291559",
+        "caseId": "reczz28HJJL2Nmc7",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/nature-and-solitude-collages-2026-11-08/assets/originals/atkins-291555-web.jpg",
+        "title": "英国藻类图集：蓝晒印相",
+        "label": "感光纸上的一次摆放",
+        "source": "https://www.metmuseum.org/art/collection/search/291555",
+        "caseId": "reczz28HJJL2Nmc7",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/nature-and-solitude-collages-2026-11-08/assets/originals/atkins-291638-web.jpg",
+        "title": "英国藻类图集：蓝晒印相",
+        "label": "卷起的海藻边缘",
+        "source": "https://www.metmuseum.org/art/collection/search/291638",
+        "caseId": "reczz28HJJL2Nmc7",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/nature-and-solitude-collages-2026-11-08/assets/originals/56486c4ce7d9614464ea11e7.jpg",
+        "title": "英国藻类图集：蓝晒印相",
+        "label": "像一把扇子展开的海藻",
+        "source": "https://www.metmuseum.org/art/collection/search/286656",
+        "caseId": "reczz28HJJL2Nmc7",
+        "caseImage": null,
+        "origin": "existing-case"
+      },
+      {
+        "original": "/collages/nature-and-solitude-collages-2026-11-08/assets/originals/atkins-291568-web.jpg",
+        "title": "英国藻类图集：蓝晒印相",
+        "label": "叶片贴在纸面的一瞬",
+        "source": "https://www.metmuseum.org/art/collection/search/291568",
+        "caseId": "reczz28HJJL2Nmc7",
+        "caseImage": null,
+        "origin": "case-supplement"
+      }
+    ],
+    "desktop": "/collages/nature-and-solitude-collages-2026-11-08/imprint-desktop.svg",
+    "desktopRatio": 1.0909090909090908,
+    "mobile": "/collages/nature-and-solitude-collages-2026-11-08/imprint-mobile.svg",
+    "mobileRatio": 0.35135135135135137
+  },
+  {
+    "slug": "solitude",
+    "termId": "reczz28HJJL2GMrB",
+    "name": "沉浸式独处",
+    "batch": "nature-and-solitude-collages-2026-11-08",
+    "status": "pending-review",
+    "pieces": [
+      {
+        "original": "/collages/nature-and-solitude-collages-2026-11-08/assets/originals/8dd4728f236f108fb5c4958b.jpg",
+        "title": "在自己房间里的旅行",
+        "label": "一场只在房间里的旅行",
+        "source": "https://www.gutenberg.org/files/40248/40248-h/40248-h.htm",
+        "caseId": "reczz28HJJL2NmAu",
+        "caseImage": null,
+        "origin": "existing-case"
+      },
+      {
+        "original": "/collages/nature-and-solitude-collages-2026-11-08/assets/originals/unpacking-2.png",
+        "title": "Unpacking",
+        "label": "长大后留下来的卧室",
+        "source": "https://www.unpackinggame.com/",
+        "caseId": "reczz28HJJL2Nm8E",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/nature-and-solitude-collages-2026-11-08/assets/originals/unpacking-4.png",
+        "title": "Unpacking",
+        "label": "浴室也属于一个人的生活",
+        "source": "https://www.unpackinggame.com/",
+        "caseId": "reczz28HJJL2Nm8E",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/nature-and-solitude-collages-2026-11-08/assets/originals/unpacking-11.png",
+        "title": "Unpacking",
+        "label": "第一间房和还没拆完的纸箱",
+        "source": "https://www.unpackinggame.com/",
+        "caseId": "reczz28HJJL2Nm8E",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/nature-and-solitude-collages-2026-11-08/assets/originals/unpacking-8.png",
+        "title": "Unpacking",
+        "label": "把厨房一点点安顿好",
+        "source": "https://www.unpackinggame.com/",
+        "caseId": "reczz28HJJL2Nm8E",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/nature-and-solitude-collages-2026-11-08/assets/originals/unpacking-13.png",
+        "title": "Unpacking",
+        "label": "搬家时随身带走的东西",
+        "source": "https://www.unpackinggame.com/",
+        "caseId": "reczz28HJJL2Nm8E",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/nature-and-solitude-collages-2026-11-08/assets/originals/unpacking-1.png",
+        "title": "Unpacking",
+        "label": "尺子、剪刀和一本本子",
+        "source": "https://www.unpackinggame.com/",
+        "caseId": "reczz28HJJL2Nm8E",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/nature-and-solitude-collages-2026-11-08/assets/originals/unpacking-9.png",
+        "title": "Unpacking",
+        "label": "新住处里的耳机与球鞋",
+        "source": "https://www.unpackinggame.com/",
+        "caseId": "reczz28HJJL2Nm8E",
+        "caseImage": null,
+        "origin": "case-supplement"
+      },
+      {
+        "original": "/collages/nature-and-solitude-collages-2026-11-08/assets/originals/unpacking-12.png",
+        "title": "Unpacking",
+        "label": "每次搬家都留下的小鸭子",
+        "source": "https://www.unpackinggame.com/",
+        "caseId": "reczz28HJJL2Nm8E",
+        "caseImage": null,
+        "origin": "case-supplement"
+      }
+    ],
+    "desktop": "/collages/nature-and-solitude-collages-2026-11-08/solitude-desktop.svg",
+    "desktopRatio": 1.0909090909090908,
+    "mobile": "/collages/nature-and-solitude-collages-2026-11-08/solitude-mobile.svg",
+    "mobileRatio": 0.35135135135135137
   }
 ]

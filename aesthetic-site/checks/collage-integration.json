@@ -241,6 +241,46 @@
       "svgWidth": 390
     },
     {
+      "slug": "healing",
+      "width": 390,
+      "clicks": 8,
+      "caseLinks": 8,
+      "visible": true,
+      "height": 1110,
+      "overflow": false,
+      "svgWidth": 390
+    },
+    {
+      "slug": "cottagecore",
+      "width": 390,
+      "clicks": 10,
+      "caseLinks": 10,
+      "visible": true,
+      "height": 1110,
+      "overflow": false,
+      "svgWidth": 390
+    },
+    {
+      "slug": "imprint",
+      "width": 390,
+      "clicks": 8,
+      "caseLinks": 8,
+      "visible": true,
+      "height": 1110,
+      "overflow": false,
+      "svgWidth": 390
+    },
+    {
+      "slug": "solitude",
+      "width": 390,
+      "clicks": 9,
+      "caseLinks": 9,
+      "visible": true,
+      "height": 1110,
+      "overflow": false,
+      "svgWidth": 390
+    },
+    {
       "slug": "translucent",
       "width": 1200,
       "clicks": 17,
@@ -475,6 +515,46 @@
       "width": 1200,
       "clicks": 8,
       "caseLinks": 8,
+      "visible": true,
+      "height": 1100,
+      "overflow": false,
+      "svgWidth": 1200
+    },
+    {
+      "slug": "healing",
+      "width": 1200,
+      "clicks": 8,
+      "caseLinks": 8,
+      "visible": true,
+      "height": 1100,
+      "overflow": false,
+      "svgWidth": 1200
+    },
+    {
+      "slug": "cottagecore",
+      "width": 1200,
+      "clicks": 10,
+      "caseLinks": 10,
+      "visible": true,
+      "height": 1100,
+      "overflow": false,
+      "svgWidth": 1200
+    },
+    {
+      "slug": "imprint",
+      "width": 1200,
+      "clicks": 8,
+      "caseLinks": 8,
+      "visible": true,
+      "height": 1100,
+      "overflow": false,
+      "svgWidth": 1200
+    },
+    {
+      "slug": "solitude",
+      "width": 1200,
+      "clicks": 9,
+      "caseLinks": 9,
       "visible": true,
       "height": 1100,
       "overflow": false,

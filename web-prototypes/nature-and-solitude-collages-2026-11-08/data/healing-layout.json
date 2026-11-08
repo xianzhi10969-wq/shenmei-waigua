@@ -1,0 +1,283 @@
+[
+  {
+    "source": "reczz28HJJL2NjzO",
+    "label": "云映在水面上",
+    "desktop": [
+      18,
+      126,
+      1164,
+      348,
+      -1
+    ],
+    "mobile": [
+      8,
+      105,
+      374,
+      116,
+      -1
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/e367861d9c142fe5762c3cda.jpg",
+    "case_record_id": "reczz28HJJL2NjzO",
+    "case_title": "睡莲",
+    "source_url": "https://www.musee-orangerie.fr/en/node/197502",
+    "term_record_id": "reczz28HJJL2GLCP",
+    "caseImage": "/media/e367861d9c142fe5762c3cda.jpg",
+    "origin": "existing-case",
+    "originalSha256": "cc617a8d0d3d864fb67a80acb92fda6d91d80601b886cc1c4924c2a2aaab6de1"
+  },
+  {
+    "source": "monet-2",
+    "label": "树的倒影",
+    "desktop": [
+      20,
+      480,
+      553,
+      245,
+      -3
+    ],
+    "mobile": [
+      8,
+      225,
+      373,
+      119,
+      -2
+    ],
+    "crop": [
+      18,
+      60,
+      968,
+      882
+    ],
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/monet-2.jpg",
+    "case_record_id": "reczz28HJJL2NjzO",
+    "case_title": "睡莲",
+    "source_url": "https://www.musee-orangerie.fr/en/node/197502",
+    "term_record_id": "reczz28HJJL2GLCP",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "9e4e68e03f11ead548f8144a3d8cd6562215bccd4c3d05d3f786e796726b892e"
+  },
+  {
+    "source": "monet-4",
+    "label": "画沿着椭圆房间展开",
+    "desktop": [
+      20,
+      760,
+      516,
+      318,
+      2
+    ],
+    "mobile": [
+      8,
+      724,
+      220,
+      209,
+      -3
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/monet-4.jpg",
+    "case_record_id": "reczz28HJJL2NjzO",
+    "case_title": "睡莲",
+    "source_url": "https://www.musee-orangerie.fr/en/node/197502",
+    "term_record_id": "reczz28HJJL2GLCP",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "2abaa002e4ccfba3f3224c5369f6c04c6ce2b12d1bd8a88d6c136f8c907ac439"
+  },
+  {
+    "source": "monet-9",
+    "label": "柳树落入光的水面",
+    "desktop": [
+      924,
+      295,
+      255,
+      781,
+      3
+    ],
+    "mobile": [
+      261,
+      607,
+      117,
+      389,
+      3
+    ],
+    "crop": [
+      0,
+      0,
+      960,
+      1000
+    ],
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/monet-9.jpg",
+    "case_record_id": "reczz28HJJL2NjzO",
+    "case_title": "睡莲",
+    "source_url": "https://www.musee-orangerie.fr/en/node/197502",
+    "term_record_id": "reczz28HJJL2GLCP",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "cf27895af1742ef74c37cbb7bd946037fb909a2adc2d5e6865fadf35c47889b7"
+  },
+  {
+    "source": "monet-6",
+    "label": "落日的暖色",
+    "desktop": [
+      22,
+      626,
+      558,
+      200,
+      3
+    ],
+    "mobile": [
+      8,
+      938,
+      373,
+      153,
+      2
+    ],
+    "crop": [
+      18,
+      55,
+      970,
+      880
+    ],
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/monet-6.jpg",
+    "case_record_id": "reczz28HJJL2NjzO",
+    "case_title": "睡莲",
+    "source_url": "https://www.musee-orangerie.fr/en/node/197502",
+    "term_record_id": "reczz28HJJL2GLCP",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "e225d9e50cb4c10076b5e0d801c3f6c622055a34e9be3813d23e8474bd7320ed"
+  },
+  {
+    "source": "monet-8",
+    "label": "坐下来看水的一间房",
+    "desktop": [
+      700,
+      737,
+      477,
+      339,
+      -2
+    ],
+    "mobile": [
+      8,
+      530,
+      223,
+      218,
+      -3
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/monet-8.jpg",
+    "case_record_id": "reczz28HJJL2NjzO",
+    "case_title": "睡莲",
+    "source_url": "https://www.musee-orangerie.fr/en/node/197502",
+    "term_record_id": "reczz28HJJL2GLCP",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "63ac93670cb117d8585ad908dbd68c4dbe7aedea569d652a61b33c8460c5787a"
+  },
+  {
+    "source": "monet-5",
+    "label": "两棵柳树连接的长画幅",
+    "desktop": [
+      534,
+      947,
+      640,
+      129,
+      -2
+    ],
+    "mobile": [
+      111,
+      1016,
+      265,
+      80,
+      -2
+    ],
+    "crop": [
+      0,
+      0,
+      1000,
+      1000
+    ],
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/monet-5.jpg",
+    "case_record_id": "reczz28HJJL2NjzO",
+    "case_title": "睡莲",
+    "source_url": "https://www.musee-orangerie.fr/en/node/197502",
+    "term_record_id": "reczz28HJJL2GLCP",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "7085e6bdf411d12c3123b0dc182711678e212167f4adb9d15f352a2ff9189b8b"
+  },
+  {
+    "source": "monet-7",
+    "label": "绿影里的睡莲",
+    "desktop": [
+      345,
+      307,
+      629,
+      589,
+      -2
+    ],
+    "mobile": [
+      52,
+      318,
+      295,
+      366,
+      0
+    ],
+    "crop": [
+      28,
+      30,
+      946,
+      935
+    ],
+    "mask": null,
+    "shape": "ellipse",
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/monet-7.jpg",
+    "case_record_id": "reczz28HJJL2NjzO",
+    "case_title": "睡莲",
+    "source_url": "https://www.musee-orangerie.fr/en/node/197502",
+    "term_record_id": "reczz28HJJL2GLCP",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "a11d03564bbb8549981291521bdea16448f2a691300968edade428ed2a77e71e"
+  }
+]

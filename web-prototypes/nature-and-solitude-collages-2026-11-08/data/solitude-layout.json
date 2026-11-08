@@ -1,0 +1,290 @@
+[
+  {
+    "source": "reczz28HJJL2NmAu",
+    "label": "一场只在房间里的旅行",
+    "desktop": [
+      20,
+      131,
+      371,
+      641,
+      -3
+    ],
+    "mobile": [
+      8,
+      111,
+      215,
+      372,
+      -3
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/8dd4728f236f108fb5c4958b.jpg",
+    "case_record_id": "reczz28HJJL2NmAu",
+    "case_title": "在自己房间里的旅行",
+    "source_url": "https://www.gutenberg.org/files/40248/40248-h/40248-h.htm",
+    "term_record_id": "reczz28HJJL2GMrB",
+    "caseImage": "/media/8dd4728f236f108fb5c4958b.jpg",
+    "origin": "existing-case",
+    "originalSha256": "cdd0798f3736e008b7ee8f7247e7f9ab2bfd571cd30423f313d45d84a6e1ede3"
+  },
+  {
+    "source": "unpacking-2",
+    "label": "长大后留下来的卧室",
+    "desktop": [
+      426,
+      129,
+      751,
+      355,
+      2
+    ],
+    "mobile": [
+      175,
+      116,
+      204,
+      230,
+      2
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": true,
+    "original": "assets/originals/unpacking-2.png",
+    "case_record_id": "reczz28HJJL2Nm8E",
+    "case_title": "Unpacking",
+    "source_url": "https://www.unpackinggame.com/",
+    "term_record_id": "reczz28HJJL2GMrB",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "0302e27f39c28ee10a65e174d2e5d6e15abdcd6fa954e7dffc1d2bf97c566120"
+  },
+  {
+    "source": "unpacking-4",
+    "label": "浴室也属于一个人的生活",
+    "desktop": [
+      21,
+      800,
+      422,
+      277,
+      2
+    ],
+    "mobile": [
+      8,
+      681,
+      190,
+      218,
+      -3
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": true,
+    "original": "assets/originals/unpacking-4.png",
+    "case_record_id": "reczz28HJJL2Nm8E",
+    "case_title": "Unpacking",
+    "source_url": "https://www.unpackinggame.com/",
+    "term_record_id": "reczz28HJJL2GMrB",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "d38de5b4a1f4040320de100309efa7e3cf8b2ed6f9ed6532977a709ad290c670"
+  },
+  {
+    "source": "unpacking-11",
+    "label": "第一间房和还没拆完的纸箱",
+    "desktop": [
+      327,
+      328,
+      613,
+      512,
+      -2
+    ],
+    "mobile": [
+      81,
+      311,
+      298,
+      313,
+      -2
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": "contain",
+    "pixelated": true,
+    "original": "assets/originals/unpacking-11.png",
+    "case_record_id": "reczz28HJJL2Nm8E",
+    "case_title": "Unpacking",
+    "source_url": "https://www.unpackinggame.com/",
+    "term_record_id": "reczz28HJJL2GMrB",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "4e7adddd6202532a4c8bfb99a95e0d0b34c4dd13385b5627c8681f20305d4f04"
+  },
+  {
+    "source": "unpacking-8",
+    "label": "把厨房一点点安顿好",
+    "desktop": [
+      738,
+      500,
+      438,
+      571,
+      2
+    ],
+    "mobile": [
+      147,
+      735,
+      234,
+      360,
+      2
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": "contain",
+    "pixelated": true,
+    "original": "assets/originals/unpacking-8.png",
+    "case_record_id": "reczz28HJJL2Nm8E",
+    "case_title": "Unpacking",
+    "source_url": "https://www.unpackinggame.com/",
+    "term_record_id": "reczz28HJJL2GMrB",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "52baeded6097d6bf6f118c768c797e3b5d38a743e24942781904321b8f8203e6"
+  },
+  {
+    "source": "unpacking-13",
+    "label": "搬家时随身带走的东西",
+    "desktop": [
+      52,
+      644,
+      486,
+      245,
+      -4
+    ],
+    "mobile": [
+      8,
+      499,
+      254,
+      151,
+      -3
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": "contain",
+    "pixelated": true,
+    "original": "assets/originals/unpacking-13.png",
+    "case_record_id": "reczz28HJJL2Nm8E",
+    "case_title": "Unpacking",
+    "source_url": "https://www.unpackinggame.com/",
+    "term_record_id": "reczz28HJJL2GMrB",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "030acb3d9070df74b6be923a21721df5b245250d3d9e7758d6f0db3215a29e99"
+  },
+  {
+    "source": "unpacking-1",
+    "label": "尺子、剪刀和一本本子",
+    "desktop": [
+      818,
+      382,
+      354,
+      135,
+      5
+    ],
+    "mobile": [
+      192,
+      325,
+      187,
+      90,
+      3
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": "contain",
+    "pixelated": true,
+    "original": "assets/originals/unpacking-1.png",
+    "case_record_id": "reczz28HJJL2Nm8E",
+    "case_title": "Unpacking",
+    "source_url": "https://www.unpackinggame.com/",
+    "term_record_id": "reczz28HJJL2GMrB",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "3290eaaa387d854d93d914a8ec2007a03da9921eb6207eeb924857b8070bc6fa"
+  },
+  {
+    "source": "unpacking-9",
+    "label": "新住处里的耳机与球鞋",
+    "desktop": [
+      423,
+      835,
+      409,
+      242,
+      3
+    ],
+    "mobile": [
+      8,
+      861,
+      228,
+      230,
+      -3
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": "contain",
+    "pixelated": true,
+    "original": "assets/originals/unpacking-9.png",
+    "case_record_id": "reczz28HJJL2Nm8E",
+    "case_title": "Unpacking",
+    "source_url": "https://www.unpackinggame.com/",
+    "term_record_id": "reczz28HJJL2GMrB",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "0c7088da14175ea204877f06c3b7b910796676e5c523a72a7c380317ded8685a"
+  },
+  {
+    "source": "unpacking-12",
+    "label": "每次搬家都留下的小鸭子",
+    "desktop": [
+      376,
+      621,
+      337,
+      250,
+      -4
+    ],
+    "mobile": [
+      58,
+      610,
+      287,
+      194,
+      0
+    ],
+    "crop": null,
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": "contain",
+    "pixelated": true,
+    "original": "assets/originals/unpacking-12.png",
+    "case_record_id": "reczz28HJJL2Nm8E",
+    "case_title": "Unpacking",
+    "source_url": "https://www.unpackinggame.com/",
+    "term_record_id": "reczz28HJJL2GMrB",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "c1a5b7efc65042f956782e6b64687238cccf874d27025c0469fdd3969db439e0"
+  }
+]

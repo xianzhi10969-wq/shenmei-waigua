@@ -1,0 +1,40 @@
+[
+  {
+    "slug": "healing",
+    "name": "治愈",
+    "english": "Healing",
+    "id": "reczz28HJJL2GLCP",
+    "caseIds": [
+      "reczz28HJJL2NjzO"
+    ]
+  },
+  {
+    "slug": "cottagecore",
+    "name": "Cottagecore",
+    "english": "Cottagecore",
+    "id": "reczz28HJJL2GLFs",
+    "caseIds": [
+      "reczz28HJJL2NkAi",
+      "reczz28HJJL2NkDM"
+    ]
+  },
+  {
+    "slug": "imprint",
+    "name": "拓印",
+    "english": "Imprint",
+    "id": "reczz28HJJL2GNBK",
+    "caseIds": [
+      "reczz28HJJL2Nmc7"
+    ]
+  },
+  {
+    "slug": "solitude",
+    "name": "沉浸式独处",
+    "english": "Immersive Solitude",
+    "id": "reczz28HJJL2GMrB",
+    "caseIds": [
+      "reczz28HJJL2Nm8E",
+      "reczz28HJJL2NmAu"
+    ]
+  }
+]

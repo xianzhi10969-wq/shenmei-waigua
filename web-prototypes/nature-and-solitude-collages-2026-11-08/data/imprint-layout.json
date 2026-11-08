@@ -1,0 +1,298 @@
+[
+  {
+    "source": "atkins-291498",
+    "label": "蓝晒图集的手写扉页",
+    "desktop": [
+      20,
+      126,
+      402,
+      543,
+      -2
+    ],
+    "mobile": [
+      8,
+      107,
+      183,
+      281,
+      -2
+    ],
+    "crop": [
+      80,
+      45,
+      850,
+      910
+    ],
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/atkins-291498-web.jpg",
+    "case_record_id": "reczz28HJJL2Nmc7",
+    "case_title": "英国藻类图集：蓝晒印相",
+    "source_url": "https://www.metmuseum.org/art/collection/search/291498",
+    "term_record_id": "reczz28HJJL2GNBK",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "524b4fc458dff940a365cfceb497ff58c0086e3bb9ccc98d4b936d6f12c241a4"
+  },
+  {
+    "source": "atkins-291575",
+    "label": "细长叶片怎样被光留下",
+    "desktop": [
+      428,
+      128,
+      368,
+      509,
+      2
+    ],
+    "mobile": [
+      194,
+      113,
+      185,
+      299,
+      2
+    ],
+    "crop": [
+      75,
+      45,
+      855,
+      912
+    ],
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/atkins-291575-web.jpg",
+    "case_record_id": "reczz28HJJL2Nmc7",
+    "case_title": "英国藻类图集：蓝晒印相",
+    "source_url": "https://www.metmuseum.org/art/collection/search/291575",
+    "term_record_id": "reczz28HJJL2GNBK",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "33968bfef9143e7f9be70cb4d68dab82be6e5f890aba4804a95d4dde64460034"
+  },
+  {
+    "source": "atkins-291589",
+    "label": "细如羽毛的分枝",
+    "desktop": [
+      799,
+      128,
+      381,
+      534,
+      -2
+    ],
+    "mobile": [
+      8,
+      731,
+      187,
+      360,
+      -3
+    ],
+    "crop": [
+      80,
+      45,
+      850,
+      910
+    ],
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/atkins-291589-web.jpg",
+    "case_record_id": "reczz28HJJL2Nmc7",
+    "case_title": "英国藻类图集：蓝晒印相",
+    "source_url": "https://www.metmuseum.org/art/collection/search/291589",
+    "term_record_id": "reczz28HJJL2GNBK",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "3119c603cda522a4decddb8c985b0d0d52a765c2c8f9158460900ce3627eb84c"
+  },
+  {
+    "source": "atkins-291559",
+    "label": "两簇小小的标本",
+    "desktop": [
+      20,
+      664,
+      415,
+      414,
+      2
+    ],
+    "mobile": [
+      8,
+      386,
+      164,
+      277,
+      -2
+    ],
+    "crop": [
+      80,
+      45,
+      850,
+      910
+    ],
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/atkins-291559-web.jpg",
+    "case_record_id": "reczz28HJJL2Nmc7",
+    "case_title": "英国藻类图集：蓝晒印相",
+    "source_url": "https://www.metmuseum.org/art/collection/search/291559",
+    "term_record_id": "reczz28HJJL2GNBK",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "34f36fc2bd462ff84f5425f11b0986830ff026fd702dfb077b16521440b32a86"
+  },
+  {
+    "source": "atkins-291555",
+    "label": "感光纸上的一次摆放",
+    "desktop": [
+      438,
+      661,
+      372,
+      417,
+      -2
+    ],
+    "mobile": [
+      211,
+      700,
+      168,
+      391,
+      2
+    ],
+    "crop": [
+      80,
+      45,
+      850,
+      910
+    ],
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/atkins-291555-web.jpg",
+    "case_record_id": "reczz28HJJL2Nmc7",
+    "case_title": "英国藻类图集：蓝晒印相",
+    "source_url": "https://www.metmuseum.org/art/collection/search/291555",
+    "term_record_id": "reczz28HJJL2GNBK",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "22d3bc1bbec83c0671c5bd361e0a307dc58a5ab56fc1327f775715484aaaeaf7"
+  },
+  {
+    "source": "atkins-291638",
+    "label": "卷起的海藻边缘",
+    "desktop": [
+      813,
+      655,
+      368,
+      423,
+      2
+    ],
+    "mobile": [
+      219,
+      398,
+      160,
+      298,
+      2
+    ],
+    "crop": [
+      80,
+      45,
+      850,
+      910
+    ],
+    "mask": null,
+    "shape": null,
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/atkins-291638-web.jpg",
+    "case_record_id": "reczz28HJJL2Nmc7",
+    "case_title": "英国藻类图集：蓝晒印相",
+    "source_url": "https://www.metmuseum.org/art/collection/search/291638",
+    "term_record_id": "reczz28HJJL2GNBK",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "3827a0fb4cbaaecd12ca91e19d65b2c9a0c5f56c27b7bdef5fd9a66bd8322ed8"
+  },
+  {
+    "source": "reczz28HJJL2Nmc7",
+    "label": "像一把扇子展开的海藻",
+    "desktop": [
+      211,
+      355,
+      749,
+      480,
+      -4
+    ],
+    "mobile": [
+      30,
+      427,
+      330,
+      293,
+      -4
+    ],
+    "crop": [
+      80,
+      250,
+      850,
+      460
+    ],
+    "mask": null,
+    "shape": "ellipse",
+    "display": null,
+    "fit": null,
+    "pixelated": false,
+    "original": "assets/originals/56486c4ce7d9614464ea11e7.jpg",
+    "case_record_id": "reczz28HJJL2Nmc7",
+    "case_title": "英国藻类图集：蓝晒印相",
+    "source_url": "https://www.metmuseum.org/art/collection/search/286656",
+    "term_record_id": "reczz28HJJL2GNBK",
+    "caseImage": "/media/56486c4ce7d9614464ea11e7.jpg",
+    "origin": "existing-case",
+    "originalSha256": "2c1204abd088eb7b573e7fc4d1cff3e0e9e7cac24a5b654597fd83a394a6d95e"
+  },
+  {
+    "source": "atkins-291568",
+    "label": "叶片贴在纸面的一瞬",
+    "desktop": [
+      611,
+      365,
+      470,
+      504,
+      5
+    ],
+    "mobile": [
+      155,
+      614,
+      223,
+      330,
+      4
+    ],
+    "crop": [
+      130,
+      180,
+      760,
+      640
+    ],
+    "mask": null,
+    "shape": null,
+    "display": "assets/cutouts/atkins-leaf.png",
+    "fit": "contain",
+    "pixelated": false,
+    "original": "assets/originals/atkins-291568-web.jpg",
+    "case_record_id": "reczz28HJJL2Nmc7",
+    "case_title": "英国藻类图集：蓝晒印相",
+    "source_url": "https://www.metmuseum.org/art/collection/search/291568",
+    "term_record_id": "reczz28HJJL2GNBK",
+    "caseImage": null,
+    "origin": "case-supplement",
+    "originalSha256": "7b083d1df13d69e42d20690e77d895ff18ccae1c4ce609ada32e2a6b7bd961f7"
+  }
+]
