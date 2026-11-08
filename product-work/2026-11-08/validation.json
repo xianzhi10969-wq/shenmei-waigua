@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-08",
+  "schemaValid": true,
+  "samples": 3,
+  "termCoverage": 101,
+  "sourceRecords": 7,
+  "coreSnapshotsUnchanged": true,
+  "referenceIntegrity": true,
+  "sourceSnapshotHashesMatch": true,
+  "limits": [
+    "Program checks structure and references, not artistic quality or truth of interpretations.",
+    "Validator supports only the explicitly used JSON Schema keyword subset.",
+    "Sources were opened for limited claims; no production browser test performed."
+  ]
+}

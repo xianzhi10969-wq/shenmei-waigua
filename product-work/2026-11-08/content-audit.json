@@ -1,0 +1,3569 @@
+{
+  "date": "2026-11-08",
+  "scope": "repository snapshot only; not a live Feishu audit",
+  "sourceRevisions": {
+    "chapters": 118,
+    "terms": 239,
+    "cases": 420,
+    "sections": 38
+  },
+  "sourceFiles": {
+    "catalog.json": {
+      "gitBlob": "df36a1f9eb02894b25c12fee21434b203d947c50",
+      "sha256": "53951b29888b67c24f317e4987ede677cf45a2d8bc51545679f50bc4d28553a9"
+    },
+    "features.json": {
+      "gitBlob": "c7ba7d17c794a7d202238d618fafba4f9dffc5c6",
+      "sha256": "b33b29b843935a80a308ad61c231324ed92b007ffe42f18e066d39ea722c1e06"
+    },
+    "collages.json": {
+      "gitBlob": "9fd8b073de51d3a7c990512d92d224067c7640df",
+      "sha256": "ba645b92afe9a4fc587003f8643f0dee59c138215013cfe8373cf270619664e4"
+    }
+  },
+  "notes": [
+    "rawMedia are original labels, not normalized medium counts",
+    "sourceLinkCount means non-empty link, not verified claim",
+    "newFieldsAbsent describes schema gaps, not absence of good prose",
+    "master collage integration is not visual acceptance"
+  ],
+  "summary": {
+    "chapters": 24,
+    "terms": 101,
+    "publishedTerms": 55,
+    "pendingTerms": 46,
+    "retainedCases": 144,
+    "unlinkedCaseIds": [
+      "reczz28HJJL2Nj4k",
+      "reczz28HJJL2Nj7N",
+      "reczz28HJJL2NjKe",
+      "reczz28HJJL2NjNu",
+      "reczz28HJJL2Nnrp"
+    ],
+    "termsWithCases": 52,
+    "termsWithCore": 55,
+    "termsWithMistake": 54,
+    "termsWithLegacySteps": 54,
+    "collagesInMaster": 21,
+    "caseCountDistribution": {
+      "0": 49,
+      "1": 12,
+      "2": 14,
+      "3": 13,
+      "4": 7,
+      "5": 5,
+      "7": 1
+    },
+    "features": {
+      "feelings": 40,
+      "questions": 9,
+      "imagery": 70,
+      "resources": 60,
+      "feelingRoutes": 12
+    }
+  },
+  "terms": [
+    {
+      "id": "reczz28HJJL2GIls",
+      "name": "梦核",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "诡异"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c3247496c73/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28HJJL2NhNo",
+        "reczz28HJJL2NhUh"
+      ],
+      "caseCount": 2,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "绘画",
+        "音乐"
+      ],
+      "sourceLinkCount": 2,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "可进入编辑样稿候选池"
+    },
+    {
+      "id": "reczz28HJJL2GIv6",
+      "name": "阈限空间",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "诡异"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c3247497636/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28MMHWmQHvs",
+        "reczz28MMHWmPVzZ",
+        "reczz28MMHWmOIBG"
+      ],
+      "caseCount": 3,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "3D 数字艺术",
+        "交互式空间装置",
+        "纺织雕塑／空间装置"
+      ],
+      "sourceLinkCount": 3,
+      "imageCaseCount": 3,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "可进入编辑样稿候选池"
+    },
+    {
+      "id": "reczz28HJJL2GJ14",
+      "name": "诡异人偶",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "诡异"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474a3134/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28HJJL2Nhnq"
+      ],
+      "caseCount": 1,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "摄影"
+      ],
+      "sourceLinkCount": 1,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "先核验作品与补足解释"
+    },
+    {
+      "id": "reczz28HJJL2GJ6i",
+      "name": "模拟恐怖",
+      "state": [
+        "更新中"
+      ],
+      "chapters": [
+        "诡异"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474a3669/",
+      "corePresent": false,
+      "bodyPresent": false,
+      "mistakePresent": false,
+      "legacyStepsCount": 0,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "保留更新中，不补造新字段"
+    },
+    {
+      "id": "reczz28HJJL2GJBv",
+      "name": "甜亚系",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "可爱"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474a4276/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28HJJL2Nhya"
+      ],
+      "caseCount": 1,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "摄影"
+      ],
+      "sourceLinkCount": 1,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "先核验作品与补足解释"
+    },
+    {
+      "id": "reczz28HJJL2GJHl",
+      "name": "Coquette",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "可爱"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474a486c/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28LbKsn2qIJ",
+        "reczz28LbOuik2sX",
+        "reczz28LbOuiiLaq"
+      ],
+      "caseCount": 3,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "摄影",
+        "设计"
+      ],
+      "sourceLinkCount": 3,
+      "imageCaseCount": 3,
+      "collageInMaster": true,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "可进入编辑样稿候选池"
+    },
+    {
+      "id": "reczz28HJJL2GJND",
+      "name": "Girlhood",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "物哀"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474a4e44/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28HJJL2Ni9W"
+      ],
+      "caseCount": 1,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "绘画"
+      ],
+      "sourceLinkCount": 1,
+      "imageCaseCount": 1,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "先核验作品与补足解释"
+    },
+    {
+      "id": "reczz28HJJL2GJS1",
+      "name": "Softcore",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "可爱",
+        "幽玄"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474a5331/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28LdxvOCeQE",
+        "reczz28LdxvOCkfm",
+        "reczz28LdxvOBVuz",
+        "reczz28LdxvOA0sF",
+        "reczz28LdxvOAEal",
+        "reczz28HJJL2NiHW",
+        "reczz28HJJL2NiMp"
+      ],
+      "caseCount": 7,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "互动机械装置",
+        "动态灯光装置",
+        "家具设计",
+        "摄影",
+        "毛毡装置",
+        "电影",
+        "纺织装置"
+      ],
+      "sourceLinkCount": 7,
+      "imageCaseCount": 6,
+      "collageInMaster": true,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "可进入编辑样稿候选池"
+    },
+    {
+      "id": "reczz28HJJL2GJXK",
+      "name": "复古",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "乡愁"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474a584b/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28HJJL2NiS4",
+        "reczz28HJJL2NiVX"
+      ],
+      "caseCount": 2,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "电影",
+        "设计"
+      ],
+      "sourceLinkCount": 2,
+      "imageCaseCount": 1,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "可进入编辑样稿候选池"
+    },
+    {
+      "id": "reczz28HJJL2GJcS",
+      "name": "旧互联网 Old Web",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "乡愁"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474a6353/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "先核验作品与补足解释"
+    },
+    {
+      "id": "reczz28HJJL2GJht",
+      "name": "日杂",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "乡愁"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474a6874/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28MRgdMRhwp",
+        "reczz28MRgdMRxNT",
+        "reczz28MRgdMRZAU",
+        "reczz28MRgdMS2Dv"
+      ],
+      "caseCount": 4,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "室内摄影／平面设计",
+        "时尚摄影／编辑设计",
+        "时尚杂志／物件图鉴／编辑设计",
+        "独立杂志／Risograph 印刷／装帧设计"
+      ],
+      "sourceLinkCount": 4,
+      "imageCaseCount": 4,
+      "collageInMaster": true,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "可进入编辑样稿候选池"
+    },
+    {
+      "id": "reczz28HJJL2GJns",
+      "name": "画报风",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "乡愁"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474a6e73/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28HJJL2NioP",
+        "reczz28HJJL2NiuF"
+      ],
+      "caseCount": 2,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "摄影",
+        "设计"
+      ],
+      "sourceLinkCount": 2,
+      "imageCaseCount": 2,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "可进入编辑样稿候选池"
+    },
+    {
+      "id": "reczz28HJJL2GJt7",
+      "name": "复古摇滚",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "乡愁"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474a7437/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28MRgiLqd42",
+        "reczz28MRgiLrWjE",
+        "reczz28MRgiLopRy",
+        "reczz28MRgiLoC9N"
+      ],
+      "caseCount": 4,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "商业空间／橱窗艺术／复古服装设计",
+        "舞台服装",
+        "银质戒指",
+        "银质首饰"
+      ],
+      "sourceLinkCount": 4,
+      "imageCaseCount": 4,
+      "collageInMaster": true,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "可进入编辑样稿候选池"
+    },
+    {
+      "id": "reczz28HJJL2GK3M",
+      "name": "低能量",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "忧郁"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474b334d/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28HJJL2NjFM",
+        "reczz28HJJL2NjCi",
+        "reczz28HJJL2NjI0"
+      ],
+      "caseCount": 3,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "文学",
+        "时尚",
+        "绘画"
+      ],
+      "sourceLinkCount": 3,
+      "imageCaseCount": 3,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "可进入编辑样稿候选池"
+    },
+    {
+      "id": "reczz28HJJL2GKfk",
+      "name": "心动",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "爱欲"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474b666b/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28HJJL2NjUl",
+        "reczz28HJJL2NjYY"
+      ],
+      "caseCount": 2,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "电影",
+        "诗"
+      ],
+      "sourceLinkCount": 2,
+      "imageCaseCount": 1,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "可进入编辑样稿候选池"
+    },
+    {
+      "id": "reczz28HJJL2GKkE",
+      "name": "暧昧",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "爱欲"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474b6b45/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28LdCQK71j7",
+        "reczz28LdCQK8mJ5",
+        "reczz28LdCQK9D4c",
+        "reczz28HJJL2NjeY",
+        "reczz28HJJL2Nji8"
+      ],
+      "caseCount": 5,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "互动影像装置",
+        "六联摄影",
+        "影像装置",
+        "电影",
+        "绘画"
+      ],
+      "sourceLinkCount": 5,
+      "imageCaseCount": 4,
+      "collageInMaster": true,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "可进入编辑样稿候选池"
+    },
+    {
+      "id": "reczz28HJJL2GKpL",
+      "name": "拉扯感",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "爱欲"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474b704c/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28HJJL2Njof",
+        "reczz28HJJL2NjvZ"
+      ],
+      "caseCount": 2,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "文学",
+        "绘画"
+      ],
+      "sourceLinkCount": 2,
+      "imageCaseCount": 2,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "可进入编辑样稿候选池"
+    },
+    {
+      "id": "reczz28HJJL2GL2L",
+      "name": "情欲张力",
+      "state": [
+        "更新中"
+      ],
+      "chapters": [
+        "爱欲"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474c324c/",
+      "corePresent": false,
+      "bodyPresent": false,
+      "mistakePresent": false,
+      "legacyStepsCount": 0,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "保留更新中，不补造新字段"
+    },
+    {
+      "id": "reczz28HJJL2GLCP",
+      "name": "治愈",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "田园"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474c4350/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28HJJL2NjzO"
+      ],
+      "caseCount": 1,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "绘画"
+      ],
+      "sourceLinkCount": 1,
+      "imageCaseCount": 1,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "先核验作品与补足解释"
+    },
+    {
+      "id": "reczz28HJJL2GLFs",
+      "name": "Cottagecore",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "田园"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474c4673/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28HJJL2NkAi",
+        "reczz28HJJL2NkDM"
+      ],
+      "caseCount": 2,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "插画",
+        "游戏"
+      ],
+      "sourceLinkCount": 2,
+      "imageCaseCount": 1,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "可进入编辑样稿候选池"
+    },
+    {
+      "id": "reczz28HJJL2GLJb",
+      "name": "盛夏",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "田园"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474c4a62/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28MLgJaxrYR",
+        "reczz28MLgJayHOi",
+        "reczz28MLgJb05P4",
+        "reczz28MLgJb1lI7",
+        "reczz28MLgJb1FHM"
+      ],
+      "caseCount": 5,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "临时建筑",
+        "大地艺术／公共装置",
+        "实验摄影／身体艺术",
+        "户外家具／设计系列",
+        "摄影"
+      ],
+      "sourceLinkCount": 5,
+      "imageCaseCount": 5,
+      "collageInMaster": true,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "可进入编辑样稿候选池"
+    },
+    {
+      "id": "reczz28HJJL2GLVe",
+      "name": "生命力",
+      "state": [
+        "更新中"
+      ],
+      "chapters": [
+        "田园"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474c5665/",
+      "corePresent": false,
+      "bodyPresent": false,
+      "mistakePresent": false,
+      "legacyStepsCount": 0,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "保留更新中，不补造新字段"
+    },
+    {
+      "id": "reczz28HJJL2GLZ0",
+      "name": "清冷",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "幽玄"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474c5a30/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28MnyD4e5ab",
+        "reczz28MnyD4cUTQ"
+      ],
+      "caseCount": 2,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "动态装置",
+        "黑白风景摄影"
+      ],
+      "sourceLinkCount": 2,
+      "imageCaseCount": 2,
+      "collageInMaster": true,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "可进入编辑样稿候选池"
+    },
+    {
+      "id": "reczz28HJJL2GLgi",
+      "name": "朦胧",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "幽玄"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474c6769/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28HJJL2Nker",
+        "reczz28HJJL2NkhS",
+        "reczz28HJJL2NkkB"
+      ],
+      "caseCount": 3,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "建筑",
+        "绘画",
+        "诗"
+      ],
+      "sourceLinkCount": 3,
+      "imageCaseCount": 1,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "可进入编辑样稿候选池"
+    },
+    {
+      "id": "reczz28HJJL2GLjP",
+      "name": "空灵",
+      "state": [
+        "更新中"
+      ],
+      "chapters": [
+        "幽玄"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474c6a50/",
+      "corePresent": false,
+      "bodyPresent": false,
+      "mistakePresent": false,
+      "legacyStepsCount": 0,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "保留更新中，不补造新字段"
+    },
+    {
+      "id": "reczz28HJJL2GLnG",
+      "name": "梦境",
+      "state": [
+        "更新中"
+      ],
+      "chapters": [
+        "幽玄"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474c6e47/",
+      "corePresent": false,
+      "bodyPresent": false,
+      "mistakePresent": false,
+      "legacyStepsCount": 0,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "保留更新中，不补造新字段"
+    },
+    {
+      "id": "reczz28HJJL2GLvJ",
+      "name": "多巴胺",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "酒神"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474c764a/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28MR6LJ5rW7",
+        "reczz28MR6LJ60Ar",
+        "reczz28HJJL2NkpP"
+      ],
+      "caseCount": 3,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "烟火／行为表演／环境艺术",
+        "空间装置／色彩艺术",
+        "设计"
+      ],
+      "sourceLinkCount": 3,
+      "imageCaseCount": 3,
+      "collageInMaster": true,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "可进入编辑样稿候选池"
+    },
+    {
+      "id": "reczz28HJJL2GLxu",
+      "name": "热烈",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "酒神"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474c7875/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28Ldd1wDeSA",
+        "reczz28Ldd1wD1KQ",
+        "reczz28HJJL2Nkuf"
+      ],
+      "caseCount": 3,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "互动灯光装置",
+        "参与式装置",
+        "绘画"
+      ],
+      "sourceLinkCount": 3,
+      "imageCaseCount": 3,
+      "collageInMaster": true,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "可进入编辑样稿候选池"
+    },
+    {
+      "id": "reczz28HJJL2GM5u",
+      "name": "涂鸦",
+      "state": [
+        "更新中"
+      ],
+      "chapters": [],
+      "url": "/terms/7265637a7a3238484a4a4c32474d3575/",
+      "corePresent": false,
+      "bodyPresent": false,
+      "mistakePresent": false,
+      "legacyStepsCount": 0,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "保留更新中，不补造新字段"
+    },
+    {
+      "id": "reczz28HJJL2GM8Z",
+      "name": "盐系",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "留白"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474d385a/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28HJJL2Nl2e",
+        "reczz28HJJL2Nl5H",
+        "reczz28HJJL2Nl7r"
+      ],
+      "caseCount": 3,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "摄影",
+        "绘画",
+        "设计"
+      ],
+      "sourceLinkCount": 3,
+      "imageCaseCount": 1,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "可进入编辑样稿候选池"
+    },
+    {
+      "id": "reczz28HJJL2GMBA",
+      "name": "禅意",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "留白"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474d4241/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28Ldc0bKQuv",
+        "reczz28Ldc0bJUeQ",
+        "reczz28Ldc0bMeA5",
+        "reczz28HJJL2NlAY",
+        "reczz28HJJL2NlFs"
+      ],
+      "caseCount": 5,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "建筑",
+        "时装秀场装置",
+        "现场装置",
+        "盐装置",
+        "绘画"
+      ],
+      "sourceLinkCount": 5,
+      "imageCaseCount": 5,
+      "collageInMaster": true,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "可进入编辑样稿候选池"
+    },
+    {
+      "id": "reczz28HJJL2GMEM",
+      "name": "等待",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "留白"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474d454d/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28HJJL2NlIZ",
+        "reczz28HJJL2NlLE",
+        "reczz28HJJL2NlOg"
+      ],
+      "caseCount": 3,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "戏剧",
+        "绘画",
+        "诗"
+      ],
+      "sourceLinkCount": 3,
+      "imageCaseCount": 1,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "可进入编辑样稿候选池"
+    },
+    {
+      "id": "reczz28HJJL2GMGx",
+      "name": "宁静",
+      "state": [
+        "更新中"
+      ],
+      "chapters": [
+        "留白"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474d4778/",
+      "corePresent": false,
+      "bodyPresent": false,
+      "mistakePresent": false,
+      "legacyStepsCount": 0,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "保留更新中，不补造新字段"
+    },
+    {
+      "id": "reczz28HJJL2GMJz",
+      "name": "含蓄",
+      "state": [
+        "更新中"
+      ],
+      "chapters": [
+        "留白"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474d4a7a/",
+      "corePresent": false,
+      "bodyPresent": false,
+      "mistakePresent": false,
+      "legacyStepsCount": 0,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "保留更新中，不补造新字段"
+    },
+    {
+      "id": "reczz28HJJL2GMMk",
+      "name": "Normcore",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "平淡"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474d4d6b/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28HJJL2NlRN",
+        "reczz28HJJL2NlWe"
+      ],
+      "caseCount": 2,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "文学",
+        "绘画"
+      ],
+      "sourceLinkCount": 2,
+      "imageCaseCount": 2,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "可进入编辑样稿候选池"
+    },
+    {
+      "id": "reczz28HJJL2GMPN",
+      "name": "细水长流",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "平淡"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474d504e/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28HJJL2NlZe",
+        "reczz28HJJL2Nlew"
+      ],
+      "caseCount": 2,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "摄影",
+        "文学"
+      ],
+      "sourceLinkCount": 2,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "可进入编辑样稿候选池"
+    },
+    {
+      "id": "reczz28HJJL2GMRw",
+      "name": "极简",
+      "state": [
+        "更新中"
+      ],
+      "chapters": [
+        "平淡"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474d5277/",
+      "corePresent": false,
+      "bodyPresent": false,
+      "mistakePresent": false,
+      "legacyStepsCount": 0,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "保留更新中，不补造新字段"
+    },
+    {
+      "id": "reczz28HJJL2GMUe",
+      "name": "淡极生艳",
+      "state": [
+        "更新中"
+      ],
+      "chapters": [
+        "平淡"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474d5565/",
+      "corePresent": false,
+      "bodyPresent": false,
+      "mistakePresent": false,
+      "legacyStepsCount": 0,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "保留更新中，不补造新字段"
+    },
+    {
+      "id": "reczz28HJJL2GMXK",
+      "name": "白月光",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "物哀"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474d584b/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28HJJL2NlkE"
+      ],
+      "caseCount": 1,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "文学"
+      ],
+      "sourceLinkCount": 1,
+      "imageCaseCount": 1,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "先核验作品与补足解释"
+    },
+    {
+      "id": "reczz28HJJL2GMZz",
+      "name": "意难平",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "物哀"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474d5a7a/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28HJJL2NlpW",
+        "reczz28HJJL2NlsB",
+        "reczz28HJJL2Nluq"
+      ],
+      "caseCount": 3,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "游戏",
+        "电影",
+        "诗"
+      ],
+      "sourceLinkCount": 3,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "可进入编辑样稿候选池"
+    },
+    {
+      "id": "reczz28HJJL2GMcc",
+      "name": "青涩",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "物哀"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474d6363/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28LeedcHSnq",
+        "reczz28LeedcIqM7"
+      ],
+      "caseCount": 2,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "胶片摄影"
+      ],
+      "sourceLinkCount": 2,
+      "imageCaseCount": 2,
+      "collageInMaster": true,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "可进入编辑样稿候选池"
+    },
+    {
+      "id": "reczz28HJJL2GMfJ",
+      "name": "告别",
+      "state": [
+        "更新中"
+      ],
+      "chapters": [
+        "物哀"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474d664a/",
+      "corePresent": false,
+      "bodyPresent": false,
+      "mistakePresent": false,
+      "legacyStepsCount": 0,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "保留更新中，不补造新字段"
+    },
+    {
+      "id": "reczz28HJJL2GMrB",
+      "name": "沉浸式独处",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "日常"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474d7242/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28HJJL2Nm8E",
+        "reczz28HJJL2NmAu"
+      ],
+      "caseCount": 2,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "文学",
+        "游戏"
+      ],
+      "sourceLinkCount": 2,
+      "imageCaseCount": 1,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "可进入编辑样稿候选池"
+    },
+    {
+      "id": "reczz28HJJL2GMxt",
+      "name": "烟火味",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "日常"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474d7874/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28LeF2soAIy",
+        "reczz28LeF2snCvV",
+        "reczz28LeF2skMR8",
+        "reczz28LeF2slBKE"
+      ],
+      "caseCount": 4,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "大型装置",
+        "水彩插画",
+        "现成物装置",
+        "街头摄影"
+      ],
+      "sourceLinkCount": 4,
+      "imageCaseCount": 4,
+      "collageInMaster": true,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "可进入编辑样稿候选池"
+    },
+    {
+      "id": "reczz28HJJL2GN4c",
+      "name": "生活切片",
+      "state": [
+        "更新中"
+      ],
+      "chapters": [
+        "日常"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474e3463/",
+      "corePresent": false,
+      "bodyPresent": false,
+      "mistakePresent": false,
+      "legacyStepsCount": 0,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "保留更新中，不补造新字段"
+    },
+    {
+      "id": "reczz28HJJL2GN7q",
+      "name": "破碎感",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "侘寂"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474e3771/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28MSjtzerH5",
+        "reczz28MSjtzdloz",
+        "reczz28MSjtzdNy0",
+        "reczz28MSjtzcGfC",
+        "reczz28MSjtzdW6a"
+      ],
+      "caseCount": 5,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "实验小说／文学",
+        "实验摄影／明胶银盐",
+        "小说／文学",
+        "戏剧／文学",
+        "行为艺术／摄影／文本／影像装置"
+      ],
+      "sourceLinkCount": 5,
+      "imageCaseCount": 5,
+      "collageInMaster": true,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "可进入编辑样稿候选池"
+    },
+    {
+      "id": "reczz28HJJL2GNBK",
+      "name": "拓印",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [],
+      "url": "/terms/7265637a7a3238484a4a4c32474e424b/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28HJJL2Nmc7"
+      ],
+      "caseCount": 1,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "摄影"
+      ],
+      "sourceLinkCount": 1,
+      "imageCaseCount": 1,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "先核验作品与补足解释"
+    },
+    {
+      "id": "reczz28HJJL2GNFA",
+      "name": "质朴",
+      "state": [
+        "更新中"
+      ],
+      "chapters": [
+        "侘寂"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474e4641/",
+      "corePresent": false,
+      "bodyPresent": false,
+      "mistakePresent": false,
+      "legacyStepsCount": 0,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "保留更新中，不补造新字段"
+    },
+    {
+      "id": "reczz28HJJL2GNHq",
+      "name": "Riso 印刷",
+      "state": [
+        "更新中"
+      ],
+      "chapters": [],
+      "url": "/terms/7265637a7a3238484a4a4c32474e4871/",
+      "corePresent": false,
+      "bodyPresent": false,
+      "mistakePresent": false,
+      "legacyStepsCount": 0,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "保留更新中，不补造新字段"
+    },
+    {
+      "id": "reczz28HJJL2GNOa",
+      "name": "新中式",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "气韵"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474e4f61/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28MjE1CQqVq",
+        "reczz28MjE1CSNUN",
+        "reczz28MjE1CR2rA",
+        "reczz28MjE1CRfHX"
+      ],
+      "caseCount": 4,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "家具设计、不锈钢雕塑",
+        "建筑、空间设计",
+        "成衣时装",
+        "艺术书、实验装帧"
+      ],
+      "sourceLinkCount": 4,
+      "imageCaseCount": 4,
+      "collageInMaster": true,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "可进入编辑样稿候选池"
+    },
+    {
+      "id": "reczz28HJJL2GNSP",
+      "name": "水墨",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "气韵"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474e5350/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28LcucHlC54",
+        "reczz28LcucHiz5V",
+        "reczz28LcucHkDng"
+      ],
+      "caseCount": 3,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "三屏动画影像",
+        "数字摄影",
+        "装置（灯箱/光影）"
+      ],
+      "sourceLinkCount": 3,
+      "imageCaseCount": 3,
+      "collageInMaster": true,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "可进入编辑样稿候选池"
+    },
+    {
+      "id": "reczz28HJJL2GNcx",
+      "name": "武侠",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "侠"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474e6378/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28MmyiIADor",
+        "reczz28MmyiIBfka",
+        "reczz28MmyiIBtuF",
+        "reczz28MmyiICLBe"
+      ],
+      "caseCount": 4,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "时装设计",
+        "电影",
+        "算法动画、五通道影像装置",
+        "黑白实验电影、摄影"
+      ],
+      "sourceLinkCount": 4,
+      "imageCaseCount": 4,
+      "collageInMaster": true,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "可进入编辑样稿候选池"
+    },
+    {
+      "id": "reczz28HJJL2GNfa",
+      "name": "魏晋风",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "侠"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474e6661/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "先核验作品与补足解释"
+    },
+    {
+      "id": "reczz28HJJL2GNiE",
+      "name": "仙侠",
+      "state": [
+        "更新中"
+      ],
+      "chapters": [
+        "侠"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474e6945/",
+      "corePresent": false,
+      "bodyPresent": false,
+      "mistakePresent": false,
+      "legacyStepsCount": 0,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "保留更新中，不补造新字段"
+    },
+    {
+      "id": "reczz28HJJL2GNnU",
+      "name": "轻盈",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "轻逸"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474e6e55/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28HJJL2NnWm"
+      ],
+      "caseCount": 1,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "舞蹈"
+      ],
+      "sourceLinkCount": 1,
+      "imageCaseCount": 1,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "先核验作品与补足解释"
+    },
+    {
+      "id": "reczz28HJJL2GNqc",
+      "name": "清透",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "轻逸"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474e7163/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28LeeYH4bwm",
+        "reczz28LeeYH62Cx",
+        "reczz28LeeYH59r1",
+        "reczz28LeeYH6DgG"
+      ],
+      "caseCount": 4,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "产品设计",
+        "家具",
+        "摄影",
+        "铸造玻璃"
+      ],
+      "sourceLinkCount": 4,
+      "imageCaseCount": 4,
+      "collageInMaster": true,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "可进入编辑样稿候选池"
+    },
+    {
+      "id": "reczz28HJJL2GNwD",
+      "name": "流动",
+      "state": [
+        "更新中"
+      ],
+      "chapters": [
+        "轻逸"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474e7744/",
+      "corePresent": false,
+      "bodyPresent": false,
+      "mistakePresent": false,
+      "legacyStepsCount": 0,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "保留更新中，不补造新字段"
+    },
+    {
+      "id": "reczz28HJJL2GOA8",
+      "name": "松弛感",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "从容"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474f4138/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28HJJL2NoGj"
+      ],
+      "caseCount": 1,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "诗"
+      ],
+      "sourceLinkCount": 1,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "先核验作品与补足解释"
+    },
+    {
+      "id": "reczz28HJJL2GOCn",
+      "name": "法式不经意",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "从容"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474f436e/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28HJJL2NoJM",
+        "reczz28HJJL2NoLz"
+      ],
+      "caseCount": 2,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "摄影",
+        "绘画"
+      ],
+      "sourceLinkCount": 2,
+      "imageCaseCount": 1,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "可进入编辑样稿候选池"
+    },
+    {
+      "id": "reczz28HJJL2GOKi",
+      "name": "反差",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [],
+      "url": "/terms/7265637a7a3238484a4a4c32474f4b69/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28HJJL2NoRe"
+      ],
+      "caseCount": 1,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "绘画"
+      ],
+      "sourceLinkCount": 1,
+      "imageCaseCount": 1,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "先核验作品与补足解释"
+    },
+    {
+      "id": "reczz28HJJL2GONM",
+      "name": "嚣张",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "酷"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474f4e4d/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28HJJL2Nobp"
+      ],
+      "caseCount": 1,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "绘画"
+      ],
+      "sourceLinkCount": 1,
+      "imageCaseCount": 1,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "先核验作品与补足解释"
+    },
+    {
+      "id": "reczz28HJJL2GOVG",
+      "name": "反诗意",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "怪诞"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474f5647/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28HJJL2Nojl",
+        "reczz28HJJL2NomO",
+        "reczz28HJJL2Nop1"
+      ],
+      "caseCount": 3,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "摄影",
+        "绘画",
+        "诗"
+      ],
+      "sourceLinkCount": 3,
+      "imageCaseCount": 1,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "可进入编辑样稿候选池"
+    },
+    {
+      "id": "reczz28HJJL2GOdG",
+      "name": "粗粝",
+      "state": [
+        "更新中"
+      ],
+      "chapters": [],
+      "url": "/terms/7265637a7a3238484a4a4c32474f6447/",
+      "corePresent": false,
+      "bodyPresent": false,
+      "mistakePresent": false,
+      "legacyStepsCount": 0,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "保留更新中，不补造新字段"
+    },
+    {
+      "id": "reczz28HJJL2GOfq",
+      "name": "暗黑",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "阴翳"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474f6671/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28HJJL2Nozt",
+        "reczz28HJJL2Np2q",
+        "reczz28HJJL2Np5S"
+      ],
+      "caseCount": 3,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "建筑",
+        "时尚摄影",
+        "绘画"
+      ],
+      "sourceLinkCount": 3,
+      "imageCaseCount": 2,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "可进入编辑样稿候选池"
+    },
+    {
+      "id": "reczz28HJJL2GOiU",
+      "name": "昏黄",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "阴翳"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474f6955/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28HJJL2NpAn"
+      ],
+      "caseCount": 1,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "绘画"
+      ],
+      "sourceLinkCount": 1,
+      "imageCaseCount": 1,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "先核验作品与补足解释"
+    },
+    {
+      "id": "reczz28HJJL2GOr1",
+      "name": "阴湿",
+      "state": [
+        "更新中"
+      ],
+      "chapters": [
+        "阴翳"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474f7231/",
+      "corePresent": false,
+      "bodyPresent": false,
+      "mistakePresent": false,
+      "legacyStepsCount": 0,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "保留更新中，不补造新字段"
+    },
+    {
+      "id": "reczz28HJJL2GOtf",
+      "name": "宿命感",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "悲剧"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474f7466/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28MpmQFmKwG",
+        "reczz28MpmQFo3uh"
+      ],
+      "caseCount": 2,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "实验短片／黑白摄影叙事",
+        "电影"
+      ],
+      "sourceLinkCount": 2,
+      "imageCaseCount": 2,
+      "collageInMaster": true,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "可进入编辑样稿候选池"
+    },
+    {
+      "id": "reczz28HJJL2GOwt",
+      "name": "刀子",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "悲剧"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474f7774/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28HJJL2NpNz"
+      ],
+      "caseCount": 1,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "绘画"
+      ],
+      "sourceLinkCount": 1,
+      "imageCaseCount": 1,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "先核验作品与补足解释"
+    },
+    {
+      "id": "reczz28HJJL2GOzV",
+      "name": "悲壮感",
+      "state": [
+        "更新中"
+      ],
+      "chapters": [
+        "悲剧"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c32474f7a56/",
+      "corePresent": false,
+      "bodyPresent": false,
+      "mistakePresent": false,
+      "legacyStepsCount": 0,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "保留更新中，不补造新字段"
+    },
+    {
+      "id": "reczz28HJJL2GP2A",
+      "name": "决绝",
+      "state": [
+        "更新中"
+      ],
+      "chapters": [
+        "悲剧"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c3247503241/",
+      "corePresent": false,
+      "bodyPresent": false,
+      "mistakePresent": false,
+      "legacyStepsCount": 0,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "保留更新中，不补造新字段"
+    },
+    {
+      "id": "reczz28HJJL2GP4n",
+      "name": "废土",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "废墟"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c324750346e/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28MoBSnxpUl",
+        "reczz28MoBSnzMZH",
+        "reczz28MoBSnwnPa"
+      ],
+      "caseCount": 3,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "数字绘画／插画小说",
+        "电子游戏",
+        "观念摄影"
+      ],
+      "sourceLinkCount": 3,
+      "imageCaseCount": 3,
+      "collageInMaster": true,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "可进入编辑样稿候选池"
+    },
+    {
+      "id": "reczz28HJJL2GP7R",
+      "name": "末世",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "废墟"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c3247503752/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28Miu2sh6u5",
+        "reczz28Miu2sf9uj",
+        "reczz28Miu2sgZLu",
+        "reczz28Miu2sf2sd"
+      ],
+      "caseCount": 4,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "多屏影像、数字拼贴、雕塑",
+        "巨幅叙事挂毯",
+        "微缩模型、摄影",
+        "细密画（金、银颜料与甲虫鞘翅装饰）"
+      ],
+      "sourceLinkCount": 4,
+      "imageCaseCount": 4,
+      "collageInMaster": true,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "可进入编辑样稿候选池"
+    },
+    {
+      "id": "reczz28HJJL2GPCk",
+      "name": "波普",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "酒神"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c324750436b/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "先核验作品与补足解释"
+    },
+    {
+      "id": "reczz28HJJL2GPFN",
+      "name": "赛博朋克",
+      "state": [
+        "更新中"
+      ],
+      "chapters": [
+        "未来想象"
+      ],
+      "url": "/terms/7265637a7a3238484a4a4c324750464e/",
+      "corePresent": false,
+      "bodyPresent": false,
+      "mistakePresent": false,
+      "legacyStepsCount": 0,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "保留更新中，不补造新字段"
+    },
+    {
+      "id": "reczz28MKp7HdDiG",
+      "name": "颓废美学",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "忧郁"
+      ],
+      "url": "/terms/7265637a7a32384d4b70374864446947/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": false,
+      "legacyStepsCount": 0,
+      "caseIds": [
+        "reczz28MnyHcRK5r",
+        "reczz28MnyHcRaTA",
+        "reczz28MnyHcQMQu",
+        "reczz28MnyHcRudP",
+        "reczz28MnyHcQLe7"
+      ],
+      "caseCount": 5,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "珠宝、珐琅、黄金与宝石",
+        "石版画（Noirs）",
+        "高级定制、妆造、秀场表演",
+        "黑白插画",
+        "黑白插画、书籍设计"
+      ],
+      "sourceLinkCount": 5,
+      "imageCaseCount": 5,
+      "collageInMaster": true,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "可进入编辑样稿候选池"
+    },
+    {
+      "id": "reczz28MKp7HdIot",
+      "name": "坎普",
+      "state": [
+        "更新中"
+      ],
+      "chapters": [
+        "酒神"
+      ],
+      "url": "/terms/7265637a7a32384d4b70374864496f74/",
+      "corePresent": false,
+      "bodyPresent": true,
+      "mistakePresent": false,
+      "legacyStepsCount": 0,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "保留更新中，不补造新字段"
+    },
+    {
+      "id": "reczz28MKp7HfUmt",
+      "name": "酸性视觉",
+      "state": [
+        "更新中"
+      ],
+      "chapters": [
+        "酒神"
+      ],
+      "url": "/terms/7265637a7a32384d4b70374866556d74/",
+      "corePresent": false,
+      "bodyPresent": true,
+      "mistakePresent": false,
+      "legacyStepsCount": 0,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "保留更新中，不补造新字段"
+    },
+    {
+      "id": "reczz28MKp7HfSC1",
+      "name": "孟菲斯",
+      "state": [
+        "更新中"
+      ],
+      "chapters": [
+        "酒神"
+      ],
+      "url": "/terms/7265637a7a32384d4b70374866534331/",
+      "corePresent": false,
+      "bodyPresent": true,
+      "mistakePresent": false,
+      "legacyStepsCount": 0,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "保留更新中，不补造新字段"
+    },
+    {
+      "id": "reczz28MKp7HfeNy",
+      "name": "宋韵",
+      "state": [
+        "更新中"
+      ],
+      "chapters": [
+        "气韵"
+      ],
+      "url": "/terms/7265637a7a32384d4b70374866654e79/",
+      "corePresent": false,
+      "bodyPresent": true,
+      "mistakePresent": false,
+      "legacyStepsCount": 0,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "保留更新中，不补造新字段"
+    },
+    {
+      "id": "reczz28MKp7HeRsf",
+      "name": "史诗感",
+      "state": [
+        "更新中"
+      ],
+      "chapters": [
+        "崇高"
+      ],
+      "url": "/terms/7265637a7a32384d4b70374865527366/",
+      "corePresent": false,
+      "bodyPresent": true,
+      "mistakePresent": false,
+      "legacyStepsCount": 0,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "保留更新中，不补造新字段"
+    },
+    {
+      "id": "reczz28MKp7HcZiE",
+      "name": "巨物感",
+      "state": [
+        "更新中"
+      ],
+      "chapters": [
+        "崇高"
+      ],
+      "url": "/terms/7265637a7a32384d4b703748635a6945/",
+      "corePresent": false,
+      "bodyPresent": true,
+      "mistakePresent": false,
+      "legacyStepsCount": 0,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "保留更新中，不补造新字段"
+    },
+    {
+      "id": "reczz28MKp7HdgPi",
+      "name": "朋克",
+      "state": [
+        "更新中"
+      ],
+      "chapters": [
+        "酷"
+      ],
+      "url": "/terms/7265637a7a32384d4b70374864675069/",
+      "corePresent": false,
+      "bodyPresent": true,
+      "mistakePresent": false,
+      "legacyStepsCount": 0,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "保留更新中，不补造新字段"
+    },
+    {
+      "id": "reczz28MKp7HeJf0",
+      "name": "机能风",
+      "state": [
+        "更新中"
+      ],
+      "chapters": [
+        "酷"
+      ],
+      "url": "/terms/7265637a7a32384d4b703748654a6630/",
+      "corePresent": false,
+      "bodyPresent": true,
+      "mistakePresent": false,
+      "legacyStepsCount": 0,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "保留更新中，不补造新字段"
+    },
+    {
+      "id": "reczz28MKp7HcT4e",
+      "name": "Grunge",
+      "state": [
+        "更新中"
+      ],
+      "chapters": [
+        "酷"
+      ],
+      "url": "/terms/7265637a7a32384d4b70374863543465/",
+      "corePresent": false,
+      "bodyPresent": true,
+      "mistakePresent": false,
+      "legacyStepsCount": 0,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "保留更新中，不补造新字段"
+    },
+    {
+      "id": "reczz28MKp7Hf5dr",
+      "name": "身体恐怖",
+      "state": [
+        "更新中"
+      ],
+      "chapters": [
+        "怪诞"
+      ],
+      "url": "/terms/7265637a7a32384d4b70374866356472/",
+      "corePresent": false,
+      "bodyPresent": true,
+      "mistakePresent": false,
+      "legacyStepsCount": 0,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "保留更新中，不补造新字段"
+    },
+    {
+      "id": "reczz28MKp7HdhY9",
+      "name": "波普超现实主义",
+      "state": [
+        "更新中"
+      ],
+      "chapters": [
+        "怪诞"
+      ],
+      "url": "/terms/7265637a7a32384d4b70374864685939/",
+      "corePresent": false,
+      "bodyPresent": true,
+      "mistakePresent": false,
+      "legacyStepsCount": 0,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "保留更新中，不补造新字段"
+    },
+    {
+      "id": "reczz28MKp7Hg1Xg",
+      "name": "哥特",
+      "state": [
+        "更新中"
+      ],
+      "chapters": [
+        "阴翳"
+      ],
+      "url": "/terms/7265637a7a32384d4b70374867315867/",
+      "corePresent": false,
+      "bodyPresent": true,
+      "mistakePresent": false,
+      "legacyStepsCount": 0,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "保留更新中，不补造新字段"
+    },
+    {
+      "id": "reczz28MKp7HcBBm",
+      "name": "黑色电影",
+      "state": [
+        "更新中"
+      ],
+      "chapters": [
+        "阴翳"
+      ],
+      "url": "/terms/7265637a7a32384d4b7037486342426d/",
+      "corePresent": false,
+      "bodyPresent": true,
+      "mistakePresent": false,
+      "legacyStepsCount": 0,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "保留更新中，不补造新字段"
+    },
+    {
+      "id": "reczz28MKp7HfXiT",
+      "name": "科幻视觉",
+      "state": [
+        "更新中"
+      ],
+      "chapters": [
+        "未来想象"
+      ],
+      "url": "/terms/7265637a7a32384d4b70374866586954/",
+      "corePresent": false,
+      "bodyPresent": true,
+      "mistakePresent": false,
+      "legacyStepsCount": 0,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "保留更新中，不补造新字段"
+    },
+    {
+      "id": "reczz28MKp7HdNoP",
+      "name": "蒸汽朋克",
+      "state": [
+        "更新中"
+      ],
+      "chapters": [
+        "未来想象"
+      ],
+      "url": "/terms/7265637a7a32384d4b703748644e6f50/",
+      "corePresent": false,
+      "bodyPresent": true,
+      "mistakePresent": false,
+      "legacyStepsCount": 0,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "保留更新中，不补造新字段"
+    },
+    {
+      "id": "reczz28MKp7HfS8b",
+      "name": "太阳朋克",
+      "state": [
+        "更新中"
+      ],
+      "chapters": [
+        "未来想象"
+      ],
+      "url": "/terms/7265637a7a32384d4b70374866533862/",
+      "corePresent": false,
+      "bodyPresent": true,
+      "mistakePresent": false,
+      "legacyStepsCount": 0,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "保留更新中，不补造新字段"
+    },
+    {
+      "id": "reczz28MKp7Hfsmz",
+      "name": "复古未来主义",
+      "state": [
+        "更新中"
+      ],
+      "chapters": [
+        "未来想象"
+      ],
+      "url": "/terms/7265637a7a32384d4b70374866736d7a/",
+      "corePresent": false,
+      "bodyPresent": true,
+      "mistakePresent": false,
+      "legacyStepsCount": 0,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "保留更新中，不补造新字段"
+    },
+    {
+      "id": "reczz28MKp7HdF81",
+      "name": "太空歌剧",
+      "state": [
+        "更新中"
+      ],
+      "chapters": [
+        "未来想象"
+      ],
+      "url": "/terms/7265637a7a32384d4b70374864463831/",
+      "corePresent": false,
+      "bodyPresent": true,
+      "mistakePresent": false,
+      "legacyStepsCount": 0,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "保留更新中，不补造新字段"
+    },
+    {
+      "id": "reczz28MKp7HdTGI",
+      "name": "Y2K",
+      "state": [
+        "更新中"
+      ],
+      "chapters": [
+        "乡愁"
+      ],
+      "url": "/terms/7265637a7a32384d4b70374864544749/",
+      "corePresent": false,
+      "bodyPresent": true,
+      "mistakePresent": false,
+      "legacyStepsCount": 0,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "保留更新中，不补造新字段"
+    },
+    {
+      "id": "reczz28MKp7HekcM",
+      "name": "蒸汽波",
+      "state": [
+        "更新中"
+      ],
+      "chapters": [
+        "乡愁"
+      ],
+      "url": "/terms/7265637a7a32384d4b703748656b634d/",
+      "corePresent": false,
+      "bodyPresent": true,
+      "mistakePresent": false,
+      "legacyStepsCount": 0,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "保留更新中，不补造新字段"
+    },
+    {
+      "id": "reczz28MKp7Hd34m",
+      "name": "Frutiger Aero",
+      "state": [
+        "更新中"
+      ],
+      "chapters": [
+        "乡愁"
+      ],
+      "url": "/terms/7265637a7a32384d4b7037486433346d/",
+      "corePresent": false,
+      "bodyPresent": true,
+      "mistakePresent": false,
+      "legacyStepsCount": 0,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "保留更新中，不补造新字段"
+    },
+    {
+      "id": "reczz28MKp7HcwDx",
+      "name": "怪核 Weirdcore",
+      "state": [
+        "更新中"
+      ],
+      "chapters": [
+        "诡异"
+      ],
+      "url": "/terms/7265637a7a32384d4b70374863774478/",
+      "corePresent": false,
+      "bodyPresent": true,
+      "mistakePresent": false,
+      "legacyStepsCount": 0,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "保留更新中，不补造新字段"
+    },
+    {
+      "id": "reczz28MKp7HdI46",
+      "name": "Kidcore",
+      "state": [
+        "更新中"
+      ],
+      "chapters": [
+        "可爱"
+      ],
+      "url": "/terms/7265637a7a32384d4b70374864493436/",
+      "corePresent": false,
+      "bodyPresent": true,
+      "mistakePresent": false,
+      "legacyStepsCount": 0,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "保留更新中，不补造新字段"
+    },
+    {
+      "id": "reczz28MKp7HcNdu",
+      "name": "Decora",
+      "state": [
+        "更新中"
+      ],
+      "chapters": [
+        "可爱"
+      ],
+      "url": "/terms/7265637a7a32384d4b703748634e6475/",
+      "corePresent": false,
+      "bodyPresent": true,
+      "mistakePresent": false,
+      "legacyStepsCount": 0,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "保留更新中，不补造新字段"
+    },
+    {
+      "id": "reczz28MKp7HfoxS",
+      "name": "Yami Kawaii",
+      "state": [
+        "更新中"
+      ],
+      "chapters": [
+        "可爱"
+      ],
+      "url": "/terms/7265637a7a32384d4b703748666f7853/",
+      "corePresent": false,
+      "bodyPresent": true,
+      "mistakePresent": false,
+      "legacyStepsCount": 0,
+      "caseIds": [],
+      "caseCount": 0,
+      "brokenCaseIds": [],
+      "rawMedia": [],
+      "sourceLinkCount": 0,
+      "imageCaseCount": 0,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "保留更新中，不补造新字段"
+    },
+    {
+      "id": "reczz28MKwvta1Ka",
+      "name": "odd 风格",
+      "state": [
+        "已上线"
+      ],
+      "chapters": [
+        "日常"
+      ],
+      "url": "/terms/7265637a7a32384d4b77767461314b61/",
+      "corePresent": true,
+      "bodyPresent": true,
+      "mistakePresent": true,
+      "legacyStepsCount": 3,
+      "caseIds": [
+        "reczz28HJJL2NmDY",
+        "reczz28HJJL2NmGE"
+      ],
+      "caseCount": 2,
+      "brokenCaseIds": [],
+      "rawMedia": [
+        "摄影",
+        "绘画"
+      ],
+      "sourceLinkCount": 2,
+      "imageCaseCount": 1,
+      "collageInMaster": false,
+      "newFieldsAbsent": [
+        "resonance",
+        "sensations",
+        "distinction",
+        "connections",
+        "caseReadings",
+        "relatedFeelings"
+      ],
+      "nextAction": "可进入编辑样稿候选池"
+    }
+  ]
+}

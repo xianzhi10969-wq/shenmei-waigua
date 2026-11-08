@@ -1,0 +1,75 @@
+[
+  {
+    "id": "S1",
+    "url": "https://www.moma.org/collection/works/81430",
+    "title": "Daniel Spoerri, Kichka’s Breakfast I, 1960 — MoMA",
+    "supports": "作者、1960年、早餐剩余物固定为作品、挂墙展示。",
+    "doesNotSupport": "喜爱生活痕迹的读者具有哪一种人格或童年经历。",
+    "checkedAt": "2026-11-08",
+    "status": "checked_limited_claims"
+  },
+  {
+    "id": "S2",
+    "url": "https://www.moma.org/calendar/exhibitions/960",
+    "title": "Projects 90: Song Dong — MoMA",
+    "supports": "Waste Not作品2005年；母亲积存的家庭物品与物尽其用观念；2009年展览不等于作品创作年份。",
+    "doesNotSupport": "喜欢旧物必然源于匮乏；本批不推断用户的经济状况或心理。",
+    "checkedAt": "2026-11-08",
+    "status": "checked_limited_claims"
+  },
+  {
+    "id": "S3",
+    "url": "https://mateuszurbanowicz.com/tokyo-storefronts/",
+    "title": "Tokyo Storefronts — Mateusz Urbanowicz",
+    "supports": "东京老店面的水彩系列2016年发表；画册2018年出版。",
+    "doesNotSupport": "该系列受Spoerri或宋冬直接影响。",
+    "checkedAt": "2026-11-08",
+    "status": "checked_limited_claims"
+  },
+  {
+    "id": "S4",
+    "url": "https://www.tokujin.com/works/2010-sensing-nature-snow/",
+    "title": "Snow / Sensing Nature — Tokujin Yoshioka",
+    "supports": "2010年；15米宽动态装置；羽毛吹起缓落；作者谈唤起观众心中雪景记忆。",
+    "doesNotSupport": "观众真实寒冷感受、可以走入装置内部、喜爱者对亲密关系的态度。",
+    "checkedAt": "2026-11-08",
+    "status": "checked_limited_claims"
+  },
+  {
+    "id": "S5",
+    "url": "https://www.michaelkenna.com/gallery.php?id=6",
+    "title": "Hokkaido, Japan — Michael Kenna",
+    "supports": "原站存在Hokkaido摄影系列；本次页面主标题为2005–2024并列2002–2004入口。",
+    "doesNotSupport": "本页提取未定位Nine Trees具体作品，不能据此核验它的年份、构图或把整个系列限为2005起。",
+    "checkedAt": "2026-11-08",
+    "status": "checked_limited_claims",
+    "localImageReviewed": {
+      "path": "aesthetic-site/public/media/9d5e04d707793bf3ccbf6cb1.jpg",
+      "sha256": "3cc414af826c15c3a6e59ed0c2da1cc58a70184dbbd7956d99e373bf47201357",
+      "scope": "视觉内容已查看；沿仓库案例关联使用，不独立证明该图片的具体题名/年份/作者归属"
+    }
+  },
+  {
+    "id": "S6",
+    "url": "https://simonerocha.com/blogs/projects/jean-paul-gautier-haute-couture-spring-summer-2024-by-simone-rocha",
+    "title": "Jean Paul Gaultier Haute Couture Spring Summer 2024 by Simone Rocha",
+    "supports": "合作/系列名；官方阐述把脆弱与力量、带刺的玫瑰、解放与结构并置。",
+    "doesNotSupport": "该系列是Coquette的历史源头，或喜欢它的人必然有特定人格。",
+    "checkedAt": "2026-11-08",
+    "status": "checked_limited_claims"
+  },
+  {
+    "id": "S7",
+    "url": "https://www.junocalypso.com/honeymoon",
+    "title": "The Honeymoon — Juno Calypso",
+    "supports": "原站列The Honeymoon Suite（2015）、A Solitary Love Affair（2016）等系列作品。",
+    "doesNotSupport": "本次提取未给出创作自述；不使用旧文中的社会学文献、独自入住具体过程或心理因果作为已核验事实。",
+    "checkedAt": "2026-11-08",
+    "status": "checked_limited_claims",
+    "localImageReviewed": {
+      "path": "aesthetic-site/public/media/f626785bcc5dd0450c77cd9a.jpg",
+      "sha256": "555ea9684cc10de32e50f270df4f8f9d0ce759830caae0d5b1805e8d548e5d1b",
+      "scope": "视觉内容已查看；沿仓库案例关联使用，不独立证明该图片的具体题名/年份/作者归属"
+    }
+  }
+]

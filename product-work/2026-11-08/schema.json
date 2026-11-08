@@ -1,0 +1,359 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Aesthetics editorial overlay draft",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "schemaVersion",
+      "termId",
+      "name",
+      "status",
+      "coreSnapshot",
+      "resonance",
+      "sensations",
+      "distinction",
+      "connections",
+      "caseReadings",
+      "simplification",
+      "relatedTermIds",
+      "feelingIds",
+      "limits"
+    ],
+    "additionalProperties": false,
+    "properties": {
+      "schemaVersion": {
+        "const": "0.1"
+      },
+      "termId": {
+        "type": "string",
+        "minLength": 1
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "status": {
+        "const": "draft"
+      },
+      "coreSnapshot": {
+        "type": "string"
+      },
+      "resonance": {
+        "type": "string",
+        "minLength": 1
+      },
+      "sensations": {
+        "type": "object",
+        "required": [
+          "visual",
+          "sound",
+          "smell",
+          "touch",
+          "taste",
+          "emotion"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "visual": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "word",
+                "kind",
+                "caseIds"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "word": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "kind": {
+                  "enum": [
+                    "observation",
+                    "association"
+                  ]
+                },
+                "caseIds": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "uniqueItems": true,
+                  "minItems": 1
+                }
+              }
+            }
+          },
+          "sound": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "word",
+                "kind",
+                "caseIds"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "word": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "kind": {
+                  "enum": [
+                    "observation",
+                    "association"
+                  ]
+                },
+                "caseIds": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "uniqueItems": true,
+                  "minItems": 1
+                }
+              }
+            }
+          },
+          "smell": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "word",
+                "kind",
+                "caseIds"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "word": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "kind": {
+                  "enum": [
+                    "observation",
+                    "association"
+                  ]
+                },
+                "caseIds": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "uniqueItems": true,
+                  "minItems": 1
+                }
+              }
+            }
+          },
+          "touch": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "word",
+                "kind",
+                "caseIds"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "word": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "kind": {
+                  "enum": [
+                    "observation",
+                    "association"
+                  ]
+                },
+                "caseIds": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "uniqueItems": true,
+                  "minItems": 1
+                }
+              }
+            }
+          },
+          "taste": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "word",
+                "kind",
+                "caseIds"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "word": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "kind": {
+                  "enum": [
+                    "observation",
+                    "association"
+                  ]
+                },
+                "caseIds": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "uniqueItems": true,
+                  "minItems": 1
+                }
+              }
+            }
+          },
+          "emotion": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "word",
+                "kind",
+                "caseIds"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "word": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "kind": {
+                  "enum": [
+                    "observation",
+                    "association"
+                  ]
+                },
+                "caseIds": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "uniqueItems": true,
+                  "minItems": 1
+                }
+              }
+            }
+          }
+        }
+      },
+      "distinction": {
+        "type": "string",
+        "minLength": 1
+      },
+      "connections": {
+        "type": "object",
+        "required": [
+          "kind",
+          "text",
+          "sourceIds"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "kind": {
+            "enum": [
+              "juxtaposition",
+              "historical_lineage"
+            ]
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sourceIds": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true,
+            "minItems": 1
+          }
+        }
+      },
+      "caseReadings": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [
+            "caseId",
+            "sourceIds",
+            "fact",
+            "reading"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "caseId": {
+              "type": "string",
+              "minLength": 1
+            },
+            "sourceIds": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "uniqueItems": true,
+              "minItems": 1
+            },
+            "fact": {
+              "type": "string",
+              "minLength": 1
+            },
+            "reading": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "minItems": 1
+      },
+      "simplification": {
+        "type": "string",
+        "minLength": 1
+      },
+      "relatedTermIds": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        },
+        "uniqueItems": true
+      },
+      "feelingIds": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        },
+        "uniqueItems": true
+      },
+      "limits": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        },
+        "uniqueItems": true
+      }
+    }
+  }
+}
