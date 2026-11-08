@@ -1,5 +1,14 @@
 # 审美外挂｜项目总入口（更新至 2026-10-24）
 
+## 2026-11-08｜产品方向与当前接续入口
+
+用户认可转向“理解自己为什么被某些东西吸引”，并要求归档、清理旧记录、拆任务后执行。先读 [PRODUCT.md](PRODUCT.md) → [认可原话与提案边界](产品决策/2026-11-08-Claude讨论-认可内容与提案边界.md) → [任务表](执行任务/2026-11-08-产品改版任务表.md)。
+
+当前整站代码为 `aesthetic-site/`；内容以 `src/catalog.json` 和 `src/term-content-contract.json` 为准。主分支运行范围21张拼贴，11/08的37张是独立候选分支范围，非master已全量接入。P4/P5占位；好奇心总栏目与末页展开星星导航仍待做。11/01已停止沿用Le Pater旧布局，导航动作认可不等于字体和全部美术定稿。
+
+旧资料按日期保留：关于“master没有完整站”“只认Le Pater布局”“首屏读取钩子”“旧正文全量拼接”的说法不再指导当前施工。详见[过时标注清单](归档/2026-11-08-过时内容标注清单.md)。本轮只改变产品文档、历史标注和独立编辑工作；未批准删屏、测试型付费墙或替换现有美术。
+
+
 > **2026-11-07｜五张去重拼贴 v3 已确认并存库**：[Softcore／盛夏／多巴胺／颓废美学／复古摇滚完整归档](web-prototypes/collage-unique-v3-2026-11-07/README.md)，18 张新参考补为 42 个独立对象，双端源码、原图、预览与出处均已包含。[这一轮做了什么](web-prototypes/collage-unique-v3-2026-11-07/ROUND-CHANGELOG.md)。同物换角度／换裁切也去重；尚未接入整站，既有页面保留。
 
 > **2026-11-07｜统一整站完整代码与本地部署**。当前网站源码、数据快照、全部图片/字体在[aesthetic-site/](aesthetic-site/README.md)。24章、101词条、144条保留案例和已有功能页统一接通，运行 `python3 aesthetic-site/serve.py` 后访问 http://127.0.0.1:8840/ 。案例完整阅读与双向滚动已检查，其他词条拼贴及P5分类专属映射继续补齐。
@@ -8,7 +17,7 @@
 
 > **2026-11-04｜词条看板代码存库**：[Coquette 拼贴 v3、字体与黑框对照](web-prototypes/term-style-board-2026-11-03/README.md)已保存到 master。整体方向认可，字体可微调，现有词条页接入待定；未替换生产页面。
 
-> **2026-10-31｜Netlify 首发记录（纠正“从未部署”误判）**：早期完整站 `aesthetic-site` **先通过 Netlify Drop 发布**，历史后台显示 **2026-10-14 11:16**；站点 [subtle-peony-38e354.netlify.app](https://subtle-peony-38e354.netlify.app/)，[后台部署记录](https://app.netlify.com/projects/subtle-peony-38e354/deploys)。完整 V2 源码留在历史分支 `codex/backup-accepted-term-v2-2026-10-15` 的 [`aesthetic-site/`（提交 b95caf9）](https://github.com/xianzhi10969-wq/shenmei-waigua/tree/b95caf91555549ddbd9ef58bccf3625fa8f76102/aesthetic-site)，**不在 master 根目录**。10/20 的 [P3/P4 Sites 动效预览](https://aura-p34-motion-study-20261020.xianzhi10969.chatgpt.site/) 是另一套原型，不能代替早期完整站。Netlify 当前可用性/当前线上版本尚未复核；Netlify Drop 不需要 GitHub 部署分支。详细出处与跨 AI 查找规则见 [整站总控·部署历史纠正](PROJECT_CONTROL.md#2026-10-31部署历史纠正完整站先发布于-netlify必读)。
+> **2026-10-31｜Netlify 首发记录（纠正“从未部署”误判）**：早期完整站 `aesthetic-site` **先通过 Netlify Drop 发布**，历史后台显示 **2026-10-14 11:16**；站点 [subtle-peony-38e354.netlify.app](https://subtle-peony-38e354.netlify.app/)，[后台部署记录](https://app.netlify.com/projects/subtle-peony-38e354/deploys)。完整 V2 源码留在历史分支 `codex/backup-accepted-term-v2-2026-10-15` 的 [`aesthetic-site/`（提交 b95caf9）](https://github.com/xianzhi10969-wq/shenmei-waigua/tree/b95caf91555549ddbd9ef58bccf3625fa8f76102/aesthetic-site)，**10/31时尚不在master；11/07起当前整站见根目录 `aesthetic-site/`**。10/20 的 [P3/P4 Sites 动效预览](https://aura-p34-motion-study-20261020.xianzhi10969.chatgpt.site/) 是另一套原型，不能代替早期完整站。Netlify 当前可用性/当前线上版本尚未复核；Netlify Drop 不需要 GitHub 部署分支。详细出处与跨 AI 查找规则见 [整站总控·部署历史纠正](PROJECT_CONTROL.md#2026-10-31部署历史纠正完整站先发布于-netlify必读)。
 
 
 > **2026-10-25｜当前最新 P3**：用户明确要求采用「星星接续 v1」。以 [当前 P3 入口](CURRENT_P3.md) 为准；此前 P3 候选/待审记录保留作历史。Web 已实现可预览，用户尚未单独审阅桌面效果；不将本次指定版本扩大为双端全部细节验收。刻度版与并行排印版未合并，Figma/生产站未在本轮更新。
@@ -38,6 +47,8 @@
 
 ## 当前工程与设计入口
 
+> **2026-11-08历史标注**：本节含10月状态/旧结构，已被本文件顶部及 [PRODUCT.md](PRODUCT.md) 的接续说明部分取代。当前工程、导航及内容字段以11月记录和实际源码为准；保留基线保护、只读原则与原始证据，不执行已过时建议。
+
 | 部分 | 唯一推荐接续入口 | 核验边界 |
 | --- | --- | --- |
 | P1→P2 | [Grok 的显影开场 + 星 B 坠落 v4](web-prototypes/p1-p2-reveal-star-v4-2026-10-21/README.md) · [动效细节](web-prototypes/p1-p2-reveal-star-v4-2026-10-21/MOTION-NOTES.md) | 用户确认完成的独立原型；不等于已合并正式生产网站 |
@@ -48,6 +59,8 @@
 | 参考资料 | [产品参考库](参考库/产品参考库/README.md) · [流量参考库](参考库/流量参考库/README.md) | 艺术/交互对标与获客对标分开管理 |
 
 ## 当前主要产品结构（概要，细节以 CURRENT_STATE 为准）
+
+> **2026-11-08历史标注**：本节含10月状态/旧结构，已被本文件顶部及 [PRODUCT.md](PRODUCT.md) 的接续说明部分取代。当前工程、导航及内容字段以11月记录和实际源码为准；保留基线保护、只读原则与原始证据，不执行已过时建议。
 
 首页 P1 视觉序章 → P2 四个常见美学困惑（不是搜索）→ P3 一级专题入口（钢笔彩窗＋适度封面延伸已采用；宽幅与转场待审；v9柜体基线继续保护）→ P4 细分风格图录（C 方案，可跳 V3 词条；教堂座椅为新研究方向）；好奇心问题与意象实验室在后段，P5/P6 先后待定；**P7 目前未定义**。独立“寻找感觉”检索页、专题详情、V3 词条、艺术资源都应该可以从适当入口直接到达。
 

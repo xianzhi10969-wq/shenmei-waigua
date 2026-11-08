@@ -1,8 +1,19 @@
 # 审美外挂｜共享协作与版本保护规则 · 2026-10-23
 
+## 2026-11-08｜产品方向与当前接续入口
+
+用户认可转向“理解自己为什么被某些东西吸引”，并要求归档、清理旧记录、拆任务后执行。先读 [PRODUCT.md](PRODUCT.md) → [认可原话与提案边界](产品决策/2026-11-08-Claude讨论-认可内容与提案边界.md) → [任务表](执行任务/2026-11-08-产品改版任务表.md)。
+
+当前整站代码为 `aesthetic-site/`；内容以 `src/catalog.json` 和 `src/term-content-contract.json` 为准。主分支运行范围21张拼贴，11/08的37张是独立候选分支范围，非master已全量接入。P4/P5占位；好奇心总栏目与末页展开星星导航仍待做。11/01已停止沿用Le Pater旧布局，导航动作认可不等于字体和全部美术定稿。
+
+旧资料按日期保留：关于“master没有完整站”“只认Le Pater布局”“首屏读取钩子”“旧正文全量拼接”的说法不再指导当前施工。详见[过时标注清单](归档/2026-11-08-过时内容标注清单.md)。本轮只改变产品文档、历史标注和独立编辑工作；未批准删屏、测试型付费墙或替换现有美术。
+
+
 ## 2026-10-31｜历史部署与源码检索防漏（跨 AI 必读）
 
-**用户确认「完整网站先发布在 Netlify」；已查证 2026-10-14 Netlify Drop 历史发布记录。** 原完整前端项目为 `aesthetic-site`，Netlify 地址 <https://subtle-peony-38e354.netlify.app/>，管理记录 <https://app.netlify.com/projects/subtle-peony-38e354/deploys>；源码位于本仓库历史分支 `codex/backup-accepted-term-v2-2026-10-15` 的 `aesthetic-site/`（[GitHub 提交 b95caf9](https://github.com/xianzhi10969-wq/shenmei-waigua/commit/b95caf91555549ddbd9ef58bccf3625fa8f76102)），包含 `dist/`、数据与同步脚本、`.openai/hosting.json`。**当前 `master` 未纳入这套全站工程，不表示没有开发、备份或部署过**；Netlify Drop 也不需要 GitHub Actions 或部署专用分支。2026-10-20 的 `aura-p34-motion-study-20261020.xianzhi10969.chatgpt.site` 仅为后来的 P3/P4 Sites 动效预览，不是 Netlify 完整站。
+> **2026-11-08历史标注**：本节含10月状态/旧结构，已被本文件顶部及 [PRODUCT.md](PRODUCT.md) 的接续说明部分取代。当前工程、导航及内容字段以11月记录和实际源码为准；保留基线保护、只读原则与原始证据，不执行已过时建议。
+
+**用户确认「完整网站先发布在 Netlify」；已查证 2026-10-14 Netlify Drop 历史发布记录。** 原完整前端项目为 `aesthetic-site`，Netlify 地址 <https://subtle-peony-38e354.netlify.app/>，管理记录 <https://app.netlify.com/projects/subtle-peony-38e354/deploys>；源码位于本仓库历史分支 `codex/backup-accepted-term-v2-2026-10-15` 的 `aesthetic-site/`（[GitHub 提交 b95caf9](https://github.com/xianzhi10969-wq/shenmei-waigua/commit/b95caf91555549ddbd9ef58bccf3625fa8f76102)），包含 `dist/`、数据与同步脚本、`.openai/hosting.json`。**截至2026-10-31核验时，`master` 未纳入这套历史全站工程；2026-11-07起当前整站已在 `aesthetic-site/`**；Netlify Drop 也不需要 GitHub Actions 或部署专用分支。2026-10-20 的 `aura-p34-motion-study-20261020.xianzhi10969.chatgpt.site` 仅为后来的 P3/P4 Sites 动效预览，不是 Netlify 完整站。
 
 遇到「之前的网站在哪里 / 是否部署 / 找部署源码」问题：先查 [PROJECT_CONTROL 的证据与边界](PROJECT_CONTROL.md#2026-10-31部署历史纠正完整站先发布于-netlify必读)，再核查历史分支及 Netlify 部署记录，不要只扫描 `master`；历史发布已核实，**目前 Netlify 线上可达性、当前版本及公开权限未核实**。没有用户明确授权不可将备份直接部署或覆盖当前设计与基线。
 
@@ -40,6 +51,8 @@
 
 ## 星星导航｜强制接续边界（2026-10-22 更新）
 
+> **2026-11-08历史标注**：本节含10月状态/旧结构，已被本文件顶部及 [PRODUCT.md](PRODUCT.md) 的接续说明部分取代。当前工程、导航及内容字段以11月记录和实际源码为准；保留基线保护、只读原则与原始证据，不执行已过时建议。
+
 - 新对话若提到星星导航／全站索引／五枚徽章，**先读**：[星星导航 · Le Pater 构图交接](产品决策/2026-10-21-星星导航-Le-Pater结构与交互-跨会话交接.md)，并打开 [Figma 索引结构 434:2](https://www.figma.com/design/pIL4mlWLHxph3pqXlIVq1s?node-id=434-2)。
 - **唯一获得用户确认的是布局**：Le Pater 式左侧约 1/5 的五枚等尺寸、等视觉权重的徽章纵列，右侧约 4/5 的**所选功能真实页面／页面预览（不是另绘五幅插画）**，一条长的栏目标题带**叠加在图像之上**。Web＋Mobile 的布局结构原型在 Figma 有画板，但不是正式美术或动效。
 - **用户明确否认现有画面美术**：Figma 现有圆章、数字占位、灰块／椭圆预览、黑色矩形标题条、字体与装饰，**均不可声称已经通过、不可作为生产素材**。后续五枚徽章、右侧五个真实功能页预览的呈现方式、排印条与揭幕动画要分别研究、做独立版本、逐件/逐项验收。
@@ -75,6 +88,8 @@
 - 文档索引可以改；任何会改变设计基线、前端部署、图库、飞书数据库的操作仍须有明确的任务授权。
 
 ## 数据架构｜飞书多维表格后台 → lark-cli → 前端展示（2026-10-23 补记）
+
+> **2026-11-08历史标注**：本节含10月状态/旧结构，已被本文件顶部及 [PRODUCT.md](PRODUCT.md) 的接续说明部分取代。当前工程、导航及内容字段以11月记录和实际源码为准；保留基线保护、只读原则与原始证据，不执行已过时建议。
 
 **原则：真实素材（专题、定义、词条、案例、封面图）只存在飞书多维表格里；前端原型只负责“展示”，不在页面里手写或编造内容。**
 
