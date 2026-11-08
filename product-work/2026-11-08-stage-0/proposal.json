@@ -1,0 +1,7872 @@
+{
+  "metadata": {
+    "status": "阶段0交付候选；闸门0未通过",
+    "sourceCommit": "f6025a528b865450356685dc43c9ee83c250f3a1",
+    "sourceHashes": {
+      "aesthetic-site/src/catalog.json": "53951b29888b67c24f317e4987ede677cf45a2d8bc51545679f50bc4d28553a9",
+      "aesthetic-site/src/features.json": "b33b29b843935a80a308ad61c231324ed92b007ffe42f18e066d39ea722c1e06"
+    },
+    "vocabularyVersion": "stage0-draft-1",
+    "total": 101,
+    "counts": {
+      "style": 57,
+      "mood": 44
+    },
+    "signedNames": 0,
+    "currentStage": 0,
+    "nextStageAllowed": false,
+    "interpretation": "degree是编辑关联强弱，不是用户心理分数、流派定义或统计测量"
+  },
+  "entries": [
+    {
+      "row": "001",
+      "termId": "reczz28HJJL2GIls",
+      "originalName": "梦核",
+      "englishOriginal": "Dreamcore",
+      "originalChapters": [
+        "诡异"
+      ],
+      "pageType": "style",
+      "plainName": "像是来过，却想不起来",
+      "tags": [
+        {
+          "tagId": "E41",
+          "name": "虚幻",
+          "degree": 3
+        },
+        {
+          "tagId": "E01",
+          "name": "神秘",
+          "degree": 2
+        },
+        {
+          "tagId": "E02",
+          "name": "不安",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "与026梦境区分：本条作为具名视觉集合；不是所有梦感都叫梦核",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GIls",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28HJJL2NhNo",
+            "title": "爱之歌",
+            "medium": "绘画",
+            "official": "https://www.moma.org/collection/works/80419"
+          },
+          {
+            "id": "reczz28HJJL2NhUh",
+            "title": "Everywhere at the End of Time",
+            "medium": "音乐",
+            "official": "https://leiter-verlag.com/?p=774"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "002",
+      "termId": "reczz28HJJL2GIv6",
+      "originalName": "阈限空间",
+      "englishOriginal": "Liminal Space",
+      "originalChapters": [
+        "诡异"
+      ],
+      "pageType": "style",
+      "plainName": "人都走了，我还在",
+      "tags": [
+        {
+          "tagId": "S07",
+          "name": "空旷",
+          "degree": 3
+        },
+        {
+          "tagId": "S15",
+          "name": "安静",
+          "degree": 3
+        },
+        {
+          "tagId": "E05",
+          "name": "疏离",
+          "degree": 2
+        },
+        {
+          "tagId": "E02",
+          "name": "不安",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "空间母题，暂按style容纳，是否独立风格需签审",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GIv6",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28MMHWmQHvs",
+            "title": "Dream Pools｜梦境泳池",
+            "medium": "3D 数字艺术",
+            "official": "https://www.jaredpike.art/projects/dream-pools/"
+          },
+          {
+            "id": "reczz28MMHWmPVzZ",
+            "title": "Hubs｜人生的走廊",
+            "medium": "纺织雕塑／空间装置",
+            "official": "https://www.victoria-miro.com/exhibitions/501/"
+          },
+          {
+            "id": "reczz28MMHWmOIBG",
+            "title": "The Swimming Pool｜水下没有水",
+            "medium": "交互式空间装置",
+            "official": "https://www.kanazawa21.jp/data_list.php?d=7&g=30&lng=e"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "003",
+      "termId": "reczz28HJJL2GJ14",
+      "originalName": "诡异人偶",
+      "englishOriginal": "Uncanny Doll",
+      "originalChapters": [
+        "诡异"
+      ],
+      "pageType": "style",
+      "plainName": "可爱得有点不对劲",
+      "tags": [
+        {
+          "tagId": "E02",
+          "name": "不安",
+          "degree": 3
+        },
+        {
+          "tagId": "S13",
+          "name": "微小",
+          "degree": 2
+        },
+        {
+          "tagId": "E01",
+          "name": "神秘",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "对象母题，暂按style容纳，不能宣称独立艺术流派",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GJ14",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28HJJL2Nhnq",
+            "title": "金发／红裙／厨房",
+            "medium": "摄影",
+            "official": "https://production-gcp.moma.org/audio/4171"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "004",
+      "termId": "reczz28HJJL2GJ6i",
+      "originalName": "模拟恐怖",
+      "englishOriginal": "Analog Horror",
+      "originalChapters": [
+        "诡异"
+      ],
+      "pageType": "style",
+      "plainName": "旧录像里有什么",
+      "tags": [
+        {
+          "tagId": "E02",
+          "name": "不安",
+          "degree": 3
+        },
+        {
+          "tagId": "S11",
+          "name": "破旧",
+          "degree": 2
+        },
+        {
+          "tagId": "E01",
+          "name": "神秘",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "现有案例为空，标签仅命名候选",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GJ6i",
+        "hasCore": false,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "005",
+      "termId": "reczz28HJJL2GJBv",
+      "originalName": "甜亚系",
+      "englishOriginal": "Sweet Asian",
+      "originalChapters": [
+        "可爱"
+      ],
+      "pageType": "style",
+      "plainName": "我就喜欢甜一点",
+      "tags": [
+        {
+          "tagId": "S32",
+          "name": "甜",
+          "degree": 3
+        },
+        {
+          "tagId": "E18",
+          "name": "天真",
+          "degree": 2
+        },
+        {
+          "tagId": "E04",
+          "name": "温柔",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "名称边界待核，避免用地域代替具体内容",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GJBv",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28HJJL2Nhya",
+            "title": "蜷川实花的金鱼",
+            "medium": "摄影",
+            "official": "https://www.tokyoweekender.com/art_and_culture/mika-ninagawa-photography-films/"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "006",
+      "termId": "reczz28HJJL2GJHl",
+      "originalName": "Coquette",
+      "englishOriginal": "Coquette",
+      "originalChapters": [
+        "可爱"
+      ],
+      "pageType": "style",
+      "plainName": "温柔也有主意",
+      "tags": [
+        {
+          "tagId": "E04",
+          "name": "温柔",
+          "degree": 3
+        },
+        {
+          "tagId": "E32",
+          "name": "顽皮",
+          "degree": 2
+        },
+        {
+          "tagId": "E42",
+          "name": "自信",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "保留Coquette原名作检索名",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GJHl",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28LbKsn2qIJ",
+            "title": "Jean Paul Gaultier Haute Couture SS24",
+            "medium": "设计",
+            "official": "https://simonerocha.com/blogs/projects/jean-paul-gautier-haute-couture-spring-summer-2024-by-simone-rocha"
+          },
+          {
+            "id": "reczz28LbOuik2sX",
+            "title": "The Honeymoon",
+            "medium": "摄影",
+            "official": "https://www.junocalypso.com/honeymoon"
+          },
+          {
+            "id": "reczz28LbOuiiLaq",
+            "title": "Spring/Summer 2024",
+            "medium": "设计",
+            "official": "https://www.sandyliang.info/pages/ss-24-new"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "007",
+      "termId": "reczz28HJJL2GJND",
+      "originalName": "Girlhood",
+      "englishOriginal": "Girlhood",
+      "originalChapters": [
+        "物哀"
+      ],
+      "pageType": "mood",
+      "plainName": "我们还没长成大人",
+      "tags": [
+        {
+          "tagId": "E18",
+          "name": "天真",
+          "degree": 3
+        },
+        {
+          "tagId": "E23",
+          "name": "亲密",
+          "degree": 2
+        },
+        {
+          "tagId": "E28",
+          "name": "期待",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "成长与关系体验；若以后收束为具体视觉流派再另审",
+      "typeReason": "感受可跨多个视觉集合出现，作为横向入口",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GJND",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28HJJL2Ni9W",
+            "title": "蓝扶手椅上的小女孩",
+            "medium": "绘画",
+            "official": "https://nga.gov/features/slideshows/degas-cassatt.html"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "008",
+      "termId": "reczz28HJJL2GJS1",
+      "originalName": "Softcore",
+      "englishOriginal": "Softcore",
+      "originalChapters": [
+        "可爱",
+        "幽玄"
+      ],
+      "pageType": "style",
+      "plainName": "想被温柔包住",
+      "tags": [
+        {
+          "tagId": "S21",
+          "name": "柔软",
+          "degree": 3
+        },
+        {
+          "tagId": "E04",
+          "name": "温柔",
+          "degree": 3
+        },
+        {
+          "tagId": "E41",
+          "name": "虚幻",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "Softcore只沿用仓库现有美学语境，英文多义需后续说明",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GJS1",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28LdxvOCeQE",
+            "title": "PomPom Mirror",
+            "medium": "互动机械装置",
+            "official": "https://www.bitforms.art/artwork/pompom-mirror"
+          },
+          {
+            "id": "reczz28LdxvOCkfm",
+            "title": "Sparrow Mart",
+            "medium": "毛毡装置",
+            "official": "https://www.sewyoursoul.co.uk/exhibition/sparrow-mart/"
+          },
+          {
+            "id": "reczz28LdxvOBVuz",
+            "title": "Hubs — Passage/s",
+            "medium": "纺织装置",
+            "official": "https://www.victoria-miro.com/exhibitions/501/"
+          },
+          {
+            "id": "reczz28LdxvOA0sF",
+            "title": "Watercolour Collection",
+            "medium": "家具设计",
+            "official": "https://www.nendo.jp/en/works/watercolour-collection/"
+          },
+          {
+            "id": "reczz28LdxvOAEal",
+            "title": "Shylight",
+            "medium": "动态灯光装置",
+            "official": "https://studiodrift.com/work/shylight/"
+          },
+          {
+            "id": "reczz28HJJL2NiHW",
+            "title": "卡梅隆夫人的人像",
+            "medium": "摄影",
+            "official": "https://emuseum.mfah.org/objects/148871/mrs-camerons-photographs-from-the-life"
+          },
+          {
+            "id": "reczz28HJJL2NiMp",
+            "title": "情书",
+            "medium": "电影",
+            "official": "https://japansociety.org/?p=65324"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "009",
+      "termId": "reczz28HJJL2GJXK",
+      "originalName": "复古",
+      "englishOriginal": "Retro",
+      "originalChapters": [
+        "乡愁"
+      ],
+      "pageType": "style",
+      "plainName": "旧的也舍不得换",
+      "tags": [
+        {
+          "tagId": "E10",
+          "name": "怀念",
+          "degree": 3
+        },
+        {
+          "tagId": "S11",
+          "name": "破旧",
+          "degree": 2
+        },
+        {
+          "tagId": "S19",
+          "name": "温暖",
+          "degree": 1
+        }
+      ],
+      "reviewNote": "与092复古未来区分",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GJXK",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28HJJL2NiS4",
+            "title": "乔叟作品集",
+            "medium": "设计",
+            "official": "https://www.artic.edu/artworks/271552/the-works-of-geoffrey-chaucer-now-newly-imprinted"
+          },
+          {
+            "id": "reczz28HJJL2NiVX",
+            "title": "布达佩斯大饭店",
+            "medium": "电影",
+            "official": "https://www.criterion.com/films/29601-the-grand-budapest-hotel"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "010",
+      "termId": "reczz28HJJL2GJcS",
+      "originalName": "旧互联网 Old Web",
+      "englishOriginal": "Old Web",
+      "originalChapters": [
+        "乡愁"
+      ],
+      "pageType": "style",
+      "plainName": "想回到乱糟糟的上网日子",
+      "tags": [
+        {
+          "tagId": "E10",
+          "name": "怀念",
+          "degree": 3
+        },
+        {
+          "tagId": "E32",
+          "name": "顽皮",
+          "degree": 2
+        },
+        {
+          "tagId": "S08",
+          "name": "密集",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "不是复古的同义词，限定旧网络视觉",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GJcS",
+        "hasCore": true,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "011",
+      "termId": "reczz28HJJL2GJht",
+      "originalName": "日杂",
+      "englishOriginal": "Zakka",
+      "originalChapters": [
+        "乡愁"
+      ],
+      "pageType": "style",
+      "plainName": "小日子也值得认真看",
+      "tags": [
+        {
+          "tagId": "E37",
+          "name": "日常感",
+          "degree": 3
+        },
+        {
+          "tagId": "S19",
+          "name": "温暖",
+          "degree": 2
+        },
+        {
+          "tagId": "E15",
+          "name": "松弛",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "原英文Zakka与日杂范围可能不一致，保留原值待核",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GJht",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28MRgdMRhwp",
+            "title": "POPEYE No.782｜シティーボーイのABC",
+            "medium": "时尚杂志／物件图鉴／编辑设计",
+            "official": "https://magazineworld.jp/popeye/back/?show=5"
+          },
+          {
+            "id": "reczz28MRgdMRxNT",
+            "title": "NEUTRAL COLORS Issue 4｜Work",
+            "medium": "独立杂志／Risograph 印刷／装帧设计",
+            "official": "https://neutral-colors.com/books_post/neutral-colors-4/"
+          },
+          {
+            "id": "reczz28MRgdMRZAU",
+            "title": "GINZA No.324｜クローゼットスナップ！",
+            "medium": "时尚摄影／编辑设计",
+            "official": "https://magazineworld.jp/ginza/ginza-324/"
+          },
+          {
+            "id": "reczz28MRgdMS2Dv",
+            "title": "&Premium No.123｜部屋を、整える。",
+            "medium": "室内摄影／平面设计",
+            "official": "https://andpremium.jp/book/premium-no-123/"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "012",
+      "termId": "reczz28HJJL2GJns",
+      "originalName": "画报风",
+      "englishOriginal": "Pictorial",
+      "originalChapters": [
+        "乡愁"
+      ],
+      "pageType": "style",
+      "plainName": "平常日子也要上封面",
+      "tags": [
+        {
+          "tagId": "E42",
+          "name": "自信",
+          "degree": 3
+        },
+        {
+          "tagId": "S03",
+          "name": "鲜艳",
+          "degree": 2
+        },
+        {
+          "tagId": "E10",
+          "name": "怀念",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "保留画报作为具体视觉集合",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GJns",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28HJJL2NioP",
+            "title": "吉斯蒙达",
+            "medium": "设计",
+            "official": "https://www.muchafoundation.org/en/gallery/browse-works/object/21"
+          },
+          {
+            "id": "reczz28HJJL2NiuF",
+            "title": "良友创刊号封面",
+            "medium": "摄影",
+            "official": "https://www.shhk.gov.cn/xwzx/002008/002008040/20230515/1a0ad634-1e24-4796-8597-ca5a465ebbda.html"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "013",
+      "termId": "reczz28HJJL2GJt7",
+      "originalName": "复古摇滚",
+      "englishOriginal": "Retro Rock",
+      "originalChapters": [
+        "乡愁"
+      ],
+      "pageType": "style",
+      "plainName": "老歌一响，还是不服",
+      "tags": [
+        {
+          "tagId": "E20",
+          "name": "叛逆",
+          "degree": 3
+        },
+        {
+          "tagId": "E10",
+          "name": "怀念",
+          "degree": 2
+        },
+        {
+          "tagId": "E21",
+          "name": "自由",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "与082朋克分开，避免全写成不服",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GJt7",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28MRgiLqd42",
+            "title": "Granny Takes a Trip｜一家把汽车撞进橱窗的服装店",
+            "medium": "商业空间／橱窗艺术／复古服装设计",
+            "official": "https://www.vam.ac.uk/blog/projects/pandemic-objects-clothing-shop"
+          },
+          {
+            "id": "reczz28MRgiLrWjE",
+            "title": "Keith Richards' Skull Ring｜骷髅戒指",
+            "medium": "银质首饰",
+            "official": "https://courtsandhackett.com/keiths_ring.php"
+          },
+          {
+            "id": "reczz28MRgiLopRy",
+            "title": "The Great Frog · Eye Ring｜眼球戒指",
+            "medium": "银质戒指",
+            "official": "https://thegreatfroglondon.com/products/eye-ring"
+          },
+          {
+            "id": "reczz28MRgiLoC9N",
+            "title": "Stevie Nicks · Rhiannon Costume｜瑞安农演出服",
+            "medium": "舞台服装",
+            "official": "https://www.christies.com/en/lot/lot-4417849"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "014",
+      "termId": "reczz28HJJL2GK3M",
+      "originalName": "低能量",
+      "englishOriginal": "Low Energy",
+      "originalChapters": [
+        "忧郁"
+      ],
+      "pageType": "mood",
+      "plainName": "今天先不振作",
+      "tags": [
+        {
+          "tagId": "E14",
+          "name": "低能量",
+          "degree": 3
+        },
+        {
+          "tagId": "E38",
+          "name": "缓慢",
+          "degree": 2
+        },
+        {
+          "tagId": "E27",
+          "name": "无力",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "用户指定感觉页样板；同时有横向标签，不占风格树节点",
+      "typeReason": "感受可跨多个视觉集合出现，作为横向入口",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GK3M",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28HJJL2NjFM",
+            "title": "POST ARCHIVE FACTION (PAF)2025 秋冬系列",
+            "medium": "时尚",
+            "official": "[https://techuntermagazine.com/postarchivefaction-aw25-pfwhighlights](https://techuntermagazine.com/postarchivefaction-aw25-pfwhighlights)"
+          },
+          {
+            "id": "reczz28HJJL2NjCi",
+            "title": "奥勃洛莫夫",
+            "medium": "文学",
+            "official": "https://www.britannica.com/topic/Oblomov"
+          },
+          {
+            "id": "reczz28HJJL2NjI0",
+            "title": "休息",
+            "medium": "绘画",
+            "official": "https://www.musee-orsay.fr/fr/oeuvres/hvile-85460"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "015",
+      "termId": "reczz28HJJL2GKfk",
+      "originalName": "心动",
+      "englishOriginal": "Crush",
+      "originalChapters": [
+        "爱欲"
+      ],
+      "pageType": "mood",
+      "plainName": "只是看见你就不一样",
+      "tags": [
+        {
+          "tagId": "E28",
+          "name": "期待",
+          "degree": 3
+        },
+        {
+          "tagId": "E12",
+          "name": "渴望",
+          "degree": 2
+        },
+        {
+          "tagId": "E23",
+          "name": "亲密",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "关系感觉",
+      "typeReason": "感受可跨多个视觉集合出现，作为横向入口",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GKfk",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28HJJL2NjUl",
+            "title": "萨福第 31 首残篇",
+            "medium": "诗",
+            "official": "https://www.poetryfoundation.org/articles/69397/from-on-the-sublime"
+          },
+          {
+            "id": "reczz28HJJL2NjYY",
+            "title": "爱在黎明破晓前",
+            "medium": "电影",
+            "official": "https://www.criterion.com/current/posts/4445-the-before-trilogy-time-regained"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "016",
+      "termId": "reczz28HJJL2GKkE",
+      "originalName": "暧昧",
+      "englishOriginal": "Ambiguity",
+      "originalChapters": [
+        "爱欲"
+      ],
+      "pageType": "mood",
+      "plainName": "像是喜欢，又没说破",
+      "tags": [
+        {
+          "tagId": "E13",
+          "name": "犹疑",
+          "degree": 3
+        },
+        {
+          "tagId": "E12",
+          "name": "渴望",
+          "degree": 3
+        },
+        {
+          "tagId": "E31",
+          "name": "克制",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "关系感觉",
+      "typeReason": "感受可跨多个视觉集合出现，作为横向入口",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GKkE",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28LdCQK71j7",
+            "title": "Duane Michals《偶遇》Chance Meeting",
+            "medium": "六联摄影",
+            "official": "https://www.getty.edu/art/collection/object/15F5VV"
+          },
+          {
+            "id": "reczz28LdCQK8mJ5",
+            "title": "Bill Viola《面纱》The Veiling",
+            "medium": "影像装置",
+            "official": "https://www.guggenheim-bilbao.eus/en/exhibition/the-veiling"
+          },
+          {
+            "id": "reczz28LdCQK9D4c",
+            "title": "古桥悌二《恋人》LOVERS",
+            "medium": "互动影像装置",
+            "official": "https://www.moma.org/collection/works/81362"
+          },
+          {
+            "id": "reczz28HJJL2NjeY",
+            "title": "窗前读信的少女",
+            "medium": "绘画",
+            "official": "https://www.skd.museum/en/besucherservice/presse/2021/ein-liebesgott-taucht-auf-vermeers-brieflesendes-maedchen-am-offenen-fenster-vollstaendig-restauriert/"
+          },
+          {
+            "id": "reczz28HJJL2Nji8",
+            "title": "花样年华",
+            "medium": "电影",
+            "official": "https://www.criterion.com/films/198-in-the-mood-for-love"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "017",
+      "termId": "reczz28HJJL2GKpL",
+      "originalName": "拉扯感",
+      "englishOriginal": "Push and Pull",
+      "originalChapters": [
+        "爱欲"
+      ],
+      "pageType": "mood",
+      "plainName": "走近一点，又退回去",
+      "tags": [
+        {
+          "tagId": "E13",
+          "name": "犹疑",
+          "degree": 3
+        },
+        {
+          "tagId": "E16",
+          "name": "紧绷",
+          "degree": 2
+        },
+        {
+          "tagId": "E12",
+          "name": "渴望",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "关系感觉",
+      "typeReason": "感受可跨多个视觉集合出现，作为横向入口",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GKpL",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28HJJL2Njof",
+            "title": "黑色不伦瑞克兵",
+            "medium": "绘画",
+            "official": "https://www.liverpoolmuseums.org.uk/artifact/black-brunswickers"
+          },
+          {
+            "id": "reczz28HJJL2NjvZ",
+            "title": "傲慢与偏见",
+            "medium": "文学",
+            "official": "https://janeaustens.house/online-exhibition/the-making-of-pride-and-prejudice/the-making-of-pride-and-prejudice-2/"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "018",
+      "termId": "reczz28HJJL2GL2L",
+      "originalName": "情欲张力",
+      "englishOriginal": "Erotic Tension",
+      "originalChapters": [
+        "爱欲"
+      ],
+      "pageType": "mood",
+      "plainName": "靠近就有点危险",
+      "tags": [
+        {
+          "tagId": "E12",
+          "name": "渴望",
+          "degree": 3
+        },
+        {
+          "tagId": "E16",
+          "name": "紧绷",
+          "degree": 3
+        },
+        {
+          "tagId": "E33",
+          "name": "大胆",
+          "degree": 1
+        }
+      ],
+      "reviewNote": "现有案例为空，不能先补心理正文",
+      "typeReason": "感受可跨多个视觉集合出现，作为横向入口",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GL2L",
+        "hasCore": false,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "019",
+      "termId": "reczz28HJJL2GLCP",
+      "originalName": "治愈",
+      "englishOriginal": "Healing",
+      "originalChapters": [
+        "田园"
+      ],
+      "pageType": "mood",
+      "plainName": "心里终于松了一点",
+      "tags": [
+        {
+          "tagId": "E03",
+          "name": "安心",
+          "degree": 3
+        },
+        {
+          "tagId": "E04",
+          "name": "温柔",
+          "degree": 2
+        },
+        {
+          "tagId": "E30",
+          "name": "释然",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "使用感受语义，不承诺治疗",
+      "typeReason": "感受可跨多个视觉集合出现，作为横向入口",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GLCP",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28HJJL2NjzO",
+            "title": "睡莲",
+            "medium": "绘画",
+            "official": "https://www.musee-orangerie.fr/en/node/197502"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "020",
+      "termId": "reczz28HJJL2GLFs",
+      "originalName": "Cottagecore",
+      "englishOriginal": "Cottagecore",
+      "originalChapters": [
+        "田园"
+      ],
+      "pageType": "style",
+      "plainName": "想过有院子的日子",
+      "tags": [
+        {
+          "tagId": "S29",
+          "name": "草木气",
+          "degree": 3
+        },
+        {
+          "tagId": "S19",
+          "name": "温暖",
+          "degree": 2
+        },
+        {
+          "tagId": "E37",
+          "name": "日常感",
+          "degree": 2
+        },
+        {
+          "tagId": "E03",
+          "name": "安心",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "草木气为联想，图像不能证明气味",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GLFs",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28HJJL2NkAi",
+            "title": "彼得兔的故事",
+            "medium": "插画",
+            "official": "https://www.vam.ac.uk/articles/peter-rabbit-the-tale-of-the-tale"
+          },
+          {
+            "id": "reczz28HJJL2NkDM",
+            "title": "星露谷物语",
+            "medium": "游戏",
+            "official": "https://www.stardewvalley.net/"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "021",
+      "termId": "reczz28HJJL2GLJb",
+      "originalName": "盛夏",
+      "englishOriginal": "Midsummer",
+      "originalChapters": [
+        "田园"
+      ],
+      "pageType": "mood",
+      "plainName": "趁夏天还没结束",
+      "tags": [
+        {
+          "tagId": "E40",
+          "name": "丰盛",
+          "degree": 3
+        },
+        {
+          "tagId": "E08",
+          "name": "兴奋",
+          "degree": 3
+        },
+        {
+          "tagId": "S01",
+          "name": "明亮",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "季节体验；不是独立风格节点",
+      "typeReason": "感受可跨多个视觉集合出现，作为横向入口",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GLJb",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28MLgJaxrYR",
+            "title": "Hanabi｜花火",
+            "medium": "摄影",
+            "official": "https://prix.pictet.com/cycles/fire/rinko-kawauchi"
+          },
+          {
+            "id": "reczz28MLgJayHOi",
+            "title": "Illustrated People｜皮肤上的照片",
+            "medium": "实验摄影／身体艺术",
+            "official": "https://rvb-books.com/products/thomas-mailaender-illustrated-people"
+          },
+          {
+            "id": "reczz28MLgJb05P4",
+            "title": "The Floating Piers｜漂浮的码头",
+            "medium": "大地艺术／公共装置",
+            "official": "https://christojeanneclaude.net/artworks/the-floating-piers/"
+          },
+          {
+            "id": "reczz28MLgJb1lI7",
+            "title": "Locus Solus｜一整个意大利夏日",
+            "medium": "户外家具／设计系列",
+            "official": "https://www.exteta.it/en/collections/jacquemus-exteta"
+          },
+          {
+            "id": "reczz28MLgJb1FHM",
+            "title": "Serpentine Pavilion 2015｜走进彩虹色的阳光里",
+            "medium": "临时建筑",
+            "official": "https://www.serpentinegalleries.org/whats-on/serpentine-pavilion-2015-designed-selgascano/"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "022",
+      "termId": "reczz28HJJL2GLVe",
+      "originalName": "生命力",
+      "englishOriginal": "Vitality",
+      "originalChapters": [
+        "田园"
+      ],
+      "pageType": "mood",
+      "plainName": "我还想使劲活",
+      "tags": [
+        {
+          "tagId": "E08",
+          "name": "兴奋",
+          "degree": 3
+        },
+        {
+          "tagId": "E21",
+          "name": "自由",
+          "degree": 2
+        },
+        {
+          "tagId": "E22",
+          "name": "坚定",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "活力体验",
+      "typeReason": "感受可跨多个视觉集合出现，作为横向入口",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GLVe",
+        "hasCore": false,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "023",
+      "termId": "reczz28HJJL2GLZ0",
+      "originalName": "清冷",
+      "englishOriginal": "Cool Detachment",
+      "originalChapters": [
+        "幽玄"
+      ],
+      "pageType": "mood",
+      "plainName": "不想跟谁都很熟",
+      "tags": [
+        {
+          "tagId": "E05",
+          "name": "疏离",
+          "degree": 3
+        },
+        {
+          "tagId": "S20",
+          "name": "微凉",
+          "degree": 2
+        },
+        {
+          "tagId": "E31",
+          "name": "克制",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "清冷不直接归并为微凉；前者复合体验，后者温度联想",
+      "typeReason": "感受可跨多个视觉集合出现，作为横向入口",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GLZ0",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28MnyD4e5ab",
+            "title": "Snow（雪）",
+            "medium": "动态装置",
+            "official": "https://www.tokujin.com/works/2010-sensing-nature-snow/"
+          },
+          {
+            "id": "reczz28MnyD4cUTQ",
+            "title": "Hokkaido（北海道）",
+            "medium": "黑白风景摄影",
+            "official": "https://www.michaelkenna.com/gallery.php?id=6"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "024",
+      "termId": "reczz28HJJL2GLgi",
+      "originalName": "朦胧",
+      "englishOriginal": "Haze",
+      "originalChapters": [
+        "幽玄"
+      ],
+      "pageType": "mood",
+      "plainName": "不必什么都看清",
+      "tags": [
+        {
+          "tagId": "S06",
+          "name": "朦胧",
+          "degree": 3
+        },
+        {
+          "tagId": "E41",
+          "name": "虚幻",
+          "degree": 2
+        },
+        {
+          "tagId": "E01",
+          "name": "神秘",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "感官体验",
+      "typeReason": "感受可跨多个视觉集合出现，作为横向入口",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GLgi",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28HJJL2Nker",
+            "title": "月下赏梅图",
+            "medium": "绘画",
+            "official": "[https://www.metmuseum.org/art/collection/search/44638](https://www.metmuseum.org/art/collection/search/44638)"
+          },
+          {
+            "id": "reczz28HJJL2NkhS",
+            "title": "模糊建筑",
+            "medium": "建筑",
+            "official": "https://dsrny.com/project/blur-building"
+          },
+          {
+            "id": "reczz28HJJL2NkkB",
+            "title": "辛崎之松",
+            "medium": "诗",
+            "official": "https://www2.yamanashi-ken.ac.jp/~itoyo/basho/nozarasi/nozara27.htm"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "025",
+      "termId": "reczz28HJJL2GLjP",
+      "originalName": "空灵",
+      "englishOriginal": "Ethereal",
+      "originalChapters": [
+        "幽玄"
+      ],
+      "pageType": "mood",
+      "plainName": "像暂时没了重量",
+      "tags": [
+        {
+          "tagId": "S27",
+          "name": "轻盈",
+          "degree": 3
+        },
+        {
+          "tagId": "S07",
+          "name": "空旷",
+          "degree": 2
+        },
+        {
+          "tagId": "E41",
+          "name": "虚幻",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "与055身体轻盈体验区分，须审名称是否过近",
+      "typeReason": "感受可跨多个视觉集合出现，作为横向入口",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GLjP",
+        "hasCore": false,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "026",
+      "termId": "reczz28HJJL2GLnG",
+      "originalName": "梦境",
+      "englishOriginal": "Dreamscape",
+      "originalChapters": [
+        "幽玄"
+      ],
+      "pageType": "mood",
+      "plainName": "醒着，也像在梦里",
+      "tags": [
+        {
+          "tagId": "E41",
+          "name": "虚幻",
+          "degree": 3
+        },
+        {
+          "tagId": "S06",
+          "name": "朦胧",
+          "degree": 2
+        },
+        {
+          "tagId": "E21",
+          "name": "自由",
+          "degree": 1
+        }
+      ],
+      "reviewNote": "感觉入口可关联梦核等多个style",
+      "typeReason": "感受可跨多个视觉集合出现，作为横向入口",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GLnG",
+        "hasCore": false,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "027",
+      "termId": "reczz28HJJL2GLvJ",
+      "originalName": "多巴胺",
+      "englishOriginal": "Dopamine",
+      "originalChapters": [
+        "酒神"
+      ],
+      "pageType": "style",
+      "plainName": "快乐就要摆在明面上",
+      "tags": [
+        {
+          "tagId": "S03",
+          "name": "鲜艳",
+          "degree": 3
+        },
+        {
+          "tagId": "E08",
+          "name": "兴奋",
+          "degree": 3
+        },
+        {
+          "tagId": "E32",
+          "name": "顽皮",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "流行视觉命名，不写成神经科学机制",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GLvJ",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28MR6LJ5rW7",
+            "title": "Forest of Numbers｜数字森林",
+            "medium": "空间装置／色彩艺术",
+            "official": "https://www.emmanuellemoureaux.com/100colors-forest-of-numbers"
+          },
+          {
+            "id": "reczz28MR6LJ60Ar",
+            "title": "Multi-color Atmosphere｜多彩氛围",
+            "medium": "烟火／行为表演／环境艺术",
+            "official": "https://judychicago.com/gallery/atmospheresfireworks/artwork/"
+          },
+          {
+            "id": "reczz28HJJL2NkpP",
+            "title": "卡尔顿",
+            "medium": "设计",
+            "official": "https://www.metmuseum.org/art/collection/search/486989"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "028",
+      "termId": "reczz28HJJL2GLxu",
+      "originalName": "热烈",
+      "englishOriginal": "Fervor",
+      "originalChapters": [
+        "酒神"
+      ],
+      "pageType": "mood",
+      "plainName": "喜欢就藏不住",
+      "tags": [
+        {
+          "tagId": "E08",
+          "name": "兴奋",
+          "degree": 3
+        },
+        {
+          "tagId": "E33",
+          "name": "大胆",
+          "degree": 2
+        },
+        {
+          "tagId": "E12",
+          "name": "渴望",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "情感强度",
+      "typeReason": "感受可跨多个视觉集合出现，作为横向入口",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GLxu",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28Ldd1wDeSA",
+            "title": "Pulse Room（心跳房间）",
+            "medium": "互动灯光装置",
+            "official": "https://www.lozano-hemmer.com/artworks/pulse_room.php"
+          },
+          {
+            "id": "reczz28Ldd1wD1KQ",
+            "title": "Flower Obsession",
+            "medium": "参与式装置",
+            "official": "https://www.ngv.vic.gov.au/exhibition/triennial-2017/"
+          },
+          {
+            "id": "reczz28HJJL2Nkuf",
+            "title": "酒神与阿里阿德涅",
+            "medium": "绘画",
+            "official": "https://www.nationalgallery.org.uk/paintings/titian-bacchus-and-ariadne"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "029",
+      "termId": "reczz28HJJL2GM5u",
+      "originalName": "涂鸦",
+      "englishOriginal": "Graffiti",
+      "originalChapters": [],
+      "pageType": "style",
+      "plainName": "这面墙也得有我的话",
+      "tags": [
+        {
+          "tagId": "E20",
+          "name": "叛逆",
+          "degree": 3
+        },
+        {
+          "tagId": "E33",
+          "name": "大胆",
+          "degree": 2
+        },
+        {
+          "tagId": "S23",
+          "name": "粗糙",
+          "degree": 1
+        }
+      ],
+      "reviewNote": "媒介/实践集合，暂归style；不得补造单一谱系",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GM5u",
+        "hasCore": false,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "030",
+      "termId": "reczz28HJJL2GM8Z",
+      "originalName": "盐系",
+      "englishOriginal": "Salt Style",
+      "originalChapters": [
+        "留白"
+      ],
+      "pageType": "style",
+      "plainName": "简单一点，舒服就行",
+      "tags": [
+        {
+          "tagId": "S04",
+          "name": "低饱和",
+          "degree": 3
+        },
+        {
+          "tagId": "E15",
+          "name": "松弛",
+          "degree": 3
+        },
+        {
+          "tagId": "E37",
+          "name": "日常感",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "与035普通态度、037删减形式区分",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GM8Z",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28HJJL2Nl2e",
+            "title": "无印良品企业广告·地平线",
+            "medium": "设计",
+            "official": "https://www.muji.com/jp/flagship/huaihai755/archive/hara.html"
+          },
+          {
+            "id": "reczz28HJJL2Nl5H",
+            "title": "うたたね",
+            "medium": "摄影",
+            "official": "https://rinkokawauchi.com/en/publications/361/"
+          },
+          {
+            "id": "reczz28HJJL2Nl7r",
+            "title": "白色交响曲第一号：白衣女孩",
+            "medium": "绘画",
+            "official": "https://www.nga.gov/artworks/12198-symphony-white-no-1-white-girl"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "031",
+      "termId": "reczz28HJJL2GMBA",
+      "originalName": "禅意",
+      "englishOriginal": "Zen",
+      "originalChapters": [
+        "留白"
+      ],
+      "pageType": "mood",
+      "plainName": "来来去去，都先放下",
+      "tags": [
+        {
+          "tagId": "E30",
+          "name": "释然",
+          "degree": 3
+        },
+        {
+          "tagId": "S15",
+          "name": "安静",
+          "degree": 2
+        },
+        {
+          "tagId": "E31",
+          "name": "克制",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "只讨论体验入口，不把禅的思想传统化约成心理标签",
+      "typeReason": "感受可跨多个视觉集合出现，作为横向入口",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GMBA",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28Ldc0bKQuv",
+            "title": "内藤礼《Matrix》",
+            "medium": "现场装置",
+            "official": "https://benesse-artsite.jp/en/art/teshima-artmuseum.html"
+          },
+          {
+            "id": "reczz28Ldc0bJUeQ",
+            "title": "山本基《Return to the Sea Project》",
+            "medium": "盐装置",
+            "official": "https://www.motoi-works.com/en/works/return-to-theseaproject"
+          },
+          {
+            "id": "reczz28Ldc0bMeA5",
+            "title": "东信《ICED FLOWERS for Dries Van Noten's》",
+            "medium": "时装秀场装置",
+            "official": "https://azumamakoto.com/en/project/x-2w_gp5z/"
+          },
+          {
+            "id": "reczz28HJJL2NlAY",
+            "title": "龙安寺石庭",
+            "medium": "建筑",
+            "official": "https://www.pref.kyoto.jp/isan/ryoanji.html"
+          },
+          {
+            "id": "reczz28HJJL2NlFs",
+            "title": "松林图屏风",
+            "medium": "绘画",
+            "official": "https://emuseum.nich.go.jp/detail?content_base_id=100151"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "032",
+      "termId": "reczz28HJJL2GMEM",
+      "originalName": "等待",
+      "englishOriginal": "Waiting",
+      "originalChapters": [
+        "留白"
+      ],
+      "pageType": "mood",
+      "plainName": "还没来，我再等一会儿",
+      "tags": [
+        {
+          "tagId": "E28",
+          "name": "期待",
+          "degree": 3
+        },
+        {
+          "tagId": "E38",
+          "name": "缓慢",
+          "degree": 3
+        },
+        {
+          "tagId": "E13",
+          "name": "犹疑",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "时间体验",
+      "typeReason": "感受可跨多个视觉集合出现，作为横向入口",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GMEM",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28HJJL2NlIZ",
+            "title": "等待戈多",
+            "medium": "戏剧",
+            "official": "https://www.faber.co.uk/product/9780571244591-waiting-for-godot/"
+          },
+          {
+            "id": "reczz28HJJL2NlLE",
+            "title": "窗前的女人",
+            "medium": "绘画",
+            "official": "https://search.smb.museum/object/obj-961043"
+          },
+          {
+            "id": "reczz28HJJL2NlOg",
+            "title": "望江南·梳洗罢",
+            "medium": "诗",
+            "official": "http://www.jyb.cn/rmtzgjsb/201901/t20190108_127862.html"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "033",
+      "termId": "reczz28HJJL2GMGx",
+      "originalName": "宁静",
+      "englishOriginal": "Stillness",
+      "originalChapters": [
+        "留白"
+      ],
+      "pageType": "mood",
+      "plainName": "这一刻没有事催我",
+      "tags": [
+        {
+          "tagId": "S15",
+          "name": "安静",
+          "degree": 3
+        },
+        {
+          "tagId": "E03",
+          "name": "安心",
+          "degree": 3
+        },
+        {
+          "tagId": "E38",
+          "name": "缓慢",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "与058不紧绷的身体/姿态区分",
+      "typeReason": "感受可跨多个视觉集合出现，作为横向入口",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GMGx",
+        "hasCore": false,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "034",
+      "termId": "reczz28HJJL2GMJz",
+      "originalName": "含蓄",
+      "englishOriginal": "Reticence",
+      "originalChapters": [
+        "留白"
+      ],
+      "pageType": "mood",
+      "plainName": "有些话留着不说",
+      "tags": [
+        {
+          "tagId": "E31",
+          "name": "克制",
+          "degree": 3
+        },
+        {
+          "tagId": "E23",
+          "name": "亲密",
+          "degree": 1
+        },
+        {
+          "tagId": "E13",
+          "name": "犹疑",
+          "degree": 1
+        }
+      ],
+      "reviewNote": "表达与关系体验",
+      "typeReason": "感受可跨多个视觉集合出现，作为横向入口",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GMJz",
+        "hasCore": false,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "035",
+      "termId": "reczz28HJJL2GMMk",
+      "originalName": "Normcore",
+      "englishOriginal": "Normcore",
+      "originalChapters": [
+        "平淡"
+      ],
+      "pageType": "style",
+      "plainName": "普通一点也没关系",
+      "tags": [
+        {
+          "tagId": "E37",
+          "name": "日常感",
+          "degree": 3
+        },
+        {
+          "tagId": "E15",
+          "name": "松弛",
+          "degree": 2
+        },
+        {
+          "tagId": "E14",
+          "name": "低能量",
+          "degree": 1
+        }
+      ],
+      "reviewNote": "普通不等于匮乏；低能量仅弱关联候选",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GMMk",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28HJJL2NlRN",
+            "title": "斯特兰德街的室内，地板上的阳光",
+            "medium": "绘画",
+            "official": "https://connect.smk.dk/vaerker/5-kms-3696"
+          },
+          {
+            "id": "reczz28HJJL2NlWe",
+            "title": "五柳先生传",
+            "medium": "文学",
+            "official": "https://epaper.gmw.cn/gmrb/html/2023-09/11/nw.D110000gmrb_20230911_2-13.htm"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "036",
+      "termId": "reczz28HJJL2GMPN",
+      "originalName": "细水长流",
+      "englishOriginal": "Steady Stream",
+      "originalChapters": [
+        "平淡"
+      ],
+      "pageType": "mood",
+      "plainName": "明天也想和你这样过",
+      "tags": [
+        {
+          "tagId": "E23",
+          "name": "亲密",
+          "degree": 3
+        },
+        {
+          "tagId": "E03",
+          "name": "安心",
+          "degree": 3
+        },
+        {
+          "tagId": "E37",
+          "name": "日常感",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "关系的持续感",
+      "typeReason": "感受可跨多个视觉集合出现，作为横向入口",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GMPN",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28HJJL2NlZe",
+            "title": "浮生六记",
+            "medium": "文学",
+            "official": "https://epaper.gmw.cn/zhdsb/html/2015-11/25/nw.D110000zhdsb_20151125_5-08.htm"
+          },
+          {
+            "id": "reczz28HJJL2Nlew",
+            "title": "布朗姐妹",
+            "medium": "摄影",
+            "official": "[https://www.moma.org/explore/inside_out/2014/12/05/nicholas-nixon-40-years-of-the-brown-sisters/](https://www.moma.org/explore/inside_out/2014/12/05/nicholas-nixon-40-years-of-the-brown-sisters/)"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "037",
+      "termId": "reczz28HJJL2GMRw",
+      "originalName": "极简",
+      "englishOriginal": "Minimalism",
+      "originalChapters": [
+        "平淡"
+      ],
+      "pageType": "style",
+      "plainName": "少一点，心里更清楚",
+      "tags": [
+        {
+          "tagId": "S09",
+          "name": "规整",
+          "degree": 3
+        },
+        {
+          "tagId": "S07",
+          "name": "空旷",
+          "degree": 2
+        },
+        {
+          "tagId": "E24",
+          "name": "冷静",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "具体流派边界与案例后续核验",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GMRw",
+        "hasCore": false,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "038",
+      "termId": "reczz28HJJL2GMUe",
+      "originalName": "淡极生艳",
+      "englishOriginal": "Pale Brilliance",
+      "originalChapters": [
+        "平淡"
+      ],
+      "pageType": "mood",
+      "plainName": "淡淡的，也会被打动",
+      "tags": [
+        {
+          "tagId": "S04",
+          "name": "低饱和",
+          "degree": 3
+        },
+        {
+          "tagId": "E31",
+          "name": "克制",
+          "degree": 3
+        },
+        {
+          "tagId": "E04",
+          "name": "温柔",
+          "degree": 1
+        }
+      ],
+      "reviewNote": "修辞/感受条目，不伪装艺术流派",
+      "typeReason": "感受可跨多个视觉集合出现，作为横向入口",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GMUe",
+        "hasCore": false,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "039",
+      "termId": "reczz28HJJL2GMXK",
+      "originalName": "白月光",
+      "englishOriginal": "The One That Got Away",
+      "originalChapters": [
+        "物哀"
+      ],
+      "pageType": "mood",
+      "plainName": "后来谁都不像你",
+      "tags": [
+        {
+          "tagId": "E29",
+          "name": "眷恋",
+          "degree": 3
+        },
+        {
+          "tagId": "E10",
+          "name": "怀念",
+          "degree": 3
+        },
+        {
+          "tagId": "E11",
+          "name": "遗憾",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "关系记忆",
+      "typeReason": "感受可跨多个视觉集合出现，作为横向入口",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GMXK",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28HJJL2NlkE",
+            "title": "了不起的盖茨比",
+            "medium": "文学",
+            "official": "https://www.gutenberg.org/ebooks/64317"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "040",
+      "termId": "reczz28HJJL2GMZz",
+      "originalName": "意难平",
+      "englishOriginal": "Lingering Regret",
+      "originalChapters": [
+        "物哀"
+      ],
+      "pageType": "mood",
+      "plainName": "都过去了，我还过不去",
+      "tags": [
+        {
+          "tagId": "E11",
+          "name": "遗憾",
+          "degree": 3
+        },
+        {
+          "tagId": "E29",
+          "name": "眷恋",
+          "degree": 3
+        },
+        {
+          "tagId": "E19",
+          "name": "忧郁",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "情绪入口",
+      "typeReason": "感受可跨多个视觉集合出现，作为横向入口",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GMZz",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28HJJL2NlpW",
+            "title": "爱乐之城",
+            "medium": "电影",
+            "official": "https://www.lionsgate.com/movies/la-la-land"
+          },
+          {
+            "id": "reczz28HJJL2NlsB",
+            "title": "去月球",
+            "medium": "游戏",
+            "official": "https://freebirdgames.com/games/to-the-moon/"
+          },
+          {
+            "id": "reczz28HJJL2Nluq",
+            "title": "沈园二首",
+            "medium": "诗",
+            "official": "https://www.xhby.net/content/s694bde07e4b0be5ef3af4239.html"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "041",
+      "termId": "reczz28HJJL2GMcc",
+      "originalName": "青涩",
+      "englishOriginal": "First Crush",
+      "originalChapters": [
+        "物哀"
+      ],
+      "pageType": "mood",
+      "plainName": "还不熟练，反而动人",
+      "tags": [
+        {
+          "tagId": "E18",
+          "name": "天真",
+          "degree": 3
+        },
+        {
+          "tagId": "E13",
+          "name": "犹疑",
+          "degree": 2
+        },
+        {
+          "tagId": "E28",
+          "name": "期待",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "成长与关系体验",
+      "typeReason": "感受可跨多个视觉集合出现，作为横向入口",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GMcc",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28LeedcHSnq",
+            "title": "Pre-Kiss",
+            "medium": "胶片摄影",
+            "official": "https://store.aperture.org/products/olivia-bee-kids-in-love-2"
+          },
+          {
+            "id": "reczz28LeedcIqM7",
+            "title": "The Teenage Gaze",
+            "medium": "胶片摄影",
+            "official": "https://petra-collins.com/the-teenage-gaze/"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "042",
+      "termId": "reczz28HJJL2GMfJ",
+      "originalName": "告别",
+      "englishOriginal": "Farewell",
+      "originalChapters": [
+        "物哀"
+      ],
+      "pageType": "mood",
+      "plainName": "送到这里，就不再送了",
+      "tags": [
+        {
+          "tagId": "E29",
+          "name": "眷恋",
+          "degree": 3
+        },
+        {
+          "tagId": "E11",
+          "name": "遗憾",
+          "degree": 2
+        },
+        {
+          "tagId": "E30",
+          "name": "释然",
+          "degree": 1
+        }
+      ],
+      "reviewNote": "离别体验，释然不是默认结局",
+      "typeReason": "感受可跨多个视觉集合出现，作为横向入口",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GMfJ",
+        "hasCore": false,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "043",
+      "termId": "reczz28HJJL2GMrB",
+      "originalName": "沉浸式独处",
+      "englishOriginal": "Immersive Solitude",
+      "originalChapters": [
+        "日常"
+      ],
+      "pageType": "mood",
+      "plainName": "一个人待着也很满",
+      "tags": [
+        {
+          "tagId": "S15",
+          "name": "安静",
+          "degree": 3
+        },
+        {
+          "tagId": "E15",
+          "name": "松弛",
+          "degree": 3
+        },
+        {
+          "tagId": "E37",
+          "name": "日常感",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "独处不自动等于孤单",
+      "typeReason": "感受可跨多个视觉集合出现，作为横向入口",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GMrB",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28HJJL2Nm8E",
+            "title": "Unpacking",
+            "medium": "游戏",
+            "official": "https://www.unpackinggame.com/"
+          },
+          {
+            "id": "reczz28HJJL2NmAu",
+            "title": "在自己房间里的旅行",
+            "medium": "文学",
+            "official": "https://www.gutenberg.org/files/40248/40248-h/40248-h.htm"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "044",
+      "termId": "reczz28HJJL2GMxt",
+      "originalName": "烟火味",
+      "englishOriginal": "Hustle and Bustle",
+      "originalChapters": [
+        "日常"
+      ],
+      "pageType": "mood",
+      "plainName": "有人好好过日子，真好",
+      "tags": [
+        {
+          "tagId": "E37",
+          "name": "日常感",
+          "degree": 3
+        },
+        {
+          "tagId": "E23",
+          "name": "亲密",
+          "degree": 2
+        },
+        {
+          "tagId": "S30",
+          "name": "烟火气",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "烟火味是复合体验；烟火气是嗅觉联想，分开",
+      "typeReason": "感受可跨多个视觉集合出现，作为横向入口",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GMxt",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28LeF2soAIy",
+            "title": "香港后门",
+            "medium": "街头摄影",
+            "official": "https://photomichaelwolf.com/hong-kong/back-door/"
+          },
+          {
+            "id": "reczz28LeF2snCvV",
+            "title": "琪琪的早餐 I",
+            "medium": "现成物装置",
+            "official": "https://www.moma.org/collection/works/81430"
+          },
+          {
+            "id": "reczz28LeF2skMR8",
+            "title": "东京店构",
+            "medium": "水彩插画",
+            "official": "https://mateuszurbanowicz.com/tokyo-storefronts/"
+          },
+          {
+            "id": "reczz28LeF2slBKE",
+            "title": "物尽其用",
+            "medium": "大型装置",
+            "official": "https://www.moma.org/calendar/exhibitions/960"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "045",
+      "termId": "reczz28HJJL2GN4c",
+      "originalName": "生活切片",
+      "englishOriginal": "Slice of Life",
+      "originalChapters": [
+        "日常"
+      ],
+      "pageType": "mood",
+      "plainName": "没什么大事，也想留住",
+      "tags": [
+        {
+          "tagId": "E37",
+          "name": "日常感",
+          "degree": 3
+        },
+        {
+          "tagId": "E38",
+          "name": "缓慢",
+          "degree": 2
+        },
+        {
+          "tagId": "E29",
+          "name": "眷恋",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "题材型条目暂归体验入口，不冒充流派",
+      "typeReason": "感受可跨多个视觉集合出现，作为横向入口",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GN4c",
+        "hasCore": false,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "046",
+      "termId": "reczz28HJJL2GN7q",
+      "originalName": "破碎感",
+      "englishOriginal": "Fragility",
+      "originalChapters": [
+        "侘寂"
+      ],
+      "pageType": "mood",
+      "plainName": "撑不住的样子也想抱抱",
+      "tags": [
+        {
+          "tagId": "E07",
+          "name": "脆弱",
+          "degree": 3
+        },
+        {
+          "tagId": "E04",
+          "name": "温柔",
+          "degree": 2
+        },
+        {
+          "tagId": "E19",
+          "name": "忧郁",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "不能把痛苦美化成值得追求的状态",
+      "typeReason": "感受可跨多个视觉集合出现，作为横向入口",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GN7q",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28MSjtzerH5",
+            "title": "House #3｜房屋三号",
+            "medium": "实验摄影／明胶银盐",
+            "official": "https://www.nga.gov/artworks/157359-house-3"
+          },
+          {
+            "id": "reczz28MSjtzdloz",
+            "title": "Take Care of Yourself｜好好照顾自己",
+            "medium": "行为艺术／摄影／文本／影像装置",
+            "official": "https://phi.ca/en/events/sophie-calle-take-care-of-yourself/"
+          },
+          {
+            "id": "reczz28MSjtzdNy0",
+            "title": "星辰时刻｜一个连自己的悲惨都不知道的女孩",
+            "medium": "小说／文学",
+            "official": "https://www.ndbooks.com/book/the-hour-of-the-star/"
+          },
+          {
+            "id": "reczz28MSjtzcGfC",
+            "title": "玻璃动物园｜她说没关系的时候，心已经碎了",
+            "medium": "戏剧／文学",
+            "official": "https://www.ndbooks.com/book/the-glass-menagerie/"
+          },
+          {
+            "id": "reczz28MSjtzdW6a",
+            "title": "A Girl Is a Half-formed Thing｜当一个人的语言本身开始破碎",
+            "medium": "实验小说／文学",
+            "official": "https://www.coffeehousepress.org/products/a-girl-is-a-half-formed-thing"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "047",
+      "termId": "reczz28HJJL2GNBK",
+      "originalName": "拓印",
+      "englishOriginal": "Imprint",
+      "originalChapters": [],
+      "pageType": "style",
+      "plainName": "想留下东西碰过的痕迹",
+      "tags": [
+        {
+          "tagId": "S23",
+          "name": "粗糙",
+          "degree": 3
+        },
+        {
+          "tagId": "E37",
+          "name": "日常感",
+          "degree": 2
+        },
+        {
+          "tagId": "S11",
+          "name": "破旧",
+          "degree": 1
+        }
+      ],
+      "reviewNote": "工艺型争议；现案例为蓝晒，不能当成拓印工艺证据，后续必须核对",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GNBK",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28HJJL2Nmc7",
+            "title": "英国藻类图集：蓝晒印相",
+            "medium": "摄影",
+            "official": "https://www.metmuseum.org/art/collection/search/286656"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "048",
+      "termId": "reczz28HJJL2GNFA",
+      "originalName": "质朴",
+      "englishOriginal": "Rustic",
+      "originalChapters": [
+        "侘寂"
+      ],
+      "pageType": "mood",
+      "plainName": "不精致，也很踏实",
+      "tags": [
+        {
+          "tagId": "S23",
+          "name": "粗糙",
+          "degree": 2
+        },
+        {
+          "tagId": "E03",
+          "name": "安心",
+          "degree": 3
+        },
+        {
+          "tagId": "E37",
+          "name": "日常感",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "感受；不把乡土题材全部等同质朴",
+      "typeReason": "感受可跨多个视觉集合出现，作为横向入口",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GNFA",
+        "hasCore": false,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "049",
+      "termId": "reczz28HJJL2GNHq",
+      "originalName": "Riso 印刷",
+      "englishOriginal": "Risograph",
+      "originalChapters": [],
+      "pageType": "style",
+      "plainName": "印得不太齐，反而喜欢",
+      "tags": [
+        {
+          "tagId": "S10",
+          "name": "错位",
+          "degree": 3
+        },
+        {
+          "tagId": "S03",
+          "name": "鲜艳",
+          "degree": 2
+        },
+        {
+          "tagId": "E32",
+          "name": "顽皮",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "印刷媒介，不等于单一流派；后续决定是否保留style入口",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GNHq",
+        "hasCore": false,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "050",
+      "termId": "reczz28HJJL2GNOa",
+      "originalName": "新中式",
+      "englishOriginal": "New Chinese Style",
+      "originalChapters": [
+        "气韵"
+      ],
+      "pageType": "style",
+      "plainName": "老底子，也能过今天",
+      "tags": [
+        {
+          "tagId": "E31",
+          "name": "克制",
+          "degree": 2
+        },
+        {
+          "tagId": "E37",
+          "name": "日常感",
+          "degree": 2
+        },
+        {
+          "tagId": "E15",
+          "name": "松弛",
+          "degree": 1
+        }
+      ],
+      "reviewNote": "文化语境留在元数据，不能把东方当感觉分数",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GNOa",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28MjE1CQqVq",
+            "title": "邵帆《椅》系列｜不锈钢圈椅",
+            "medium": "家具设计、不锈钢雕塑",
+            "official": "https://www.metmuseum.org/art/collection/search/76089"
+          },
+          {
+            "id": "reczz28MjE1CSNUN",
+            "title": "Samuel Guì Yang 2024 秋冬系列",
+            "medium": "成衣时装",
+            "official": "https://www.vogue.com/fashion-shows/shanghai-fall-2024/samuel-gui-yang/slideshow/collection"
+          },
+          {
+            "id": "reczz28MjE1CR2rA",
+            "title": "龙鳞装《三十二篆金刚般若波罗蜜经》",
+            "medium": "艺术书、实验装帧",
+            "official": "http://www.artplusshanghai.com/a/Zhang-Xiaodong.html"
+          },
+          {
+            "id": "reczz28MjE1CRfHX",
+            "title": "《砖墙》青普扬州行馆 The Brick Wall",
+            "medium": "建筑、空间设计",
+            "official": "https://neriandhu.com/en/works/the-brick-wall-tsingpu-yangzhou-retreat"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "051",
+      "termId": "reczz28HJJL2GNSP",
+      "originalName": "水墨",
+      "englishOriginal": "Ink Wash",
+      "originalChapters": [
+        "气韵"
+      ],
+      "pageType": "style",
+      "plainName": "一片空白里也有天地",
+      "tags": [
+        {
+          "tagId": "S07",
+          "name": "空旷",
+          "degree": 3
+        },
+        {
+          "tagId": "S06",
+          "name": "朦胧",
+          "degree": 2
+        },
+        {
+          "tagId": "S14",
+          "name": "流动感",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "媒介传统集合，暂归style；本条用流动感词表项",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GNSP",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28LcucHlC54",
+            "title": "徐冰《背后的故事》Background Story",
+            "medium": "装置（灯箱/光影）",
+            "official": "https://museum.cornell.edu/exhibition/xu-bing-background-story/"
+          },
+          {
+            "id": "reczz28LcucHiz5V",
+            "title": "杨泳梁《蜃市山水》Phantom Landscape",
+            "medium": "数字摄影",
+            "official": "https://www.yangyongliang.com/phantom-landscape"
+          },
+          {
+            "id": "reczz28LcucHkDng",
+            "title": "邱黯雄《新山海经 II》The New Book of Mountains and Seas II",
+            "medium": "三屏动画影像",
+            "official": "https://www.moma.org/collection/works/135052"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "052",
+      "termId": "reczz28HJJL2GNcx",
+      "originalName": "武侠",
+      "englishOriginal": "Wuxia",
+      "originalChapters": [
+        "侠"
+      ],
+      "pageType": "style",
+      "plainName": "心里有牵挂，脚下有远方",
+      "tags": [
+        {
+          "tagId": "E21",
+          "name": "自由",
+          "degree": 3
+        },
+        {
+          "tagId": "E39",
+          "name": "豪迈",
+          "degree": 2
+        },
+        {
+          "tagId": "E36",
+          "name": "倔强",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "题材世界集合，不伪装单一视觉语言",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GNcx",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28MmyiIADor",
+            "title": "Retainers of Anarchy",
+            "medium": "算法动画、五通道影像装置",
+            "official": "https://www.howietsui.com/retainers-of-anarchy"
+          },
+          {
+            "id": "reczz28MmyiIBfka",
+            "title": "DAMOWANG 2024 秋冬系列",
+            "medium": "时装设计",
+            "official": "https://www.vogue.com.cn/fashion/industry/news_124124fd4e37142c.html"
+          },
+          {
+            "id": "reczz28MmyiIBtuF",
+            "title": "《夜将》Yejiang / The Nightman Cometh",
+            "medium": "黑白实验电影、摄影",
+            "official": "https://www.guggenheim.org/artwork/artist/yang-fudong"
+          },
+          {
+            "id": "reczz28MmyiICLBe",
+            "title": "《刺客聂隐娘》The Assassin",
+            "medium": "电影",
+            "official": "https://www.festival-cannes.com/en/f/nie-yinniang/"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "053",
+      "termId": "reczz28HJJL2GNfa",
+      "originalName": "魏晋风",
+      "englishOriginal": "Wei-Jin Style",
+      "originalChapters": [
+        "侠"
+      ],
+      "pageType": "style",
+      "plainName": "不想按规矩活得体面",
+      "tags": [
+        {
+          "tagId": "E21",
+          "name": "自由",
+          "degree": 3
+        },
+        {
+          "tagId": "E15",
+          "name": "松弛",
+          "degree": 2
+        },
+        {
+          "tagId": "E33",
+          "name": "大胆",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "时代/文化语境，案例待补，不泛化历史人物心理",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GNfa",
+        "hasCore": true,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "054",
+      "termId": "reczz28HJJL2GNiE",
+      "originalName": "仙侠",
+      "englishOriginal": "Xianxia",
+      "originalChapters": [
+        "侠"
+      ],
+      "pageType": "style",
+      "plainName": "人间太窄，想去更远处",
+      "tags": [
+        {
+          "tagId": "E21",
+          "name": "自由",
+          "degree": 3
+        },
+        {
+          "tagId": "E41",
+          "name": "虚幻",
+          "degree": 2
+        },
+        {
+          "tagId": "S27",
+          "name": "轻盈",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "题材世界集合",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GNiE",
+        "hasCore": false,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "055",
+      "termId": "reczz28HJJL2GNnU",
+      "originalName": "轻盈",
+      "englishOriginal": "Airy",
+      "originalChapters": [
+        "轻逸"
+      ],
+      "pageType": "mood",
+      "plainName": "脚步轻得想飘起来",
+      "tags": [
+        {
+          "tagId": "S27",
+          "name": "轻盈",
+          "degree": 3
+        },
+        {
+          "tagId": "E21",
+          "name": "自由",
+          "degree": 2
+        },
+        {
+          "tagId": "E28",
+          "name": "期待",
+          "degree": 1
+        }
+      ],
+      "reviewNote": "身体体验",
+      "typeReason": "感受可跨多个视觉集合出现，作为横向入口",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GNnU",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28HJJL2NnWm",
+            "title": "仙女",
+            "medium": "舞蹈",
+            "official": "https://www.operadeparis.fr/en/season-16-17/ballet/la-sylphide"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "056",
+      "termId": "reczz28HJJL2GNqc",
+      "originalName": "清透",
+      "englishOriginal": "Translucent",
+      "originalChapters": [
+        "轻逸"
+      ],
+      "pageType": "mood",
+      "plainName": "看得见，也透得过气",
+      "tags": [
+        {
+          "tagId": "S05",
+          "name": "透明",
+          "degree": 3
+        },
+        {
+          "tagId": "S27",
+          "name": "轻盈",
+          "degree": 2
+        },
+        {
+          "tagId": "S20",
+          "name": "微凉",
+          "degree": 1
+        }
+      ],
+      "reviewNote": "感官体验",
+      "typeReason": "感受可跨多个视觉集合出现，作为横向入口",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GNqc",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28LeeYH4bwm",
+            "title": "Well and Truly",
+            "medium": "铸造玻璃",
+            "official": "https://lesoeuvres.pinaultcollection.com/en/artwork/well-and-truly"
+          },
+          {
+            "id": "reczz28LeeYH62Cx",
+            "title": "Rain Bottle（雨之瓶）",
+            "medium": "产品设计",
+            "official": "https://www.nendo.jp/en/works/rain-bottle-2/"
+          },
+          {
+            "id": "reczz28LeeYH59r1",
+            "title": "Liquid Glacial（液态冰川）",
+            "medium": "家具",
+            "official": "https://www.zaha-hadid-design.com/pages/liquid"
+          },
+          {
+            "id": "reczz28LeeYH6DgG",
+            "title": "Illuminance（照度）",
+            "medium": "摄影",
+            "official": "https://rinkokawauchi.com/en/works/194/"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "057",
+      "termId": "reczz28HJJL2GNwD",
+      "originalName": "流动",
+      "englishOriginal": "Flow",
+      "originalChapters": [
+        "轻逸"
+      ],
+      "pageType": "mood",
+      "plainName": "不想定住，就这样流着",
+      "tags": [
+        {
+          "tagId": "S14",
+          "name": "流动感",
+          "degree": 3
+        },
+        {
+          "tagId": "E21",
+          "name": "自由",
+          "degree": 2
+        },
+        {
+          "tagId": "E15",
+          "name": "松弛",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "感官/节奏体验",
+      "typeReason": "感受可跨多个视觉集合出现，作为横向入口",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GNwD",
+        "hasCore": false,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "058",
+      "termId": "reczz28HJJL2GOA8",
+      "originalName": "松弛感",
+      "englishOriginal": "Effortless",
+      "originalChapters": [
+        "从容"
+      ],
+      "pageType": "mood",
+      "plainName": "不用一直绷着",
+      "tags": [
+        {
+          "tagId": "E15",
+          "name": "松弛",
+          "degree": 3
+        },
+        {
+          "tagId": "E03",
+          "name": "安心",
+          "degree": 2
+        },
+        {
+          "tagId": "E38",
+          "name": "缓慢",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "身体与关系体验",
+      "typeReason": "感受可跨多个视觉集合出现，作为横向入口",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GOA8",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28HJJL2NoGj",
+            "title": "定风波·莫听穿林打叶声",
+            "medium": "诗",
+            "official": "https://epaper.gmw.cn/gmrb/html/2022-08/05/nw.D110000gmrb_20220805_1-13.htm"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "059",
+      "termId": "reczz28HJJL2GOCn",
+      "originalName": "法式不经意",
+      "englishOriginal": "French Sprezzatura",
+      "originalChapters": [
+        "从容"
+      ],
+      "pageType": "style",
+      "plainName": "没刻意，也有自己的样子",
+      "tags": [
+        {
+          "tagId": "E15",
+          "name": "松弛",
+          "degree": 3
+        },
+        {
+          "tagId": "E42",
+          "name": "自信",
+          "degree": 2
+        },
+        {
+          "tagId": "E37",
+          "name": "日常感",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "不把国籍当性格事实",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GOCn",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28HJJL2NoJM",
+            "title": "船上的午宴",
+            "medium": "绘画",
+            "official": "https://www.phillipscollection.org/collection/luncheon-boating-party"
+          },
+          {
+            "id": "reczz28HJJL2NoLz",
+            "title": "布洛涅森林大道，巴黎",
+            "medium": "摄影",
+            "official": "https://www.moma.org/collection/works/45027"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "060",
+      "termId": "reczz28HJJL2GOKi",
+      "originalName": "反差",
+      "englishOriginal": "Contrast",
+      "originalChapters": [],
+      "pageType": "mood",
+      "plainName": "我不只有你以为的那一面",
+      "tags": [
+        {
+          "tagId": "S10",
+          "name": "错位",
+          "degree": 3
+        },
+        {
+          "tagId": "E33",
+          "name": "大胆",
+          "degree": 2
+        },
+        {
+          "tagId": "E32",
+          "name": "顽皮",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "跨风格的反差体验",
+      "typeReason": "感受可跨多个视觉集合出现，作为横向入口",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GOKi",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28HJJL2NoRe",
+            "title": "虎图",
+            "medium": "绘画",
+            "official": "https://www.muryoji.jp/museum/aboutrosetsu/index.html"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "061",
+      "termId": "reczz28HJJL2GONM",
+      "originalName": "嚣张",
+      "englishOriginal": "Swagger",
+      "originalChapters": [
+        "酷"
+      ],
+      "pageType": "mood",
+      "plainName": "今天就想张扬一点",
+      "tags": [
+        {
+          "tagId": "E42",
+          "name": "自信",
+          "degree": 3
+        },
+        {
+          "tagId": "E33",
+          "name": "大胆",
+          "degree": 3
+        },
+        {
+          "tagId": "E08",
+          "name": "兴奋",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "姿态/情绪入口",
+      "typeReason": "感受可跨多个视觉集合出现，作为横向入口",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GONM",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28HJJL2Nobp",
+            "title": "跨越阿尔卑斯山圣伯纳隘口的拿破仑",
+            "medium": "绘画",
+            "official": "https://musees-nationaux-malmaison.fr/chateau-malmaison/collection/objet/le-premier-consul-franchissant-les-alpes-au-col-du-grand-saint-bernard"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "062",
+      "termId": "reczz28HJJL2GOVG",
+      "originalName": "反诗意",
+      "englishOriginal": "Anti-Poetic",
+      "originalChapters": [
+        "怪诞"
+      ],
+      "pageType": "style",
+      "plainName": "不想把日子说得太美",
+      "tags": [
+        {
+          "tagId": "E37",
+          "name": "日常感",
+          "degree": 3
+        },
+        {
+          "tagId": "E35",
+          "name": "清醒",
+          "degree": 3
+        },
+        {
+          "tagId": "E25",
+          "name": "荒诞",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "创作立场集合，是否独立style待审",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GOVG",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28HJJL2Nojl",
+            "title": "伊卡洛斯坠落的风景",
+            "medium": "绘画",
+            "official": "https://artsandculture.google.com/asset/landscape-with-the-fall-of-icarus-pieter-bruegel-the-elder-after/6gGkgMwPyiEqUQ?hl=en"
+          },
+          {
+            "id": "reczz28HJJL2NomO",
+            "title": "最后的度假胜地",
+            "medium": "摄影",
+            "official": "[https://martinparrfoundation.org/exhibitions/the-last-resort/](https://martinparrfoundation.org/exhibitions/the-last-resort/)"
+          },
+          {
+            "id": "reczz28HJJL2Nop1",
+            "title": "便条",
+            "medium": "诗",
+            "official": "https://www.poetryfoundation.org/poems/56159/this-is-just-to-say"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "063",
+      "termId": "reczz28HJJL2GOdG",
+      "originalName": "粗粝",
+      "englishOriginal": "Gritty",
+      "originalChapters": [],
+      "pageType": "mood",
+      "plainName": "带点毛边才像真的",
+      "tags": [
+        {
+          "tagId": "S23",
+          "name": "粗糙",
+          "degree": 3
+        },
+        {
+          "tagId": "S11",
+          "name": "破旧",
+          "degree": 2
+        },
+        {
+          "tagId": "E36",
+          "name": "倔强",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "触觉与质感体验",
+      "typeReason": "感受可跨多个视觉集合出现，作为横向入口",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GOdG",
+        "hasCore": false,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "064",
+      "termId": "reczz28HJJL2GOfq",
+      "originalName": "暗黑",
+      "englishOriginal": "Dark Aesthetic",
+      "originalChapters": [
+        "阴翳"
+      ],
+      "pageType": "style",
+      "plainName": "黑一点，我反而自在",
+      "tags": [
+        {
+          "tagId": "S02",
+          "name": "昏暗",
+          "degree": 3
+        },
+        {
+          "tagId": "E01",
+          "name": "神秘",
+          "degree": 2
+        },
+        {
+          "tagId": "E05",
+          "name": "疏离",
+          "degree": 2
+        },
+        {
+          "tagId": "E19",
+          "name": "忧郁",
+          "degree": 1
+        }
+      ],
+      "reviewNote": "广义视觉集合，不能和087哥特合并",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GOfq",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28HJJL2Nozt",
+            "title": "圣马太蒙召",
+            "medium": "绘画",
+            "official": "https://saintlouis-rome.net/horaires-visite-opening-hours/caravage/"
+          },
+          {
+            "id": "reczz28HJJL2Np2q",
+            "title": "Audrey, Comme des Garçons, Paris, 1996",
+            "medium": "时尚摄影",
+            "official": "[https://www.palaisgalliera.paris.fr/sites/galliera/files/cp_dp_visuels/dossiers_de_presse/dp_paolo_roversi_galliera_uk.pdf](https://www.palaisgalliera.paris.fr/sites/galliera/files/cp_dp_visuels/dossiers_de_presse/dp_paolo_roversi_galliera_uk.pdf)"
+          },
+          {
+            "id": "reczz28HJJL2Np5S",
+            "title": "光之教堂",
+            "medium": "建筑",
+            "official": "http://www.ibaraki-kasugaoka-church.jp/j-welcome.html"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "065",
+      "termId": "reczz28HJJL2GOiU",
+      "originalName": "昏黄",
+      "englishOriginal": "Lamplight",
+      "originalChapters": [
+        "阴翳"
+      ],
+      "pageType": "mood",
+      "plainName": "想在这盏灯下多待一会儿",
+      "tags": [
+        {
+          "tagId": "S19",
+          "name": "温暖",
+          "degree": 3
+        },
+        {
+          "tagId": "S17",
+          "name": "低回",
+          "degree": 1
+        },
+        {
+          "tagId": "E29",
+          "name": "眷恋",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "光色/停留体验，不强制忧郁",
+      "typeReason": "感受可跨多个视觉集合出现，作为横向入口",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GOiU",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28HJJL2NpAn",
+            "title": "木匠圣约瑟",
+            "medium": "绘画",
+            "official": "https://collections.louvre.fr/en/ark:/53355/cl010063817"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "066",
+      "termId": "reczz28HJJL2GOr1",
+      "originalName": "阴湿",
+      "englishOriginal": "Damp",
+      "originalChapters": [
+        "阴翳"
+      ],
+      "pageType": "mood",
+      "plainName": "潮气黏着，心事也黏着",
+      "tags": [
+        {
+          "tagId": "S25",
+          "name": "潮湿",
+          "degree": 3
+        },
+        {
+          "tagId": "S02",
+          "name": "昏暗",
+          "degree": 2
+        },
+        {
+          "tagId": "E09",
+          "name": "压抑",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "感官联想，不是环境与心理的因果论断",
+      "typeReason": "感受可跨多个视觉集合出现，作为横向入口",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GOr1",
+        "hasCore": false,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "067",
+      "termId": "reczz28HJJL2GOtf",
+      "originalName": "宿命感",
+      "englishOriginal": "Fated",
+      "originalChapters": [
+        "悲剧"
+      ],
+      "pageType": "mood",
+      "plainName": "知道结局，还是走过去",
+      "tags": [
+        {
+          "tagId": "E27",
+          "name": "无力",
+          "degree": 3
+        },
+        {
+          "tagId": "E22",
+          "name": "坚定",
+          "degree": 2
+        },
+        {
+          "tagId": "E19",
+          "name": "忧郁",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "叙事体验",
+      "typeReason": "感受可跨多个视觉集合出现，作为横向入口",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GOtf",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28MpmQFmKwG",
+            "title": "La Jetée",
+            "medium": "实验短片／黑白摄影叙事",
+            "official": "https://www.cinematheque.fr/film/49998.html"
+          },
+          {
+            "id": "reczz28MpmQFo3uh",
+            "title": "Melancholia",
+            "medium": "电影",
+            "official": "https://www.festival-cannes.com/en/f/melancholia/"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "068",
+      "termId": "reczz28HJJL2GOwt",
+      "originalName": "刀子",
+      "englishOriginal": "Hidden Angst",
+      "originalChapters": [
+        "悲剧"
+      ],
+      "pageType": "mood",
+      "plainName": "越是温柔，越让人难过",
+      "tags": [
+        {
+          "tagId": "E04",
+          "name": "温柔",
+          "degree": 3
+        },
+        {
+          "tagId": "E11",
+          "name": "遗憾",
+          "degree": 3
+        },
+        {
+          "tagId": "E07",
+          "name": "脆弱",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "情感反差体验",
+      "typeReason": "感受可跨多个视觉集合出现，作为横向入口",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GOwt",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28HJJL2NpNz",
+            "title": "盲女",
+            "medium": "绘画",
+            "official": "https://dams.birminghammuseums.org.uk/asset-bank/action/viewAsset?id=3114"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "069",
+      "termId": "reczz28HJJL2GOzV",
+      "originalName": "悲壮感",
+      "englishOriginal": "Tragic Heroism",
+      "originalChapters": [
+        "悲剧"
+      ],
+      "pageType": "mood",
+      "plainName": "明知会输，也不退",
+      "tags": [
+        {
+          "tagId": "E34",
+          "name": "悲壮",
+          "degree": 3
+        },
+        {
+          "tagId": "E22",
+          "name": "坚定",
+          "degree": 3
+        },
+        {
+          "tagId": "E17",
+          "name": "庄严",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "叙事体验",
+      "typeReason": "感受可跨多个视觉集合出现，作为横向入口",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GOzV",
+        "hasCore": false,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "070",
+      "termId": "reczz28HJJL2GP2A",
+      "originalName": "决绝",
+      "englishOriginal": "No Turning Back",
+      "originalChapters": [
+        "悲剧"
+      ],
+      "pageType": "mood",
+      "plainName": "这一次，我不回头了",
+      "tags": [
+        {
+          "tagId": "E26",
+          "name": "决绝",
+          "degree": 3
+        },
+        {
+          "tagId": "E22",
+          "name": "坚定",
+          "degree": 3
+        },
+        {
+          "tagId": "E35",
+          "name": "清醒",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "行动/关系体验",
+      "typeReason": "感受可跨多个视觉集合出现，作为横向入口",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GP2A",
+        "hasCore": false,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "071",
+      "termId": "reczz28HJJL2GP4n",
+      "originalName": "废土",
+      "englishOriginal": "Wasteland",
+      "originalChapters": [
+        "废墟"
+      ],
+      "pageType": "style",
+      "plainName": "都荒了，还想活下去",
+      "tags": [
+        {
+          "tagId": "S11",
+          "name": "破旧",
+          "degree": 3
+        },
+        {
+          "tagId": "S07",
+          "name": "空旷",
+          "degree": 2
+        },
+        {
+          "tagId": "E36",
+          "name": "倔强",
+          "degree": 2
+        },
+        {
+          "tagId": "E19",
+          "name": "忧郁",
+          "degree": 1
+        }
+      ],
+      "reviewNote": "题材世界；与072终结时刻区分",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GP4n",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28MoBSnxpUl",
+            "title": "Gas｜加油站",
+            "medium": "观念摄影",
+            "official": "https://www.davidlachapelle.com/series-gas"
+          },
+          {
+            "id": "reczz28MoBSnzMZH",
+            "title": "《电幻国度》The Electric State",
+            "medium": "数字绘画／插画小说",
+            "official": "https://www.simonstalenhag.se/es.html"
+          },
+          {
+            "id": "reczz28MoBSnwnPa",
+            "title": "《Stray》",
+            "medium": "电子游戏",
+            "official": "https://stray.game/"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "072",
+      "termId": "reczz28HJJL2GP7R",
+      "originalName": "末世",
+      "englishOriginal": "End Times",
+      "originalChapters": [
+        "废墟"
+      ],
+      "pageType": "style",
+      "plainName": "世界都要结束了，然后呢",
+      "tags": [
+        {
+          "tagId": "E02",
+          "name": "不安",
+          "degree": 3
+        },
+        {
+          "tagId": "E27",
+          "name": "无力",
+          "degree": 2
+        },
+        {
+          "tagId": "E28",
+          "name": "期待",
+          "degree": 1
+        }
+      ],
+      "reviewNote": "题材世界；不把毁灭写成读者愿望事实",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GP7R",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28Miu2sh6u5",
+            "title": "《城市》The City",
+            "medium": "微缩模型、摄影",
+            "official": "https://www.lorinix.net/the-city"
+          },
+          {
+            "id": "reczz28Miu2sf9uj",
+            "title": "《最后的暴乱》Last Riot",
+            "medium": "多屏影像、数字拼贴、雕塑",
+            "official": "https://aesfgroup.com/projects/last_riot/"
+          },
+          {
+            "id": "reczz28Miu2sgZLu",
+            "title": "《昂热启示录挂毯》Apocalypse Tapestry",
+            "medium": "巨幅叙事挂毯",
+            "official": "https://www.chateau-angers.fr/en/discover/la-tapisserie-de-l-apocalypse-un-chef-d-aeuvre-unique-au-monde"
+          },
+          {
+            "id": "reczz28Miu2sf2sd",
+            "title": "《宇宙毁灭者跋陀罗迦梨》Bhadrakali, Destroyer of the Universe",
+            "medium": "细密画（金、银颜料与甲虫鞘翅装饰）",
+            "official": "https://www.metmuseum.org/art/collection/search/825645"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "073",
+      "termId": "reczz28HJJL2GPCk",
+      "originalName": "波普",
+      "englishOriginal": "Pop Art",
+      "originalChapters": [
+        "酒神"
+      ],
+      "pageType": "style",
+      "plainName": "普通东西也要大声出场",
+      "tags": [
+        {
+          "tagId": "S03",
+          "name": "鲜艳",
+          "degree": 3
+        },
+        {
+          "tagId": "S12",
+          "name": "庞大",
+          "degree": 2
+        },
+        {
+          "tagId": "E32",
+          "name": "顽皮",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "现有案例为空，后续补真实作品",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GPCk",
+        "hasCore": true,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "074",
+      "termId": "reczz28HJJL2GPFN",
+      "originalName": "赛博朋克",
+      "englishOriginal": "Cyberpunk",
+      "originalChapters": [
+        "未来想象"
+      ],
+      "pageType": "style",
+      "plainName": "未来越亮，心里越没底",
+      "tags": [
+        {
+          "tagId": "S03",
+          "name": "鲜艳",
+          "degree": 3
+        },
+        {
+          "tagId": "E05",
+          "name": "疏离",
+          "degree": 3
+        },
+        {
+          "tagId": "E16",
+          "name": "紧绷",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "现有案例为空，标签仅候选",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28HJJL2GPFN",
+        "hasCore": false,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "075",
+      "termId": "reczz28MKp7HdDiG",
+      "originalName": "颓废美学",
+      "englishOriginal": "Decadence",
+      "originalChapters": [
+        "忧郁"
+      ],
+      "pageType": "style",
+      "plainName": "快要凋谢，也要漂亮",
+      "tags": [
+        {
+          "tagId": "E19",
+          "name": "忧郁",
+          "degree": 3
+        },
+        {
+          "tagId": "E40",
+          "name": "丰盛",
+          "degree": 3
+        },
+        {
+          "tagId": "E07",
+          "name": "脆弱",
+          "degree": 2
+        },
+        {
+          "tagId": "E14",
+          "name": "低能量",
+          "degree": 1
+        }
+      ],
+      "reviewNote": "用户指定风格页样板；低能量不是颓废美学的同义词",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28MKp7HdDiG",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28MnyHcRK5r",
+            "title": "《高潮》The Climax",
+            "medium": "黑白插画、书籍设计",
+            "official": "https://www.metmuseum.org/art/collection/search/822368"
+          },
+          {
+            "id": "reczz28MnyHcRaTA",
+            "title": "《孔雀裙》The Peacock Skirt",
+            "medium": "黑白插画",
+            "official": "https://www.metmuseum.org/art/collection/search/822344"
+          },
+          {
+            "id": "reczz28MnyHcQMQu",
+            "title": "《蜻蜓女子》Dragonfly Corsage Ornament",
+            "medium": "珠宝、珐琅、黄金与宝石",
+            "official": "https://gulbenkian.pt/museu/en/works/dragonfly-corsage-ornament/"
+          },
+          {
+            "id": "reczz28MnyHcRudP",
+            "title": "《眼睛像一只奇异的气球，飞向无限》",
+            "medium": "石版画（Noirs）",
+            "official": "https://www.moma.org/collection/works/33013"
+          },
+          {
+            "id": "reczz28MnyHcQLe7",
+            "title": "Artisanal 2024 高级定制系列",
+            "medium": "高级定制、妆造、秀场表演",
+            "official": "https://www.vogue.com/fashion-shows/spring-2024-couture/maison-martin-margiela"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "076",
+      "termId": "reczz28MKp7HdIot",
+      "originalName": "坎普",
+      "englishOriginal": "Camp",
+      "originalChapters": [
+        "酒神"
+      ],
+      "pageType": "style",
+      "plainName": "夸张就夸张，我乐意",
+      "tags": [
+        {
+          "tagId": "E33",
+          "name": "大胆",
+          "degree": 3
+        },
+        {
+          "tagId": "E32",
+          "name": "顽皮",
+          "degree": 3
+        },
+        {
+          "tagId": "E42",
+          "name": "自信",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "与098童趣区分",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28MKp7HdIot",
+        "hasCore": false,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "077",
+      "termId": "reczz28MKp7HfUmt",
+      "originalName": "酸性视觉",
+      "englishOriginal": "Acid Graphics",
+      "originalChapters": [
+        "酒神"
+      ],
+      "pageType": "style",
+      "plainName": "越晃眼，我越来劲",
+      "tags": [
+        {
+          "tagId": "S03",
+          "name": "鲜艳",
+          "degree": 3
+        },
+        {
+          "tagId": "S10",
+          "name": "错位",
+          "degree": 3
+        },
+        {
+          "tagId": "E08",
+          "name": "兴奋",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "具体视觉语汇待案例核验",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28MKp7HfUmt",
+        "hasCore": false,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "078",
+      "termId": "reczz28MKp7HfSC1",
+      "originalName": "孟菲斯",
+      "englishOriginal": "Memphis",
+      "originalChapters": [
+        "酒神"
+      ],
+      "pageType": "style",
+      "plainName": "规规矩矩里偏要淘气",
+      "tags": [
+        {
+          "tagId": "E32",
+          "name": "顽皮",
+          "degree": 3
+        },
+        {
+          "tagId": "S03",
+          "name": "鲜艳",
+          "degree": 3
+        },
+        {
+          "tagId": "S09",
+          "name": "规整",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "具体设计谱系后续核验",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28MKp7HfSC1",
+        "hasCore": false,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "079",
+      "termId": "reczz28MKp7HfeNy",
+      "originalName": "宋韵",
+      "englishOriginal": "Song Aesthetics",
+      "originalChapters": [
+        "气韵"
+      ],
+      "pageType": "style",
+      "plainName": "清淡日子里也有讲究",
+      "tags": [
+        {
+          "tagId": "S04",
+          "name": "低饱和",
+          "degree": 3
+        },
+        {
+          "tagId": "E31",
+          "name": "克制",
+          "degree": 3
+        },
+        {
+          "tagId": "S15",
+          "name": "安静",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "文化语境，不能把朝代写成一种固定性格",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28MKp7HfeNy",
+        "hasCore": false,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "080",
+      "termId": "reczz28MKp7HeRsf",
+      "originalName": "史诗感",
+      "englishOriginal": "Epic",
+      "originalChapters": [
+        "崇高"
+      ],
+      "pageType": "mood",
+      "plainName": "这一次，像站在大时代里",
+      "tags": [
+        {
+          "tagId": "E39",
+          "name": "豪迈",
+          "degree": 3
+        },
+        {
+          "tagId": "E17",
+          "name": "庄严",
+          "degree": 3
+        },
+        {
+          "tagId": "S12",
+          "name": "庞大",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "尺度与叙事体验",
+      "typeReason": "感受可跨多个视觉集合出现，作为横向入口",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28MKp7HeRsf",
+        "hasCore": false,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "081",
+      "termId": "reczz28MKp7HcZiE",
+      "originalName": "巨物感",
+      "englishOriginal": "Gigantism",
+      "originalChapters": [
+        "崇高"
+      ],
+      "pageType": "mood",
+      "plainName": "站在它面前，我好小",
+      "tags": [
+        {
+          "tagId": "S12",
+          "name": "庞大",
+          "degree": 3
+        },
+        {
+          "tagId": "E17",
+          "name": "庄严",
+          "degree": 2
+        },
+        {
+          "tagId": "E02",
+          "name": "不安",
+          "degree": 1
+        }
+      ],
+      "reviewNote": "尺度体验",
+      "typeReason": "感受可跨多个视觉集合出现，作为横向入口",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28MKp7HcZiE",
+        "hasCore": false,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "082",
+      "termId": "reczz28MKp7HdgPi",
+      "originalName": "朋克",
+      "englishOriginal": "Punk",
+      "originalChapters": [
+        "酷"
+      ],
+      "pageType": "style",
+      "plainName": "我就是不想听话",
+      "tags": [
+        {
+          "tagId": "E20",
+          "name": "叛逆",
+          "degree": 3
+        },
+        {
+          "tagId": "E33",
+          "name": "大胆",
+          "degree": 3
+        },
+        {
+          "tagId": "S23",
+          "name": "粗糙",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "与013复古音乐记忆区分",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28MKp7HdgPi",
+        "hasCore": false,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "083",
+      "termId": "reczz28MKp7HeJf0",
+      "originalName": "机能风",
+      "englishOriginal": "Techwear",
+      "originalChapters": [
+        "酷"
+      ],
+      "pageType": "style",
+      "plainName": "随时出发，什么都带上",
+      "tags": [
+        {
+          "tagId": "E22",
+          "name": "坚定",
+          "degree": 3
+        },
+        {
+          "tagId": "E16",
+          "name": "紧绷",
+          "degree": 2
+        },
+        {
+          "tagId": "E24",
+          "name": "冷静",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "服装视觉集合；装备不等于真实能力",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28MKp7HeJf0",
+        "hasCore": false,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "084",
+      "termId": "reczz28MKp7HcT4e",
+      "originalName": "Grunge",
+      "englishOriginal": "Grunge",
+      "originalChapters": [
+        "酷"
+      ],
+      "pageType": "style",
+      "plainName": "不想收拾得像没事一样",
+      "tags": [
+        {
+          "tagId": "S23",
+          "name": "粗糙",
+          "degree": 3
+        },
+        {
+          "tagId": "E14",
+          "name": "低能量",
+          "degree": 2
+        },
+        {
+          "tagId": "E20",
+          "name": "叛逆",
+          "degree": 2
+        },
+        {
+          "tagId": "E19",
+          "name": "忧郁",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "现有案例为空，候选关联不写成人格判断",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28MKp7HcT4e",
+        "hasCore": false,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "085",
+      "termId": "reczz28MKp7Hf5dr",
+      "originalName": "身体恐怖",
+      "englishOriginal": "Body Horror",
+      "originalChapters": [
+        "怪诞"
+      ],
+      "pageType": "style",
+      "plainName": "自己的身体，也会变陌生",
+      "tags": [
+        {
+          "tagId": "E02",
+          "name": "不安",
+          "degree": 3
+        },
+        {
+          "tagId": "E07",
+          "name": "脆弱",
+          "degree": 3
+        },
+        {
+          "tagId": "E25",
+          "name": "荒诞",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "题材/类型集合",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28MKp7Hf5dr",
+        "hasCore": false,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "086",
+      "termId": "reczz28MKp7HdhY9",
+      "originalName": "波普超现实主义",
+      "englishOriginal": "Pop Surrealism",
+      "originalChapters": [
+        "怪诞"
+      ],
+      "pageType": "style",
+      "plainName": "糖果色里有个怪念头",
+      "tags": [
+        {
+          "tagId": "S32",
+          "name": "甜",
+          "degree": 2
+        },
+        {
+          "tagId": "E25",
+          "name": "荒诞",
+          "degree": 3
+        },
+        {
+          "tagId": "E41",
+          "name": "虚幻",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "原名与具体作品范围后续核验",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28MKp7HdhY9",
+        "hasCore": false,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "087",
+      "termId": "reczz28MKp7Hg1Xg",
+      "originalName": "哥特",
+      "englishOriginal": "Gothic",
+      "originalChapters": [
+        "阴翳"
+      ],
+      "pageType": "style",
+      "plainName": "想把夜色穿在身上",
+      "tags": [
+        {
+          "tagId": "S02",
+          "name": "昏暗",
+          "degree": 3
+        },
+        {
+          "tagId": "E17",
+          "name": "庄严",
+          "degree": 2
+        },
+        {
+          "tagId": "E01",
+          "name": "神秘",
+          "degree": 2
+        },
+        {
+          "tagId": "E19",
+          "name": "忧郁",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "哥特多义，具体采用分支待证据核验",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28MKp7Hg1Xg",
+        "hasCore": false,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "088",
+      "termId": "reczz28MKp7HcBBm",
+      "originalName": "黑色电影",
+      "englishOriginal": "Film Noir",
+      "originalChapters": [
+        "阴翳"
+      ],
+      "pageType": "style",
+      "plainName": "谁都像藏着另一句话",
+      "tags": [
+        {
+          "tagId": "E01",
+          "name": "神秘",
+          "degree": 3
+        },
+        {
+          "tagId": "E05",
+          "name": "疏离",
+          "degree": 2
+        },
+        {
+          "tagId": "E02",
+          "name": "不安",
+          "degree": 2
+        },
+        {
+          "tagId": "E19",
+          "name": "忧郁",
+          "degree": 1
+        }
+      ],
+      "reviewNote": "类型/视觉集合，后续以真实电影为据",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28MKp7HcBBm",
+        "hasCore": false,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "089",
+      "termId": "reczz28MKp7HfXiT",
+      "originalName": "科幻视觉",
+      "englishOriginal": "Sci-Fi Visual",
+      "originalChapters": [
+        "未来想象"
+      ],
+      "pageType": "style",
+      "plainName": "世界不只眼前这一种",
+      "tags": [
+        {
+          "tagId": "E41",
+          "name": "虚幻",
+          "degree": 3
+        },
+        {
+          "tagId": "E28",
+          "name": "期待",
+          "degree": 2
+        },
+        {
+          "tagId": "E24",
+          "name": "冷静",
+          "degree": 1
+        }
+      ],
+      "reviewNote": "范围过宽待审，与子类型不能重复充数",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28MKp7HfXiT",
+        "hasCore": false,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "090",
+      "termId": "reczz28MKp7HdNoP",
+      "originalName": "蒸汽朋克",
+      "englishOriginal": "Steampunk",
+      "originalChapters": [
+        "未来想象"
+      ],
+      "pageType": "style",
+      "plainName": "想开着老机器去未来",
+      "tags": [
+        {
+          "tagId": "E10",
+          "name": "怀念",
+          "degree": 3
+        },
+        {
+          "tagId": "S22",
+          "name": "坚硬",
+          "degree": 2
+        },
+        {
+          "tagId": "E39",
+          "name": "豪迈",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "题材世界",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28MKp7HdNoP",
+        "hasCore": false,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "091",
+      "termId": "reczz28MKp7HfS8b",
+      "originalName": "太阳朋克",
+      "englishOriginal": "Solarpunk",
+      "originalChapters": [
+        "未来想象"
+      ],
+      "pageType": "style",
+      "plainName": "以后也想晒到好太阳",
+      "tags": [
+        {
+          "tagId": "S01",
+          "name": "明亮",
+          "degree": 3
+        },
+        {
+          "tagId": "S29",
+          "name": "草木气",
+          "degree": 2
+        },
+        {
+          "tagId": "E28",
+          "name": "期待",
+          "degree": 3
+        }
+      ],
+      "reviewNote": "不能仅按绿植外观定类，后续案例审阅",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28MKp7HfS8b",
+        "hasCore": false,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "092",
+      "termId": "reczz28MKp7Hfsmz",
+      "originalName": "复古未来主义",
+      "englishOriginal": "Retrofuturism",
+      "originalChapters": [
+        "未来想象"
+      ],
+      "pageType": "style",
+      "plainName": "怀念从前想象的明天",
+      "tags": [
+        {
+          "tagId": "E10",
+          "name": "怀念",
+          "degree": 3
+        },
+        {
+          "tagId": "E28",
+          "name": "期待",
+          "degree": 3
+        },
+        {
+          "tagId": "E41",
+          "name": "虚幻",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "与009怀念过去区分",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28MKp7Hfsmz",
+        "hasCore": false,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "093",
+      "termId": "reczz28MKp7HdF81",
+      "originalName": "太空歌剧",
+      "englishOriginal": "Space Opera",
+      "originalChapters": [
+        "未来想象"
+      ],
+      "pageType": "style",
+      "plainName": "把远方想得比星空还大",
+      "tags": [
+        {
+          "tagId": "S12",
+          "name": "庞大",
+          "degree": 3
+        },
+        {
+          "tagId": "E39",
+          "name": "豪迈",
+          "degree": 3
+        },
+        {
+          "tagId": "E41",
+          "name": "虚幻",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "叙事类型，不硬说成统一视觉风格",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28MKp7HdF81",
+        "hasCore": false,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "094",
+      "termId": "reczz28MKp7HdTGI",
+      "originalName": "Y2K",
+      "englishOriginal": "Y2K",
+      "originalChapters": [
+        "乡愁"
+      ],
+      "pageType": "style",
+      "plainName": "想闪亮得有点过头",
+      "tags": [
+        {
+          "tagId": "S24",
+          "name": "光滑",
+          "degree": 3
+        },
+        {
+          "tagId": "S03",
+          "name": "鲜艳",
+          "degree": 2
+        },
+        {
+          "tagId": "E42",
+          "name": "自信",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "原名保留作检索",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28MKp7HdTGI",
+        "hasCore": false,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "095",
+      "termId": "reczz28MKp7HekcM",
+      "originalName": "蒸汽波",
+      "englishOriginal": "Vaporwave",
+      "originalChapters": [
+        "乡愁"
+      ],
+      "pageType": "style",
+      "plainName": "想念一个没去过的过去",
+      "tags": [
+        {
+          "tagId": "E10",
+          "name": "怀念",
+          "degree": 3
+        },
+        {
+          "tagId": "E41",
+          "name": "虚幻",
+          "degree": 3
+        },
+        {
+          "tagId": "E19",
+          "name": "忧郁",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "候选心理措辞仅名称，正文须有作品支持",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28MKp7HekcM",
+        "hasCore": false,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "096",
+      "termId": "reczz28MKp7Hd34m",
+      "originalName": "Frutiger Aero",
+      "englishOriginal": "Frutiger Aero",
+      "originalChapters": [
+        "乡愁"
+      ],
+      "pageType": "style",
+      "plainName": "未来本来该清清爽爽",
+      "tags": [
+        {
+          "tagId": "S05",
+          "name": "透明",
+          "degree": 3
+        },
+        {
+          "tagId": "S01",
+          "name": "明亮",
+          "degree": 3
+        },
+        {
+          "tagId": "E28",
+          "name": "期待",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "原名保留作检索",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28MKp7Hd34m",
+        "hasCore": false,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "097",
+      "termId": "reczz28MKp7HcwDx",
+      "originalName": "怪核 Weirdcore",
+      "englishOriginal": "Weirdcore",
+      "originalChapters": [
+        "诡异"
+      ],
+      "pageType": "style",
+      "plainName": "哪里都熟，哪里都不对",
+      "tags": [
+        {
+          "tagId": "S10",
+          "name": "错位",
+          "degree": 3
+        },
+        {
+          "tagId": "E02",
+          "name": "不安",
+          "degree": 3
+        },
+        {
+          "tagId": "E25",
+          "name": "荒诞",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "与001梦的记忆断裂区分",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28MKp7HcwDx",
+        "hasCore": false,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "098",
+      "termId": "reczz28MKp7HdI46",
+      "originalName": "Kidcore",
+      "englishOriginal": "Kidcore",
+      "originalChapters": [
+        "可爱"
+      ],
+      "pageType": "style",
+      "plainName": "长大了也想玩得幼稚",
+      "tags": [
+        {
+          "tagId": "E18",
+          "name": "天真",
+          "degree": 3
+        },
+        {
+          "tagId": "E32",
+          "name": "顽皮",
+          "degree": 3
+        },
+        {
+          "tagId": "S03",
+          "name": "鲜艳",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "儿童视觉集合，不对读者年龄下判断",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28MKp7HdI46",
+        "hasCore": false,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "099",
+      "termId": "reczz28MKp7HcNdu",
+      "originalName": "Decora",
+      "englishOriginal": "Decora",
+      "originalChapters": [
+        "可爱"
+      ],
+      "pageType": "style",
+      "plainName": "喜欢的东西都想戴身上",
+      "tags": [
+        {
+          "tagId": "S08",
+          "name": "密集",
+          "degree": 3
+        },
+        {
+          "tagId": "S03",
+          "name": "鲜艳",
+          "degree": 3
+        },
+        {
+          "tagId": "E32",
+          "name": "顽皮",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "具名服饰风格",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28MKp7HcNdu",
+        "hasCore": false,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "100",
+      "termId": "reczz28MKp7HfoxS",
+      "originalName": "Yami Kawaii",
+      "englishOriginal": "Yami Kawaii",
+      "originalChapters": [
+        "可爱"
+      ],
+      "pageType": "style",
+      "plainName": "难过也想穿得可爱",
+      "tags": [
+        {
+          "tagId": "E07",
+          "name": "脆弱",
+          "degree": 3
+        },
+        {
+          "tagId": "S32",
+          "name": "甜",
+          "degree": 2
+        },
+        {
+          "tagId": "E19",
+          "name": "忧郁",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "不把实际疾病当装饰或替读者下诊断",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28MKp7HfoxS",
+        "hasCore": false,
+        "cases": [],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    },
+    {
+      "row": "101",
+      "termId": "reczz28MKwvta1Ka",
+      "originalName": "odd 风格",
+      "englishOriginal": "Moody Everyday",
+      "originalChapters": [
+        "日常"
+      ],
+      "pageType": "style",
+      "plainName": "日子照常，哪里不太对",
+      "tags": [
+        {
+          "tagId": "E37",
+          "name": "日常感",
+          "degree": 3
+        },
+        {
+          "tagId": "E02",
+          "name": "不安",
+          "degree": 2
+        },
+        {
+          "tagId": "E25",
+          "name": "荒诞",
+          "degree": 2
+        }
+      ],
+      "reviewNote": "仓库自用分类边界待核，不宣称公认流派",
+      "typeReason": "具名视觉/文化/题材集合；内部边界见审阅备注",
+      "nameApproval": "待签",
+      "typeApproval": "待审",
+      "tagApproval": "待审",
+      "evidence": {
+        "termSnapshot": "aesthetic-site/src/catalog.json#reczz28MKwvta1Ka",
+        "hasCore": true,
+        "cases": [
+          {
+            "id": "reczz28HJJL2NmDY",
+            "title": "顶棚",
+            "medium": "摄影",
+            "official": "[https://www.artic.edu/artworks/189718/canopy](https://www.artic.edu/artworks/189718/canopy)"
+          },
+          {
+            "id": "reczz28HJJL2NmGE",
+            "title": "晚餐，灯光效果",
+            "medium": "绘画",
+            "official": "https://www.musee-orsay.fr/en/artworks/le-diner-effet-de-lampe-8035"
+          }
+        ],
+        "verification": "仅仓库记录，未逐条外部核验；不构成心理结论的证据"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "S01",
+      "name": "明亮",
+      "category": "五感",
+      "subcategory": "视觉",
+      "boundary": "画面整体亮、光线显露，不等于开心",
+      "aliases": [
+        "亮",
+        "亮堂"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": true
+    },
+    {
+      "id": "S02",
+      "name": "昏暗",
+      "category": "五感",
+      "subcategory": "视觉",
+      "boundary": "亮部少、暗部占主要位置，不等于悲伤",
+      "aliases": [
+        "暗",
+        "暗淡"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": true
+    },
+    {
+      "id": "S03",
+      "name": "鲜艳",
+      "category": "五感",
+      "subcategory": "视觉",
+      "boundary": "色彩饱和度较高；与颜色数量分开",
+      "aliases": [
+        "饱和",
+        "浓艳"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": true
+    },
+    {
+      "id": "S04",
+      "name": "低饱和",
+      "category": "五感",
+      "subcategory": "视觉",
+      "boundary": "色彩饱和度较低；不等于高级",
+      "aliases": [
+        "淡色",
+        "寡淡色"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": true
+    },
+    {
+      "id": "S05",
+      "name": "透明",
+      "category": "五感",
+      "subcategory": "视觉",
+      "boundary": "能看见物体后方或内部；不等于仅用浅色",
+      "aliases": [
+        "透亮"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": true
+    },
+    {
+      "id": "S06",
+      "name": "朦胧",
+      "category": "五感",
+      "subcategory": "视觉",
+      "boundary": "边界或细节不清晰；不等于神秘",
+      "aliases": [
+        "模糊",
+        "雾蒙蒙"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": true
+    },
+    {
+      "id": "S07",
+      "name": "空旷",
+      "category": "五感",
+      "subcategory": "视觉",
+      "boundary": "对象间隔大、空处明显；不自动等于孤独",
+      "aliases": [
+        "空荡",
+        "疏朗"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": true
+    },
+    {
+      "id": "S08",
+      "name": "密集",
+      "category": "五感",
+      "subcategory": "视觉",
+      "boundary": "对象或细节集中；不自动等于喧闹",
+      "aliases": [
+        "密密麻麻"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": true
+    },
+    {
+      "id": "S09",
+      "name": "规整",
+      "category": "五感",
+      "subcategory": "视觉",
+      "boundary": "重复、排列或对齐清楚；不自动等于安心",
+      "aliases": [
+        "整齐"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": true
+    },
+    {
+      "id": "S10",
+      "name": "错位",
+      "category": "五感",
+      "subcategory": "视觉",
+      "boundary": "对象的位置、尺度或组合出现不协调",
+      "aliases": [
+        "不搭",
+        "错搭"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": true
+    },
+    {
+      "id": "S11",
+      "name": "破旧",
+      "category": "五感",
+      "subcategory": "视觉",
+      "boundary": "磨损、衰败或使用痕迹可辨；不等于粗糙",
+      "aliases": [
+        "磨旧",
+        "残破"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": true
+    },
+    {
+      "id": "S12",
+      "name": "庞大",
+      "category": "五感",
+      "subcategory": "视觉",
+      "boundary": "相对人物或参照物的尺度很大",
+      "aliases": [
+        "巨大"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": true
+    },
+    {
+      "id": "S13",
+      "name": "微小",
+      "category": "五感",
+      "subcategory": "视觉",
+      "boundary": "相对参照物的尺度很小",
+      "aliases": [
+        "小巧"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": true
+    },
+    {
+      "id": "S14",
+      "name": "流动感",
+      "category": "五感",
+      "subcategory": "视觉",
+      "boundary": "轮廓、轨迹或连续关系呈现流向；静图不声称真的运动",
+      "aliases": [
+        "流淌感"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": true
+    },
+    {
+      "id": "S15",
+      "name": "安静",
+      "category": "五感",
+      "subcategory": "听觉",
+      "boundary": "听觉刺激少；静图只记为联想，空景不证明无声",
+      "aliases": [
+        "静"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "S16",
+      "name": "喧闹",
+      "category": "五感",
+      "subcategory": "听觉",
+      "boundary": "多种或高强度声音交叠；图像只记联想",
+      "aliases": [
+        "嘈杂"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "S17",
+      "name": "低回",
+      "category": "五感",
+      "subcategory": "听觉",
+      "boundary": "声音低缓、回旋或持续；图像只记联想",
+      "aliases": [
+        "低缓"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "S18",
+      "name": "尖锐",
+      "category": "五感",
+      "subcategory": "听觉",
+      "boundary": "声音尖细、有穿透感；图像只记联想",
+      "aliases": [
+        "刺耳"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "S19",
+      "name": "温暖",
+      "category": "五感",
+      "subcategory": "触觉",
+      "boundary": "暖的触觉或温度联想；不同于温柔的关系感",
+      "aliases": [
+        "暖"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "S20",
+      "name": "微凉",
+      "category": "五感",
+      "subcategory": "触觉",
+      "boundary": "轻微的凉意；不等于清冷的疏离感",
+      "aliases": [
+        "凉",
+        "凉丝丝"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "S21",
+      "name": "柔软",
+      "category": "五感",
+      "subcategory": "触觉",
+      "boundary": "可压、可弯或软的质地联想",
+      "aliases": [
+        "软",
+        "软绵绵"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "S22",
+      "name": "坚硬",
+      "category": "五感",
+      "subcategory": "触觉",
+      "boundary": "难变形、硬的质地联想",
+      "aliases": [
+        "硬"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "S23",
+      "name": "粗糙",
+      "category": "五感",
+      "subcategory": "触觉",
+      "boundary": "表面凹凸、颗粒或毛边的触觉联想",
+      "aliases": [
+        "粗粝",
+        "毛糙"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "S24",
+      "name": "光滑",
+      "category": "五感",
+      "subcategory": "触觉",
+      "boundary": "平顺、少摩擦的触觉联想",
+      "aliases": [
+        "滑",
+        "滑溜"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "S25",
+      "name": "潮湿",
+      "category": "五感",
+      "subcategory": "触觉",
+      "boundary": "湿润、带水汽的触觉联想",
+      "aliases": [
+        "湿",
+        "湿润"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "S26",
+      "name": "干燥",
+      "category": "五感",
+      "subcategory": "触觉",
+      "boundary": "缺少水分或干涩的触觉联想",
+      "aliases": [
+        "干",
+        "干涩"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "S27",
+      "name": "轻盈",
+      "category": "五感",
+      "subcategory": "触觉",
+      "boundary": "低重量或轻负担的身体联想；不等于低能量",
+      "aliases": [
+        "轻"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "S28",
+      "name": "沉重",
+      "category": "五感",
+      "subcategory": "触觉",
+      "boundary": "重量或下坠的身体联想；不自动等于压抑",
+      "aliases": [
+        "重"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "S29",
+      "name": "草木气",
+      "category": "五感",
+      "subcategory": "嗅觉",
+      "boundary": "草、叶、木与植物的气味联想；图像不能证明实际气味",
+      "aliases": [
+        "草木味"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "S30",
+      "name": "烟火气",
+      "category": "五感",
+      "subcategory": "嗅觉",
+      "boundary": "炊烟或烹饪的气味联想；不同于烟火味页面的生活体验",
+      "aliases": [
+        "炊烟气"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "S31",
+      "name": "陈旧气",
+      "category": "五感",
+      "subcategory": "嗅觉",
+      "boundary": "旧物、久置环境的气味联想；不等于年代标签",
+      "aliases": [
+        "旧物气"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "S32",
+      "name": "甜",
+      "category": "五感",
+      "subcategory": "味觉",
+      "boundary": "甜味联想；不直接推断甜美性格",
+      "aliases": [
+        "甜滋滋"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "S33",
+      "name": "苦",
+      "category": "五感",
+      "subcategory": "味觉",
+      "boundary": "苦味联想；不等于痛苦",
+      "aliases": [
+        "苦涩味"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "S34",
+      "name": "酸",
+      "category": "五感",
+      "subcategory": "味觉",
+      "boundary": "酸味联想；不等于嫉妒",
+      "aliases": [
+        "酸味"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "E01",
+      "name": "神秘",
+      "category": "情绪",
+      "subcategory": "情绪",
+      "boundary": "有线索未明说、仍想知道的感受",
+      "aliases": [
+        "神秘感",
+        "猜不透"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "E02",
+      "name": "不安",
+      "category": "情绪",
+      "subcategory": "情绪",
+      "boundary": "不确定或预期风险的感受；不作临床判断",
+      "aliases": [
+        "惴惴不安"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "E03",
+      "name": "安心",
+      "category": "情绪",
+      "subcategory": "情绪",
+      "boundary": "暂时没有威胁或催迫的感受",
+      "aliases": [
+        "踏实",
+        "安稳"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "E04",
+      "name": "温柔",
+      "category": "情绪",
+      "subcategory": "情绪",
+      "boundary": "被轻轻对待或对事物保有怜惜的感受",
+      "aliases": [
+        "温和"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "E05",
+      "name": "疏离",
+      "category": "情绪",
+      "subcategory": "情绪",
+      "boundary": "与他人或环境隔着距离的关系感",
+      "aliases": [
+        "有距离感"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "E06",
+      "name": "孤单",
+      "category": "情绪",
+      "subcategory": "情绪",
+      "boundary": "缺少连结的主观体验；独处不等于孤单",
+      "aliases": [
+        "孤独"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "E07",
+      "name": "脆弱",
+      "category": "情绪",
+      "subcategory": "情绪",
+      "boundary": "难以承受或易受损的感受；不作为身份结论",
+      "aliases": [
+        "易碎感"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "E08",
+      "name": "兴奋",
+      "category": "情绪",
+      "subcategory": "情绪",
+      "boundary": "活跃、激动的情绪体验；不写神经递质解释",
+      "aliases": [
+        "激动"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "E09",
+      "name": "压抑",
+      "category": "情绪",
+      "subcategory": "情绪",
+      "boundary": "受阻、被挤压或难以舒展的感受",
+      "aliases": [
+        "憋闷",
+        "阴沉"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "E10",
+      "name": "怀念",
+      "category": "情绪",
+      "subcategory": "情绪",
+      "boundary": "面向过去的留恋；不等于物件年代",
+      "aliases": [
+        "怀旧"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "E11",
+      "name": "遗憾",
+      "category": "情绪",
+      "subcategory": "情绪",
+      "boundary": "未实现、错过或未完成的感受",
+      "aliases": [
+        "可惜"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "E12",
+      "name": "渴望",
+      "category": "情绪",
+      "subcategory": "情绪",
+      "boundary": "想得到、想靠近的主观趋向",
+      "aliases": [
+        "想靠近",
+        "向往"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "E13",
+      "name": "犹疑",
+      "category": "情绪",
+      "subcategory": "情绪",
+      "boundary": "想前进又不能确定的体验",
+      "aliases": [
+        "犹豫"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "E14",
+      "name": "低能量",
+      "category": "情绪",
+      "subcategory": "情绪",
+      "boundary": "暂时缺少行动劲头的体验；不等于疾病或忧郁",
+      "aliases": [
+        "没劲",
+        "提不起劲"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "E15",
+      "name": "松弛",
+      "category": "情绪",
+      "subcategory": "情绪",
+      "boundary": "不必持续戒备或用力的感受",
+      "aliases": [
+        "松",
+        "放松"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "E16",
+      "name": "紧绷",
+      "category": "情绪",
+      "subcategory": "情绪",
+      "boundary": "持续警觉、用力或拉紧的感受",
+      "aliases": [
+        "紧"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "E17",
+      "name": "庄严",
+      "category": "情绪",
+      "subcategory": "情绪",
+      "boundary": "郑重、敬畏而不轻慢的感受",
+      "aliases": [
+        "庄重"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "E18",
+      "name": "天真",
+      "category": "情绪",
+      "subcategory": "情绪",
+      "boundary": "尚未被算计或过度防备覆盖的感受",
+      "aliases": [
+        "天真感"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "E19",
+      "name": "忧郁",
+      "category": "情绪",
+      "subcategory": "情绪",
+      "boundary": "持续低回、带失落的体验；不等于临床抑郁",
+      "aliases": [
+        "惆怅"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "E20",
+      "name": "叛逆",
+      "category": "情绪",
+      "subcategory": "情绪",
+      "boundary": "不愿服从已有规范的态度体验",
+      "aliases": [
+        "不服"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "E21",
+      "name": "自由",
+      "category": "情绪",
+      "subcategory": "情绪",
+      "boundary": "能活动、能选择、不受拘束的体验",
+      "aliases": [
+        "自在"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "E22",
+      "name": "坚定",
+      "category": "情绪",
+      "subcategory": "情绪",
+      "boundary": "有所坚持、不轻易松动的体验",
+      "aliases": [
+        "笃定"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "E23",
+      "name": "亲密",
+      "category": "情绪",
+      "subcategory": "情绪",
+      "boundary": "关系靠近、有连结的体验",
+      "aliases": [
+        "亲近"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "E24",
+      "name": "冷静",
+      "category": "情绪",
+      "subcategory": "情绪",
+      "boundary": "情绪强度较低且能保持分寸的感受",
+      "aliases": [
+        "镇定"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "E25",
+      "name": "荒诞",
+      "category": "情绪",
+      "subcategory": "情绪",
+      "boundary": "事物关系难以照常解释、常带滑稽的感受",
+      "aliases": [
+        "荒唐感"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "E26",
+      "name": "决绝",
+      "category": "情绪",
+      "subcategory": "情绪",
+      "boundary": "明确切断、离开、不回头的态度体验",
+      "aliases": [
+        "不回头"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "E27",
+      "name": "无力",
+      "category": "情绪",
+      "subcategory": "情绪",
+      "boundary": "想做却感到难以改变的体验；与低能量区分",
+      "aliases": [
+        "无能为力"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "E28",
+      "name": "期待",
+      "category": "情绪",
+      "subcategory": "情绪",
+      "boundary": "朝向尚未发生之事的等待感",
+      "aliases": [
+        "盼望"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "E29",
+      "name": "眷恋",
+      "category": "情绪",
+      "subcategory": "情绪",
+      "boundary": "舍不得离开或放下的关系感",
+      "aliases": [
+        "留恋"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "E30",
+      "name": "释然",
+      "category": "情绪",
+      "subcategory": "情绪",
+      "boundary": "原有牵绊松开一点的体验",
+      "aliases": [
+        "放下"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "E31",
+      "name": "克制",
+      "category": "情绪",
+      "subcategory": "情绪",
+      "boundary": "有所保留、没有全部外露的体验",
+      "aliases": [
+        "收着",
+        "含蓄"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "E32",
+      "name": "顽皮",
+      "category": "情绪",
+      "subcategory": "情绪",
+      "boundary": "轻微越界、玩笑和游戏的感受",
+      "aliases": [
+        "淘气",
+        "好玩"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "E33",
+      "name": "大胆",
+      "category": "情绪",
+      "subcategory": "情绪",
+      "boundary": "愿意显露、冒一点险的态度体验",
+      "aliases": [
+        "张扬"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "E34",
+      "name": "悲壮",
+      "category": "情绪",
+      "subcategory": "情绪",
+      "boundary": "明知代价仍坚持的叙事感受",
+      "aliases": [
+        "悲壮感"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "E35",
+      "name": "清醒",
+      "category": "情绪",
+      "subcategory": "情绪",
+      "boundary": "不被美化说辞完全带走的主观体验",
+      "aliases": [
+        "清醒感"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "E36",
+      "name": "倔强",
+      "category": "情绪",
+      "subcategory": "情绪",
+      "boundary": "受阻后仍不愿完全退让的态度体验",
+      "aliases": [
+        "不认输"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "E37",
+      "name": "日常感",
+      "category": "情绪",
+      "subcategory": "情绪",
+      "boundary": "熟悉、反复、普通生活正在继续的感受",
+      "aliases": [
+        "日常"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "E38",
+      "name": "缓慢",
+      "category": "情绪",
+      "subcategory": "情绪",
+      "boundary": "主观节奏放缓的感受；不等于静图或低能量",
+      "aliases": [
+        "慢"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "E39",
+      "name": "豪迈",
+      "category": "情绪",
+      "subcategory": "情绪",
+      "boundary": "胸怀舒展、愿向远处的情绪体验",
+      "aliases": [
+        "豪放"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "E40",
+      "name": "丰盛",
+      "category": "情绪",
+      "subcategory": "情绪",
+      "boundary": "充足、饱满、接近溢出的主观感受",
+      "aliases": [
+        "丰沛"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "E41",
+      "name": "虚幻",
+      "category": "情绪",
+      "subcategory": "情绪",
+      "boundary": "像梦或不完全真实的体验",
+      "aliases": [
+        "梦幻",
+        "梦感"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    },
+    {
+      "id": "E42",
+      "name": "自信",
+      "category": "情绪",
+      "subcategory": "情绪",
+      "boundary": "愿意占据自己的位置、不过度退让的体验",
+      "aliases": [
+        "有底气"
+      ],
+      "status": "待用户审定",
+      "usableForImageObservation": false
+    }
+  ],
+  "legacyFeelingMap": [
+    {
+      "sourceId": "reczz28HiWupie6K",
+      "sourceName": "神秘",
+      "action": "保留规范词",
+      "targetIds": [
+        "E01"
+      ],
+      "targetNames": [
+        "神秘"
+      ],
+      "note": "原记录保留；只在审核后的新索引使用规范ID"
+    },
+    {
+      "sourceId": "reczz28HiWupieEK",
+      "sourceName": "深沉",
+      "action": "拆分候选",
+      "targetIds": [
+        "E31",
+        "S28"
+      ],
+      "targetNames": [
+        "克制",
+        "沉重"
+      ],
+      "note": "关系表达与重量联想分开，逐图重标"
+    },
+    {
+      "sourceId": "reczz28HiWupieIB",
+      "sourceName": "强势",
+      "action": "保留为描述元数据",
+      "targetIds": [],
+      "targetNames": [],
+      "note": "控制/支配含义不能偷换为大胆或自信"
+    },
+    {
+      "sourceId": "reczz28HiWupieN4",
+      "sourceName": "温柔",
+      "action": "保留规范词",
+      "targetIds": [
+        "E04"
+      ],
+      "targetNames": [
+        "温柔"
+      ],
+      "note": "原记录保留；只在审核后的新索引使用规范ID"
+    },
+    {
+      "sourceId": "reczz28HiWupieQB",
+      "sourceName": "危险",
+      "action": "拆分候选",
+      "targetIds": [
+        "E02",
+        "E33"
+      ],
+      "targetNames": [
+        "不安",
+        "大胆"
+      ],
+      "note": "受威胁与主动冒险不同，逐条审定"
+    },
+    {
+      "sourceId": "reczz28HiWupieTZ",
+      "sourceName": "阴沉",
+      "action": "归并别名",
+      "targetIds": [
+        "E09"
+      ],
+      "targetNames": [
+        "压抑"
+      ],
+      "note": "原记录保留；只在审核后的新索引使用规范ID"
+    },
+    {
+      "sourceId": "reczz28HiWupieX9",
+      "sourceName": "有距离感",
+      "action": "归并别名",
+      "targetIds": [
+        "E05"
+      ],
+      "targetNames": [
+        "疏离"
+      ],
+      "note": "原记录保留；只在审核后的新索引使用规范ID"
+    },
+    {
+      "sourceId": "reczz28HiWupieat",
+      "sourceName": "甜",
+      "action": "保留规范词",
+      "targetIds": [
+        "S32"
+      ],
+      "targetNames": [
+        "甜"
+      ],
+      "note": "原记录保留；只在审核后的新索引使用规范ID"
+    },
+    {
+      "sourceId": "reczz28HiWupiede",
+      "sourceName": "干净",
+      "action": "保留为描述元数据",
+      "targetIds": [],
+      "targetNames": [],
+      "note": "清洁、简洁、整齐并非同义，后续按实际内容重标"
+    },
+    {
+      "sourceId": "reczz28HiWupiegz",
+      "sourceName": "高级",
+      "action": "退出感觉计分",
+      "targetIds": [],
+      "targetNames": [],
+      "note": "价值评价，不是可共享的感觉维度"
+    },
+    {
+      "sourceId": "reczz28HiWupieji",
+      "sourceName": "安静",
+      "action": "保留规范词",
+      "targetIds": [
+        "S15"
+      ],
+      "targetNames": [
+        "安静"
+      ],
+      "note": "原记录保留；只在审核后的新索引使用规范ID"
+    },
+    {
+      "sourceId": "reczz28HiWupiemM",
+      "sourceName": "热闹",
+      "action": "拆分候选",
+      "targetIds": [
+        "S16",
+        "E08"
+      ],
+      "targetNames": [
+        "喧闹",
+        "兴奋"
+      ],
+      "note": "声音与情绪分开，不能从人多直接断定兴奋"
+    },
+    {
+      "sourceId": "reczz28HiWupiepT",
+      "sourceName": "孤单",
+      "action": "保留规范词",
+      "targetIds": [
+        "E06"
+      ],
+      "targetNames": [
+        "孤单"
+      ],
+      "note": "原记录保留；只在审核后的新索引使用规范ID"
+    },
+    {
+      "sourceId": "reczz28HiWupies9",
+      "sourceName": "脆弱",
+      "action": "保留规范词",
+      "targetIds": [
+        "E07"
+      ],
+      "targetNames": [
+        "脆弱"
+      ],
+      "note": "原记录保留；只在审核后的新索引使用规范ID"
+    },
+    {
+      "sourceId": "reczz28HiWupieum",
+      "sourceName": "有年代感",
+      "action": "保留为描述元数据",
+      "targetIds": [],
+      "targetNames": [],
+      "note": "年代是作品元数据，怀念是体验，不直接等同"
+    },
+    {
+      "sourceId": "reczz28HiWupiexU",
+      "sourceName": "震撼",
+      "action": "拆分候选",
+      "targetIds": [
+        "E17",
+        "E02",
+        "E08"
+      ],
+      "targetNames": [
+        "庄严",
+        "不安",
+        "兴奋"
+      ],
+      "note": "须按作品重标，不能一词自动触发三个分数"
+    },
+    {
+      "sourceId": "reczz28HiWupif0C",
+      "sourceName": "慢",
+      "action": "归并别名",
+      "targetIds": [
+        "E38"
+      ],
+      "targetNames": [
+        "缓慢"
+      ],
+      "note": "原记录保留；只在审核后的新索引使用规范ID"
+    },
+    {
+      "sourceId": "reczz28HiWupif2t",
+      "sourceName": "浮夸",
+      "action": "保留为描述元数据",
+      "targetIds": [],
+      "targetNames": [],
+      "note": "可能是程度或贬义评价，不能自动当作大胆"
+    },
+    {
+      "sourceId": "reczz28HiWupif5Z",
+      "sourceName": "不装",
+      "action": "保留为描述元数据",
+      "targetIds": [],
+      "targetNames": [],
+      "note": "读者价值判断，不直接等同某种风格"
+    },
+    {
+      "sourceId": "reczz28HiWupif8C",
+      "sourceName": "沉重",
+      "action": "保留规范词",
+      "targetIds": [
+        "S28"
+      ],
+      "targetNames": [
+        "沉重"
+      ],
+      "note": "原记录保留；只在审核后的新索引使用规范ID"
+    },
+    {
+      "sourceId": "reczz28HiWupifAp",
+      "sourceName": "轻",
+      "action": "归并别名",
+      "targetIds": [
+        "S27"
+      ],
+      "targetNames": [
+        "轻盈"
+      ],
+      "note": "原记录保留；只在审核后的新索引使用规范ID"
+    },
+    {
+      "sourceId": "reczz28HiWupifDV",
+      "sourceName": "暗",
+      "action": "归并别名",
+      "targetIds": [
+        "S02"
+      ],
+      "targetNames": [
+        "昏暗"
+      ],
+      "note": "原记录保留；只在审核后的新索引使用规范ID"
+    },
+    {
+      "sourceId": "reczz28HiWupifGB",
+      "sourceName": "湿",
+      "action": "归并别名",
+      "targetIds": [
+        "S25"
+      ],
+      "targetNames": [
+        "潮湿"
+      ],
+      "note": "原记录保留；只在审核后的新索引使用规范ID"
+    },
+    {
+      "sourceId": "reczz28HiWupifIq",
+      "sourceName": "野",
+      "action": "拆分候选",
+      "targetIds": [
+        "E21",
+        "E20"
+      ],
+      "targetNames": [
+        "自由",
+        "叛逆"
+      ],
+      "note": "自然感与不服从不同，逐条审定"
+    },
+    {
+      "sourceId": "reczz28HiWupifLw",
+      "sourceName": "稳",
+      "action": "拆分候选",
+      "targetIds": [
+        "E03",
+        "E22"
+      ],
+      "targetNames": [
+        "安心",
+        "坚定"
+      ],
+      "note": "被安顿与主动坚持不同"
+    },
+    {
+      "sourceId": "reczz28HiWupifOY",
+      "sourceName": "疯",
+      "action": "退出感觉计分",
+      "targetIds": [],
+      "targetNames": [],
+      "note": "含义混杂且易把精神状态作标签，按具体作品重标"
+    },
+    {
+      "sourceId": "reczz28HiWupifRH",
+      "sourceName": "傲",
+      "action": "保留为描述元数据",
+      "targetIds": [],
+      "targetNames": [],
+      "note": "自信、疏离、轻蔑不能合并"
+    },
+    {
+      "sourceId": "reczz28HiWupifTz",
+      "sourceName": "遗憾",
+      "action": "保留规范词",
+      "targetIds": [
+        "E11"
+      ],
+      "targetNames": [
+        "遗憾"
+      ],
+      "note": "原记录保留；只在审核后的新索引使用规范ID"
+    },
+    {
+      "sourceId": "reczz28HiWupifWf",
+      "sourceName": "怀念",
+      "action": "保留规范词",
+      "targetIds": [
+        "E10"
+      ],
+      "targetNames": [
+        "怀念"
+      ],
+      "note": "原记录保留；只在审核后的新索引使用规范ID"
+    },
+    {
+      "sourceId": "reczz28HiWupifZO",
+      "sourceName": "想靠近",
+      "action": "归并别名",
+      "targetIds": [
+        "E12"
+      ],
+      "targetNames": [
+        "渴望"
+      ],
+      "note": "原记录保留；只在审核后的新索引使用规范ID"
+    },
+    {
+      "sourceId": "reczz28HiWupifc4",
+      "sourceName": "想逃",
+      "action": "保留为关系描述",
+      "targetIds": [],
+      "targetNames": [],
+      "note": "退避对象须有明确选择，不能由未选图片推定"
+    },
+    {
+      "sourceId": "reczz28HiWupifeq",
+      "sourceName": "有故事感",
+      "action": "保留为描述元数据",
+      "targetIds": [],
+      "targetNames": [],
+      "note": "叙事印象，不是单一感觉"
+    },
+    {
+      "sourceId": "reczz28HiWupifhY",
+      "sourceName": "东方",
+      "action": "保留为文化元数据",
+      "targetIds": [],
+      "targetNames": [],
+      "note": "文化范围不是情绪或五感"
+    },
+    {
+      "sourceId": "reczz28HiWupifkE",
+      "sourceName": "西式古典",
+      "action": "保留为文化元数据",
+      "targetIds": [],
+      "targetNames": [],
+      "note": "地域/历史范围不是情绪或五感"
+    },
+    {
+      "sourceId": "reczz28HiWupifnM",
+      "sourceName": "未来感",
+      "action": "保留为题材元数据",
+      "targetIds": [],
+      "targetNames": [],
+      "note": "时代想象不是情绪或五感"
+    },
+    {
+      "sourceId": "reczz28HiWupifq8",
+      "sourceName": "松",
+      "action": "归并别名",
+      "targetIds": [
+        "E15"
+      ],
+      "targetNames": [
+        "松弛"
+      ],
+      "note": "原记录保留；只在审核后的新索引使用规范ID"
+    },
+    {
+      "sourceId": "reczz28HiWupifss",
+      "sourceName": "紧",
+      "action": "归并别名",
+      "targetIds": [
+        "E16"
+      ],
+      "targetNames": [
+        "紧绷"
+      ],
+      "note": "原记录保留；只在审核后的新索引使用规范ID"
+    },
+    {
+      "sourceId": "reczz28HiWupifvb",
+      "sourceName": "庄严",
+      "action": "保留规范词",
+      "targetIds": [
+        "E17"
+      ],
+      "targetNames": [
+        "庄严"
+      ],
+      "note": "原记录保留；只在审核后的新索引使用规范ID"
+    },
+    {
+      "sourceId": "reczz28HiWupifyJ",
+      "sourceName": "清醒",
+      "action": "保留规范词",
+      "targetIds": [
+        "E35"
+      ],
+      "targetNames": [
+        "清醒"
+      ],
+      "note": "原记录保留；只在审核后的新索引使用规范ID"
+    },
+    {
+      "sourceId": "reczz28HiWupig11",
+      "sourceName": "天真",
+      "action": "保留规范词",
+      "targetIds": [
+        "E18"
+      ],
+      "targetNames": [
+        "天真"
+      ],
+      "note": "原记录保留；只在审核后的新索引使用规范ID"
+    }
+  ],
+  "styleTagEdges": [
+    {
+      "termId": "reczz28HJJL2GIls",
+      "row": "001",
+      "style": "梦核",
+      "tagId": "E41",
+      "name": "虚幻",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GIls",
+      "row": "001",
+      "style": "梦核",
+      "tagId": "E01",
+      "name": "神秘",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GIls",
+      "row": "001",
+      "style": "梦核",
+      "tagId": "E02",
+      "name": "不安",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GIv6",
+      "row": "002",
+      "style": "阈限空间",
+      "tagId": "S07",
+      "name": "空旷",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GIv6",
+      "row": "002",
+      "style": "阈限空间",
+      "tagId": "S15",
+      "name": "安静",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GIv6",
+      "row": "002",
+      "style": "阈限空间",
+      "tagId": "E05",
+      "name": "疏离",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GIv6",
+      "row": "002",
+      "style": "阈限空间",
+      "tagId": "E02",
+      "name": "不安",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GJ14",
+      "row": "003",
+      "style": "诡异人偶",
+      "tagId": "E02",
+      "name": "不安",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GJ14",
+      "row": "003",
+      "style": "诡异人偶",
+      "tagId": "S13",
+      "name": "微小",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GJ14",
+      "row": "003",
+      "style": "诡异人偶",
+      "tagId": "E01",
+      "name": "神秘",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GJ6i",
+      "row": "004",
+      "style": "模拟恐怖",
+      "tagId": "E02",
+      "name": "不安",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GJ6i",
+      "row": "004",
+      "style": "模拟恐怖",
+      "tagId": "S11",
+      "name": "破旧",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GJ6i",
+      "row": "004",
+      "style": "模拟恐怖",
+      "tagId": "E01",
+      "name": "神秘",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GJBv",
+      "row": "005",
+      "style": "甜亚系",
+      "tagId": "S32",
+      "name": "甜",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GJBv",
+      "row": "005",
+      "style": "甜亚系",
+      "tagId": "E18",
+      "name": "天真",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GJBv",
+      "row": "005",
+      "style": "甜亚系",
+      "tagId": "E04",
+      "name": "温柔",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GJHl",
+      "row": "006",
+      "style": "Coquette",
+      "tagId": "E04",
+      "name": "温柔",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GJHl",
+      "row": "006",
+      "style": "Coquette",
+      "tagId": "E32",
+      "name": "顽皮",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GJHl",
+      "row": "006",
+      "style": "Coquette",
+      "tagId": "E42",
+      "name": "自信",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GJS1",
+      "row": "008",
+      "style": "Softcore",
+      "tagId": "S21",
+      "name": "柔软",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GJS1",
+      "row": "008",
+      "style": "Softcore",
+      "tagId": "E04",
+      "name": "温柔",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GJS1",
+      "row": "008",
+      "style": "Softcore",
+      "tagId": "E41",
+      "name": "虚幻",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GJXK",
+      "row": "009",
+      "style": "复古",
+      "tagId": "E10",
+      "name": "怀念",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GJXK",
+      "row": "009",
+      "style": "复古",
+      "tagId": "S11",
+      "name": "破旧",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GJXK",
+      "row": "009",
+      "style": "复古",
+      "tagId": "S19",
+      "name": "温暖",
+      "degree": 1,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GJcS",
+      "row": "010",
+      "style": "旧互联网 Old Web",
+      "tagId": "E10",
+      "name": "怀念",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GJcS",
+      "row": "010",
+      "style": "旧互联网 Old Web",
+      "tagId": "E32",
+      "name": "顽皮",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GJcS",
+      "row": "010",
+      "style": "旧互联网 Old Web",
+      "tagId": "S08",
+      "name": "密集",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GJht",
+      "row": "011",
+      "style": "日杂",
+      "tagId": "E37",
+      "name": "日常感",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GJht",
+      "row": "011",
+      "style": "日杂",
+      "tagId": "S19",
+      "name": "温暖",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GJht",
+      "row": "011",
+      "style": "日杂",
+      "tagId": "E15",
+      "name": "松弛",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GJns",
+      "row": "012",
+      "style": "画报风",
+      "tagId": "E42",
+      "name": "自信",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GJns",
+      "row": "012",
+      "style": "画报风",
+      "tagId": "S03",
+      "name": "鲜艳",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GJns",
+      "row": "012",
+      "style": "画报风",
+      "tagId": "E10",
+      "name": "怀念",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GJt7",
+      "row": "013",
+      "style": "复古摇滚",
+      "tagId": "E20",
+      "name": "叛逆",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GJt7",
+      "row": "013",
+      "style": "复古摇滚",
+      "tagId": "E10",
+      "name": "怀念",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GJt7",
+      "row": "013",
+      "style": "复古摇滚",
+      "tagId": "E21",
+      "name": "自由",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GLFs",
+      "row": "020",
+      "style": "Cottagecore",
+      "tagId": "S29",
+      "name": "草木气",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GLFs",
+      "row": "020",
+      "style": "Cottagecore",
+      "tagId": "S19",
+      "name": "温暖",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GLFs",
+      "row": "020",
+      "style": "Cottagecore",
+      "tagId": "E37",
+      "name": "日常感",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GLFs",
+      "row": "020",
+      "style": "Cottagecore",
+      "tagId": "E03",
+      "name": "安心",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GLvJ",
+      "row": "027",
+      "style": "多巴胺",
+      "tagId": "S03",
+      "name": "鲜艳",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GLvJ",
+      "row": "027",
+      "style": "多巴胺",
+      "tagId": "E08",
+      "name": "兴奋",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GLvJ",
+      "row": "027",
+      "style": "多巴胺",
+      "tagId": "E32",
+      "name": "顽皮",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GM5u",
+      "row": "029",
+      "style": "涂鸦",
+      "tagId": "E20",
+      "name": "叛逆",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GM5u",
+      "row": "029",
+      "style": "涂鸦",
+      "tagId": "E33",
+      "name": "大胆",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GM5u",
+      "row": "029",
+      "style": "涂鸦",
+      "tagId": "S23",
+      "name": "粗糙",
+      "degree": 1,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GM8Z",
+      "row": "030",
+      "style": "盐系",
+      "tagId": "S04",
+      "name": "低饱和",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GM8Z",
+      "row": "030",
+      "style": "盐系",
+      "tagId": "E15",
+      "name": "松弛",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GM8Z",
+      "row": "030",
+      "style": "盐系",
+      "tagId": "E37",
+      "name": "日常感",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GMMk",
+      "row": "035",
+      "style": "Normcore",
+      "tagId": "E37",
+      "name": "日常感",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GMMk",
+      "row": "035",
+      "style": "Normcore",
+      "tagId": "E15",
+      "name": "松弛",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GMMk",
+      "row": "035",
+      "style": "Normcore",
+      "tagId": "E14",
+      "name": "低能量",
+      "degree": 1,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GMRw",
+      "row": "037",
+      "style": "极简",
+      "tagId": "S09",
+      "name": "规整",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GMRw",
+      "row": "037",
+      "style": "极简",
+      "tagId": "S07",
+      "name": "空旷",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GMRw",
+      "row": "037",
+      "style": "极简",
+      "tagId": "E24",
+      "name": "冷静",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GNBK",
+      "row": "047",
+      "style": "拓印",
+      "tagId": "S23",
+      "name": "粗糙",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GNBK",
+      "row": "047",
+      "style": "拓印",
+      "tagId": "E37",
+      "name": "日常感",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GNBK",
+      "row": "047",
+      "style": "拓印",
+      "tagId": "S11",
+      "name": "破旧",
+      "degree": 1,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GNHq",
+      "row": "049",
+      "style": "Riso 印刷",
+      "tagId": "S10",
+      "name": "错位",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GNHq",
+      "row": "049",
+      "style": "Riso 印刷",
+      "tagId": "S03",
+      "name": "鲜艳",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GNHq",
+      "row": "049",
+      "style": "Riso 印刷",
+      "tagId": "E32",
+      "name": "顽皮",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GNOa",
+      "row": "050",
+      "style": "新中式",
+      "tagId": "E31",
+      "name": "克制",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GNOa",
+      "row": "050",
+      "style": "新中式",
+      "tagId": "E37",
+      "name": "日常感",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GNOa",
+      "row": "050",
+      "style": "新中式",
+      "tagId": "E15",
+      "name": "松弛",
+      "degree": 1,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GNSP",
+      "row": "051",
+      "style": "水墨",
+      "tagId": "S07",
+      "name": "空旷",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GNSP",
+      "row": "051",
+      "style": "水墨",
+      "tagId": "S06",
+      "name": "朦胧",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GNSP",
+      "row": "051",
+      "style": "水墨",
+      "tagId": "S14",
+      "name": "流动感",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GNcx",
+      "row": "052",
+      "style": "武侠",
+      "tagId": "E21",
+      "name": "自由",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GNcx",
+      "row": "052",
+      "style": "武侠",
+      "tagId": "E39",
+      "name": "豪迈",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GNcx",
+      "row": "052",
+      "style": "武侠",
+      "tagId": "E36",
+      "name": "倔强",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GNfa",
+      "row": "053",
+      "style": "魏晋风",
+      "tagId": "E21",
+      "name": "自由",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GNfa",
+      "row": "053",
+      "style": "魏晋风",
+      "tagId": "E15",
+      "name": "松弛",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GNfa",
+      "row": "053",
+      "style": "魏晋风",
+      "tagId": "E33",
+      "name": "大胆",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GNiE",
+      "row": "054",
+      "style": "仙侠",
+      "tagId": "E21",
+      "name": "自由",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GNiE",
+      "row": "054",
+      "style": "仙侠",
+      "tagId": "E41",
+      "name": "虚幻",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GNiE",
+      "row": "054",
+      "style": "仙侠",
+      "tagId": "S27",
+      "name": "轻盈",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GOCn",
+      "row": "059",
+      "style": "法式不经意",
+      "tagId": "E15",
+      "name": "松弛",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GOCn",
+      "row": "059",
+      "style": "法式不经意",
+      "tagId": "E42",
+      "name": "自信",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GOCn",
+      "row": "059",
+      "style": "法式不经意",
+      "tagId": "E37",
+      "name": "日常感",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GOVG",
+      "row": "062",
+      "style": "反诗意",
+      "tagId": "E37",
+      "name": "日常感",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GOVG",
+      "row": "062",
+      "style": "反诗意",
+      "tagId": "E35",
+      "name": "清醒",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GOVG",
+      "row": "062",
+      "style": "反诗意",
+      "tagId": "E25",
+      "name": "荒诞",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GOfq",
+      "row": "064",
+      "style": "暗黑",
+      "tagId": "S02",
+      "name": "昏暗",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GOfq",
+      "row": "064",
+      "style": "暗黑",
+      "tagId": "E01",
+      "name": "神秘",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GOfq",
+      "row": "064",
+      "style": "暗黑",
+      "tagId": "E05",
+      "name": "疏离",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GOfq",
+      "row": "064",
+      "style": "暗黑",
+      "tagId": "E19",
+      "name": "忧郁",
+      "degree": 1,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GP4n",
+      "row": "071",
+      "style": "废土",
+      "tagId": "S11",
+      "name": "破旧",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GP4n",
+      "row": "071",
+      "style": "废土",
+      "tagId": "S07",
+      "name": "空旷",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GP4n",
+      "row": "071",
+      "style": "废土",
+      "tagId": "E36",
+      "name": "倔强",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GP4n",
+      "row": "071",
+      "style": "废土",
+      "tagId": "E19",
+      "name": "忧郁",
+      "degree": 1,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GP7R",
+      "row": "072",
+      "style": "末世",
+      "tagId": "E02",
+      "name": "不安",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GP7R",
+      "row": "072",
+      "style": "末世",
+      "tagId": "E27",
+      "name": "无力",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GP7R",
+      "row": "072",
+      "style": "末世",
+      "tagId": "E28",
+      "name": "期待",
+      "degree": 1,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GPCk",
+      "row": "073",
+      "style": "波普",
+      "tagId": "S03",
+      "name": "鲜艳",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GPCk",
+      "row": "073",
+      "style": "波普",
+      "tagId": "S12",
+      "name": "庞大",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GPCk",
+      "row": "073",
+      "style": "波普",
+      "tagId": "E32",
+      "name": "顽皮",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GPFN",
+      "row": "074",
+      "style": "赛博朋克",
+      "tagId": "S03",
+      "name": "鲜艳",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GPFN",
+      "row": "074",
+      "style": "赛博朋克",
+      "tagId": "E05",
+      "name": "疏离",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28HJJL2GPFN",
+      "row": "074",
+      "style": "赛博朋克",
+      "tagId": "E16",
+      "name": "紧绷",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HdDiG",
+      "row": "075",
+      "style": "颓废美学",
+      "tagId": "E19",
+      "name": "忧郁",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HdDiG",
+      "row": "075",
+      "style": "颓废美学",
+      "tagId": "E40",
+      "name": "丰盛",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HdDiG",
+      "row": "075",
+      "style": "颓废美学",
+      "tagId": "E07",
+      "name": "脆弱",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HdDiG",
+      "row": "075",
+      "style": "颓废美学",
+      "tagId": "E14",
+      "name": "低能量",
+      "degree": 1,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HdIot",
+      "row": "076",
+      "style": "坎普",
+      "tagId": "E33",
+      "name": "大胆",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HdIot",
+      "row": "076",
+      "style": "坎普",
+      "tagId": "E32",
+      "name": "顽皮",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HdIot",
+      "row": "076",
+      "style": "坎普",
+      "tagId": "E42",
+      "name": "自信",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HfUmt",
+      "row": "077",
+      "style": "酸性视觉",
+      "tagId": "S03",
+      "name": "鲜艳",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HfUmt",
+      "row": "077",
+      "style": "酸性视觉",
+      "tagId": "S10",
+      "name": "错位",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HfUmt",
+      "row": "077",
+      "style": "酸性视觉",
+      "tagId": "E08",
+      "name": "兴奋",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HfSC1",
+      "row": "078",
+      "style": "孟菲斯",
+      "tagId": "E32",
+      "name": "顽皮",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HfSC1",
+      "row": "078",
+      "style": "孟菲斯",
+      "tagId": "S03",
+      "name": "鲜艳",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HfSC1",
+      "row": "078",
+      "style": "孟菲斯",
+      "tagId": "S09",
+      "name": "规整",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HfeNy",
+      "row": "079",
+      "style": "宋韵",
+      "tagId": "S04",
+      "name": "低饱和",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HfeNy",
+      "row": "079",
+      "style": "宋韵",
+      "tagId": "E31",
+      "name": "克制",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HfeNy",
+      "row": "079",
+      "style": "宋韵",
+      "tagId": "S15",
+      "name": "安静",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HdgPi",
+      "row": "082",
+      "style": "朋克",
+      "tagId": "E20",
+      "name": "叛逆",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HdgPi",
+      "row": "082",
+      "style": "朋克",
+      "tagId": "E33",
+      "name": "大胆",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HdgPi",
+      "row": "082",
+      "style": "朋克",
+      "tagId": "S23",
+      "name": "粗糙",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HeJf0",
+      "row": "083",
+      "style": "机能风",
+      "tagId": "E22",
+      "name": "坚定",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HeJf0",
+      "row": "083",
+      "style": "机能风",
+      "tagId": "E16",
+      "name": "紧绷",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HeJf0",
+      "row": "083",
+      "style": "机能风",
+      "tagId": "E24",
+      "name": "冷静",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HcT4e",
+      "row": "084",
+      "style": "Grunge",
+      "tagId": "S23",
+      "name": "粗糙",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HcT4e",
+      "row": "084",
+      "style": "Grunge",
+      "tagId": "E14",
+      "name": "低能量",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HcT4e",
+      "row": "084",
+      "style": "Grunge",
+      "tagId": "E20",
+      "name": "叛逆",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HcT4e",
+      "row": "084",
+      "style": "Grunge",
+      "tagId": "E19",
+      "name": "忧郁",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7Hf5dr",
+      "row": "085",
+      "style": "身体恐怖",
+      "tagId": "E02",
+      "name": "不安",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7Hf5dr",
+      "row": "085",
+      "style": "身体恐怖",
+      "tagId": "E07",
+      "name": "脆弱",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7Hf5dr",
+      "row": "085",
+      "style": "身体恐怖",
+      "tagId": "E25",
+      "name": "荒诞",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HdhY9",
+      "row": "086",
+      "style": "波普超现实主义",
+      "tagId": "S32",
+      "name": "甜",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HdhY9",
+      "row": "086",
+      "style": "波普超现实主义",
+      "tagId": "E25",
+      "name": "荒诞",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HdhY9",
+      "row": "086",
+      "style": "波普超现实主义",
+      "tagId": "E41",
+      "name": "虚幻",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7Hg1Xg",
+      "row": "087",
+      "style": "哥特",
+      "tagId": "S02",
+      "name": "昏暗",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7Hg1Xg",
+      "row": "087",
+      "style": "哥特",
+      "tagId": "E17",
+      "name": "庄严",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7Hg1Xg",
+      "row": "087",
+      "style": "哥特",
+      "tagId": "E01",
+      "name": "神秘",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7Hg1Xg",
+      "row": "087",
+      "style": "哥特",
+      "tagId": "E19",
+      "name": "忧郁",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HcBBm",
+      "row": "088",
+      "style": "黑色电影",
+      "tagId": "E01",
+      "name": "神秘",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HcBBm",
+      "row": "088",
+      "style": "黑色电影",
+      "tagId": "E05",
+      "name": "疏离",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HcBBm",
+      "row": "088",
+      "style": "黑色电影",
+      "tagId": "E02",
+      "name": "不安",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HcBBm",
+      "row": "088",
+      "style": "黑色电影",
+      "tagId": "E19",
+      "name": "忧郁",
+      "degree": 1,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HfXiT",
+      "row": "089",
+      "style": "科幻视觉",
+      "tagId": "E41",
+      "name": "虚幻",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HfXiT",
+      "row": "089",
+      "style": "科幻视觉",
+      "tagId": "E28",
+      "name": "期待",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HfXiT",
+      "row": "089",
+      "style": "科幻视觉",
+      "tagId": "E24",
+      "name": "冷静",
+      "degree": 1,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HdNoP",
+      "row": "090",
+      "style": "蒸汽朋克",
+      "tagId": "E10",
+      "name": "怀念",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HdNoP",
+      "row": "090",
+      "style": "蒸汽朋克",
+      "tagId": "S22",
+      "name": "坚硬",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HdNoP",
+      "row": "090",
+      "style": "蒸汽朋克",
+      "tagId": "E39",
+      "name": "豪迈",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HfS8b",
+      "row": "091",
+      "style": "太阳朋克",
+      "tagId": "S01",
+      "name": "明亮",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HfS8b",
+      "row": "091",
+      "style": "太阳朋克",
+      "tagId": "S29",
+      "name": "草木气",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HfS8b",
+      "row": "091",
+      "style": "太阳朋克",
+      "tagId": "E28",
+      "name": "期待",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7Hfsmz",
+      "row": "092",
+      "style": "复古未来主义",
+      "tagId": "E10",
+      "name": "怀念",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7Hfsmz",
+      "row": "092",
+      "style": "复古未来主义",
+      "tagId": "E28",
+      "name": "期待",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7Hfsmz",
+      "row": "092",
+      "style": "复古未来主义",
+      "tagId": "E41",
+      "name": "虚幻",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HdF81",
+      "row": "093",
+      "style": "太空歌剧",
+      "tagId": "S12",
+      "name": "庞大",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HdF81",
+      "row": "093",
+      "style": "太空歌剧",
+      "tagId": "E39",
+      "name": "豪迈",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HdF81",
+      "row": "093",
+      "style": "太空歌剧",
+      "tagId": "E41",
+      "name": "虚幻",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HdTGI",
+      "row": "094",
+      "style": "Y2K",
+      "tagId": "S24",
+      "name": "光滑",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HdTGI",
+      "row": "094",
+      "style": "Y2K",
+      "tagId": "S03",
+      "name": "鲜艳",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HdTGI",
+      "row": "094",
+      "style": "Y2K",
+      "tagId": "E42",
+      "name": "自信",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HekcM",
+      "row": "095",
+      "style": "蒸汽波",
+      "tagId": "E10",
+      "name": "怀念",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HekcM",
+      "row": "095",
+      "style": "蒸汽波",
+      "tagId": "E41",
+      "name": "虚幻",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HekcM",
+      "row": "095",
+      "style": "蒸汽波",
+      "tagId": "E19",
+      "name": "忧郁",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7Hd34m",
+      "row": "096",
+      "style": "Frutiger Aero",
+      "tagId": "S05",
+      "name": "透明",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7Hd34m",
+      "row": "096",
+      "style": "Frutiger Aero",
+      "tagId": "S01",
+      "name": "明亮",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7Hd34m",
+      "row": "096",
+      "style": "Frutiger Aero",
+      "tagId": "E28",
+      "name": "期待",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HcwDx",
+      "row": "097",
+      "style": "怪核 Weirdcore",
+      "tagId": "S10",
+      "name": "错位",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HcwDx",
+      "row": "097",
+      "style": "怪核 Weirdcore",
+      "tagId": "E02",
+      "name": "不安",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HcwDx",
+      "row": "097",
+      "style": "怪核 Weirdcore",
+      "tagId": "E25",
+      "name": "荒诞",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HdI46",
+      "row": "098",
+      "style": "Kidcore",
+      "tagId": "E18",
+      "name": "天真",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HdI46",
+      "row": "098",
+      "style": "Kidcore",
+      "tagId": "E32",
+      "name": "顽皮",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HdI46",
+      "row": "098",
+      "style": "Kidcore",
+      "tagId": "S03",
+      "name": "鲜艳",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HcNdu",
+      "row": "099",
+      "style": "Decora",
+      "tagId": "S08",
+      "name": "密集",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HcNdu",
+      "row": "099",
+      "style": "Decora",
+      "tagId": "S03",
+      "name": "鲜艳",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HcNdu",
+      "row": "099",
+      "style": "Decora",
+      "tagId": "E32",
+      "name": "顽皮",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HfoxS",
+      "row": "100",
+      "style": "Yami Kawaii",
+      "tagId": "E07",
+      "name": "脆弱",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HfoxS",
+      "row": "100",
+      "style": "Yami Kawaii",
+      "tagId": "S32",
+      "name": "甜",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKp7HfoxS",
+      "row": "100",
+      "style": "Yami Kawaii",
+      "tagId": "E19",
+      "name": "忧郁",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKwvta1Ka",
+      "row": "101",
+      "style": "odd 风格",
+      "tagId": "E37",
+      "name": "日常感",
+      "degree": 3,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKwvta1Ka",
+      "row": "101",
+      "style": "odd 风格",
+      "tagId": "E02",
+      "name": "不安",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    },
+    {
+      "termId": "reczz28MKwvta1Ka",
+      "row": "101",
+      "style": "odd 风格",
+      "tagId": "E25",
+      "name": "荒诞",
+      "degree": 2,
+      "status": "编辑关联候选，待逐作品核验"
+    }
+  ]
+}

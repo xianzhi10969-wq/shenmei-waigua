@@ -1,0 +1,24 @@
+{
+  "status": "superseded_as_implementation_plan",
+  "replacement": "../2026-11-08-stage-0/README.md",
+  "obsoleteTemplates": [
+    "samples.md",
+    "samples.json",
+    "SCHEMA.md",
+    "schema.json"
+  ],
+  "obsoletePlan": [
+    "ROUTES.md"
+  ],
+  "historicalValidation": [
+    "validate.py",
+    "validation.json"
+  ],
+  "retainedResearch": [
+    "audit.py",
+    "content-audit.md",
+    "content-audit.json",
+    "sources.json"
+  ],
+  "mayContinueFromThisPackage": false
+}

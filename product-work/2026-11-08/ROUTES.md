@@ -1,3 +1,5 @@
+> **已停止沿用（2026-11-08用户纠正）**：本文件是旧执行记录，不是新版模板或有效跳转规划；不能按它继续施工。当前见[阶段0](../2026-11-08-stage-0/README.md)，处置范围见[STATUS.md](STATUS.md)。原始盘点与限定出处研究保留。
+
 # 页面跳转规划｜现状与改版分开
 
 依据：`aesthetic-site/public/app.js`、`features/legacy-app.js`、`entrance/star-navigation-data.mjs`、整站README。2026-11-08代码核验；本轮没有重新跑全站浏览器，不将旧测试报告当成本轮实测。

@@ -1,0 +1,16 @@
+{
+  "result": "PASS",
+  "entries": 101,
+  "pageTypes": {
+    "style": 57,
+    "mood": 44
+  },
+  "plainNames": 101,
+  "signedNames": 0,
+  "vocabulary": 76,
+  "legacyFeelingsCovered": 40,
+  "styleTagEdges": 179,
+  "sourceHashesUnchanged": true,
+  "stage1Allowed": false,
+  "limits": "未验证用户认可、心理解释、外部出处或页面上线；本轮不写正文或运行代码"
+}
