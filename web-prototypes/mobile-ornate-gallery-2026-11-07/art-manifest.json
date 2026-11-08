@@ -1,0 +1,20 @@
+[
+  {
+    "file": "art/frame-white.png",
+    "bytes": 1424617,
+    "sha256": "62ec68865c84789b9e396b9622bff8a549cc1e96544e206ff5c42e284b96a292",
+    "gitBlob": "242b555cc028ea18a38eebe429f6df29b14a63ae"
+  },
+  {
+    "file": "art/frame-black.png",
+    "bytes": 1407908,
+    "sha256": "4a3e9658f198b428fc04fb4ad146516bac0f56544163e5f23bcf21587acc8b1d",
+    "gitBlob": "c8960bb33fd540011b73eda834340fd6aaeb2136"
+  },
+  {
+    "file": "art/frame-gray.png",
+    "bytes": 1815576,
+    "sha256": "ba8760da2a4fd36c42f69c08e476756fa27b7e3d10cfb079fea87a2fb984e790",
+    "gitBlob": "2ee8d73f7a1b6a949fd7f6d1b0da8b7920e82013"
+  }
+]

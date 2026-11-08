@@ -1,0 +1,501 @@
+{
+  "passed": true,
+  "views": [
+    {
+      "width": 320,
+      "chapter": "忧郁",
+      "frameCount": 1
+    },
+    {
+      "width": 320,
+      "chapter": "爱欲",
+      "frameCount": 3
+    },
+    {
+      "width": 320,
+      "chapter": "田园",
+      "frameCount": 3
+    },
+    {
+      "width": 320,
+      "chapter": "幽玄",
+      "frameCount": 3
+    },
+    {
+      "width": 320,
+      "chapter": "酒神",
+      "frameCount": 2
+    },
+    {
+      "width": 320,
+      "chapter": "留白",
+      "frameCount": 3
+    },
+    {
+      "width": 320,
+      "chapter": "平淡",
+      "frameCount": 2
+    },
+    {
+      "width": 320,
+      "chapter": "物哀",
+      "frameCount": 2
+    },
+    {
+      "width": 320,
+      "chapter": "日常",
+      "frameCount": 2
+    },
+    {
+      "width": 320,
+      "chapter": "侘寂",
+      "frameCount": 1
+    },
+    {
+      "width": 320,
+      "chapter": "气韵",
+      "frameCount": 2
+    },
+    {
+      "width": 320,
+      "chapter": "侠",
+      "frameCount": 2
+    },
+    {
+      "width": 320,
+      "chapter": "轻逸",
+      "frameCount": 2
+    },
+    {
+      "width": 320,
+      "chapter": "崇高",
+      "frameCount": 0
+    },
+    {
+      "width": 320,
+      "chapter": "从容",
+      "frameCount": 1
+    },
+    {
+      "width": 320,
+      "chapter": "酷",
+      "frameCount": 1
+    },
+    {
+      "width": 320,
+      "chapter": "怪诞",
+      "frameCount": 1
+    },
+    {
+      "width": 320,
+      "chapter": "阴翳",
+      "frameCount": 2
+    },
+    {
+      "width": 320,
+      "chapter": "悲剧",
+      "frameCount": 2
+    },
+    {
+      "width": 320,
+      "chapter": "废墟",
+      "frameCount": 2
+    },
+    {
+      "width": 320,
+      "chapter": "未来想象",
+      "frameCount": 0
+    },
+    {
+      "width": 320,
+      "chapter": "乡愁",
+      "frameCount": 4
+    },
+    {
+      "width": 320,
+      "chapter": "诡异",
+      "frameCount": 2
+    },
+    {
+      "width": 320,
+      "chapter": "可爱",
+      "frameCount": 2
+    },
+    {
+      "width": 390,
+      "chapter": "忧郁",
+      "frameCount": 1
+    },
+    {
+      "width": 390,
+      "chapter": "爱欲",
+      "frameCount": 3
+    },
+    {
+      "width": 390,
+      "chapter": "田园",
+      "frameCount": 3
+    },
+    {
+      "width": 390,
+      "chapter": "幽玄",
+      "frameCount": 3
+    },
+    {
+      "width": 390,
+      "chapter": "酒神",
+      "frameCount": 2
+    },
+    {
+      "width": 390,
+      "chapter": "留白",
+      "frameCount": 3
+    },
+    {
+      "width": 390,
+      "chapter": "平淡",
+      "frameCount": 2
+    },
+    {
+      "width": 390,
+      "chapter": "物哀",
+      "frameCount": 2
+    },
+    {
+      "width": 390,
+      "chapter": "日常",
+      "frameCount": 2
+    },
+    {
+      "width": 390,
+      "chapter": "侘寂",
+      "frameCount": 1
+    },
+    {
+      "width": 390,
+      "chapter": "气韵",
+      "frameCount": 2
+    },
+    {
+      "width": 390,
+      "chapter": "侠",
+      "frameCount": 2
+    },
+    {
+      "width": 390,
+      "chapter": "轻逸",
+      "frameCount": 2
+    },
+    {
+      "width": 390,
+      "chapter": "崇高",
+      "frameCount": 0
+    },
+    {
+      "width": 390,
+      "chapter": "从容",
+      "frameCount": 1
+    },
+    {
+      "width": 390,
+      "chapter": "酷",
+      "frameCount": 1
+    },
+    {
+      "width": 390,
+      "chapter": "怪诞",
+      "frameCount": 1
+    },
+    {
+      "width": 390,
+      "chapter": "阴翳",
+      "frameCount": 2
+    },
+    {
+      "width": 390,
+      "chapter": "悲剧",
+      "frameCount": 2
+    },
+    {
+      "width": 390,
+      "chapter": "废墟",
+      "frameCount": 2
+    },
+    {
+      "width": 390,
+      "chapter": "未来想象",
+      "frameCount": 0
+    },
+    {
+      "width": 390,
+      "chapter": "乡愁",
+      "frameCount": 4
+    },
+    {
+      "width": 390,
+      "chapter": "诡异",
+      "frameCount": 2
+    },
+    {
+      "width": 390,
+      "chapter": "可爱",
+      "frameCount": 2
+    },
+    {
+      "width": 430,
+      "chapter": "忧郁",
+      "frameCount": 1
+    },
+    {
+      "width": 430,
+      "chapter": "爱欲",
+      "frameCount": 3
+    },
+    {
+      "width": 430,
+      "chapter": "田园",
+      "frameCount": 3
+    },
+    {
+      "width": 430,
+      "chapter": "幽玄",
+      "frameCount": 3
+    },
+    {
+      "width": 430,
+      "chapter": "酒神",
+      "frameCount": 2
+    },
+    {
+      "width": 430,
+      "chapter": "留白",
+      "frameCount": 3
+    },
+    {
+      "width": 430,
+      "chapter": "平淡",
+      "frameCount": 2
+    },
+    {
+      "width": 430,
+      "chapter": "物哀",
+      "frameCount": 2
+    },
+    {
+      "width": 430,
+      "chapter": "日常",
+      "frameCount": 2
+    },
+    {
+      "width": 430,
+      "chapter": "侘寂",
+      "frameCount": 1
+    },
+    {
+      "width": 430,
+      "chapter": "气韵",
+      "frameCount": 2
+    },
+    {
+      "width": 430,
+      "chapter": "侠",
+      "frameCount": 2
+    },
+    {
+      "width": 430,
+      "chapter": "轻逸",
+      "frameCount": 2
+    },
+    {
+      "width": 430,
+      "chapter": "崇高",
+      "frameCount": 0
+    },
+    {
+      "width": 430,
+      "chapter": "从容",
+      "frameCount": 1
+    },
+    {
+      "width": 430,
+      "chapter": "酷",
+      "frameCount": 1
+    },
+    {
+      "width": 430,
+      "chapter": "怪诞",
+      "frameCount": 1
+    },
+    {
+      "width": 430,
+      "chapter": "阴翳",
+      "frameCount": 2
+    },
+    {
+      "width": 430,
+      "chapter": "悲剧",
+      "frameCount": 2
+    },
+    {
+      "width": 430,
+      "chapter": "废墟",
+      "frameCount": 2
+    },
+    {
+      "width": 430,
+      "chapter": "未来想象",
+      "frameCount": 0
+    },
+    {
+      "width": 430,
+      "chapter": "乡愁",
+      "frameCount": 4
+    },
+    {
+      "width": 430,
+      "chapter": "诡异",
+      "frameCount": 2
+    },
+    {
+      "width": 430,
+      "chapter": "可爱",
+      "frameCount": 2
+    },
+    {
+      "width": 1440,
+      "chapter": "忧郁",
+      "frameCount": 1
+    },
+    {
+      "width": 1440,
+      "chapter": "爱欲",
+      "frameCount": 3
+    },
+    {
+      "width": 1440,
+      "chapter": "田园",
+      "frameCount": 3
+    },
+    {
+      "width": 1440,
+      "chapter": "幽玄",
+      "frameCount": 3
+    },
+    {
+      "width": 1440,
+      "chapter": "酒神",
+      "frameCount": 2
+    },
+    {
+      "width": 1440,
+      "chapter": "留白",
+      "frameCount": 3
+    },
+    {
+      "width": 1440,
+      "chapter": "平淡",
+      "frameCount": 2
+    },
+    {
+      "width": 1440,
+      "chapter": "物哀",
+      "frameCount": 2
+    },
+    {
+      "width": 1440,
+      "chapter": "日常",
+      "frameCount": 2
+    },
+    {
+      "width": 1440,
+      "chapter": "侘寂",
+      "frameCount": 1
+    },
+    {
+      "width": 1440,
+      "chapter": "气韵",
+      "frameCount": 2
+    },
+    {
+      "width": 1440,
+      "chapter": "侠",
+      "frameCount": 2
+    },
+    {
+      "width": 1440,
+      "chapter": "轻逸",
+      "frameCount": 2
+    },
+    {
+      "width": 1440,
+      "chapter": "崇高",
+      "frameCount": 0
+    },
+    {
+      "width": 1440,
+      "chapter": "从容",
+      "frameCount": 1
+    },
+    {
+      "width": 1440,
+      "chapter": "酷",
+      "frameCount": 1
+    },
+    {
+      "width": 1440,
+      "chapter": "怪诞",
+      "frameCount": 1
+    },
+    {
+      "width": 1440,
+      "chapter": "阴翳",
+      "frameCount": 2
+    },
+    {
+      "width": 1440,
+      "chapter": "悲剧",
+      "frameCount": 2
+    },
+    {
+      "width": 1440,
+      "chapter": "废墟",
+      "frameCount": 2
+    },
+    {
+      "width": 1440,
+      "chapter": "未来想象",
+      "frameCount": 0
+    },
+    {
+      "width": 1440,
+      "chapter": "乡愁",
+      "frameCount": 4
+    },
+    {
+      "width": 1440,
+      "chapter": "诡异",
+      "frameCount": 2
+    },
+    {
+      "width": 1440,
+      "chapter": "可爱",
+      "frameCount": 2
+    }
+  ],
+  "errors": [],
+  "checks": [
+    "96 views / 24 chapters / 4 viewport widths",
+    "artwork aspect ratios within 1px",
+    "all corner aspect ratios preserved",
+    "no negative stretch rails",
+    "no horizontal overflow",
+    "white gray black actual asset switching",
+    "original image dialog",
+    "real term entry and browser back"
+  ],
+  "limits": [
+    "browser emulation, not physical device",
+    "one ornamental family, not all five former frame types",
+    "colors are generated candidates, pending aesthetic review"
+  ]
+}
