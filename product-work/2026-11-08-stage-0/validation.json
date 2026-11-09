@@ -12,5 +12,7 @@
   "styleTagEdges": 179,
   "sourceHashesUnchanged": true,
   "stage1Allowed": false,
-  "limits": "未验证用户认可、心理解释、外部出处或页面上线；本轮不写正文或运行代码"
+  "limits": "未验证用户认可、心理解释、外部出处或页面上线；本轮不写正文或运行代码",
+  "status": "historical_validation_of_revoked_binary_draft",
+  "replacement": "../2026-11-09-classification/classification.json"
 }

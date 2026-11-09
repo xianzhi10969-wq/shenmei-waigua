@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "status": "阶段0交付候选；闸门0未通过",
+    "status": "superseded: 强制二分已撤回",
     "sourceCommit": "f6025a528b865450356685dc43c9ee83c250f3a1",
     "sourceHashes": {
       "aesthetic-site/src/catalog.json": "53951b29888b67c24f317e4987ede677cf45a2d8bc51545679f50bc4d28553a9",
@@ -15,7 +15,10 @@
     "signedNames": 0,
     "currentStage": 0,
     "nextStageAllowed": false,
-    "interpretation": "degree是编辑关联强弱，不是用户心理分数、流派定义或统计测量"
+    "interpretation": "degree是编辑关联强弱，不是用户心理分数、流派定义或统计测量",
+    "replacement": "../2026-11-09-classification/classification.json",
+    "mayUseClassification": false,
+    "mayUseStyleTagEdges": false
   },
   "entries": [
     {

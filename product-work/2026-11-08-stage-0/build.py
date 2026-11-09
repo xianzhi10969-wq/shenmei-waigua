@@ -1,4 +1,6 @@
 """Build review tables from an independent, unsigned proposal. Does not write site data."""
+raise SystemExit("旧二分生成器已停用。请查看 ../2026-11-09-classification/README.md")
+
 import hashlib
 import json
 from pathlib import Path

@@ -1,0 +1,1407 @@
+{
+  "version": "2026-11-09-v2",
+  "status": "待审",
+  "basis": "用户取消强制二分，允许新增概念",
+  "sourceCommit": "80d0013fe58f3e21231502d85b8826882a9187eb",
+  "counts": {
+    "style": 28,
+    "other": 32,
+    "pending": 13,
+    "mood": 28
+  },
+  "entries": [
+    {
+      "row": "001",
+      "termId": "reczz28HJJL2GIls",
+      "originalName": "梦核",
+      "englishOriginal": "Dreamcore",
+      "sources": [
+        "S01"
+      ],
+      "category": "style",
+      "subtype": "网络美学",
+      "reason": "已找到外部具名风格/美学讨论，仅采用来源支持的领域",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "002",
+      "termId": "reczz28HJJL2GIv6",
+      "originalName": "阈限空间",
+      "englishOriginal": "Liminal Space",
+      "sources": [
+        "S01"
+      ],
+      "category": "other",
+      "subtype": "空间概念/网络美学候选",
+      "reason": "过渡空间可作为母题；若以Liminal-space aesthetic独立收录，需另给美学范围，现放其他",
+      "possibleFeelings": "空旷、诡异、疏离",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "003",
+      "termId": "reczz28HJJL2GJ14",
+      "originalName": "诡异人偶",
+      "englishOriginal": "Uncanny Doll",
+      "sources": [],
+      "category": "other",
+      "subtype": "对象＋感觉",
+      "reason": "拆为人偶对象与诡异感觉；完整词不列style",
+      "possibleFeelings": "诡异、不安",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "004",
+      "termId": "reczz28HJJL2GJ6i",
+      "originalName": "模拟恐怖",
+      "englishOriginal": "Analog Horror",
+      "sources": [
+        "S26"
+      ],
+      "category": "other",
+      "subtype": "影像类型",
+      "reason": "完整Analog Horror是类型名称；恐惧是感受层，不能截取词尾替整个概念归类",
+      "possibleFeelings": "恐惧、不安、诡异",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "005",
+      "termId": "reczz28HJJL2GJBv",
+      "originalName": "甜亚系",
+      "englishOriginal": "Sweet Asian",
+      "sources": [
+        "S25"
+      ],
+      "category": "style",
+      "subtype": "服装趋势",
+      "reason": "外部已有甜亚文化趋势用法；原英文Sweet Asian须核正，不能望文生义",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "006",
+      "termId": "reczz28HJJL2GJHl",
+      "originalName": "Coquette",
+      "englishOriginal": "Coquette",
+      "sources": [
+        "S02"
+      ],
+      "category": "style",
+      "subtype": "服装美学",
+      "reason": "已找到外部具名风格/美学讨论，仅采用来源支持的领域",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "007",
+      "termId": "reczz28HJJL2GJND",
+      "originalName": "Girlhood",
+      "englishOriginal": "Girlhood",
+      "sources": [
+        "S03"
+      ],
+      "category": "style",
+      "subtype": "服装/文化美学",
+      "reason": "Girlhood aesthetic已有时装与文化讨论；撤回原mood判定",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "008",
+      "termId": "reczz28HJJL2GJS1",
+      "originalName": "Softcore",
+      "englishOriginal": "Softcore",
+      "sources": [
+        "S04"
+      ],
+      "category": "style",
+      "subtype": "服装美学",
+      "reason": "已找到外部具名风格/美学讨论，仅采用来源支持的领域",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "009",
+      "termId": "reczz28HJJL2GJXK",
+      "originalName": "复古",
+      "englishOriginal": "Retro",
+      "sources": [],
+      "category": "pending",
+      "subtype": "范围/证据待核",
+      "reason": "复古是广义风格总称，需按时期/媒介确定本条范围与证据",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "010",
+      "termId": "reczz28HJJL2GJcS",
+      "originalName": "旧互联网 Old Web",
+      "englishOriginal": "Old Web",
+      "sources": [],
+      "category": "pending",
+      "subtype": "范围/证据待核",
+      "reason": "Old Web有时代视觉集合的用法，本条尚缺明确范围证据",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "011",
+      "termId": "reczz28HJJL2GJht",
+      "originalName": "日杂",
+      "englishOriginal": "Zakka",
+      "sources": [],
+      "category": "pending",
+      "subtype": "范围/证据待核",
+      "reason": "日杂是杂志文化总称，当前英文Zakka与中文存在错位",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "012",
+      "termId": "reczz28HJJL2GJns",
+      "originalName": "画报风",
+      "englishOriginal": "Pictorial",
+      "sources": [],
+      "category": "pending",
+      "subtype": "范围/证据待核",
+      "reason": "画报风未限定年代、地区与媒介，范围待收口",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "013",
+      "termId": "reczz28HJJL2GJt7",
+      "originalName": "复古摇滚",
+      "englishOriginal": "Retro Rock",
+      "sources": [],
+      "category": "pending",
+      "subtype": "范围/证据待核",
+      "reason": "复古摇滚混合时期与音乐类型，需核定具体视觉风格名",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "014",
+      "termId": "reczz28HJJL2GK3M",
+      "originalName": "低能量",
+      "englishOriginal": "Low Energy",
+      "sources": [],
+      "category": "mood",
+      "subtype": "感觉/心理状态",
+      "reason": "低唤醒/疲乏状态",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "015",
+      "termId": "reczz28HJJL2GKfk",
+      "originalName": "心动",
+      "englishOriginal": "Crush",
+      "sources": [],
+      "category": "mood",
+      "subtype": "感觉/心理状态",
+      "reason": "悸动、被吸引的感觉",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "016",
+      "termId": "reczz28HJJL2GKkE",
+      "originalName": "暧昧",
+      "englishOriginal": "Ambiguity",
+      "sources": [],
+      "category": "mood",
+      "subtype": "感觉/心理状态",
+      "reason": "关系中的不确定与期待",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "017",
+      "termId": "reczz28HJJL2GKpL",
+      "originalName": "拉扯感",
+      "englishOriginal": "Push and Pull",
+      "sources": [],
+      "category": "mood",
+      "subtype": "感觉/心理状态",
+      "reason": "接近与退缩的张力",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "018",
+      "termId": "reczz28HJJL2GL2L",
+      "originalName": "情欲张力",
+      "englishOriginal": "Erotic Tension",
+      "sources": [],
+      "category": "mood",
+      "subtype": "感觉/心理状态",
+      "reason": "欲望与紧张",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "019",
+      "termId": "reczz28HJJL2GLCP",
+      "originalName": "治愈",
+      "englishOriginal": "Healing",
+      "sources": [],
+      "category": "mood",
+      "subtype": "感觉/心理状态",
+      "reason": "获得安慰、安定的体验",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "020",
+      "termId": "reczz28HJJL2GLFs",
+      "originalName": "Cottagecore",
+      "englishOriginal": "Cottagecore",
+      "sources": [
+        "S05"
+      ],
+      "category": "style",
+      "subtype": "网络/服装美学",
+      "reason": "已找到外部具名风格/美学讨论，仅采用来源支持的领域",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "021",
+      "termId": "reczz28HJJL2GLJb",
+      "originalName": "盛夏",
+      "englishOriginal": "Midsummer",
+      "sources": [],
+      "category": "other",
+      "subtype": "季节/场景",
+      "reason": "盛夏描述时间与环境，可在不同风格里出现",
+      "possibleFeelings": "燥热、悸动、慵懒",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "022",
+      "termId": "reczz28HJJL2GLVe",
+      "originalName": "生命力",
+      "englishOriginal": "Vitality",
+      "sources": [],
+      "category": "mood",
+      "subtype": "感觉/心理状态",
+      "reason": "旺盛、充沛的体验",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "023",
+      "termId": "reczz28HJJL2GLZ0",
+      "originalName": "清冷",
+      "englishOriginal": "Cool Detachment",
+      "sources": [],
+      "category": "mood",
+      "subtype": "感觉/心理状态",
+      "reason": "冷意与疏离的复合感受",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "024",
+      "termId": "reczz28HJJL2GLgi",
+      "originalName": "朦胧",
+      "englishOriginal": "Haze",
+      "sources": [],
+      "category": "mood",
+      "subtype": "感觉/心理状态",
+      "reason": "模糊、若隐若现的感官氛围",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "025",
+      "termId": "reczz28HJJL2GLjP",
+      "originalName": "空灵",
+      "englishOriginal": "Ethereal",
+      "sources": [],
+      "category": "mood",
+      "subtype": "感觉/心理状态",
+      "reason": "轻、远、空的审美体验",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "026",
+      "termId": "reczz28HJJL2GLnG",
+      "originalName": "梦境",
+      "englishOriginal": "Dreamscape",
+      "sources": [],
+      "category": "other",
+      "subtype": "意识经验/题材",
+      "reason": "梦境是题材；Dreamcore才是另有社会使用的具名美学",
+      "possibleFeelings": "虚幻、迷离",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "027",
+      "termId": "reczz28HJJL2GLvJ",
+      "originalName": "多巴胺",
+      "englishOriginal": "Dopamine",
+      "sources": [
+        "S05"
+      ],
+      "category": "style",
+      "subtype": "穿着趋势",
+      "reason": "限定多巴胺穿搭/Dopamine Dressing；原名多巴胺过宽，不能当神经科学解释",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "028",
+      "termId": "reczz28HJJL2GLxu",
+      "originalName": "热烈",
+      "englishOriginal": "Fervor",
+      "sources": [],
+      "category": "mood",
+      "subtype": "感觉/心理状态",
+      "reason": "强烈、外放的情绪",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "029",
+      "termId": "reczz28HJJL2GM5u",
+      "originalName": "涂鸦",
+      "englishOriginal": "Graffiti",
+      "sources": [],
+      "category": "other",
+      "subtype": "艺术实践/媒介集合",
+      "reason": "涂鸦包含多种视觉风格，当前宽泛名称按实践归类",
+      "possibleFeelings": "依具体作品",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "030",
+      "termId": "reczz28HJJL2GM8Z",
+      "originalName": "盐系",
+      "englishOriginal": "Salt Style",
+      "sources": [
+        "S06"
+      ],
+      "category": "style",
+      "subtype": "穿着风格",
+      "reason": "已找到外部具名风格/美学讨论，仅采用来源支持的领域",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "031",
+      "termId": "reczz28HJJL2GMBA",
+      "originalName": "禅意",
+      "englishOriginal": "Zen",
+      "sources": [],
+      "category": "other",
+      "subtype": "思想/审美概念",
+      "reason": "禅意涉及思想语境，不能压缩为一个情绪",
+      "possibleFeelings": "平静、释然",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "032",
+      "termId": "reczz28HJJL2GMEM",
+      "originalName": "等待",
+      "englishOriginal": "Waiting",
+      "sources": [],
+      "category": "other",
+      "subtype": "行为/叙事情境",
+      "reason": "等待描述发生什么；具体感觉可能截然不同",
+      "possibleFeelings": "期待、焦躁、忐忑",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "033",
+      "termId": "reczz28HJJL2GMGx",
+      "originalName": "宁静",
+      "englishOriginal": "Stillness",
+      "sources": [],
+      "category": "mood",
+      "subtype": "感觉/心理状态",
+      "reason": "平静的心境",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "034",
+      "termId": "reczz28HJJL2GMJz",
+      "originalName": "含蓄",
+      "englishOriginal": "Reticence",
+      "sources": [],
+      "category": "other",
+      "subtype": "表达方式",
+      "reason": "保留、间接表达属于表达方式",
+      "possibleFeelings": "克制、羞怯",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "035",
+      "termId": "reczz28HJJL2GMMk",
+      "originalName": "Normcore",
+      "englishOriginal": "Normcore",
+      "sources": [
+        "S07"
+      ],
+      "category": "style",
+      "subtype": "穿着美学",
+      "reason": "已找到外部具名风格/美学讨论，仅采用来源支持的领域",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "036",
+      "termId": "reczz28HJJL2GMPN",
+      "originalName": "细水长流",
+      "englishOriginal": "Steady Stream",
+      "sources": [],
+      "category": "other",
+      "subtype": "关系/时间模式",
+      "reason": "细水长流描述关系持续方式",
+      "possibleFeelings": "安心、亲密",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "037",
+      "termId": "reczz28HJJL2GMRw",
+      "originalName": "极简",
+      "englishOriginal": "Minimalism",
+      "sources": [
+        "S08"
+      ],
+      "category": "style",
+      "subtype": "艺术流派",
+      "reason": "已找到外部具名风格/美学讨论，仅采用来源支持的领域",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "038",
+      "termId": "reczz28HJJL2GMUe",
+      "originalName": "淡极生艳",
+      "englishOriginal": "Pale Brilliance",
+      "sources": [],
+      "category": "mood",
+      "subtype": "感觉/心理状态",
+      "reason": "低刺激中的审美感受，名称须再审",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "039",
+      "termId": "reczz28HJJL2GMXK",
+      "originalName": "白月光",
+      "englishOriginal": "The One That Got Away",
+      "sources": [],
+      "category": "other",
+      "subtype": "人物意象/关系隐喻",
+      "reason": "白月光是人物或记忆意象",
+      "possibleFeelings": "眷恋、遗憾",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "040",
+      "termId": "reczz28HJJL2GMZz",
+      "originalName": "意难平",
+      "englishOriginal": "Lingering Regret",
+      "sources": [],
+      "category": "mood",
+      "subtype": "感觉/心理状态",
+      "reason": "遗憾、留恋的复合情绪",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "041",
+      "termId": "reczz28HJJL2GMcc",
+      "originalName": "青涩",
+      "englishOriginal": "First Crush",
+      "sources": [],
+      "category": "other",
+      "subtype": "成长状态/人物气质",
+      "reason": "青涩描述尚未熟练的状态",
+      "possibleFeelings": "羞怯、悸动",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "042",
+      "termId": "reczz28HJJL2GMfJ",
+      "originalName": "告别",
+      "englishOriginal": "Farewell",
+      "sources": [],
+      "category": "other",
+      "subtype": "事件/叙事情境",
+      "reason": "告别是事件，可承载不同情绪",
+      "possibleFeelings": "悲伤、释然、决绝",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "043",
+      "termId": "reczz28HJJL2GMrB",
+      "originalName": "沉浸式独处",
+      "englishOriginal": "Immersive Solitude",
+      "sources": [],
+      "category": "other",
+      "subtype": "活动/生活情境",
+      "reason": "独处是生活情境，沉浸是注意状态",
+      "possibleFeelings": "安静、自在、孤单",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "044",
+      "termId": "reczz28HJJL2GMxt",
+      "originalName": "烟火味",
+      "englishOriginal": "Hustle and Bustle",
+      "sources": [],
+      "category": "mood",
+      "subtype": "感觉/心理状态",
+      "reason": "熟悉、热闹、被生活包围的感受；与真实炊烟气味分开",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "045",
+      "termId": "reczz28HJJL2GN4c",
+      "originalName": "生活切片",
+      "englishOriginal": "Slice of Life",
+      "sources": [],
+      "category": "other",
+      "subtype": "叙事题材/呈现方式",
+      "reason": "Slice of Life描述日常叙事，不必然共享视觉风格",
+      "possibleFeelings": "熟悉、温暖、无聊",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "046",
+      "termId": "reczz28HJJL2GN7q",
+      "originalName": "破碎感",
+      "englishOriginal": "Fragility",
+      "sources": [],
+      "category": "mood",
+      "subtype": "感觉/心理状态",
+      "reason": "脆弱感",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "047",
+      "termId": "reczz28HJJL2GNBK",
+      "originalName": "拓印",
+      "englishOriginal": "Imprint",
+      "sources": [],
+      "category": "other",
+      "subtype": "工艺",
+      "reason": "拓印是工艺；当前蓝晒案例归属还需纠正",
+      "possibleFeelings": "依具体作品",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "048",
+      "termId": "reczz28HJJL2GNFA",
+      "originalName": "质朴",
+      "englishOriginal": "Rustic",
+      "sources": [],
+      "category": "other",
+      "subtype": "质感/价值描述",
+      "reason": "质朴描述材料、外观或价值取向",
+      "possibleFeelings": "踏实、温暖",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "049",
+      "termId": "reczz28HJJL2GNHq",
+      "originalName": "Riso 印刷",
+      "englishOriginal": "Risograph",
+      "sources": [],
+      "category": "other",
+      "subtype": "印刷工艺",
+      "reason": "Risograph是印刷方式，可服务多种风格",
+      "possibleFeelings": "依具体作品",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "050",
+      "termId": "reczz28HJJL2GNOa",
+      "originalName": "新中式",
+      "englishOriginal": "New Chinese Style",
+      "sources": [
+        "S09"
+      ],
+      "category": "style",
+      "subtype": "穿着风格",
+      "reason": "已找到外部具名风格/美学讨论，仅采用来源支持的领域",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "051",
+      "termId": "reczz28HJJL2GNSP",
+      "originalName": "水墨",
+      "englishOriginal": "Ink Wash",
+      "sources": [],
+      "category": "other",
+      "subtype": "绘画媒介/传统",
+      "reason": "水墨覆盖多种流派与形式",
+      "possibleFeelings": "依具体作品",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "052",
+      "termId": "reczz28HJJL2GNcx",
+      "originalName": "武侠",
+      "englishOriginal": "Wuxia",
+      "sources": [],
+      "category": "other",
+      "subtype": "叙事类型",
+      "reason": "武侠有明确类型传统；不把整个类型视为同一视觉风格",
+      "possibleFeelings": "豪迈、自由、牵挂",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "053",
+      "termId": "reczz28HJJL2GNfa",
+      "originalName": "魏晋风",
+      "englishOriginal": "Wei-Jin Style",
+      "sources": [],
+      "category": "other",
+      "subtype": "历史文化/服饰语境",
+      "reason": "魏晋风需区分服饰复原与现代想象，当前归文化语境",
+      "possibleFeelings": "疏朗、自由",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "054",
+      "termId": "reczz28HJJL2GNiE",
+      "originalName": "仙侠",
+      "englishOriginal": "Xianxia",
+      "sources": [],
+      "category": "other",
+      "subtype": "叙事类型",
+      "reason": "仙侠承载世界设定与叙事，并不限定视觉语言",
+      "possibleFeelings": "超脱、向往",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "055",
+      "termId": "reczz28HJJL2GNnU",
+      "originalName": "轻盈",
+      "englishOriginal": "Airy",
+      "sources": [],
+      "category": "mood",
+      "subtype": "感觉/心理状态",
+      "reason": "身体或知觉上的轻",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "056",
+      "termId": "reczz28HJJL2GNqc",
+      "originalName": "清透",
+      "englishOriginal": "Translucent",
+      "sources": [],
+      "category": "mood",
+      "subtype": "感觉/心理状态",
+      "reason": "通透的感官体验",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "057",
+      "termId": "reczz28HJJL2GNwD",
+      "originalName": "流动",
+      "englishOriginal": "Flow",
+      "sources": [],
+      "category": "other",
+      "subtype": "运动/形式特征",
+      "reason": "流动描述运动或形式关系",
+      "possibleFeelings": "舒展、轻快",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "058",
+      "termId": "reczz28HJJL2GOA8",
+      "originalName": "松弛感",
+      "englishOriginal": "Effortless",
+      "sources": [],
+      "category": "mood",
+      "subtype": "感觉/心理状态",
+      "reason": "松弛状态",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "059",
+      "termId": "reczz28HJJL2GOCn",
+      "originalName": "法式不经意",
+      "englishOriginal": "French Sprezzatura",
+      "sources": [],
+      "category": "pending",
+      "subtype": "范围/证据待核",
+      "reason": "法式不经意与Sprezzatura不能未经证据直接等同",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "060",
+      "termId": "reczz28HJJL2GOKi",
+      "originalName": "反差",
+      "englishOriginal": "Contrast",
+      "sources": [],
+      "category": "other",
+      "subtype": "形式/关系特征",
+      "reason": "反差是比较关系，能用于多种风格",
+      "possibleFeelings": "意外、惊讶",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "061",
+      "termId": "reczz28HJJL2GONM",
+      "originalName": "嚣张",
+      "englishOriginal": "Swagger",
+      "sources": [],
+      "category": "mood",
+      "subtype": "感觉/心理状态",
+      "reason": "张扬、自信的姿态感受；mood边界待审",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "062",
+      "termId": "reczz28HJJL2GOVG",
+      "originalName": "反诗意",
+      "englishOriginal": "Anti-Poetic",
+      "sources": [],
+      "category": "other",
+      "subtype": "创作立场",
+      "reason": "反诗意是态度/策略，目前没有本项目意义的独立风格证据",
+      "possibleFeelings": "冷静、荒诞",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "063",
+      "termId": "reczz28HJJL2GOdG",
+      "originalName": "粗粝",
+      "englishOriginal": "Gritty",
+      "sources": [],
+      "category": "mood",
+      "subtype": "感觉/心理状态",
+      "reason": "粗糙的触觉/视觉体验",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "064",
+      "termId": "reczz28HJJL2GOfq",
+      "originalName": "暗黑",
+      "englishOriginal": "Dark Aesthetic",
+      "sources": [],
+      "category": "pending",
+      "subtype": "范围/证据待核",
+      "reason": "暗黑是广义视觉标签，需要区别Goth等具名风格",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "065",
+      "termId": "reczz28HJJL2GOiU",
+      "originalName": "昏黄",
+      "englishOriginal": "Lamplight",
+      "sources": [],
+      "category": "mood",
+      "subtype": "感觉/心理状态",
+      "reason": "暖暗光色带来的感官氛围",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "066",
+      "termId": "reczz28HJJL2GOr1",
+      "originalName": "阴湿",
+      "englishOriginal": "Damp",
+      "sources": [],
+      "category": "mood",
+      "subtype": "感觉/心理状态",
+      "reason": "潮湿、阴暗的复合感官体验",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "067",
+      "termId": "reczz28HJJL2GOtf",
+      "originalName": "宿命感",
+      "englishOriginal": "Fated",
+      "sources": [],
+      "category": "mood",
+      "subtype": "感觉/心理状态",
+      "reason": "无可避免的主观感受",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "068",
+      "termId": "reczz28HJJL2GOwt",
+      "originalName": "刀子",
+      "englishOriginal": "Hidden Angst",
+      "sources": [],
+      "category": "other",
+      "subtype": "叙事效果/网络比喻",
+      "reason": "刀子是令人难过的剧情效果俗称",
+      "possibleFeelings": "悲伤、遗憾",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "069",
+      "termId": "reczz28HJJL2GOzV",
+      "originalName": "悲壮感",
+      "englishOriginal": "Tragic Heroism",
+      "sources": [],
+      "category": "mood",
+      "subtype": "感觉/心理状态",
+      "reason": "悲伤与昂扬并存的感受",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "070",
+      "termId": "reczz28HJJL2GP2A",
+      "originalName": "决绝",
+      "englishOriginal": "No Turning Back",
+      "sources": [],
+      "category": "mood",
+      "subtype": "感觉/心理状态",
+      "reason": "坚定离开的心理姿态",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "071",
+      "termId": "reczz28HJJL2GP4n",
+      "originalName": "废土",
+      "englishOriginal": "Wasteland",
+      "sources": [],
+      "category": "other",
+      "subtype": "世界设定/场景",
+      "reason": "废土先按场景收录；若收末日服装美学需核清独立名称",
+      "possibleFeelings": "荒凉、压抑",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "072",
+      "termId": "reczz28HJJL2GP7R",
+      "originalName": "末世",
+      "englishOriginal": "End Times",
+      "sources": [],
+      "category": "other",
+      "subtype": "世界设定/叙事题材",
+      "reason": "末世指事件与世界状态",
+      "possibleFeelings": "绝望、不安、释然",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "073",
+      "termId": "reczz28HJJL2GPCk",
+      "originalName": "波普",
+      "englishOriginal": "Pop Art",
+      "sources": [
+        "S08"
+      ],
+      "category": "style",
+      "subtype": "艺术流派",
+      "reason": "已找到外部具名风格/美学讨论，仅采用来源支持的领域",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "074",
+      "termId": "reczz28HJJL2GPFN",
+      "originalName": "赛博朋克",
+      "englishOriginal": "Cyberpunk",
+      "sources": [
+        "S27"
+      ],
+      "category": "pending",
+      "subtype": "范围/证据待核",
+      "reason": "已核实Cyberpunk类型用法；独立视觉美学收录范围继续核验",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "075",
+      "termId": "reczz28MKp7HdDiG",
+      "originalName": "颓废美学",
+      "englishOriginal": "Decadence",
+      "sources": [
+        "S10"
+      ],
+      "category": "style",
+      "subtype": "艺术/文学美学",
+      "reason": "已找到外部具名风格/美学讨论，仅采用来源支持的领域",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "076",
+      "termId": "reczz28MKp7HdIot",
+      "originalName": "坎普",
+      "englishOriginal": "Camp",
+      "sources": [
+        "S11"
+      ],
+      "category": "style",
+      "subtype": "美学立场",
+      "reason": "已找到外部具名风格/美学讨论，仅采用来源支持的领域",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "077",
+      "termId": "reczz28MKp7HfUmt",
+      "originalName": "酸性视觉",
+      "englishOriginal": "Acid Graphics",
+      "sources": [
+        "S12"
+      ],
+      "category": "style",
+      "subtype": "平面设计风格",
+      "reason": "已找到外部具名风格/美学讨论，仅采用来源支持的领域",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "078",
+      "termId": "reczz28MKp7HfSC1",
+      "originalName": "孟菲斯",
+      "englishOriginal": "Memphis",
+      "sources": [
+        "S13"
+      ],
+      "category": "style",
+      "subtype": "设计风格",
+      "reason": "已找到外部具名风格/美学讨论，仅采用来源支持的领域",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "079",
+      "termId": "reczz28MKp7HfeNy",
+      "originalName": "宋韵",
+      "englishOriginal": "Song Aesthetics",
+      "sources": [],
+      "category": "pending",
+      "subtype": "范围/证据待核",
+      "reason": "宋韵是文化/审美总称，需要确定具体风格边界",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "080",
+      "termId": "reczz28MKp7HeRsf",
+      "originalName": "史诗感",
+      "englishOriginal": "Epic",
+      "sources": [],
+      "category": "mood",
+      "subtype": "感觉/心理状态",
+      "reason": "宏阔、庄严的叙事感受",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "081",
+      "termId": "reczz28MKp7HcZiE",
+      "originalName": "巨物感",
+      "englishOriginal": "Gigantism",
+      "sources": [],
+      "category": "mood",
+      "subtype": "感觉/心理状态",
+      "reason": "尺度引起的压迫/敬畏感",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "082",
+      "termId": "reczz28MKp7HdgPi",
+      "originalName": "朋克",
+      "englishOriginal": "Punk",
+      "sources": [
+        "S14"
+      ],
+      "category": "style",
+      "subtype": "亚文化/穿着风格",
+      "reason": "已找到外部具名风格/美学讨论，仅采用来源支持的领域",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "083",
+      "termId": "reczz28MKp7HeJf0",
+      "originalName": "机能风",
+      "englishOriginal": "Techwear",
+      "sources": [
+        "S29"
+      ],
+      "category": "pending",
+      "subtype": "范围/证据待核",
+      "reason": "找到Techwear穿着讨论，补独立定义与范围后再纳入style",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "084",
+      "termId": "reczz28MKp7HcT4e",
+      "originalName": "Grunge",
+      "englishOriginal": "Grunge",
+      "sources": [
+        "S15"
+      ],
+      "category": "style",
+      "subtype": "穿着美学",
+      "reason": "已找到外部具名风格/美学讨论，仅采用来源支持的领域",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "085",
+      "termId": "reczz28MKp7Hf5dr",
+      "originalName": "身体恐怖",
+      "englishOriginal": "Body Horror",
+      "sources": [],
+      "category": "other",
+      "subtype": "恐怖子类型",
+      "reason": "身体恐怖按类型单列；形变对象与恐惧感分别索引",
+      "possibleFeelings": "恐惧、厌恶、不安",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "086",
+      "termId": "reczz28MKp7HdhY9",
+      "originalName": "波普超现实主义",
+      "englishOriginal": "Pop Surrealism",
+      "sources": [
+        "S16"
+      ],
+      "category": "style",
+      "subtype": "艺术风格",
+      "reason": "已找到外部具名风格/美学讨论，仅采用来源支持的领域",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "087",
+      "termId": "reczz28MKp7Hg1Xg",
+      "originalName": "哥特",
+      "englishOriginal": "Gothic",
+      "sources": [
+        "S17"
+      ],
+      "category": "style",
+      "subtype": "Goth服装美学",
+      "reason": "本轮证据支持Goth穿着美学；与中世纪Gothic建筑须分清范围",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "088",
+      "termId": "reczz28MKp7HcBBm",
+      "originalName": "黑色电影",
+      "englishOriginal": "Film Noir",
+      "sources": [],
+      "category": "other",
+      "subtype": "电影类型/风格传统",
+      "reason": "黑色电影有类型与视觉风格双重讨论；本轮先单列，待明确产品收录的是哪一层",
+      "possibleFeelings": "猜疑、疏离",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "089",
+      "termId": "reczz28MKp7HfXiT",
+      "originalName": "科幻视觉",
+      "englishOriginal": "Sci-Fi Visual",
+      "sources": [],
+      "category": "other",
+      "subtype": "题材大类",
+      "reason": "科幻视觉范围过宽；其下具名美学分别核验",
+      "possibleFeelings": "依具体作品",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "090",
+      "termId": "reczz28MKp7HdNoP",
+      "originalName": "蒸汽朋克",
+      "englishOriginal": "Steampunk",
+      "sources": [
+        "S18"
+      ],
+      "category": "style",
+      "subtype": "艺术/设计美学",
+      "reason": "已找到外部具名风格/美学讨论，仅采用来源支持的领域",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "091",
+      "termId": "reczz28MKp7HfS8b",
+      "originalName": "太阳朋克",
+      "englishOriginal": "Solarpunk",
+      "sources": [],
+      "category": "pending",
+      "subtype": "范围/证据待核",
+      "reason": "Solarpunk有艺术/社会想象用法，本轮可靠直接来源尚未收口",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "092",
+      "termId": "reczz28MKp7Hfsmz",
+      "originalName": "复古未来主义",
+      "englishOriginal": "Retrofuturism",
+      "sources": [
+        "S28"
+      ],
+      "category": "pending",
+      "subtype": "范围/证据待核",
+      "reason": "已查到RetroFuture展览；作为独立风格的范围需另核",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "093",
+      "termId": "reczz28MKp7HdF81",
+      "originalName": "太空歌剧",
+      "englishOriginal": "Space Opera",
+      "sources": [],
+      "category": "other",
+      "subtype": "叙事类型",
+      "reason": "太空歌剧描述故事规模与类型",
+      "possibleFeelings": "宏阔、豪迈",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "094",
+      "termId": "reczz28MKp7HdTGI",
+      "originalName": "Y2K",
+      "englishOriginal": "Y2K",
+      "sources": [
+        "S19"
+      ],
+      "category": "style",
+      "subtype": "视觉美学",
+      "reason": "已找到外部具名风格/美学讨论，仅采用来源支持的领域",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "095",
+      "termId": "reczz28MKp7HekcM",
+      "originalName": "蒸汽波",
+      "englishOriginal": "Vaporwave",
+      "sources": [
+        "S20"
+      ],
+      "category": "style",
+      "subtype": "视觉/音乐美学",
+      "reason": "已找到外部具名风格/美学讨论，仅采用来源支持的领域",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "096",
+      "termId": "reczz28MKp7Hd34m",
+      "originalName": "Frutiger Aero",
+      "englishOriginal": "Frutiger Aero",
+      "sources": [
+        "S21"
+      ],
+      "category": "style",
+      "subtype": "视觉设计美学",
+      "reason": "已找到外部具名风格/美学讨论，仅采用来源支持的领域",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "097",
+      "termId": "reczz28MKp7HcwDx",
+      "originalName": "怪核 Weirdcore",
+      "englishOriginal": "Weirdcore",
+      "sources": [
+        "S01"
+      ],
+      "category": "style",
+      "subtype": "网络美学",
+      "reason": "已找到外部具名风格/美学讨论，仅采用来源支持的领域",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "098",
+      "termId": "reczz28MKp7HdI46",
+      "originalName": "Kidcore",
+      "englishOriginal": "Kidcore",
+      "sources": [
+        "S22"
+      ],
+      "category": "style",
+      "subtype": "网络/服装美学",
+      "reason": "已找到外部具名风格/美学讨论，仅采用来源支持的领域",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "099",
+      "termId": "reczz28MKp7HcNdu",
+      "originalName": "Decora",
+      "englishOriginal": "Decora",
+      "sources": [
+        "S23"
+      ],
+      "category": "style",
+      "subtype": "街头服装风格",
+      "reason": "已找到外部具名风格/美学讨论，仅采用来源支持的领域",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "100",
+      "termId": "reczz28MKp7HfoxS",
+      "originalName": "Yami Kawaii",
+      "englishOriginal": "Yami Kawaii",
+      "sources": [
+        "S24"
+      ],
+      "category": "style",
+      "subtype": "服装亚文化",
+      "reason": "已找到外部具名风格/美学讨论，仅采用来源支持的领域",
+      "approval": "待用户审阅"
+    },
+    {
+      "row": "101",
+      "termId": "reczz28MKwvta1Ka",
+      "originalName": "odd 风格",
+      "englishOriginal": "Moody Everyday",
+      "sources": [],
+      "category": "pending",
+      "subtype": "范围/证据待核",
+      "reason": "odd风格与Moody Everyday对应关系缺乏可信依据，暂不计入style",
+      "approval": "待用户审阅"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "publisher": "NYLON",
+      "supports": "Dreamcore与Weirdcore均作为网络美学讨论",
+      "url": "https://www.nylon.com/fashion/dreamcore-aesthetic-weirdcore"
+    },
+    {
+      "id": "S02",
+      "publisher": "British Vogue",
+      "supports": "Coquette aesthetic",
+      "url": "https://www.vogue.co.uk/article/coquette-aesthetic"
+    },
+    {
+      "id": "S03",
+      "publisher": "ELLE Canada",
+      "supports": "Girlhood作为持续的时装美学讨论",
+      "url": "https://www.ellecanada.com/fashion/trends/lucila-safdie-sinead-gorey-fruity-booty-founder-on-girlhood"
+    },
+    {
+      "id": "S04",
+      "publisher": "V&A Mused",
+      "supports": "Softcore作为穿着风格",
+      "url": "https://www.vam.ac.uk/mused/fashion/dress-to-impress-the-fashion-cores-you-need-to-know/"
+    },
+    {
+      "id": "S05",
+      "publisher": "Harper’s Bazaar",
+      "supports": "Cottagecore与Dopamine Dressing两种穿着趋势",
+      "url": "https://www.harpersbazaar.com/fashion/trends/a65784060/a-z-micro-trends-defined/"
+    },
+    {
+      "id": "S06",
+      "publisher": "新浪时尚",
+      "supports": "盐系穿搭及具体穿着者",
+      "url": "https://fashion.sina.com.cn/s/tr/2023-06-09/0937/doc-imywqkve9427124.shtml"
+    },
+    {
+      "id": "S07",
+      "publisher": "British Vogue",
+      "supports": "Normcore作为穿着美学",
+      "url": "https://www.vogue.co.uk/fashion/article/normcore-trainers"
+    },
+    {
+      "id": "S08",
+      "publisher": "MoMA",
+      "supports": "Minimalism与Pop Art作为艺术分类",
+      "url": "https://www.moma.org/momaorg/shared/flattened_pages/moma_learning/themes/"
+    },
+    {
+      "id": "S09",
+      "publisher": "Vogue Business",
+      "supports": "新中式的现代穿着用法",
+      "url": "https://www.vogue.com/article/what-is-chinese-style-today"
+    },
+    {
+      "id": "S10",
+      "publisher": "UNAM术语库，引British Library",
+      "supports": "Decadence作为艺术与文学美学术语",
+      "url": "https://enallterm.unam.mx/es/admin/structure/webform/manage/wizard_fichatraductologica/submission/1757/table"
+    },
+    {
+      "id": "S11",
+      "publisher": "Met",
+      "supports": "Camp作为美学及其时装实践",
+      "url": "https://www.metmuseum.org/press-releases/camp-2019-exhibitions"
+    },
+    {
+      "id": "S12",
+      "publisher": "AIGA Eye on Design",
+      "supports": "Acid Graphics作为具名设计风格",
+      "url": "https://eyeondesign.aiga.org/acid-graphics-are-the-new-psychedelia-with-a-heady-dose-of-cynicism/"
+    },
+    {
+      "id": "S13",
+      "publisher": "Design Museum",
+      "supports": "Memphis设计团体与风格",
+      "url": "https://designmuseum.org/discover-design/all-stories/memphis-group-awful-or-awesome"
+    },
+    {
+      "id": "S14",
+      "publisher": "V&A",
+      "supports": "Punk具体服装与视觉实践",
+      "url": "https://www.vam.ac.uk/articles/vivienne-westwood-punk-new-romantic-and-beyond"
+    },
+    {
+      "id": "S15",
+      "publisher": "Vogue",
+      "supports": "Grunge aesthetic",
+      "url": "https://www.vogue.com/article/grunge-aesthetic"
+    },
+    {
+      "id": "S16",
+      "publisher": "Aldrich Museum",
+      "supports": "Pop Surrealism及多位创作者",
+      "url": "https://thealdrich.org/exhibitions/pop-surrealism"
+    },
+    {
+      "id": "S17",
+      "publisher": "Vogue",
+      "supports": "Goth穿着文化及实践",
+      "url": "https://www.vogue.com/article/goth-revival-tish-weinstock-essay"
+    },
+    {
+      "id": "S18",
+      "publisher": "Oxford History of Science Museum",
+      "supports": "Steampunk艺术展览与多位艺术家",
+      "url": "https://www.mhs.ox.ac.uk/exhibits/steampunk/index.html"
+    },
+    {
+      "id": "S19",
+      "publisher": "CARI",
+      "supports": "Y2K Aesthetic及其图像研究",
+      "url": "https://cari.institute/aesthetics/y2k-aesthetic"
+    },
+    {
+      "id": "S20",
+      "publisher": "AIGA Eye on Design",
+      "supports": "Vaporwave的视觉与音乐美学",
+      "url": "https://eyeondesign.aiga.org/vaporwave-is-dead-long-live-vaporwave/"
+    },
+    {
+      "id": "S21",
+      "publisher": "CARI",
+      "supports": "Frutiger Aero具名视觉美学",
+      "url": "https://cari.institute/aesthetics/frutiger-aero"
+    },
+    {
+      "id": "S22",
+      "publisher": "NYLON",
+      "supports": "Kidcore网络美学与品牌实践",
+      "url": "https://www.nylon.com/fashion/kidcore-is-the-internet-aesthetic-that-takes-us-back-to-childhood"
+    },
+    {
+      "id": "S23",
+      "publisher": "Yokogao Magazine",
+      "supports": "Decora作为日本街头时装风格讨论",
+      "url": "https://www.yokogaomag.com/editorial?category=Fashion&offset=1736499900960"
+    },
+    {
+      "id": "S24",
+      "publisher": "DW",
+      "supports": "Yami Kawaii时装亚文化报道",
+      "url": "https://amp.dw.com/en/japans-yami-kawaii-culture-breaks-down-mental-health-barriers/a-55214831"
+    },
+    {
+      "id": "S25",
+      "publisher": "POP趋势",
+      "supports": "甜亚文化作为服装图案趋势用法",
+      "url": "https://www.pop-fashion.com/apparel/reports/t_report-id_2006515714210408134-col_20"
+    },
+    {
+      "id": "S26",
+      "publisher": "Comma Press",
+      "supports": "Analog Horror是影像恐怖子类型，具有特定媒介美学",
+      "url": "https://commapress.co.uk/blog/what-is-analog-horror-blog-by-george-forster"
+    },
+    {
+      "id": "S27",
+      "publisher": "Barbican",
+      "supports": "Cyberpunk作为叙事类型及其具体电影视觉",
+      "url": "https://www.barbican.org.uk/whats-on/2026/event/akira"
+    },
+    {
+      "id": "S28",
+      "publisher": "Next Nature Museum",
+      "supports": "RetroFuture展览讨论过去对未来的想象",
+      "url": "https://nextnature.org/en/museum/retrofuture"
+    },
+    {
+      "id": "S29",
+      "publisher": "NYLON",
+      "supports": "Techwear作为Cybercore所引用的穿着实践出现",
+      "url": "https://www.nylon.com/fashion/y2k-cybercore-aesthetic-fashion-trend"
+    }
+  ],
+  "newFeelingCandidates": [
+    "诡异",
+    "恐惧",
+    "燥热",
+    "悸动"
+  ],
+  "newFeelingStatus": "新增候选，尚未加入受控词表或计分",
+  "supersedes": "2026-11-08-stage-0/proposal.json的分流与styleTagEdges"
+}

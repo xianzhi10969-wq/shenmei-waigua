@@ -1,4 +1,6 @@
 """Check candidate completeness and source protection, never editorial approval."""
+raise SystemExit("此校验只对应已撤回的二分草稿。当前见 ../2026-11-09-classification/classification.json")
+
 import hashlib
 import json
 import re
