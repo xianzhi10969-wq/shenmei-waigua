@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "desires": 30,
+  "directions": 89,
+  "edges": 127,
+  "realCaseReferences": 187,
+  "allLocalImagesAndRoutesExist": true,
+  "snapshotDate": "2026-11-07T12:50:25.873302+00:00"
+}

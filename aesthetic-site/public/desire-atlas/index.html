@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#ffffff"><title>欲望图谱 · 审美外挂</title><meta name="description" content="从一句心里话出发，探索欲望与美学之间可能的连接。"><link rel="stylesheet" href="style.css"></head>
+<body>
+<div class="app">
+  <header><a href="/" class="brand">审美外挂</a><button id="about" class="quiet">关于这张图 ↗</button></header>
+  <main>
+    <section class="intro"><div class="eyebrow">DESIRE ATLAS <span>01 / 结构试作</span></div><h1>你一直在要的。</h1><p>有些喜欢，早于解释。<br>从一句心里话，走向一种美的可能。</p></section>
+    <div class="view-tabs" role="tablist" aria-label="探索方式"><button id="map-tab" role="tab" aria-selected="true" aria-controls="map-panel">漫游图谱</button><button id="response-tab" role="tab" aria-selected="false" aria-controls="response-panel" tabindex="-1">给我的回应 <span id="response-count">0</span></button></div>
+    <section id="map-panel" role="tabpanel" aria-labelledby="map-tab">
+      <div class="map-heading"><span id="map-caption">先看看「我不想被看穿」</span><button id="scope" class="quiet">展开全图 ↗</button></div>
+      <div id="graph-wrap"><svg id="graph" xmlns="http://www.w3.org/2000/svg" role="group" aria-label="可拖动缩放的欲望关系图"><g id="world"><g id="edges"></g><g id="nodes"></g></g></svg><div class="map-tools"><button id="zoom-in" aria-label="放大图谱">＋</button><button id="zoom-out" aria-label="缩小图谱">−</button><button id="fit" aria-label="复位图谱">⌖</button></div><div class="map-legend"><span>▱ 欲望</span><span>□ 美学方向</span><span>拖动 · 双指缩放</span></div></div>
+      <div id="focus-strip" aria-label="按欲望查看"></div>
+      <div id="map-note">点任意节点，看看它为什么连到这里。</div>
+    </section>
+    <section id="response-panel" role="tabpanel" aria-labelledby="response-tab" hidden><div id="responses"></div></section>
+    <footer class="page-note">这是一张可以改写的地图。<br>今天选中的几句话，不必定义明天的你。</footer>
+  </main>
+  <div class="dock"><button id="choose" class="primary"><span id="choose-label">哪几句是你？</span><span id="selected-count">0 / 30　↗</span></button><span id="save-status" aria-live="polite">点几句就好，不用先想明白。</span></div>
+</div>
+<dialog id="picker" aria-labelledby="picker-title"><div class="dialog-head"><span class="eyebrow">认领几句心里话</span><button data-close aria-label="关闭选择">×</button></div><h2 id="picker-title">哪几句是现在的你？</h2><p class="sub">可以选 3–6 句，也可以更少或更多。<br>相反的两句，也可以同时属于你。</p><label class="search"><span>⌕</span><input id="search" type="search" placeholder="找一句话，例如：慢、旧、看见" aria-label="搜索欲望"></label><div class="picker-meta"><span id="picker-count">已选 0 句</span><button id="clear" class="quiet">清空选择</button></div><div id="desire-list"></div><div class="dialog-bottom"><button id="see-map" class="primary">看看我的图谱 <span>↗</span></button></div></dialog>
+<dialog id="detail" aria-labelledby="detail-title"><div class="dialog-head"><span class="eyebrow" id="detail-kind"></span><button data-close aria-label="关闭详情">×</button></div><div id="detail-body"></div></dialog>
+<div id="toast" role="status" hidden></div>
+<noscript><p>请开启 JavaScript 以探索互动图谱。</p></noscript>
+<script type="module" src="app.js"></script>
+</body></html>

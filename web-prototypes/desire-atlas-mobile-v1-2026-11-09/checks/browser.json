@@ -1,0 +1,26 @@
+{
+  "result": "pass",
+  "viewports": [
+    320,
+    390,
+    430,
+    768,
+    1440
+  ],
+  "checks": [
+    "30 selection choices",
+    "shared result ranking",
+    "real case data",
+    "local persistence",
+    "119-node full graph",
+    "zoom and fit",
+    "opposite coexistence",
+    "search empty state",
+    "horizontal overflow",
+    "actual node pointer click",
+    "canvas drag",
+    "two-finger pinch",
+    "node drag without accidental click"
+  ],
+  "errors": []
+}

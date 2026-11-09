@@ -1,0 +1,937 @@
+[
+  {
+    "id": "D01",
+    "label": "我不想被看穿",
+    "line": "看得太清楚会让我不安，我需要一点遮挡才能靠近",
+    "status": "draft",
+    "opposite": null,
+    "crossNote": "幽玄用遮，Normcore 用混。两条看起来毫无关系的路，回答的是同一个要求。",
+    "styles": [
+      {
+        "styleId": "chapter:reczz28HJJL2A7HL",
+        "answer": "把更深的一层留在说不尽的地方",
+        "weight": 3
+      },
+      {
+        "styleId": "chapter:reczz28HJJL2A84Y",
+        "answer": "让光只照到一部分",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28HJJL2GLgi",
+        "answer": "不必什么都看清",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28HJJL2GMJz",
+        "answer": "有些话留着不说",
+        "weight": 2
+      },
+      {
+        "styleId": "term:reczz28HJJL2GMMk",
+        "answer": "普通到没人会多看一眼",
+        "weight": 2
+      },
+      {
+        "styleId": "term:reczz28MKp7HcBBm",
+        "answer": "谁都像藏着另一句话",
+        "weight": 2
+      },
+      {
+        "styleId": "term:reczz28MKp7Hg1Xg",
+        "answer": "把夜色穿在身上",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "D02",
+    "label": "我想要一直涌出来的东西",
+    "line": "不枯竭、不匮乏，一直有东西落下来",
+    "status": "draft",
+    "opposite": null,
+    "crossNote": "",
+    "styles": [
+      {
+        "styleId": "term:reczz28MKp7HdDiG",
+        "answer": "快要凋谢，也要漂亮",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28MKp7HdIot",
+        "answer": "夸张就夸张，我乐意",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28MKp7HcNdu",
+        "answer": "喜欢的东西都想戴身上",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28HJJL2GLvJ",
+        "answer": "快乐就要摆在明面上",
+        "weight": 2
+      },
+      {
+        "styleId": "term:reczz28HJJL2GJns",
+        "answer": "平常日子也要上封面",
+        "weight": 2
+      },
+      {
+        "styleId": "term:reczz28MKp7HdTGI",
+        "answer": "想闪亮得有点过头",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "D03",
+    "label": "我想被允许不努力",
+    "line": "不是懒，是不想一直证明自己在用力",
+    "status": "draft",
+    "opposite": null,
+    "crossNote": "松弛感是「我本来就不费力」，低能量是「我今天举不起来」。一个是能力，一个是状态。",
+    "styles": [
+      {
+        "styleId": "term:reczz28HJJL2GK3M",
+        "answer": "今天先不振作",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28HJJL2GOA8",
+        "answer": "不用一直绷着",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28HJJL2GOCn",
+        "answer": "没刻意，也有自己的样子",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28HJJL2GM8Z",
+        "answer": "简单一点，舒服就行",
+        "weight": 2
+      },
+      {
+        "styleId": "term:reczz28HJJL2GMMk",
+        "answer": "普通一点也没关系",
+        "weight": 2
+      },
+      {
+        "styleId": "term:reczz28HJJL2GNfa",
+        "answer": "不想按规矩活得体面",
+        "weight": 2
+      },
+      {
+        "styleId": "term:reczz28MKp7HcT4e",
+        "answer": "不想收拾得像没事一样",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "D04",
+    "label": "我不想解释自己",
+    "line": "我在做什么、为什么，不必向任何人交代",
+    "status": "trial",
+    "opposite": null,
+    "crossNote": "",
+    "styles": [
+      {
+        "styleId": "term:reczz28HJJL2GNfa",
+        "answer": "给自己留一点不合作",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28HJJL2GMMk",
+        "answer": "不靠外表交代自己",
+        "weight": 2
+      },
+      {
+        "styleId": "term:reczz28HJJL2GMJz",
+        "answer": "允许话没有说完",
+        "weight": 2
+      },
+      {
+        "styleId": "term:reczz28MKp7HcT4e",
+        "answer": "不必收拾成别人的期待",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "D05",
+    "label": "我想要一点不守规矩",
+    "line": "规矩里待着很安全，但我需要一个缺口",
+    "status": "trial",
+    "opposite": null,
+    "crossNote": "",
+    "styles": [
+      {
+        "styleId": "term:reczz28MKp7HdgPi",
+        "answer": "把不服直接穿出来",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28HJJL2GM5u",
+        "answer": "在规整表面留下自己的话",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28MKp7HfSC1",
+        "answer": "让形状偏离规矩",
+        "weight": 2
+      },
+      {
+        "styleId": "term:reczz28HJJL2GNfa",
+        "answer": "礼法之外也有活法",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "D06",
+    "label": "我想消失一会儿",
+    "line": "不是死，是暂时不在任何人的视线里",
+    "status": "trial",
+    "opposite": null,
+    "crossNote": "",
+    "styles": [
+      {
+        "styleId": "term:reczz28HJJL2GMrB",
+        "answer": "暂时只和自己的空间相处",
+        "weight": 3
+      },
+      {
+        "styleId": "chapter:reczz28HJJL2A84Y",
+        "answer": "让暗处留住自己",
+        "weight": 2
+      },
+      {
+        "styleId": "term:reczz28HJJL2GLjP",
+        "answer": "把存在放轻一点",
+        "weight": 2
+      },
+      {
+        "styleId": "term:reczz28HJJL2GMGx",
+        "answer": "不用回应外面的声音",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "D07",
+    "label": "我想要干净得没有我",
+    "line": "东西少到一个地步，我也不在里面了",
+    "status": "trial",
+    "opposite": null,
+    "crossNote": "",
+    "styles": [
+      {
+        "styleId": "term:reczz28HJJL2GMRw",
+        "answer": "减少到只剩必要的东西",
+        "weight": 3
+      },
+      {
+        "styleId": "chapter:reczz28HJJL2A7Oz",
+        "answer": "给空处一个位置",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28HJJL2GLZ0",
+        "answer": "把距离留出来",
+        "weight": 2
+      },
+      {
+        "styleId": "term:reczz28HJJL2GMBA",
+        "answer": "让心先停一停",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "D08",
+    "label": "我想回到还没搞坏的时候",
+    "line": "那个时候可能根本没存在过",
+    "status": "trial",
+    "opposite": null,
+    "crossNote": "",
+    "styles": [
+      {
+        "styleId": "term:reczz28HJJL2GJXK",
+        "answer": "让旧日的形状回来",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28HJJL2GJcS",
+        "answer": "回到网络还很小的时候",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28HJJL2GLFs",
+        "answer": "想象一种更简单的生活",
+        "weight": 2
+      },
+      {
+        "styleId": "term:reczz28MKp7HekcM",
+        "answer": "在旧影像里停留",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "D09",
+    "label": "我想要危险，但安全",
+    "line": "隔着一层看恐怖的东西",
+    "status": "trial",
+    "opposite": null,
+    "crossNote": "",
+    "styles": [
+      {
+        "styleId": "term:reczz28HJJL2GJ6i",
+        "answer": "隔着记录感受危险",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28MKp7Hg1Xg",
+        "answer": "让黑暗有一个可看的形状",
+        "weight": 2
+      },
+      {
+        "styleId": "term:reczz28MKp7Hf5dr",
+        "answer": "隔着作品面对身体的不安",
+        "weight": 2
+      },
+      {
+        "styleId": "chapter:reczz28HJJL2A6l4",
+        "answer": "在熟悉里看见一点异常",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "D10",
+    "label": "我想要大到我显得很小",
+    "line": "站在它面前，我不必是主角",
+    "status": "trial",
+    "opposite": null,
+    "crossNote": "",
+    "styles": [
+      {
+        "styleId": "term:reczz28MKp7HcZiE",
+        "answer": "让尺度超过自己",
+        "weight": 3
+      },
+      {
+        "styleId": "chapter:reczz28HJJL2A7qg",
+        "answer": "在庞大面前暂时失语",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28MKp7HeRsf",
+        "answer": "把个人放进更长的故事",
+        "weight": 2
+      },
+      {
+        "styleId": "term:reczz28MKp7HdF81",
+        "answer": "把视线交给宇宙",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "D11",
+    "label": "我想要难过被看见，但不被怜悯",
+    "line": "别安慰我，只要知道",
+    "status": "draft",
+    "opposite": null,
+    "crossNote": "",
+    "styles": [
+      {
+        "styleId": "chapter:reczz28HJJL2A7Rf",
+        "answer": "情绪没有消失，只是不急着外露",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28HJJL2GMJz",
+        "answer": "有些话留着不说",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28HJJL2GK3M",
+        "answer": "不解释自己在休息什么",
+        "weight": 2
+      },
+      {
+        "styleId": "term:reczz28MKp7HfoxS",
+        "answer": "难过也想穿得可爱",
+        "weight": 2
+      },
+      {
+        "styleId": "term:reczz28MKp7HdDiG",
+        "answer": "快要凋谢，也要漂亮",
+        "weight": 2
+      },
+      {
+        "styleId": "chapter:reczz28HJJL2A7W7",
+        "answer": "心被轻轻碰到，也知道不会停着",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "D12",
+    "label": "我想占住自己的位置",
+    "line": "不退让，不缩小",
+    "status": "trial",
+    "opposite": null,
+    "crossNote": "",
+    "styles": [
+      {
+        "styleId": "term:reczz28HJJL2GONM",
+        "answer": "把自己的存在放大",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28MKp7HdgPi",
+        "answer": "不把锋芒藏起来",
+        "weight": 2
+      },
+      {
+        "styleId": "chapter:reczz28HJJL2A7x1",
+        "answer": "保留自己的判断",
+        "weight": 2
+      },
+      {
+        "styleId": "term:reczz28MKp7HcNdu",
+        "answer": "把喜欢的东西穿在明处",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "D13",
+    "label": "我想要慢得不像现在",
+    "line": "一件事可以花很久",
+    "status": "trial",
+    "opposite": null,
+    "crossNote": "",
+    "styles": [
+      {
+        "styleId": "term:reczz28HJJL2GMPN",
+        "answer": "让关系慢慢发生",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28HJJL2GMEM",
+        "answer": "给未发生的事留时间",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28MKp7HfeNy",
+        "answer": "在日常细处停一停",
+        "weight": 2
+      },
+      {
+        "styleId": "chapter:reczz28HJJL2A7th",
+        "answer": "不急着赶向下一件事",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "D14",
+    "label": "我想要旧东西身上的痕迹",
+    "line": "被用过的东西比新的可信",
+    "status": "trial",
+    "opposite": null,
+    "crossNote": "",
+    "styles": [
+      {
+        "styleId": "chapter:reczz28HJJL2A7cu",
+        "answer": "让磨损和不完整留下来",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28HJJL2GNFA",
+        "answer": "保留材料原本的样子",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28HJJL2GJXK",
+        "answer": "和过去的物件相处",
+        "weight": 2
+      },
+      {
+        "styleId": "term:reczz28HJJL2GOdG",
+        "answer": "让表面保留摩擦",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "D15",
+    "label": "我想被包住",
+    "line": "软的、围起来的、不会碰伤我的",
+    "status": "trial",
+    "opposite": null,
+    "crossNote": "",
+    "styles": [
+      {
+        "styleId": "term:reczz28HJJL2GJS1",
+        "answer": "让柔软成为周围的世界",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28HJJL2GLCP",
+        "answer": "给疲惫一个可以停靠的地方",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28HJJL2GLFs",
+        "answer": "在小小的生活里安顿",
+        "weight": 2
+      },
+      {
+        "styleId": "chapter:reczz28HJJL2A6zi",
+        "answer": "把世界缩到可以靠近",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "D16",
+    "label": "我想要热闹，但不必加入",
+    "line": "有人好好过日子，我在旁边",
+    "status": "trial",
+    "opposite": null,
+    "crossNote": "",
+    "styles": [
+      {
+        "styleId": "term:reczz28HJJL2GMxt",
+        "answer": "在别人的日常旁边停一停",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28HJJL2GN4c",
+        "answer": "看见生活照常发生",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28HJJL2GJht",
+        "answer": "浏览被认真照看的小事",
+        "weight": 2
+      },
+      {
+        "styleId": "term:reczz28HJJL2GLJb",
+        "answer": "站在热闹的季节边上",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "D17",
+    "label": "我想要一切都刚好对齐",
+    "line": "整齐让我安心",
+    "status": "trial",
+    "opposite": "D18",
+    "crossNote": "",
+    "styles": [
+      {
+        "styleId": "term:reczz28HJJL2GMRw",
+        "answer": "让关系清楚而有秩序",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28MKp7HfeNy",
+        "answer": "在分寸里找安定",
+        "weight": 2
+      },
+      {
+        "styleId": "term:reczz28MKp7HeJf0",
+        "answer": "让每个部分各有位置",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "D18",
+    "label": "我受不了太对齐",
+    "line": "太整齐的东西让我起鸡皮疙瘩",
+    "status": "draft",
+    "opposite": "D17",
+    "crossNote": "",
+    "styles": [
+      {
+        "styleId": "term:reczz28HJJL2GIv6",
+        "answer": "人都走了，我还在",
+        "weight": 3
+      },
+      {
+        "styleId": "chapter:reczz28HJJL2A6l4",
+        "answer": "一切都像平常，只差了一点点",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28MKp7HcwDx",
+        "answer": "哪里都熟，哪里都不对",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28HJJL2GJ14",
+        "answer": "可爱得有点不对劲",
+        "weight": 2
+      },
+      {
+        "styleId": "term:reczz28MKwvta1Ka",
+        "answer": "日子照常，哪里不太对",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "D19",
+    "label": "我想要明知会输也不退",
+    "line": "结局不重要，姿态重要",
+    "status": "trial",
+    "opposite": null,
+    "crossNote": "",
+    "styles": [
+      {
+        "styleId": "term:reczz28HJJL2GOzV",
+        "answer": "即使结局已知也向前",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28HJJL2GP2A",
+        "answer": "走出不能回头的一步",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28HJJL2GNcx",
+        "answer": "为自己的信念承担代价",
+        "weight": 2
+      },
+      {
+        "styleId": "chapter:reczz28HJJL2A87F",
+        "answer": "在失去里保留人的尊严",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "D20",
+    "label": "我想要被想念",
+    "line": "不在场，但一直被记得",
+    "status": "trial",
+    "opposite": null,
+    "crossNote": "",
+    "styles": [
+      {
+        "styleId": "term:reczz28HJJL2GMXK",
+        "answer": "让不在场的人仍然发亮",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28HJJL2GMZz",
+        "answer": "故事结束后还留着位置",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28HJJL2GMfJ",
+        "answer": "离开也可以留下回声",
+        "weight": 2
+      },
+      {
+        "styleId": "term:reczz28HJJL2GMPN",
+        "answer": "在反复相处里被记得",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "D21",
+    "label": "我想要好笑和难看一起",
+    "line": "不要体面，要尽兴",
+    "status": "trial",
+    "opposite": null,
+    "crossNote": "",
+    "styles": [
+      {
+        "styleId": "term:reczz28MKp7HdIot",
+        "answer": "把过头当成一种快乐",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28MKp7HdhY9",
+        "answer": "让荒诞有可爱的外表",
+        "weight": 2
+      },
+      {
+        "styleId": "chapter:reczz28HJJL2A80l",
+        "answer": "允许美和怪挤在一起",
+        "weight": 2
+      },
+      {
+        "styleId": "term:reczz28HJJL2GOVG",
+        "answer": "把体面稍稍放下来",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "D22",
+    "label": "我想要一个比现在更亮的以后",
+    "line": "不是逃避，是真的相信",
+    "status": "trial",
+    "opposite": "D23",
+    "crossNote": "",
+    "styles": [
+      {
+        "styleId": "term:reczz28MKp7HfS8b",
+        "answer": "想象人与自然一起变好",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28MKp7Hd34m",
+        "answer": "把未来想成明亮透明",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28MKp7Hfsmz",
+        "answer": "重新看见曾经相信的以后",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "D23",
+    "label": "我想要一个已经毁掉的以后",
+    "line": "都结束了，然后呢",
+    "status": "trial",
+    "opposite": "D22",
+    "crossNote": "",
+    "styles": [
+      {
+        "styleId": "term:reczz28HJJL2GP4n",
+        "answer": "在破败之后重新生活",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28HJJL2GP7R",
+        "answer": "看结束之后还剩下什么",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28HJJL2GPFN",
+        "answer": "在失衡的未来寻找出口",
+        "weight": 2
+      },
+      {
+        "styleId": "chapter:reczz28HJJL2A8AY",
+        "answer": "走进已经过去的宏大",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "D24",
+    "label": "我想要我自己的身体陌生一点",
+    "line": "它不完全属于我",
+    "status": "trial",
+    "opposite": null,
+    "crossNote": "",
+    "styles": [
+      {
+        "styleId": "term:reczz28MKp7Hf5dr",
+        "answer": "让熟悉的身体失去边界",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28MKp7HdhY9",
+        "answer": "让身体进入奇异的梦",
+        "weight": 2
+      },
+      {
+        "styleId": "chapter:reczz28HJJL2A80l",
+        "answer": "把人的形状重新拆开",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "D25",
+    "label": "我不想长大得那么彻底",
+    "line": "幼稚的东西还想留着",
+    "status": "trial",
+    "opposite": null,
+    "crossNote": "",
+    "styles": [
+      {
+        "styleId": "term:reczz28MKp7HdI46",
+        "answer": "把童年的颜色继续留下",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28HJJL2GJND",
+        "answer": "留下还没被规定的片刻",
+        "weight": 2
+      },
+      {
+        "styleId": "term:reczz28MKp7HcNdu",
+        "answer": "继续认真喜欢小东西",
+        "weight": 2
+      },
+      {
+        "styleId": "chapter:reczz28HJJL2A6zi",
+        "answer": "允许自己被小东西打动",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "D26",
+    "label": "我想要光打在表面上",
+    "line": "反光的、亮的、看得见质地的",
+    "status": "trial",
+    "opposite": null,
+    "crossNote": "",
+    "styles": [
+      {
+        "styleId": "term:reczz28MKp7HdTGI",
+        "answer": "让表面亮到像一种未来",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28HJJL2GNqc",
+        "answer": "看光穿过薄薄的一层",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28MKp7Hd34m",
+        "answer": "让反光带来明亮的想象",
+        "weight": 2
+      },
+      {
+        "styleId": "term:reczz28HJJL2GLvJ",
+        "answer": "把鲜亮放在看得见的地方",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "D27",
+    "label": "我想要什么都不发生",
+    "line": "普通的一天就够了",
+    "status": "trial",
+    "opposite": null,
+    "crossNote": "",
+    "styles": [
+      {
+        "styleId": "term:reczz28HJJL2GN4c",
+        "answer": "普通日子也值得停下来",
+        "weight": 3
+      },
+      {
+        "styleId": "chapter:reczz28HJJL2A7Rf",
+        "answer": "不必让每一刻都有转折",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28HJJL2GMGx",
+        "answer": "留在没有扰动的片刻",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28HJJL2GMMk",
+        "answer": "普通本身就可以成立",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "D28",
+    "label": "我想要一个比这里更远的地方",
+    "line": "人间太窄",
+    "status": "trial",
+    "opposite": null,
+    "crossNote": "",
+    "styles": [
+      {
+        "styleId": "term:reczz28MKp7HdF81",
+        "answer": "让故事发生在星海里",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28HJJL2GNiE",
+        "answer": "去人间尺度之外走一趟",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28HJJL2GLnG",
+        "answer": "暂时松开现实的规则",
+        "weight": 2
+      },
+      {
+        "styleId": "term:reczz28HJJL2GLjP",
+        "answer": "让边界变得轻而远",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "D29",
+    "label": "我想要喜欢就说出来",
+    "line": "藏不住，也不想藏",
+    "status": "trial",
+    "opposite": null,
+    "crossNote": "",
+    "styles": [
+      {
+        "styleId": "term:reczz28HJJL2GLxu",
+        "answer": "把喜欢放在明处",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28HJJL2GLvJ",
+        "answer": "允许快乐占满画面",
+        "weight": 3
+      },
+      {
+        "styleId": "term:reczz28HJJL2GKfk",
+        "answer": "承认那个靠近的瞬间",
+        "weight": 2
+      },
+      {
+        "styleId": "term:reczz28MKp7HcNdu",
+        "answer": "喜欢多少就展示多少",
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "id": "D30",
+    "label": "我想要比我活得久的东西",
+    "line": "时间在上面留下记号",
+    "status": "trial",
+    "opposite": null,
+    "crossNote": "",
+    "styles": [
+      {
+        "styleId": "chapter:reczz28HJJL2A8AY",
+        "answer": "看时间留下的结构",
+        "weight": 3
+      },
+      {
+        "styleId": "chapter:reczz28HJJL2A7cu",
+        "answer": "让旧与残缺继续存在",
+        "weight": 3
+      },
+      {
+        "styleId": "chapter:reczz28HJJL2A73I",
+        "answer": "保存一段不在场的时间",
+        "weight": 2
+      }
+    ]
+  }
+]
