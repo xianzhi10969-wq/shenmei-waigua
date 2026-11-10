@@ -3,8 +3,10 @@ name: shenmei-editorial-layout
 description: 审美外挂专属编辑设计执行 Skill。触发：版式、杂志、Mook、P1-P4、Figma 结构排版、字体层级、图文主次、小红书刊物排版、Grid Systems、Editorial。
 version: 0.1.0
 updated: 2026-10-24
-status: process-rule-proposed
+status: deprecated-2026-11-10
 ---
+> **2026-11-10｜旧前端视觉失效**：本文件涉及的旧视觉稿、前端表现、美术风格、版式、插画、字体、颜色、拼贴与动效不再是新版本依据。此前“已确认/已采用/已上线”仅代表历史状态。保留原始内容、数据、来源和非视觉功能证据；不得直接沿用外观。详见仓库根目录 [视觉重构废止索引](../VISUAL-REBUILD-RESET-2026-11-10.md)。
+
 
 # 审美外挂｜Editorial Layout Skill
 
