@@ -1,0 +1,42 @@
+{
+  "snapshotDate": "2026-11-07",
+  "source": "Feishu read-only aesthetic-feishu/user",
+  "liveFeishuReadThisRound": false,
+  "sourceHashes": {
+    "catalog.json": "53951b29888b67c24f317e4987ede677cf45a2d8bc51545679f50bc4d28553a9",
+    "features.json": "b33b29b843935a80a308ad61c231324ed92b007ffe42f18e066d39ea722c1e06",
+    "source-status.json": "fa28b4ca78af8310fc47cbb3e352631e4d2a71a22a32003f336f70aa197fce80"
+  },
+  "sourceRevisions": {
+    "chapters": 118,
+    "terms": 239,
+    "cases": 420,
+    "sections": 38,
+    "feelings": 8,
+    "questions": 7,
+    "imagery": 6
+  },
+  "counts": {
+    "chapters": 24,
+    "terms": 101,
+    "cases": 144,
+    "imagery": 70,
+    "questions": 9,
+    "resources": 60,
+    "firstPersonFeelings": 0,
+    "copiedMedia": 403
+  },
+  "missingMedia": [],
+  "notImported": [
+    "旧 CSS、插画与版式",
+    "旧 40 个形容词感觉入口",
+    "旧感觉分流关系"
+  ],
+  "pending": [
+    "全站配色与像素尺寸",
+    "20–30 条第一人称感觉句及关联",
+    "好奇心问题改写审核",
+    "P5 三类布景的内容定义",
+    "新美术与实际浏览器验收"
+  ]
+}

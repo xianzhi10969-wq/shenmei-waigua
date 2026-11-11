@@ -1,0 +1,10 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f5f5f2"><title>审美外挂 · 游乐园功能预览</title><link rel="stylesheet" href="./style.css"></head><body>
+<div class="preview-strip"><span>游乐园 V2 · 功能预览</span><span>美术待替换</span></div>
+<header class="site-header"><a class="brand" href="#/entrance">审美外挂<span>AMUSEMENT PARK</span></a><div class="nav-actions"><a href="#/avenue" aria-label="园区地图，回到园区大道">地图</a><a href="#/notebook" aria-label="打开票根本">票根本 <span id="ticket-count">0</span></a></div></header>
+<div id="breadcrumbs" aria-label="来路导航"></div>
+<main id="app" tabindex="-1"><p class="loading">正在打开乐园…</p></main>
+<div id="notice" role="status" hidden></div>
+<dialog id="art-dialog"><div class="dialog-top"><span id="art-caption"></span><button id="close-art" aria-label="关闭原图">关闭 ×</button></div><img id="art-image" alt=""><a id="art-source" target="_blank" rel="noopener noreferrer">作品出处 ↗</a></dialog>
+<dialog id="confirm-dialog"><form method="dialog"><h2 id="confirm-title"></h2><p id="confirm-text"></p><div class="button-row"><button value="cancel">取消</button><button value="ok" class="primary">继续</button></div></form></dialog>
+<input type="file" id="notebook-import" accept="application/json,.json" hidden>
+<script type="module" src="./app.mjs"></script></body></html>

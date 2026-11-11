@@ -1,0 +1,191 @@
+{
+  "schema": 1,
+  "name": "游乐园素材位·空白起步",
+  "assets": [],
+  "pages": [
+    {
+      "id": "starter-0",
+      "name": "首页场景",
+      "artSlot": "p1-scene",
+      "layouts": {
+        "desktop": {
+          "width": 1200,
+          "height": 800,
+          "background": "#ffffff",
+          "snapGrid": true,
+          "gridSize": 1,
+          "elements": []
+        },
+        "mobile": {
+          "width": 390,
+          "height": 600,
+          "background": "#ffffff",
+          "snapGrid": true,
+          "gridSize": 1,
+          "elements": []
+        }
+      }
+    },
+    {
+      "id": "starter-1",
+      "name": "大道·浏览区",
+      "artSlot": "p3-browse",
+      "layouts": {
+        "desktop": {
+          "width": 1200,
+          "height": 800,
+          "background": "#ffffff",
+          "snapGrid": true,
+          "gridSize": 1,
+          "elements": []
+        },
+        "mobile": {
+          "width": 390,
+          "height": 600,
+          "background": "#ffffff",
+          "snapGrid": true,
+          "gridSize": 1,
+          "elements": []
+        }
+      }
+    },
+    {
+      "id": "starter-2",
+      "name": "大道·地图亭",
+      "artSlot": "p3-feelings",
+      "layouts": {
+        "desktop": {
+          "width": 1200,
+          "height": 800,
+          "background": "#ffffff",
+          "snapGrid": true,
+          "gridSize": 1,
+          "elements": []
+        },
+        "mobile": {
+          "width": 390,
+          "height": 600,
+          "background": "#ffffff",
+          "snapGrid": true,
+          "gridSize": 1,
+          "elements": []
+        }
+      }
+    },
+    {
+      "id": "starter-3",
+      "name": "大道·街机厅",
+      "artSlot": "p3-arcade",
+      "layouts": {
+        "desktop": {
+          "width": 1200,
+          "height": 800,
+          "background": "#ffffff",
+          "snapGrid": true,
+          "gridSize": 1,
+          "elements": []
+        },
+        "mobile": {
+          "width": 390,
+          "height": 600,
+          "background": "#ffffff",
+          "snapGrid": true,
+          "gridSize": 1,
+          "elements": []
+        }
+      }
+    },
+    {
+      "id": "starter-4",
+      "name": "气球摊",
+      "artSlot": "p4a-balloons",
+      "layouts": {
+        "desktop": {
+          "width": 1200,
+          "height": 800,
+          "background": "#ffffff",
+          "snapGrid": true,
+          "gridSize": 1,
+          "elements": []
+        },
+        "mobile": {
+          "width": 390,
+          "height": 600,
+          "background": "#ffffff",
+          "snapGrid": true,
+          "gridSize": 1,
+          "elements": []
+        }
+      }
+    },
+    {
+      "id": "starter-5",
+      "name": "扭蛋机",
+      "artSlot": "p4a-gacha",
+      "layouts": {
+        "desktop": {
+          "width": 1200,
+          "height": 800,
+          "background": "#ffffff",
+          "snapGrid": true,
+          "gridSize": 1,
+          "elements": []
+        },
+        "mobile": {
+          "width": 390,
+          "height": 600,
+          "background": "#ffffff",
+          "snapGrid": true,
+          "gridSize": 1,
+          "elements": []
+        }
+      }
+    },
+    {
+      "id": "starter-6",
+      "name": "共用专题牌楼",
+      "artSlot": "chapter-gate",
+      "layouts": {
+        "desktop": {
+          "width": 1200,
+          "height": 800,
+          "background": "#ffffff",
+          "snapGrid": true,
+          "gridSize": 1,
+          "elements": []
+        },
+        "mobile": {
+          "width": 390,
+          "height": 600,
+          "background": "#ffffff",
+          "snapGrid": true,
+          "gridSize": 1,
+          "elements": []
+        }
+      }
+    },
+    {
+      "id": "starter-7",
+      "name": "地图亭内景",
+      "artSlot": "p4b-interior",
+      "layouts": {
+        "desktop": {
+          "width": 1200,
+          "height": 800,
+          "background": "#ffffff",
+          "snapGrid": true,
+          "gridSize": 1,
+          "elements": []
+        },
+        "mobile": {
+          "width": 390,
+          "height": 600,
+          "background": "#ffffff",
+          "snapGrid": true,
+          "gridSize": 1,
+          "elements": []
+        }
+      }
+    }
+  ]
+}

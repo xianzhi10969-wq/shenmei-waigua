@@ -1,0 +1,2628 @@
+{
+  "date": "2026-11-11",
+  "status": "功能候选，视觉与真实浏览器验收待完成",
+  "files": [
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/.gitignore",
+      "bytes": 29,
+      "sha256": "ef3af64c38f9060efb5f2798431cffd5753ab6eefb99e808d815908b13933254",
+      "gitBlob": "6c381aaf801ef8d7d0ca4340c1203892c2597f43"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/ART-SLOTS.md",
+      "bytes": 3283,
+      "sha256": "16d62cb843c758148046233b51eb6cde83be380418e24a0e996a21739a591b9a",
+      "gitBlob": "eaf39b9dbf0d751c7ade006a5ee5cb99825ff2ab"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/README.md",
+      "bytes": 7780,
+      "sha256": "8d1234c7b9c5f7f2b796694d6acc32987c60dd7f1231a20dfdd8663d944a2950",
+      "gitBlob": "ff91d168bfcd0c025d911de2b1e68bd7db045fa2"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/app.mjs",
+      "bytes": 33287,
+      "sha256": "391cec4d4bb180d462f3954ad847f4a36585a6311f91e2caead36dfdbea4a4a4",
+      "gitBlob": "5ec25ccb9aa4b9f9147190fd061066a9472de923"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/art-bridge.mjs",
+      "bytes": 2541,
+      "sha256": "efb73a3082d4999bfec1dcf569020d03efb0d78607273ffed443453164427e72",
+      "gitBlob": "599c1264750eebd6c39b4af811894016245dfebd"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/build_data.py",
+      "bytes": 3507,
+      "sha256": "fcefd838817208eb40a96f63e0ade7e7bd4c24e2e32e9d10248b49ca2b2d9a9b",
+      "gitBlob": "48492706cca9be066021d81144c4b50c38a2d575"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/core.mjs",
+      "bytes": 7321,
+      "sha256": "20ff49b984af31f377f3de4f8594d1285f947e01b423c3104a6e87384dc2d4c3",
+      "gitBlob": "7a0cd2b5a7b88925467eb1e899fdcc1c70d2c99b"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/data/catalog.json",
+      "bytes": 447986,
+      "sha256": "53951b29888b67c24f317e4987ede677cf45a2d8bc51545679f50bc4d28553a9",
+      "gitBlob": "df36a1f9eb02894b25c12fee21434b203d947c50"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/data/experience.json",
+      "bytes": 208,
+      "sha256": "43f234d71c925cb31b08faaf4f39c965cd58411ec6f531d82405f597eb12c273",
+      "gitBlob": "862cfd833803f744abbfdc9ce9ccd27d763fe9f0"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/data/features.json",
+      "bytes": 42224,
+      "sha256": "e98085f3e08d2bb3b4acfe412c76798259922b4cd7a0296448301e558ba789df",
+      "gitBlob": "9012231c024939d4033c13d71f2a6e57a66deea2"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/data/provenance.json",
+      "bytes": 1131,
+      "sha256": "64f5840d01c1fc5e4c64270bf366c0651b01984677508b87ff49cef4c65c4975",
+      "gitBlob": "ccf0736ef1f6d3629b91009934fc0c9e4efc01e5"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/editor-starter.json",
+      "bytes": 4220,
+      "sha256": "cb75bd1e697eef05d814c1e6237ec2078f6d33f524e4400b81930924242001f8",
+      "gitBlob": "b6d4226e9821414c2107ab18182d2fb49a146b87"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/index.html",
+      "bytes": 1532,
+      "sha256": "3cd3f62cb2ade564e47aea9c22fed1d7c1e6c4fb98d601b0d3543360e4f7264e",
+      "gitBlob": "9e1b1886f391350d4b5ef7a943f27160ef1dba9b"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/00c85664ae2de4d2cc6f547a.jpg",
+      "bytes": 488691,
+      "sha256": "3c7e0cde407ee00ddf5078998c4dae64f07fa8f8adc89d0d88fea42964ec1a4a",
+      "gitBlob": "6e766ff415fd659cd1f782ce0255e28be9d0768a"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/027845fbfcc04b388037126b.jpg",
+      "bytes": 366000,
+      "sha256": "8046900e031c13b19866915f7a49e49e69b9c494ea4460e2beb6a79a460ea4d6",
+      "gitBlob": "ccbd56ad19a227507015025dd00878d6fb554b52"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/044bc07317d0594df156fd49.jpg",
+      "bytes": 229786,
+      "sha256": "43ef3dc6aacb05da036abe2c4f8668461696547ca3750b6566e3bb599a1cfceb",
+      "gitBlob": "9a9526867f0b50ce5b789349942713f85bce200c"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/052b78999fbccbc139c13da6.png",
+      "bytes": 392898,
+      "sha256": "3d368d517894eb570f285016fd7bd560b7ec2c19523442650d5854b0f14de44c",
+      "gitBlob": "a9978fd89b31b473c84b091b34efce43d2e09a24"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/06a2bb06238035c5e0b13df3.jpg",
+      "bytes": 267172,
+      "sha256": "6cb68c6b97be4ac329aef33bfcf41ca3b4a6191b7befb3f6fe0d55cea7731723",
+      "gitBlob": "2a30a0762d806855167eb1a961475db0122c86be"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/06d6c8eb00e76b2ef5397d85.jpg",
+      "bytes": 233827,
+      "sha256": "8f00e92550ebe7862921a90066eb8b858469de81c6181228d3fa398e145d21bd",
+      "gitBlob": "b4e87390c85c80e89bc25295050413c2ab3b70ce"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/09c3a484ab8413b6cb8a7bd0.jpg",
+      "bytes": 191782,
+      "sha256": "95184b81594fb133406d6587d9307a4042c238f3f5e7b99fc46f05931b813faf",
+      "gitBlob": "54567df2eb0bb42e0c2630a3d4242eb37b643deb"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/0a94de3989da8e9963de09c9.jpg",
+      "bytes": 615691,
+      "sha256": "6bde4ba17a1e559561839b2c6ad14c28397568768b93e713c9e82bcb920d59e7",
+      "gitBlob": "6ee320adc2c51993e27b849ad142178f614c735e"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/0acdded228c5bece6ab6efc5.jpg",
+      "bytes": 365440,
+      "sha256": "0e7d9c6ddd0db1e92720c3829865b8c892f1b3b4ae2932d63e26b2912c2f71d5",
+      "gitBlob": "95ab1709459868d035c4f33100dd1583fee0ac89"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/0b6a4139d75204d1f3406d18.jpg",
+      "bytes": 233827,
+      "sha256": "8f00e92550ebe7862921a90066eb8b858469de81c6181228d3fa398e145d21bd",
+      "gitBlob": "b4e87390c85c80e89bc25295050413c2ab3b70ce"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/0bfb9eb36f6d9022c04b3bef.jpg",
+      "bytes": 387692,
+      "sha256": "2c1204abd088eb7b573e7fc4d1cff3e0e9e7cac24a5b654597fd83a394a6d95e",
+      "gitBlob": "45390753fb4f35d4b0e68aeb7348def2e6af40a5"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/0c43215a04382aa291f45fb8.jpg",
+      "bytes": 1252976,
+      "sha256": "57a3cd21bd25bd5654b0cb050aa35cece9a1844fc2f6f61ca2e9559af12346e1",
+      "gitBlob": "4153598494a5230bbf8c6e1b3c429dbf35ef9fa7"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/0d0599d30bd90e300d9dcb0b.jpg",
+      "bytes": 368714,
+      "sha256": "9324bf514754efad4ea81695f8a900b3e1bb76b603bbe370b89473588cec9812",
+      "gitBlob": "a1bfeb557cdb83c0513fd2b0606b42649cb04583"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/0df64bf94e170776ad079227.jpg",
+      "bytes": 83258,
+      "sha256": "f879fd8488c105251eeb4f2443cafe6010eb4db0dd65cda74cc3d690f16882a2",
+      "gitBlob": "d07cf2df5bb93cabf64f3d7c61d306b0d6e3cc1d"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/0e7198f91e8fa9c69021df64.jpg",
+      "bytes": 1575370,
+      "sha256": "14579db27383b34c729011c1903f73aee9858098a23dcb712f0b2974f4c44719",
+      "gitBlob": "20614fb2be2b69847a994400541fe3d7469466cc"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/0ea283155e176a963cd8ba32.jpg",
+      "bytes": 241854,
+      "sha256": "7600b7745565f3328a91b920ee7430b699f8fd69ae9eb8a399a5771d9b9617eb",
+      "gitBlob": "b4289fc6f705ecce42f21834e59d3d0b574b088d"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/0f15243b783e30e7818e6003.jpg",
+      "bytes": 476455,
+      "sha256": "dd5d7e19b42c805f8df7b90f79005ebba2500ea21ced50c2a615bf95095810c7",
+      "gitBlob": "b8859f079fa15c01cb14104c8b61e454ef2d4b26"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/0f3051cbd047f028bc56f74a.jpg",
+      "bytes": 294281,
+      "sha256": "cdd0798f3736e008b7ee8f7247e7f9ab2bfd571cd30423f313d45d84a6e1ede3",
+      "gitBlob": "478ea65c8747d591bbd3372948a6cab3f0e5922c"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/0f4ff3015b3f362e6f42d9af.jpg",
+      "bytes": 112815,
+      "sha256": "4f7dc08b9a3b913c1f29acdf51b550e804a940390ccee1a1803e057cc7fa665f",
+      "gitBlob": "234e8bb8885f4b9c10e16c36a33740506f179b71"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/0f6609ab7f559ff86d9588ac.jpg",
+      "bytes": 558986,
+      "sha256": "fe2ff1f7f0c96f61dc6763026cc4aa2d824093855ef037dc0d48d769faab2b73",
+      "gitBlob": "b70a40ee02c8ebb57fa19e930328407927c39cdb"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/0fb9dadb184dd4fcbf3e893a.jpg",
+      "bytes": 126351,
+      "sha256": "a8dcfdfb1184598ae0e8e55f3aaa73cff93fe5e68dc875d27f1998c259215d96",
+      "gitBlob": "283138130abe03ffb9204ffc7b3586be96cc3058"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/10c79b51b319e0e7fea47f1c.jpg",
+      "bytes": 58021,
+      "sha256": "a52f40f41c510ffce0fa0bff4d891b1c80563ddb82dc4cc99f15c54cbd9999ec",
+      "gitBlob": "f96222f16eb056cf582eb8b063619e060e4b0400"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/10d7f17390496215e383b7a7.jpg",
+      "bytes": 190664,
+      "sha256": "0c7b7070da97bde558774be35ad5ac5f2124d81fe089fd9c94b36a9aaedb1f1a",
+      "gitBlob": "e739211c0bac5fefeb1963985739d49e1479cb8e"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/11547dca70199d6399b187ba.jpg",
+      "bytes": 1219069,
+      "sha256": "646cab7db4a3c47582638dd7887312986970ea443b04d25769098e018abf5776",
+      "gitBlob": "3e5fc7c2e7663977986f53137d5f0408774d7e3d"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/11af0ea3b46a9c29b70790fe.jpg",
+      "bytes": 1426338,
+      "sha256": "ffeb96ee089a212c4cb8e3abe312fcfcc468a316dddd1f0f7036d6ee5b8192a0",
+      "gitBlob": "3a8ee4ae8c42175859c8894db416fc26bc20a439"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/122756061afea8db5b9e757c.jpg",
+      "bytes": 185944,
+      "sha256": "8fb08bafc6435e945c582d38b8ac0ec3cd99f65141edbc203aa1f7f6cb41c93e",
+      "gitBlob": "0e19d1cd3403769355f83ddf44232180d5c55c52"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/149ec8bec53aea166a2d8883.jpg",
+      "bytes": 587973,
+      "sha256": "0922ca9250c5aae1e677f847fb0c438c2ce93a0c309a82a5ccd68debe4a80e92",
+      "gitBlob": "11a4502c4cdaccb8caddcea78eda0c453b135ca2"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/14b5772de3e2839f38682e6c.jpg",
+      "bytes": 138918,
+      "sha256": "bcfbd0ef9024b6b3a0d53f0ba2825bc3bd778332764003f0e4e784fc0b909d0d",
+      "gitBlob": "94e7a101c8243a7023e642b34a4e0f6100e92ce9"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/150bd9474137ea71f61aaeb2.jpg",
+      "bytes": 695684,
+      "sha256": "ed73520d6fe0daba8ad8488cefd85ce435c94254deda898c46ea47db1394fc29",
+      "gitBlob": "8b27ff02f7e57257ee60d3db99a4218c6cc7990c"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/151d72520a062dd8fd34c572.jpeg",
+      "bytes": 850444,
+      "sha256": "8bd12eab558824c4c7d98e449e2157a2b12f8f2055a330dcea504f7cdff14219",
+      "gitBlob": "553be7fd46da6f1f8fc3144c175c7046683d05d2"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/162807fb2a4008e04a915314.jpg",
+      "bytes": 203719,
+      "sha256": "129af8e4e7e9f7843766db669c8ae2fcef7fe676af302e81e7869a60220739e1",
+      "gitBlob": "90ac727afbb5ddaed247263813b8faf3a5b9826f"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/165d3bff6cc576d51503a7a3.jpg",
+      "bytes": 556263,
+      "sha256": "df20c1e0fb2284aeb74bcc15b328c06fd76628dfd5e9f14fe95fe20e3c9ea142",
+      "gitBlob": "10aab8d93032c019f96e1ef5a00a88b555492cd9"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/17e4a5689a3d71e17bc24bdc.jpg",
+      "bytes": 328312,
+      "sha256": "bd3f07aa0d99a11f04d32fb286e6bc9c74f711fdeeb7d76606241717a4798b4d",
+      "gitBlob": "10bec3fc31b4eebb93c8240d7ca51a0fe9d922ff"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/18d77c35ef1c6b66cd701508.jpg",
+      "bytes": 340390,
+      "sha256": "f6ac6a4a94ce8364175575d8273ae8cecb09fac0baafd0411c89f7ca2bc78166",
+      "gitBlob": "2f94730704ab3e8725705dbb7900f3db8dc4256f"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/19c55b8c7bf7db5777ce54ff.jpg",
+      "bytes": 325889,
+      "sha256": "92796b0de6de1e57e42313b2176e23cf2a461f68fd78eabefa9cbf300d10f9ce",
+      "gitBlob": "9ae6ff132976a64a4bc4c2db100f02c962eeeed3"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/1ac2c56cf75c933fa0af49f0.jpg",
+      "bytes": 436048,
+      "sha256": "4c5c43ac241af0661b5618759dad038f8f6cad57b01b4f1671b55737863b1468",
+      "gitBlob": "fc35be5628ba13e8d085fe833d3f3235e76b3a98"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/1ae2c587b584881ea584e81e.jpg",
+      "bytes": 339531,
+      "sha256": "ad427eb9ec46360096d8575f7b50528645cb8a1f10a8a13ea4dfe590d63951cd",
+      "gitBlob": "ae861160d85c175ab5190186bdc4c1f8846658fb"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/1c459bdc81159b89bf1f2de2.jpg",
+      "bytes": 499398,
+      "sha256": "7f00e284b0f1d26dec640a6fabf5d7c8566fc1f2f587b625c647f596cc804ebd",
+      "gitBlob": "f2e27b49aaf3c02fcbc1e12a07eeecbad714e4b9"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/1c981b386b0f1c336ae634fe.jpg",
+      "bytes": 516784,
+      "sha256": "46364e4465d399ed59ad2221078bfe9c0810abf3066806a82025cb89d4682aa6",
+      "gitBlob": "bd17964347bb553a8de2ec191bf51a97e0934f72"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/1cc9599400862a4969f0cc97.jpg",
+      "bytes": 55281,
+      "sha256": "119f29d9408a8b1a5e51e5d438dc0b9d97ba9b339d915fe47af340356d75268b",
+      "gitBlob": "36e1fd6697b00454785846ae4373872b3f87bff1"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/1cf0945a48bec82e05b3953c.jpg",
+      "bytes": 2127637,
+      "sha256": "2c10099a6f7ed708cff48e29898d42c0a64525b6944356f793b223ece09f802f",
+      "gitBlob": "4104f8c05efc0e2cceaaaaa17a264d272c50b3de"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/1d4b57227829eae07df14068.jpg",
+      "bytes": 557112,
+      "sha256": "23f94d09337fccdfeeafb6479a0f30cdffecffac1f6b3c8fa9662ccea72a0e21",
+      "gitBlob": "529966cb2735ea8f37e69e38752d11761cea18d9"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/1e6b4d40c9e06211641ff40d.jpg",
+      "bytes": 454539,
+      "sha256": "afd674c53de97e72922bb909cb9dc51568d2195c6732e20a5aee94d5b78cf7b5",
+      "gitBlob": "7a756012eb6881f9d338ef268da87c07673b3104"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/1ee4ac13add33906bd94f0a8.jpg",
+      "bytes": 705450,
+      "sha256": "1d8dec69bb04c67b30663f808cdca88727efb36bdfc9fcbe00269132b783c568",
+      "gitBlob": "93989f15d1646890753abf31e72b7b61407a60e5"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/1f287b44dd0735d8273d5a53.jpg",
+      "bytes": 1330105,
+      "sha256": "983862cf2be67d1cecdee5230882a3b3939b6a249e7a10ea5172eddcb8c97efd",
+      "gitBlob": "e57cb979f3cf6cebee6005886d4ce55b6e968289"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/1f616266e83428779401878e.jpg",
+      "bytes": 2543225,
+      "sha256": "7950a3680cea6b80859d10742906112aefe55c4787ea981c168d0d971fc6f799",
+      "gitBlob": "a69004b1450217d609251c3ba7918e6cc24fd7d2"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/200e0be1a5fc1632ffc2379f.jpg",
+      "bytes": 235334,
+      "sha256": "2577bb75834e37c240c1d9bf79fe5c42a7175bbb992dcbf90e51a5fc3c5dcab7",
+      "gitBlob": "913b7f7f72df72f051f017c11078809dcee63d81"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/209d7676e2ac3cb8d2f31953.jpg",
+      "bytes": 703852,
+      "sha256": "a414e348039c8727d441b72f9aae15e089dcef8e73d1dccb82fc68d7027b5229",
+      "gitBlob": "e4610477e90eb147830fa3fb2da4d855b64fda6d"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/2193485499f5a9f6e57ad49a.jpg",
+      "bytes": 120593,
+      "sha256": "2679e6babc3e65e0b5cf4888dc261d42d4e7617c5139864042881556b98bd34b",
+      "gitBlob": "6959906bf4c80bfd3a3a38e4857b01409d1c7010"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/21e8da6cd8c208a342a9b1dc.jpg",
+      "bytes": 190860,
+      "sha256": "bc4b95024670340b53d3caeaccdd04a591e240a5d5a2e40527f62ae9bce90a09",
+      "gitBlob": "c925b348764980495ee09bccdb0322fb43b513e7"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/21fae8c52fda30176006d88d.jpg",
+      "bytes": 534644,
+      "sha256": "6a1478b9307e6b27c49449cb358ee4d622a1bf16c219af0e238cc79d4bf35b34",
+      "gitBlob": "d46c972aae43259bfb612248a9a64abfab79acbd"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/2201b7a4707ffccf384854dc.jpg",
+      "bytes": 4340578,
+      "sha256": "fdcd3cc6730c81dfa4d9518baf470263d81b30e95eaeed1a194e169b74e93777",
+      "gitBlob": "cf053d8dcd0f20acfa33dd4c518d07758890916a"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/2224a9dcb363307ab71cc1e6.jpg",
+      "bytes": 292298,
+      "sha256": "51d05fa16367c844ef82be2c870fbe71d71de732a7856c2af2d0f3a91aac5d97",
+      "gitBlob": "c08654bacf54f959fdf6ed1b94ee649245a17408"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/2594223c255a9f1edde1e566.jpg",
+      "bytes": 708785,
+      "sha256": "ae3c4acf36db3c0fd7f43b745a8e4b35ff9160cf9d84c8b488aeff08d49e05e6",
+      "gitBlob": "c6a54f4363c1bbebadbaec50b101e453184fe7e2"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/25c30ff1d06b9a7a9bc23709.jpg",
+      "bytes": 149734,
+      "sha256": "9ffb0d75294bdbebe1937e64bb4b81a350f5a646ef9c3169d89daee69751d4e7",
+      "gitBlob": "1a86e16a50e320c667e84b49e1243e59df3e0a7e"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/27a47ee255bcabbde1c8104e.jpg",
+      "bytes": 383074,
+      "sha256": "ae26f23a1e500f497556e999e17067d223f8b4dc794c548bbd8b26b93a708716",
+      "gitBlob": "4ac0ab156db4139e3111b4332c1e065a68abfe59"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/2850950e861fa4555a243af3.jpg",
+      "bytes": 723604,
+      "sha256": "aa80dff2a97c9d6937c9fdfe6421b96104826df2424f5b7420db9fc866f45a51",
+      "gitBlob": "f1cecf80cccb6cae6847b8a2e790e2ef238ba46e"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/29b6777066ba4c9d0d26efd1.jpg",
+      "bytes": 91581,
+      "sha256": "09e3a3e3bbb8efc9782ccd669492e0a5d73c0eccb6ffcd9f6a9108618a91173e",
+      "gitBlob": "473a25df1a3d6d2625943218380ce8de6259c810"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/2a2c7fd86b044491f7bca4be.jpg",
+      "bytes": 371936,
+      "sha256": "86309438eae6dad6c41fb9fce249904fb9312ee83e08349714c7f28b29f9c09f",
+      "gitBlob": "0693215344d149d0ae88e1e8d600b66882a87308"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/2a462e62a36859576add6be1.jpg",
+      "bytes": 106114,
+      "sha256": "17143f766f904a1c90eb7d8df0c94b27e8ac3b4d6440ce015f59b53b3b291c4e",
+      "gitBlob": "baaf003cd5aa29ad618d60975177ae2b99e8aa4a"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/2a75c8d90809c6e89683c9f1.jpg",
+      "bytes": 2710923,
+      "sha256": "499ff3032eb573ce66b29781a886b217d6d42e82548eafef827c2fe74697e4d4",
+      "gitBlob": "8d4f14b380f514e96497e65fa1b5556e31daf170"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/2abdafd6d3016446efebdea9.jpg",
+      "bytes": 935485,
+      "sha256": "6dfe40464324a8320f4951ba3c6f1e04bea36d57b7b81a48360b7fd86ca259d6",
+      "gitBlob": "f97b48e3bbe28cf136d65a604f82be92ba4e7c81"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/2b15d4e2d8abfba375b1bc7f.jpg",
+      "bytes": 346323,
+      "sha256": "9443b318fc8bb870a9d7d71c4932c2fb16ef0c552975682b2101c167feab6f47",
+      "gitBlob": "b7fbfc26ec664226da5b239f5da8d5121fadcb29"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/2b1cbd53dddcccf41f58365d.jpg",
+      "bytes": 2757444,
+      "sha256": "38656dd60d13cc1fb94807220ba408d46f278a5a5f8d8642f346e6595033703b",
+      "gitBlob": "3fc6f1d263832c78acf37e522be53133909a5536"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/2c8380674f4a52e04dae89e9.jpg",
+      "bytes": 56258,
+      "sha256": "15219b2d1452010df6155d575699f514d1e7b22b11ffa11be9d1d85d908e07c2",
+      "gitBlob": "1ccde2206ce9de8a6fea297235a43855b63115ec"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/2d54eba5826b32cfbb623665.jpg",
+      "bytes": 221405,
+      "sha256": "d5b5ac9a35fcd41592c7a7204f1afc61a88dbb480c3c85c1c5c39c909d71f806",
+      "gitBlob": "12c05f66d8d011db47ffb4f843ea4a0d8711fbae"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/2dc3b3655dd7f8cc8ee6f46d.jpg",
+      "bytes": 3016945,
+      "sha256": "bb9e4038713118e7e680f21af2e575382fbcf0eedeee384fb906d4aebd0068f9",
+      "gitBlob": "2e010970fd6c93794bb9d9157ddae6fb09d8c8b3"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/2e0b1827818e56867c4f6add.jpg",
+      "bytes": 1253997,
+      "sha256": "c9855fcb7c0fbab88ebeff58fb5a471608c72314fbd3c5573b6986fd25152573",
+      "gitBlob": "3ff0020a9457bdce058ba8942c3aaae6b51e813b"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/2ed61225faa4060255da4469.jpg",
+      "bytes": 669027,
+      "sha256": "e2c1ada0ed4cf7c00c429cc2e0807eb6cca90a454086e5a68070e73c3b613ef1",
+      "gitBlob": "d81864b26de7cce5ef4d3397ece8c37287c8f805"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/2ed9a7cf97372adcfef2a15f.jpg",
+      "bytes": 199276,
+      "sha256": "fef0f4f230c4fb3113555e56ec2260dae969fc0503ba4a3f99c4c1501ad8d6f5",
+      "gitBlob": "fe9deae70d74f8345e338a61d1d8f5c633697776"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/2efac275590b08a35242710e.jpg",
+      "bytes": 53299,
+      "sha256": "23ef31f77e8c259608e10e9ac44317726417b1ea1952229a86289a874efd9966",
+      "gitBlob": "a73ab0e2c622dc3e01732570dafce2730a1e97be"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/2fbea4b30b14fe8db817c051.jpg",
+      "bytes": 899284,
+      "sha256": "4d17af12fd3869dea104a1d8112d544a76fe3d0d03b557d45cd24fad5253cfc1",
+      "gitBlob": "eef86cbc5d14886af28adb1b338b459d8f6d6305"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/302f52a43e6eaab223592fb2.jpg",
+      "bytes": 293591,
+      "sha256": "31083c04a35f8bf86ae13c4d937c3c7339750276d4cfb8c607d1c219cf389896",
+      "gitBlob": "03115ae6f15de1f7b064a8c29c817d615eb441f9"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/317ea11c7e5832722216cda8.jpg",
+      "bytes": 1253997,
+      "sha256": "c9855fcb7c0fbab88ebeff58fb5a471608c72314fbd3c5573b6986fd25152573",
+      "gitBlob": "3ff0020a9457bdce058ba8942c3aaae6b51e813b"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/31eb0335a1f4e72a85147640.jpg",
+      "bytes": 450588,
+      "sha256": "aa2cdb943d4fbfe9ce640b5fcfa096a442fae29828e439ae0020b1bbe8ffe07d",
+      "gitBlob": "d6b38499117de9b4b410f1e48f351a74a67dbd4c"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/32f5e35d0fcc749a47613d9c.jpg",
+      "bytes": 363629,
+      "sha256": "b70ba0ec2183bfbcbd03ab4bd3707224f8bce64fd26161abff79120a0d15e2e3",
+      "gitBlob": "be3c30863d3d6fbd792f7c43303921400f70151c"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/3329e8bddb3062a1e11d1845.jpg",
+      "bytes": 222472,
+      "sha256": "96152587d86138a72d8a87767d03eba722dc69677604359844fac02fc1618fbc",
+      "gitBlob": "82b158e03ea97755533148f035e2e64538801942"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/3381fe65b536e0dac1ef09c5.jpg",
+      "bytes": 259967,
+      "sha256": "5009fa9fa66a9df7a986b7c0070476e24a4d0463feaa73926d45df2816f39ff2",
+      "gitBlob": "c16ea2362b26eccdf894d9ba6709e31af13e67d3"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/339040a1e155bbbc846a8c18.jpg",
+      "bytes": 38414,
+      "sha256": "37974a533e34f5df5a7bde70f6c3488d86215e73dbf03dfcd1b132bd1555b78e",
+      "gitBlob": "9b1b223149d7a956c9a30cf8b9581ae89cb49a2a"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/35615fd989a74f47ebe8b4e8.jpg",
+      "bytes": 68634,
+      "sha256": "832a1fa8e3e5e598ca30392723d6ed54a054f3a2ad327bfb856235ca8252d4b7",
+      "gitBlob": "23efae942fbed1f3e521b03cc171fc58330a408a"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/35ffbc0ec2bb303619559804.jpg",
+      "bytes": 370003,
+      "sha256": "0f1fa9e2568e95ed24d08d5bf0df746b6fb16054b19e51888805bfbfcd3e63e8",
+      "gitBlob": "5d52d3b3d0f8e60f0eecf2673dc222a0db293915"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/362719f85cad7db06e92c555.jpg",
+      "bytes": 48097,
+      "sha256": "41eb06282205e0ea9e2ef7bf6d649f99c0a402712d3c0ca62227c911c65a31a9",
+      "gitBlob": "9a297acc82f53a260ce3c93f148f6f1d0434c70f"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/36fe3104dc224a740fdff96b.jpg",
+      "bytes": 139487,
+      "sha256": "d878154f5011a46169c6d70bb7fe2370e86b6e56cd78aaf6cd66b2440bcaeb06",
+      "gitBlob": "86db3504b6ed22e88c356460116f125960bcb31d"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/37a72c8e13846bb05fafc0d9.png",
+      "bytes": 727830,
+      "sha256": "0d385cd2836015a46a632a605a75fec5fc8f17a26282183cc781658b18200775",
+      "gitBlob": "30546f8434e39e07489be1ab54e917cc6ca3d923"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/38a3cef3e59ac8473d959d65.jpg",
+      "bytes": 483114,
+      "sha256": "28034d3b6fa4f6035390346a1b5d39405ffcb5862e323beb0c92d4295a8145a7",
+      "gitBlob": "3beb5cc226744424948ac7f43d5d563bb5557611"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/392a2c3fb094693171321b6e.jpg",
+      "bytes": 438479,
+      "sha256": "9d99d277dce502b7cc82d80e5a5ea0015e3024830a361c5a7bfc7308592edbaa",
+      "gitBlob": "5fd45b80c8379492bc37381e8742931d2b429ab2"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/39507e5c534be3bfa456828a.jpg",
+      "bytes": 143009,
+      "sha256": "1e87d8131b813754dd90518e546c74fd8f7ebaaf280dbb58300723bce990a026",
+      "gitBlob": "ebff2612304bebd6949eff0877b663c2c6979cab"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/39716efa5be227c8fc739f35.jpg",
+      "bytes": 373348,
+      "sha256": "b0206762363d232f350de1527fece418eda1e60c220a62130537e8267b9787e4",
+      "gitBlob": "e06b64f3fbbc3433d68d73d157c8dacb5475b73c"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/39854d2bc55b3763d3d2eba4.jpg",
+      "bytes": 191308,
+      "sha256": "1ede7a2bea78809039afd2013f58ce4d7d48f542c9724b1548669b6921bea963",
+      "gitBlob": "6775c615ad0ab7698ac85f13688c54ec3b6e1494"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/3a1595750094a6bf9a1d99f1.jpg",
+      "bytes": 186603,
+      "sha256": "e44aa30e771b849d61906be462cd498a8b814e78142cbdc0c06d1f4888aab317",
+      "gitBlob": "8d4fc1e75eaad5abaa85f3d36778638a5fe5ff81"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/3a8c27300ed5035d2142ba2c.jpg",
+      "bytes": 471583,
+      "sha256": "40208ce61057536feaf783911d925b0fcb35e50e649afe4fc626878337a4b009",
+      "gitBlob": "75a777aa984973db93915c25ad54752887285fe1"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/3b0e4420ec991e56bb662a4b.jpg",
+      "bytes": 35058,
+      "sha256": "40a6df56ccc1727b2b7f9fcbf62b60d7a376ad022acf9a197522b02df9b74412",
+      "gitBlob": "fd2fd04d29f07dda1bbdc12b8757d27a1e36d728"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/3b42d6195de8463ab449354e.jpg",
+      "bytes": 690441,
+      "sha256": "d13e26a58096f490d16acee79dc101980d86b7ee0299b405a10fbe1caca8461c",
+      "gitBlob": "0a9405417b553f63625a51af40263538549a28f7"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/3b6d081597a4e5dbd444c0d6.jpg",
+      "bytes": 1426338,
+      "sha256": "ffeb96ee089a212c4cb8e3abe312fcfcc468a316dddd1f0f7036d6ee5b8192a0",
+      "gitBlob": "3a8ee4ae8c42175859c8894db416fc26bc20a439"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/3c50c6d7dde30dd32a94fcbc.jpg",
+      "bytes": 976528,
+      "sha256": "05a394830b9dc203fa9e5a3f7b5adf344a88dfcae1b902def22d122b80abd291",
+      "gitBlob": "3b8f52bc32e3487b7568c227219869642e982373"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/3ce87ff3f5df5f61592336c1.jpg",
+      "bytes": 241892,
+      "sha256": "182373921aa27583eba0478ef256bd40ef403f2f3bba9b939d05eabe63e18514",
+      "gitBlob": "c6b930ede324ca560c89116b0a7aa5643f6f4ab8"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/3deb25772d645ccb053363a2.jpg",
+      "bytes": 322013,
+      "sha256": "fc7d18175f5396cfd4cf4f914ad551e3329ab2f9ad3d32083634f067cff7e25b",
+      "gitBlob": "71f117c4f37ecd75226dc82797c922f31b30dd74"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/4017f914683b623176d50421.jpg",
+      "bytes": 1262368,
+      "sha256": "64f140b1beb2d4d4347161dcf735d8ed1c30b2d332376a65cd933d70a6aaeca0",
+      "gitBlob": "868d69946f81208739aaa3f58672cadd9cdec726"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/405d7debde5178e4f633013a.jpg",
+      "bytes": 598792,
+      "sha256": "b0d65add93f8693fa9ef3682d63beebe09b9bcf51ff3cec3ed4806eebbcfce2c",
+      "gitBlob": "59032d58550877b23a92991fc3ecff266f408071"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/41298e40d1e4894534f8040f.jpg",
+      "bytes": 123252,
+      "sha256": "e4e25bc17a0fdd384851ce8b2fedc6085ef11f57550e5359827a5d6f945652ef",
+      "gitBlob": "ae0987589851db888940306b468835d4fc736c23"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/41663bb935248f589d44f268.jpg",
+      "bytes": 93062,
+      "sha256": "9c12f9cb9f119c5a0a9036af176c5af25c8189455970f87a241ff27aa57db93d",
+      "gitBlob": "77169be181a9adf609937abe038407bb6704427d"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/43f90f3bfa76cca338a1817f.jpg",
+      "bytes": 242936,
+      "sha256": "0107d22506c3b04dd19b776169679c66ce8e36337bb552a30fdcf1d9dc69c091",
+      "gitBlob": "1f7b1db8f947b8c544c3d94bf35263d284aed255"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/4562a38fd0502191a95cc806.jpg",
+      "bytes": 453820,
+      "sha256": "1b692bda85d09da24358c13bf88dc49c7613b70c75e866768d13a4e90390171d",
+      "gitBlob": "a2dd18b9c01eea06c895b6bf1bfe99158452cfb6"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/46a90f1fa3a1a4cd8e85e2fe.jpg",
+      "bytes": 2192400,
+      "sha256": "08d558c85fd5ec1c5fe88ce688d539c4f038e3939f67a546bac194065ea056b6",
+      "gitBlob": "2731ac73753ca836aa16d33ef3bbaa62e37fb4db"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/46c6c68e422f4af40fa620c1.jpg",
+      "bytes": 429143,
+      "sha256": "77c30b1ea94167704ebd7a9930b8dcae9eccedd97efb4400a08d53dd3d420cd7",
+      "gitBlob": "701bcb4ca2e9bda3350bc8e4d38dde2eedb6e619"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/47718bf4a8b27db66f3407f8.jpg",
+      "bytes": 899644,
+      "sha256": "6dd67e2656d6a8c75b1071cd53a9b505bb2212b9a5a900fff8c12a77d3f06145",
+      "gitBlob": "b7ebe9805b201fd7961f2b4c28119fd7ea400216"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/479db87c9ff75e5576ceed87.jpg",
+      "bytes": 1081344,
+      "sha256": "e803032f59307e0221173ae1498b56b0d5dc491b59a8d38d1628588ffb536968",
+      "gitBlob": "45b83b583e4b5935605b657c77e6d949c5938d1c"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/48274771fa3d5035a41e1666.jpg",
+      "bytes": 265886,
+      "sha256": "799483e3e01b611ac0db8bd47bd2bb403d3747b24bdf62316eb9107f12a7fbfa",
+      "gitBlob": "1abd94f5e6ec5835ae8ff05c69678f9d40685b75"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/496fd3457874fa36738f575e.jpg",
+      "bytes": 385142,
+      "sha256": "ed9646e511536d5398e4082b25dd7d52766ddc2c70cf462b10e1edef4f286cd9",
+      "gitBlob": "9df4e544535e4c380a4cf6b06fe22167f9d63973"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/4a134bc8dc0615f60209930d.jpg",
+      "bytes": 227590,
+      "sha256": "9f9cf1a6368c454de08b9b800977499a8c3ecf96d76cf12405d0a98d637f10f0",
+      "gitBlob": "9fca950f09cdd29906cadd0ec0f8d6d2b107f571"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/4a3f3ae3ccab02d114af0218.jpg",
+      "bytes": 1115129,
+      "sha256": "9cb798e46c73cdd8ba7a8c2dd7155593551321adb58b4b201ef383eb80daeb71",
+      "gitBlob": "5d80641e2e6868e552f1f380d7360c09364f43e9"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/4b9dcf6a12fd563f5180db77.jpg",
+      "bytes": 791189,
+      "sha256": "edf9a83d81fdbd71a0e5ef091c06c2fe9477559779ebd817f611d95fc8885d81",
+      "gitBlob": "1f2d34c012d918d1a88e09c6e8452186d93c04fe"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/4c22591d3145c4c12def9f2b.jpg",
+      "bytes": 528813,
+      "sha256": "e3675229035fb5d3c354b61293a5b8a425945cf328e7c8c252c1120e0580fea6",
+      "gitBlob": "47c5477ecfa0748fd036df6ba3f2456f8584a5d8"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/4c3d2147aa74b100626fa070.jpg",
+      "bytes": 110361,
+      "sha256": "06f3c9aa8d6ae753f652049716c96a0f05672195dc8a86ffc09d430abb8beead",
+      "gitBlob": "57efa3f98b05be798ae1a0e0485561b422d88eb1"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/4cb6c74c781d5b328c4efacf.jpg",
+      "bytes": 173367,
+      "sha256": "8ec760047b59bb828248b44a5bd9025bd9fcec1480b6678bceab98c1cf470811",
+      "gitBlob": "20051c6ffde8aa488b74dead32accacafc2b4f49"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/4d51af8149a8b3adda2094e0.jpg",
+      "bytes": 221403,
+      "sha256": "accbd68b40c920311adbcbfdfef8c620f58d08b6fa875a0dbf5b41a039e1841f",
+      "gitBlob": "492d7bd1c067b18e501873bb479a0bf6f63f24d4"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/4e6ddddeb54a108a58831410.jpg",
+      "bytes": 364816,
+      "sha256": "cf08917513daf4ee71fe6c053f970fec08fd8950ad011fb543937f3aa76b39a6",
+      "gitBlob": "8f9e29b3bbde0e9f3e9df98076ff76413853ff02"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/4f388e0d851761143196d6c7.jpg",
+      "bytes": 124997,
+      "sha256": "74d12f70e0ed0d407dcaf904b57d38d8dedfa4dfd9ba1184cb491b5917793502",
+      "gitBlob": "ce14891527738fd7fa004a856889b8c275b40614"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/50d72aeddc072e775449fce1.jpg",
+      "bytes": 560420,
+      "sha256": "13fe326b0de6542cfff83a774795097ac4637022d098adcd7831e3ebf7144e2f",
+      "gitBlob": "396b08f7e51a537319d27989d4ff6c9404725340"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/5137c1cb2af5a243f8d73609.jpg",
+      "bytes": 268350,
+      "sha256": "a2fa62190afb8e4d12493ca92adc8a2c23920d2e60bdd7630f58bf4935fadc85",
+      "gitBlob": "19d26a7098ef6782f9571e740ec9adc7b0c827cc"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/5182bc7a24f8d2264ae889ba.jpg",
+      "bytes": 1122432,
+      "sha256": "40689cbf2101198fce0a66c4b43f72877377e429fea3ba63387391a76926c66c",
+      "gitBlob": "d8291bd9c24184e8d82f432148edcda08226044d"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/52753108f87ba9f387fa2df4.jpg",
+      "bytes": 429143,
+      "sha256": "77c30b1ea94167704ebd7a9930b8dcae9eccedd97efb4400a08d53dd3d420cd7",
+      "gitBlob": "701bcb4ca2e9bda3350bc8e4d38dde2eedb6e619"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/531fb2ffcae6e8a86fefd761.jpg",
+      "bytes": 1040815,
+      "sha256": "fee6743222052b7739ba0eb4fb0625fe63af1765e2b7e97d8a8c4718e2d00e90",
+      "gitBlob": "1ed0c6412d71cbda2ac97cfdf74bc42fc56b48bb"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/532e835d6c72602da2731a74.jpg",
+      "bytes": 77555,
+      "sha256": "3745bdde791e54cb9259876a28aff6dc8272040c6ea64407335154090389c045",
+      "gitBlob": "b2453bbc06ced05d6351d7953b5be46c065cc197"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/53d17be2854c2b7f6de1ff66.jpg",
+      "bytes": 249646,
+      "sha256": "1e59cb02a28e5195991744a4d554885fdc2c801a5186704f2b6f0c650aedc75c",
+      "gitBlob": "be0e228cbba960fa1195969aef98e5a916824f1d"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/53e3e54328fac7363e835072.jpg",
+      "bytes": 322117,
+      "sha256": "25d25d35818df614f91e53d6dc62f9e35bc15a5f29b80f46ca35d6e84cd3eb52",
+      "gitBlob": "96ec1b8aaf0313da3f3f2d8d70845ee1c75dea48"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/545eb6e06e1a1352b4db6d83.jpg",
+      "bytes": 1656353,
+      "sha256": "5bd51a79d2642dea1c8b24e2b2a8cebaa364f3ad67d592686cecaf5f59d8e8ec",
+      "gitBlob": "660a77085144d78549b846a874f6916687217f45"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/54839d225b19c6a380ee4478.jpg",
+      "bytes": 1037069,
+      "sha256": "28d62aab712cb3a87871da9dcea51c59a9528ad5e0caf020428070ce9067c2a6",
+      "gitBlob": "a48d78c9946d918e242a9676947adf2b4f2cf882"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/54842180b4d39b13b367e560.jpg",
+      "bytes": 253713,
+      "sha256": "cc617a8d0d3d864fb67a80acb92fda6d91d80601b886cc1c4924c2a2aaab6de1",
+      "gitBlob": "7b5d1cdb671ea7b37ff06553816487c9ef9738f0"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/555b8c8a0a0fb24a6cb1b1d0.jpg",
+      "bytes": 319005,
+      "sha256": "bab0a75641d2aadd63fac772dfdb262e2d63d1b3d3cb1bf8b7f9dd296868cae6",
+      "gitBlob": "96e41777ba3d830a7ec28b579a6de002dc1db188"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/558ea7bed5383cf011c8a47d.jpg",
+      "bytes": 100204,
+      "sha256": "9d04861245285224bcf4ba6c88d7151680dfb6862f039e23118fbcdc17bb53a7",
+      "gitBlob": "880a6c56acd0670e149f04e8c8ac901f1685c57d"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/55bcda4b9a23643a878391c1.jpg",
+      "bytes": 516368,
+      "sha256": "3b40a973174e47ec11901d387ea5a09d22ded16c89c5578b051cf406f975294c",
+      "gitBlob": "cac84a1e316ee4bd7d08be17f23bb0830195edfe"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/56486c4ce7d9614464ea11e7.jpg",
+      "bytes": 387692,
+      "sha256": "2c1204abd088eb7b573e7fc4d1cff3e0e9e7cac24a5b654597fd83a394a6d95e",
+      "gitBlob": "45390753fb4f35d4b0e68aeb7348def2e6af40a5"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/5655f87353f93709fd302733.jpg",
+      "bytes": 408577,
+      "sha256": "e68c1b8a80d7d3c3de2605358578f13a481171e3f53d3413f180bcbb432d9497",
+      "gitBlob": "28a08791b734119551aec55ee9e83eb0bada304b"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/56921180a3c098492e6e492a.jpg",
+      "bytes": 78055,
+      "sha256": "dcd3fb446d7453884ee699d04201d112cf5af868bf6f8dcf7914fec4a632303f",
+      "gitBlob": "986dc8eb3d85b362283e4cc0722f0252dfc96f2d"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/570899ea239ce9d42fa51fc2.jpg",
+      "bytes": 199276,
+      "sha256": "fef0f4f230c4fb3113555e56ec2260dae969fc0503ba4a3f99c4c1501ad8d6f5",
+      "gitBlob": "fe9deae70d74f8345e338a61d1d8f5c633697776"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/57a865bddde608e75c8016a5.jpg",
+      "bytes": 29120,
+      "sha256": "4293ed449f5e949d646c81e21b9a9ec18382160fbb40792613ca7958c0c6aa86",
+      "gitBlob": "ca31e0ea247c210afb945c80d978cb03877d72ed"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/58e9ffa098ea4d20dd7644d8.jpg",
+      "bytes": 95137,
+      "sha256": "acf8c8cc0e0fef1206407ffb3d9a720fe5c1f895c8f3d7a69b886ca243b81919",
+      "gitBlob": "67341cc01e35ccfac6eaa0741d60aa29f8016030"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/5972586788408c98182f0a7b.jpg",
+      "bytes": 1221514,
+      "sha256": "886cfa0cf0b27f126e2415d2a804ea81961c35e475e0e84bd9f78d53d83231a8",
+      "gitBlob": "ec40bccb4e89193da9f3bc266ea85d13e90b670d"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/59b6b55b2b28d918a4811702.jpg",
+      "bytes": 343923,
+      "sha256": "7f74c9b20634b541349bd001aa9c039e3ad9d49f1e43a48cd2c9e119169745ef",
+      "gitBlob": "3a83487e1cc7486b53a1b714de0427532c7cc76f"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/59d7d164781e777193811eb9.jpg",
+      "bytes": 281285,
+      "sha256": "8f144683289f83644368a969130a434dca5361f950be659296a478d3da0fada6",
+      "gitBlob": "b0c581edd4bec3c621304dad7f2d2ce8f1cd8205"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/5c274155dabc5cb35344c754.jpg",
+      "bytes": 319402,
+      "sha256": "3eba32e9c42a110f9a267a4bf843a13413553df2361087ccc6637696cbaa62e2",
+      "gitBlob": "ca108a089454f94dd5765c212bc097c42761ab3c"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/5d4ed1f2d349e0c09ace4164.jpg",
+      "bytes": 482412,
+      "sha256": "24a2992551d23ecd33aa9ba94581d1eb4b8a1bf84197bee8e60e7416bd613a0f",
+      "gitBlob": "682519ef05f86614e66745eaf252e7defd126b89"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/5dcc196e7b4d197f8219cc76.jpg",
+      "bytes": 86220,
+      "sha256": "c1cbf4858f0f3e6cd825e41dab94845bd778efe367d079e1a1136f1f5797a36f",
+      "gitBlob": "ee2184465aad111b1c25ce1ac5c6c01daa7f9370"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/5de002c35b7ce01afc1ce82f.jpg",
+      "bytes": 2546018,
+      "sha256": "951a177ea83690f27fc7379f4281c16e6f5b7fbc560165b3c89f64162e57c3ac",
+      "gitBlob": "b536cca1ca4cb6d6993771f2b8f6c32082799f02"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/5f7d2e7cb2d8a973a6248c2b.jpg",
+      "bytes": 46609,
+      "sha256": "6a135b0f1cc8b86644596f4b88be5622b833f37fcb27bef9ce45daa485f9ff08",
+      "gitBlob": "0d266533d3a1171aba2b453132033d33cb44299e"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/61526c57c6938359b33015ec.jpg",
+      "bytes": 271251,
+      "sha256": "c26e6fd2409bf7513c587cbdab89ee7b298c38c19f763c0bf03790b35dca3dd0",
+      "gitBlob": "101915782388826b4b5a9a59621b29f00f4458eb"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/616c46aaf52b6779524b4c9f.jpg",
+      "bytes": 50616,
+      "sha256": "10dee686235bc2e2970fbd31790319c2b3baafccf22892e0ef34c9cd1f7fd249",
+      "gitBlob": "36d9e6aabb9e2c9b5444354d9b8d5a8886b08c48"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/61f19b34fb126c46c20404b7.jpeg",
+      "bytes": 956212,
+      "sha256": "13f6ad9863bec252d3239a22f4e3e4adf25702a446090f7c3cd41e7f7c0efd42",
+      "gitBlob": "97ee3dd9d6a2d0a9e0118afa91093fb742b74678"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/622922197336f56a70262240.jpg",
+      "bytes": 610675,
+      "sha256": "f152005355d6aaee3ea8839cc9e4632b255e38a058918f4b495829b0a1d5f23c",
+      "gitBlob": "3acbd326c082716481562e5e7a13b41c62da7ab4"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/6252c9ac30563eaccf1022f5.jpg",
+      "bytes": 935485,
+      "sha256": "6dfe40464324a8320f4951ba3c6f1e04bea36d57b7b81a48360b7fd86ca259d6",
+      "gitBlob": "f97b48e3bbe28cf136d65a604f82be92ba4e7c81"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/6274fd84c6041a9964375b0b.jpg",
+      "bytes": 629143,
+      "sha256": "cdae4e860589f11e4cd29706b17d98df0ff83892e8ad9b9bcc997d3d42e02c3f",
+      "gitBlob": "8da49f9c3f59bdf1955b3e414fe90083c7f227f2"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/62c874b3a04bdc426d5d7dfc.png",
+      "bytes": 87079,
+      "sha256": "978e102e04a01e7972c7a707da722312c773dd439d13d7d31e1268f85e64d0f1",
+      "gitBlob": "1c9076d0aacda368fd9ccaed9cbcf4ba395a5d43"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/639cd4802de3a4ce5bc35115.jpg",
+      "bytes": 2019147,
+      "sha256": "5bac6641553eb1929239827dd5ab22e144aaaf3b261f08810732d6d994e3261b",
+      "gitBlob": "1fead402a2959920d08a70fb799212decb38fcc3"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/642b3b4f686b59e1906e946d.jpg",
+      "bytes": 1107119,
+      "sha256": "007755e1f0cbc15c7052a6adf5dda49a2d94f832c65c21e5b04af6570340ca98",
+      "gitBlob": "9f1792079948ae56944fae1f9c8bfedc14c6088e"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/64699cfc4b49be5010d23204.jpg",
+      "bytes": 29763,
+      "sha256": "712f94ea6a37faf00e6acd0947ece387c1bb5a62e0a73d0e1edc485cd8745028",
+      "gitBlob": "a1a06eb9f381403cf8dfa688223f286f0f9bffe7"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/64f8d98b5bcc07c3eecdc6e5.jpg",
+      "bytes": 697454,
+      "sha256": "c6b7e0e31743c0739b043a03dc13be79c8e74c8f453ea1867e77f8a029e1feaf",
+      "gitBlob": "62f6daab710d26c81c650e7d1e6c1b6b5e106b4f"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/6500e9f45cf5ab99d305f8de.jpg",
+      "bytes": 138541,
+      "sha256": "e6cfa71677a9851b9acbd5b3a71c712e0106ac4a4b59b1b149da8e332e511b4a",
+      "gitBlob": "41d82b2c98e7bdc4ba636eef925e0d893add03ac"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/65886c987508f21a880ee8c0.jpg",
+      "bytes": 93073,
+      "sha256": "36be2ab6ae692be2fc56e81c3eaceeae3f2c6f5d0ab8cae301ba9ac418bd713d",
+      "gitBlob": "5ee400d1fc5728474a1821ef8c0b3973234754ac"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/65929a432c43d1ee5620dc26.jpg",
+      "bytes": 108748,
+      "sha256": "deea9ce235af2cec53736c55fa5bdad3d48dc1998287bf6466ecbe844a1bf3c3",
+      "gitBlob": "48be3859cb04d860ad7b122b89c1058c26ff1839"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/661d23ae4778d1ca1049af78.jpg",
+      "bytes": 325889,
+      "sha256": "92796b0de6de1e57e42313b2176e23cf2a461f68fd78eabefa9cbf300d10f9ce",
+      "gitBlob": "9ae6ff132976a64a4bc4c2db100f02c962eeeed3"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/67ec9183c11709c2550ba2e1.jpg",
+      "bytes": 1925905,
+      "sha256": "83633244cef4e06ec9992588915cb311123095e543aad6716f071b58c7a6c218",
+      "gitBlob": "ba82b173c69dbcf4c3d707f4bcebae44b29feba8"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/67fd4bf6b4169fbc96a938b6.png",
+      "bytes": 1330967,
+      "sha256": "7d047201d7acc3d5112d4b34c7deded51bfb72198c49db869e0e94aa84821ae7",
+      "gitBlob": "5fc251a01e148a70a2930abce135ef2931c2df8a"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/68402fde1b0a1772b1bb5d21.jpg",
+      "bytes": 295305,
+      "sha256": "0892a41c47506b6f4cc48756a9ef2bfb0124978d3eec6253117f2f46f16d5bf7",
+      "gitBlob": "21cea2e3c82bf1c82a33046bf3ee131dea051a89"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/689ca0a2cb3169a5e691e27a.jpg",
+      "bytes": 3395487,
+      "sha256": "8c720629c7cd9d9362a6388cb4cb221dfca000b3970f6c07c1ad03ba5e5f94ae",
+      "gitBlob": "5601328e6623bc479f5f694467b85b2ff095c644"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/699dd35137dcf33e11fff3fd.jpg",
+      "bytes": 85267,
+      "sha256": "e97f3a365b5f3abe36455f9f4c9ff660059b2eef04d2b598b72267a5e9757cb1",
+      "gitBlob": "03e0dcff3b2b861d5d3fb527b3db260f70af99ab"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/6a179f551d132c377524cea9.jpg",
+      "bytes": 552810,
+      "sha256": "ba09015a9a90baf95466b41fcefbb7f3173fd64f4772d03260d717ee06aa655e",
+      "gitBlob": "1ded2fd2234f68547deef2c587063b03c0a35d26"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/6abb04418bbb349ed42e8b77.jpg",
+      "bytes": 2179057,
+      "sha256": "633eaf92e9e25fbbca505a040f8392253ba2f882eb29ffb972e44856e739b3fd",
+      "gitBlob": "133054691493a25babd0fe8a9fb5d56862145c19"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/6b14b484fa11f8be41572826.jpg",
+      "bytes": 1970363,
+      "sha256": "5041673e708eebf76f0fecca493f087ecb0397bef5a63e524071bbb1c5f16f77",
+      "gitBlob": "4e79354f93ac61b4f23cc61f045768f1120ce50d"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/6bac7c84a689c8e0e94e2b5a.jpg",
+      "bytes": 1645276,
+      "sha256": "be711f0f657f1048a1f142fa3be5786599b1e384ff4643609f0610297313feee",
+      "gitBlob": "c00f95625ec7bc2e90650723b6bc9b4dcf74d436"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/6d51f4635f3f6910a810c9e6.jpg",
+      "bytes": 1767847,
+      "sha256": "a57fb82212c56dd995fee8192866fca4a8c2b87dcb8aab970123f85e16861fb3",
+      "gitBlob": "4c3c8c48061c4ded87e6d581a1950864061835c9"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/6d968c4c86c2b39d0e0f6c6f.jpg",
+      "bytes": 62356,
+      "sha256": "985df0083f6dfa09c5e4abd843ea4f9c90c42bedbbf62dc869b14734a51aac4b",
+      "gitBlob": "8a612790fafea5d56c7f6df37d2a4d24ce72d9f0"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/6decf37105b45f29db5272ba.jpg",
+      "bytes": 874809,
+      "sha256": "9a308f3de5ec9314395779218e57792e17fdffac011d3d9c150187d1a621dd5e",
+      "gitBlob": "206fa60331f8b8c7d33c404943e78a4541a7018d"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/6fc16dd6268f35d7df19280a.jpg",
+      "bytes": 214211,
+      "sha256": "59612200829f0f227cb2782959e0c5507b92cd9375178f403c048e20dd1c9910",
+      "gitBlob": "afe43c5e51a64b1a7696068b52968a01f32c8fd7"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/6fded730cf0d6863de824b55.jpg",
+      "bytes": 2520984,
+      "sha256": "9107bb9405e414daf2046221c608290b94a43a276b31d7911564d671c82bc829",
+      "gitBlob": "44fd6c21ea87882ebc2aac9b016e89fc91009708"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/703d8e2a5c5abc4cf2bc89d6.jpg",
+      "bytes": 133041,
+      "sha256": "7f5e49eef78cdd967e225502292b8e1e0dc3342cdd26834d2bf0c6010daa9dd8",
+      "gitBlob": "561f7cb03b67dd8bb8b1b4f3ef8380b99b87dcd2"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/706be09f1803401173ec2f67.jpg",
+      "bytes": 294919,
+      "sha256": "97960dd8148607b8f0b0c4a6eb4fe9e6c73587f16553081c21b83bc87f5ff429",
+      "gitBlob": "2d0842fe1c4d25fefb5dc73acd867dc05394ed37"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/712abb7aa39449c0a9e43f85.jpg",
+      "bytes": 208434,
+      "sha256": "bbd1d375ea41766c9f5c09a3f377ad7e87e3fdda9ecf2621003d614d659e916b",
+      "gitBlob": "f94c6bc68e28206aeb0417eb319787bb2f41abbd"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/71a7d6b5e1729de8280c6f3d.jpg",
+      "bytes": 74080,
+      "sha256": "56352f0f2adf22176f7006ec81115e67d5f1de0c1586c7e78758fa1b3685eb67",
+      "gitBlob": "ba323f1b1038380f279fd5c38dc6d8f6c82efd5c"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/71e9355ee4e90128d9c7d068.jpg",
+      "bytes": 226329,
+      "sha256": "f3e7a5a63bc964b067dd20151cbecfb7f0cffd2369cb9234dbc723c729f3d198",
+      "gitBlob": "6ac16da0720caae0380de0ff5512408d808893b7"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/7333d977891e42cd11e100e3.jpg",
+      "bytes": 171542,
+      "sha256": "5f76ca3d365abb763dd948ccc590aa2461013242ac9dcda76940d4cb0c3201dc",
+      "gitBlob": "18327ce6ca2d2444d9a31eb9b620cc6ead426af2"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/74be8c6ee3a65e8de6e327bd.jpg",
+      "bytes": 169028,
+      "sha256": "91c6c98d4af27f2b5375f4425af38bb375391c95413e549902442db9df94a5be",
+      "gitBlob": "b1a7b2985563f569826a9ca5f3fc057562980646"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/74bea616360ba1388a4ec9d6.jpeg",
+      "bytes": 730883,
+      "sha256": "7b913e63efce9cb9cacb35746cff8c303b2a4987ea12d69f07d05b19cf3e455f",
+      "gitBlob": "22794c85f6617c013773f03b6f4e0a12635eef97"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/753d0ae954d50df76a832846.jpg",
+      "bytes": 64046,
+      "sha256": "39f2b0ca211d274e3b59c2659aa37cbe190ff98643da61d866f22d562978c046",
+      "gitBlob": "5ed978007d50a81222a4091ae57c99847ca1e784"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/7649a604665102be2c8f7cb4.jpg",
+      "bytes": 358098,
+      "sha256": "06ae1e2f737fa3f5f84b18cee2da34edf186f9a2df6a6dd7757d4a51357dd859",
+      "gitBlob": "8fb0f7274ca883ffc900178762d2fbe1949e3e53"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/76b2935b01e50aadfb77442e.jpg",
+      "bytes": 85816,
+      "sha256": "f4b3701ecad95fbd1eeab79f33a9a4092bdba518aefc55058bc2ec8e7adccb21",
+      "gitBlob": "9f078c931ad72ad613b37fcdb76ccce7d805563b"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/76c3c280f5670405331a02f7.jpg",
+      "bytes": 416423,
+      "sha256": "8ea4f9c8640e0d0020637aac6e7fdec034e352b788642e5f3294878b1802bb9b",
+      "gitBlob": "761c47c38fa5aa22c9e996186e05f132954c8f06"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/76e3541fa72445b5e1c2045d.jpg",
+      "bytes": 276096,
+      "sha256": "a6659890b4660cd9b6dd0b809cff7bf7286f95cf186e3e80168aa95f4365d2c6",
+      "gitBlob": "a4a0fec1e69e2f771985bebc4ca965575945fd0e"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/772887f7983c296d3ca0cdb3.jpg",
+      "bytes": 438210,
+      "sha256": "2ecdc0b92c6aa8c8cfddfc92b2d944293eb2b71e0182f42e2eca905f50935df0",
+      "gitBlob": "75c5763ca7d55a7a9a44d39693050550d010430d"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/778e18a140df8d607f187386.jpg",
+      "bytes": 801283,
+      "sha256": "223d9be769d3e383706f9e4bc627953944567fc14fbe422932a2049bc35c3925",
+      "gitBlob": "e397165be2f299bd496e3678ade6311065897a8f"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/77cda297d539536a4bcf04dc.jpg",
+      "bytes": 46796,
+      "sha256": "05638ad04b8d316e7bbe4f55e9612da9d55f40623cd72cd20956c78aa418f57e",
+      "gitBlob": "cd18d250dba575533a5fa6fa21bbf9f45ee08564"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/781ef9fa3483c463c38b9af8.jpg",
+      "bytes": 661594,
+      "sha256": "c4c29d52d7e145281831f77679ebdd25b2a29d730bd4bfdd5d230a2dfb3233ea",
+      "gitBlob": "751bb31d674a1ae6ed94f38bebf74e7bc4dee733"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/78420f8049f8a363c50eec93.jpg",
+      "bytes": 727361,
+      "sha256": "467efe181197f3942f9532aace87d1f5f440d58c7d70e2642c93fd3961265e21",
+      "gitBlob": "e98a6422fc547e527579ae2b503a6b57e6ce0dff"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/78a11fa653016adeb2fc1572.jpg",
+      "bytes": 36082,
+      "sha256": "69da4949fa7145dec40c3a37c3312446a9075f9570cdb26ba3cd47038bc17576",
+      "gitBlob": "b0f1bb5cc5ea4e2ff5e1d2c2c1a49f99d8e74989"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/78b5b0faf287c6ca75cc12c5.jpg",
+      "bytes": 615510,
+      "sha256": "75ff14af65f5c2c030f7a92d8290ffbac89f46f697022d7a7b999dd6ee69cc01",
+      "gitBlob": "bc21c9d981819203d8d09c5a8fb941548fd71543"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/7a964806edd4afe26a2ca556.jpg",
+      "bytes": 368714,
+      "sha256": "9324bf514754efad4ea81695f8a900b3e1bb76b603bbe370b89473588cec9812",
+      "gitBlob": "a1bfeb557cdb83c0513fd2b0606b42649cb04583"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/7ad8e2080cf025315dbe230f.jpg",
+      "bytes": 363822,
+      "sha256": "75a57bd86d766a9d1fd6fd554d906bcb447936adec07cbfb59c314dfdaad8b27",
+      "gitBlob": "6d269110ed6dba8cdbb17239d3480ea460b2657e"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/7b22590c626f9595dbda774a.jpg",
+      "bytes": 2539168,
+      "sha256": "be2a11deadf31a9ae49b28af9fcac87ab6fb1ca5465088b1493abcc38d80af09",
+      "gitBlob": "ddeebc8a89281c3cdb33a51d6321e6ad1d1e3bf8"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/7b479d343eb8f94c6ad689f0.jpg",
+      "bytes": 1725517,
+      "sha256": "c23d267401b9b5111ddb17382ebfe9781faf4e78e00d70d3a35bd3d9da1285b4",
+      "gitBlob": "1fc9557080fdf0388e025c05e6650644533b7d86"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/7c7753f3721d79559b96ace0.jpg",
+      "bytes": 477052,
+      "sha256": "3b107e8a1f41450af83f5b412cf2f1585ff38745fa7f71d45a5796b9f68d8456",
+      "gitBlob": "a7de262491d4e54404634a421c4753d76f560dc8"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/7e30cde46e9babcfcff36709.jpg",
+      "bytes": 245955,
+      "sha256": "606f650e42e165b46013fc61f77dec0d5f63a3445eedb2f3d8fd2bb4905e640a",
+      "gitBlob": "b8e979bd8aa4ecfc628831c1c2609d21b0a1cc46"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/7e5c27d205043f29743338a9.jpg",
+      "bytes": 71711,
+      "sha256": "6074b0f70a1a6ae426f1d7d2790b3c125bfc99e12149a13a543b2a3b88fcf074",
+      "gitBlob": "fa4f04c9486e36c377c4a3271a78942ec7757d37"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/7eee5a8c2d55aa38b0f86fde.jpg",
+      "bytes": 192208,
+      "sha256": "b298993b93b6fc9dbed276a90667fff5bfecc0dcfbb2f567b3863a7186c2e738",
+      "gitBlob": "f996a93067178db0c1f648d5fadce1216103b3c8"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/80c3034ec09614edd07f764d.jpg",
+      "bytes": 773167,
+      "sha256": "cba9f98d288be119f6598772d0f82ec0186c7172c5dca7b33621774cdcdc64d7",
+      "gitBlob": "9984c855a6ee2057a933e2619f26f2c377dc2266"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/812a14ac1ab22a799ccbd301.jpg",
+      "bytes": 560453,
+      "sha256": "6b3cc9378ddd04e5e34f5fa7f4c55a6eca97032046ed827cb835c0281083718b",
+      "gitBlob": "8def5a59535d6a339c1e29795ab924ab5691b844"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/82c03bcd8a3baf2d1dbcc427.jpg",
+      "bytes": 139173,
+      "sha256": "fbdc137f069d003ad1ea158282e9e73d3bc9d12ba4a2d69e468634185f1456f2",
+      "gitBlob": "c0a8686d50b3cc5b5717999e550014c20dc5d044"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/842555e37cf4cc7c68639ff4.jpg",
+      "bytes": 371495,
+      "sha256": "d50cc5dca98c20fad4bdde8c48b3786b44a328a295be76819964ef21c18652e8",
+      "gitBlob": "c04e2409f77dad498ccdba6b2a8812d013c89913"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/8454d7fdc03ff1d2f3505e7e.jpg",
+      "bytes": 2520803,
+      "sha256": "d12211b5a161d138a15b7f8af8a1fad4ff8aae57ee1b42844e60b7bfad94fadc",
+      "gitBlob": "56c0ce526cba9ec1bf718f9db64b5b91318ab99a"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/85f9fe14edeb2456484c99ad.jpg",
+      "bytes": 267104,
+      "sha256": "fea6acbe0b01dca0a93989baba2b260bf0b6750b64319c179aa4bf781c50e81b",
+      "gitBlob": "70a511213f5d009f4873aeacf60aefb5c49dba3d"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/8636f4e1d687cda0d597a184.jpg",
+      "bytes": 4760120,
+      "sha256": "9b67ff5e13b3b3f82ac13e0c53ef7afc7e8a886819c2c8511ce4c8c570509a40",
+      "gitBlob": "2340a95b6515361a6524e8c9d1580f19cafbf879"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/870660f38bae9f0f93c4177c.jpg",
+      "bytes": 674520,
+      "sha256": "fedcdd5d855c4bcb5385d9224d115da41f776f76d1c26d7aafb88af4fb335a54",
+      "gitBlob": "17b6111a33b9cc97efd65a28243fd4e65579210b"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/8722c17d2ee6e992841cfadd.jpg",
+      "bytes": 61392,
+      "sha256": "dd49d4ffc8030addd0b4eb988e991a320e5c7750f98da142cd9627e04d97511e",
+      "gitBlob": "9fdba396845266ea1b0302f643c6e524a4683361"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/881e336aaaa82c36dcd28628.jpg",
+      "bytes": 1119763,
+      "sha256": "35ae5b89e19e17a233d1dca9405e1b2a317ff9f3802b9e0c3b14c59c6a659156",
+      "gitBlob": "668be49608ce5d6ced81627315fc3b6e90532f49"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/8844c8ecffbcc70948c0b213.jpg",
+      "bytes": 98198,
+      "sha256": "05c49c340ed4c6a9477105f5b3e70d8b9d4987a5bf48a611776700dda1cf7301",
+      "gitBlob": "11a2917ca3be93b5b95fbbe92d44ef3dd9bfcd50"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/89fd432f0fb12e70096b3e5b.jpg",
+      "bytes": 748865,
+      "sha256": "93ded57d980535b733841df0dc3610afd9b51244b759190550ea930f19c9c8fc",
+      "gitBlob": "87488faebb2e3360d3dd515829b1b11fe62e6244"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/8a46d785b377fe74a1cb5d72.jpg",
+      "bytes": 3311558,
+      "sha256": "7eb3bcc5b0ce279ab188a2cd8d57cb338b8796f2f12cdaaf49d08b94a7f76596",
+      "gitBlob": "75aa0e08d61afc8e5547754f138bbf42551a1fce"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/8a5a769dee7e14d4f27ae8e9.jpg",
+      "bytes": 28239,
+      "sha256": "5106ea21a44beca202df5ae53a01697f0f7ce1bf5e1a9531bbc300cf59cbcdae",
+      "gitBlob": "659e85a5981670802a799c443320e8958125969c"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/8bb301136bc74b3d48de6228.jpg",
+      "bytes": 346409,
+      "sha256": "421275d994268e1809cd42cbd857535aa9bb8a04658c93ca1ec750fd51732dc5",
+      "gitBlob": "624dd17ef8956ffbce082c5dbe5854a47d2810e1"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/8bb4f1a3159c65109839956b.jpg",
+      "bytes": 20360,
+      "sha256": "37aa6017eaaf9f3c36b6c14b3ce70249d8d8c56c9eaa8a8a2d06ee107ab33b95",
+      "gitBlob": "c54c3b8fc196f0e7a44ca1daa90aa17fac9fb432"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/8d1503876bf527fabeb7df3f.jpg",
+      "bytes": 87838,
+      "sha256": "0e80e84dbafa01f689f16cc644baa816eb24a2a1657c2d2d5b798e111a948d8a",
+      "gitBlob": "3544c1091fe3905ce4873fedede22e69577c8680"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/8d473f1d4cb9331e6ef35137.jpg",
+      "bytes": 153771,
+      "sha256": "e275e88105cde18d86c9899d1413f592b95182ffb1df6a7fe2e15082e7d06761",
+      "gitBlob": "261ded5d1becd45a242ff3e54e9ad1264bdfa0db"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/8db5aa400aaf7e55a5cba632.jpg",
+      "bytes": 48095,
+      "sha256": "175ef159b05f7598a7bdb9821f699380b5523a03e75e7143d9fe5af331fbb3bf",
+      "gitBlob": "499e8f4fd49440b7ee54d5a348493e38391525f1"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/8dd4728f236f108fb5c4958b.jpg",
+      "bytes": 294281,
+      "sha256": "cdd0798f3736e008b7ee8f7247e7f9ab2bfd571cd30423f313d45d84a6e1ede3",
+      "gitBlob": "478ea65c8747d591bbd3372948a6cab3f0e5922c"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/8e22a80c10cf021cce82ea27.jpg",
+      "bytes": 36364,
+      "sha256": "df725af734ae0a238ee85450910eaa3b4add01b7fffe78db432e5e1f103f569a",
+      "gitBlob": "0434395245a301b876408ab03a8d3aeb842778b1"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/8f4801af3354532c02a7dcad.jpg",
+      "bytes": 774533,
+      "sha256": "6d500eb8bdb59218bc16469c087ab69344203d59efbea0c24ba0023a6377745a",
+      "gitBlob": "df13b3b18d0c23d7a5f005f88288b6357c63c078"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/9019051ab7caa0bc2eaa3461.jpg",
+      "bytes": 274879,
+      "sha256": "c9988b4253a29ca411d22a67318f80291f3950e246f194106f1bfcc1c778f471",
+      "gitBlob": "e2f43f9cae15526d610cb5e1976e28d458caf766"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/902e18bc8a8bdcbe525003eb.jpg",
+      "bytes": 319146,
+      "sha256": "78fcbbf218fad31fcbd34fe177980eb73b3d2f583397ad6ea0b77fe76e6d252f",
+      "gitBlob": "baa165cac0219000337a6f7fce528cbf96c4e22c"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/9040f72d70319b957691defa.jpg",
+      "bytes": 332518,
+      "sha256": "150cbda2b7316442cf742ea55807a522e6551a3ccde9831040cc836c73666986",
+      "gitBlob": "327a39dde7785ab1030edaf2159f4f23b5fe5f73"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/90789efb55989ccfcadfc887.jpg",
+      "bytes": 210786,
+      "sha256": "2d52bb8459d39915989ede48acba4071bcc9750b070007af55ad7596dee2f2ae",
+      "gitBlob": "117b663c91329dc6ad2307d69dbb9e8f5a873ec8"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/913bc0254b75bfbcfc6832c0.jpg",
+      "bytes": 532050,
+      "sha256": "c6518b44352fd6d3684340038a0b25f843d81c57c82f3391aca37391bb7e5b01",
+      "gitBlob": "4584fc57db9f88f7dafccbed03426f186d844f59"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/918b10f0013ab3e37aef5409.jpg",
+      "bytes": 556263,
+      "sha256": "df20c1e0fb2284aeb74bcc15b328c06fd76628dfd5e9f14fe95fe20e3c9ea142",
+      "gitBlob": "10aab8d93032c019f96e1ef5a00a88b555492cd9"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/91c0ac27b58be6b77ca54b7e.jpg",
+      "bytes": 145870,
+      "sha256": "0f7660091f799e1392ddd779109ac8270b6004939282a26d4fd78f86a7ba6438",
+      "gitBlob": "bc9438535c9deea2e3f3c87e64dac1c79a58ec54"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/91ef1fcfb9e1dce93a6502c3.jpg",
+      "bytes": 201927,
+      "sha256": "277b5accbfe0787c7f920a3f29e1677a8f1afb10ae1a7d7a36197230e5737465",
+      "gitBlob": "8c8410430d30305ba1ab6ba91200afdaa3a6bd9d"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/92754ee4af0408e8f4d94e00.jpg",
+      "bytes": 2279022,
+      "sha256": "64457f46d69a1599a84091ac4cf75a2c76576dfe669c59ab66c6cbdc9675da07",
+      "gitBlob": "cc6faca09120b7f8e52359bf33b8a35e22542700"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/92f9d42b4a6712787bcd10aa.jpg",
+      "bytes": 866794,
+      "sha256": "65fafbb80af0a05c70ea6aca309e48daa1a6618e0b1744234ad6c21f3721d959",
+      "gitBlob": "a5dfcabebd986507b9c4aba7ba2296f49aaf8488"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/95fa3f5266003122812e85cb.jpg",
+      "bytes": 352608,
+      "sha256": "6645d32de8043ba9d097b3ec24e26fb8456ac49b6e037e7e571a2a1258f51f9e",
+      "gitBlob": "983b798e894b238b5b850157d432855a60b864fe"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/95fe19442f2e2a8e3b9d7378.jpg",
+      "bytes": 610336,
+      "sha256": "3ee10b44a1d41d084e616331ca75e8cb7ec647f0361a33da78390d47e746dc77",
+      "gitBlob": "521ba0ffdf9e78cf32754fac987778e2c0ac0436"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/97e3096adb50485f98e0c47e.jpg",
+      "bytes": 407200,
+      "sha256": "a14bd849a9b52bdcdac209ffbb3b7bfc410ac7dcd8acede036ef6acc6d12d932",
+      "gitBlob": "71a0a27ef3d8c7c79cec957e98073cd461a5552e"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/9817e5f59ceb248a03eb5cac.jpg",
+      "bytes": 6969422,
+      "sha256": "b3897d6ffc7260ae6154f28837edc3ce5904a54eb7c5b2bd94c7518a61a8f21b",
+      "gitBlob": "375c84a481049195a42dc88f38d6d62924c3c096"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/98b8ad823ef2d122f5ed65d7.jpg",
+      "bytes": 528509,
+      "sha256": "8c9bff8a4fbdfe8b534faf84bafa6063760b271709b0ce5c1d7b81a3cc5a739e",
+      "gitBlob": "f67948b8755428b181882f57762ffdd295b16e8b"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/991987d26f574039d11696a0.jpg",
+      "bytes": 866794,
+      "sha256": "65fafbb80af0a05c70ea6aca309e48daa1a6618e0b1744234ad6c21f3721d959",
+      "gitBlob": "a5dfcabebd986507b9c4aba7ba2296f49aaf8488"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/9994a6e6e9cbf8a2367863ce.jpg",
+      "bytes": 126446,
+      "sha256": "be904547b33b561b2e125a3aea40bd9ac0d2e9be12df54e8a5dd48c3d983c15b",
+      "gitBlob": "c8ac23ee8e58cf948e34d8ee24bcaacbe7be12b1"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/99f92edd895cfeaad19d5849.gif",
+      "bytes": 1876243,
+      "sha256": "a881b54d39b12cd3701554fa08f0661854218b229a208b71db0ba5015e93ddad",
+      "gitBlob": "e22f56dc80e7009719cd3b68efa4a533d98c3565"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/9bcafc7bd7a4aeb1e498490f.jpg",
+      "bytes": 58189,
+      "sha256": "652c0fa37447cc032b3ae1807b8e8d3dc473d95eb037ae334070eed1bf9a1596",
+      "gitBlob": "4b07e6a70218af01fd4e76220270b2f7ba51451a"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/9c54098358500f60166b0192.jpg",
+      "bytes": 225491,
+      "sha256": "32a43140eba9df9272ca4a32c1dc39618fb8cf2519c58951679563e8cd9bd86e",
+      "gitBlob": "d72045105e2f4136ad44b1be7d8f0394a11f186f"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/9d5e04d707793bf3ccbf6cb1.jpg",
+      "bytes": 3251342,
+      "sha256": "3cc414af826c15c3a6e59ed0c2da1cc58a70184dbbd7956d99e373bf47201357",
+      "gitBlob": "783439f042bc01e54e6f60c3b2bd7d66b80476dd"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/9deb56e9a0b659ef7101b1a4.jpg",
+      "bytes": 380946,
+      "sha256": "051adde60001aa128acd633e95b97a2086822461ec552de7c8b921928336720c",
+      "gitBlob": "b90e64b67d4d4971cb4d5c405356c12badb32ca2"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/a046969b3d668972beb5c26a.jpg",
+      "bytes": 544746,
+      "sha256": "556faf3d896f0971c31826a812d05853391005b9994926b79fa15e8ca3b0236a",
+      "gitBlob": "079a56e9fcd08db25b32fb8cb420016e635ccc20"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/a06890bb3dce164294a4ea53.jpg",
+      "bytes": 1177712,
+      "sha256": "6b424693720fa306187a6058bd67f80ad074fbfde3ac4a5a8cbab663867b3a9f",
+      "gitBlob": "cde9bf9ecf8f6737d5ec073864d12d31daba2dd1"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/a08054941f20072e92e39a08.jpg",
+      "bytes": 653347,
+      "sha256": "67bdb414736bdbf1ffc60e26384f21ad8b21a9848b597f2f7d3fe423915645f1",
+      "gitBlob": "ff9ca7090f54ccb67d416125ada81decf76c9ea6"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/a1917c441c621e73ff44a3d2.jpg",
+      "bytes": 358098,
+      "sha256": "06ae1e2f737fa3f5f84b18cee2da34edf186f9a2df6a6dd7757d4a51357dd859",
+      "gitBlob": "8fb0f7274ca883ffc900178762d2fbe1949e3e53"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/a1f96521f435b212edf77d72.jpg",
+      "bytes": 51357,
+      "sha256": "3c255e3006a6c31077ccac693e820a417c2d703bd980d3b18bd27e1e48065496",
+      "gitBlob": "53c9e7eb18b826a40f4eb216dd8c2c13f19631b3"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/a29db9d44de960dffd5f6835.jpg",
+      "bytes": 146595,
+      "sha256": "f9c9ac6068c9fdead48a74c83ee7e550ca2b61372e0d512903c14c8f26b13816",
+      "gitBlob": "26e7595f3642180181e8f7434d502283e1763e68"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/a2e067708f7cc35896d49a86.jpg",
+      "bytes": 410430,
+      "sha256": "c86c1518ca2e78ac9bc30315e1ce559a4bcfef29b20406bc27241ad17b807066",
+      "gitBlob": "29b880c99f7ea7bafb7bcb143c5972f848c6e7f7"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/a31841b50a541fe1cdb80168.jpg",
+      "bytes": 1175006,
+      "sha256": "58fad13f275ac5197dfc58864ffa70d527ed766da4d9ee9d2dc09e85e04121d6",
+      "gitBlob": "30a0ad876e76d6a38800cbe3985967066da6699e"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/a31ab5a0d89bb612abd9339e.jpg",
+      "bytes": 157963,
+      "sha256": "d9d940771872835d12eea010ffa253706d4fcb978319902f7ddc515776324c1c",
+      "gitBlob": "1bd0845375d1645363f7df804b3367201aed7029"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/a369b697c10f242e5df46d48.jpg",
+      "bytes": 1826785,
+      "sha256": "0ec2665cc8380e3a444057f343b722abe3a15321449589d2c29db1f8a89def78",
+      "gitBlob": "3fb076a8c8bae63997728eb929d50dec75ae9105"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/a3b7fee878eb87b6e7cf6f40.jpg",
+      "bytes": 3043765,
+      "sha256": "dcb5669f902195519e337e1be4a439f38497f050412df06a6338261c1c07ecdf",
+      "gitBlob": "6c18f2e24a27b4c660bdb6a84f0461b6db646dca"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/a418be2cbbb438fc36ae26e6.jpg",
+      "bytes": 332973,
+      "sha256": "5c0afd05a5dcc075df087503885a274e92048bdb2e26d33b214d7a8dd914119a",
+      "gitBlob": "16c5a4b813b46a6e217b2efdfeeddf217a3081d3"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/a4b61b4f285b1b9193acdf2c.jpg",
+      "bytes": 380946,
+      "sha256": "051adde60001aa128acd633e95b97a2086822461ec552de7c8b921928336720c",
+      "gitBlob": "b90e64b67d4d4971cb4d5c405356c12badb32ca2"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/a51f464388af8c2a3e5e07cf.jpg",
+      "bytes": 83446,
+      "sha256": "9a8a28b4efd55e8fb6d612a975c8da582e1492674957349b8c8c33e1f17480e4",
+      "gitBlob": "30e24bfc075e9dbfd4ec4afa9656fa6798348e26"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/a5dbf5f7927b6c0ea325f855.jpg",
+      "bytes": 47976,
+      "sha256": "b34e8d4467a747536d401662afaf9478f49b74aabd137307af39b81fb2cbe0b4",
+      "gitBlob": "01586c817676ad39de5a1772472447f6b3032e8d"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/a66341fc6a6af16d73c09d96.jpg",
+      "bytes": 94872,
+      "sha256": "56128d14210a08f78667cc6fdab63eeeec350cd1a93b8c7c374a26d0cc03d80d",
+      "gitBlob": "9561ea92813b6020460e04c1bbb332fdd37f518f"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/a6f1fa347deeb9beafd08e9f.jpg",
+      "bytes": 1324037,
+      "sha256": "0790f3b3b634e58df8ec5c98868664c7a946d6caef2c88a69a714222c8897cdc",
+      "gitBlob": "e59c895d5a9af14c236c07430182fdf7bbc730a0"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/a774255e1e7e691646a73b21.jpg",
+      "bytes": 81342,
+      "sha256": "3c739a81390893ceaf50456d7e234c3bc48cb6809c37c17518a3569e5ccddfe8",
+      "gitBlob": "4824637744b46364e06557c059ab64fb0fd0be4c"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/a8b52e868f45dbed1a7bd1fd.jpg",
+      "bytes": 123648,
+      "sha256": "39cfafce21055b2c82c25408f257cbe357267d3b82549e701b2a3e01d59ae2b9",
+      "gitBlob": "8e45364738a294136f7611d631932debad8a0f5a"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/a8ca06607e65df22c56a2ee4.jpg",
+      "bytes": 345838,
+      "sha256": "46b5ddee752a3b2b515f35511b9a09f0af094867b2bd5ffaf6e19bb912488014",
+      "gitBlob": "1aea1840856ee6180e737d1aca6b06d4bf5a6a61"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/a8e51f19fa88253172438d31.jpg",
+      "bytes": 684640,
+      "sha256": "c643154c009a11042bd108720f3524656496d8d3b6177c4406bfcae5e79adc7d",
+      "gitBlob": "29677ed4a930b5d322da04bdfd4cdd5511609af4"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/a9e149b46fb63c5d6ce30dbd.jpg",
+      "bytes": 871210,
+      "sha256": "760c687ec37f7351aa80e715252e97805611d47a02b3ffbe0b6290532b45592a",
+      "gitBlob": "77e7105c28061a34466a47a439b57046bd1965c0"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/aa95b71447a97ca0cdebc993.png",
+      "bytes": 189663,
+      "sha256": "1d1295c39148d7f58c88064b6df3d9a2494df0d12e86b2baffc6bba17d8dda1c",
+      "gitBlob": "3f30819f9d74b4431ce3db16fa07544eca55032c"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/ac7fd1548c0ae66f4fc647e2.jpg",
+      "bytes": 282006,
+      "sha256": "52539e67f173308d78ea43337581e6edb5c911298f14241efd92cdeca72459ea",
+      "gitBlob": "77315d92c531519233fb7c8e74c2f2816513b6c6"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/ada66c83b0c873b36d1a7aea.jpg",
+      "bytes": 237882,
+      "sha256": "7c1b1624cab42817c92600863ecc8d6f250c756f0f693f1aab9d8e9495146ec3",
+      "gitBlob": "fd125af78fec54ffce507400aad32942f903ec2c"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/af70f7699a785e2a0659e313.jpg",
+      "bytes": 463081,
+      "sha256": "823b8cae3b0c5d10ed07bd49cd6df6292abba3166e2775f2d3a28302cebb2696",
+      "gitBlob": "419639a8306b734405f45c343fac4ebd887e867b"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/b0ee6a695b27b91e41c8d786.jpg",
+      "bytes": 203476,
+      "sha256": "41182ebe3702c433b6431e53963352feab19d8436eaa4c531e2074d57e9d8e92",
+      "gitBlob": "5caa24ec6bc1d76c7656ceb836c7c0a424eecc6e"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/b12912c9da24327f77213a9f.jpg",
+      "bytes": 548032,
+      "sha256": "4274c8e6ad0ab7d5eb20d6e97988467ccb4413bf3d8083ce41e9f899a94dde29",
+      "gitBlob": "98c78a4408abdf3c1cf76d55600480e50fdb2020"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/b3908d87e245a1796ce42246.jpg",
+      "bytes": 362143,
+      "sha256": "8150f30abb0498fa0379c18b9ad605bbed5537b432739ccbdf2d27ba63354eba",
+      "gitBlob": "0178f2195dcef5fb4f2accb5749f1c7e6f6fab54"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/b41a491aa46082a551ba5bb3.jpg",
+      "bytes": 393153,
+      "sha256": "091c219c430231959888949bc053348eebc8d520d6d1e38f097630c2fcf5a9a3",
+      "gitBlob": "946c1faac629b311aad6c7cde1664478ff6ffe95"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/b57ef6b7b81b5eb6b64a6347.jpg",
+      "bytes": 319005,
+      "sha256": "bab0a75641d2aadd63fac772dfdb262e2d63d1b3d3cb1bf8b7f9dd296868cae6",
+      "gitBlob": "96e41777ba3d830a7ec28b579a6de002dc1db188"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/b5e1440d788c7b74da6f277f.jpg",
+      "bytes": 649694,
+      "sha256": "ec60d7b409695427d78edb18c5fee12e3de3f17160c0b73ddc593b2a920f5ce3",
+      "gitBlob": "d0651dc805b91eb449270dee7349f1cf4a1e3a86"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/b6c71a6e708ed6329cd1ab5f.jpg",
+      "bytes": 160586,
+      "sha256": "1e6ef6d978dd94401ae1a0ae092896810e7a03285d7004151c86098894523faa",
+      "gitBlob": "124736d294ba5458bd33503c2b4567cfbeb8eb90"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/b6f2165e9b22c8d07520ee50.jpg",
+      "bytes": 424467,
+      "sha256": "2d7f67dc234ca2f3b6a9d876792439cdb665434fde9beab8d981ae258d98cc9d",
+      "gitBlob": "1dbafba86ed4dd1c4e4a51ab99dcbf3461ab6aed"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/b776326cc9bb90a5fd8c70b6.jpg",
+      "bytes": 1635630,
+      "sha256": "771b0eebe1debc0ace669f84721b13d5f119500051e0aa55cf928dc2a76b9676",
+      "gitBlob": "735fa98bb7d184c398f74aedc35236b81acdafda"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/b89887859c2fe055fc58e7d8.jpg",
+      "bytes": 198841,
+      "sha256": "edf92be6b382e42c857b84baf36a4cf072452201df93fc6db91719e99a66056f",
+      "gitBlob": "fd4321a51f3d976ce560997e24ccd5da14b383b6"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/b9577c0e48947337db217600.jpg",
+      "bytes": 300761,
+      "sha256": "6116a1056450c6173ad61a51506a02a59286482cc1ac33c8897045b2b86a6522",
+      "gitBlob": "7e5307d4f447bd6cdfc14b4f69a24ee5f2253142"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/b95fa5f92d3ed6828fc1ad43.jpg",
+      "bytes": 394760,
+      "sha256": "507baf993ac59a2c8ea7699902733dccd8c1c6e27b9956378fe922fa2233a230",
+      "gitBlob": "9b494e6188fb2ac22b143ae1b7aac77120761f0f"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/ba4ace1337cff45859e452e6.jpg",
+      "bytes": 289246,
+      "sha256": "c285089513c9118986a03b193b01eb1879920a99aaa7a4b87a08cf4bf0a6a1cd",
+      "gitBlob": "abfba89c5f37549c89704aad4d43e00ebb343324"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/ba8e71bc18661d7c648c0307.jpg",
+      "bytes": 1080672,
+      "sha256": "ec5cc9855fa47ecfce32fda39179e60f51ced2c0ab74d1d8735d8f7c60bfe998",
+      "gitBlob": "6d029eebb6308388cfd441f2666224e786da2800"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/bb02ba3a22c779ccddb6b1b6.jpg",
+      "bytes": 465055,
+      "sha256": "d75ef53ce8ba7ae25f48ed411af19415fef2f7023d497fb012c8a447d8858d07",
+      "gitBlob": "d67a4eeb81f2321f1cdbda895e11ea8ca1311e5e"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/bcde07f35457f91351daa089.jpg",
+      "bytes": 267172,
+      "sha256": "6cb68c6b97be4ac329aef33bfcf41ca3b4a6191b7befb3f6fe0d55cea7731723",
+      "gitBlob": "2a30a0762d806855167eb1a961475db0122c86be"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/be6bd706cbde2c60e6b3ef7a.jpg",
+      "bytes": 597942,
+      "sha256": "b48b61cb332c563575dcf65723c2ff67b8ac5eb85f91c00dd5c2845dd3b955a1",
+      "gitBlob": "5a34d8cf5823e94b93c9f8751f6bbc9c19929e13"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/c23dce58dbb647472bb4541f.jpg",
+      "bytes": 482198,
+      "sha256": "84b4768cf3a6fcf51fd8336b8cd5953593a56efcc9b1f0de453abc449250f2f9",
+      "gitBlob": "8b849d4c4d7b387154e4e2f4ece54404be730fe5"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/c2a565f6015fc7a146c38a58.jpg",
+      "bytes": 2283037,
+      "sha256": "a52246bb88ff24574717bd69ed1a34be15338759dc510e069cf6d1434dbc1ce2",
+      "gitBlob": "307ee80fa47f0b1b6c6cccd038019d45991f4f74"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/c426a7486ff625361ac8c7cd.jpg",
+      "bytes": 191782,
+      "sha256": "95184b81594fb133406d6587d9307a4042c238f3f5e7b99fc46f05931b813faf",
+      "gitBlob": "54567df2eb0bb42e0c2630a3d4242eb37b643deb"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/c4bba72b8b7252935d800b05.jpg",
+      "bytes": 295933,
+      "sha256": "b1805cc859c7f8186f961994bb1ba5efc8f53a6df286eeaa9db4c940fb9dac2d",
+      "gitBlob": "ac116874df4bf073902faceac90e2e80c923bc5f"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/c58bebb8843a2a57a5a8d697.jpg",
+      "bytes": 438479,
+      "sha256": "9d99d277dce502b7cc82d80e5a5ea0015e3024830a361c5a7bfc7308592edbaa",
+      "gitBlob": "5fd45b80c8379492bc37381e8742931d2b429ab2"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/c63a4dd56ac137e42623eb3f.jpg",
+      "bytes": 376531,
+      "sha256": "78b7a7399a9bd52edc81bbe80bf5cffc90b618c1abf233e0837f83715a967fd8",
+      "gitBlob": "a558446dd4efbf5b7eefa4937a4f4d4a74f6e2c1"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/c668d551e3f2441de549c93d.jpg",
+      "bytes": 52917,
+      "sha256": "8654b06f5fd102a13251a7901667b5a60e856bd6049b8628b476918137fc1d21",
+      "gitBlob": "a4c8538839eb9c81223dde6276aba17f0407eeb7"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/c6c8fb25efc96f01229482ba.jpg",
+      "bytes": 311320,
+      "sha256": "162075f234798140c7dc4b2efccde909430351765700ba48e1e49f5df00e3a15",
+      "gitBlob": "6e43845c906bcc34e367fd276dfc9f5ca5d74ee9"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/c730025684d509d5b7ee3827.jpg",
+      "bytes": 240268,
+      "sha256": "46947dbb260ff27960aaed18f3ce788b227ae9defe3e2af879722b97c2c46401",
+      "gitBlob": "05ea5a86fd7f1bff11f58debeba2330069a7b2d2"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/c7ab6f91c0ecfd7ca82b4048.jpg",
+      "bytes": 560453,
+      "sha256": "6b3cc9378ddd04e5e34f5fa7f4c55a6eca97032046ed827cb835c0281083718b",
+      "gitBlob": "8def5a59535d6a339c1e29795ab924ab5691b844"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/c9b457b114df098f221f7665.jpg",
+      "bytes": 428476,
+      "sha256": "01ee22d1b1129de54ff7874dd04f01df4927bce364a3704bc9f8be71e790bb6d",
+      "gitBlob": "85881ea64c3c11f3b330f3640c2f9c7e08e77b50"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/caf1232097d6406929b0b858.jpg",
+      "bytes": 367388,
+      "sha256": "f802afa143d995434845e560dd3e7db01ad76fba6cc3ab511478be94649a74ac",
+      "gitBlob": "271e97723ed248daef6b38d8c31b5b3ff87d0e1c"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/cc002cbb288948a432b38533.jpg",
+      "bytes": 1324037,
+      "sha256": "0790f3b3b634e58df8ec5c98868664c7a946d6caef2c88a69a714222c8897cdc",
+      "gitBlob": "e59c895d5a9af14c236c07430182fdf7bbc730a0"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/cd8d6d214901cd987e27b72c.jpg",
+      "bytes": 72827,
+      "sha256": "9eeb2f41968a84058b87ffd51392ab1cb0df6907a5eb81a233fb38f3a9782956",
+      "gitBlob": "9ca194cdd7404375118a64ad391d60613579dcfd"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/cdde3909cc7e5c1f5a080eae.jpg",
+      "bytes": 130437,
+      "sha256": "6d54f0f23c178a95d076875f8a86927680ec7a48240aa0b5211001cc73d55826",
+      "gitBlob": "a0f5abc806d245e96b78906dbfc106f97352da48"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/cea272765d2b6cffd899cecd.jpg",
+      "bytes": 137293,
+      "sha256": "49b360eb31bd0262e8f78f8b619b8869779c3a4d038c67484e731c43ce15b28a",
+      "gitBlob": "95a35afa4b4a39a9caa25af7523868b804cd2023"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/cf15e45a61051a18153a6583.jpg",
+      "bytes": 100722,
+      "sha256": "03513938b3def3fa951c04021bc589e7230c957b29aeadec8b827944fbeba5d4",
+      "gitBlob": "6246cb760b4c245c86199fdf43c92085f26fb7ea"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/cf2ae0ea3af831a58332a9df.jpg",
+      "bytes": 228182,
+      "sha256": "0bffbe174d8bc6a450b8e3f62b141f8cafaa9b1a6b971b4e3d9cb2b4b2e89cc7",
+      "gitBlob": "99176fc01fbbf0eeb02038b0af582e85a99313e8"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/cf5c27697a871aa665606d6e.jpg",
+      "bytes": 381610,
+      "sha256": "41394b50662ca056d64e8adf937d114545e865db1e484cedb2250c3f7c165e1c",
+      "gitBlob": "b08f56e58389703e4a9ad833e8362675b695005e"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/cf629cc625b25afc84c688e0.jpg",
+      "bytes": 521007,
+      "sha256": "573919b5ab25391a1d11c51a3c9fca2f8994c96e02a666ce6110acc956c2449d",
+      "gitBlob": "74d4864e01490542e00d2e35c00fee3b249d43d8"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/cf67a8ea3da5136ae6c7e4bd.jpg",
+      "bytes": 171616,
+      "sha256": "a6bc2b74ea2f15c90c4fc3bfac85a3ca14944e452123a6fcdb64a1ccd4f3705e",
+      "gitBlob": "a34f873ef93451b9cdf84abcc4281e1ef6f23fcc"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/cfe6b526a5211dbce6f1db95.jpg",
+      "bytes": 186830,
+      "sha256": "a93c2d81e487d94650d5e2d03b88da153551de3a5fb06189093d1a513f93f9b1",
+      "gitBlob": "5ed06822ad5338b99f94608da131816c8ec669f2"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/d0509fa9313ec2b0f46b8144.jpg",
+      "bytes": 358098,
+      "sha256": "06ae1e2f737fa3f5f84b18cee2da34edf186f9a2df6a6dd7757d4a51357dd859",
+      "gitBlob": "8fb0f7274ca883ffc900178762d2fbe1949e3e53"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/d153300e20f3673363a069fe.jpg",
+      "bytes": 185248,
+      "sha256": "22dcd3f5261e4e09884dbd684bb0ca77aaa9caedd203a8ff344d112b32929d82",
+      "gitBlob": "54755c1f484bcea1dbe513b76f6fd28489c487c1"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/d32b13551694226ca2529c60.jpg",
+      "bytes": 126390,
+      "sha256": "6643febf6d394d9830201798e9d2a6a83834158fefaecb30c4215bc4452c9e14",
+      "gitBlob": "851fba9db0c5550bb12f36082d2633c8e667e499"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/d3ba3f57949bf623c80f471f.jpg",
+      "bytes": 231190,
+      "sha256": "56d6e2e7aa1a876011766539f1f8555fea4edbe48a76a897f722113e8b2afe49",
+      "gitBlob": "3de7c1a050a2153b2cb3f03e29d9154b1ec61c57"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/d3ff4d66b7dd31ba621ba9c3.jpg",
+      "bytes": 385142,
+      "sha256": "ed9646e511536d5398e4082b25dd7d52766ddc2c70cf462b10e1edef4f286cd9",
+      "gitBlob": "9df4e544535e4c380a4cf6b06fe22167f9d63973"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/d43088b5274ff9a240270a93.jpg",
+      "bytes": 899284,
+      "sha256": "4d17af12fd3869dea104a1d8112d544a76fe3d0d03b557d45cd24fad5253cfc1",
+      "gitBlob": "eef86cbc5d14886af28adb1b338b459d8f6d6305"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/d4e19be9101a12ade65793f9.jpg",
+      "bytes": 723604,
+      "sha256": "aa80dff2a97c9d6937c9fdfe6421b96104826df2424f5b7420db9fc866f45a51",
+      "gitBlob": "f1cecf80cccb6cae6847b8a2e790e2ef238ba46e"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/d5bbfc01ca169c88f132db0c.jpg",
+      "bytes": 428476,
+      "sha256": "01ee22d1b1129de54ff7874dd04f01df4927bce364a3704bc9f8be71e790bb6d",
+      "gitBlob": "85881ea64c3c11f3b330f3640c2f9c7e08e77b50"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/d5e857925bb9f7962e94581a.jpg",
+      "bytes": 41296,
+      "sha256": "6f102d5a48ba24ada360277117c48bd24a23686b4b2c5722d9a0237919d42f64",
+      "gitBlob": "35a95eb5d5595054c701a1799a7d254993e73372"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/d66b89a10e9c13ea67e8c112.jpg",
+      "bytes": 406293,
+      "sha256": "76de9240705bdffbb4b3c902ba099df9c61feeaab4d2059434a60256edee0b81",
+      "gitBlob": "9368e2c728605be1d2ad62f145d5942fd389ebaa"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/d675feee6d3526c32480a8d9.jpg",
+      "bytes": 1042564,
+      "sha256": "7cfd1a099738d37118e2197974ffd69197cf2d7cdffb5cfa691ae31e682dc4f4",
+      "gitBlob": "7a79a112fc9d42f0032a58286cc5be9806752f54"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/d7b29e09af108dfc6eae219d.jpg",
+      "bytes": 139173,
+      "sha256": "fbdc137f069d003ad1ea158282e9e73d3bc9d12ba4a2d69e468634185f1456f2",
+      "gitBlob": "c0a8686d50b3cc5b5717999e550014c20dc5d044"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/d8bcd7e1c32994681303c2f4.jpg",
+      "bytes": 177717,
+      "sha256": "0c4d0c98cffc53e9f863938c5e7ed7fd2ba9ae1c9b8e8a72505e2aa1edd908ac",
+      "gitBlob": "10bb55937a01f4972075c043a7f0dcaf53d06a93"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/db2ed05cfd8d156a96f7c2b4.jpg",
+      "bytes": 291616,
+      "sha256": "34820b79b52730b8ec7cbb0d30c699e20493d034822fc29beb3ee5fd98efe314",
+      "gitBlob": "c6c25df3a7a2c83cc85e81246106b029a2b58cf5"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/dc0ae6f0947da4d3ba3a39b1.jpg",
+      "bytes": 277524,
+      "sha256": "3fa26a216244ecf8b8985d49e6805fd1173b52ca7c64702c8b3cc8aece085d6f",
+      "gitBlob": "534c7d36c6e457bfa9f2f0c6299b93fb6b35bfa8"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/dc10086406a62e2171df00f3.jpeg",
+      "bytes": 489405,
+      "sha256": "ddf1987db4813013728e0f09cce08cd2a7e196b01769ef8b5c2987a6d90a0a54",
+      "gitBlob": "d4ad8f0ce05e18d25dc6ce88c57574ca4a0538d4"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/dc270dcc2a9c9f8e6b216a62.jpg",
+      "bytes": 60059,
+      "sha256": "31bcb3ef033c67f2cccd78f8c9ae850da8d0c83e253954daa43ae09f6da5688b",
+      "gitBlob": "530cf1bdd81cbf47057c47ed008ee25f4edebd2d"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/dc2bb87e278d294117158851.jpg",
+      "bytes": 1805096,
+      "sha256": "38d96b05066eab782a06279e7b7e936ce9dc97466a2d46320d77349650288134",
+      "gitBlob": "104bbc47558369b5b91572ff3cab4473d67c6497"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/dc6ade5f6ba3b76edab124cf.jpg",
+      "bytes": 218131,
+      "sha256": "c9816b0607ebf01a30596f18c10e478206b728c90a17dfe4b2b54851133e9845",
+      "gitBlob": "0f1c6010e2882b69f15767e670379883b38ca1af"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/dc71f7b48d27ff067fc7680c.jpg",
+      "bytes": 171916,
+      "sha256": "b76f1f5cc434325f789d5b213e23760606f276b21c40bfa0a76c93cd2f9877fa",
+      "gitBlob": "662eaa255121e9a4b278d1a396aec2cbf09429ab"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/dc7420fe03901b0ca67e538c.jpg",
+      "bytes": 3036114,
+      "sha256": "1738ad4ca22b15069a77e60425183683150dd3340cf4c8feaac7df8c1a3e7e78",
+      "gitBlob": "edc83771daeedba507adb8a9ceeff7a6125c27c4"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/dcfd9853779adda441eb172d.jpg",
+      "bytes": 604522,
+      "sha256": "95eb7dc4da7a4c79396263d1d0f2f4996d736d89a34193114e25e594252ececf",
+      "gitBlob": "f07ed2386d07d999698c9eb2560c480f7b3688cd"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/ddce79948073e02a8c888fc2.jpg",
+      "bytes": 935485,
+      "sha256": "6dfe40464324a8320f4951ba3c6f1e04bea36d57b7b81a48360b7fd86ca259d6",
+      "gitBlob": "f97b48e3bbe28cf136d65a604f82be92ba4e7c81"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/dde727514470a3872fe62f52.jpg",
+      "bytes": 419646,
+      "sha256": "1e7964cafbaad6d3eb347de1da009eca864796c438e77eb1bd67944fd4e0afd7",
+      "gitBlob": "dc680e6a153ddc73c76d5bfb516f7b6f8effde4f"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/ddffc19a18778c119f3b2d1a.jpg",
+      "bytes": 1097674,
+      "sha256": "0f990c386918d760293c03e221e7f895977287be725411f908e62ad867aa3120",
+      "gitBlob": "ddb9d3fc48376af425e3701b6218062f19467396"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/dffdfa633f32887303dfb092.png",
+      "bytes": 1145497,
+      "sha256": "28c19515b8693d4580151acf6f05553b057dececeafc15dd714d7518dce1e06f",
+      "gitBlob": "b33add9e01505798bcac60f3caa8f4725297b103"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/e0b2bac5466bc3c8a06973c6.jpg",
+      "bytes": 380720,
+      "sha256": "ddeebc80790e8c694a3a64ab810c1e7194d3fdbcb3571bce64e8611faf6bec30",
+      "gitBlob": "a53ba4dfb828f2775f69be6e43e891ef5da4e716"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/e11bbc471e698c982a27776d.jpg",
+      "bytes": 1082758,
+      "sha256": "089f54fc0823be5820c3229acfa937cc856892273806226b8c168ff3d0fa6b91",
+      "gitBlob": "89c9402c882e3489385f6cb4c4ab881c54661106"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/e12066271a4eccd9c7fb35df.jpg",
+      "bytes": 430517,
+      "sha256": "34a06c7012863bdd23988261f0b10ae2911758fe65c1450fab86bbb59d881b74",
+      "gitBlob": "63bdc22805d0d342211a05f4bebddfdbebf8338b"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/e14f4b75624db785b93342b2.jpg",
+      "bytes": 424467,
+      "sha256": "2d7f67dc234ca2f3b6a9d876792439cdb665434fde9beab8d981ae258d98cc9d",
+      "gitBlob": "1dbafba86ed4dd1c4e4a51ab99dcbf3461ab6aed"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/e180c6d32bb4820c2213a197.jpg",
+      "bytes": 65600,
+      "sha256": "2c7f248c8c7b4e914527f7c639c21b631ae9c615d80ff7fc9332e755867df4fa",
+      "gitBlob": "35af8413cc6a855e1f05ffb20e4f76ed3d4a64c5"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/e19beb631f2701b1d2adc6b6.jpg",
+      "bytes": 58889,
+      "sha256": "032ef1b18b5a1d34400d5a8c44f226f9c3e213c4358d2aac1ef0769cde00d6a5",
+      "gitBlob": "40305dd0d718b3dd2a61e4a2e096ec38a53098de"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/e1ccd6412916628be471d9f0.jpg",
+      "bytes": 161809,
+      "sha256": "c4d91c20b18284596783ddacdd231bfde81d1f8ee351c1244c58ce8d74a96b84",
+      "gitBlob": "fd5fd6f69375e8f76a02f840870512b660b0a8f9"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/e2758c024adcb107b1d2029c.jpg",
+      "bytes": 282732,
+      "sha256": "793ec0f7976a5d980a0e06eda4dd80e8341f4f89ee0541a6b5250880107f6445",
+      "gitBlob": "ab7400e16a8d0935a686e9d6d0d01d3b17a570e2"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/e367861d9c142fe5762c3cda.jpg",
+      "bytes": 253713,
+      "sha256": "cc617a8d0d3d864fb67a80acb92fda6d91d80601b886cc1c4924c2a2aaab6de1",
+      "gitBlob": "7b5d1cdb671ea7b37ff06553816487c9ef9738f0"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/e3880d37729e800ba9031af5.jpg",
+      "bytes": 3005936,
+      "sha256": "57cf954052e2066974efb25cd663cdd3387eb246a1b2d7895ac81a6953e6d629",
+      "gitBlob": "ac276b0d081c45101c0660b69f9a3d4797e4dcc0"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/e39b6db7c0a23b277d59a277.jpg",
+      "bytes": 2311479,
+      "sha256": "ff8cdd9c15d657f5f5f74194a0c6810ba4b32820a38339ceed4ca573ae73aaf8",
+      "gitBlob": "9f7850ca5387dcf23512945254e4f43a9c0b3379"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/e3b6836dcf02ec5de05c06f4.jpg",
+      "bytes": 58657,
+      "sha256": "6fd190bd9ad2f7b2b660a71f1ffad1d549c0f0a9b064148d00a59962f3731da1",
+      "gitBlob": "bb510aac274ba30cc47ecbd20d68973a6f2275e2"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/e43ad52c4dd70aa9804ca25c.jpg",
+      "bytes": 138388,
+      "sha256": "fd266915497cddbcd4364901b078b782309cdb27a857510fb009d068cc0b3461",
+      "gitBlob": "0b22c65f844b0c97182fb4d173d68ff1b923f11f"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/e456d8f5e89aef03063cf73e.jpg",
+      "bytes": 3043765,
+      "sha256": "dcb5669f902195519e337e1be4a439f38497f050412df06a6338261c1c07ecdf",
+      "gitBlob": "6c18f2e24a27b4c660bdb6a84f0461b6db646dca"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/e4948c6794b78195cbc61936.jpg",
+      "bytes": 191497,
+      "sha256": "91ebac5c7413662f6735a8635db1c53af69b8c4f8272285d5ae106d1a96b8adf",
+      "gitBlob": "9e8818e7a193a39f8342f0bee6458a50c7e09345"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/e52d84a71d487565c23cf678.jpg",
+      "bytes": 14128,
+      "sha256": "1ed6f5d857023303ef0f451d4b805fc4e4902d70c1b88edd842f97693e27ea70",
+      "gitBlob": "8044053a0063c57adb8ecfaae57df60fc33f0b85"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/e6d2ad83fe4a21e5fab93037.jpg",
+      "bytes": 115581,
+      "sha256": "2ae49ff11c16b10b9a5b0331c6c435232c84f42090505632121547c6018ea274",
+      "gitBlob": "555197ecd21b582b4488e8fddd5409e6bb506d92"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/e72956f17d5f89263d652ff8.jpg",
+      "bytes": 266100,
+      "sha256": "5d7229f6c0f43ecfdb0abb4f9f9b294b321272a50e0c7425c10a4d7b1c1e3665",
+      "gitBlob": "172cd42463fccff90c5eaa0de8a4d21fdf10330b"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/e84145a803a61bf07c9bec1e.jpeg",
+      "bytes": 731585,
+      "sha256": "487e888495654a5a5df774d931de9d0f8ae02f0a5e58561b0eb84d45e4656b82",
+      "gitBlob": "e6e71b675a1bf96f1a157dd9c46616955a20212b"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/e896a4497d1a4377ff844121.jpg",
+      "bytes": 185434,
+      "sha256": "b37e5dd0f9f5e7db0f1562d65aedc402b34166bff88bebd47362cf03b508235c",
+      "gitBlob": "476371da98e98378c94fd1be74ae308022108be2"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/e8f116d67a5aaddfc1491cce.jpg",
+      "bytes": 131438,
+      "sha256": "383804efbfd96b69b87d27871af2fec5535cab38626dc7172a8b9941864714bf",
+      "gitBlob": "3b90b4547c45ebc97ca41af3e0d5b280cd17857c"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/e96b8d20f1081c4f2a081ae4.jpg",
+      "bytes": 388018,
+      "sha256": "9fdc48c08d00ff20de9ad7a032d40fcd1e0b0ead501df75d0d4f8983f7f75744",
+      "gitBlob": "5a1589ba5e0a5b3e041c279c499afb095066fd21"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/ea10504577d1ec03630b4034.jpg",
+      "bytes": 380946,
+      "sha256": "051adde60001aa128acd633e95b97a2086822461ec552de7c8b921928336720c",
+      "gitBlob": "b90e64b67d4d4971cb4d5c405356c12badb32ca2"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/ea3d6c7e1d0bd1d6efc0d8db.jpg",
+      "bytes": 46454,
+      "sha256": "64b7003d4d12fd056f6a98ba1a13b50aee84c46ca316e15f9187692e1601fe85",
+      "gitBlob": "085a859b046eb3f3af39c56a14c8c125cdb0d220"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/eb226720d6ff12c047f15898.jpg",
+      "bytes": 528509,
+      "sha256": "8c9bff8a4fbdfe8b534faf84bafa6063760b271709b0ce5c1d7b81a3cc5a739e",
+      "gitBlob": "f67948b8755428b181882f57762ffdd295b16e8b"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/eb364a8500dbd54009dbb850.jpeg",
+      "bytes": 991864,
+      "sha256": "f59a908c23d0b40924faa94c9fbd773b2960424b9ea4d62b1f148208e0846237",
+      "gitBlob": "f94084fb511b1717f42399b40e7af814c9c864cd"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/eb99a1238d89e68f10255797.jpg",
+      "bytes": 388018,
+      "sha256": "9fdc48c08d00ff20de9ad7a032d40fcd1e0b0ead501df75d0d4f8983f7f75744",
+      "gitBlob": "5a1589ba5e0a5b3e041c279c499afb095066fd21"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/ec72cacb666f71b775ba3bd2.jpeg",
+      "bytes": 1802234,
+      "sha256": "c93046caa816460f67683b8d35db290bf530777031dec762739a6fa3a3e1f8dc",
+      "gitBlob": "2c568a2fc7cad33f523faee9edffa455e2fe123e"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/ed2aab41b489533519af68dd.jpg",
+      "bytes": 246513,
+      "sha256": "3ec077966798ce6a27201293f7fbd50837128d2e6b5cdcfd481d4646946f88c5",
+      "gitBlob": "87010394e21457c229b53053c6258cc5904c01c9"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/ed4ee4e690233d2ae9cbea03.jpg",
+      "bytes": 705450,
+      "sha256": "1d8dec69bb04c67b30663f808cdca88727efb36bdfc9fcbe00269132b783c568",
+      "gitBlob": "93989f15d1646890753abf31e72b7b61407a60e5"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/eda94fa5b61df755c5fb46fe.jpg",
+      "bytes": 79264,
+      "sha256": "7c41a920f1142558597ccebd0ee1debd261769b22fa2b6ff78660e9c1be2c343",
+      "gitBlob": "1d70a2a456098ee73762b1130aad85104b497146"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/ef2c1db66eb171e4c81f476c.jpg",
+      "bytes": 424467,
+      "sha256": "2d7f67dc234ca2f3b6a9d876792439cdb665434fde9beab8d981ae258d98cc9d",
+      "gitBlob": "1dbafba86ed4dd1c4e4a51ab99dcbf3461ab6aed"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/f005a0bfbd63e9fbe0353e44.jpg",
+      "bytes": 547173,
+      "sha256": "441c0bf2eecf982192bb88272b06ac7e72340866da8cfa19221396caceede730",
+      "gitBlob": "d04f438456f1208bddb9614917b389fc48abe0f9"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/f0cc818b829609fe78647e9f.jpg",
+      "bytes": 139487,
+      "sha256": "d878154f5011a46169c6d70bb7fe2370e86b6e56cd78aaf6cd66b2440bcaeb06",
+      "gitBlob": "86db3504b6ed22e88c356460116f125960bcb31d"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/f101e3aa57d610079f0b55dd.jpg",
+      "bytes": 34202,
+      "sha256": "2e0baa39db90178644510ec33e72dfe770dd7108fdbd55d8107511cf1ba51edf",
+      "gitBlob": "1ac4f8977161203c9b5821ddd240b85e943e134a"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/f128da53fbb14fe754e9e55e.jpg",
+      "bytes": 1228221,
+      "sha256": "e686b2e9742d8e47ea97d66abc90a296f47e5ed823d3befaa24ddb5928eb4ab5",
+      "gitBlob": "f06477cdc032f2f934ada8d8886304a3dacf20b0"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/f13116f783a39c4d64759bdd.jpg",
+      "bytes": 88612,
+      "sha256": "34089da7f3d072fd91700ee3367cb4455025f29b6af304ede2d05374c12e72df",
+      "gitBlob": "0381246b997a292263d7d99e3476071465230f17"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/f1e5c2cd0b2f5faf9790984a.jpg",
+      "bytes": 55767,
+      "sha256": "292855ee16bb1f4b1d5e24ee7fa5d655298f33fb9e262ced29cf47f8dae4274c",
+      "gitBlob": "04ae2835dacb610e9e771b3568d833c268419d47"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/f393df569975a468ce3786fa.jpg",
+      "bytes": 560420,
+      "sha256": "13fe326b0de6542cfff83a774795097ac4637022d098adcd7831e3ebf7144e2f",
+      "gitBlob": "396b08f7e51a537319d27989d4ff6c9404725340"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/f47190343d84374903cc8be5.jpg",
+      "bytes": 291466,
+      "sha256": "e21101216a6f5f1b26baec574e0e3d4e6856bde94f7430c4a9f47a95fcd83dea",
+      "gitBlob": "b3dff9264204d0807330f109a09c960fd63dc2e7"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/f475efef034bf878f6041a6d.jpg",
+      "bytes": 293250,
+      "sha256": "ba8e80326d9f442517cb2bade5023b80b6d06604c1cc2f67e8579bcc1bc1fcdd",
+      "gitBlob": "9295e662eccd29c75b1abab2379033e8b86bf5ef"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/f4a9ad1f33bc2b32582af883.jpg",
+      "bytes": 316262,
+      "sha256": "cf4d29c1ed26dcdfabede67685ef79274296fb099e4747260bb5e93898cf0807",
+      "gitBlob": "7612c31700cf72cf9b7a47207e6e868321d389a5"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/f544fd331cc3f8a242488710.jpg",
+      "bytes": 241854,
+      "sha256": "7600b7745565f3328a91b920ee7430b699f8fd69ae9eb8a399a5771d9b9617eb",
+      "gitBlob": "b4289fc6f705ecce42f21834e59d3d0b574b088d"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/f5632fb81a59aa8fb4367ef0.jpg",
+      "bytes": 433723,
+      "sha256": "0121825cdba9d3501f592a54e18a1172acfa5170a558a0d9260bba516505d830",
+      "gitBlob": "026392bc98e913bbf4d9845fc17fca7238b63687"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/f5bb037de1b7d56a3844172a.jpg",
+      "bytes": 2965342,
+      "sha256": "eae1c011d68abbdcc077d5fa9f9e3958d3b068bff9e870a37d59888557647d2b",
+      "gitBlob": "6540aa3e14ee55bba20b8fd964ebe65a89b25009"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/f626785bcc5dd0450c77cd9a.jpg",
+      "bytes": 271262,
+      "sha256": "555ea9684cc10de32e50f270df4f8f9d0ce759830caae0d5b1805e8d548e5d1b",
+      "gitBlob": "b7d478970ad8332bebad468f43a1e7c3835f2390"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/f640b4a85070e08ed1626e06.jpg",
+      "bytes": 635997,
+      "sha256": "7d956af70dbdc8b0d8a9398af1436ad2afd867d81cb48951a2b160c981ef3118",
+      "gitBlob": "be6544701912a4ce9054153f9114f09de25cee73"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/f64a85db4e4f0952c03c98a4.jpg",
+      "bytes": 166956,
+      "sha256": "b14947e3b619853c9e40c3d358f511c593e549b11ce45ff86d11ac997d64d6cc",
+      "gitBlob": "219098455623aa23dc169887416aa5dad6f5e622"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/f847d07378df2caf7a8ac1f6.jpg",
+      "bytes": 429143,
+      "sha256": "77c30b1ea94167704ebd7a9930b8dcae9eccedd97efb4400a08d53dd3d420cd7",
+      "gitBlob": "701bcb4ca2e9bda3350bc8e4d38dde2eedb6e619"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/f8eb2187009e127c0f3658ed.jpg",
+      "bytes": 371844,
+      "sha256": "a16238cc99d673da419dd9669996e599f9b8df3229c3e09e62825baa2b40c2a0",
+      "gitBlob": "063d37d7b54cc6f97750f988b2355708da64d291"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/f909c8824d2822ebc2b38aed.jpg",
+      "bytes": 205014,
+      "sha256": "d248f393f624d429f08b26b3862f268be939da59fdab336430ee0a8f9fd18660",
+      "gitBlob": "fcd4efeaeeb30b7ef4e8151e5eca2390b22a4825"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/fa515550bd62c57f4ae42131.jpg",
+      "bytes": 164933,
+      "sha256": "de9aead307bf90b7d1a2326181f6f5d435c8a81321ef16a993a47bbe93e18b9e",
+      "gitBlob": "204c2b3e009d9897b4018a2596c0c5606f3cd46a"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/fab7ebf78df8cb42e6b857d8.jpg",
+      "bytes": 245086,
+      "sha256": "9bf7df22d354982d218c2e7941751f79b63fb3e28ee29d5155f0a72910a7db4f",
+      "gitBlob": "32a0665708dc0ba0ca68c9000be19bc509b2055f"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/fb76307eae6e5f8f679ab5bb.jpg",
+      "bytes": 503407,
+      "sha256": "5d4266ed1270681f0dc76e902ffcdbdc013fb5f5519c3baa5c80df202076ba54",
+      "gitBlob": "3f0584a582dfb62e538e6c97e2623834a101bf00"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/fbf42e568bbc59752c59b8d2.jpg",
+      "bytes": 4340578,
+      "sha256": "fdcd3cc6730c81dfa4d9518baf470263d81b30e95eaeed1a194e169b74e93777",
+      "gitBlob": "cf053d8dcd0f20acfa33dd4c518d07758890916a"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/fbfbb9a766596143313ee329.jpg",
+      "bytes": 227602,
+      "sha256": "4e98262df7e4104270ec3e08f96042b4eabd949bb22dd13d1c5e638df7ef54b9",
+      "gitBlob": "f7994c6f5e498d29eab3c143d97b0847fbc49cbd"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/fcc219984e65e523c54be714.jpg",
+      "bytes": 24628,
+      "sha256": "22901b59ee13c7b3de54fdf7c3b64ddeb114e524325cd034bc2667fd16329f53",
+      "gitBlob": "1b2a84eba04135d2a7b20a91536d5b174bda7eef"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/fcde9b689ab93187c7b4f147.jpg",
+      "bytes": 308100,
+      "sha256": "4cd9db584835fd1c86169bea5d42bfdb3c0c90bfd425471a30bfb626e2b67c27",
+      "gitBlob": "f2656ed6a49b69ae1e9aa187355cc52f2796fa21"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/fd045caa69b62247b90bdf0f.jpg",
+      "bytes": 257625,
+      "sha256": "02feed04a37ea450452f1fc908199feade89c772582f7f40d8842ae5c871d489",
+      "gitBlob": "3da1a4344375ad316168a19606e4129cb14a72db"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/fd2ecbd873a58d782094d388.jpg",
+      "bytes": 39749,
+      "sha256": "fcc7e35400e614033a2d08102ece7ecb1ec578af1b86f53ab148a1aa0b16fe80",
+      "gitBlob": "45db7f61d84c6d277c064411b6547069bfdeb545"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/fd71a42b2f29d241a943df9d.jpg",
+      "bytes": 2182246,
+      "sha256": "9077494985ef463c484eb48d9dfd3a4dacf88a37d8ebc712e463958f15f710a8",
+      "gitBlob": "824d850cbb24cd4cd86565a5ebc3eafabe98e915"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/fda5d8dc7f8eac414a83b061.jpg",
+      "bytes": 795326,
+      "sha256": "cb8629b83b8e1bad2cd160b4ddedfdc322864b3212b068a8db1060372bf6ccd3",
+      "gitBlob": "9bf25eed92a4b0ff96a5ea79cf4589a87b7f6338"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/fe58cb435e61e6d1d8376b05.jpg",
+      "bytes": 705450,
+      "sha256": "1d8dec69bb04c67b30663f808cdca88727efb36bdfc9fcbe00269132b783c568",
+      "gitBlob": "93989f15d1646890753abf31e72b7b61407a60e5"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/ff8bad22084d6e074f6aeed5.jpg",
+      "bytes": 139170,
+      "sha256": "56879033aa8932e5971064a40612419d955171cff2c790dd9897218df24fb657",
+      "gitBlob": "93be7424ce6540ccec2958b4dc8eb1ebe3ff6045"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/media/ffeafe20a82f5b854d551550.jpg",
+      "bytes": 438479,
+      "sha256": "9d99d277dce502b7cc82d80e5a5ea0015e3024830a361c5a7bfc7308592edbaa",
+      "gitBlob": "5fd45b80c8379492bc37381e8742931d2b429ab2"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/prepare_dom_tests.py",
+      "bytes": 467,
+      "sha256": "23a72c83deb6808248bc0cef6a196ab1eeb08f1d96d49cbffd69c42dca56c3a0",
+      "gitBlob": "f968b88b20f8fe0c476ed9119d5ff2980b21fff9"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/serve.py",
+      "bytes": 2887,
+      "sha256": "3f44ff27515538b87ed3098a8f78eaf82259a4ac19784e3f2511e4dd93c729c2",
+      "gitBlob": "fa4875031f06430c0b465d6ae651d14c65abd8e3"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/style.css",
+      "bytes": 16463,
+      "sha256": "ea49e8f61fcfa3161628d83aed9f0afa9bd18fa95e19fdeeb5842b4e22874fe4",
+      "gitBlob": "0b62e7ff52870b621cae0f7254d3a0d3c3d0b3ba"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/test_art_bridge.mjs",
+      "bytes": 2272,
+      "sha256": "3a40f4239b43f6932019f576ae4de169474cf2984966ba2836f0b23b70fb2e11",
+      "gitBlob": "2a88b3785a07b8122d4cacbe3075ca13ffdc58b2"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/test_core.mjs",
+      "bytes": 6946,
+      "sha256": "29088068afa8572ac211228cd1a40322080674e5ee23406af4d4db2403ecb6c0",
+      "gitBlob": "dc2f3e5ab9ee6246459a9df34b7a353972931cc7"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/test_dom.mjs",
+      "bytes": 7532,
+      "sha256": "07855048bae4eb0d0b7f7d89c58534098960f152decd8e7f0ef48e1f19e28eff",
+      "gitBlob": "9f49780591680aa89ca6165328c1f30a0d1d55e3"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/分镜V2-用户原文.md",
+      "bytes": 45919,
+      "sha256": "c98c3c6bdaaa83130f778906b66d85211996fd157cc6dac6dd121eaa6dde405f",
+      "gitBlob": "51c970440f449e088b05a94b45c4c859efca2738"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/参考维度与待补项.md",
+      "bytes": 4765,
+      "sha256": "688e51aa69e4ebcae8a56f6b232f4d2784da099900166cf9dc08952f2fda23c7",
+      "gitBlob": "9ac16d260ba4c16cbcce4e9660752c3222a95b67"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/打开功能预览.command",
+      "bytes": 617,
+      "sha256": "21f56a98a7043cd9e695b535c40649ddbbfd695dbf7cfc67110fecfcd6531b11",
+      "gitBlob": "4b71e83ec5d310bf8cbbd3c47ac56c0d5608c440"
+    },
+    {
+      "path": "tools/layout-editor-v1/.gitignore",
+      "bytes": 25,
+      "sha256": "2c1a8b197e9e3a3b1fc71b6eba50996a717454ce01e7d511bca302f23f944f1d",
+      "gitBlob": "49626bbdbe1f9bcd3a945c187987be204f73a69e"
+    },
+    {
+      "path": "tools/layout-editor-v1/README.md",
+      "bytes": 6147,
+      "sha256": "c92861795c9b75003fcd81f8b54fc2256be822e538824ed9b2657e623ea11907",
+      "gitBlob": "3fc9304bcc4bc17ff5a07e014241d9ce79732288"
+    },
+    {
+      "path": "tools/layout-editor-v1/app.js",
+      "bytes": 32272,
+      "sha256": "2f9644a229ac1000ac2e0aa5aa1d82623a7fd4fcc6d76f3505d910899cecfd92",
+      "gitBlob": "a6441d0e9e523baae1e52d7fcb2b2f36c31ff2ec"
+    },
+    {
+      "path": "tools/layout-editor-v1/index.html",
+      "bytes": 4467,
+      "sha256": "5983bbdbeea65b0a2a15307fb729a12f26aa2f73da12fc5359c00c6c2084d04e",
+      "gitBlob": "3f09d1fad1381d1eb0ab8224c1e44c6bff0849a9"
+    },
+    {
+      "path": "tools/layout-editor-v1/pixel.mjs",
+      "bytes": 596,
+      "sha256": "067db6b6459e3a6d7cdfeedc84f8c28e85814758d3d65f72e9724d297d0c2793",
+      "gitBlob": "be939f535358fa0e2fd5d66f578d80d34fc515c8"
+    },
+    {
+      "path": "tools/layout-editor-v1/preview.html",
+      "bytes": 2989,
+      "sha256": "6ffec6d76fde4ff620300a5c9e86aed21416025775f62a4e07bb0ec650583611",
+      "gitBlob": "1f9b087e0bf5400ce181ea281c615c129a78b961"
+    },
+    {
+      "path": "tools/layout-editor-v1/renderer.js",
+      "bytes": 1603,
+      "sha256": "2c7c55f80601eaae165d9796e7311af19db2c5313b08586f4b6bf47d78c201cd",
+      "gitBlob": "f61b7a3343c15bc0e50c8b5c8520e122d56001f3"
+    },
+    {
+      "path": "tools/layout-editor-v1/server.py",
+      "bytes": 10939,
+      "sha256": "8d83bea8fb9833302c39eb6425dc0bf2c9419c9b93a89d1879ee0617b38d1eb2",
+      "gitBlob": "9a07b6e845e2aca88d0893441b43d045abb5e77d"
+    },
+    {
+      "path": "tools/layout-editor-v1/style.css",
+      "bytes": 8819,
+      "sha256": "8c3a47d68bc9de76c23dfc89f1af9a353a08c95d3575673ff5aab9d68d433880",
+      "gitBlob": "4559fa039f25486da19711e67796490958eeb955"
+    },
+    {
+      "path": "tools/layout-editor-v1/test_frontend.mjs",
+      "bytes": 3187,
+      "sha256": "ae70ce13dee91708c8a31ecb11af814f269e1379f9dcabbfc98f0cf42c838a4e",
+      "gitBlob": "83cab34b87445652d30e9bc53932a893d5bd974b"
+    },
+    {
+      "path": "tools/layout-editor-v1/test_server.py",
+      "bytes": 4898,
+      "sha256": "efd31fb87279c83216a977c4ad0e00e198566189d1aff99f7ff558865ba3befd",
+      "gitBlob": "ef8c910d769257aea2c5865e61bbefa4bc524395"
+    },
+    {
+      "path": "tools/layout-editor-v1/启动编辑器.command",
+      "bytes": 652,
+      "sha256": "211cb57deb7bbd9c116b6510e97011b51363216daf9a47ab0f478343d169c549",
+      "gitBlob": "f505051193b92bbef5d9086a463de1a13b5992db"
+    }
+  ]
+}

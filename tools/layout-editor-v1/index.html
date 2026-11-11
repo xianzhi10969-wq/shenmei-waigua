@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>排版工作室 · 审美外挂</title><link rel="stylesheet" href="/style.css"></head>
+<body>
+<header class="topbar">
+  <a class="brand" href="/">▧ <span>排版工作室<small>审美外挂 · 独立工具 01</small></span></a>
+  <input id="project-name" aria-label="项目名称" maxlength="120" value="我的排版项目">
+  <span id="save-status" role="status">正在打开…</span>
+  <div class="header-actions"><button id="undo" title="撤销 ⌘Z">↶ 撤销</button><button id="redo" title="重做 ⇧⌘Z">↷</button><span class="divider"></span><button id="import-project">导入项目</button><button id="export-project">导出项目</button><button id="preview" class="primary">预览 ↗</button></div>
+</header>
+<div id="conflict" class="conflict" hidden>另一窗口已经保存了更新。本窗口的修改已暂停保存。<button id="export-conflict">导出我的修改</button><button id="load-latest">读取最新版本</button></div>
+<main class="workspace">
+  <aside class="left-panel">
+    <section class="scenes"><div class="section-heading"><h2>场景</h2><button id="add-page" aria-label="添加场景" class="icon">＋</button></div><div id="pages"></div><div class="scene-actions"><button id="rename-page">重命名</button><button id="duplicate-page">复制</button><button id="delete-page">删除</button></div></section>
+    <section class="assets-section"><div class="section-heading"><h2>素材库 <span id="asset-count">0</span></h2><button id="upload-assets" class="small">＋ 导入</button></div><p class="muted note">原图保留在素材库。点击放入当前画布。</p><div id="assets" class="asset-grid"></div><div id="asset-empty" class="asset-empty">拖入图片，开始收集素材<br><small>PNG / JPG / WebP / GIF<br>单张最大 12 MB</small></div></section>
+    <div class="local-note"><span class="dot"></span>本机保存 · 不上传云端</div>
+  </aside>
+  <section class="center-panel">
+    <div class="canvas-toolbar"><div class="segmented"><button id="desktop" class="active">桌面</button><button id="mobile">手机</button></div><span id="canvas-dimensions" class="muted"></span><div class="toolbar-right"><button id="add-text">T 文字</button><button id="add-shape">□ 占位块</button><span class="divider"></span><button id="zoom-out" aria-label="缩小画布">−</button><button id="fit" title="适合窗口">适合</button><button id="zoom-in" aria-label="放大画布">＋</button></div></div>
+    <div id="viewport" class="viewport"><div id="stage-wrap"><div id="canvas"></div></div><div id="empty-guide"><span class="eyebrow">先把结构排好</span><h1>让你的分镜，有一个可编辑的画布。</h1><p>放入素材、添加文字，或先用占位块安排位置。<br>桌面与手机分别排版，素材共用。</p><button id="empty-shape">＋ 放入第一个占位块</button></div></div>
+    <footer class="canvas-footer"><span id="selection-info">未选择图层</span><span>方向键微调 · Shift ×10 · ⌘D 复制 · Delete 删除</span><span id="zoom-label">100%</span></footer>
+  </section>
+  <aside class="right-panel"><section class="properties-section"><div class="section-heading"><h2 id="properties-title">画布设置</h2></div><div id="properties"></div></section><section class="layers-section"><div class="section-heading"><h2>图层 <span id="layer-count">0</span></h2><span class="muted note">上方在前</span></div><div class="layer-tools"><button id="layer-up">↑ 上移</button><button id="layer-down">↓ 下移</button><button id="duplicate-element">复制</button><button id="delete-element">删除</button></div><div id="layers"></div><p id="layers-empty" class="muted note">当前画布还没有图层</p></section></aside>
+</main>
+<div id="toast" role="status" hidden></div>
+<input id="asset-input" type="file" accept="image/png,image/jpeg,image/webp,image/gif" multiple hidden>
+<input id="project-input" type="file" accept=".json,application/json" hidden>
+<dialog id="prompt-dialog"><form method="dialog"><h2 id="dialog-title"></h2><p id="dialog-description"></p><input id="dialog-input" maxlength="120"><div class="dialog-actions"><button value="cancel">取消</button><button value="ok" class="primary">确定</button></div></form></dialog>
+<script type="module" src="/app.js"></script></body></html>

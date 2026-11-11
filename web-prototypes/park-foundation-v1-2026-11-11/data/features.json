@@ -1,0 +1,1647 @@
+{
+  "questions": [
+    {
+      "id": "reczz28MLgEjaVIu",
+      "question": "为什么盛夏的美有一种隐秘的悲剧性？",
+      "intro": "盛夏最美的地方，不是生命正在生长，而是生命正在毫无保留地燃烧自己。",
+      "order": 1,
+      "termIds": [
+        "reczz28HJJL2GLJb"
+      ]
+    },
+    {
+      "id": "reczz28MLgEjZOqa",
+      "question": "为什么夏天还没有结束，我们就已经开始怀念它？",
+      "intro": "盛夏是一种提前发生的怀旧。",
+      "order": 2,
+      "termIds": [
+        "reczz28HJJL2GLJb"
+      ]
+    },
+    {
+      "id": "reczz28MnySVMfug",
+      "question": "为什么颓废美学里，“没有生命力”也是一种美？",
+      "intro": "美不一定要证明自己是活的。一朵明天就会枯萎的真花，往往比永不凋谢的塑料花更动人——颓废美学迷恋的，正是盛宴将尽时仍极尽奢华的那一刻。",
+      "order": 3,
+      "termIds": [
+        "reczz28MKp7HdDiG"
+      ]
+    },
+    {
+      "id": "reczz28MR6X8jQue",
+      "question": "为什么有些多巴胺穿搭很美，有些却「辣眼睛」？",
+      "intro": "美感不是来自刺激本身，而是来自刺激与秩序的相互作用。",
+      "order": 4,
+      "termIds": [
+        "reczz28HJJL2GLvJ"
+      ]
+    },
+    {
+      "id": "reczz28MR6X8gQZM",
+      "question": "为什么近几年时尚会出现两个极端？",
+      "intro": "多巴胺审美试图从无聊中制造快乐，而极简审美试图从过载中恢复平静。",
+      "order": 5,
+      "termIds": [
+        "reczz28HJJL2GLvJ"
+      ]
+    },
+    {
+      "id": "reczz28MRgmhGxWn",
+      "question": "为什么学过版式的人，和没学过的人差那么大？",
+      "intro": "因为两种人看到的根本不是同一个画面。",
+      "order": 6,
+      "termIds": [
+        "reczz28HJJL2GJht"
+      ]
+    },
+    {
+      "id": "reczz28MRgmhH0fO",
+      "question": "摇滚是怎么从一种声音，变成一种可以穿在身上的态度？",
+      "intro": "音乐创造了一群人，服装让他们能够认出彼此。",
+      "order": 7,
+      "termIds": [
+        "reczz28HJJL2GJt7"
+      ]
+    },
+    {
+      "id": "reczz28MRgmhERYD",
+      "question": "为什么音乐会变成一种时尚审美？",
+      "intro": "当一种声音发展出足够鲜明的身体表达与视觉符号，它就也可以被看见、被穿戴。",
+      "order": 8,
+      "termIds": [
+        "reczz28HJJL2GJt7"
+      ]
+    },
+    {
+      "id": "reczz28MivOQ9pGl",
+      "question": "人类为什么需要末世？因为我们无法忍受没有结局的故事",
+      "intro": "我们永远生活在一个巨大故事的中间。末世叙事把混乱的时间组织成有开头、发展、危机和结局的整体——人类未必真的渴望世界毁灭，我们可能只是渴望世界拥有一个结局。",
+      "order": 9,
+      "termIds": [
+        "reczz28HJJL2GP7R"
+      ]
+    }
+  ],
+  "imagery": [
+    {
+      "id": "reczz28MulKusfwu",
+      "title": "时钟 ＋ 发芽",
+      "imageA": "时钟",
+      "imageB": "发芽",
+      "operation": "相遇",
+      "theme": "时间",
+      "prompt": "一株幼苗占据了时钟的哪一处，才让你觉得时间正在生长？",
+      "order": 1
+    },
+    {
+      "id": "reczz28Mv68qZDkE",
+      "title": "日历 ＋ 潮汐",
+      "imageA": "日历",
+      "imageB": "潮汐",
+      "operation": "相遇",
+      "theme": "时间",
+      "prompt": "日历翻页的动作消失后，哪一次潮水算新的一天？",
+      "order": 2
+    },
+    {
+      "id": "reczz28Mv68qYmxF",
+      "title": "沙漏 ＋ 冰川",
+      "imageA": "沙漏",
+      "imageB": "冰川",
+      "operation": "相遇",
+      "theme": "时间",
+      "prompt": "沙漏已经空了，冰川才移动一寸。谁在等待谁？",
+      "order": 3
+    },
+    {
+      "id": "reczz28Mv68qaxYl",
+      "title": "旧照片 ＋ 苔藓",
+      "imageA": "旧照片",
+      "imageB": "苔藓",
+      "operation": "相遇",
+      "theme": "记忆",
+      "prompt": "照片被苔藓慢慢吞没，哪一块仍需要清晰？",
+      "order": 4
+    },
+    {
+      "id": "reczz28Mv68qYcoW",
+      "title": "录音机 ＋ 雨",
+      "imageA": "录音机",
+      "imageB": "雨",
+      "operation": "相遇",
+      "theme": "记忆",
+      "prompt": "录音机播放起雨声时，哪段回忆会先浮现？",
+      "order": 5
+    },
+    {
+      "id": "reczz28Mv68qaJEw",
+      "title": "信封 ＋ 化石",
+      "imageA": "信封",
+      "imageB": "化石",
+      "operation": "相遇",
+      "theme": "记忆",
+      "prompt": "一封信如何变成几千年后的遗迹？",
+      "order": 6
+    },
+    {
+      "id": "reczz28Mv68qXSFY",
+      "title": "婚纱 ＋ 盔甲",
+      "imageA": "婚纱",
+      "imageB": "盔甲",
+      "operation": "相遇",
+      "theme": "身份",
+      "prompt": "婚纱像盔甲一样合上时，穿它的人准备迎接什么？",
+      "order": 7
+    },
+    {
+      "id": "reczz28Mv68qaXm3",
+      "title": "肖像 ＋ 面具",
+      "imageA": "肖像",
+      "imageB": "面具",
+      "operation": "相遇",
+      "theme": "身份",
+      "prompt": "哪一个才是别人真正看见的脸？",
+      "order": 8
+    },
+    {
+      "id": "reczz28Mv68qaYfH",
+      "title": "皇冠 ＋ 伤口",
+      "imageA": "皇冠",
+      "imageB": "伤口",
+      "operation": "相遇",
+      "theme": "身份",
+      "prompt": "皇冠压住伤口时，谁会先看见血迹？",
+      "order": 9
+    },
+    {
+      "id": "reczz28Mv68qazmq",
+      "title": "卧室 ＋ 鱼缸",
+      "imageA": "卧室",
+      "imageB": "鱼缸",
+      "operation": "相遇",
+      "theme": "空间",
+      "prompt": "卧室的一面墙成了鱼缸，房间里的人会先看见鱼还是自己？",
+      "order": 10
+    },
+    {
+      "id": "reczz28Mv68qXepm",
+      "title": "楼梯 ＋ 迷雾",
+      "imageA": "楼梯",
+      "imageB": "迷雾",
+      "operation": "相遇",
+      "theme": "空间",
+      "prompt": "楼梯在雾里消失；最后一个还能辨认的台阶是什么样？",
+      "order": 11
+    },
+    {
+      "id": "reczz28Mv68qbI1L",
+      "title": "窗户 ＋ 海底",
+      "imageA": "窗户",
+      "imageB": "海底",
+      "operation": "相遇",
+      "theme": "空间",
+      "prompt": "把窗外换成另一种生态环境，会怎样改变家的感觉？",
+      "order": 12
+    },
+    {
+      "id": "reczz28Mv68qXiTV",
+      "title": "女人 － 笑容",
+      "imageA": "女人",
+      "imageB": "笑容",
+      "operation": "抽离",
+      "theme": "身份",
+      "prompt": "笑容消失后，旁人会从她的哪一个动作误读她？",
+      "order": 13
+    },
+    {
+      "id": "reczz28Mv68qZkpn",
+      "title": "英雄 － 勇气",
+      "imageA": "英雄",
+      "imageB": "勇气",
+      "operation": "抽离",
+      "theme": "身份",
+      "prompt": "英雄失去勇气的那一刻，哪一个动作仍让你认出他？",
+      "order": 14
+    },
+    {
+      "id": "reczz28Mv68qXni4",
+      "title": "国王 － 王冠",
+      "imageA": "国王",
+      "imageB": "王冠",
+      "operation": "抽离",
+      "theme": "身份",
+      "prompt": "王冠不在了，国王会靠什么让人让路？",
+      "order": 15
+    },
+    {
+      "id": "reczz28Mv68qXwGM",
+      "title": "时钟 － 刻度",
+      "imageA": "时钟",
+      "imageB": "刻度",
+      "operation": "抽离",
+      "theme": "时间",
+      "prompt": "没有数字与刻度，怎样让人感到时间正在经过？",
+      "order": 16
+    },
+    {
+      "id": "reczz28Mv68qadkN",
+      "title": "生日 － 年龄",
+      "imageA": "生日",
+      "imageB": "年龄",
+      "operation": "抽离",
+      "theme": "时间",
+      "prompt": "生日不再写年龄；蛋糕上会出现什么？",
+      "order": 17
+    },
+    {
+      "id": "reczz28Mv68qZFou",
+      "title": "黄昏 － 夕阳",
+      "imageA": "黄昏",
+      "imageB": "夕阳",
+      "operation": "抽离",
+      "theme": "时间",
+      "prompt": "黄昏没有夕阳，你会让哪一道光先退下去？",
+      "order": 18
+    },
+    {
+      "id": "reczz28Mv68qZodx",
+      "title": "相册 － 人像",
+      "imageA": "相册",
+      "imageB": "人像",
+      "operation": "抽离",
+      "theme": "记忆",
+      "prompt": "相册里的人像都被留白代替，哪件小物仍能让你认出他们？",
+      "order": 19
+    },
+    {
+      "id": "reczz28Mv68qb6ap",
+      "title": "家乡 － 地名",
+      "imageA": "家乡",
+      "imageB": "地名",
+      "operation": "抽离",
+      "theme": "记忆",
+      "prompt": "不写地名，哪些声音、颜色或习惯还能指向家乡？",
+      "order": 20
+    },
+    {
+      "id": "reczz28Mv68qZaob",
+      "title": "日记 － 文字",
+      "imageA": "日记",
+      "imageB": "文字",
+      "operation": "抽离",
+      "theme": "记忆",
+      "prompt": "不能写字的日记，第一天会收进什么？",
+      "order": 21
+    },
+    {
+      "id": "reczz28MulKuqtaQ",
+      "title": "房间 － 门",
+      "imageA": "房间",
+      "imageB": "门",
+      "operation": "抽离",
+      "theme": "空间",
+      "prompt": "房间没有门，里面的人怎样离开？",
+      "order": 22
+    },
+    {
+      "id": "reczz28Mv68qaA64",
+      "title": "城市 － 路标",
+      "imageA": "城市",
+      "imageB": "路标",
+      "operation": "抽离",
+      "theme": "空间",
+      "prompt": "路标被拆走后，人们会靠什么辨认回家的方向？",
+      "order": 23
+    },
+    {
+      "id": "reczz28Mv68qaJ6C",
+      "title": "剧院 － 观众",
+      "imageA": "剧院",
+      "imageB": "观众",
+      "operation": "抽离",
+      "theme": "空间",
+      "prompt": "没有观众的剧院里，最后一位演员会把台词说给谁？",
+      "order": 24
+    },
+    {
+      "id": "reczz28Mv68qXhAe",
+      "title": "秒针 → 藤蔓",
+      "imageA": "秒针",
+      "imageB": "藤蔓",
+      "operation": "替换",
+      "theme": "时间",
+      "prompt": "让藤蔓承担秒针的工作，时间会以什么速度流动？",
+      "order": 25
+    },
+    {
+      "id": "reczz28Mv68qaBTS",
+      "title": "日历的数字 → 天气",
+      "imageA": "日历的数字",
+      "imageB": "天气",
+      "operation": "替换",
+      "theme": "时间",
+      "prompt": "日期换成天气后，你会怎样区分两个同样下雨的星期二？",
+      "order": 26
+    },
+    {
+      "id": "reczz28Mv68qZVML",
+      "title": "时钟表盘 → 湖面",
+      "imageA": "时钟表盘",
+      "imageB": "湖面",
+      "operation": "替换",
+      "theme": "时间",
+      "prompt": "湖面代替表盘；你会用什么变化刻出一天的经过？",
+      "order": 27
+    },
+    {
+      "id": "reczz28Mv68qZKGr",
+      "title": "照片中的人 → 影子",
+      "imageA": "照片中的人",
+      "imageB": "影子",
+      "operation": "替换",
+      "theme": "记忆",
+      "prompt": "影子站在照片里，谁的姿势还能让人认出来？",
+      "order": 28
+    },
+    {
+      "id": "reczz28Mv68qYrqK",
+      "title": "回忆的声音 → 气味",
+      "imageA": "回忆的声音",
+      "imageB": "气味",
+      "operation": "替换",
+      "theme": "记忆",
+      "prompt": "一种气味突然带回童年的声音，它会来自哪个场景？",
+      "order": 29
+    },
+    {
+      "id": "reczz28Mv68qbVRc",
+      "title": "墓碑上的名字 → 花朵",
+      "imageA": "墓碑上的名字",
+      "imageB": "花朵",
+      "operation": "替换",
+      "theme": "记忆",
+      "prompt": "墓碑不刻姓名，只长出不同的花；来访者如何辨认要找的人？",
+      "order": 30
+    },
+    {
+      "id": "reczz28Mv68qaryn",
+      "title": "肖像里的脸 → 文字",
+      "imageA": "肖像里的脸",
+      "imageB": "文字",
+      "operation": "替换",
+      "theme": "身份",
+      "prompt": "肖像由别人对她说的话组成；哪些字句应该出现在脸的位置？",
+      "order": 31
+    },
+    {
+      "id": "reczz28Mv68qYLkD",
+      "title": "勋章 → 伤疤",
+      "imageA": "勋章",
+      "imageB": "伤疤",
+      "operation": "替换",
+      "theme": "身份",
+      "prompt": "勋章变成伤疤，授奖仪式上人们会如何看待它？",
+      "order": 32
+    },
+    {
+      "id": "reczz28Mv68qXh9q",
+      "title": "制服 → 睡衣",
+      "imageA": "制服",
+      "imageB": "睡衣",
+      "operation": "替换",
+      "theme": "身份",
+      "prompt": "睡衣成了制服，哪些细节仍会泄露职业？",
+      "order": 33
+    },
+    {
+      "id": "reczz28Mv68qZTtk",
+      "title": "河流 → 公路",
+      "imageA": "河流",
+      "imageB": "公路",
+      "operation": "替换",
+      "theme": "空间",
+      "prompt": "河流开始遵守车道规则，哪一段水流会先堵住？",
+      "order": 34
+    },
+    {
+      "id": "reczz28Mv68qZYg3",
+      "title": "城市地图 → 掌纹",
+      "imageA": "城市地图",
+      "imageB": "掌纹",
+      "operation": "替换",
+      "theme": "空间",
+      "prompt": "城市地图只用掌纹画成，哪一条线通往家？",
+      "order": 35
+    },
+    {
+      "id": "reczz28Mv68qa4N9",
+      "title": "墙壁 → 镜子",
+      "imageA": "墙壁",
+      "imageB": "镜子",
+      "operation": "替换",
+      "theme": "空间",
+      "prompt": "墙面全是镜子，哪一处反光会让你误以为有出口？",
+      "order": 36
+    },
+    {
+      "id": "reczz28MulKuruau",
+      "title": "雨伞 ＋ 星图",
+      "imageA": "雨伞",
+      "imageB": "星图",
+      "operation": "相遇",
+      "theme": "夜晚",
+      "prompt": "雨伞撑开时，星图会落在伞面、投在地上，还是照亮伞下的人？",
+      "order": 37
+    },
+    {
+      "id": "reczz28MulKuri1O",
+      "title": "旧车站 ＋ 潮汐",
+      "imageA": "旧车站",
+      "imageB": "潮汐",
+      "operation": "相遇",
+      "theme": "离别",
+      "prompt": "潮水每天来去，车站却等一次出发。画面里哪一个动作先发生？",
+      "order": 38
+    },
+    {
+      "id": "reczz28MulKuq4RF",
+      "title": "镜子 ＋ 雪",
+      "imageA": "镜子",
+      "imageB": "雪",
+      "operation": "相遇",
+      "theme": "自我",
+      "prompt": "当倒影被雪慢慢盖住，画面还留下什么可以认出自己？",
+      "order": 39
+    },
+    {
+      "id": "reczz28MulKurpfT",
+      "title": "钟表 － 指针",
+      "imageA": "钟表",
+      "imageB": "指针",
+      "operation": "抽离",
+      "theme": "时间",
+      "prompt": "拿掉最会报时的部分，还能用哪些痕迹让人感到时间？",
+      "order": 40
+    },
+    {
+      "id": "reczz28MulKurYAn",
+      "title": "城市 － 声音",
+      "imageA": "城市",
+      "imageB": "声音",
+      "operation": "抽离",
+      "theme": "城市",
+      "prompt": "把声音全部拿掉后，什么细节最能让人意识到这座城仍在运转？",
+      "order": 41
+    },
+    {
+      "id": "reczz28MulKupEUL",
+      "title": "花园 － 季节",
+      "imageA": "花园",
+      "imageB": "季节",
+      "operation": "抽离",
+      "theme": "自然",
+      "prompt": "四季不再更替的花园，你会用什么证明它还在生长？",
+      "order": 42
+    },
+    {
+      "id": "reczz28MulKuqvqD",
+      "title": "路灯 → 月亮",
+      "imageA": "路灯",
+      "imageB": "月亮",
+      "operation": "替换",
+      "theme": "夜晚",
+      "prompt": "让月亮承担路灯的工作：街道的距离感会怎样改变？",
+      "order": 43
+    },
+    {
+      "id": "reczz28MulKur21r",
+      "title": "信封 → 种子",
+      "imageA": "信封",
+      "imageB": "种子",
+      "operation": "替换",
+      "theme": "记忆",
+      "prompt": "让种子代替信封寄出一句没说完的话；它会被种在哪里？",
+      "order": 44
+    },
+    {
+      "id": "reczz28MulKupYCv",
+      "title": "窗户 → 海面",
+      "imageA": "窗户",
+      "imageB": "海面",
+      "operation": "替换",
+      "theme": "空间",
+      "prompt": "窗户变成海面；你希望屋里先漂进什么？",
+      "order": 45
+    },
+    {
+      "id": "reczz28MulKusrRA",
+      "title": "闹钟 → 心跳",
+      "imageA": "闹钟",
+      "imageB": "心跳",
+      "operation": "替换",
+      "theme": "时间",
+      "prompt": "清晨由心跳叫醒，你会把紧张或平静画成怎样的节奏？",
+      "order": 46
+    },
+    {
+      "id": "reczz28OKWGqBEiy",
+      "title": "纸船 ＋ 门铃",
+      "imageA": "纸船",
+      "imageB": "门铃",
+      "operation": "相遇",
+      "theme": "归来",
+      "prompt": "门铃响时，纸船刚驶到哪里？",
+      "order": 47
+    },
+    {
+      "id": "reczz28OKWGqC2uR",
+      "title": "霓虹 ＋ 种子",
+      "imageA": "霓虹",
+      "imageB": "种子",
+      "operation": "相遇",
+      "theme": "城市",
+      "prompt": "一粒种子在霓虹灯下发芽，谁会第一个发现它？",
+      "order": 48
+    },
+    {
+      "id": "reczz28OKWGqAQn3",
+      "title": "手套 ＋ 月食",
+      "imageA": "手套",
+      "imageB": "月食",
+      "operation": "相遇",
+      "theme": "夜晚",
+      "prompt": "月亮变暗的那几分钟，遗落的手套会被谁拾起？",
+      "order": 49
+    },
+    {
+      "id": "reczz28OKWGq9kWp",
+      "title": "窗帘 ＋ 山脉",
+      "imageA": "窗帘",
+      "imageB": "山脉",
+      "operation": "相遇",
+      "theme": "空间",
+      "prompt": "拉开窗帘后，山的轮廓从房间的哪条线开始？",
+      "order": 50
+    },
+    {
+      "id": "reczz28OKWGqBgEz",
+      "title": "收据 ＋ 海浪",
+      "imageA": "收据",
+      "imageB": "海浪",
+      "operation": "相遇",
+      "theme": "记忆",
+      "prompt": "海浪把一张旧收据冲上岸，哪一行字还看得清？",
+      "order": 51
+    },
+    {
+      "id": "reczz28OKWGqAhnw",
+      "title": "骰子 ＋ 候鸟",
+      "imageA": "骰子",
+      "imageB": "候鸟",
+      "operation": "相遇",
+      "theme": "选择",
+      "prompt": "候鸟把去处交给骰子，掷出哪一面会改变队形？",
+      "order": 52
+    },
+    {
+      "id": "reczz28OKWGqBpq8",
+      "title": "玻璃杯 ＋ 雷声",
+      "imageA": "玻璃杯",
+      "imageB": "雷声",
+      "operation": "相遇",
+      "theme": "感官",
+      "prompt": "先听见雷声，再看杯中的水。第一道波纹会在什么时候出现？",
+      "order": 53
+    },
+    {
+      "id": "reczz28OKWGqAzWi",
+      "title": "车票 ＋ 羽毛",
+      "imageA": "车票",
+      "imageB": "羽毛",
+      "operation": "相遇",
+      "theme": "离别",
+      "prompt": "车票轻得像羽毛，却怎么也吹不走；它留在谁手里？",
+      "order": 54
+    },
+    {
+      "id": "reczz28OKWGqAUms",
+      "title": "地图 － 边界",
+      "imageA": "地图",
+      "imageB": "边界",
+      "operation": "抽离",
+      "theme": "空间",
+      "prompt": "没有边界线的地图，哪些痕迹仍会让你停下脚步？",
+      "order": 55
+    },
+    {
+      "id": "reczz28OKWGqA7HG",
+      "title": "影子 － 身体",
+      "imageA": "影子",
+      "imageB": "身体",
+      "operation": "抽离",
+      "theme": "身份",
+      "prompt": "影子独自走过街口，路人从哪里认出它属于谁？",
+      "order": 56
+    },
+    {
+      "id": "reczz28OKWGq9aLQ",
+      "title": "情书 － 收件人",
+      "imageA": "情书",
+      "imageB": "收件人",
+      "operation": "抽离",
+      "theme": "关系",
+      "prompt": "收件人一栏空白，这封情书会被放在什么地方？",
+      "order": 57
+    },
+    {
+      "id": "reczz28OKWGqBMFy",
+      "title": "电影 － 结尾",
+      "imageA": "电影",
+      "imageB": "结尾",
+      "operation": "抽离",
+      "theme": "叙事",
+      "prompt": "故事停在结尾前一分钟，你愿意让观众带走哪一帧？",
+      "order": 58
+    },
+    {
+      "id": "reczz28OKWGq9Lbs",
+      "title": "花束 － 花",
+      "imageA": "花束",
+      "imageB": "花",
+      "operation": "抽离",
+      "theme": "关系",
+      "prompt": "只剩包装纸与丝带的花束，还能传达哪一种心意？",
+      "order": 59
+    },
+    {
+      "id": "reczz28OKWGq8o8N",
+      "title": "雨天 － 水",
+      "imageA": "雨天",
+      "imageB": "水",
+      "operation": "抽离",
+      "theme": "感官",
+      "prompt": "没有一滴水，画面还可以如何让人确信正在下雨？",
+      "order": 60
+    },
+    {
+      "id": "reczz28OKWGqA6RV",
+      "title": "舞会 － 音乐",
+      "imageA": "舞会",
+      "imageB": "音乐",
+      "operation": "抽离",
+      "theme": "身体",
+      "prompt": "乐声停了，谁还在原地保持舞步？",
+      "order": 61
+    },
+    {
+      "id": "reczz28OKWGqCD3L",
+      "title": "书桌 － 主人",
+      "imageA": "书桌",
+      "imageB": "主人",
+      "operation": "抽离",
+      "theme": "记忆",
+      "prompt": "桌上只剩使用痕迹，你会先让人看见哪件东西？",
+      "order": 62
+    },
+    {
+      "id": "reczz28OKWGq9Rc8",
+      "title": "信号灯 → 潮汐",
+      "imageA": "信号灯",
+      "imageB": "潮汐",
+      "operation": "替换",
+      "theme": "城市",
+      "prompt": "路口由潮水决定通行，行人要等什么退去？",
+      "order": 63
+    },
+    {
+      "id": "reczz28OKWGqBkLH",
+      "title": "路牌 → 月亮",
+      "imageA": "路牌",
+      "imageB": "月亮",
+      "operation": "替换",
+      "theme": "夜晚",
+      "prompt": "月亮挂在街口指路，哪条路会被它藏起来？",
+      "order": 64
+    },
+    {
+      "id": "reczz28OKWGqAGVZ",
+      "title": "伤疤 → 刺绣",
+      "imageA": "伤疤",
+      "imageB": "刺绣",
+      "operation": "替换",
+      "theme": "身份",
+      "prompt": "伤疤被绣成花纹后，谁知道它原来的位置？",
+      "order": 65
+    },
+    {
+      "id": "reczz28OKWGqAUJJ",
+      "title": "门把手 → 温度计",
+      "imageA": "门把手",
+      "imageB": "温度计",
+      "operation": "替换",
+      "theme": "空间",
+      "prompt": "每次开门都要读温度，这座房子在防备什么？",
+      "order": 66
+    },
+    {
+      "id": "reczz28OKWGqCbe2",
+      "title": "姓名牌 → 指纹",
+      "imageA": "姓名牌",
+      "imageB": "指纹",
+      "operation": "替换",
+      "theme": "身份",
+      "prompt": "名字由指纹代替后，陌生人会怎样介绍自己？",
+      "order": 67
+    },
+    {
+      "id": "reczz28OKWGq8sOA",
+      "title": "火车时刻表 → 鸟鸣",
+      "imageA": "火车时刻表",
+      "imageB": "鸟鸣",
+      "operation": "替换",
+      "theme": "时间",
+      "prompt": "列车跟着鸟鸣出发，乘客怎样知道它误点了？",
+      "order": 68
+    },
+    {
+      "id": "reczz28OKWGqCdks",
+      "title": "生日蜡烛 → 灯塔",
+      "imageA": "生日蜡烛",
+      "imageB": "灯塔",
+      "operation": "替换",
+      "theme": "时间",
+      "prompt": "生日蛋糕上立起一座灯塔，愿望会指向哪片海？",
+      "order": 69
+    },
+    {
+      "id": "reczz28OKWGq8yZk",
+      "title": "画框 → 门",
+      "imageA": "画框",
+      "imageB": "门",
+      "operation": "替换",
+      "theme": "空间",
+      "prompt": "画框换成门，观众走近作品时会先摸到什么？",
+      "order": 70
+    }
+  ],
+  "resources": [
+    {
+      "id": "reczz28HJJL2Bi7d",
+      "name": "纽约现代艺术博物馆 藏品库",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.moma.org/collection/works/80419",
+      "media": [
+        "绘画",
+        "摄影",
+        "设计"
+      ],
+      "chapterNames": [
+        "诡异"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BiGR",
+      "name": "华盛顿国家美术馆",
+      "types": [
+        "网站"
+      ],
+      "url": "https://nga.gov/features/slideshows/degas-cassatt.html",
+      "media": [
+        "绘画"
+      ],
+      "chapterNames": [
+        "可爱"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BiKl",
+      "name": "休斯顿美术馆 数字藏品",
+      "types": [
+        "网站"
+      ],
+      "url": "https://emuseum.mfah.org/objects/148871/mrs-camerons-photographs-from-the-life",
+      "media": [
+        "摄影",
+        "绘画"
+      ],
+      "chapterNames": [
+        "可爱"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BiOb",
+      "name": "Smarthistory 艺术史讲解",
+      "types": [
+        "网站"
+      ],
+      "url": "https://smarthistory.org/cassatt-little-girl-in-a-blue-armchair",
+      "media": [
+        "绘画",
+        "雕塑",
+        "建筑"
+      ],
+      "chapterNames": [
+        "可爱",
+        "诡异"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BiRM",
+      "name": "耶鲁大学图书馆 电影笔记",
+      "types": [
+        "网站"
+      ],
+      "url": "https://web.library.yale.edu/film/notes/fn00063",
+      "media": [
+        "电影"
+      ],
+      "chapterNames": [
+        "可爱"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BiUk",
+      "name": "英国电影学会 BFI",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www2.bfi.org.uk/node/18859",
+      "media": [
+        "电影"
+      ],
+      "chapterNames": [
+        "可爱"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BiYI",
+      "name": "澳大利亚动态影像中心 ACMI",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.acmi.net.au/works/100355--coraline/",
+      "media": [
+        "电影",
+        "动画",
+        "游戏"
+      ],
+      "chapterNames": [
+        "诡异"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BicM",
+      "name": "伦敦弗洛伊德博物馆",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.freud.org.uk/event/freud-and-the-uncanny/",
+      "media": [
+        "文学",
+        "心理学"
+      ],
+      "chapterNames": [
+        "诡异"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2Bif4",
+      "name": "东京国立近代美术馆",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.momat.go.jp/wp-content/uploads/2026/06/Sugimoto-List-English-2.pdf",
+      "media": [
+        "摄影",
+        "绘画"
+      ],
+      "chapterNames": [
+        "诡异"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BiiV",
+      "name": "阿姆斯特丹国立博物馆「夜巡行动」",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.rijksmuseum.nl/en/whats-on/exhibitions/operation-night-watch",
+      "media": [
+        "绘画"
+      ],
+      "chapterNames": [
+        "乡愁"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BimB",
+      "name": "威廉·莫里斯学会",
+      "types": [
+        "网站"
+      ],
+      "url": "https://williammorrissociety.org/the-ideal-book-william-morris-and-the-kelmscott-press/",
+      "media": [
+        "设计",
+        "印刷"
+      ],
+      "chapterNames": [
+        "乡愁"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2Bioo",
+      "name": "互联网档案馆《乔叟作品集》全本扫描",
+      "types": [
+        "网站"
+      ],
+      "url": "https://archive.org/details/MorrisChaucer",
+      "media": [
+        "设计",
+        "印刷"
+      ],
+      "chapterNames": [
+        "乡愁"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BirQ",
+      "name": "法国国家图书馆 Essentiels",
+      "types": [
+        "网站"
+      ],
+      "url": "https://essentiels.bnf.fr/fr/focus/eba92c2d-2eae-4634-9bbe-b29495396bf8-proust-et-memoire-involontaire",
+      "media": [
+        "文学"
+      ],
+      "chapterNames": [
+        "乡愁"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2Biu9",
+      "name": "维也纳艺术史博物馆",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.khm.at/en/artworks/children-s-games-321",
+      "media": [
+        "绘画"
+      ],
+      "chapterNames": [
+        "乡愁"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2Biwk",
+      "name": "卡尔·拉松故居",
+      "types": [
+        "网站"
+      ],
+      "url": "https://carllarsson.se/en/",
+      "media": [
+        "绘画",
+        "室内设计"
+      ],
+      "chapterNames": [
+        "乡愁"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BizO",
+      "name": "暮しの手帖社",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.kurashi-no-techo.co.jp/company",
+      "media": [
+        "设计",
+        "杂志"
+      ],
+      "chapterNames": [
+        "乡愁"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2Bj21",
+      "name": "慕夏基金会",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.muchafoundation.org/en/gallery/browse-works/object/21",
+      "media": [
+        "设计",
+        "海报",
+        "插画"
+      ],
+      "chapterNames": [
+        "乡愁"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2Bj4d",
+      "name": "南加州大学图书馆 民国海报专题",
+      "types": [
+        "网站"
+      ],
+      "url": "https://scalar.usc.edu/works/republican-era-chinese-posters-as-seen-from-the-university-of-southern-california-library-collection/the-poster-artist-zheng-mantuo",
+      "media": [
+        "插画",
+        "海报"
+      ],
+      "chapterNames": [
+        "乡愁"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2Bj7I",
+      "name": "库珀·休伊特设计博物馆",
+      "types": [
+        "网站"
+      ],
+      "url": "https://si.edu/object/association%3Achndm_1979-34-25",
+      "media": [
+        "设计",
+        "海报"
+      ],
+      "chapterNames": [
+        "乡愁"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BjAx",
+      "name": "Criterion《布达佩斯大饭店》",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.criterion.com/films/29601-the-grand-budapest-hotel",
+      "media": [
+        "电影"
+      ],
+      "chapterNames": [
+        "乡愁"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BjE7",
+      "name": "《怀旧的未来》作者本人的长文",
+      "types": [
+        "文章"
+      ],
+      "url": "https://hedgehogreview.com/issues/the-uses-of-the-past/articles/nostalgia-and-its-discontents",
+      "media": [
+        "理论"
+      ],
+      "chapterNames": [
+        "乡愁"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BjGr",
+      "name": "大都会艺术博物馆《忧郁 I》藏品页",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.metmuseum.org/art/collection/search/336228",
+      "media": [
+        "版画"
+      ],
+      "chapterNames": [
+        "忧郁"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BjJS",
+      "name": "A Happy Occasion for Melencolia I（大都会艺术博物馆 Perspectives）",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.metmuseum.org/perspectives/melencolia-i",
+      "media": [
+        "版画"
+      ],
+      "chapterNames": [
+        "忧郁"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BjM2",
+      "name": "泰特美术馆「卡姆登镇画派」研究出版物",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.tate.org.uk/art/research-publications/camden-town-group",
+      "media": [
+        "绘画"
+      ],
+      "chapterNames": [
+        "忧郁"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BjOl",
+      "name": "Criterion Current",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.criterion.com/current",
+      "media": [
+        "电影"
+      ],
+      "chapterNames": [
+        "忧郁"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BjRS",
+      "name": "罗伯特·伯顿《忧郁的解剖》（The Anatomy of Melancholy，1621）",
+      "types": [
+        "书"
+      ],
+      "url": "https://www.gutenberg.org/ebooks/10800",
+      "media": [
+        "文学"
+      ],
+      "chapterNames": [
+        "忧郁"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BjUS",
+      "name": "《会饮篇》乔伊特英译全文（MIT Internet Classics Archive）",
+      "types": [
+        "网站"
+      ],
+      "url": "https://classics.mit.edu/Plato/symposium.html",
+      "media": [
+        "文学"
+      ],
+      "chapterNames": [
+        "爱欲"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BjXB",
+      "name": "德累斯顿历代大师画廊・维米尔研究页",
+      "types": [
+        "网站"
+      ],
+      "url": "https://gemaeldegalerie.skd.museum/en/research/vermeer/",
+      "media": [
+        "绘画"
+      ],
+      "chapterNames": [
+        "爱欲"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BjZn",
+      "name": "The Criterion Collection・Current",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.criterion.com/current",
+      "media": [
+        "电影"
+      ],
+      "chapterNames": [
+        "爱欲"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BjcX",
+      "name": "WNYC《Aria Code》播客",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.wnycstudios.org/podcasts/aria-code",
+      "media": [
+        "音乐"
+      ],
+      "chapterNames": [
+        "爱欲"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BjfD",
+      "name": "Poetry Foundation",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.poetryfoundation.org/",
+      "media": [
+        "诗"
+      ],
+      "chapterNames": [
+        "爱欲"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2Bjhs",
+      "name": "简·奥斯汀故居线上展《傲慢与偏见》的诞生",
+      "types": [
+        "网站"
+      ],
+      "url": "https://janeaustens.house/online-exhibition/the-making-of-pride-and-prejudice/the-making-of-pride-and-prejudice-2/",
+      "media": [
+        "文学"
+      ],
+      "chapterNames": [
+        "爱欲"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BjkX",
+      "name": "利物浦国家博物馆・利华夫人美术馆藏品",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.liverpoolmuseums.org.uk/artifact/black-brunswickers",
+      "media": [
+        "绘画"
+      ],
+      "chapterNames": [
+        "爱欲"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BjnE",
+      "name": "The Latin Library：维吉尔《牧歌》拉丁原文",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.thelatinlibrary.com/vergil/ec1.shtml",
+      "media": [
+        "诗"
+      ],
+      "chapterNames": [
+        "田园"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2Bjpq",
+      "name": "橘园美术馆《睡莲》教学资料",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.musee-orangerie.fr/sites/default/files/2023-03/dossier_pedagogique_nympheas_0.pdf",
+      "media": [
+        "绘画"
+      ],
+      "chapterNames": [
+        "田园"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BjsY",
+      "name": "Van Gogh Letters",
+      "types": [
+        "网站"
+      ],
+      "url": "https://vangoghletters.org/vg/letters/let800/letter.html",
+      "media": [
+        "绘画"
+      ],
+      "chapterNames": [
+        "田园"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BjvH",
+      "name": "波恩贝多芬故居：用贝多芬的耳朵听",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.beethoven.de/en/g/mit-beethovens-ohr-gehoert",
+      "media": [
+        "音乐"
+      ],
+      "chapterNames": [
+        "田园"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2Bjxx",
+      "name": "V&A：Peter Rabbit, the tale of the tale",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.vam.ac.uk/articles/peter-rabbit-the-tale-of-the-tale",
+      "media": [
+        "插画"
+      ],
+      "chapterNames": [
+        "田园"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2Bk0Z",
+      "name": "摩根图书馆：Beatrix Potter: Drawn to Nature",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.themorgan.org/exhibitions/online/drawn-to-nature/10",
+      "media": [
+        "插画"
+      ],
+      "chapterNames": [
+        "田园"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2Bk3C",
+      "name": "凡尔赛宫：王后的小村庄",
+      "types": [
+        "网站"
+      ],
+      "url": "https://en.chateauversailles.fr/discover/estate/estate-trianon/queen-hamlet",
+      "media": [
+        "建筑"
+      ],
+      "chapterNames": [
+        "田园"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BkPT",
+      "name": "福尔杰莎士比亚图书馆：十四行诗",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.folger.edu/explore/shakespeares-works/shakespeares-sonnets/",
+      "media": [
+        "诗"
+      ],
+      "chapterNames": [
+        "田园"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BkSp",
+      "name": "文化数字图书馆·能与世阿弥",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www2.ntj.jac.go.jp/dglib/contents/learn/edc9/",
+      "media": [
+        "戏剧"
+      ],
+      "chapterNames": [
+        "幽玄"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BkWd",
+      "name": "the-noh.com 能剧剧目数据库",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.the-noh.com/en/plays/data/program_117.html",
+      "media": [
+        "戏剧"
+      ],
+      "chapterNames": [
+        "幽玄"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2Bkaa",
+      "name": "惠斯勒油画全集（格拉斯哥大学）",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.whistlerpaintings.gla.ac.uk/catalogue/display/?mid=y140",
+      "media": [
+        "绘画"
+      ],
+      "chapterNames": [
+        "幽玄"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2Bkdo",
+      "name": "芭蕉 DB（山梨县立大学 伊藤洋）",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www2.yamanashi-ken.ac.jp/~itoyo/basho/",
+      "media": [
+        "诗"
+      ],
+      "chapterNames": [
+        "幽玄"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BkhB",
+      "name": "布鲁克林博物馆·广重《名所江户百景》",
+      "types": [
+        "网站"
+      ],
+      "url": "https://artsandculture.google.com/story/hiroshige-s-one-hundred-famous-views-of-edo-brooklyn-museum/pgWRwzk-PQcA8A",
+      "media": [
+        "绘画"
+      ],
+      "chapterNames": [
+        "幽玄"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2Bkkk",
+      "name": "Nietzsche Source",
+      "types": [
+        "网站"
+      ],
+      "url": "http://www.nietzschesource.org/texts/eKGWB/GT",
+      "media": [
+        "文学"
+      ],
+      "chapterNames": [
+        "酒神"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2Bkod",
+      "name": "Smarthistory",
+      "types": [
+        "网站"
+      ],
+      "url": "https://smarthistory.org/titian-bacchus-and-ariadne/",
+      "media": [
+        "绘画"
+      ],
+      "chapterNames": [
+        "酒神"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BkrK",
+      "name": "Tate: Matisse cut-outs",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.tate.org.uk/imap/cutouts-matisse-text.shtml",
+      "media": [
+        "绘画"
+      ],
+      "chapterNames": [
+        "酒神"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2Bkue",
+      "name": "Memphis Milano",
+      "types": [
+        "网站"
+      ],
+      "url": "https://memphis.it/en/history/",
+      "media": [
+        "设计"
+      ],
+      "chapterNames": [
+        "酒神"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BkyK",
+      "name": "Ciné-Tamaris",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.cine-tamaris.fr/les-demoiselles-de-rochefort/",
+      "media": [
+        "电影"
+      ],
+      "chapterNames": [
+        "酒神"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2Bl2I",
+      "name": "故宫名画记",
+      "types": [
+        "网站"
+      ],
+      "url": "https://minghuaji.dpm.org.cn/",
+      "media": [
+        "绘画"
+      ],
+      "chapterNames": [
+        "留白"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2Bl4y",
+      "name": "e国宝",
+      "types": [
+        "网站"
+      ],
+      "url": "https://emuseum.nich.go.jp/",
+      "media": [
+        "绘画、工艺"
+      ],
+      "chapterNames": [
+        "留白"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2Bl8S",
+      "name": "ColBase",
+      "types": [
+        "网站"
+      ],
+      "url": "https://colbase.nich.go.jp/",
+      "media": [
+        "绘画、工艺、建筑"
+      ],
+      "chapterNames": [
+        "留白"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BlBA",
+      "name": "MoMA: There Will Never Be Silence",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.moma.org/calendar/exhibitions/1386",
+      "media": [
+        "音乐"
+      ],
+      "chapterNames": [
+        "留白"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BlDo",
+      "name": "The Paintings of James McNeill Whistler",
+      "types": [
+        "网站"
+      ],
+      "url": "https://whistlerpaintings.gla.ac.uk/",
+      "media": [
+        "绘画"
+      ],
+      "chapterNames": [
+        "留白"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BlGY",
+      "name": "SMK Open（丹麦国立美术馆开放藏品库）",
+      "types": [
+        "网站"
+      ],
+      "url": "https://open.smk.dk/",
+      "media": [
+        "绘画、素描、版画"
+      ],
+      "chapterNames": [
+        "平淡"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BlJG",
+      "name": "Rijksmuseum 藏品库",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.rijksmuseum.nl/en/collection",
+      "media": [
+        "绘画、版画、摄影"
+      ],
+      "chapterNames": [
+        "平淡"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BlM0",
+      "name": "中华思想文化术语传播网",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.chinesethought.cn/",
+      "media": [
+        "文学、美学术语"
+      ],
+      "chapterNames": [
+        "平淡"
+      ]
+    },
+    {
+      "id": "reczz28HJJL2BlOi",
+      "name": "MoMA：Nicholas Nixon, 40 Years of The Brown Sisters",
+      "types": [
+        "网站"
+      ],
+      "url": "https://www.moma.org/explore/inside_out/2014/12/05/nicholas-nixon-40-years-of-the-brown-sisters/",
+      "media": [
+        "摄影"
+      ],
+      "chapterNames": [
+        "平淡"
+      ]
+    }
+  ]
+}
