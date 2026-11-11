@@ -2513,8 +2513,8 @@
     {
       "path": "web-prototypes/park-foundation-v1-2026-11-11/style.css",
       "bytes": 16463,
-      "sha256": "ea49e8f61fcfa3161628d83aed9f0afa9bd18fa95e19fdeeb5842b4e22874fe4",
-      "gitBlob": "0b62e7ff52870b621cae0f7254d3a0d3c3d0b3ba"
+      "sha256": "1914eb5ca936d07c2a1ffce01c43d0bb2ee51956f14369cb6387c224ae7f24c2",
+      "gitBlob": "31a13f8ba0903fca5857063c1ededfbcf34716d4"
     },
     {
       "path": "web-prototypes/park-foundation-v1-2026-11-11/test_art_bridge.mjs",
