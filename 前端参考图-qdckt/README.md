@@ -15,3 +15,7 @@
 2. Anime Pixel Art
 3. Retro Games Poster / Isometric Illustration / Pixel Art
 4. Pixel Art Carousel with Pink and Blue Trimmings
+
+另有按分镜整理的像素参考链接表（文字 + 可打开的链接，含夕里批注，未另存图片）：
+
+- [游乐园像素参考-链接表.md](游乐园像素参考-链接表.md)（2026-11-11 更新）
