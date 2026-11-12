@@ -81,6 +81,21 @@ class HTTPTests(unittest.TestCase):
         with self.assertRaises(HTTPError) as caught:
             self.request('/api/state',{'revision':0,'document':blank()},'PUT',{'Origin':'https://example.com'})
         self.assertEqual(caught.exception.code,403)
+    def test_site_export_requires_current_revision(self):
+        self.request('/api/state', {'revision':0,'document':blank()}, 'PUT')
+        with self.assertRaises(HTTPError) as caught:
+            self.request('/api/export-site', {'revision':0}, 'POST')
+        self.assertEqual(caught.exception.code,409)
+        with self.assertRaises(HTTPError) as caught:
+            self.request('/api/export-site', {'revision':'1'}, 'POST')
+        self.assertEqual(caught.exception.code,400)
+        self.assertFalse((Path(self.temp.name) / 'exports').exists())
+    def test_binding_resources_and_export_directory_are_limited(self):
+        self.assertEqual(len(json.load(self.request('/site-slots.json'))),8)
+        self.assertIn(b'assignSlot',self.request('/site-bindings.mjs').read())
+        with self.assertRaises(HTTPError) as caught:
+            self.request('/exports/')
+        self.assertEqual(caught.exception.code,404)
     def test_uploaded_asset_serves_identical_bytes_and_rejects_disguised_html(self):
         original = base64.b64decode('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+jRZkAAAAASUVORK5CYII=')
         result = json.load(self.request('/api/assets', {'dataUrl':'data:image/png;base64,'+base64.b64encode(original).decode()}, 'POST'))

@@ -19,14 +19,14 @@ class Handler(SimpleHTTPRequestHandler):
         path = unquote(urlparse(self.path).path)
         if path == '/api/art-layout':
             try:
-                source = EDITOR / 'data/project.json'
+                source = self.server.editor_data / 'project.json'
                 state = json.loads(source.read_text()) if source.exists() else {'revision': 0, 'document': {'pages': [], 'assets': []}}
                 for asset in state['document']['assets']: asset['url'] = '/editor-assets/' + Path(asset['url']).name
                 body = json.dumps(state, ensure_ascii=False).encode()
                 self.send_response(200); self.send_header('Content-Type','application/json; charset=utf-8'); self.send_header('Content-Length',str(len(body))); self.end_headers(); self.wfile.write(body); return
             except (ValueError, OSError, KeyError): return self.send_error(503)
         if path == '/layout-renderer.js': target = EDITOR / 'renderer.js'
-        elif re.fullmatch(r'/editor-assets/[a-f0-9]{32}\.(png|jpg|webp|gif)',path): target = EDITOR / 'data/assets' / Path(path).name
+        elif re.fullmatch(r'/editor-assets/[a-f0-9]{32}\.(png|jpg|webp|gif)',path): target = self.server.editor_data / 'assets' / Path(path).name
         else: target = None
         if target is not None:
             if not target.is_file(): return self.send_error(404)
@@ -43,8 +43,11 @@ class Handler(SimpleHTTPRequestHandler):
 
 
 if __name__ == '__main__':
-    parser=argparse.ArgumentParser();parser.add_argument('--port',type=int,default=8871);args=parser.parse_args()
+    parser=argparse.ArgumentParser();parser.add_argument('--port',type=int,default=8871)
+    parser.add_argument('--editor-data',default=str(EDITOR / 'data'),help='只读布局来源；测试时可使用独立项目')
+    args=parser.parse_args()
     server=ThreadingHTTPServer(('127.0.0.1',args.port),Handler)
+    server.editor_data=Path(args.editor_data).resolve()
     print('游乐园功能预览：http://127.0.0.1:%s/' % args.port,flush=True)
     try: server.serve_forever()
     except KeyboardInterrupt: pass

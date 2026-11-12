@@ -1,0 +1,10 @@
+[
+  {"id":"p1-scene","name":"首页 · 乐园大门","route":"#/entrance"},
+  {"id":"p3-browse","name":"大道 · 浏览区入口","route":"#/avenue"},
+  {"id":"p3-feelings","name":"大道 · 地图亭入口","route":"#/avenue"},
+  {"id":"p3-arcade","name":"大道 · 街机厅入口","route":"#/avenue"},
+  {"id":"p4a-balloons","name":"浏览区 · 气球摊","route":"#/browse"},
+  {"id":"p4a-gacha","name":"浏览区 · 扭蛋机","route":"#/browse"},
+  {"id":"chapter-gate","name":"专题页 · 共用牌楼","route":"#/browse","hint":"打开浏览区后，点击任一专题查看。"},
+  {"id":"p4b-interior","name":"地图亭 · 内景","route":"#/feelings"}
+]

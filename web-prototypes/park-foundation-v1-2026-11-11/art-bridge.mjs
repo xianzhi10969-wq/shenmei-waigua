@@ -13,14 +13,20 @@ export function applyArt() {
     const page=documentState.pages.find(p=>p.artSlot===target.dataset.artSlot);
     const existing=target.querySelector(':scope > .shared-art');
     const layout=page?.layouts[mode];
-    if(!layout?.elements.length){existing?.remove();if(target.classList.contains('entrance-scene'))target.querySelectorAll('.entrance-layer').forEach(n=>n.hidden=false);else if(target.dataset.originalMarkup!==undefined){target.innerHTML=target.dataset.originalMarkup;target.classList.remove('art-bound');target.style.height='';}continue;}
+    if(!layout?.elements.some(e=>!e.hidden&&e.opacity>0)){
+      existing?.remove();target.classList.remove('art-bound');target.style.height='';target.style.minHeight='';
+      if(target.classList.contains('entrance-scene'))target.querySelectorAll('.entrance-layer').forEach(n=>n.hidden=false);
+      else if(target.dataset.originalMarkup!==undefined)target.innerHTML=target.dataset.originalMarkup;
+      continue;
+    }
     if(target.dataset.originalMarkup===undefined&&target.classList.contains('asset-slot'))target.dataset.originalMarkup=target.innerHTML;
+    target.classList.add('art-bound');
     const frame=existing||document.createElement('div');frame.className='shared-art';
     const art=document.createElement('div');renderLayout(art,layout,documentState.assets);
     const width=target.clientWidth||layout.width,scale=width/layout.width;
     art.style.transform=`scale(${scale})`;art.style.transformOrigin='top left';
     frame.replaceChildren(art);frame.style.height=layout.height*scale+'px';
-    if(target.classList.contains('entrance-scene')){frame.style.position='absolute';frame.style.inset='0';target.querySelectorAll('.entrance-layer').forEach(n=>n.hidden=true);if(!existing)target.prepend(frame);}
+    if(target.classList.contains('entrance-scene')){target.style.height=layout.height*scale+'px';target.style.minHeight='0';frame.style.position='absolute';frame.style.inset='0';target.querySelectorAll('.entrance-layer').forEach(n=>n.hidden=true);if(!existing)target.prepend(frame);}
     else {target.classList.add('art-bound');target.style.height=layout.height*scale+'px';target.replaceChildren(frame);}
   }
 }

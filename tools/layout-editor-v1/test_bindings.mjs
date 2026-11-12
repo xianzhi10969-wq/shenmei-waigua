@@ -1,0 +1,43 @@
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+import {assignSlot,missingScenes,bindingReport,replaceLayerImage} from './site-bindings.mjs';
+
+const same=(a,b)=>assert.equal(JSON.stringify(a),JSON.stringify(b));
+const slots=JSON.parse(fs.readFileSync(new URL('./site-slots.json',import.meta.url)));
+let sequence=0;
+const doc={pages:[{id:'existing',name:'原场景',layouts:{desktop:{elements:[]},mobile:{elements:[]}}}],assets:[]};
+const existing=structuredClone(doc.pages[0]);
+const created=missingScenes(doc,slots,()=>`new-${++sequence}`);
+assert.equal(created.length,8);doc.pages.push(...created);
+same(doc.pages[0],existing);assert.equal(missingScenes(doc,slots,()=>String(++sequence)).length,0);
+created[0].layouts.mobile.elements.push({id:'text',type:'text',name:'标题',x:10,y:10,width:100,height:50,opacity:1,rotation:0});
+assert.equal(created[0].layouts.desktop.elements.length,0);
+assert.throws(()=>assignSlot(doc,'existing',slots[0].id,slots),/已有场景/);
+assert.equal(doc.pages[0].artSlot,undefined);
+assignSlot(doc,created[0].id,'',slots);assignSlot(doc,'existing',slots[0].id,slots);
+assert.equal(doc.pages[0].artSlot,slots[0].id);
+assert.throws(()=>assignSlot(doc,'existing','typo-slot',slots),/还没有接入/);
+assert.throws(()=>missingScenes({pages:Array.from({length:100},()=>({})),assets:[]},slots,()=>''),/100/);
+console.log('PASS 连接：补齐且不覆盖、重复点击不重复、双端隔离、占用拒绝、解绑重接、未知位置与容量保护。');
+
+assignSlot(doc,'existing','',slots);assignSlot(doc,created[0].id,slots[0].id,slots);
+const hidden={id:'h',type:'image',name:'隐藏图',assetId:'missing',hidden:true,opacity:1};
+created[0].layouts.mobile.elements.push(hidden);
+let report=bindingReport(doc,slots)[0];
+assert.equal(report.mobile.visible,1);assert.equal(report.mobile.images,0);assert.equal(report.mobile.warnings.length,0);
+const out={id:'out',type:'image',name:'边缘图',assetId:'missing',x:380,y:0,width:40,height:40,rotation:45,opacity:1};
+created[0].layouts.mobile.elements.push(out);
+report=bindingReport(doc,slots)[0];
+assert.equal(report.mobile.warnings.length,2);assert.match(report.mobile.warnings.join(' '),/缺少素材/);assert.match(report.mobile.warnings.join(' '),/裁切/);
+assert.equal(report.desktop.visible,0);
+doc.pages.push({...created[0],id:'duplicate'});assert.equal(bindingReport(doc,slots)[0].duplicate,true);
+console.log('PASS 检查报告：隐藏层不充数、缺图与旋转越界分别提示、双端缺项和重复连接可见。');
+
+const a={id:'new',width:40,height:20};
+const layer={id:'one',type:'image',name:'已命名图层',assetId:'old',x:31,y:47,width:91,height:45,rotation:20,opacity:.5};
+const twin=structuredClone(layer);replaceLayerImage(layer,a);
+same({...layer,assetId:'old'},twin);assert.equal(layer.assetId,'new');assert.equal(twin.assetId,'old');
+layer.pixelated=true;replaceLayerImage(layer,a);assert.equal(layer.width,80);assert.equal(layer.height,40);assert.equal(layer.x,31);assert.equal(layer.rotation,0);
+const before=structuredClone(layer);assert.throws(()=>replaceLayerImage(layer,{id:'oversized',width:50000,height:50000}));same(layer,before);
+layer.locked=true;assert.throws(()=>replaceLayerImage(layer,a),/未锁定/);
+console.log('PASS 换图：普通模式保留几何、只换当前实例、像素整数倍、错误不半改、锁定层保护。');

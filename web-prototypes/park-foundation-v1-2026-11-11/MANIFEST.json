@@ -1,6 +1,6 @@
 {
   "date": "2026-11-12",
-  "status": "功能候选；部分浏览器走查通过；美术与完整实测待验收",
+  "status": "功能候选；编辑器连接与网页打包已实现；新增界面实际浏览器验收待完成",
   "files": [
     {
       "path": "tools/layout-editor-v1/.gitignore",
@@ -10,21 +10,21 @@
     },
     {
       "path": "tools/layout-editor-v1/README.md",
-      "bytes": 6147,
-      "sha256": "c92861795c9b75003fcd81f8b54fc2256be822e538824ed9b2657e623ea11907",
-      "gitBlob": "3fc9304bcc4bc17ff5a07e014241d9ce79732288"
+      "bytes": 9406,
+      "sha256": "de11d1b946af2c46bfdbed900e437f3db698a0ae4ddc57d03c3284f89e6f7983",
+      "gitBlob": "840613056fa7b6aa5e0d9e4ee388920ee66d0469"
     },
     {
       "path": "tools/layout-editor-v1/app.js",
-      "bytes": 32272,
-      "sha256": "2f9644a229ac1000ac2e0aa5aa1d82623a7fd4fcc6d76f3505d910899cecfd92",
-      "gitBlob": "a6441d0e9e523baae1e52d7fcb2b2f36c31ff2ec"
+      "bytes": 37924,
+      "sha256": "d7797c9c57ed683767b55674d6a2871b8af0d47541f6f7a16f9f8924c14bb103",
+      "gitBlob": "f47d816737537f3174c55087f8e279738d184357"
     },
     {
       "path": "tools/layout-editor-v1/index.html",
-      "bytes": 4467,
-      "sha256": "5983bbdbeea65b0a2a15307fb729a12f26aa2f73da12fc5359c00c6c2084d04e",
-      "gitBlob": "3f09d1fad1381d1eb0ab8224c1e44c6bff0849a9"
+      "bytes": 5281,
+      "sha256": "c32f3fcc112f1ffa75ea67b24682477bcb255acedb22f91e1a32d1a1e07ecd8f",
+      "gitBlob": "636a3f808e689f1c84be3af826be9fe53b3631bc"
     },
     {
       "path": "tools/layout-editor-v1/pixel.mjs",
@@ -46,15 +46,39 @@
     },
     {
       "path": "tools/layout-editor-v1/server.py",
-      "bytes": 10939,
-      "sha256": "8d83bea8fb9833302c39eb6425dc0bf2c9419c9b93a89d1879ee0617b38d1eb2",
-      "gitBlob": "9a07b6e845e2aca88d0893441b43d045abb5e77d"
+      "bytes": 13736,
+      "sha256": "9e37da82d902f30edb645f8961d8f522efbfa25910922b24dfdcad6f2576aa9e",
+      "gitBlob": "7ee82df2c71101bcfa16458a4f97440d29b6b02f"
+    },
+    {
+      "path": "tools/layout-editor-v1/site-bindings.mjs",
+      "bytes": 2695,
+      "sha256": "95344c211a2341f49e6423d72fa003a008afc9d620b5ecd96c80e9c3a92b3729",
+      "gitBlob": "21414c6ad2a01b4d2f7eedabf3cf9e100ebd3cf8"
+    },
+    {
+      "path": "tools/layout-editor-v1/site-slots.json",
+      "bytes": 668,
+      "sha256": "81d4c4870ef596e5a6637979da8b17cccff91ecfb9d074862bfd07b5e9b6d185",
+      "gitBlob": "67458d9cdd7219e6d16e9f2026c0b25cf8bd4e2d"
     },
     {
       "path": "tools/layout-editor-v1/style.css",
-      "bytes": 8819,
-      "sha256": "8c3a47d68bc9de76c23dfc89f1af9a353a08c95d3575673ff5aab9d68d433880",
-      "gitBlob": "4559fa039f25486da19711e67796490958eeb955"
+      "bytes": 9976,
+      "sha256": "3409be9f7e7e3198e0f394939c3b14ac02753234c01b925129a1e592e41adeda",
+      "gitBlob": "7ea5c36fe9dc7405fa76afb973b73936567f517c"
+    },
+    {
+      "path": "tools/layout-editor-v1/test_bindings.mjs",
+      "bytes": 3391,
+      "sha256": "fafe57c809485272f7f99c5290d91c41766f0da20bb5afdea2b0b142fc5d21f3",
+      "gitBlob": "178bf48cfb38b01af0f42d7b8cff887703defbb9"
+    },
+    {
+      "path": "tools/layout-editor-v1/test_bindings_dom.mjs",
+      "bytes": 3859,
+      "sha256": "e1b5db17e0e4a5620270223a2b8ad3b4e54b53e8348a2901353814845bc70419",
+      "gitBlob": "7915b9a1a35dd23d99a39a13ea571eb999999a29"
     },
     {
       "path": "tools/layout-editor-v1/test_frontend.mjs",
@@ -64,9 +88,9 @@
     },
     {
       "path": "tools/layout-editor-v1/test_server.py",
-      "bytes": 4898,
-      "sha256": "efd31fb87279c83216a977c4ad0e00e198566189d1aff99f7ff558865ba3befd",
-      "gitBlob": "ef8c910d769257aea2c5865e61bbefa4bc524395"
+      "bytes": 5823,
+      "sha256": "531a83df80b5daddf33614996170f57e9eb6b5789684734bd847287fbd391013",
+      "gitBlob": "3a0c1f77018098d5342caa03e74412e92a3716f3"
     },
     {
       "path": "tools/layout-editor-v1/启动编辑器.command",
@@ -88,9 +112,9 @@
     },
     {
       "path": "web-prototypes/park-foundation-v1-2026-11-11/README.md",
-      "bytes": 10388,
-      "sha256": "68759a388cff1ffb629cbbb212611e80e8cdbd28789cc83d00e7bb0d6f8495c3",
-      "gitBlob": "5c12a4eff186ef5a2bb1aa8ade13b5074b44d33e"
+      "bytes": 11615,
+      "sha256": "e84cb1afbb65b1a2197e7c9cf9647769bea1ff098e8f6b60c9e88f1bb630f838",
+      "gitBlob": "3f0beb5af115a98964d21b059d5c89d1614dff00"
     },
     {
       "path": "web-prototypes/park-foundation-v1-2026-11-11/app.mjs",
@@ -100,9 +124,9 @@
     },
     {
       "path": "web-prototypes/park-foundation-v1-2026-11-11/art-bridge.mjs",
-      "bytes": 2754,
-      "sha256": "2f84b8329e41ac302026cb7e55bceac8792b4b970aab2f08de480cc9d750ec3c",
-      "gitBlob": "1fbe3aecac919571aa471b192359e88890498395"
+      "bytes": 2947,
+      "sha256": "a325895f0be38faca1d2d9292111ec0f90648be2be5da29e78e7285aed4ba37e",
+      "gitBlob": "32a1b18ed192872ae88f7eeca9184b088e3bc462"
     },
     {
       "path": "web-prototypes/park-foundation-v1-2026-11-11/build_data.py",
@@ -148,9 +172,9 @@
     },
     {
       "path": "web-prototypes/park-foundation-v1-2026-11-11/export_site.py",
-      "bytes": 6123,
-      "sha256": "5ee3f054a01ae7318a489698ccd881df523a4552432dc9df4e86fda41fe27d5b",
-      "gitBlob": "6c35dc8684c036adc16c705aee9917fa62340907"
+      "bytes": 6087,
+      "sha256": "cd92d5e6e4e4614fc521ae95bce89b437eb7ae3be1b6caaa631ffa92b99be9c0",
+      "gitBlob": "688be671291c88d07a21201efefd364be8d05b39"
     },
     {
       "path": "web-prototypes/park-foundation-v1-2026-11-11/index.html",
@@ -2584,9 +2608,9 @@
     },
     {
       "path": "web-prototypes/park-foundation-v1-2026-11-11/serve.py",
-      "bytes": 2887,
-      "sha256": "3f44ff27515538b87ed3098a8f78eaf82259a4ac19784e3f2511e4dd93c729c2",
-      "gitBlob": "fa4875031f06430c0b465d6ae651d14c65abd8e3"
+      "bytes": 3100,
+      "sha256": "c9362639be811e2dd749af55fa1e71e6c0926b96bba03632934ebf500ffe4581",
+      "gitBlob": "9e12c2954a3ad2c94de21d769493808e863fa321"
     },
     {
       "path": "web-prototypes/park-foundation-v1-2026-11-11/style.css",
@@ -2596,9 +2620,9 @@
     },
     {
       "path": "web-prototypes/park-foundation-v1-2026-11-11/test_art_bridge.mjs",
-      "bytes": 3488,
-      "sha256": "d1065b088af8f2f984f998c801a41fc535a586e71fc346379c624465ad480c85",
-      "gitBlob": "44f453f7f5f5c022dec5336f080ab28058e6fe55"
+      "bytes": 4834,
+      "sha256": "b12471da588e38eb551c2d68e5a0315a3ab60d3271372d80cdc99f8ef3b1358d",
+      "gitBlob": "1c10e542b8496282b0215efc2f7a86b37a4c99af"
     },
     {
       "path": "web-prototypes/park-foundation-v1-2026-11-11/test_core.mjs",

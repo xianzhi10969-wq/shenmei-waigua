@@ -5,13 +5,14 @@
   <a class="brand" href="/">▧ <span>排版工作室<small>审美外挂 · 独立工具 01</small></span></a>
   <input id="project-name" aria-label="项目名称" maxlength="120" value="我的排版项目">
   <span id="save-status" role="status">正在打开…</span>
-  <div class="header-actions"><button id="undo" title="撤销 ⌘Z">↶ 撤销</button><button id="redo" title="重做 ⇧⌘Z">↷</button><span class="divider"></span><button id="import-project">导入项目</button><button id="export-project">导出项目</button><button id="preview" class="primary">预览 ↗</button></div>
+  <div class="header-actions"><button id="undo" title="撤销 ⌘Z">↶ 撤销</button><button id="redo" title="重做 ⇧⌘Z">↷</button><span class="divider"></span><button id="import-project">导入项目</button><button id="export-project">导出项目</button><button id="preview" class="primary">场景预览 ↗</button></div>
 </header>
 <div id="conflict" class="conflict" hidden>另一窗口已经保存了更新。本窗口的修改已暂停保存。<button id="export-conflict">导出我的修改</button><button id="load-latest">读取最新版本</button></div>
 <main class="workspace">
   <aside class="left-panel">
     <section class="scenes"><div class="section-heading"><h2>场景</h2><button id="add-page" aria-label="添加场景" class="icon">＋</button></div><div id="pages"></div><div class="scene-actions"><button id="rename-page">重命名</button><button id="duplicate-page">复制</button><button id="delete-page">删除</button></div></section>
     <section class="assets-section"><div class="section-heading"><h2>素材库 <span id="asset-count">0</span></h2><button id="upload-assets" class="small">＋ 导入</button></div><p class="muted note">原图保留在素材库。点击放入当前画布。</p><div id="assets" class="asset-grid"></div><div id="asset-empty" class="asset-empty">拖入图片，开始收集素材<br><small>PNG / JPG / WebP / GIF<br>单张最大 12 MB</small></div></section>
+    <section class="website-tools"><h2>接到游乐园网页</h2><p class="note muted">选择用途，分别检查手机与桌面。</p><button id="site-bindings">网页连接与检查</button><button id="export-website">下载网页包</button><p class="note muted">网页包只带已连接的场景；完整可编辑项目请用顶部「导出项目」。</p></section>
     <div class="local-note"><span class="dot"></span>本机保存 · 不上传云端</div>
   </aside>
   <section class="center-panel">
@@ -25,4 +26,5 @@
 <input id="asset-input" type="file" accept="image/png,image/jpeg,image/webp,image/gif" multiple hidden>
 <input id="project-input" type="file" accept=".json,application/json" hidden>
 <dialog id="prompt-dialog"><form method="dialog"><h2 id="dialog-title"></h2><p id="dialog-description"></p><input id="dialog-input" maxlength="120"><div class="dialog-actions"><button value="cancel">取消</button><button value="ok" class="primary">确定</button></div></form></dialog>
+<dialog id="bindings-dialog"><div class="bindings-heading"><h2>网页连接与检查</h2><button id="close-bindings" aria-label="关闭网页连接检查">关闭 ×</button></div><p id="binding-summary"></p><button id="add-site-scenes">补齐空白场景</button><p class="note muted">空白场景只是排版起点，尺寸可调整。这里不会生成插画，也不会替换已有场景。</p><div id="binding-list"></div></dialog>
 <script type="module" src="/app.js"></script></body></html>

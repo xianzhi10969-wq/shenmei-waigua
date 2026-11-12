@@ -1,5 +1,6 @@
 import { renderLayout } from './renderer.js';
 import { snapCoordinate, integerImageSize } from './pixel.mjs';
+import { assignSlot, missingScenes, bindingReport, replaceLayerImage } from './site-bindings.mjs';
 
 const $ = id => document.getElementById(id);
 const clone = value => structuredClone(value);
@@ -7,6 +8,7 @@ const id = () => crypto.randomUUID();
 let doc, revision = 0, pageId, mode = 'desktop', selected = null, scale = 1, autoFit = true;
 let history = [], historyIndex = -1, dirty = false, saving = false, conflict = false, sequence = 0;
 let saveTimer, toastTimer, gesture = null, ioBusy = false;
+let siteSlots=[];
 const page = () => doc.pages.find(p => p.id === pageId) || doc.pages[0];
 const layout = () => page().layouts[mode];
 const element = () => layout().elements.find(e => e.id === selected);
@@ -93,9 +95,15 @@ function renderProperties() {
     const grid = document.createElement('div'); grid.className = 'field-grid';
     grid.append(field('宽度', 'width', layout().width, {type:'number', min:100, max:12000, canvas:true}), field('高度', 'height', layout().height, {type:'number', min:100, max:12000, canvas:true}));
     root.append(grid, field('背景颜色', 'background', layout().background, {type:'color', canvas:true}));
-    const slotLabel=document.createElement('label');slotLabel.className='field';slotLabel.textContent='网页素材位（可选）';
-    const slotInput=document.createElement('input');slotInput.value=page().artSlot||'';slotInput.placeholder='例如 p1-scene';slotInput.setAttribute('aria-label','网页素材位');
-    slotInput.onchange=()=>{const value=slotInput.value.trim();if(value&&!/^[a-z0-9-]{1,80}$/.test(value)){notify('素材位请用小写字母、数字和短横线');slotInput.value=page().artSlot||'';return;}if(value&&doc.pages.some(p=>p.id!==pageId&&p.artSlot===value)){notify('这个素材位已被另一个场景使用');return;}change(()=>page().artSlot=value);};slotLabel.append(slotInput);root.append(slotLabel);
+    const slotLabel=document.createElement('label');slotLabel.className='field';slotLabel.textContent='放到网页的哪个位置';
+    const slotInput=document.createElement('select');slotInput.setAttribute('aria-label','网页位置');
+    const choices=[{id:'',name:'暂不连接网页'},...siteSlots];
+    if(page().artSlot&&!siteSlots.some(s=>s.id===page().artSlot))choices.push({id:page().artSlot,name:'旧自定义位置（尚未接入网页）'});
+    for(const slot of choices){const option=document.createElement('option');option.value=slot.id;const owner=slot.id&&doc.pages.find(p=>p.id!==pageId&&p.artSlot===slot.id);option.textContent=slot.name+(owner?' · 已被「'+owner.name+'」使用':'');option.disabled=!!owner;slotInput.append(option);}
+    slotInput.value=page().artSlot||'';
+    slotInput.onchange=()=>{try{change(()=>assignSlot(doc,pageId,slotInput.value,siteSlots));}catch(error){notify(error.message);renderProperties();}};slotLabel.append(slotInput);root.append(slotLabel);
+    const connection=siteSlots.find(s=>s.id===page().artSlot);
+    if(connection){const hint=document.createElement('p');hint.className='properties-help';hint.textContent='保存后更新网页。'+(connection.hint||'手机和桌面分别读取对应布局。');root.append(hint);const visit=document.createElement('button');visit.textContent='保存并看网页 ↗';visit.onclick=()=>openSite(connection.route);root.append(visit);}
     root.append(check('拖动吸附到像素网格',!!layout().snapGrid,v=>layout().snapGrid=v));
     if (layout().snapGrid) root.append(field('网格间距（画布像素）','gridSize',layout().gridSize||1,{type:'number',min:1,max:64,canvas:true}));
     const help = document.createElement('p'); help.className = 'properties-help'; help.textContent = '桌面和手机各自保存画布与图层。切换尺寸不会自动改排另一端。'; root.append(help);
@@ -114,6 +122,12 @@ function renderProperties() {
   }
   root.append(grid);
   if (el.type === 'image') {
+    const replacement=document.createElement('label');replacement.className='field';replacement.textContent='替换这一层的图片';
+    const picker=document.createElement('select');picker.setAttribute('aria-label','替换图片');
+    for(const a of doc.assets){const option=document.createElement('option');option.value=a.id;option.textContent=a.name;picker.append(option);}picker.value=el.assetId;
+    picker.onchange=()=>{try{change(()=>replaceLayerImage(el,doc.assets.find(a=>a.id===picker.value)));}catch(error){notify(error.message);renderProperties();}};
+    replacement.append(picker);root.append(replacement);
+    const replaceHelp=document.createElement('p');replaceHelp.className='properties-help';replaceHelp.textContent='只替换这一层，原图和其他场景保留。位置与层级不变；像素模式按新图取最近整数倍尺寸。';root.append(replaceHelp);
     root.append(check('保持图片比例',el.keepRatio !== false,v => el.keepRatio=v));
     const asset=doc.assets.find(a=>a.id===el.assetId);
     root.append(check('像素素材：整数倍缩放，关闭旋转',!!el.pixelated,v=>{
@@ -189,6 +203,47 @@ function render() {
   $('desktop').classList.toggle('active',mode==='desktop');$('mobile').classList.toggle('active',mode==='mobile');
   $('undo').disabled=historyIndex<=0;$('redo').disabled=historyIndex>=history.length-1;
   renderPages();renderAssets();renderLayers();renderProperties();renderCanvas();
+  if($('bindings-dialog').open)renderBindings();
+}
+function renderBindings(){
+  const rows=bindingReport(doc,siteSlots),root=$('binding-list');root.replaceChildren();
+  const connected=rows.filter(r=>r.pageId).length;
+  $('binding-summary').textContent=`${connected} / ${siteSlots.length} 个位置已连接。`+(dirty?'当前修改尚未保存。':'以当前已读取的布局为准。')+' 图层数量不代表美术已确认。';
+  for(const row of rows){
+    const card=document.createElement('article');card.className='binding-card';
+    const title=document.createElement('h3');title.textContent=row.name;card.append(title);
+    const owner=document.createElement('p');owner.textContent=row.pageId?'连接场景：'+row.pageName:'尚未连接场景';card.append(owner);
+    if(row.duplicate){const warning=document.createElement('p');warning.className='binding-warning';warning.textContent='多个场景占用了同一位置，请解除重复连接。';card.append(warning);}
+    if(row.pageId){for(const [key,label] of [['desktop','桌面'],['mobile','手机']]){const detail=document.createElement('p');detail.textContent=label+'：'+row[key].label;card.append(detail);for(const msg of row[key].warnings){const warning=document.createElement('p');warning.className='binding-warning';warning.textContent=label+' · '+msg;card.append(warning);}}
+      const edit=document.createElement('button');edit.textContent='编辑这个场景';edit.onclick=()=>{pageId=row.pageId;selected=null;autoFit=true;$('bindings-dialog').close();render();};card.append(edit);
+    }
+    root.append(card);
+  }
+  const unknown=doc.pages.filter(p=>p.artSlot&&!siteSlots.some(s=>s.id===p.artSlot));
+  if(unknown.length){const note=document.createElement('p');note.className='binding-warning';note.textContent='尚未接入网页的自定义场景：'+unknown.map(p=>p.name).join('、')+'。可在画布设置中改选网页位置。';root.append(note);}
+  $('add-site-scenes').textContent=connected===siteSlots.length?'所有位置均已有场景':`补齐 ${siteSlots.length-connected} 个空白场景`;
+  $('add-site-scenes').disabled=connected===siteSlots.length;
+}
+function addSiteScenes(){
+  try{const pages=missingScenes(doc,siteSlots,id);if(!pages.length)return;
+    change(()=>{doc.pages.push(...pages);pageId=pages[0].id;selected=null;});notify('已追加空白场景。现有场景保留，可用撤销恢复。');
+  }catch(error){notify(error.message);}
+}
+async function openSite(route='#/entrance'){
+  const target=window.open('about:blank','park-preview');if(!target)return notify('请允许本地编辑器打开预览窗口。');
+  if(dirty)await save();
+  if(dirty||saving||conflict){target.close();return notify('请先完成保存或处理版本冲突，再看网页。');}
+  target.location.href='http://127.0.0.1:8871/'+route;
+}
+async function exportWebsite(){
+  if(ioBusy)return notify('请等待当前文件操作完成');
+  if(dirty)await save();
+  if(dirty||saving||conflict)return notify('请先保存修改或处理版本冲突，再下载网页包。');
+  ioBusy=true;$('export-website').disabled=true;notify('正在打包网页、布局和原图，请稍候…');
+  try{const result=await api('/api/export-site',{method:'POST',body:JSON.stringify({revision})});
+    const link=document.createElement('a');link.href=result.url;link.download=result.filename;link.click();
+    notify('网页包已生成。它是当前保存版本的独立副本，后续修改需重新下载。');
+  }catch(error){notify('未能打包：'+error.message);}finally{ioBusy=false;$('export-website').disabled=false;}
 }
 function startGesture(event, elementId, kind) {
   if (event.button !== 0) return;
@@ -277,7 +332,7 @@ async function poll(){
   try {const latest=await api('/api/state');if(saving||gesture||ioBusy||$('prompt-dialog').open||['INPUT','TEXTAREA','SELECT'].includes(document.activeElement?.tagName))return;if(latest.revision<=revision)return;if(dirty){conflict=true;$('conflict').hidden=false;status('另一窗口有更新');return;}doc=latest.document;revision=latest.revision;selected=null;history=[];historyIndex=-1;record();render();status('已同步另一窗口');}catch{if(!dirty)status('本地服务未连接');}
 }
 async function init(){
-  try {const result=await api('/api/state');doc=result.document;revision=result.revision;pageId=doc.pages[0].id;record();render();status('已保存到本机');}
+  try {const [result,slots]=await Promise.all([api('/api/state'),api('/site-slots.json')]);siteSlots=slots;doc=result.document;revision=result.revision;pageId=doc.pages[0].id;record();render();status('已保存到本机');}
   catch(error){status('打开失败');notify('请启动本地服务后刷新：'+error.message);return;}
   $('project-name').onchange=()=>change(()=>doc.name=$('project-name').value.trim()||'我的排版项目');
   $('undo').onclick=()=>undo(-1);$('redo').onclick=()=>undo(1);
@@ -290,10 +345,13 @@ async function init(){
   $('viewport').addEventListener('pointerdown',event=>{if(event.target===$('viewport')||event.target===$('stage-wrap')){selected=null;renderSelection();renderLayers();renderProperties();}});
   $('add-page').onclick=async()=>{const name=await ask('新建场景','桌面和手机会各有一张独立的空白画布。','场景 '+String(doc.pages.length+1).padStart(2,'0'));if(name)change(()=>{const p={id:id(),name,layouts:{desktop:{width:1200,height:800,background:'#ffffff',elements:[]},mobile:{width:390,height:844,background:'#ffffff',elements:[]}}};doc.pages.push(p);pageId=p.id;selected=null;});};
   $('rename-page').onclick=async()=>{const name=await ask('场景名称','',page().name);if(name)change(()=>page().name=name);};
-  $('duplicate-page').onclick=()=>change(()=>{const p=clone(page());p.id=id();p.name+=' 副本';for(const l of Object.values(p.layouts))for(const e of l.elements)e.id=id();doc.pages.push(p);pageId=p.id;selected=null;});
+  $('duplicate-page').onclick=()=>change(()=>{const p=clone(page());p.id=id();p.name+=' 副本';p.artSlot='';for(const l of Object.values(p.layouts))for(const e of l.elements)e.id=id();doc.pages.push(p);pageId=p.id;selected=null;});
   $('delete-page').onclick=async()=>{if(doc.pages.length===1)return;if(await ask('删除场景',`删除「${page().name}」的桌面和手机布局，素材原图会保留。可以撤销。`))change(()=>{doc.pages=doc.pages.filter(p=>p.id!==pageId);pageId=doc.pages[0].id;selected=null;});};
   $('upload-assets').onclick=()=>$('asset-input').click();$('asset-input').onchange=()=>uploadFiles([...$('asset-input').files]);
   $('export-project').onclick=exportProject;$('export-conflict').onclick=exportProject;
+  $('site-bindings').onclick=()=>{renderBindings();$('bindings-dialog').showModal();};
+  $('close-bindings').onclick=()=>$('bindings-dialog').close();$('add-site-scenes').onclick=addSiteScenes;
+  $('export-website').onclick=exportWebsite;
   $('import-project').onclick=()=>$('project-input').click();$('project-input').onchange=()=>importProject($('project-input').files[0]);
   $('load-latest').onclick=async()=>{if(!await ask('读取最新版本','本窗口未保存的修改会被替换。需要保留时，请先点击“导出我的修改”。'))return;try{const result=await api('/api/state');doc=result.document;revision=result.revision;dirty=false;conflict=false;selected=null;history=[];historyIndex=-1;record();$('conflict').hidden=true;render();status('已读取最新版本');}catch(error){notify(error.message);}};
   $('preview').onclick=async()=>{const preview=window.open('about:blank','layout-preview');if(!preview)return notify('请允许本地编辑器打开预览窗口。');if(dirty){await save();if(dirty){preview.close();return notify('请先完成保存或处理版本冲突，再预览。');}}preview.location.href='/preview.html?page='+encodeURIComponent(pageId)+'&mode='+mode;};
@@ -304,7 +362,7 @@ async function init(){
   }
   window.addEventListener('dragover',event=>event.preventDefault());window.addEventListener('drop',event=>event.preventDefault());
   window.addEventListener('keydown',event=>{
-    if(['INPUT','TEXTAREA','SELECT'].includes(event.target.tagName)||event.target.isContentEditable||$('prompt-dialog').open)return;
+    if(['INPUT','TEXTAREA','SELECT'].includes(event.target.tagName)||event.target.isContentEditable||$('prompt-dialog').open||$('bindings-dialog').open)return;
     const cmd=event.metaKey||event.ctrlKey;
     if(cmd&&event.key.toLowerCase()==='z'){event.preventDefault();undo(event.shiftKey?1:-1);return;}
     if(cmd&&event.key.toLowerCase()==='s'){event.preventDefault();save();return;}

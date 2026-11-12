@@ -32,3 +32,16 @@ portableContext.innerWidth=390;vm.runInContext('applyArt()',portableContext);
 assert.equal(portable.document.querySelector('.art-element').style.left,'20px');
 stop();
 console.log('PASS 可携带布局：读取相对路径快照、停止编辑器轮询、双端布局继续生效。');
+
+const entrance=document.createElement('div');entrance.className='entrance-scene';entrance.dataset.artSlot='p1-scene';
+entrance.innerHTML='<div class="entrance-layer">远景占位</div><div class="entrance-title"><a href="#/avenue">入园</a></div>';
+Object.defineProperty(entrance,'clientWidth',{value:390});document.body.append(entrance);
+saved.document.pages.push({id:'entrance',artSlot:'p1-scene',layouts:{mobile:{width:390,height:920,background:'#ffffff',elements:[text]},desktop:{width:1200,height:800,background:'#ffffff',elements:[]}}});
+context.innerWidth=390;saved.revision=4;await vm.runInContext('refreshArt()',context);
+assert.equal(entrance.style.height,'920px');assert.equal(entrance.style.minHeight,'0');
+assert.equal(entrance.querySelector('.entrance-layer').hidden,true);assert.equal(entrance.querySelector('.entrance-title a').textContent,'入园');
+saved.document.pages[1].layouts.mobile.elements[0]={...text,hidden:true};saved.revision=5;
+await vm.runInContext('refreshArt()',context);
+assert.equal(entrance.style.height,'');assert.equal(entrance.style.minHeight,'');assert.equal(entrance.querySelector('.shared-art'),null);
+assert.equal(entrance.querySelector('.entrance-layer').hidden,false);
+console.log('PASS 首页布局：完整读取长画布高度、保留入园按钮、全部隐藏后恢复占位与原尺寸。');

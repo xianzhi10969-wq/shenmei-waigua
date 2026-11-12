@@ -2,13 +2,16 @@
 """Loopback-only, dependency-free layout editor with atomic saves."""
 import argparse
 import base64
+import importlib.util
 import json
 import mimetypes
 import os
 import re
 import threading
+import tempfile
 import time
 import uuid
+import zipfile
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import urlparse, unquote
@@ -16,6 +19,35 @@ from urllib.parse import urlparse, unquote
 ROOT = Path(__file__).resolve().parent
 LOCK = threading.Lock()
 MAX_BODY = 64 * 1024 * 1024
+PARK = ROOT.parent.parent / 'web-prototypes/park-foundation-v1-2026-11-11'
+
+
+def build_website_archive(store, expected_revision):
+    # Hold the save lock until the snapshot is exported; image files are immutable.
+    with LOCK:
+        current = store.read()
+        if current['revision'] != expected_revision:
+            return None
+        spec = importlib.util.spec_from_file_location('park_site_export', PARK / 'export_site.py')
+        module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(module)
+        with tempfile.TemporaryDirectory(prefix='park-website-export-') as scratch:
+            folder = Path(scratch) / '审美外挂-网页包'
+            manifest = module.export_site(folder, store.path, PARK)
+            archive_dir = store.path / 'exports'
+            archive_dir.mkdir(exist_ok=True)
+            name = 'park-' + uuid.uuid4().hex + '.zip'
+            pending = archive_dir / (name + '.tmp')
+            try:
+                with zipfile.ZipFile(pending, 'w', zipfile.ZIP_DEFLATED, compresslevel=3) as archive:
+                    for source in folder.rglob('*'):
+                        if source.is_file():
+                            archive.write(source, str(Path(folder.name) / source.relative_to(folder)))
+                os.replace(pending, archive_dir / name)
+            finally:
+                pending.unlink(missing_ok=True)
+            return {'url': '/exports/' + name, 'filename': name, 'revision': current['revision'],
+                    'files': len(manifest['files']), 'slots': manifest['slots']}
 
 
 def blank():
@@ -153,18 +185,23 @@ class Handler(SimpleHTTPRequestHandler):
             except Exception: return self.respond(500, {'error': '无法读取项目，请保留 data 文件夹并检查备份'})
         if re.fullmatch(r'/assets/[a-f0-9]{32}\.(png|jpg|webp|gif)', path):
             target = self.server.store.path / path.lstrip('/')
-        elif path in ('/', '/index.html', '/preview.html', '/style.css', '/app.js', '/renderer.js', '/pixel.mjs'):
+        elif re.fullmatch(r'/exports/park-[a-f0-9]{32}\.zip', path):
+            target = self.server.store.path / path.lstrip('/')
+        elif path in ('/', '/index.html', '/preview.html', '/style.css', '/app.js', '/renderer.js', '/pixel.mjs', '/site-bindings.mjs', '/site-slots.json'):
             target = ROOT / ('index.html' if path == '/' else path[1:])
         else: return self.respond(404, {'error': '文件不存在'})
         if not target.is_file(): return self.respond(404, {'error': '文件不存在'})
-        body = target.read_bytes()
         self.send_response(200)
         self.send_header('Content-Type', mimetypes.guess_type(str(target))[0] or 'application/octet-stream')
-        self.send_header('Content-Length', str(len(body)))
+        self.send_header('Content-Length', str(target.stat().st_size))
+        if target.suffix == '.zip':
+            self.send_header('Content-Disposition', 'attachment; filename="' + target.name + '"')
         self.send_header('Cache-Control', 'no-cache')
         self.send_header('X-Content-Type-Options', 'nosniff')
         self.end_headers()
-        self.wfile.write(body)
+        with target.open('rb') as stream:
+            while chunk := stream.read(1024 * 1024):
+                self.wfile.write(chunk)
     def do_PUT(self):
         if not self.allowed(): return self.respond(403, {'error': '仅允许本机同源访问'})
         if self.path != '/api/state': return self.respond(404, {'error': '未知接口'})
@@ -177,6 +214,17 @@ class Handler(SimpleHTTPRequestHandler):
         except Exception: return self.respond(500, {'error': '保存失败，请检查磁盘空间并导出项目备份'})
     def do_POST(self):
         if not self.allowed(): return self.respond(403, {'error': '仅允许本机同源访问'})
+        if self.path == '/api/export-site':
+            try:
+                data = self.body()
+                if type(data.get('revision')) is not int: raise ValueError('请先保存项目再下载网页包')
+                result = build_website_archive(self.server.store, data['revision'])
+                if result is None: return self.respond(409, {'error': '另一窗口已保存更新，请读取最新版本后再打包'})
+                return self.respond(200, result)
+            except (ValueError, KeyError, TypeError) as error:
+                return self.respond(400, {'error': str(error)})
+            except Exception:
+                return self.respond(500, {'error': '打包失败，请检查游乐园源码是否齐全及磁盘空间。原项目未改动。'})
         if self.path != '/api/assets': return self.respond(404, {'error': '未知接口'})
         try:
             data = self.body()

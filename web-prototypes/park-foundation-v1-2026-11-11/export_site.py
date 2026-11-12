@@ -11,8 +11,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 EDITOR = ROOT.parent.parent / 'tools/layout-editor-v1'
-SLOTS = {'p1-scene', 'p3-browse', 'p3-feelings', 'p3-arcade',
-         'p4a-balloons', 'p4a-gacha', 'chapter-gate', 'p4b-interior'}
+SLOTS = {s['id'] for s in json.loads((EDITOR / 'site-slots.json').read_text(encoding='utf-8'))}
 RUNTIME = ('index.html', 'style.css', 'app.mjs', 'core.mjs', 'art-bridge.mjs')
 
 
