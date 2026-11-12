@@ -16,3 +16,19 @@ context.innerWidth=1440;vm.runInContext('applyArt()',context);assert.equal(targe
 saved.revision=2;saved.document.pages[0].layouts.desktop.elements[0].x=250;await vm.runInContext('refreshArt()',context);assert.equal(target.querySelector('.art-element').style.left,'250px');
 saved.revision=3;saved.document.pages[0].layouts.desktop.elements=[];await vm.runInContext('refreshArt()',context);assert.equal(target.textContent,'原占位');assert.equal(target.querySelector('.shared-art'),null);
 console.log('PASS 共用布局桥：手机／桌面分别读取、坐标原样渲染、保存后同步、清空后恢复占位。');
+
+const portable=parseHTML('<html><head><meta name="park-art-layout" content="./data/art-layout.json" data-live="false"></head><body><div class="asset-slot" data-art-slot="p3-browse">原占位</div></body></html>');
+let fetchPath='',polls=0;
+saved.document.pages[0].layouts.desktop.elements=[{...text,x:250}];
+const portableContext=vm.createContext({document:portable.document,window:portable.window,innerWidth:1440,
+  fetch:async path=>{fetchPath=path;return {ok:true,json:async()=>structuredClone(saved)};},
+  setTimeout,clearTimeout,setInterval:()=>{polls++;},clearInterval});
+vm.runInContext(renderer,portableContext);vm.runInContext(bridge,portableContext);
+const stop=vm.runInContext('startArtBridge()',portableContext);
+await new Promise(resolve=>setTimeout(resolve,0));
+assert.equal(fetchPath,'./data/art-layout.json');assert.equal(polls,0);
+assert.equal(portable.document.querySelector('.art-element').style.left,'250px');
+portableContext.innerWidth=390;vm.runInContext('applyArt()',portableContext);
+assert.equal(portable.document.querySelector('.art-element').style.left,'20px');
+stop();
+console.log('PASS 可携带布局：读取相对路径快照、停止编辑器轮询、双端布局继续生效。');

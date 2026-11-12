@@ -1,7 +1,79 @@
 {
-  "date": "2026-11-11",
-  "status": "功能候选，视觉与真实浏览器验收待完成",
+  "date": "2026-11-12",
+  "status": "功能候选；部分浏览器走查通过；美术与完整实测待验收",
   "files": [
+    {
+      "path": "tools/layout-editor-v1/.gitignore",
+      "bytes": 25,
+      "sha256": "2c1a8b197e9e3a3b1fc71b6eba50996a717454ce01e7d511bca302f23f944f1d",
+      "gitBlob": "49626bbdbe1f9bcd3a945c187987be204f73a69e"
+    },
+    {
+      "path": "tools/layout-editor-v1/README.md",
+      "bytes": 6147,
+      "sha256": "c92861795c9b75003fcd81f8b54fc2256be822e538824ed9b2657e623ea11907",
+      "gitBlob": "3fc9304bcc4bc17ff5a07e014241d9ce79732288"
+    },
+    {
+      "path": "tools/layout-editor-v1/app.js",
+      "bytes": 32272,
+      "sha256": "2f9644a229ac1000ac2e0aa5aa1d82623a7fd4fcc6d76f3505d910899cecfd92",
+      "gitBlob": "a6441d0e9e523baae1e52d7fcb2b2f36c31ff2ec"
+    },
+    {
+      "path": "tools/layout-editor-v1/index.html",
+      "bytes": 4467,
+      "sha256": "5983bbdbeea65b0a2a15307fb729a12f26aa2f73da12fc5359c00c6c2084d04e",
+      "gitBlob": "3f09d1fad1381d1eb0ab8224c1e44c6bff0849a9"
+    },
+    {
+      "path": "tools/layout-editor-v1/pixel.mjs",
+      "bytes": 596,
+      "sha256": "067db6b6459e3a6d7cdfeedc84f8c28e85814758d3d65f72e9724d297d0c2793",
+      "gitBlob": "be939f535358fa0e2fd5d66f578d80d34fc515c8"
+    },
+    {
+      "path": "tools/layout-editor-v1/preview.html",
+      "bytes": 2989,
+      "sha256": "6ffec6d76fde4ff620300a5c9e86aed21416025775f62a4e07bb0ec650583611",
+      "gitBlob": "1f9b087e0bf5400ce181ea281c615c129a78b961"
+    },
+    {
+      "path": "tools/layout-editor-v1/renderer.js",
+      "bytes": 1603,
+      "sha256": "2c7c55f80601eaae165d9796e7311af19db2c5313b08586f4b6bf47d78c201cd",
+      "gitBlob": "f61b7a3343c15bc0e50c8b5c8520e122d56001f3"
+    },
+    {
+      "path": "tools/layout-editor-v1/server.py",
+      "bytes": 10939,
+      "sha256": "8d83bea8fb9833302c39eb6425dc0bf2c9419c9b93a89d1879ee0617b38d1eb2",
+      "gitBlob": "9a07b6e845e2aca88d0893441b43d045abb5e77d"
+    },
+    {
+      "path": "tools/layout-editor-v1/style.css",
+      "bytes": 8819,
+      "sha256": "8c3a47d68bc9de76c23dfc89f1af9a353a08c95d3575673ff5aab9d68d433880",
+      "gitBlob": "4559fa039f25486da19711e67796490958eeb955"
+    },
+    {
+      "path": "tools/layout-editor-v1/test_frontend.mjs",
+      "bytes": 3187,
+      "sha256": "ae70ce13dee91708c8a31ecb11af814f269e1379f9dcabbfc98f0cf42c838a4e",
+      "gitBlob": "83cab34b87445652d30e9bc53932a893d5bd974b"
+    },
+    {
+      "path": "tools/layout-editor-v1/test_server.py",
+      "bytes": 4898,
+      "sha256": "efd31fb87279c83216a977c4ad0e00e198566189d1aff99f7ff558865ba3befd",
+      "gitBlob": "ef8c910d769257aea2c5865e61bbefa4bc524395"
+    },
+    {
+      "path": "tools/layout-editor-v1/启动编辑器.command",
+      "bytes": 652,
+      "sha256": "211cb57deb7bbd9c116b6510e97011b51363216daf9a47ab0f478343d169c549",
+      "gitBlob": "f505051193b92bbef5d9086a463de1a13b5992db"
+    },
     {
       "path": "web-prototypes/park-foundation-v1-2026-11-11/.gitignore",
       "bytes": 29,
@@ -16,9 +88,9 @@
     },
     {
       "path": "web-prototypes/park-foundation-v1-2026-11-11/README.md",
-      "bytes": 7780,
-      "sha256": "8d1234c7b9c5f7f2b796694d6acc32987c60dd7f1231a20dfdd8663d944a2950",
-      "gitBlob": "ff91d168bfcd0c025d911de2b1e68bd7db045fa2"
+      "bytes": 10388,
+      "sha256": "68759a388cff1ffb629cbbb212611e80e8cdbd28789cc83d00e7bb0d6f8495c3",
+      "gitBlob": "5c12a4eff186ef5a2bb1aa8ade13b5074b44d33e"
     },
     {
       "path": "web-prototypes/park-foundation-v1-2026-11-11/app.mjs",
@@ -28,9 +100,9 @@
     },
     {
       "path": "web-prototypes/park-foundation-v1-2026-11-11/art-bridge.mjs",
-      "bytes": 2541,
-      "sha256": "efb73a3082d4999bfec1dcf569020d03efb0d78607273ffed443453164427e72",
-      "gitBlob": "599c1264750eebd6c39b4af811894016245dfebd"
+      "bytes": 2754,
+      "sha256": "2f84b8329e41ac302026cb7e55bceac8792b4b970aab2f08de480cc9d750ec3c",
+      "gitBlob": "1fbe3aecac919571aa471b192359e88890498395"
     },
     {
       "path": "web-prototypes/park-foundation-v1-2026-11-11/build_data.py",
@@ -73,6 +145,12 @@
       "bytes": 4220,
       "sha256": "cb75bd1e697eef05d814c1e6237ec2078f6d33f524e4400b81930924242001f8",
       "gitBlob": "b6d4226e9821414c2107ab18182d2fb49a146b87"
+    },
+    {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/export_site.py",
+      "bytes": 6123,
+      "sha256": "5ee3f054a01ae7318a489698ccd881df523a4552432dc9df4e86fda41fe27d5b",
+      "gitBlob": "6c35dc8684c036adc16c705aee9917fa62340907"
     },
     {
       "path": "web-prototypes/park-foundation-v1-2026-11-11/index.html",
@@ -2512,15 +2590,15 @@
     },
     {
       "path": "web-prototypes/park-foundation-v1-2026-11-11/style.css",
-      "bytes": 16463,
-      "sha256": "1914eb5ca936d07c2a1ffce01c43d0bb2ee51956f14369cb6387c224ae7f24c2",
-      "gitBlob": "31a13f8ba0903fca5857063c1ededfbcf34716d4"
+      "bytes": 16601,
+      "sha256": "42856e722a24c85f37efdf296a6ad1444c21e8fa74135672918a463df8d61d0b",
+      "gitBlob": "5c71941f913897d75fe084d2978404d0dd997b90"
     },
     {
       "path": "web-prototypes/park-foundation-v1-2026-11-11/test_art_bridge.mjs",
-      "bytes": 2272,
-      "sha256": "3a40f4239b43f6932019f576ae4de169474cf2984966ba2836f0b23b70fb2e11",
-      "gitBlob": "2a88b3785a07b8122d4cacbe3075ca13ffdc58b2"
+      "bytes": 3488,
+      "sha256": "d1065b088af8f2f984f998c801a41fc535a586e71fc346379c624465ad480c85",
+      "gitBlob": "44f453f7f5f5c022dec5336f080ab28058e6fe55"
     },
     {
       "path": "web-prototypes/park-foundation-v1-2026-11-11/test_core.mjs",
@@ -2535,6 +2613,12 @@
       "gitBlob": "9f49780591680aa89ca6165328c1f30a0d1d55e3"
     },
     {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/test_export.py",
+      "bytes": 5222,
+      "sha256": "39e9ceaf41dbbe9c284862553b18a048d6a4a753557eda9e977ec839c6ea5a7a",
+      "gitBlob": "d00342a67bae386a2d1cc1c3db812eb481f2facc"
+    },
+    {
       "path": "web-prototypes/park-foundation-v1-2026-11-11/分镜V2-用户原文.md",
       "bytes": 45919,
       "sha256": "c98c3c6bdaaa83130f778906b66d85211996fd157cc6dac6dd121eaa6dde405f",
@@ -2547,82 +2631,16 @@
       "gitBlob": "9ac16d260ba4c16cbcce4e9660752c3222a95b67"
     },
     {
+      "path": "web-prototypes/park-foundation-v1-2026-11-11/导出网页包.command",
+      "bytes": 243,
+      "sha256": "204029cbfe5b998f06731fce0ce801e49b55cfd1de47db2f7140c302ba856965",
+      "gitBlob": "9372109588ca309dac3f5150b95a7a114ad2a25e"
+    },
+    {
       "path": "web-prototypes/park-foundation-v1-2026-11-11/打开功能预览.command",
       "bytes": 617,
       "sha256": "21f56a98a7043cd9e695b535c40649ddbbfd695dbf7cfc67110fecfcd6531b11",
       "gitBlob": "4b71e83ec5d310bf8cbbd3c47ac56c0d5608c440"
-    },
-    {
-      "path": "tools/layout-editor-v1/.gitignore",
-      "bytes": 25,
-      "sha256": "2c1a8b197e9e3a3b1fc71b6eba50996a717454ce01e7d511bca302f23f944f1d",
-      "gitBlob": "49626bbdbe1f9bcd3a945c187987be204f73a69e"
-    },
-    {
-      "path": "tools/layout-editor-v1/README.md",
-      "bytes": 6147,
-      "sha256": "c92861795c9b75003fcd81f8b54fc2256be822e538824ed9b2657e623ea11907",
-      "gitBlob": "3fc9304bcc4bc17ff5a07e014241d9ce79732288"
-    },
-    {
-      "path": "tools/layout-editor-v1/app.js",
-      "bytes": 32272,
-      "sha256": "2f9644a229ac1000ac2e0aa5aa1d82623a7fd4fcc6d76f3505d910899cecfd92",
-      "gitBlob": "a6441d0e9e523baae1e52d7fcb2b2f36c31ff2ec"
-    },
-    {
-      "path": "tools/layout-editor-v1/index.html",
-      "bytes": 4467,
-      "sha256": "5983bbdbeea65b0a2a15307fb729a12f26aa2f73da12fc5359c00c6c2084d04e",
-      "gitBlob": "3f09d1fad1381d1eb0ab8224c1e44c6bff0849a9"
-    },
-    {
-      "path": "tools/layout-editor-v1/pixel.mjs",
-      "bytes": 596,
-      "sha256": "067db6b6459e3a6d7cdfeedc84f8c28e85814758d3d65f72e9724d297d0c2793",
-      "gitBlob": "be939f535358fa0e2fd5d66f578d80d34fc515c8"
-    },
-    {
-      "path": "tools/layout-editor-v1/preview.html",
-      "bytes": 2989,
-      "sha256": "6ffec6d76fde4ff620300a5c9e86aed21416025775f62a4e07bb0ec650583611",
-      "gitBlob": "1f9b087e0bf5400ce181ea281c615c129a78b961"
-    },
-    {
-      "path": "tools/layout-editor-v1/renderer.js",
-      "bytes": 1603,
-      "sha256": "2c7c55f80601eaae165d9796e7311af19db2c5313b08586f4b6bf47d78c201cd",
-      "gitBlob": "f61b7a3343c15bc0e50c8b5c8520e122d56001f3"
-    },
-    {
-      "path": "tools/layout-editor-v1/server.py",
-      "bytes": 10939,
-      "sha256": "8d83bea8fb9833302c39eb6425dc0bf2c9419c9b93a89d1879ee0617b38d1eb2",
-      "gitBlob": "9a07b6e845e2aca88d0893441b43d045abb5e77d"
-    },
-    {
-      "path": "tools/layout-editor-v1/style.css",
-      "bytes": 8819,
-      "sha256": "8c3a47d68bc9de76c23dfc89f1af9a353a08c95d3575673ff5aab9d68d433880",
-      "gitBlob": "4559fa039f25486da19711e67796490958eeb955"
-    },
-    {
-      "path": "tools/layout-editor-v1/test_frontend.mjs",
-      "bytes": 3187,
-      "sha256": "ae70ce13dee91708c8a31ecb11af814f269e1379f9dcabbfc98f0cf42c838a4e",
-      "gitBlob": "83cab34b87445652d30e9bc53932a893d5bd974b"
-    },
-    {
-      "path": "tools/layout-editor-v1/test_server.py",
-      "bytes": 4898,
-      "sha256": "efd31fb87279c83216a977c4ad0e00e198566189d1aff99f7ff558865ba3befd",
-      "gitBlob": "ef8c910d769257aea2c5865e61bbefa4bc524395"
-    },
-    {
-      "path": "tools/layout-editor-v1/启动编辑器.command",
-      "bytes": 652,
-      "sha256": "211cb57deb7bbd9c116b6510e97011b51363216daf9a47ab0f478343d169c549",
-      "gitBlob": "f505051193b92bbef5d9086a463de1a13b5992db"
     }
   ]
 }

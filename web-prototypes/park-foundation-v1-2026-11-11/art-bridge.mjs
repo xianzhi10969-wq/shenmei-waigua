@@ -3,6 +3,9 @@ import {renderLayout} from './layout-renderer.js';
 // The editable art and the editor preview use the exact same renderer and saved document.
 // Functional controls remain independent, accessible HTML above/after the art.
 let documentState=null,revision=-1;
+const artConfig=document.querySelector('meta[name="park-art-layout"]');
+const artSource=artConfig?.getAttribute('content')||'./api/art-layout';
+const liveArt=artConfig?.dataset.live!=='false';
 export function applyArt() {
   if(!documentState)return;
   const mode=innerWidth<=700?'mobile':'desktop';
@@ -22,6 +25,6 @@ export function applyArt() {
   }
 }
 export async function refreshArt() {
-  try{const response=await fetch('./api/art-layout');if(!response.ok)return;const state=await response.json();if(state.revision===revision)return;revision=state.revision;documentState=state.document;applyArt();}catch{/* Missing local editor does not block the functional prototype. */}
+  try{const response=await fetch(artSource);if(!response.ok)return;const state=await response.json();if(state.revision===revision)return;revision=state.revision;documentState=state.document;applyArt();}catch{/* Missing local editor does not block the functional prototype. */}
 }
-export function startArtBridge(){refreshArt();const timer=setInterval(refreshArt,2500);let resizeTimer;const resize=()=>{clearTimeout(resizeTimer);resizeTimer=setTimeout(applyArt,100);};window.addEventListener('resize',resize);return()=>{clearInterval(timer);clearTimeout(resizeTimer);window.removeEventListener('resize',resize);};}
+export function startArtBridge(){refreshArt();const timer=liveArt?setInterval(refreshArt,2500):null;let resizeTimer;const resize=()=>{clearTimeout(resizeTimer);resizeTimer=setTimeout(applyArt,100);};window.addEventListener('resize',resize);return()=>{if(timer!==null)clearInterval(timer);clearTimeout(resizeTimer);window.removeEventListener('resize',resize);};}
